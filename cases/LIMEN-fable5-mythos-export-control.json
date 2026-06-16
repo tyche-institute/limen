@@ -1,0 +1,95 @@
+{
+  "case_id": "LIMEN-000010",
+  "title": "US government export-control directive forces Anthropic to disable Fable 5 and Mythos 5 worldwide",
+  "summary": "On 2026-06-12 the US government issued an export-control directive (reported as a Commerce/BIS deemed-export action) ordering Anthropic to suspend access to its Fable 5 and Mythos 5 models for any foreign national. Unable to separate foreign nationals at the API boundary in real time, Anthropic disabled both models for ALL customers worldwide to comply, while leaving its other models (Opus/Sonnet/Haiku) available. The stated trigger was a reported jailbreak of Fable 5; Anthropic disputed proportionality and said it was working to restore access. Reported as the first time a government has forced an already-deployed commercial AI product offline.",
+  "record_status": "candidate",
+  "event_dates": {
+    "occurred_on": "2026-06-12",
+    "occurred_from": "2026-06-09",
+    "occurred_to": null,
+    "reported_on": "2026-06-12",
+    "discovered_on": "2026-06-13"
+  },
+  "jurisdictions": ["US", "Global"],
+  "languages": ["en"],
+  "actors": [
+    { "role": "provider", "name": "Anthropic", "name_status": "public" },
+    { "role": "regulator", "name": "US Department of Commerce / BIS (per reporting)", "name_status": "public" },
+    { "role": "adversary", "name": "Pliny the Liberator (red-teamer)", "name_status": "pseudonymous" }
+  ],
+  "system_context": {
+    "ai_system_type": ["chatbot", "agent", "coding_assistant"],
+    "autonomy_level": "multi_step_agentic",
+    "model_or_provider": "Anthropic - Fable 5 (public) / Mythos 5 (capability model)",
+    "tools_or_permissions": ["code analysis", "general assistant tools"]
+  },
+  "evidence_tier": "T3_authoritative_source",
+  "source_claims": [
+    { "source_id": "anthropic-statement-2026-06-12", "claim": "Anthropic received a government export-control directive at 17:21 ET on 2026-06-12 and abruptly disabled Fable 5 and Mythos 5 for all customers to comply; access to all other Anthropic models was unaffected; the company disagrees the action is proportionate and is working to restore access.", "claim_status": "confirmed_by_source" },
+    { "source_id": "axios-2026-06-12", "claim": "Reporting (citing an administration official) attributes the directive to a Commerce Department deemed-export action covering export to foreign persons; Anthropic's own statement names only 'the US government'.", "claim_status": "reported" },
+    { "source_id": "fortune-2026-06-13", "claim": "Policy experts characterized the action as unprecedented; experts noted historical software export controls 'generally failed'.", "claim_status": "reported" },
+    { "source_id": "thenextweb-2026-06", "claim": "Described as the first time the US government has forced an already-deployed commercial AI product offline.", "claim_status": "reported" },
+    { "source_id": "cybersecuritynews-2026-06", "claim": "A red-teamer publicly reported bypassing Fable 5's safeguards within roughly 72 hours of launch and leaking the system prompt (technique details not recorded here).", "claim_status": "reported" }
+  ],
+  "classification": {
+    "limen_categories": [
+      "security_risk",
+      "agentic_control_failure",
+      "public_sector_misuse_or_gap",
+      "normative_or_moral_outlier",
+      "residual_unclassified"
+    ],
+    "harm_types": [
+      "uncertain or no realized harm but credible hazard",
+      "institutional accountability harm",
+      "democratic, civic, or public-trust harm",
+      "cybersecurity harm"
+    ],
+    "affected_domains": [
+      "consumer services",
+      "software development",
+      "security operations",
+      "public administration"
+    ],
+    "severity": "high",
+    "confidence": "high"
+  },
+  "crosswalks": {
+    "eu_ai_act": ["Art. 15 robustness/cybersecurity (category)", "Art. 55 systemic-risk model evaluation (category)"],
+    "mitre_atlas": ["jailbreak / model-evasion technique family (category-level; no specifics)"],
+    "owasp": ["LLM prompt-injection / jailbreak category (LLM01-class)"],
+    "nist_ai_rmf": ["GOVERN / MANAGE incident-response (category)"]
+  },
+  "legal_normative_notes": [
+    "The directive's text was not published; reporting indicates only verbal evidence was provided. Do NOT infer illegality, non-compliance, AI Act high-risk status, or liability from current public evidence.",
+    "Export-control / deemed-export framing is secondary reporting (Axios et al.); Anthropic's own statement attributes the directive only to 'the US government'. Keep the attribution separated from the recall fact.",
+    "Separate source_claim (a worldwide recall occurred) from curator interpretation (a proportionality/precedent dispute) from legal_status (undetermined).",
+    "Contrast for the 'first forced offline' claim: data-protection regulators have restricted deployed models before (e.g. the 2023 Italian Garante provisional limitation on ChatGPT), but those were single-jurisdiction data-protection measures, not a worldwide national-security export-control recall. Verify before asserting absolute novelty."
+  ],
+  "remediation_or_response": [
+    "Anthropic disabled Fable 5 and Mythos 5 worldwide for all customers to comply with the directive.",
+    "Anthropic publicly disputed the proportionality of the action and said it was working to restore access as soon as possible.",
+    "Other Anthropic models (Opus, Sonnet, Haiku) remained available throughout."
+  ],
+  "duplicate_cluster_id": null,
+  "provenance": {
+    "created_at": "2026-06-13T00:00:00Z",
+    "updated_at": null,
+    "created_by": "tyche-institute",
+    "source_ids": [
+      "anthropic-statement-2026-06-12",
+      "axios-2026-06-12",
+      "fortune-2026-06-13",
+      "thenextweb-2026-06",
+      "cybersecuritynews-2026-06"
+    ],
+    "run_id": null,
+    "content_hashes": [],
+    "review_notes": [
+      "SEED for LIMEN ingestion: the pipeline assigns the canonical LIMEN-NNNNNN id and duplicate_cluster_id; provisional id LIMEN-000010 may collide with an existing record - confirm against the project registry before promotion.",
+      "Public-safe: NO jailbreak technique, system-prompt content, or operational cyber steps recorded, per methods/evidence-protocol-v0.1.md Safety Rules. The reported bypass is referenced as metadata only.",
+      "Core facts corroborated across 10+ tier-1 outlets (Anthropic, Axios, Bloomberg, CNBC, NBC, CNN, Fortune, TechCrunch, TechRadar, The Next Web, Al Jazeera). Re-verify source URLs resolve at ingestion.",
+      "Qualifies for record_status 'authoritative' on ingestion (T3: company notice + authoritative reporting); held at 'candidate' pending pipeline dedup/crosswalk."
+    ]
+  }
+}

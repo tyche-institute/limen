@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:tyche:limen:case:0.1",
+  "title": "LIMEN AI Edge-Case Record",
+  "type": "object",
+  "required": [
+    "case_id",
+    "title",
+    "record_status",
+    "evidence_tier",
+    "source_claims",
+    "classification",
+    "provenance"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^LIMEN-[0-9]{6}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string"
+    },
+    "record_status": {
+      "type": "string",
+      "enum": [
+        "lead",
+        "candidate",
+        "corroborated",
+        "authoritative",
+        "rejected_duplicate",
+        "rejected_out_of_scope",
+        "archived"
+      ]
+    },
+    "event_dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "occurred_on": { "type": ["string", "null"], "format": "date" },
+        "occurred_from": { "type": ["string", "null"], "format": "date" },
+        "occurred_to": { "type": ["string", "null"], "format": "date" },
+        "reported_on": { "type": ["string", "null"], "format": "date" },
+        "discovered_on": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+    "jurisdictions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "languages": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["role", "name_status"],
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": [
+              "developer",
+              "provider",
+              "deployer",
+              "user",
+              "adversary",
+              "victim",
+              "regulator",
+              "platform",
+              "media_source",
+              "unknown"
+            ]
+          },
+          "name": { "type": ["string", "null"] },
+          "name_status": {
+            "type": "string",
+            "enum": ["public", "withheld", "unknown", "pseudonymous"]
+          }
+        }
+      }
+    },
+    "system_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ai_system_type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "chatbot",
+              "agent",
+              "multi_agent",
+              "image_generation",
+              "audio_generation",
+              "video_generation",
+              "biometric",
+              "predictive_model",
+              "decision_support",
+              "recommendation",
+              "robotics",
+              "coding_assistant",
+              "unknown",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "autonomy_level": {
+          "type": "string",
+          "enum": [
+            "none",
+            "content_only",
+            "recommendation",
+            "tool_use_human_approved",
+            "tool_use_autonomous",
+            "multi_step_agentic",
+            "unknown"
+          ]
+        },
+        "model_or_provider": { "type": ["string", "null"] },
+        "tools_or_permissions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "evidence_tier": {
+      "type": "string",
+      "enum": ["T0_lead", "T1_single_public_source", "T2_corroborated_public_sources", "T3_authoritative_source", "T4_reproducible_technical_finding"]
+    },
+    "source_claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["source_id", "claim", "claim_status"],
+        "additionalProperties": false,
+        "properties": {
+          "source_id": { "type": "string" },
+          "claim": { "type": "string" },
+          "claim_status": {
+            "type": "string",
+            "enum": ["reported", "confirmed_by_source", "disputed", "retracted", "unknown"]
+          }
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "required": ["limen_categories"],
+      "additionalProperties": false,
+      "properties": {
+        "limen_categories": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "harm_types": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "affected_domains": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "severity": {
+          "type": "string",
+          "enum": ["unknown", "negligible", "low", "medium", "high", "critical"]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["low", "medium", "high"]
+        }
+      }
+    },
+    "crosswalks": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "aiid_ids": { "type": "array", "items": { "type": "string" } },
+        "oecd_aim_ids": { "type": "array", "items": { "type": "string" } },
+        "avid_ids": { "type": "array", "items": { "type": "string" } },
+        "mitre_atlas": { "type": "array", "items": { "type": "string" } },
+        "mit_ai_risk": { "type": "array", "items": { "type": "string" } },
+        "cset_harm": { "type": "array", "items": { "type": "string" } },
+        "nist_ai_rmf": { "type": "array", "items": { "type": "string" } },
+        "eu_ai_act": { "type": "array", "items": { "type": "string" } },
+        "owasp": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "legal_normative_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "remediation_or_response": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "duplicate_cluster_id": {
+      "type": ["string", "null"]
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["created_at", "created_by", "source_ids"],
+      "additionalProperties": false,
+      "properties": {
+        "created_at": { "type": "string", "format": "date-time" },
+        "updated_at": { "type": ["string", "null"], "format": "date-time" },
+        "created_by": { "type": "string" },
+        "source_ids": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "run_id": { "type": ["string", "null"] },
+        "content_hashes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "review_notes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+
