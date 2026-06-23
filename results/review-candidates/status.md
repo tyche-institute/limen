@@ -1,6 +1,6 @@
 # LIMEN Review-Candidate Status
 
-Generated UTC: 2026-06-23T17:23:24Z
+Generated UTC: 2026-06-23T17:35:41Z
 
 Policy: all latest non-self CPU-mined signals are materialized as review candidates.
 

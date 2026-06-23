@@ -1,6 +1,6 @@
 {
   "boundary": "Bulk follow-up queues only; no reviewed-core promotion or ObscureAI addition.",
-  "generated_at_utc": "2026-06-23T17:24:37Z",
+  "generated_at_utc": "2026-06-23T17:35:24Z",
   "source_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/parent-source-extraction-queue.tsv",
   "source_queue_role_counts": {
     "country_gap_or_score_placeholder": 30,
@@ -34,7 +34,7 @@
     "wrapper_or_source_pack": 11,
     "wrapper_or_summary_pointer": 13
   },
-  "source_queue_rows": 1828,
+  "source_queue_rows": 1827,
   "translation_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/bulk-translation-review-queue.tsv",
   "translation_queue_role_counts": {
     "auto_translated_register_record": 5,

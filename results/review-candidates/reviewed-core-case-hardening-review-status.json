@@ -12,7 +12,7 @@
   "case_final_promoted_rows": 2,
   "case_hardening_review_rows": 13,
   "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-hardening-review.tsv",
-  "generated_at_utc": "2026-06-23T17:24:48Z",
+  "generated_at_utc": "2026-06-23T17:35:51Z",
   "hardening_verdict_counts": {
     "case_candidate_source_fetch_or_support_gap": 2,
     "source_verified_case_candidate_needs_acceptance": 11

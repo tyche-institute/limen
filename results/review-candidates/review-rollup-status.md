@@ -1,6 +1,6 @@
 # LIMEN Candidate Review Rollup
 
-Generated UTC: 2026-06-23T17:23:25Z
+Generated UTC: 2026-06-23T17:35:43Z
 
 Policy: all materialized review candidates receive deterministic first-pass review.
 

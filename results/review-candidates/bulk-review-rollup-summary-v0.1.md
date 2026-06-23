@@ -1,6 +1,6 @@
 # LIMEN Bulk Review Rollup
 
-Generated UTC: 2026-06-23T17:24:38Z
+Generated UTC: 2026-06-23T17:35:24Z
 
 - All queues complete: `True`
 - Current output clean: `False`
@@ -9,16 +9,16 @@ Generated UTC: 2026-06-23T17:24:38Z
 - Duplicate queue IDs in queues: `False`
 - Extra queue IDs: `True`
 - Signal mismatch queue IDs: `True`
-- Superseded historical result queue IDs: `1906`
+- Superseded historical result queue IDs: `1907`
 - Failed batches: `True`
 
 ## parent_source_extraction
 
-- Queue rows: `1828`
-- Completed unique queue IDs: `1828`
+- Queue rows: `1827`
+- Completed unique queue IDs: `1827`
 - Missing queue IDs: `0`
 - Result files: `161`
-- Verdict counts: `{"country_gap_no_parent_source": 817, "duplicate_existing_core": 1, "parent_source_wrapper": 464, "reject_noise": 28, "source_surface_only_no_case": 181, "source_url_extracted": 337}`
+- Verdict counts: `{"country_gap_no_parent_source": 817, "duplicate_existing_core": 1, "parent_source_wrapper": 463, "reject_noise": 28, "source_surface_only_no_case": 181, "source_url_extracted": 337}`
 
 ## bulk_translation_review
 

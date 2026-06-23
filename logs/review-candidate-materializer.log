@@ -58870,3 +58870,93 @@ _csv.Error: field larger than field limit (131072)
   "self_echo_rows_excluded": 2791,
   "timestamp": "2026-06-23T17:23:24Z"
 }
+{
+  "duplicate_rows_collapsed": 0,
+  "inputs": {
+    "health-finance-education": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/health-finance-education/20260618T131700Z/matches.tsv",
+    "identity-provenance": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/identity-provenance/20260618T131659Z/matches.tsv",
+    "legal-research": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/legal-research/20260618T131700Z/matches.tsv",
+    "public-sector": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/public-sector/20260618T131659Z/matches.tsv",
+    "residual-weird": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/residual-weird/20260618T131700Z/matches.tsv",
+    "security-agentic": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/security-agentic/20260618T131659Z/matches.tsv"
+  },
+  "raw_rows": 58516,
+  "review_candidate_rows": 55725,
+  "self_echo_rows_excluded": 2791,
+  "timestamp": "2026-06-23T17:25:27Z"
+}
+{
+  "duplicate_rows_collapsed": 0,
+  "inputs": {
+    "health-finance-education": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/health-finance-education/20260618T131700Z/matches.tsv",
+    "identity-provenance": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/identity-provenance/20260618T131659Z/matches.tsv",
+    "legal-research": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/legal-research/20260618T131700Z/matches.tsv",
+    "public-sector": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/public-sector/20260618T131659Z/matches.tsv",
+    "residual-weird": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/residual-weird/20260618T131700Z/matches.tsv",
+    "security-agentic": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/security-agentic/20260618T131659Z/matches.tsv"
+  },
+  "raw_rows": 58516,
+  "review_candidate_rows": 55725,
+  "self_echo_rows_excluded": 2791,
+  "timestamp": "2026-06-23T17:27:31Z"
+}
+{
+  "duplicate_rows_collapsed": 0,
+  "inputs": {
+    "health-finance-education": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/health-finance-education/20260618T131700Z/matches.tsv",
+    "identity-provenance": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/identity-provenance/20260618T131659Z/matches.tsv",
+    "legal-research": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/legal-research/20260618T131700Z/matches.tsv",
+    "public-sector": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/public-sector/20260618T131659Z/matches.tsv",
+    "residual-weird": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/residual-weird/20260618T131700Z/matches.tsv",
+    "security-agentic": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/security-agentic/20260618T131659Z/matches.tsv"
+  },
+  "raw_rows": 58516,
+  "review_candidate_rows": 55725,
+  "self_echo_rows_excluded": 2791,
+  "timestamp": "2026-06-23T17:29:34Z"
+}
+{
+  "duplicate_rows_collapsed": 0,
+  "inputs": {
+    "health-finance-education": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/health-finance-education/20260618T131700Z/matches.tsv",
+    "identity-provenance": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/identity-provenance/20260618T131659Z/matches.tsv",
+    "legal-research": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/legal-research/20260618T131700Z/matches.tsv",
+    "public-sector": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/public-sector/20260618T131659Z/matches.tsv",
+    "residual-weird": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/residual-weird/20260618T131700Z/matches.tsv",
+    "security-agentic": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/security-agentic/20260618T131659Z/matches.tsv"
+  },
+  "raw_rows": 58516,
+  "review_candidate_rows": 55725,
+  "self_echo_rows_excluded": 2791,
+  "timestamp": "2026-06-23T17:31:36Z"
+}
+{
+  "duplicate_rows_collapsed": 0,
+  "inputs": {
+    "health-finance-education": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/health-finance-education/20260618T131700Z/matches.tsv",
+    "identity-provenance": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/identity-provenance/20260618T131659Z/matches.tsv",
+    "legal-research": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/legal-research/20260618T131700Z/matches.tsv",
+    "public-sector": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/public-sector/20260618T131659Z/matches.tsv",
+    "residual-weird": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/residual-weird/20260618T131700Z/matches.tsv",
+    "security-agentic": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/security-agentic/20260618T131659Z/matches.tsv"
+  },
+  "raw_rows": 58516,
+  "review_candidate_rows": 55725,
+  "self_echo_rows_excluded": 2791,
+  "timestamp": "2026-06-23T17:33:39Z"
+}
+{
+  "duplicate_rows_collapsed": 0,
+  "inputs": {
+    "health-finance-education": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/health-finance-education/20260618T131700Z/matches.tsv",
+    "identity-provenance": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/identity-provenance/20260618T131659Z/matches.tsv",
+    "legal-research": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/legal-research/20260618T131700Z/matches.tsv",
+    "public-sector": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/public-sector/20260618T131659Z/matches.tsv",
+    "residual-weird": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/residual-weird/20260618T131700Z/matches.tsv",
+    "security-agentic": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/security-agentic/20260618T131659Z/matches.tsv"
+  },
+  "raw_rows": 58516,
+  "review_candidate_rows": 55725,
+  "self_echo_rows_excluded": 2791,
+  "timestamp": "2026-06-23T17:35:41Z"
+}

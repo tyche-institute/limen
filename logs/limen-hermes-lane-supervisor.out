@@ -20826,3 +20826,34 @@
 [2026-06-23T17:24:35Z] cycle start
 [2026-06-23T17:24:37Z] direct-source backlog=0
 [2026-06-23T17:24:48Z] cycle complete; sleeping 45s
+[2026-06-23T17:25:33Z] cycle start
+[2026-06-23T17:25:35Z] direct-source backlog=0
+[2026-06-23T17:25:45Z] cycle complete; sleeping 45s
+[2026-06-23T17:26:30Z] cycle start
+[2026-06-23T17:26:31Z] direct-source backlog=0
+[2026-06-23T17:26:39Z] cycle complete; sleeping 45s
+[2026-06-23T17:27:24Z] cycle start
+[2026-06-23T17:27:25Z] direct-source backlog=0
+[2026-06-23T17:28:17Z] cycle complete; sleeping 45s
+[2026-06-23T17:29:02Z] cycle start
+[2026-06-23T17:29:04Z] direct-source backlog=0
+[2026-06-23T17:29:57Z] cycle complete; sleeping 45s
+[2026-06-23T17:30:42Z] cycle start
+[2026-06-23T17:30:44Z] direct-source backlog=0
+[2026-06-23T17:30:51Z] cycle complete; sleeping 45s
+[2026-06-23T17:31:36Z] cycle start
+[2026-06-23T17:31:37Z] direct-source backlog=0
+[2026-06-23T17:31:38Z] launching case-extraction lanes=8 batch=16
+[2026-06-23T17:31:44Z] cycle complete; sleeping 45s
+[2026-06-23T17:32:29Z] cycle start
+[2026-06-23T17:32:30Z] direct-source backlog=0
+[2026-06-23T17:32:32Z] launching case-extraction lanes=8 batch=16
+[2026-06-23T17:32:57Z] cycle complete; sleeping 45s
+[2026-06-23T17:33:42Z] cycle start
+[2026-06-23T17:33:43Z] direct-source backlog=0
+[2026-06-23T17:33:45Z] launching case-extraction lanes=8 batch=16
+[2026-06-23T17:34:38Z] cycle complete; sleeping 45s
+[2026-06-23T17:35:23Z] cycle start
+[2026-06-23T17:35:24Z] direct-source backlog=0
+[2026-06-23T17:35:26Z] launching case-extraction lanes=8 batch=16
+[2026-06-23T17:35:51Z] cycle complete; sleeping 45s

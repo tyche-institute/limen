@@ -1,6 +1,6 @@
 # LIMEN reviewed-core case-hardening review
 
-- Generated: 2026-06-23T17:24:48Z
+- Generated: 2026-06-23T17:35:51Z
 - Rows: `13`
 - Verdicts: `{"case_candidate_source_fetch_or_support_gap": 2, "source_verified_case_candidate_needs_acceptance": 11}`
 - Reviewed-core ready for human acceptance: `0`

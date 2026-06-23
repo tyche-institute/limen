@@ -1,14 +1,14 @@
 {
   "boundary": "Promotion hardening only; no reviewed-core promotion, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
   "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/source-reviewed-promotion-hardening.tsv",
-  "generated_at_utc": "2026-06-23T17:24:39Z",
-  "named_url_rows": 1438,
-  "no_named_url_rows": 208,
+  "generated_at_utc": "2026-06-23T17:35:25Z",
+  "named_url_rows": 1434,
+  "no_named_url_rows": 212,
   "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-v0.1.tsv",
   "promotion_gate_counts": {
     "already_reviewed_core_lineage": 15,
-    "needs_named_url_extraction": 208,
-    "source_surface_anchor_only": 1423
+    "needs_named_url_extraction": 212,
+    "source_surface_anchor_only": 1419
   },
   "promotion_priority_counts": {
     "P2": 1013,
@@ -28,11 +28,11 @@
   },
   "top_hosts": [
     {
-      "count": 208,
+      "count": 212,
       "host": "no_url"
     },
     {
-      "count": 57,
+      "count": 52,
       "host": "algoritmes.overheid.nl"
     },
     {
@@ -60,7 +60,7 @@
       "host": "tbs-sct.canada.ca"
     },
     {
-      "count": 17,
+      "count": 15,
       "host": "ai.hel.fi"
     },
     {
@@ -109,16 +109,16 @@
     }
   ],
   "top_output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-top50-v0.1.tsv",
-  "unique_dedupe_keys": 1047,
+  "unique_dedupe_keys": 1049,
   "url_extraction_results": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/named-url-extraction-results-v0.1.tsv",
   "url_recovery_counts": {
-    "delimited_cell": 46,
+    "delimited_cell": 42,
     "hardening_review_url_extracted": 103,
     "json_field:public_url": 6,
     "json_field:source_url": 32,
     "json_field:url": 91,
     "line_checked_no_url": 207,
-    "not_attempted": 1,
+    "not_attempted": 5,
     "snippet_or_result": 1160
   }
 }

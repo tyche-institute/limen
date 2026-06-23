@@ -14,7 +14,7 @@
   "direct_source_review_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/direct-source-review-queue.tsv",
   "direct_source_review_queue_rows": 13918,
   "first_pass_reviewed_rows": 55725,
-  "generated_at_utc": "2026-06-23T17:23:25Z",
+  "generated_at_utc": "2026-06-23T17:35:43Z",
   "policy": "all_materialized_review_candidates_receive_deterministic_first_pass_review",
   "priority_counts": {
     "P1_official_or_regulator_review": 9300,

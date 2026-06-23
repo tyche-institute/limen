@@ -1,8 +1,8 @@
 # LIMEN source-surface case extraction rollup
 
-- Generated: `2026-06-23T17:24:41Z`
-- Completed: `974 / 974`
-- Missing: `0`
+- Generated: `2026-06-23T17:35:26Z`
+- Completed: `974 / 975`
+- Missing: `1`
 - Extra/stale result clusters: `92`
 - Duplicate result clusters: `0`
 - Failed batches: `0`

@@ -1,9 +1,9 @@
 {
   "all_queues_complete": true,
-  "archived_stale_result_queue_ids": 1906,
+  "archived_stale_result_queue_ids": 1907,
   "boundary": "Bulk rollup is processing-state only; no reviewed-core promotion, ObscureAI addition, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
   "current_output_clean": false,
-  "generated_at_utc": "2026-06-23T17:24:38Z",
+  "generated_at_utc": "2026-06-23T17:35:24Z",
   "has_blocking_integrity_issue": true,
   "has_duplicate_queue_ids": false,
   "has_duplicate_queue_ids_in_queue": false,
@@ -78,7 +78,7 @@
       }
     },
     "parent_source_extraction": {
-      "completed_unique_queue_ids": 1828,
+      "completed_unique_queue_ids": 1827,
       "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-parent-source-extraction-results.tsv",
       "duplicate_queue_ids": 0,
       "duplicate_queue_ids_in_queue": 0,
@@ -105,7 +105,7 @@
       "name": "parent_source_extraction",
       "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-parent-source-extraction-results-v0.1.tsv",
       "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/parent-source-extraction-queue.tsv",
-      "queue_rows": 1828,
+      "queue_rows": 1827,
       "result_files": 161,
       "result_rows_seen": 3661,
       "sample_duplicate_queue_ids": [],
@@ -139,11 +139,11 @@
         "BPSE-01837"
       ],
       "signal_mismatch_queue_ids": 2,
-      "stale_result_queue_ids": 1829,
+      "stale_result_queue_ids": 1830,
       "verdict_counts": {
         "country_gap_no_parent_source": 817,
         "duplicate_existing_core": 1,
-        "parent_source_wrapper": 464,
+        "parent_source_wrapper": 463,
         "reject_noise": 28,
         "source_surface_only_no_case": 181,
         "source_url_extracted": 337

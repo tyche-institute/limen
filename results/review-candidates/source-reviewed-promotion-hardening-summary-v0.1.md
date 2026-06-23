@@ -1,11 +1,11 @@
 # Source-Reviewed Promotion Hardening
 
-Generated UTC: 2026-06-23T17:24:39Z
+Generated UTC: 2026-06-23T17:35:25Z
 
 This board starts from `source_reviewed_candidate` rows only. It does not promote rows into reviewed core.
 
 - Rows: `1646`
-- Unique dedupe keys: `1047`
+- Unique dedupe keys: `1049`
 - Output: `/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-v0.1.tsv`
 - Top-50 packet: `/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-top50-v0.1.tsv`
 - Dashboard copy: `/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/source-reviewed-promotion-hardening.tsv`
@@ -13,8 +13,8 @@ This board starts from `source_reviewed_candidate` rows only. It does not promot
 ## Promotion Gates
 
 - `already_reviewed_core_lineage`: `15`
-- `needs_named_url_extraction`: `208`
-- `source_surface_anchor_only`: `1423`
+- `needs_named_url_extraction`: `212`
+- `source_surface_anchor_only`: `1419`
 
 ## Priority Counts
 
@@ -35,15 +35,15 @@ This board starts from `source_reviewed_candidate` rows only. It does not promot
 
 ## URL Recovery
 
-- Named URL rows: `1438`
-- No named URL rows: `208`
-- `delimited_cell`: `46`
+- Named URL rows: `1434`
+- No named URL rows: `212`
+- `delimited_cell`: `42`
 - `hardening_review_url_extracted`: `103`
 - `json_field:public_url`: `6`
 - `json_field:source_url`: `32`
 - `json_field:url`: `91`
 - `line_checked_no_url`: `207`
-- `not_attempted`: `1`
+- `not_attempted`: `5`
 - `snippet_or_result`: `1160`
 
 ## Boundary
