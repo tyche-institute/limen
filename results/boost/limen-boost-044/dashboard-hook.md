@@ -17,13 +17,13 @@ To visualize the bounded evidence-layer asymmetry claim from the security claim-
    - **Tier 3**: Limitations queue (1 row) — Langflow — with exact AVID interoperability but no remediation authority.
    - **Tier 4**: Zero-state gap — peer-reviewed security case support — empty.
 
-2. **Authority-Balance Sidecar (default 21 lineages, projected 23)**
-   - **Vendor-advisory**: 3 platforms (Auto-GPT, Claude Code, LangChain)
-   - **Independent-lab**: 2 platforms (LangChain, LlamaIndex)
-   - **Coordination notice**: 1 platform (CrewAI)
-   - **Exact AVID join**: 1 row (Langflow)
-   - **Supply-chain/plugin extension**: 0 rows — explicit gap
-   - **Peer-reviewed support**: 0 rows — explicit gap
+Authority-Balance Sidecar (default 21 lineages, projected 23-lineage sidecar only)
+ - **Vendor-advisory**: 3 platforms (Auto-GPT, Claude Code, LangChain)
+ - **Independent-lab**: 2 platforms (LangChain, LlamaIndex)
+ - **Coordination notice**: 1 platform (CrewAI)
+ - **Exact AVID join**: 1 row (Langflow)
+ - **Supply-chain/plugin extension**: 0 rows — explicit gap
+ - **Peer-reviewed support**: 0 rows — explicit gap
 
 ### Interpretation
 
