@@ -1,22 +1,14 @@
-# Status Report for LIMEN Boost Shard 006
+# LIMEN Boost Shard 006 Status 2026-06-23
 
-## Paper/Thesis Use
-- Public-sector AI deployment analysis in Eastern Europe
-- Institutional procurement absurdity case studies
+**Paper-readiness delta**: Crosswalk mappings improve claim support for public-sector AI procurement cases and framework alignments, enabling comparative analysis in manuscript sections 3.2 (public evidence visibility) and 4.1 (source limitations).
 
-## Evidence Used
-- Procurement records from Baltic public institutions (2020-2024)
-- EU public sector AI strategy documents
-- Estonian e-Government performance indicators
+**Evidence used**: 
+- `public-source-families-v0.1.tsv` source family ledger
+- Crosswalk mappings to ETSI AI 0030 and UN e-Governance frameworks
+- Evidence tier assignments (Tier 3: public and verifiable sources)
 
-## Uncertainty & Evidence Tier
-- Tier 2: Mixed source authority (some official portals, some archived)
-- Machine-translated content flagged for: Lithuanian procurement terms, Latvian audit reports
+**Uncertainty**: Low - mappings are based on documented framework alignments and public records. No machine translation required for sourced material.
 
-## Visualization/Dashboard Hook
-- Sankey diagram: Public AI procurement flows by country/sector
-- Map: Institutional absurdity density across EU regions
+**Visualization hook**: Dashboard view 3 (source-family vs framework coverage) now includes crosswalk statistics. Figure 2 data extraction (incident database comparatives) is readiness level 2 (needs final data extraction).
 
-## Next Publishability Move
-- Crosswalk EU Public Sector AI Strategy with 2024 procurement records to identify implementation gaps
-- Create methodology note on institutional absurdity metrics
+**Next smallest publishability move**: Finalize evidence tier documentation in `methods.md` and complete Figure 2 data extraction for incident database comparatives. Proceed to multilingual public-sector sources next cycle per PALLAS/GAIA stabilization priorities.

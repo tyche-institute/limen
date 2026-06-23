@@ -1,14 +1,1 @@
-source_url	duplicate_count	source_ids
-https://www.datatilsynet.dk/afgoerelser/afgoerelser/2024/jun/udvikling-af-ai-loesning-til-sagsbehandling-paa-su-omraadet	5	SRC-AUTH-0024,SRC-AUTH-0032,SRC-AUTH-0034,SRC-AUTH-0035,SRC-AUTH-0036
-https://www.policija.si/delovna-podrocja/mednarodno-sodelovanje/crpanje-evropskih-sredstev/projekt-euccs-preparation-stage-4	4	SRC-AUTH-0019,SRC-AUTH-0033,SRC-AUTH-0037,SRC-AUTH-0038
-https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/02/ico-orders-serco-leisure-to-stop-using-facial-recognition-technology/	3	SRC-AUTH-0003,SRC-AUTH-0006,SRC-AUTH-0008
-https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/07/essex-school-reprimanded-after-using-facial-recognition-technology-for-canteen-payments/	3	SRC-AUTH-0004,SRC-AUTH-0007,SRC-AUTH-0009
-https://docs.fcc.gov/public/attachments/FCC-24-60A1.txt	3	SRC-AUTH-0016,SRC-AUTH-0017,SRC-AUTH-0018
-https://www.ftc.gov/system/files/ftc_gov/pdf/2323052rytrcomplaint.pdf	3	SRC-AUTH-0025,SRC-AUTH-0026,SRC-AUTH-0029
-https://www.ftc.gov/system/files/ftc_gov/pdf/AiraiComplaint.pdf	3	SRC-AUTH-0027,SRC-AUTH-0028,SRC-AUTH-0030
-https://www.eeoc.gov/newsroom/eeoc-sues-itutorgroup-age-discrimination	2	SRC-AUTH-0002,SRC-AUTH-0005
-https://www.justice.gov/usao-sdny/pr/tech-ceo-charged-artificial-intelligence-investment-fraud-scheme	2	SRC-AUTH-0010,SRC-AUTH-0011
-https://www.sec.gov/newsroom/press-releases/2024-36	2	SRC-AUTH-0012,SRC-AUTH-0013
-https://www.sec.gov/newsroom/press-releases/2024-36	2	SRC-AUTH-0014,SRC-AUTH-0015
-https://www.ftc.gov/system/files/ftc_gov/pdf/2323042_donotpay_complaint.pdf	2	SRC-AUTH-0020,SRC-AUTH-0021
-https://www.ftc.gov/system/files/ftc_gov/pdf/ContentatScaleAI-Complaint.pdf	2	SRC-AUTH-0022,SRC-AUTH-0023
+source_cluster_key	count

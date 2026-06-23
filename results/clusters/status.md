@@ -1,7 +1,11 @@
-# Clustering Status
-- Completed duplicate detection across the authoritative source ledger.
-- Identified 13 duplicate source URL clusters.
-- No additional duplicates found beyond these clusters.
-- Duplicate clusters recorded in `results/clusters/duplicate-clusters-v0.1.tsv`.
-- Taxonomy delta updated in `results/taxonomy/taxonomy-delta-v0.1.md`.
-- Next steps: Continue monitoring for duplicates in upcoming cycles; consider expanding clustering to other source families if needed.
+## Duplicate Cluster Summary
+
+**Generated:** 2026-06-23 22:21:44
+**Total unique source_cluster_key values:** 1074
+**Duplicate clusters (count > 1):** 0
+
+**Next steps**:
+- Review duplicate clusters for merging or categorization.
+- Consider propagating new labels where patterns stabilize.
+- Continue monitoring for residual_unclassified signals.
+- Update taxonomy delta with any new category emergences.

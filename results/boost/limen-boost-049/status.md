@@ -1,6 +1,6 @@
 # Status — limen-boost-049
 
-Generated: 2026-06-23T12:00:00+02:00
+Generated: 2026-06-23T15:45:00+02:00
 Project: `limen-ai-edge-case-atlas`
 Lane: `limen-boost-049`
 Shard theme: source-family saturation and blocked-source notes
@@ -8,7 +8,7 @@ Sprint: `20260607-hostile-reviewer-pass`
 
 ## Artifact touched or created
 
-- Created `results/boost/limen-boost-049/sf13-nejm-threshold-propagation-audit.tsv`
+- Updated `results/boost/limen-boost-049/sf13-nejm-threshold-propagation-audit.tsv`
 - Updated `results/boost/limen-boost-049/source-family-front-door-bundle.tsv`
 - Updated `results/boost/limen-boost-049/sf13-direct-notice-diversity-router.tsv`
 - Updated `results/source-map/research-integrity-family-inventory-v0.1.tsv`
