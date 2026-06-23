@@ -1,0 +1,697 @@
+{
+  "generated_at": "2026-06-07T01:13:49Z",
+  "profile_version": "0.1",
+  "examples": [
+    {
+      "envelope_id": "LIMEN-ENV-EXAMPLE-0001",
+      "envelope_type": "urn:tyche:limen:envelope:0.1",
+      "profile_version": "0.1",
+      "generated_at": "2026-06-07T00:06:48Z",
+      "project_id": "limen-ai-edge-case-atlas",
+      "lane_id": "limen-attestation-receipt-profile",
+      "run_id": "limen-attestation-receipt-profile-20260607T000648Z",
+      "action": "classified",
+      "subject_ref": {
+        "kind": "case_record",
+        "id": "LIMEN-000001",
+        "path_or_uri": "data/cases/authoritative-candidates.jsonl#LIMEN-000001",
+        "title": "Italian DPA orders urgent provisional limitation on ChatGPT personal-data processing in Italy",
+        "version": "2026-06-06-authoritative-bootstrap"
+      },
+      "inputs": [
+        {
+          "kind": "source_capture",
+          "locator": "sources/authoritative-source-ledger.tsv#SRC-AUTH-0001",
+          "media_type": "text/tab-separated-values",
+          "sha256": "sha256:c553c77a4bd6ce56358ca27d22f3ac8d228c38e28ff99ee97f0623120fed573c",
+          "captured_at": "2026-06-06T00:00:00Z",
+          "language": "it",
+          "jurisdiction": "Italy",
+          "source_family": "official_regulator_source",
+          "rights_notes": "public regulator source; preserve citation and quotation boundaries",
+          "record_status": "authoritative",
+          "evidence_tier": "T3_authoritative_source"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "case_record",
+          "locator": "data/cases/authoritative-candidates.jsonl#LIMEN-000001",
+          "media_type": "application/x-ndjson",
+          "sha256": "sha256:1235cf3bf627ec3c366e80ff9ee195ec36b844aed3704217e2ae9c884a668653",
+          "emitted_at": "2026-06-07T00:06:48Z",
+          "language": "it",
+          "jurisdiction": "Italy",
+          "source_family": "official_regulator_source",
+          "rights_notes": "local Tyche research record derived from public source",
+          "record_status": "authoritative",
+          "evidence_tier": "T3_authoritative_source"
+        }
+      ],
+      "assertions": [
+        {
+          "assertion_id": "A1",
+          "assertion_type": "classification_assignment",
+          "statement": "The LIMEN case record preserves a regulator-sourced observation and assigns LIMEN category and evidence-tier fields from the cited public source package.",
+          "value": {
+            "evidence_tier": "T3_authoritative_source",
+            "limen_categories": [
+              "legal_procedural_contamination",
+              "normative_or_moral_outlier"
+            ]
+          },
+          "confidence": "high",
+          "supporting_input_refs": [
+            0
+          ],
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": true
+        }
+      ],
+      "schema_refs": [
+        "urn:tyche:limen:case:0.1",
+        "urn:tyche:limen:envelope:0.1"
+      ],
+      "tooling": {
+        "tool_manifest_hash": "sha256:5c7cb43d1b339e23e8f6ce46920ed88011698a4296bcc114aef12b40f9a2b868",
+        "prompt_hash": "sha256:736b7f5e1be15b8d231e867be6ec61c47515e5768fecb9a7f9303429e1f283b9",
+        "model_name": "gpt-5.4",
+        "provider": "openai-codex",
+        "schema_version": "0.1"
+      },
+      "review_status": "lane_checked",
+      "review_notes": [
+        "This envelope attests observation and processing provenance only.",
+        "Do not read the regulator source as a generalized legal finding beyond the order text."
+      ],
+      "dashboard_hooks": [
+        "evidence_tier_funnel",
+        "attestation_timeline",
+        "legal_uncertainty_matrix"
+      ],
+      "claim_scope": "observation_and_processing_only",
+      "non_claims": [
+        "truth",
+        "legality",
+        "compliance",
+        "certification",
+        "safety",
+        "completeness"
+      ]
+    },
+    {
+      "envelope_id": "LIMEN-ENV-EXAMPLE-0002",
+      "envelope_type": "urn:tyche:limen:envelope:0.1",
+      "profile_version": "0.1",
+      "generated_at": "2026-06-07T00:06:48Z",
+      "project_id": "limen-ai-edge-case-atlas",
+      "lane_id": "limen-attestation-receipt-profile",
+      "run_id": "limen-attestation-receipt-profile-20260607T000648Z",
+      "action": "reviewed",
+      "subject_ref": {
+        "kind": "case_record",
+        "id": "LIMEN-CAND-LMWCS-20260606-004",
+        "path_or_uri": "data/cases/multilingual-candidates.jsonl#LMWCS-20260606-004",
+        "title": "Projekt ORION: Umetna inteligenca za varno mejno kontrolo",
+        "version": "2026-06-06-multilingual-seed"
+      },
+      "inputs": [
+        {
+          "kind": "source_capture",
+          "locator": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbUJnd19vejMyb2RWRDJQSkJIN2ZXeVJ0TTFWUEJfSFdVUC1xbEJHUUlXT2kzYm1Iektkdkwwc3NobmxyeXN4N0JiNXNyOC1tbnh5VWF1LUpmMUFmc1F5aFg1cE5JTDBwZ1lRQUROU29FSUVEbDhTTzVRTTBreG92UkI0YXVLQVNfSm5CNHFXVFFLcnBEbU0tOTRyVHlzNjc2TDc1enpJUmFfU1BzcEpyXzJSaVBuQUdEanhsbGhMUGZUdw?oc=5",
+          "media_type": "application/rss+xml",
+          "sha256": "sha256:b0b6612279e997b8c92248041f2d36cab8f2d26c55e62e9cc5db938615fc10ab",
+          "captured_at": "2026-06-06T22:57:21Z",
+          "language": "sl",
+          "jurisdiction": "Slovenia",
+          "source_family": "official_police_source",
+          "rights_notes": "public page reference via Google News redirect; direct police URL unresolved in local package",
+          "record_status": "candidate",
+          "evidence_tier": "T3_authoritative_source"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "case_record",
+          "locator": "data/cases/multilingual-candidates.jsonl#LMWCS-20260606-004",
+          "media_type": "application/x-ndjson",
+          "sha256": "sha256:b0b6612279e997b8c92248041f2d36cab8f2d26c55e62e9cc5db938615fc10ab",
+          "emitted_at": "2026-06-07T00:06:48Z",
+          "language": "sl",
+          "jurisdiction": "Slovenia",
+          "source_family": "official_police_source",
+          "rights_notes": "local candidate record; title-gloss only",
+          "record_status": "candidate",
+          "evidence_tier": "T3_authoritative_source"
+        }
+      ],
+      "assertions": [
+        {
+          "assertion_id": "A1",
+          "assertion_type": "review_decision",
+          "statement": "The project ORION record is retained as a candidate because the project existence is stronger than ordinary media leads but the direct police page remains unresolved locally.",
+          "value": {
+            "record_status": "candidate",
+            "translation_status": "title_gloss_only"
+          },
+          "confidence": "medium",
+          "supporting_input_refs": [
+            0
+          ],
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": true
+        },
+        {
+          "assertion_id": "A2",
+          "assertion_type": "translation_flag",
+          "statement": "Machine-translated title gloss supports triage only and does not justify final legal or policy interpretation.",
+          "value": {
+            "translation_confidence": "medium"
+          },
+          "confidence": "medium",
+          "supporting_input_refs": [
+            0
+          ],
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": true
+        }
+      ],
+      "schema_refs": [
+        "urn:tyche:limen:envelope:0.1"
+      ],
+      "tooling": {
+        "tool_manifest_hash": "sha256:5c7cb43d1b339e23e8f6ce46920ed88011698a4296bcc114aef12b40f9a2b868",
+        "prompt_hash": "sha256:1e7c848de1fc2f26a684a9884695c836cbd82140b40e936a02a15195bacb7a54",
+        "model_name": "gpt-5.4",
+        "provider": "openai-codex",
+        "schema_version": "0.1"
+      },
+      "review_status": "needs_revision",
+      "review_notes": [
+        "Direct official URL resolution is still pending.",
+        "Retain translation caution and avoid stronger claims about policing or border-control functionality."
+      ],
+      "dashboard_hooks": [
+        "jurisdiction_language_map",
+        "attestation_timeline"
+      ],
+      "claim_scope": "observation_and_processing_only",
+      "non_claims": [
+        "truth",
+        "legality",
+        "compliance",
+        "certification",
+        "safety",
+        "completeness"
+      ]
+    },
+    {
+      "envelope_id": "LIMEN-ENV-EXAMPLE-0003",
+      "envelope_type": "urn:tyche:limen:envelope:0.1",
+      "profile_version": "0.1",
+      "generated_at": "2026-06-07T00:06:48Z",
+      "project_id": "limen-ai-edge-case-atlas",
+      "lane_id": "limen-attestation-receipt-profile",
+      "run_id": "limen-attestation-receipt-profile-20260607T000648Z",
+      "action": "clustered",
+      "subject_ref": {
+        "kind": "duplicate_cluster",
+        "id": "REVIEW-NOMERGE-ICO-001",
+        "path_or_uri": "results/clusters/duplicate-clusters-v0.1.tsv#REVIEW-NOMERGE-ICO-001",
+        "title": "ICO biometric-governance reviewed-not-duplicate pair",
+        "version": "2026-06-07T00:03:49Z"
+      },
+      "inputs": [
+        {
+          "kind": "cluster_table",
+          "locator": "results/clusters/duplicate-clusters-v0.1.tsv",
+          "media_type": "text/tab-separated-values",
+          "sha256": "sha256:25b353ac1bbeea83f58de4f35c7d06ccf2da8bd9167270485078b2b102f51e79",
+          "captured_at": "2026-06-07T00:03:49Z",
+          "language": "en",
+          "jurisdiction": "United Kingdom",
+          "source_family": "local_research_artifact",
+          "rights_notes": "local Tyche artifact derived from public sources",
+          "evidence_tier": "T3_authoritative_source"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "artifact_file",
+          "locator": "results/clusters/duplicate-clusters-v0.1.tsv#REVIEW-NOMERGE-ICO-001",
+          "media_type": "text/tab-separated-values",
+          "sha256": "sha256:4f9f7b40ae728695cdba29aae13c49ac3bb28b12045e549ef3daafaa5aec9df2",
+          "emitted_at": "2026-06-07T00:06:48Z",
+          "language": "en",
+          "jurisdiction": "United Kingdom",
+          "source_family": "local_research_artifact",
+          "rights_notes": "reviewed-not-duplicate cluster row for dashboard-safe dedupe logic"
+        }
+      ],
+      "assertions": [
+        {
+          "assertion_id": "A1",
+          "assertion_type": "cluster_membership",
+          "statement": "The Serco and Chelmer Valley ICO records were reviewed as related biometric-governance cases but should not be collapsed into a duplicate cluster.",
+          "value": {
+            "cluster_status": "reviewed_not_duplicate",
+            "member_case_ids": "authoritative-candidates.jsonl:LIMEN-000003;authoritative-candidates.jsonl:LIMEN-000004"
+          },
+          "confidence": "high",
+          "supporting_input_refs": [
+            0
+          ],
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": false
+        }
+      ],
+      "schema_refs": [
+        "urn:tyche:limen:envelope:0.1"
+      ],
+      "tooling": {
+        "tool_manifest_hash": "sha256:5c7cb43d1b339e23e8f6ce46920ed88011698a4296bcc114aef12b40f9a2b868",
+        "prompt_hash": "sha256:355c78371efcec4c0ebec7e89bb9765d68a5ddc1b1c5ef0a4cf0778de1bc766a",
+        "model_name": "gpt-5.4",
+        "provider": "openai-codex",
+        "schema_version": "0.1"
+      },
+      "review_status": "lane_checked",
+      "review_notes": [
+        "This cluster receipt records review logic only, not empirical sameness or substantive legal equivalence."
+      ],
+      "dashboard_hooks": [
+        "duplicate_cluster_graph",
+        "attestation_timeline"
+      ],
+      "claim_scope": "observation_and_processing_only",
+      "non_claims": [
+        "truth",
+        "legality",
+        "compliance",
+        "certification",
+        "safety",
+        "completeness"
+      ]
+    },
+    {
+      "envelope_id": "LIMEN-ENV-EXAMPLE-0004",
+      "envelope_type": "urn:tyche:limen:envelope:0.1",
+      "profile_version": "0.1",
+      "generated_at": "2026-06-07T00:40:16Z",
+      "project_id": "limen-ai-edge-case-atlas",
+      "lane_id": "limen-attestation-receipt-profile",
+      "run_id": "limen-attestation-receipt-profile-20260607T004016Z",
+      "action": "classified",
+      "subject_ref": {
+        "kind": "crosswalk_row",
+        "id": "limen-legal-normative-crosswalk:deepfake_or_synthetic_identity",
+        "path_or_uri": "results/crosswalks/legal-normative-crosswalk-v0.1.tsv#deepfake_or_synthetic_identity",
+        "title": "Legal/normative crosswalk row for deepfake or synthetic identity",
+        "version": "v0.1"
+      },
+      "inputs": [
+        {
+          "kind": "artifact_file",
+          "locator": "results/crosswalks/legal-normative-crosswalk-v0.1.tsv",
+          "media_type": "text/tab-separated-values",
+          "sha256": "sha256:e257648a38e4fb39870f9c247914173902f368f1db7762c8f5066b74b5706521",
+          "captured_at": "2026-06-07T00:00:00Z",
+          "language": "en",
+          "jurisdiction": "multi-jurisdiction",
+          "source_family": "local_research_artifact",
+          "rights_notes": "local Tyche crosswalk derived from public-source case package",
+          "record_status": "candidate",
+          "evidence_tier": "T1_single_public_source"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "artifact_file",
+          "locator": "results/crosswalks/legal-normative-crosswalk-v0.1.tsv#deepfake_or_synthetic_identity",
+          "media_type": "text/tab-separated-values",
+          "sha256": "sha256:4059112945f7f258f636d756325b7c43f9a58e00e811a78778229578794b68f4",
+          "emitted_at": "2026-06-07T00:40:16Z",
+          "language": "en",
+          "jurisdiction": "multi-jurisdiction",
+          "source_family": "local_research_artifact",
+          "rights_notes": "row-level crosswalk receipt for reviewer-facing mapping note",
+          "record_status": "candidate",
+          "evidence_tier": "T1_single_public_source"
+        }
+      ],
+      "assertions": [
+        {
+          "assertion_id": "A1",
+          "assertion_type": "crosswalk_mapping",
+          "statement": "The deepfake or synthetic identity row preserves a conceptual mapping to Article 50 transparency anchors and related governance concepts without asserting that the sampled cases satisfy those duties.",
+          "value": {
+            "category_code": "deepfake_or_synthetic_identity",
+            "eu_ai_act_anchor_status": "direct_primary_anchor_verified_for_Article_50_2_and_50_4_via_EUR-Lex; case applicability still unresolved",
+            "observatory_hook": "Synthetic-identity topology linking media, provenance evidence, and harm types"
+          },
+          "confidence": "medium",
+          "supporting_input_refs": [
+            0
+          ],
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": true
+        },
+        {
+          "assertion_id": "A2",
+          "assertion_type": "uncertainty_note",
+          "statement": "This receipt records mapping logic and caution language only; it does not convert public synthetic-media reporting into a final legality, authenticity, or provider-responsibility finding.",
+          "value": {
+            "queue_id": "LQ-005",
+            "caution": "case applicability unresolved"
+          },
+          "confidence": "high",
+          "supporting_input_refs": [
+            0
+          ],
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": false
+        }
+      ],
+      "schema_refs": [
+        "urn:tyche:limen:envelope:0.1"
+      ],
+      "tooling": {
+        "tool_manifest_hash": "sha256:290f1b16765805da16936c09702f7a85f33f95fa997158370c553a93b3463c09",
+        "model_name": "gpt-5.4",
+        "provider": "openai-codex",
+        "schema_version": "0.1",
+        "prompt_hash": "sha256:c8d2df3c078b6c6f8d8db4d2f95393dd21a0e2e82429c98302c5fd2df2cf1437"
+      },
+      "review_status": "lane_checked",
+      "review_notes": [
+        "Crosswalk rows can attest mapping provenance and caution language, not legal fit of any specific case.",
+        "Keep Article 50 references tied to text anchors and avoid implying resolved applicability."
+      ],
+      "dashboard_hooks": [
+        "legal_uncertainty_matrix",
+        "taxonomy_heatmap",
+        "attestation_timeline"
+      ],
+      "claim_scope": "observation_and_processing_only",
+      "non_claims": [
+        "truth",
+        "legality",
+        "compliance",
+        "certification",
+        "safety",
+        "completeness",
+        "authenticity_finality"
+      ]
+    },
+    {
+      "envelope_id": "LIMEN-ENV-EXAMPLE-0005",
+      "envelope_type": "urn:tyche:limen:envelope:0.1",
+      "profile_version": "0.1",
+      "generated_at": "2026-06-07T00:40:16Z",
+      "project_id": "limen-ai-edge-case-atlas",
+      "lane_id": "limen-attestation-receipt-profile",
+      "run_id": "limen-attestation-receipt-profile-20260607T004016Z",
+      "action": "published",
+      "subject_ref": {
+        "kind": "artifact",
+        "id": "limen-dashboard-paper-forge:evidence-funnel-v0.1",
+        "path_or_uri": "results/boost/limen-dashboard-paper-forge/evidence-funnel.tsv",
+        "title": "Evidence funnel export for dashboard and paper architecture",
+        "version": "2026-06-07T00:08:46Z"
+      },
+      "inputs": [
+        {
+          "kind": "case_record",
+          "locator": "data/cases/authoritative-candidates.jsonl",
+          "media_type": "application/x-ndjson",
+          "sha256": "sha256:978b5fd64d51a3931d0ef7417cf3f477a5bc456a0a4c64af0440a363f833c3bb",
+          "captured_at": "2026-06-07T00:08:46Z",
+          "language": "multi",
+          "jurisdiction": "multi-jurisdiction",
+          "source_family": "local_research_artifact",
+          "rights_notes": "local Tyche case package derived from public sources",
+          "record_status": "authoritative",
+          "evidence_tier": "T3_authoritative_source"
+        },
+        {
+          "kind": "case_record",
+          "locator": "data/cases/multilingual-candidates.jsonl",
+          "media_type": "application/x-ndjson",
+          "sha256": "sha256:8722b43228e8e933d16b3a14a0ce5029109e4ae00f747ec7eb482af97ec4e419",
+          "captured_at": "2026-06-07T00:08:46Z",
+          "language": "multi",
+          "jurisdiction": "multi-jurisdiction",
+          "source_family": "local_research_artifact",
+          "rights_notes": "local multilingual candidate package derived from public sources",
+          "record_status": "candidate",
+          "evidence_tier": "T1_single_public_source"
+        },
+        {
+          "kind": "case_record",
+          "locator": "data/cases/security-agentic-candidates.jsonl",
+          "media_type": "application/x-ndjson",
+          "sha256": "sha256:0373637014fae541390c3fc2aba36d27cb4e57897ca53906c2ebdf9f1feda62b",
+          "captured_at": "2026-06-07T00:08:46Z",
+          "language": "en",
+          "jurisdiction": "global",
+          "source_family": "local_research_artifact",
+          "rights_notes": "local security candidate package derived from public sources",
+          "record_status": "authoritative",
+          "evidence_tier": "T3_authoritative_source"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "artifact_file",
+          "locator": "results/boost/limen-dashboard-paper-forge/evidence-funnel.tsv",
+          "media_type": "text/tab-separated-values",
+          "sha256": "sha256:1a8127a437a71e9eb68f6e1a258ba8e7d409c21dbda5220e839f03115841711b",
+          "emitted_at": "2026-06-07T00:08:46Z",
+          "language": "en",
+          "jurisdiction": "multi-jurisdiction",
+          "source_family": "local_research_artifact",
+          "rights_notes": "dashboard/paper export derived from current local case files"
+        }
+      ],
+      "assertions": [
+        {
+          "assertion_id": "A1",
+          "assertion_type": "artifact_derivation",
+          "statement": "The evidence funnel export summarizes current local stage counts from file-qualified case records and duplicate-review side channels for dashboard and manuscript architecture use.",
+          "value": {
+            "output_rows": 8,
+            "count_scope": "unique file-qualified record keys",
+            "join_status": "provisional_file_qualified_keys_until_global_namespace_normalized"
+          },
+          "confidence": "high",
+          "supporting_input_refs": [
+            0,
+            1,
+            2
+          ],
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": false
+        },
+        {
+          "assertion_id": "A2",
+          "assertion_type": "uncertainty_note",
+          "statement": "Publication-safe use of this export requires preserving its provisional join-status warning and avoiding claims that raw counts represent a globally normalized LIMEN census.",
+          "value": {
+            "blocked_by": "global namespace normalization pending"
+          },
+          "confidence": "high",
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": false
+        }
+      ],
+      "schema_refs": [
+        "urn:tyche:limen:envelope:0.1"
+      ],
+      "tooling": {
+        "tool_manifest_hash": "sha256:290f1b16765805da16936c09702f7a85f33f95fa997158370c553a93b3463c09",
+        "model_name": "gpt-5.4",
+        "provider": "openai-codex",
+        "schema_version": "0.1",
+        "prompt_hash": "sha256:b2ba85bb828e7ffbfe7f986dcb38d260bc8082f76316f8545191df338427efd9"
+      },
+      "review_status": "lane_checked",
+      "review_notes": [
+        "Published means emitted as a local dashboard/manuscript artifact, not externally released.",
+        "Keep the namespace-collision blocker visible in any reviewer-facing interpretation."
+      ],
+      "dashboard_hooks": [
+        "evidence_tier_funnel",
+        "attestation_timeline"
+      ],
+      "claim_scope": "observation_and_processing_only",
+      "non_claims": [
+        "truth",
+        "legality",
+        "compliance",
+        "certification",
+        "safety",
+        "completeness"
+      ]
+    },
+    {
+      "envelope_id": "LIMEN-ENV-EXAMPLE-0006",
+      "envelope_type": "urn:tyche:limen:envelope:0.1",
+      "profile_version": "0.1",
+      "generated_at": "2026-06-07T01:13:49Z",
+      "project_id": "limen-ai-edge-case-atlas",
+      "lane_id": "limen-attestation-receipt-profile",
+      "run_id": "limen-attestation-receipt-profile-20260607T011349Z",
+      "action": "published",
+      "subject_ref": {
+        "kind": "artifact",
+        "id": "limen-attestation-publication-bundle-v0.1",
+        "path_or_uri": "results/attestation/status.md",
+        "title": "Attestation package publication-bundle placeholder receipt",
+        "version": "2026-06-07T01:13:49Z"
+      },
+      "inputs": [
+        {
+          "kind": "artifact_file",
+          "locator": "attestation/limen-envelope-profile-v0.1.md",
+          "media_type": "text/markdown",
+          "sha256": "sha256:8d8e6fca5d2bd54df6a2e8d7d8d046c4f9acfbf9c6d39b5bf9f11ccca0f4b216",
+          "captured_at": "2026-06-07T01:13:49Z",
+          "language": "en",
+          "jurisdiction": "multi-jurisdiction",
+          "source_family": "local_research_artifact",
+          "rights_notes": "local Tyche methods artifact derived from public/open source analysis"
+        },
+        {
+          "kind": "artifact_file",
+          "locator": "schema/limen-envelope.schema.json",
+          "media_type": "application/schema+json",
+          "sha256": "sha256:72ec7f4f804fc5e61dcb711d17c7c3f53595a1ecfa45ba5b0c687f44aa5ca448",
+          "captured_at": "2026-06-07T01:13:49Z",
+          "language": "en",
+          "jurisdiction": "multi-jurisdiction",
+          "source_family": "local_research_artifact",
+          "rights_notes": "local Tyche schema artifact"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "artifact_file",
+          "locator": "results/attestation/limen-envelope-examples-v0.1.json#LIMEN-ENV-EXAMPLE-0006",
+          "media_type": "application/json",
+          "sha256": "sha256:5ca2f3125423b98c7b522640584f3b5374740562e7b3ca2ec690b7107a6ef076",
+          "emitted_at": "2026-06-07T01:13:49Z",
+          "language": "en",
+          "jurisdiction": "multi-jurisdiction",
+          "source_family": "local_research_artifact",
+          "rights_notes": "example publication-bundle receipt with signing placeholder fields"
+        }
+      ],
+      "assertions": [
+        {
+          "assertion_id": "A1",
+          "assertion_type": "artifact_derivation",
+          "statement": "This receipt demonstrates how LIMEN can publish a bounded attestation package with transparency, VC, and signature-placeholder metadata before any real signed release is claimed.",
+          "value": {
+            "package_scope": "profile_schema_example_corpus_status_bundle",
+            "publication_status": "local_example_only",
+            "signature_status": "placeholder_only"
+          },
+          "confidence": "high",
+          "supporting_input_refs": [
+            0,
+            1
+          ],
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": true
+        },
+        {
+          "assertion_id": "A2",
+          "assertion_type": "uncertainty_note",
+          "statement": "The presence of transparency, VC, or signature placeholder fields does not imply that a transparency log inclusion proof, issued credential, or verified digital signature currently exists.",
+          "value": {
+            "inclusion_proof_status": "proof_pending",
+            "credential_status": "draft"
+          },
+          "confidence": "high",
+          "supporting_input_refs": [
+            0,
+            1
+          ],
+          "supporting_output_refs": [
+            0
+          ],
+          "review_needed": false
+        }
+      ],
+      "schema_refs": [
+        "urn:tyche:limen:envelope:0.1"
+      ],
+      "tooling": {
+        "tool_manifest_hash": "sha256:290f1b16765805da16936c09702f7a85f33f95fa997158370c553a93b3463c09",
+        "prompt_hash": "sha256:236fd163d159174253ea6dd0caa97a7764dce95bf443502d65152e2d560f8d0a",
+        "model_name": "gpt-5.4",
+        "provider": "openai-codex",
+        "schema_version": "0.1"
+      },
+      "review_status": "lane_checked",
+      "review_notes": [
+        "Placeholder fields are present to show future publication wiring, not to claim a completed signature or verified transparency-log entry.",
+        "Keep publication claims bounded to local artifact derivation and package structure."
+      ],
+      "transparency": {
+        "log_system": "scitt_placeholder",
+        "receipt_uri": "urn:tyche:limen:receipt-placeholder:2026-06-07:0006",
+        "receipt_hash": "sha256:7c2bb7a4fe0f3f09903fd0ea9de74132b6a3b93d3f8f60b13335dc82d0f7cb8c",
+        "inclusion_proof_status": "proof_pending"
+      },
+      "vc": {
+        "credential_id": "urn:tyche:limen:vc-placeholder:2026-06-07:0006",
+        "issuer": "Tyche Institute / LIMEN (placeholder)",
+        "credential_status": "draft"
+      },
+      "signature_placeholders": {
+        "detached_signature_status": "placeholder_only",
+        "signing_scheme": "COSE_Sign1_placeholder",
+        "signer_hint": "future Tyche LIMEN publication key",
+        "signature_ref": "urn:tyche:limen:signature-placeholder:2026-06-07:0006",
+        "key_material_ref": "urn:tyche:limen:key-placeholder:publication-bundle-v0.1",
+        "trust_anchor_ref": "urn:tyche:limen:trust-anchor-placeholder:v0.1",
+        "verification_notes": [
+          "No detached signature has been generated in this local example corpus.",
+          "Verification workflow remains out of scope for v0.1 and should be treated as future work."
+        ]
+      },
+      "dashboard_hooks": [
+        "attestation_timeline"
+      ],
+      "claim_scope": "observation_and_processing_only",
+      "non_claims": [
+        "truth",
+        "legality",
+        "compliance",
+        "certification",
+        "safety",
+        "completeness",
+        "authenticity_finality"
+      ]
+    }
+  ]
+}

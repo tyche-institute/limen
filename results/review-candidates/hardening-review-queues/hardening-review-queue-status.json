@@ -1,0 +1,20 @@
+{
+  "boundary": "Queues are hardening review inputs only; no promotion, legal finding, deployment proof, prevalence, or completeness claim.",
+  "generated_at_utc": "2026-06-23T15:40:04Z",
+  "translation_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/translation-source-review-queue.tsv",
+  "translation_queue_class_counts": {
+    "cross_project_language_artifact": 240,
+    "foreign_language_official_or_public_surface": 108,
+    "registry_auto_translation": 204,
+    "translation_sensitive_lead": 2
+  },
+  "translation_queue_rows": 554,
+  "url_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/named-url-extraction-queue.tsv",
+  "url_queue_class_counts": {
+    "court_or_tribunal": 1,
+    "policy_or_guidance_surface": 1,
+    "regulator_or_public_authority": 211,
+    "security_advisory_or_vulnerability": 1
+  },
+  "url_queue_rows": 214
+}

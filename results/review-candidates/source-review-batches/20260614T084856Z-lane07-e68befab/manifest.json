@@ -1,0 +1,41 @@
+{
+  "batch_id": "20260614T084856Z-lane07-e68befab",
+  "batch_size": 100,
+  "completed_at_utc": "2026-06-14T08:54:53Z",
+  "created_at_utc": "2026-06-14T08:48:56Z",
+  "details": {
+    "rows_reviewed": 100,
+    "verdict_counts": {
+      "merge_existing_surface": 31,
+      "needs_named_source_extraction": 14,
+      "negative_evidence_candidate": 20,
+      "reject_noise": 24,
+      "source_reviewed_candidate": 9,
+      "translation_review_needed": 2
+    },
+    "verified_row_count_match": true,
+    "verified_signal_id_set_match": true
+  },
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T084856Z-lane07-e68befab/source-review-input.tsv",
+  "input_rows": 100,
+  "lane_id": "lane07",
+  "outputs": {
+    "results_tsv": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T084856Z-lane07-e68befab/source-review-results.tsv",
+    "summary_md": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T084856Z-lane07-e68befab/source-review-summary.md"
+  },
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-drain-targets/20260614T084856Z-direct-source-review-queue.tsv",
+  "queue_rows": 20121,
+  "remaining_unleased_at_allocation": 19521,
+  "started_at_utc": "2026-06-14T08:48:56Z",
+  "status": "complete",
+  "updated_at_utc": "2026-06-14T08:54:53Z",
+  "verdict_counts": {
+    "merge_existing_surface": 31,
+    "needs_named_source_extraction": 14,
+    "negative_evidence_candidate": 20,
+    "reject_noise": 24,
+    "source_reviewed_candidate": 9,
+    "translation_review_needed": 2
+  }
+}

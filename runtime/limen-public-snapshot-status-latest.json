@@ -1,0 +1,113 @@
+{
+  "blockers": [],
+  "boundary": "Production JSON availability plus local frontend freshness versus current LIMEN compact counters; not a content-quality or completeness claim.",
+  "generated_at_utc": "2026-06-23T15:34:54Z",
+  "infos": [],
+  "limen": {
+    "live": {
+      "bulk_current_output_clean": false,
+      "bulk_parent_source_missing_rows": 2,
+      "bulk_translation_missing_rows": 0,
+      "bulk_translation_parent_source_missing_rows": 0,
+      "case_autoreview_human_acceptance_required_rows": 0,
+      "case_autoreview_paid_token_required_rows": 0,
+      "case_autoreview_rows": 13,
+      "case_final_promoted_to_obscure_ai": 2,
+      "direct_source_missing_rows": 0,
+      "direct_source_queue_rows": 13918,
+      "first_pass_reviewed_rows": 55725,
+      "generated_at_utc": "2026-06-23T15:34:22Z",
+      "promotion_packet_rows": 2003,
+      "review_candidate_rows": 55725
+    },
+    "local": {
+      "bulk_current_output_clean": false,
+      "bulk_parent_source_missing_rows": 2,
+      "bulk_translation_missing_rows": 0,
+      "bulk_translation_parent_source_missing_rows": 0,
+      "case_autoreview_human_acceptance_required_rows": 0,
+      "case_autoreview_paid_token_required_rows": 0,
+      "case_autoreview_rows": 13,
+      "case_final_promoted_to_obscure_ai": 2,
+      "direct_source_missing_rows": 0,
+      "direct_source_queue_rows": 13918,
+      "first_pass_reviewed_rows": 55725,
+      "generated_at_utc": "2026-06-23T15:34:22Z",
+      "promotion_packet_rows": 2003,
+      "review_candidate_rows": 55725
+    },
+    "resolved_url": "https://limen-observatory.pages.dev/data/limen-snapshot.json",
+    "url": "https://limen-observatory.pages.dev/data/limen-snapshot.json"
+  },
+  "obscure_ai": {
+    "live": {
+      "bulk_current_output_clean": false,
+      "bulk_parent_source_missing_rows": 2,
+      "bulk_translation_missing_rows": 0,
+      "bulk_translation_parent_source_missing_rows": 0,
+      "case_autoreview_human_acceptance_required_rows": 0,
+      "case_autoreview_paid_token_required_rows": 0,
+      "case_autoreview_rows": 13,
+      "case_final_obscure_ai_promoted_rows": 2,
+      "count": 297,
+      "direct_source_missing_rows": 0,
+      "direct_source_queue_rows": 13918,
+      "generated_at_utc": "2026-06-23T15:34:41Z",
+      "promotion_packet_rows": 2003,
+      "review_candidate_rows": 55725
+    },
+    "local": {
+      "bulk_current_output_clean": false,
+      "bulk_parent_source_missing_rows": 2,
+      "bulk_translation_missing_rows": 0,
+      "bulk_translation_parent_source_missing_rows": 0,
+      "case_autoreview_human_acceptance_required_rows": 0,
+      "case_autoreview_paid_token_required_rows": 0,
+      "case_autoreview_rows": 13,
+      "case_final_obscure_ai_promoted_rows": 2,
+      "count": 297,
+      "direct_source_missing_rows": 0,
+      "direct_source_queue_rows": 13918,
+      "generated_at_utc": "2026-06-23T15:34:41Z",
+      "promotion_packet_rows": 2003,
+      "review_candidate_rows": 55725
+    },
+    "resolved_url": "https://obscure-ai.eatf.eu/data/cases.json",
+    "url": "https://obscure-ai.eatf.eu/data/cases.json"
+  },
+  "ok": true,
+  "project": {
+    "limen": {
+      "bulk_current_output_clean": false,
+      "bulk_parent_source_missing_rows": 2,
+      "bulk_translation_missing_rows": 0,
+      "bulk_translation_parent_source_missing_rows": 0,
+      "case_autoreview_human_acceptance_required_rows": 0,
+      "case_autoreview_paid_token_required_rows": 0,
+      "case_autoreview_rows": 13,
+      "case_final_promoted_to_obscure_ai": 2,
+      "direct_source_missing_rows": 0,
+      "direct_source_queue_rows": 13918,
+      "first_pass_reviewed_rows": 55725,
+      "promotion_packet_rows": 2003,
+      "review_candidate_rows": 55725
+    },
+    "obscure_ai": {
+      "bulk_current_output_clean": false,
+      "bulk_parent_source_missing_rows": 2,
+      "bulk_translation_missing_rows": 0,
+      "bulk_translation_parent_source_missing_rows": 0,
+      "case_autoreview_human_acceptance_required_rows": 0,
+      "case_autoreview_paid_token_required_rows": 0,
+      "case_autoreview_rows": 13,
+      "case_final_obscure_ai_promoted_rows": 2,
+      "count": 297,
+      "direct_source_missing_rows": 0,
+      "direct_source_queue_rows": 13918,
+      "promotion_packet_rows": 2003,
+      "review_candidate_rows": 55725
+    },
+    "root": "/srv/tyche/projects/limen-ai-edge-case-atlas"
+  },
+  "warnings": []
+}

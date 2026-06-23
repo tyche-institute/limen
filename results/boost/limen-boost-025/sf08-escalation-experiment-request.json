@@ -1,0 +1,103 @@
+{
+  "request_id": "limen-boost-025-sf08-escalation-2026-06-07T18:07:26Z",
+  "created_at": "2026-06-07T18:07:26Z",
+  "lane_id": "limen-boost-025",
+  "project_id": "limen-ai-edge-case-atlas",
+  "project_root": "/srv/tyche/projects/limen-ai-edge-case-atlas",
+  "phase": "boost",
+  "theme": "source-family saturation and blocked-source notes",
+  "goal": "Attempt one materially different, publication-relevant sf08 hardening move without repeating already exhausted public-route retries: either recover exact Nate caption metadata with a genuinely different OCR stack, or confirm that no such stack is currently available on-host and preserve the blocker as a compute/toolchain constraint rather than a discovery failure.",
+  "why_now": "sf08 remains the top Route-B blocker in the hostile-reviewer publication stack. The iTutorGroup branch is currently blocked by already logged public-route friction, while the Nate branch is blocked by normalization quality plus absent OCR tooling on this host. A bounded compute escalation is the smallest non-repeat move that can still change paper-facing court-depth rhetoric.",
+  "priority_tasks": [
+    {
+      "task_id": "SF08-EXP-001",
+      "case_id": "LIMEN-000005",
+      "source_id": "SRC-AUTH-0011",
+      "target": "Nate DOJ-linked indictment PDF exact caption / exact case-number recovery",
+      "current_state": "Public DOJ-linked charging-document PDF is locally captured and hashed, but current bounded local OCR only stabilizes the visible '25 Cr.' fragment and no exact numeric suffix.",
+      "inputs": [
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-009/tmp/u.s._v._saniger_indictment.pdf",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/nate-case-number-ocr-stress-test-v0.1.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-continuous-experiments/sf08-targeted-ocr-variant-log-v0.1.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-continuous-experiments/sf08-indictment-image-profile-v0.1.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/sources/authoritative-source-ledger.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-025/sf08-open-court-frontier-register.tsv"
+      ],
+      "host_preflight": {
+        "pdftotext": true,
+        "pdfimages": true,
+        "mutool": true,
+        "python_pil": true,
+        "tesseract": false,
+        "ocrmypdf": false,
+        "easyocr": false,
+        "paddleocr": false,
+        "rapidocr_python_module": false
+      },
+      "expected_outputs": [
+        "Exact caption string if legible",
+        "Exact case number if legible",
+        "Confidence note distinguishing exact recovery, partial recovery, and non-recoverable state",
+        "Patch-ready field targets for authoritative ledgers and court-family matrices if confidence is adequate",
+        "If recovery fails, a reproducible toolchain-limitation note sharper than the current generic OCR blocker"
+      ],
+      "safe_resource_limits": {
+        "cpu": "single-document bounded OCR only",
+        "ram": "<= 6 GB",
+        "wall_clock": "<= 20 minutes",
+        "disk_new_writes": "<= 6 GB",
+        "network": "only package/model setup if a different OCR stack must be installed; no new evidence crawling"
+      },
+      "success_condition": "Recover at least one exact caption-level field with explicit confidence, or reproduce failure under a materially different OCR stack/toolchain so the blocker can be restated as a toolchain ceiling rather than a low-effort local preprocessing gap.",
+      "non_repeat_guardrail": "Do not rerun more same-image low-diversity variants from the existing RapidOCR-style sweep; progress counts only if the OCR stack or public exact-caption source is materially different."
+    },
+    {
+      "task_id": "SF08-EXP-002",
+      "case_id": "LIMEN-000002",
+      "source_id": "SRC-AUTH-0002",
+      "target": "EEOC / iTutorGroup open-court text capture",
+      "current_state": "Agency-summary pages expose EDNY Civil Action No. 1:22-cv-02565 and settlement/decree narrative, but no complaint, decree, docket entry, or judicial order text is locally captured. Existing public-route probes already logged EEOC newsroom-only depth, CourtListener auth/web blocks, Justia block, EDNY iQuery PACER login gate, challenged generic search, and a JudyRecords no-result fallback.",
+      "inputs": [
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-025/sf08-open-court-frontier-register.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/eeoc-itutorgroup-open-court-probe-v0.1.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/eeoc-itutorgroup-public-court-surface-second-pass-v0.1.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/court-anchor-progress-matrix-v0.1.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/sources/authoritative-source-ledger.tsv"
+      ],
+      "expected_outputs": [
+        "One genuinely different public court-facing or clearly labeled open-mirror document URL if reachable without login",
+        "Exact document type captured if successful (complaint, decree, docket entry, or judicial order)",
+        "If still blocked, a stricter note preserving which route classes are already exhausted and which route class would still count as new"
+      ],
+      "safe_resource_limits": {
+        "cpu": "minimal",
+        "ram": "<= 1 GB",
+        "wall_clock": "<= 15 minutes",
+        "network": "small bounded probes only; no bulk crawling"
+      },
+      "success_condition": "Capture one court-originating public text surface not already logged in the frontier register, or narrow the remaining viable route class without repeating the same blocked public-entry routes.",
+      "non_repeat_guardrail": "Do not repeat EEOC newsroom-page parsing, anonymous CourtListener API/web retries, Justia search, EDNY iQuery login redirects, generic challenged discovery search, or the JudyRecords home-fallback route under the same host posture."
+    }
+  ],
+  "paper_thesis_use": [
+    "If SF08-EXP-001 lands, Table 1A / Figure 8 / claims-layer prose can replace one partial-caption caution with exact court-facing metadata while preserving charging-stage posture.",
+    "If SF08-EXP-002 lands, the weakest authoritative row moves from agency-summary-only toward mixed agency-plus-court support, reducing the main hostile-reviewer objection behind LIMEN-C-010.",
+    "If neither lands, the request still sharpens the methods story by separating source-absence, access-friction, and OCR-toolchain ceilings inside the court-family blocker package."
+  ],
+  "shared_surfaces_most_affected": [
+    "claims.md:LIMEN-C-010",
+    "results/authoritative-scout/authoritative-claim-support-register-v0.1.tsv",
+    "results/dashboard-paper/authoritative-document-depth-facet-v0.1.tsv",
+    "results/dashboard-paper/caption-control-register-v0.1.tsv:CCR-009",
+    "results/boost/limen-boost-039/table1a-control-travel-kit.tsv",
+    "draft/preprint.md",
+    "papers/article-architecture-v0.1.md",
+    "dashboard/limen-dashboard-spec-v0.1.md"
+  ],
+  "boundary_notes": [
+    "Public/open information and local Tyche artifacts only.",
+    "No PACER login, fees, credentials, sealed records, portal submissions, or uploads.",
+    "Do not convert charging-stage or agency-summary materials into adjudicated facts.",
+    "If confidence stays partial, preserve the blocker rather than guessing unread caption digits or court-text content."
+  ]
+}

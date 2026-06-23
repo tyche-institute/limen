@@ -1,0 +1,34 @@
+{
+  "by_query": {
+    "AI vulnerability": 1068,
+    "LLM vulnerability": 2281,
+    "agent security": 937,
+    "agentic failure": 787,
+    "data exfiltration": 1054,
+    "memory poisoning": 740,
+    "model poisoning": 836,
+    "prompt injection": 3324,
+    "tool misuse": 855
+  },
+  "by_root": {
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory": 14,
+    "/srv/tyche/gaia/tyche-research-vault": 399,
+    "/srv/tyche/pallas/pallas-ai-agent-observatory": 6,
+    "/srv/tyche/projects/limen-ai-edge-case-atlas": 11463
+  },
+  "failures": [],
+  "match_count": 11882,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/security-agentic/20260611T021221Z/matches.tsv",
+  "query_count": 10,
+  "roots": [
+    "/srv/tyche/gaia/tyche-research-vault",
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory",
+    "/srv/tyche/pallas/pallas-ai-agent-observatory",
+    "/srv/tyche/projects/public-ai-registry",
+    "/srv/tyche/projects/public-ai-procurement-gap",
+    "/srv/tyche/projects/limen-ai-edge-case-atlas"
+  ],
+  "run_id": "20260611T021221Z",
+  "shard": "security-agentic",
+  "timestamp_utc": "2026-06-11T02:12:24Z"
+}

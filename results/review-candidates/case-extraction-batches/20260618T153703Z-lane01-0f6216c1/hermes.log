@@ -1,0 +1,22 @@
+
+session_id: 20260618_173704_f2d44c
+Готово.
+
+Файлы записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260618T153703Z-lane01-0f6216c1/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260618T153703Z-lane01-0f6216c1/case-extraction-summary.md
+
+Manifest обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260618T153703Z-lane01-0f6216c1/manifest.json
+
+Проверка пройдена:
+- input_rows: 1
+- output_rows: 1
+- header_exact: True
+- source_cluster_key set matches: True
+- duplicate output keys: 0
+- manifest status: completed
+- issues: none
+
+Вердикт по единственному cluster:
+- closed_noncase_source_surface

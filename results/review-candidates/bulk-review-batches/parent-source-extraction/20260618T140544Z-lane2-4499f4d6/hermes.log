@@ -1,0 +1,20 @@
+
+session_id: 20260618_160545_d6976a
+Готово.
+
+Записано:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260618T140544Z-lane2-4499f4d6/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260618T140544Z-lane2-4499f4d6/parent-source-extraction-summary.md
+- обновлён manifest.json со статусом complete
+
+Итог:
+- input rows: 2
+- output rows: 2
+- verdicts: source_url_extracted = 2
+- queue_id set verified equal: yes
+- duplicates/omissions/extras: none
+- broad web crawl / portals / uploads / sends: not performed
+
+Извлечены локально подтверждённые URL:
+- BPSE-03653 → https://algoritmes.overheid.nl/en
+- BPSE-03654 → https://c2pa.org/specifications/

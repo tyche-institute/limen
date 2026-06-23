@@ -1,0 +1,162 @@
+{
+  "blockers": [],
+  "boundary": "Read-only verifier aggregation; does not start mining, process queues, call models, or deploy.",
+  "counts": {
+    "bulk_clean": true,
+    "bulk_missing": 0,
+    "case_autoreview_human_acceptance_rows": 0,
+    "case_autoreview_paid_token_rows": 0,
+    "case_autoreview_rows": 13,
+    "case_extraction_clean": true,
+    "case_extraction_missing": 0,
+    "direct_source_missing": 0,
+    "direct_source_queue": 13918,
+    "first_pass_reviewed": 55725,
+    "hardening_clean": true,
+    "obscure_ai_live_case_rows": 297,
+    "obscure_ai_local_case_rows": 297,
+    "obscure_ai_project_case_rows": 297,
+    "obscure_ai_ready_now": 0,
+    "promotion_packet_rows": 2006,
+    "promotion_source_clusters": 976,
+    "review_candidates": 55725
+  },
+  "generated_at_utc": "2026-06-23T07:08:04Z",
+  "no_token_case_review": {
+    "case_autoreview": {
+      "already_final_adjudicated_rows": 14,
+      "human_acceptance_required_rows": 0,
+      "paid_token_required_rows": 0,
+      "rows": 14,
+      "rows_without_final_adjudication": 0,
+      "token_free_auto_close_rows": 0,
+      "token_free_promotion_candidate_rows": 0
+    },
+    "generated_at_utc": "2026-06-17T09:54:16Z",
+    "ok": true
+  },
+  "ok": true,
+  "public": {
+    "infos": [],
+    "ok": true
+  },
+  "runtime": {
+    "cpu_mining_processes": [],
+    "cpu_mining_sessions": [],
+    "hermes_readiness": {
+      "backlog": {
+        "bulk_missing_rows": 0,
+        "case_extraction_missing_rows": 0,
+        "direct_source_missing_rows": 0,
+        "hardening_translation_missing_rows": 0,
+        "hardening_url_missing_rows": 0,
+        "hermes_review_backlog_rows": 0
+      },
+      "generated_at_utc": "2026-06-23T07:08:04Z",
+      "hermes": {
+        "auth": {
+          "exists": true,
+          "openai_codex_auth_mode": "chatgpt",
+          "openai_codex_has_access_token": true,
+          "openai_codex_has_account_id": true,
+          "openai_codex_has_refresh_token": true,
+          "openai_codex_last_refresh": "2026-06-16T08:10:50.270168Z",
+          "openai_codex_provider_present": true,
+          "path": "/home/anton/.hermes/auth.json"
+        },
+        "binary": {
+          "exists": true,
+          "path": "/home/anton/.local/bin/hermes",
+          "version": "Hermes Agent v0.14.0 (2026.5.16)",
+          "version_returncode": 0
+        },
+        "config": {
+          "default_model": "llama-3.3-70b-versatile",
+          "default_provider": "groq",
+          "exists": true,
+          "fallback_has_openai_codex": false,
+          "path": "/home/anton/.hermes/config.yaml"
+        }
+      },
+      "infos": [
+        {
+          "code": "hermes_default_provider_not_codex",
+          "message": "LIMEN lane launchers pass --provider openai-codex explicitly; global default differs.",
+          "value": "groq"
+        }
+      ],
+      "lanes": {
+        "active_lane_sessions": 0,
+        "by_prefix": {
+          "limen-bulk-source-lane": 0,
+          "limen-bulk-translation-lane": 0,
+          "limen-bulk-translation-source-lane": 0,
+          "limen-case-extraction-lane": 0,
+          "limen-source-review-lane": 0,
+          "limen-translation-review-lane": 0,
+          "limen-url-hardening-lane": 0
+        }
+      },
+      "ok": true,
+      "supervisor": {
+        "cycle_complete_age_seconds": 37,
+        "fresh": true,
+        "latest_cycle_complete_utc": "2026-06-23T07:07:27Z",
+        "latest_cycle_start_utc": "2026-06-23T07:06:32Z",
+        "latest_direct_source_backlog": 0,
+        "log_age_seconds": 36,
+        "log_exists": true,
+        "log_path": "/srv/tyche/projects/limen-ai-edge-case-atlas/logs/limen-hermes-lane-supervisor.log",
+        "recent_failure_lines": [],
+        "recent_quota_lines": [],
+        "session": "limen-hermes-lane-supervisor",
+        "session_present": true
+      }
+    },
+    "log_failure_checks": [],
+    "missing_required_sessions": [],
+    "ok": true,
+    "required_sessions": [
+      "limen-runtime-autostart",
+      "limen-quiet-monitor",
+      "limen-hermes-lane-supervisor",
+      "limen-review-candidate-materializer",
+      "limen-observatory-refresh",
+      "obscure-ai-observatory-refresh"
+    ]
+  },
+  "token_free_review_audit": {
+    "current_human_required_rows": 0,
+    "current_missing_review_rows": 0,
+    "current_paid_token_required_rows": 0,
+    "generated_at_utc": "2026-06-23T07:08:04Z",
+    "incomplete_layers": [],
+    "ok": true
+  },
+  "warnings": [
+    {
+      "code": "runtime_log_stale",
+      "message": "Runtime heartbeat log is stale.",
+      "source": "runtime",
+      "value": {
+        "age_seconds": 401241,
+        "exists": true,
+        "fresh": false,
+        "max_age_seconds": 1200,
+        "path": "/srv/tyche/local-projects/home-anton-projects/tyche-research-vault/logs/limen-observatory-refresh.log"
+      }
+    },
+    {
+      "code": "runtime_log_stale",
+      "message": "Runtime heartbeat log is stale.",
+      "source": "runtime",
+      "value": {
+        "age_seconds": 401225,
+        "exists": true,
+        "fresh": false,
+        "max_age_seconds": 1200,
+        "path": "/srv/tyche/local-projects/home-anton-projects/tyche-research-vault/logs/obscure-ai-observatory-refresh.log"
+      }
+    }
+  ]
+}

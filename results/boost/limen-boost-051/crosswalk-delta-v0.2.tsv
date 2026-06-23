@@ -1,0 +1,9 @@
+[{
+  "source_family": "CSET AI Harm Repository",
+  "crosswalk_count": 1,
+  "added_at": "2026-06-24T14:30:00Z",
+  "provenance": "Manually added per crosswalk-preview.md recommendation to expand security-focused AI application categories",
+  "license": "CC BY 4.0",
+  "verification_needed": true,
+  "dashboard_hook": "security-application-taxonomy"
+}] 

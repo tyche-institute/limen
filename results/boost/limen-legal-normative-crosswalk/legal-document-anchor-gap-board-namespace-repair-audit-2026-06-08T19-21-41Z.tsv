@@ -1,0 +1,4 @@
+category_code	old_state	new_state	old_direct_rows	new_direct_rows	old_summary_rows	new_summary_rows	old_no_document_rows	new_no_document_rows	repair_basis
+research_integrity		no_direct_document_anchor_visible		0		0		0	Recomputed from category-safe legal-document-depth-board and legal-category-document-depth-summary rather than cross-namespace case-id suffix matching.
+health_medical_or_mental_health		no_direct_document_anchor_visible		0		0		0	Recomputed from category-safe legal-document-depth-board and legal-category-document-depth-summary rather than cross-namespace case-id suffix matching.
+residual_unclassified		no_direct_document_anchor_visible		0		0		0	Recomputed from category-safe legal-document-depth-board and legal-category-document-depth-summary rather than cross-namespace case-id suffix matching.

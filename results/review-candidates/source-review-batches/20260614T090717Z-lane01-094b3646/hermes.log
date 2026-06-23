@@ -1,0 +1,23 @@
+
+session_id: 20260614_110718_c8597f
+Готово.
+
+Файлы записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090717Z-lane01-094b3646/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090717Z-lane01-094b3646/source-review-summary.md
+
+Манифест обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090717Z-lane01-094b3646/manifest.json
+
+Проверка выполнена:
+- входных строк: 100
+- выходных строк: 100
+- множество signal_id совпадает: true
+
+Итоговые counts:
+- source_reviewed_candidate: 3
+- merge_existing_surface: 7
+- negative_evidence_candidate: 16
+- needs_named_source_extraction: 21
+- translation_review_needed: 2
+- reject_noise: 51

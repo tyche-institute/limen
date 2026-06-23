@@ -1,0 +1,178 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-0002",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-07T04:26:45Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-receipt-profile-dashboard-live-20260607T042645Z",
+  "action": "published",
+  "subject_ref": {
+    "kind": "artifact",
+    "id": "limen-dashboard-architecture-bundle-v0.1",
+    "path_or_uri": "dashboard/limen-dashboard-spec-v0.1.md",
+    "title": "LIMEN dashboard architecture bundle with duplicate-control export provenance",
+    "version": "2026-06-07T04:16:28Z"
+  },
+  "inputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "dashboard/limen-dashboard-spec-v0.1.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-07T04:16:28Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:7b8c05e67609e78bfd4584b23afe1bc82c14a6812f613250cc440a61226156dc"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/dashboard-paper/status.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-07T04:16:28Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:3f017d74d55bc34019b1f4063b46e98abc053c0f960a57f859042021091e8a75"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/boost/limen-dashboard-paper-forge/duplicate-review-graph.tsv",
+      "media_type": "text/tab-separated-values",
+      "captured_at": "2026-06-07T04:16:28Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:919c9b9cea641d47fec65f127138fb7c97692413fdcbfe8092a0f7a37dc8a5eb"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "schema/limen-envelope.schema.json",
+      "media_type": "application/json",
+      "captured_at": "2026-06-07T03:17:36Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:a97de6c9b75d88703194d5ff082810e8ffdd5c906b78ec8338257d9436b5499f"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/downstream-dashboard-artifact-audit-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:2b69b76456bfb9769e9fceb3911bcea042b7aef936cf3641baf382d16d91373d",
+      "emitted_at": "2026-06-07T04:26:45Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from dashboard-specification and dashboard-status materials"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "A1",
+      "assertion_type": "artifact_derivation",
+      "statement": "A live local export generated a bounded audit table binding the current LIMEN dashboard architecture bundle to exact input hashes and reviewer-safe dashboard hooks.",
+      "value": {
+        "input_count": 4,
+        "audit_rows": 3,
+        "derived_artifact": "results/attestation/downstream-dashboard-artifact-audit-v0.1.tsv"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A2",
+      "assertion_type": "review_decision",
+      "statement": "The receipt binds a non-attestation downstream artifact path and remains limited to observation-and-processing provenance about dashboard-package derivation.",
+      "value": {
+        "schema_validation": "pass",
+        "claim_scope": "observation_and_processing_only",
+        "downstream_artifact_path": "dashboard/limen-dashboard-spec-v0.1.md"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A3",
+      "assertion_type": "uncertainty_note",
+      "statement": "This live dashboard receipt does not assert truth of underlying cases, duplicate correctness beyond the cited local export state, legal validity, compliance, certification, signature verification, transparency-log inclusion, or VC issuance.",
+      "value": {
+        "excluded_claims": [
+          "truth",
+          "legality",
+          "compliance",
+          "certification",
+          "safety",
+          "completeness"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    }
+  ],
+  "schema_refs": [
+    "urn:tyche:limen:envelope:0.1"
+  ],
+  "tooling": {
+    "tool_manifest_hash": "sha256:a97de6c9b75d88703194d5ff082810e8ffdd5c906b78ec8338257d9436b5499f",
+    "prompt_hash": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+    "model_name": "python3-stdlib+jsonschema",
+    "provider": "local_execution",
+    "schema_version": "0.1"
+  },
+  "review_status": "lane_checked",
+  "review_notes": [
+    "This receipt attests a downstream dashboard-package export step only.",
+    "The duplicate-review graph remains a methods-quality-control artifact rather than recurrence evidence.",
+    "No detached signature, VC issuance, or transparency-log inclusion proof is claimed in this live artifact."
+  ],
+  "dashboard_hooks": [
+    "attestation_timeline",
+    "duplicate_cluster_graph",
+    "source_family_map",
+    "taxonomy_heatmap",
+    "legal_uncertainty_matrix"
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "batch_id": "20260617T080540Z-local-autoresolve",
+  "completed_at_utc": "2026-06-17T08:05:40Z",
+  "created_at_utc": "2026-06-17T08:05:40Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260617T080540Z-local-autoresolve/input.tsv",
+  "input_rows": 88,
+  "local_autoresolve": true,
+  "started_at_utc": "2026-06-17T08:05:40Z",
+  "status": "complete",
+  "task": "named-url-extraction",
+  "updated_at_utc": "2026-06-17T08:05:40Z",
+  "verdict_counts": {
+    "source_path_is_snapshot_only": 13,
+    "url_extracted": 23,
+    "wrapper_needs_parent_source": 52
+  }
+}

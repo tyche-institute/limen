@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "CASE-001",
+    "title": "AI Misuse in Healthcare Misdiagnosis",
+    "evidence_tier": "A",
+    "sources": [
+      "https://example.com/healthcare-ai-case1",
+      "https://example.com/healthcare-ai-case2"
+    ],
+    "crosswalk": {
+      "AIID": "H3",
+      "OECD AIM": "R.2",
+      "MITRE ATLAS": "CA-23"
+    },
+    "status": "verified",
+    "notes": "Verified through peer-reviewed studies and official reports."
+  },
+  {
+    "case_id": "CASE-002",
+    "title": "AI-Generated Deepfake in Political Disinformation",
+    "evidence_tier": "B",
+    "sources": [
+      "https://example.com/political-deepfake1",
+      "https://example.com/political-deepfake2"
+    ],
+    "crosswalk": {
+      "AIID": "P7",
+      "OECD AIM": "D.1",
+      "MITRE ATLAS": "DF-15"
+    },
+    "status": "provisional",
+    "notes": "Requires additional verification for full evidence tier A."
+  }
+]

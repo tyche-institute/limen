@@ -1,0 +1,29 @@
+
+session_id: 20260614_110902_1233c5
+Готово.
+
+Сделано:
+- source-review-results.tsv: /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090902Z-lane12-ffbb2f27/source-review-results.tsv
+- source-review-summary.md: /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090902Z-lane12-ffbb2f27/source-review-summary.md
+- manifest.json обновлён: /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090902Z-lane12-ffbb2f27/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- signal_id set match: true
+- missing: none
+- extra: none
+- duplicate output ids: none
+
+Итоги по verdict:
+- source_reviewed_candidate: 2
+- merge_existing_surface: 9
+- negative_evidence_candidate: 20
+- needs_named_source_extraction: 31
+- translation_review_needed: 2
+- reject_noise: 36
+
+Граница соблюдена:
+- использованы только локальные metadata/файлы
+- без web crawl / portal actions
+- без выводов о truth / legality / compliance / safety / prevalence / ranking

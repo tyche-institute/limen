@@ -1,0 +1,229 @@
+Southern District of New York |  Tech CEO Charged In Artificial Intelligence Investment Fraud Scheme | United States Department of Justice
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+DOJ Menu
+U.S. Department
+of Justice
+About
+The Attorney General
+Organizational Chart
+Budget & Performance
+History
+Privacy Program
+Our Work
+News
+Press Releases
+Speeches
+Videos
+Photo Galleries
+Blogs
+Podcasts
+Resources
+Guidance Documents
+Forms
+Publications
+Information for Victims in Large Cases
+Justice Manual
+Business and Contracts
+Grants
+Employment
+Why Justice ?
+Benefits
+DOJ Vacancies
+Legal Careers at DOJ
+About SDNY
+Find Help
+Contact Us
+Utilities
+About SDNY
+Find Help
+Contact Us
+Search
+Menu
+Close
+About
+About
+About The District
+Meet the U.S. Attorney
+Senior Leadership
+Divisions
+Divisions
+Civil Division
+White Plains Division
+Priorities
+Priorities
+Combatting Local and National Narcotics Trafficking and Associated Violence, Financing, and Poisonings
+Combatting Gun and Gang-Related Violence
+Human Trafficking and Sexual Exploitation of Minors
+Holding Corrupt Public Officials Accountable
+Civil Division Priorities
+News
+News
+Press Releases
+Press Conferences 2025 to Present
+Press Conferences 2012 – 2025
+Speeches
+Resources
+Resources
+Department of Justice Harassment Prevention Resource
+SDNY Weekly Court Calendar
+Employment
+Employment
+Benefits
+Law Student Internships
+Graduate Internships
+Undergraduate Internships
+Support Staff
+Programs
+Programs
+Victim & Witness Services
+Community Outreach
+Reentry Program
+Self-Reporting and Whistleblower Programs
+Self-Reporting and Whistleblower Programs
+Whistleblower Program
+Corporate Self-Reporting and Cooperation Program
+Subscribe to SDNY News Alerts
+About SDNY
+Find Help
+Contact Us
+Main Menu
+U.S. Department of Justice
+About
+title="About"
+About
+The Attorney General
+Organizational Chart
+Budget & Performance
+History
+Privacy Program
+Our Work
+News
+title="News"
+News
+Press Releases
+Speeches
+Videos
+Photo Galleries
+Blogs
+Podcasts
+Resources
+title="Guidance & Resources"
+Resources
+Guidance Documents
+Forms
+Publications
+Information for Victims in Large Cases
+Justice Manual
+Business and Contracts
+Grants
+Employment
+Employment
+Why Justice ?
+Benefits
+DOJ Vacancies
+Legal Careers at DOJ
+About SDNY
+Find Help
+Contact Us
+Search
+Breadcrumb
+Justice.gov
+U.S. Attorneys
+Southern District of New York
+Press Releases
+Tech CEO Charged In Artificial Intelligence Investment Fraud Scheme
+Press Release
+Tech CEO Charged In Artificial Intelligence Investment Fraud Scheme
+Wednesday, April 9, 2025
+Share
+Facebook
+X
+LinkedIn
+Email
+For Immediate Release
+U.S. Attorney's Office,               Southern District of New York
+Former CEO of Nate, Inc. Charged with Making False Claims About His Company’s Artificial Intelligence Technology
+Matthew Podolsky, the Acting United States Attorney for the Southern District of New York, and Christopher G. Raia, the Assistant Director in Charge of the New York Field Office of the Federal Bureau of Investigation (“FBI”), announced today an Indictment charging ALBERT SANIGER, the former Chief Executive Officer of Nate, Inc. (“nate”), with engaging in a scheme to defraud investors and prospective investors of nate by making false and misleading statements about nate’s use of proprietary AI technology and its operational capabilities.
+Acting U.S. Attorney Matthew Podolsky said: “As alleged, Albert Saniger misled investors by exploiting the promise and allure of AI technology to build a false narrative about innovation that never existed. This type of deception not only victimizes innocent investors, it diverts capital from legitimate startups, makes investors skeptical of real breakthroughs, and ultimately impedes the progress of AI development. This Office and our partners at the FBI will continue to pursue those who seek to harm investors by touting false innovation.”
+FBI Assistant Director in Charge Christopher G. Raia said: "Albert Saniger allegedly defrauded investors with fabrications of his company's purported artificial intelligence capabilities while covertly employing personnel to satisfy the illusion of technological automation. Saniger allegedly abused the integrity associated with his former position as the CEO to perpetuate a scheme filled with smoke and mirrors. The FBI will continue to investigate any business owner who withholds material information to encourage additional investments."
+According to the allegations contained in the Indictment:
+[1]
+In or about 2018, SANIGER founded nate, an e-commerce company that launched the nate app. SANIGER marketed the nate app as a universal shopping cart app that simplified online shopping by enabling users to “skip the checkout” on retail website by reducing the checkout process to a “single tap.” For example, if a consumer found a pair of sneakers that they wanted to purchase on a particular e-commerce site, the user could buy the sneakers by opening the nate app and clicking “buy.” The nate app purported to take care of the remainder of the checkout process through AI: selecting the appropriate size, entering billing and shipping information, and confirming the purchase.
+Nate distinguished itself from other e-commerce companies and apps through a single defining feature: the ability to intelligently and quickly complete retail transactions across all e-commerce sites through the use of AI technology. SANIGER repeatedly told investors and the public that the company’s app used proprietary AI technology to autonomously complete online purchases on behalf of users.
+Based on representations about nate’s use of AI, SANIGER solicited investments from venture capital firms. In pitch materials transmitted to investors, SANIGER touted the company’s use of AI and represented that nate was “able to transact online without human intervention.” As prospective investors conducted due diligence, SANIGER repeatedly represented that—except for certain “edge cases” in which the AI failed to complete a customer transaction—the nate app was fully automated based on AI.
+In reality, nate did not use AI to autonomously navigate the checkout process of e-commerce websites and complete purchases on behalf of users. While SANIGER had acquired AI technology from a third party and hired a team of data scientists to develop it, nate’s AI never achieved the ability to consistently complete e-commerce purchases. As SANIGER knew, at the time nate was claiming to use AI to automate online purchases, the app’s actual automation rate was effectively zero percent. SANIGER concealed that reality from investors and most nate employees: he told employees to keep nate’s automation rate secret; he restricted access to nate’s “automation rate dashboard,” which displayed automation metrics; and he provided false explanations for his secrecy, such as the automation data was a “trade secret.”
+In truth, nate relied heavily on teams of human workers—primarily located overseas—to manually process transactions in secret, mimicking what users believed was being done by automation. SANIGER used hundreds of contractors, or “purchasing assistants,” in a call center located in the Philippines to manually complete purchases occurring over the nate app. In or about the fall of 2021, with the busy holiday shopping approaching, and despite his numerous prior representations that nate did not use bots (or “dumb bots”, as he referred to them), SANIGER directed nate’s engineering team to develop “bots” to automate some transactions on the nate app.  After creating the bots, nate used bots in addition to the manual teams to complete purchases that were purportedly being completed by AI technology.
+SANIGER raised more than $40 million from multiple investors based in part on his representations to investors about nate’s development and deployment of AI.
+*                      *                      *
+SANIGER, 35, of Barcelona, Spain, is charged with one count of securities fraud, which carries a maximum sentence of 20 years in prison, and one count of wire fraud, which also carries a maximum sentence of 20 years in prison.
+The maximum potential sentences in this case are prescribed by Congress and are provided here for informational purposes only, as any sentencing of the defendant will be determined by the judge.
+Mr. Podolsky praised the outstanding investigative work of the Special Agents from the FBI.  Mr. Podolsky also thanked the U.S. Securities and Exchange Commission, which has filed a parallel civil action.
+The case is being handled by the Office’s Securities and Commodities Fraud Task Force and the Complex Frauds and Cybercrime Unit, and Assistant U.S. Attorneys Nicholas W. Chiuchiolo, Alexandra Messiter, and Sarah Mortazavi are in charge of the prosecution.
+The charges contained in the Indictment are merely accusations and the defendant is presumed innocent unless and until proven guilty.
+u.s._v._saniger_indictment.pdf
+[1]
+As the introductory phrase signifies, the entirety of the text of the Indictment and the descriptions of the Indictment constitute only allegations, and every fact described should be treated as an allegation.
+Contact
+Nicholas Biase, Shelby Wratchford
+(212) 637-2600
+Updated April 10, 2025
+Topics
+Cybercrime
+Securities, Commodities, & Investment Fraud
+Component
+USAO - New York, Southern
+Press Release Number:
+25-082
+Related Content
+Press Release
+Manhattan-Based Investment Analyst Charged With Insider Trading
+United States Attorney for the Southern District of New York, Jay Clayton, and Assistant Director in Charge of the New York Field Office of the Federal Bureau of Investigation (“FBI”)...
+June 5, 2026
+Press Release
+Former Corporate Executive Sentenced To 26 Months In Prison For Insider Trading Scheme
+United States Attorney for the Southern District of New York, Jay Clayton, announced that PAUL JORGENSEN, the former Chief Revenue Officer of Doximity, was sentenced on May 21, 2026, by...
+May 27, 2026
+Press Release
+Google Employee Charged With Insider Trading
+United States Attorney for the Southern District of New York, Jay Clayton, and Assistant Director in Charge of the New York Field Office of the Federal Bureau of Investigation (“FBI”)...
+May 27, 2026
+Southern District of New York
+26 Federal Plaza, 37th Floor
+New York, NY 10278
+Main Office & Criminal Division: (212) 637-2200
+twitter
+facebook
+youtube
+About
+Budget & Performance
+Archives
+FOIA
+Accessibility
+Legal Policies & Disclaimers
+Privacy
+For Employees
+Office of the Inspector General
+No FEAR Act Data
+EEO Policy Statement
+Vulnerability Disclosure
+Multilingual
+Vote.gov
+Have a question about Government Services?
+Contact USA.gov
+Top

@@ -1,0 +1,55 @@
+{
+  "batch_id": "20260616T225503Z-lane24-c3bcb710",
+  "batch_size": 16,
+  "completed_at_utc": "2026-06-16T22:58:21Z",
+  "created_at_utc": "2026-06-16T22:55:03Z",
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225503Z-lane24-c3bcb710/input.tsv",
+  "input_rows": 16,
+  "lane_id": "lane24",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225503Z-lane24-c3bcb710/case-extraction-results.tsv",
+  "output_rows": 16,
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-source-surface-disposition-v0.1.tsv",
+  "queue_rows": 975,
+  "remaining_unleased_at_allocation": 607,
+  "started_at_utc": "2026-06-16T22:55:03Z",
+  "status": "complete",
+  "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225503Z-lane24-c3bcb710/case-extraction-summary.md",
+  "task": "source-surface-case-extraction",
+  "updated_at_utc": "2026-06-16T22:58:21Z",
+  "verdict_counts": {
+    "blocked_no_public_source": 1,
+    "closed_noncase_source_surface": 14,
+    "needs_original_source_text": 1
+  },
+  "verification": {
+    "duplicate_output_source_cluster_keys": false,
+    "input_rows": 16,
+    "output_rows": 16,
+    "required_header": [
+      "source_cluster_key",
+      "case_extraction_verdict",
+      "source_url_or_locator",
+      "source_name",
+      "source_host",
+      "proposed_case_title",
+      "proposed_evidence_tier",
+      "proposed_limen_categories",
+      "source_record_date",
+      "jurisdiction",
+      "bounded_claim_candidate",
+      "claim_ceiling",
+      "forbidden_overread",
+      "rationale",
+      "required_before_reviewed_core",
+      "required_before_obscure_ai",
+      "next_action"
+    ],
+    "same_source_cluster_key_set": true,
+    "verdict_counts": {
+      "blocked_no_public_source": 1,
+      "closed_noncase_source_surface": 14,
+      "needs_original_source_text": 1
+    }
+  }
+}

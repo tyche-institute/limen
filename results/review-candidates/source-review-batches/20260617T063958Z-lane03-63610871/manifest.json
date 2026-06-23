@@ -1,0 +1,48 @@
+{
+  "batch_id": "20260617T063958Z-lane03-63610871",
+  "batch_size": 160,
+  "completed_at_utc": "2026-06-17T06:45:38Z",
+  "created_at_utc": "2026-06-17T06:39:58Z",
+  "details": "Reviewed every input signal_id exactly once using local metadata/source-path context only; no broad web crawl or public/portal actions. Verified output TSV has the exact required header, 160 output rows, no duplicate signal_id values, and the same signal_id set as the input.",
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T063958Z-lane03-63610871/source-review-input.tsv",
+  "input_rows": 160,
+  "lane_id": "lane03",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T063958Z-lane03-63610871/source-review-results.tsv",
+  "output_rows": 160,
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-drain-targets/20260617T063957Z-direct-source-review-queue.tsv",
+  "queue_rows": 15766,
+  "remaining_unleased_at_allocation": 1184,
+  "source_review_verdict_counts": {
+    "merge_existing_surface": 1,
+    "needs_named_source_extraction": 88,
+    "negative_evidence_candidate": 53,
+    "reject_noise": 4,
+    "source_reviewed_candidate": 9,
+    "translation_review_needed": 5
+  },
+  "started_at_utc": "2026-06-17T06:39:58Z",
+  "status": "complete",
+  "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T063958Z-lane03-63610871/source-review-summary.md",
+  "updated_at_utc": "2026-06-17T06:45:38Z",
+  "verdict_counts": {
+    "merge_existing_surface": 1,
+    "needs_named_source_extraction": 88,
+    "negative_evidence_candidate": 53,
+    "reject_noise": 4,
+    "source_reviewed_candidate": 9,
+    "translation_review_needed": 5
+  },
+  "verification": {
+    "all_lines_7_fields": true,
+    "allowed_verdicts_ok": true,
+    "duplicate_output_ids": 0,
+    "header_exact": true,
+    "input_rows": 160,
+    "output_rows": 160,
+    "physical_lines": 161,
+    "physical_lines_expected": 161,
+    "same_row_count": true,
+    "same_signal_id_set": true
+  }
+}

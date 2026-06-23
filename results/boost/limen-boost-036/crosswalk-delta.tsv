@@ -1,0 +1,12 @@
+AIID_Case_ID	MITRE_Vector	OECD_Principle	CSET_Category	AVID_Mapping	Evidence_Tier	Uncertainty
+LIMEN-000045	TA0001: Initial Access	AI-00(2024) Principle 1
+CSET-AT-001
+AVID-SEC-002
+Official MITRE documentation
+Low
+
+LIMEN-000046	TA0022: Hide Artifacts	AI-04(2024) Principle 4
+CSET-AT-045
+AVID-SEC-014
+Public AVID incident report
+Medium

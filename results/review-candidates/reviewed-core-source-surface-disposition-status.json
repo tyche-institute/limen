@@ -1,0 +1,69 @@
+{
+  "boundary": "Disposition accounting only; no reviewed-core promotion or ObscureAI addition occurred.",
+  "case_extraction_candidate_clusters": 0,
+  "case_extraction_candidate_rows": 0,
+  "case_extraction_dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-extraction-queue.tsv",
+  "case_extraction_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-extraction-queue-v0.1.tsv",
+  "closed_clusters": 974,
+  "closed_packet_rows": 2003,
+  "completion_status_counts": {
+    "closed_duplicate": 4,
+    "closed_noncase_source_surface": 970
+  },
+  "completion_status_packet_row_counts": {
+    "closed_duplicate": 15,
+    "closed_noncase_source_surface": 1988
+  },
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-source-surface-disposition.tsv",
+  "destination_counts": {
+    "reviewed_core_lineage_only": 4,
+    "source_family_accounting": 970
+  },
+  "generated_at_utc": "2026-06-23T17:23:45Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-promotion-packet-v0.1.tsv",
+  "obscure_ai_ready_now": 0,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-source-surface-disposition-v0.1.tsv",
+  "packet_rows": 2003,
+  "packet_rows_represented": 2003,
+  "public_disposition_counts": {
+    "duplicate_existing_reviewed_core": 4,
+    "noncase_patent_or_ip_surface": 37,
+    "noncase_policy_or_law_surface": 113,
+    "noncase_register_or_transparency_surface": 240,
+    "noncase_scholarly_or_index_surface": 318,
+    "noncase_source_surface_context_only": 245,
+    "noncase_vendor_docs_or_product_surface": 17
+  },
+  "public_disposition_packet_row_counts": {
+    "duplicate_existing_reviewed_core": 15,
+    "noncase_patent_or_ip_surface": 85,
+    "noncase_policy_or_law_surface": 341,
+    "noncase_register_or_transparency_surface": 527,
+    "noncase_scholarly_or_index_surface": 507,
+    "noncase_source_surface_context_only": 433,
+    "noncase_vendor_docs_or_product_surface": 95
+  },
+  "source_clusters": 974,
+  "top_hosts": {
+    "(local/locator)": 14,
+    "aesia.digital.gob.es": 9,
+    "agid.gov.it": 5,
+    "ai.hel.fi": 7,
+    "algoritmes.overheid.nl": 38,
+    "api.crossref.org": 20,
+    "api.openalex.org": 10,
+    "cnil.fr": 5,
+    "digdir.no": 5,
+    "digital-strategy.ec.europa.eu": 5,
+    "doi.org": 285,
+    "eur-lex.europa.eu": 11,
+    "gov.br": 7,
+    "gov.uk": 9,
+    "kratid.ee": 5,
+    "patents.google.com": 26,
+    "patentscope.wipo.int": 6,
+    "ria.ee": 5,
+    "socialprotectionai.org": 6,
+    "ttja.ee": 5
+  }
+}

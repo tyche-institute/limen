@@ -1,0 +1,32 @@
+
+session_id: 20260616_143658_f4241c
+Готово.
+
+Созданы/обновлены:
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T123656Z-lane4-64f12cac/bulk-translation-review-results.tsv
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T123656Z-lane4-64f12cac/bulk-translation-review-summary.md
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T123656Z-lane4-64f12cac/manifest.json
+
+Проверка пройдена:
+
+- required header: OK
+- input rows: 16
+- output rows: 16
+- queue_id set matches input: OK
+- duplicate output queue_id: none
+- missing queue_id: none
+- extra queue_id: none
+- invalid verdicts: none
+- tabs/newlines inside fields: none
+- manifest status: completed
+
+Verdict counts:
+
+- translation_source_reviewed: 7
+- source_surface_only_no_case: 4
+- cross_project_duplicate: 3
+- machine_translation_hold: 1
+- candidate_for_parent_source_extraction: 1

@@ -1,0 +1,24 @@
+
+session_id: 20260617_092936_898f99
+Готово.
+
+Созданы/обновлены:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072935Z-lane10-1953bc8f/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072935Z-lane10-1953bc8f/source-review-summary.md
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072935Z-lane10-1953bc8f/manifest.json
+
+Verification: PASS
+- input rows: 160
+- output rows: 160
+- unique output signal_id: 160
+- signal_id set matches input exactly
+- output header matches required schema
+- manifest status: completed
+
+Verdict counts:
+- needs_named_source_extraction: 129
+- merge_existing_surface: 13
+- source_reviewed_candidate: 6
+- negative_evidence_candidate: 12
+- translation_review_needed: 0
+- reject_noise: 0

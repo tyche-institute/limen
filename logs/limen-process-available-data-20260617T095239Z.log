@@ -1,0 +1,1080 @@
+[2026-06-17T09:52:39Z] process available data start log=/srv/tyche/projects/limen-ai-edge-case-atlas/logs/limen-process-available-data-20260617T095239Z.log
+[2026-06-17T09:52:39Z] run: python3 tools/materialize_review_candidates.py
+{
+  "duplicate_rows_collapsed": 0,
+  "inputs": {
+    "health-finance-education": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/health-finance-education/20260617T085754Z/matches.tsv",
+    "identity-provenance": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/identity-provenance/20260617T084814Z/matches.tsv",
+    "legal-research": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/legal-research/20260617T085758Z/matches.tsv",
+    "public-sector": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/public-sector/20260617T084816Z/matches.tsv",
+    "residual-weird": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/residual-weird/20260617T085749Z/matches.tsv",
+    "security-agentic": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/security-agentic/20260617T085759Z/matches.tsv"
+  },
+  "raw_rows": 71269,
+  "review_candidate_rows": 67874,
+  "self_echo_rows_excluded": 3395,
+  "timestamp": "2026-06-17T09:52:39Z"
+}
+[2026-06-17T09:52:40Z] run: python3 tools/review_all_candidates.py
+{
+  "timestamp": "2026-06-17T09:52:40Z",
+  "candidate_rows": 67874
+}
+[2026-06-17T09:52:43Z] run: python3 tools/build_bulk_source_review_routing.py
+{
+  "boundary": "Bulk routing is processing-state only; no promotion, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+  "bulk_route_counts": {
+    "closed_merge_existing_surface": 2002,
+    "closed_negative_evidence": 4552,
+    "closed_reject_noise": 4131,
+    "done_source_reviewed_layer_closed": 1412,
+    "next_named_source_extraction": 5049,
+    "next_translation_or_language_review": 764
+  },
+  "current_queue_missing_rows": 0,
+  "current_queue_reviewed_rows": 17910,
+  "current_queue_rows": 17910,
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-source-review-routing.tsv",
+  "generated_at_utc": "2026-06-17T09:52:43Z",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-source-review-routing-v0.1.tsv",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/direct-source-review-queue.tsv",
+  "source_review_verdict_counts": {
+    "merge_existing_surface": 2002,
+    "needs_named_source_extraction": 5049,
+    "negative_evidence_candidate": 4552,
+    "reject_noise": 4131,
+    "source_reviewed_candidate": 1412,
+    "translation_review_needed": 764
+  }
+}
+[2026-06-17T09:52:43Z] run: python3 tools/build_bulk_named_source_autoresolve.py
+{
+  "autoresolve_status_counts": {
+    "unresolved_needs_parent_source_extraction": 3641,
+    "url_found_near_source_line": 1408
+  },
+  "boundary": "Deterministic URL/locator extraction only; no reviewed-core promotion, factual claim, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-named-source-autoresolve.tsv",
+  "generated_at_utc": "2026-06-17T09:52:45Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-source-review-routing-v0.1.tsv",
+  "input_rows": 5049,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-named-source-autoresolve-v0.1.tsv",
+  "resolved_rows": 1408,
+  "unresolved_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-named-source-unresolved-queue-v0.1.tsv",
+  "unresolved_rows": 3641
+}
+[2026-06-17T09:52:45Z] run: python3 tools/prepare_bulk_review_queues.py
+{
+  "boundary": "Bulk follow-up queues only; no reviewed-core promotion or ObscureAI addition.",
+  "generated_at_utc": "2026-06-17T09:52:45Z",
+  "source_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/parent-source-extraction-queue.tsv",
+  "source_queue_role_counts": {
+    "atlas_country_profile_indicator": 39,
+    "atlas_dimension_without_named_source": 30,
+    "atlas_indicator_or_country_profile": 46,
+    "atlas_indicator_or_profile_row": 49,
+    "atlas_profile_wrapper": 31,
+    "country_gap_or_score_placeholder": 30,
+    "country_profile_dimension_label": 23,
+    "country_profile_or_atlas_wrapper": 53,
+    "country_profile_wrapper": 104,
+    "country_query_pack": 270,
+    "country_research_queue_wrapper": 24,
+    "direct_surface_candidate": 47,
+    "internal_aggregate": 62,
+    "jurisdiction_source_pack": 99,
+    "observability research queue row": 94,
+    "profile_or_manifest_wrapper": 26,
+    "proxy_or_wrapper_surface": 48,
+    "query_pack": 76,
+    "query_pack_wrapper": 63,
+    "research_query_pack": 69,
+    "research_queue_prompt": 25,
+    "research_queue_query_bundle": 97,
+    "research_queue_search_pack": 108,
+    "research_queue_wrapper": 311,
+    "source_pack_or_research_queue": 27,
+    "source_pack_or_wrapper": 51,
+    "source_pack_proxy": 693,
+    "source_surface_triage": 83,
+    "wrapper_or_proxy": 92,
+    "wrapper_or_proxy_row": 23
+  },
+  "source_queue_rows": 3641,
+  "translation_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/bulk-translation-review-queue.tsv",
+  "translation_queue_role_counts": {
+    "auto_translated_register_record": 5,
+    "direct_source_surface": 12,
+    "direct_surface": 6,
+    "direct_surface_candidate": 10,
+    "foreign_language_digest": 4,
+    "multilingual_direct_source_surface": 7,
+    "multilingual_direct_surface": 6,
+    "multilingual_official_source": 12,
+    "named_official_source_non_english": 8,
+    "named_official_source_translation_sensitive": 7,
+    "named_official_surface_translation_sensitive": 6,
+    "non_english_direct_source": 6,
+    "non_english_direct_surface": 12,
+    "non_english_official_surface": 29,
+    "non_english_surface": 11,
+    "official_non_english_surface": 14,
+    "translated_register_record": 6,
+    "translation-sensitive direct source surface": 10,
+    "translation-sensitive direct surface": 8,
+    "translation-sensitive official surface": 10,
+    "translation_sensitive_candidate": 14,
+    "translation_sensitive_digest": 5,
+    "translation_sensitive_direct_or_adjacent_source": 14,
+    "translation_sensitive_direct_source": 15,
+    "translation_sensitive_direct_surface": 16,
+    "translation_sensitive_official_surface": 65,
+    "translation_sensitive_source_log": 4,
+    "translation_sensitive_source_surface": 4,
+    "translation_sensitive_surface": 242,
+    "translation_sensitive_surface_pointer": 10
+  },
+  "translation_queue_rows": 764
+}
+[2026-06-17T09:52:45Z] run: python3 tools/build_bulk_review_rollup.py
+{
+  "all_queues_complete": true,
+  "archived_stale_result_queue_ids": 8,
+  "boundary": "Bulk rollup is processing-state only; no reviewed-core promotion, ObscureAI addition, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+  "current_output_clean": true,
+  "generated_at_utc": "2026-06-17T09:52:45Z",
+  "has_blocking_integrity_issue": false,
+  "has_duplicate_queue_ids": false,
+  "has_duplicate_queue_ids_in_queue": false,
+  "has_extra_queue_ids": true,
+  "has_failed_batches": false,
+  "has_signal_mismatch_queue_ids": true,
+  "has_stale_result_queue_ids": true,
+  "tasks": {
+    "bulk_translation_review": {
+      "completed_unique_queue_ids": 764,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-translation-review-results.tsv",
+      "duplicate_queue_ids": 0,
+      "duplicate_queue_ids_in_queue": 0,
+      "extra_queue_ids": 0,
+      "failed_batches": [],
+      "manifest_statuses": {
+        "complete": 50
+      },
+      "manifest_verdict_counts": {
+        "candidate_for_parent_source_extraction": 125,
+        "cross_project_duplicate": 143,
+        "machine_translation_hold": 40,
+        "needs_original_language_source": 57,
+        "reject_noise": 12,
+        "source_surface_only_no_case": 232,
+        "translation_source_reviewed": 159
+      },
+      "missing_queue_ids": 0,
+      "name": "bulk_translation_review",
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-translation-review-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/bulk-translation-review-queue.tsv",
+      "queue_rows": 764,
+      "result_files": 50,
+      "result_rows_seen": 768,
+      "sample_duplicate_queue_ids": [],
+      "sample_duplicate_queue_ids_in_queue": [],
+      "sample_extra_queue_ids": [],
+      "sample_missing_queue_ids": [],
+      "sample_signal_mismatch_queue_ids": [],
+      "sample_stale_result_queue_ids": [
+        "BTR-00748",
+        "BTR-00750",
+        "BTR-00751",
+        "BTR-00752"
+      ],
+      "signal_mismatch_queue_ids": 0,
+      "stale_result_queue_ids": 4,
+      "verdict_counts": {
+        "candidate_for_parent_source_extraction": 125,
+        "cross_project_duplicate": 142,
+        "machine_translation_hold": 40,
+        "needs_original_language_source": 57,
+        "reject_noise": 12,
+        "source_surface_only_no_case": 232,
+        "translation_source_reviewed": 156
+      }
+    },
+    "parent_source_extraction": {
+      "completed_unique_queue_ids": 3641,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-parent-source-extraction-results.tsv",
+      "duplicate_queue_ids": 0,
+      "duplicate_queue_ids_in_queue": 0,
+      "extra_queue_ids": 0,
+      "failed_batches": [],
+      "manifest_statuses": {
+        "complete": 154
+      },
+      "manifest_verdict_counts": {
+        "country_gap_no_parent_source": 2315,
+        "duplicate_existing_core": 1,
+        "parent_source_wrapper": 694,
+        "reject_noise": 29,
+        "source_surface_only_no_case": 187,
+        "source_url_extracted": 419
+      },
+      "missing_queue_ids": 0,
+      "name": "parent_source_extraction",
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-parent-source-extraction-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/parent-source-extraction-queue.tsv",
+      "queue_rows": 3641,
+      "result_files": 154,
+      "result_rows_seen": 3645,
+      "sample_duplicate_queue_ids": [],
+      "sample_duplicate_queue_ids_in_queue": [],
+      "sample_extra_queue_ids": [],
+      "sample_missing_queue_ids": [],
+      "sample_signal_mismatch_queue_ids": [],
+      "sample_stale_result_queue_ids": [
+        "BPSE-01528",
+        "BPSE-02064",
+        "BPSE-02866",
+        "BPSE-02881"
+      ],
+      "signal_mismatch_queue_ids": 0,
+      "stale_result_queue_ids": 4,
+      "verdict_counts": {
+        "country_gap_no_parent_source": 2313,
+        "duplicate_existing_core": 1,
+        "parent_source_wrapper": 693,
+        "reject_noise": 29,
+        "source_surface_only_no_case": 187,
+        "source_url_extracted": 418
+      }
+    },
+    "translation_parent_source_extraction": {
+      "completed_unique_queue_ids": 125,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-translation-parent-source-extraction-results.tsv",
+      "duplicate_queue_ids": 0,
+      "duplicate_queue_ids_in_queue": 0,
+      "extra_queue_ids": 8,
+      "failed_batches": [],
+      "manifest_statuses": {
+        "complete": 15,
+        "superseded_abandoned": 8
+      },
+      "manifest_verdict_counts": {
+        "parent_source_wrapper": 6,
+        "source_surface_only_no_case": 1,
+        "source_url_extracted": 143
+      },
+      "missing_queue_ids": 0,
+      "name": "translation_parent_source_extraction",
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-translation-parent-source-extraction-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/translation-parent-source-extraction-queue.tsv",
+      "queue_rows": 125,
+      "result_files": 15,
+      "result_rows_seen": 150,
+      "sample_duplicate_queue_ids": [],
+      "sample_duplicate_queue_ids_in_queue": [],
+      "sample_extra_queue_ids": [
+        "BTPS-00116",
+        "BTPS-00117",
+        "BTPS-00123",
+        "BTPS-00124",
+        "BTPS-00128",
+        "BTPS-00129",
+        "BTPS-00130",
+        "BTPS-00131"
+      ],
+      "sample_missing_queue_ids": [],
+      "sample_signal_mismatch_queue_ids": [
+        "BTPS-00045",
+        "BTPS-00046",
+        "BTPS-00047",
+        "BTPS-00048",
+        "BTPS-00049",
+        "BTPS-00050",
+        "BTPS-00051",
+        "BTPS-00052",
+        "BTPS-00053",
+        "BTPS-00054",
+        "BTPS-00055",
+        "BTPS-00056",
+        "BTPS-00057",
+        "BTPS-00058",
+        "BTPS-00059",
+        "BTPS-00060"
+      ],
+      "sample_stale_result_queue_ids": [],
+      "signal_mismatch_queue_ids": 16,
+      "stale_result_queue_ids": 0,
+      "verdict_counts": {
+        "parent_source_wrapper": 6,
+        "source_surface_only_no_case": 1,
+        "source_url_extracted": 118
+      }
+    }
+  }
+}
+[2026-06-17T09:52:45Z] run: python3 tools/prepare_hardening_review_queues.py
+{
+  "boundary": "Queues are hardening review inputs only; no promotion, legal finding, deployment proof, prevalence, or completeness claim.",
+  "generated_at_utc": "2026-06-17T09:52:45Z",
+  "translation_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/translation-source-review-queue.tsv",
+  "translation_queue_class_counts": {
+    "cross_project_language_artifact": 258,
+    "foreign_language_official_or_public_surface": 127,
+    "registry_auto_translation": 167,
+    "translation_sensitive_lead": 2
+  },
+  "translation_queue_rows": 554,
+  "url_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/named-url-extraction-queue.tsv",
+  "url_queue_class_counts": {
+    "court_or_tribunal": 1,
+    "policy_or_guidance_surface": 1,
+    "regulator_or_public_authority": 207,
+    "security_advisory_or_vulnerability": 1
+  },
+  "url_queue_rows": 210
+}
+[2026-06-17T09:52:45Z] run: python3 tools/hardening_local_autoresolve.py --task all
+{"batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260617T095245Z-local-autoresolve", "rows": 3, "task": "named-url-extraction", "verdict_counts": {"source_path_is_snapshot_only": 1, "url_extracted": 1, "wrapper_needs_parent_source": 1}}
+{"task": "translation-source-review", "rows": 0}
+[2026-06-17T09:52:45Z] run: python3 tools/build_hardening_review_rollup.py
+{
+  "all_complete": true,
+  "boundary": "Hardening review outputs are bounded source-review aids only. Promotion to reviewed core remains a separate human case-hardening step.",
+  "current_output_clean": true,
+  "generated_at_utc": "2026-06-17T09:52:45Z",
+  "has_stale_extra_result_rows": true,
+  "tasks": {
+    "named-url-extraction": {
+      "boundary": "Hardening review output only; not reviewed-core promotion, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+      "complete": true,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/named-url-extraction-results.tsv",
+      "duplicate_row_ids": {},
+      "extra_row_ids": [
+        "SRPH-00886",
+        "SRPH-00888",
+        "SRPH-00889",
+        "SRPH-00890",
+        "SRPH-00891",
+        "SRPH-00892",
+        "SRPH-00893",
+        "SRPH-00894",
+        "SRPH-00895",
+        "SRPH-00896",
+        "SRPH-00897",
+        "SRPH-00899",
+        "SRPH-00900",
+        "SRPH-00901",
+        "SRPH-00902",
+        "SRPH-00903",
+        "SRPH-00904",
+        "SRPH-00905",
+        "SRPH-00906",
+        "SRPH-00907",
+        "SRPH-00908",
+        "SRPH-00909",
+        "SRPH-00910",
+        "SRPH-00911",
+        "SRPH-00912",
+        "SRPH-00913",
+        "SRPH-00914",
+        "SRPH-00915",
+        "SRPH-00916",
+        "SRPH-00917",
+        "SRPH-00918",
+        "SRPH-00919",
+        "SRPH-00920",
+        "SRPH-00921",
+        "SRPH-00922",
+        "SRPH-00923",
+        "SRPH-00924",
+        "SRPH-00925",
+        "SRPH-00926",
+        "SRPH-00927",
+        "SRPH-00928",
+        "SRPH-00929",
+        "SRPH-00930",
+        "SRPH-00931",
+        "SRPH-00932",
+        "SRPH-00933",
+        "SRPH-00934",
+        "SRPH-00937",
+        "SRPH-00938",
+        "SRPH-00939"
+      ],
+      "has_stale_extra_result_rows": true,
+      "manifest_status_counts": {
+        "complete": 21,
+        "failed": 13,
+        "superseded_abandoned": 8
+      },
+      "missing_row_ids": [],
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/named-url-extraction-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/named-url-extraction-queue.tsv",
+      "queue_rows": 210,
+      "result_files": 21,
+      "result_rows": 210,
+      "skipped_result_files": [],
+      "stale_extra_result_row_count": 168,
+      "task": "named-url-extraction",
+      "unique_result_rows": 378,
+      "verdict_counts": {
+        "duplicate_or_existing_core": 1,
+        "source_path_is_snapshot_only": 14,
+        "url_extracted": 118,
+        "wrapper_needs_parent_source": 77
+      }
+    },
+    "translation-source-review": {
+      "boundary": "Hardening review output only; not reviewed-core promotion, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+      "complete": true,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/translation-source-review-results.tsv",
+      "duplicate_row_ids": {},
+      "extra_row_ids": [],
+      "has_stale_extra_result_rows": false,
+      "manifest_status_counts": {
+        "complete": 22,
+        "failed": 4,
+        "superseded_abandoned": 3,
+        "superseded_split_retry": 1
+      },
+      "missing_row_ids": [],
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/translation-source-review-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/translation-source-review-queue.tsv",
+      "queue_rows": 554,
+      "result_files": 22,
+      "result_rows": 554,
+      "skipped_result_files": [],
+      "stale_extra_result_row_count": 0,
+      "task": "translation-source-review",
+      "unique_result_rows": 554,
+      "verdict_counts": {
+        "candidate_for_url_extraction": 72,
+        "cross_project_duplicate": 349,
+        "machine_translation_hold": 17,
+        "needs_original_language_source": 16,
+        "reject_noise": 38,
+        "translation_source_reviewed": 62
+      }
+    }
+  }
+}
+[2026-06-17T09:52:45Z] run: python3 tools/build_source_review_promotion_hardening.py
+{
+  "boundary": "Promotion hardening only; no reviewed-core promotion, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/source-reviewed-promotion-hardening.tsv",
+  "generated_at_utc": "2026-06-17T09:52:46Z",
+  "named_url_rows": 1375,
+  "no_named_url_rows": 204,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-v0.1.tsv",
+  "promotion_gate_counts": {
+    "already_reviewed_core_lineage": 15,
+    "needs_named_url_extraction": 204,
+    "source_surface_anchor_only": 1360
+  },
+  "promotion_priority_counts": {
+    "P2": 1015,
+    "P3": 549,
+    "closed": 15
+  },
+  "source_reviewed_candidate_rows": 1579,
+  "source_surface_class_counts": {
+    "court_or_tribunal": 18,
+    "policy_or_guidance_surface": 35,
+    "public_source_surface": 26,
+    "register_or_transparency_surface": 2,
+    "regulator_or_public_authority": 1473,
+    "sandbox_or_innovation_surface": 2,
+    "secondary_or_index_surface": 10,
+    "security_advisory_or_vulnerability": 13
+  },
+  "top_hosts": [
+    {
+      "count": 204,
+      "host": "no_url"
+    },
+    {
+      "count": 38,
+      "host": "eur-lex.europa.eu"
+    },
+    {
+      "count": 24,
+      "host": "canada.ca"
+    },
+    {
+      "count": 21,
+      "host": "au.int"
+    },
+    {
+      "count": 18,
+      "host": "fca.org.uk"
+    },
+    {
+      "count": 17,
+      "host": "tbs-sct.canada.ca"
+    },
+    {
+      "count": 17,
+      "host": "algoritmes.overheid.nl"
+    },
+    {
+      "count": 13,
+      "host": "zip.com"
+    },
+    {
+      "count": 13,
+      "host": "open.canada.ca"
+    },
+    {
+      "count": 12,
+      "host": "ca.go.ke"
+    },
+    {
+      "count": 12,
+      "host": "gov.uk"
+    },
+    {
+      "count": 12,
+      "host": "doi.org"
+    },
+    {
+      "count": 11,
+      "host": "digital.go.jp"
+    },
+    {
+      "count": 11,
+      "host": "ai.hel.fi"
+    },
+    {
+      "count": 11,
+      "host": "aesia.digital.gob.es"
+    },
+    {
+      "count": 11,
+      "host": "servicenow.com"
+    },
+    {
+      "count": 10,
+      "host": "digital-strategy.ec.europa.eu"
+    },
+    {
+      "count": 10,
+      "host": "digdir.no"
+    },
+    {
+      "count": 9,
+      "host": "raw.githubusercontent.com"
+    },
+    {
+      "count": 9,
+      "host": "mas.gov.sg"
+    }
+  ],
+  "top_output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-top50-v0.1.tsv",
+  "unique_dedupe_keys": 996,
+  "url_extraction_results": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/named-url-extraction-results-v0.1.tsv",
+  "url_recovery_counts": {
+    "delimited_cell": 37,
+    "hardening_review_url_extracted": 104,
+    "json_field:public_url": 6,
+    "json_field:source_url": 32,
+    "json_field:url": 91,
+    "line_checked_no_url": 204,
+    "snippet_or_result": 1105
+  }
+}
+[2026-06-17T09:52:46Z] run: python3 tools/build_source_review_completion_ledger.py
+{
+  "boundary": "Completion ledger closes the 1,432 source-reviewed candidates as a processing layer only; no reviewed-core or ObscureAI addition occurred.",
+  "completed_rows": 1579,
+  "completion_disposition_counts": {
+    "closed_existing_reviewed_core_or_duplicate": 15,
+    "closed_snapshot_only_no_original_url": 13,
+    "closed_source_surface_anchor_only": 1360,
+    "residual_no_named_url_reviewed": 133,
+    "residual_parent_source_wrapper": 58
+  },
+  "completion_state_counts": {
+    "complete_for_current_layer_parent_needed": 191,
+    "complete_no_case_claim": 1373,
+    "complete_no_new_case": 15
+  },
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/source-reviewed-completion-ledger.tsv",
+  "generated_at_utc": "2026-06-17T09:52:46Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-v0.1.tsv",
+  "next_bulk_action_counts": {
+    "move_to_next_bulk_queue": 1373,
+    "none": 15,
+    "parent_source_extraction_queue": 191
+  },
+  "obscure_ai_posture_counts": {
+    "do_not_add_duplicate": 15,
+    "not_obscure_ai_case": 1564
+  },
+  "obscure_ai_ready_now": 0,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-completion-ledger-v0.1.tsv",
+  "source_reviewed_rows": 1579,
+  "unique_dedupe_clusters": 996
+}
+[2026-06-17T09:52:46Z] run: python3 tools/build_translation_hold_board.py
+{
+  "boundary": "Translation hold only; rows need human translation-aware source review before promotion, factual claims, legal claims, or reviewed-core inclusion.",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/translation-held-review-board.tsv",
+  "generated_at_utc": "2026-06-17T09:52:46Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/full-first-pass-review.tsv",
+  "language_hint_counts": {
+    "arabic": 23,
+    "chinese": 23,
+    "dutch": 188,
+    "estonian": 13,
+    "finnish": 5,
+    "french": 15,
+    "german": 2,
+    "japanese": 8,
+    "korean": 16,
+    "language_not_resolved": 249,
+    "portuguese": 9,
+    "russian": 2,
+    "spanish": 17
+  },
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/translation-held-review-board-v0.1.tsv",
+  "review_priority_counts": {
+    "P1_official_or_regulator_review": 554
+  },
+  "self_echo_rows_excluded": 0,
+  "shard_counts": {
+    "identity-provenance": 51,
+    "legal-research": 114,
+    "public-sector": 389
+  },
+  "source_path_family_counts": {
+    "cross_project_atlas_or_gaia": 60,
+    "global_agent_atlas": 58,
+    "limen_project": 7,
+    "other_tyche_project": 198,
+    "srv/tyche/pallas": 91,
+    "thesis_atlas_factory": 140
+  },
+  "top_output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/translation-held-review-top50-v0.1.tsv",
+  "translation_hold_class_counts": {
+    "cross_project_language_artifact": 258,
+    "foreign_language_official_or_public_surface": 127,
+    "registry_auto_translation": 167,
+    "translation_sensitive_lead": 2
+  },
+  "translation_hold_rows": 554,
+  "with_named_url_rows": 236,
+  "without_named_url_rows": 318
+}
+[2026-06-17T09:52:46Z] run: python3 tools/prepare_bulk_translation_parent_source_queue.py
+{
+  "boundary": "Translation-derived parent-source extraction only; no reviewed-core promotion or ObscureAI addition.",
+  "generated_at_utc": "2026-06-17T09:52:46Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-translation-review-results-v0.1.tsv",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/translation-parent-source-extraction-queue.tsv",
+  "queue_rows": 125,
+  "review_priority_counts": {
+    "P1_official_or_regulator_review": 49,
+    "P2_article_relevance_review": 76
+  },
+  "shard_counts": {
+    "identity-provenance": 3,
+    "legal-research": 41,
+    "public-sector": 80,
+    "security-agentic": 1
+  }
+}
+[2026-06-17T09:52:46Z] run: python3 tools/build_bulk_review_rollup.py
+{
+  "all_queues_complete": true,
+  "archived_stale_result_queue_ids": 8,
+  "boundary": "Bulk rollup is processing-state only; no reviewed-core promotion, ObscureAI addition, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+  "current_output_clean": true,
+  "generated_at_utc": "2026-06-17T09:52:46Z",
+  "has_blocking_integrity_issue": false,
+  "has_duplicate_queue_ids": false,
+  "has_duplicate_queue_ids_in_queue": false,
+  "has_extra_queue_ids": true,
+  "has_failed_batches": false,
+  "has_signal_mismatch_queue_ids": true,
+  "has_stale_result_queue_ids": true,
+  "tasks": {
+    "bulk_translation_review": {
+      "completed_unique_queue_ids": 764,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-translation-review-results.tsv",
+      "duplicate_queue_ids": 0,
+      "duplicate_queue_ids_in_queue": 0,
+      "extra_queue_ids": 0,
+      "failed_batches": [],
+      "manifest_statuses": {
+        "complete": 50
+      },
+      "manifest_verdict_counts": {
+        "candidate_for_parent_source_extraction": 125,
+        "cross_project_duplicate": 143,
+        "machine_translation_hold": 40,
+        "needs_original_language_source": 57,
+        "reject_noise": 12,
+        "source_surface_only_no_case": 232,
+        "translation_source_reviewed": 159
+      },
+      "missing_queue_ids": 0,
+      "name": "bulk_translation_review",
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-translation-review-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/bulk-translation-review-queue.tsv",
+      "queue_rows": 764,
+      "result_files": 50,
+      "result_rows_seen": 768,
+      "sample_duplicate_queue_ids": [],
+      "sample_duplicate_queue_ids_in_queue": [],
+      "sample_extra_queue_ids": [],
+      "sample_missing_queue_ids": [],
+      "sample_signal_mismatch_queue_ids": [],
+      "sample_stale_result_queue_ids": [
+        "BTR-00748",
+        "BTR-00750",
+        "BTR-00751",
+        "BTR-00752"
+      ],
+      "signal_mismatch_queue_ids": 0,
+      "stale_result_queue_ids": 4,
+      "verdict_counts": {
+        "candidate_for_parent_source_extraction": 125,
+        "cross_project_duplicate": 142,
+        "machine_translation_hold": 40,
+        "needs_original_language_source": 57,
+        "reject_noise": 12,
+        "source_surface_only_no_case": 232,
+        "translation_source_reviewed": 156
+      }
+    },
+    "parent_source_extraction": {
+      "completed_unique_queue_ids": 3641,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-parent-source-extraction-results.tsv",
+      "duplicate_queue_ids": 0,
+      "duplicate_queue_ids_in_queue": 0,
+      "extra_queue_ids": 0,
+      "failed_batches": [],
+      "manifest_statuses": {
+        "complete": 154
+      },
+      "manifest_verdict_counts": {
+        "country_gap_no_parent_source": 2315,
+        "duplicate_existing_core": 1,
+        "parent_source_wrapper": 694,
+        "reject_noise": 29,
+        "source_surface_only_no_case": 187,
+        "source_url_extracted": 419
+      },
+      "missing_queue_ids": 0,
+      "name": "parent_source_extraction",
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-parent-source-extraction-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/parent-source-extraction-queue.tsv",
+      "queue_rows": 3641,
+      "result_files": 154,
+      "result_rows_seen": 3645,
+      "sample_duplicate_queue_ids": [],
+      "sample_duplicate_queue_ids_in_queue": [],
+      "sample_extra_queue_ids": [],
+      "sample_missing_queue_ids": [],
+      "sample_signal_mismatch_queue_ids": [],
+      "sample_stale_result_queue_ids": [
+        "BPSE-01528",
+        "BPSE-02064",
+        "BPSE-02866",
+        "BPSE-02881"
+      ],
+      "signal_mismatch_queue_ids": 0,
+      "stale_result_queue_ids": 4,
+      "verdict_counts": {
+        "country_gap_no_parent_source": 2313,
+        "duplicate_existing_core": 1,
+        "parent_source_wrapper": 693,
+        "reject_noise": 29,
+        "source_surface_only_no_case": 187,
+        "source_url_extracted": 418
+      }
+    },
+    "translation_parent_source_extraction": {
+      "completed_unique_queue_ids": 125,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-translation-parent-source-extraction-results.tsv",
+      "duplicate_queue_ids": 0,
+      "duplicate_queue_ids_in_queue": 0,
+      "extra_queue_ids": 8,
+      "failed_batches": [],
+      "manifest_statuses": {
+        "complete": 15,
+        "superseded_abandoned": 8
+      },
+      "manifest_verdict_counts": {
+        "parent_source_wrapper": 6,
+        "source_surface_only_no_case": 1,
+        "source_url_extracted": 143
+      },
+      "missing_queue_ids": 0,
+      "name": "translation_parent_source_extraction",
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-translation-parent-source-extraction-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/translation-parent-source-extraction-queue.tsv",
+      "queue_rows": 125,
+      "result_files": 15,
+      "result_rows_seen": 150,
+      "sample_duplicate_queue_ids": [],
+      "sample_duplicate_queue_ids_in_queue": [],
+      "sample_extra_queue_ids": [
+        "BTPS-00116",
+        "BTPS-00117",
+        "BTPS-00123",
+        "BTPS-00124",
+        "BTPS-00128",
+        "BTPS-00129",
+        "BTPS-00130",
+        "BTPS-00131"
+      ],
+      "sample_missing_queue_ids": [],
+      "sample_signal_mismatch_queue_ids": [
+        "BTPS-00045",
+        "BTPS-00046",
+        "BTPS-00047",
+        "BTPS-00048",
+        "BTPS-00049",
+        "BTPS-00050",
+        "BTPS-00051",
+        "BTPS-00052",
+        "BTPS-00053",
+        "BTPS-00054",
+        "BTPS-00055",
+        "BTPS-00056",
+        "BTPS-00057",
+        "BTPS-00058",
+        "BTPS-00059",
+        "BTPS-00060"
+      ],
+      "sample_stale_result_queue_ids": [],
+      "signal_mismatch_queue_ids": 16,
+      "stale_result_queue_ids": 0,
+      "verdict_counts": {
+        "parent_source_wrapper": 6,
+        "source_surface_only_no_case": 1,
+        "source_url_extracted": 118
+      }
+    }
+  }
+}
+[2026-06-17T09:52:46Z] run: python3 tools/build_reviewed_core_promotion_packet.py
+{
+  "boundary": "Promotion packet only; no reviewed-core or ObscureAI addition has occurred.",
+  "case_hardening_clusters": 0,
+  "case_hardening_dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-hardening-queue.tsv",
+  "case_hardening_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-queue-v0.1.tsv",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-promotion-packet.tsv",
+  "dedupe_status_counts": {
+    "exact_reviewed_core_url_match": 15,
+    "not_in_reviewed_core_exact_url": 2147
+  },
+  "direct_source_queue_reviewed_rows": 17910,
+  "direct_source_queue_rows": 17910,
+  "duplicate_signal_ids": 9,
+  "generated_at_utc": "2026-06-17T09:52:47Z",
+  "multirow_source_clusters": 373,
+  "obscure_ai_posture_counts": {
+    "do_not_add_duplicate": 15,
+    "not_obscure_ai_case_source_surface": 2147
+  },
+  "obscure_ai_ready_now": 0,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-promotion-packet-v0.1.tsv",
+  "packet_rows": 2162,
+  "possible_case_hardening_rows": 0,
+  "promotion_readiness_counts": {
+    "duplicate_existing_reviewed_core": 15,
+    "source_surface_or_context_only": 2147
+  },
+  "reviewed_core_exact_url_index_rows": 223,
+  "reviewed_core_posture_counts": {
+    "do_not_promote_duplicate": 15,
+    "keep_out_of_reviewed_core_for_now": 2147
+  },
+  "reviewed_core_ready_now": 0,
+  "source_lane_counts": {
+    "bulk_named_source_autoresolve": 1408,
+    "bulk_parent_source_extraction": 418,
+    "bulk_translation_parent_source_extraction": 118,
+    "bulk_translation_source_review": 156,
+    "hardening_translation_source_review": 62
+  },
+  "unique_signal_ids": 2153,
+  "unique_source_clusters": 1059
+}
+[2026-06-17T09:52:47Z] run: python3 tools/build_reviewed_core_source_surface_disposition.py
+{
+  "boundary": "Disposition accounting only; no reviewed-core promotion or ObscureAI addition occurred.",
+  "case_extraction_candidate_clusters": 0,
+  "case_extraction_candidate_rows": 0,
+  "case_extraction_dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-extraction-queue.tsv",
+  "case_extraction_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-extraction-queue-v0.1.tsv",
+  "closed_clusters": 1059,
+  "closed_packet_rows": 2162,
+  "completion_status_counts": {
+    "closed_duplicate": 4,
+    "closed_noncase_source_surface": 1055
+  },
+  "completion_status_packet_row_counts": {
+    "closed_duplicate": 15,
+    "closed_noncase_source_surface": 2147
+  },
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-source-surface-disposition.tsv",
+  "destination_counts": {
+    "reviewed_core_lineage_only": 4,
+    "source_family_accounting": 1055
+  },
+  "generated_at_utc": "2026-06-17T09:52:47Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-promotion-packet-v0.1.tsv",
+  "obscure_ai_ready_now": 0,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-source-surface-disposition-v0.1.tsv",
+  "packet_rows": 2162,
+  "packet_rows_represented": 2162,
+  "public_disposition_counts": {
+    "duplicate_existing_reviewed_core": 4,
+    "noncase_patent_or_ip_surface": 37,
+    "noncase_policy_or_law_surface": 121,
+    "noncase_register_or_transparency_surface": 254,
+    "noncase_scholarly_or_index_surface": 318,
+    "noncase_source_surface_context_only": 307,
+    "noncase_vendor_docs_or_product_surface": 18
+  },
+  "public_disposition_packet_row_counts": {
+    "duplicate_existing_reviewed_core": 15,
+    "noncase_patent_or_ip_surface": 85,
+    "noncase_policy_or_law_surface": 352,
+    "noncase_register_or_transparency_surface": 565,
+    "noncase_scholarly_or_index_surface": 508,
+    "noncase_source_surface_context_only": 540,
+    "noncase_vendor_docs_or_product_surface": 97
+  },
+  "source_clusters": 1059,
+  "top_hosts": {
+    "(local/locator)": 15,
+    "aesia.digital.gob.es": 9,
+    "agid.gov.it": 5,
+    "ai.hel.fi": 7,
+    "algoritmes.overheid.nl": 37,
+    "api.crossref.org": 20,
+    "api.openalex.org": 10,
+    "cnil.fr": 6,
+    "data.gouv.fr": 5,
+    "digdir.no": 5,
+    "digital-strategy.ec.europa.eu": 5,
+    "doi.org": 285,
+    "eur-lex.europa.eu": 11,
+    "gob.pe": 5,
+    "gov.br": 7,
+    "gov.uk": 11,
+    "patents.google.com": 26,
+    "patentscope.wipo.int": 6,
+    "socialprotectionai.org": 6,
+    "ttja.ee": 5
+  }
+}
+[2026-06-17T09:52:47Z] run: python3 tools/build_case_extraction_rollup.py
+{
+  "all_complete": true,
+  "boundary": "Case extraction rollup only; no reviewed-core promotion or ObscureAI addition occurred.",
+  "case_candidate_rows": 14,
+  "case_hardening_clusters": 14,
+  "case_hardening_dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-hardening-queue.tsv",
+  "case_hardening_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-queue-v0.1.tsv",
+  "completed_unique_source_clusters": 1059,
+  "current_output_clean": true,
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-extraction-results.tsv",
+  "duplicate_result_source_clusters": 0,
+  "extra_source_clusters": 1,
+  "failed_batches": [],
+  "generated_at_utc": "2026-06-17T09:52:47Z",
+  "has_failed_batches": false,
+  "has_integrity_warnings": false,
+  "has_stale_extra_result_source_clusters": true,
+  "manifest_statuses": {
+    "complete": 75,
+    "superseded_abandoned": 6
+  },
+  "missing_source_clusters": 0,
+  "obscure_ai_ready_now": 0,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-extraction-results-v0.1.tsv",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-source-surface-disposition-v0.1.tsv",
+  "queue_rows": 1059,
+  "result_files": 75,
+  "stale_extra_result_source_clusters": 1,
+  "verdict_counts": {
+    "blocked_no_public_source": 5,
+    "case_candidate_for_hardening": 14,
+    "closed_duplicate_existing_core": 3,
+    "closed_noncase_source_surface": 1030,
+    "needs_original_source_text": 6,
+    "reject_noise": 1
+  }
+}
+[2026-06-17T09:52:47Z] run: python3 tools/build_reviewed_core_case_hardening_review.py
+{
+  "boundary": "Case-hardening review plus final adjudication ledger. Pending acceptance excludes rows already promoted, held, or closed in the final adjudication file.",
+  "case_final_adjudication_rows": 14,
+  "case_final_decision_counts": {
+    "duplicate_existing_core": 1,
+    "hold_low_evidence": 1,
+    "hold_source_gap": 2,
+    "hold_source_only": 8,
+    "promoted_to_reviewed_core": 2
+  },
+  "case_final_obscure_ai_promoted_rows": 2,
+  "case_final_promoted_rows": 2,
+  "case_hardening_review_rows": 14,
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-hardening-review.tsv",
+  "generated_at_utc": "2026-06-17T09:52:53Z",
+  "hardening_verdict_counts": {
+    "case_candidate_source_fetch_or_support_gap": 3,
+    "source_verified_case_candidate_needs_acceptance": 11
+  },
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-queue-v0.1.tsv",
+  "obscure_ai_candidate_status_counts": {
+    "not_obscure_ai_ready_until_reviewed_core_acceptance": 11,
+    "not_ready": 3
+  },
+  "obscure_ai_ready_now": 0,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-review-v0.1.tsv",
+  "reviewed_core_candidate_status_counts": {
+    "not_ready": 3,
+    "ready_for_human_acceptance_not_promoted": 11
+  },
+  "reviewed_core_promoted_now": 0,
+  "reviewed_core_ready_for_human_acceptance": 0,
+  "reviewed_core_ready_for_human_acceptance_pre_adjudication": 11
+}
+[2026-06-17T09:52:53Z] run: python3 tools/build_case_review_autorecommendations.py
+{
+  "already_final_adjudicated_rows": 14,
+  "autoreview_decision_counts": {
+    "auto_close_duplicate_existing_core": 3,
+    "auto_hold_announcement_or_pilot_needs_corroboration": 4,
+    "auto_hold_scholarly_or_preprint_source_only": 2,
+    "auto_hold_social_or_allegation_needs_primary": 1,
+    "auto_hold_source_gap": 3,
+    "token_free_promote_candidate_needs_human_acceptance": 1
+  },
+  "boundary": "Deterministic no-LLM autoreview; draft recommendations only unless copied into final adjudication by a human-controlled process.",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-autoreview.tsv",
+  "draft_final_adjudication": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-final-adjudication-draft-v0.1.tsv",
+  "effective_decision_counts": {
+    "duplicate_existing_core": 1,
+    "hold_low_evidence": 1,
+    "hold_source_gap": 2,
+    "hold_source_only": 8,
+    "promoted_to_reviewed_core": 2
+  },
+  "generated_at_utc": "2026-06-17T09:52:53Z",
+  "human_acceptance_required_rows": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-review-v0.1.tsv",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-autoreview-v0.1.tsv",
+  "paid_token_required_rows": 0,
+  "rows": 14,
+  "rows_without_final_adjudication": 0,
+  "token_free_auto_close_rows": 0,
+  "token_free_promotion_candidate_rows": 0
+}
+[2026-06-17T09:52:53Z] process available data complete

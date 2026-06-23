@@ -1,0 +1,7 @@
+source_id	probe_url	http_status	content_type	bounded_marker_hits	notes	checked_at_utc
+aiid	https://incidentdatabase.ai/page-data/cite/1515/page-data.json	200	application/json	incident_id=1515; report_numbers=7347|7348|7349; taxa_nodes=7	full JSON recheck succeeded after retry with uncapped read	2026-06-08T17:11:46Z
+oecd_aim_incidents	https://incidents-server.oecdai.org/api/v1/incidents/2026-06-05-f373	200	application/json	id=2026-06-05-f373; title=Philip Morris Accused of Using AI to Manipulate EU Tobacco Policy; article_count=6		2026-06-08T17:11:46Z
+avid	https://raw.githubusercontent.com/avidml/avid-db/main/LICENSE	200	text/plain; charset=utf-8	MIT License; Permission is hereby granted		2026-06-08T17:11:46Z
+mitre_atlas	https://raw.githubusercontent.com/mitre-atlas/atlas-data/main/dist/ATLAS.yaml	200	text/plain; charset=utf-8	deprecated; version: 5.6.0; version=5.6.0		2026-06-08T17:11:46Z
+mit_ai_risk_repo	https://airisk.mit.edu/risks	200	text/html; charset=utf-8	Dataset; CC BY 4.0; Google Sheets; Dataset		2026-06-08T17:11:46Z
+cset_ai_harm	https://cset.georgetown.edu/article/understanding-ai-harms-an-overview/	200	text/html; charset=UTF-8	Understanding AI Harms; Center for Security and Emerging Technology; title=Understanding AI Harms: An Overview | Center for Security and Emerging Technology		2026-06-08T17:11:46Z

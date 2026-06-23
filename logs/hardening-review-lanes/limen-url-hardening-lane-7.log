@@ -1,0 +1,3 @@
+{"lane_id": "lane7", "task": "named-url-extraction", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T111210Z-lane7-11632a5e", "status": "allocated"}
+{"lane_id": "lane7", "task": "named-url-extraction", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T111210Z-lane7-11632a5e", "status": "complete", "verdict_counts": {"url_extracted": 15}}
+{"lane_id": "lane7", "task": "named-url-extraction", "status": "empty", "timestamp": "2026-06-16T11:27:52Z"}

@@ -1,0 +1,4 @@
+audit_row_id	audit_scope	pre_state	post_state	status	note
+MITAIR-AUDIT-006	mit_ai_risk_bridge_count	5 shared local taxonomy bridge rows	6 shared local taxonomy bridge rows	updated	Added normative_or_moral_outlier -> MITAIR-S6-5 with bounded exemplar LIMEN-000001.
+MITAIR-AUDIT-007	source_threshold_and_exactness_helpers	Fifth-bridge threshold wording	Sixth-bridge threshold wording	updated	Threshold and exactness boards now point to seventh bridge or second slice as the next honest gain.
+MITAIR-AUDIT-008	source_front_doors	Five-bridge MIT AI Risk state	Six-bridge MIT AI Risk state	updated	Source status, shared crosswalk index, method note, journal, next, and manifest synchronized to the new front-door state.

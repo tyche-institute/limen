@@ -1,0 +1,63 @@
+{
+  "request_id": "limen-attestation-receipt-profile-detached-signature-2026-06-07T16:11:51Z",
+  "created_at": "2026-06-07T16:11:51Z",
+  "lane_id": "limen-attestation-receipt-profile",
+  "project_id": "limen-ai-edge-case-atlas",
+  "project_root": "/srv/tyche/projects/limen-ai-edge-case-atlas",
+  "phase": "foundation",
+  "theme": "attestation trust-surface hardening",
+  "goal": "Bind one real detached-signature verifier note to the shared LIMEN attestation release bundle manifest without widening the package into truth, legality, compliance, certification, safety, or external-publication claims.",
+  "priority_artifact": {
+    "artifact_id": "limen-shared-attestation-release-bundle-v0.10",
+    "task": "Run one bounded local signing-and-verification pass over the shared release bundle manifest and emit a verifier note plus signature-sidecar metadata only if a safe non-public signer workflow is available.",
+    "input_paths": [
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/attestation/shared-release-bundle-manifest-v0.10.tsv",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/attestation/live-shared-release-bundle-envelope-v0.10.json",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/schema/limen-envelope.schema.json",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/attestation/external-trust-readiness-matrix-v0.1.tsv",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/attestation/profile-schema-enforcement-matrix-v0.1.tsv"
+    ],
+    "expected_outputs": [
+      "One verifier note describing exactly what file was signed, with what bounded signer description, and how verification was checked",
+      "One detached-signature sidecar or hash-bound signature reference linked to the manifest",
+      "One machine-readable status row or patch plan for the attestation trust-readiness surfaces",
+      "If no safe signer material is available, one explicit blocker note stating why the route remains unavailable without storing or exposing credentials"
+    ],
+    "local_probe_state": {
+      "manifest_exists": true,
+      "bundle_member_count": 8,
+      "schema_validation_for_published_bundle": "pass",
+      "tooling_visible_on_host": {
+        "openssl": "/usr/bin/openssl",
+        "gpg": "/usr/bin/gpg",
+        "minisign": null,
+        "cosign": null
+      },
+      "current_trust_posture": "project_shared_local_bundle_only"
+    },
+    "operator_constraints": [
+      "Do not print, commit, or store private keys in the project tree, chat output, or durable logs.",
+      "Use only pre-existing safe signer material outside the repository or an ephemeral operator-managed signing flow that leaves only public verification material behind.",
+      "If signer provenance cannot be explained conservatively, fail closed and emit a blocker note rather than a weak trust claim.",
+      "Keep the verifier note explicit that detached-signature verification improves release-integrity evidence only; it does not prove allegation truth, legality, compliance, certification, safety, or external publication witness."
+    ],
+    "safe_resource_limits": {
+      "cpu": "single host, one manifest plus one sidecar verification pass",
+      "ram": "<= 1 GB",
+      "wall_clock": "<= 10 minutes",
+      "network": "none required"
+    }
+  },
+  "paper_thesis_use": [
+    "Route C methods note distinguishing local bundle provenance from detached-signature release-integrity evidence.",
+    "Table 1G / LIMEN-VIS-016 upgrade path from project_shared_local_bundle to signature-verified release state, using the refreshed v0.10 local bundle as the active target.",
+    "Thesis reproducibility appendix explaining why stronger trust surfaces require operational signer discipline rather than only schema design."
+  ],
+  "success_condition": "Either a real detached-signature verifier note becomes attachable to the shared release bundle manifest with conservative signer-language and verification fields, or the project gains an explicit machine-readable blocker note showing that no safe signer workflow is currently available under the no-credential-exposure boundary.",
+  "boundary_notes": [
+    "Public/open information and local Tyche artifacts only.",
+    "No external submission, transparency-log upload, portal interaction, or email outreach.",
+    "Do not widen any claim beyond observation/process provenance plus, at most, bounded release-integrity verification.",
+    "If any step would require persisting secret key material in the repository, abort that route and record the blocker instead."
+  ]
+}

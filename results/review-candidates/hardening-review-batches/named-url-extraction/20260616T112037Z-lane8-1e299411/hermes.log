@@ -1,0 +1,21 @@
+
+session_id: 20260616_132038_318e71
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T112037Z-lane8-1e299411/named-url-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T112037Z-lane8-1e299411/named-url-extraction-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T112037Z-lane8-1e299411/manifest.json
+
+Проверка пройдена:
+- input rows: 15
+- output rows: 15
+- unique output row_id: 15
+- row_id set matches input.tsv
+- header exact
+- verdict counts:
+  - url_extracted: 14
+  - wrapper_needs_parent_source: 1
+- manifest status: completed

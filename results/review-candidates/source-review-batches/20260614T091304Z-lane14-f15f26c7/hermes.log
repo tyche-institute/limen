@@ -1,0 +1,25 @@
+
+session_id: 20260614_111305_e695be
+Готово.
+
+Выполнено:
+- обработаны все 100 строк из source-review-input.tsv ровно по одному разу
+- записан results TSV:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091304Z-lane14-f15f26c7/source-review-results.tsv
+- записан summary:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091304Z-lane14-f15f26c7/source-review-summary.md
+- обновлён manifest:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091304Z-lane14-f15f26c7/manifest.json
+
+Проверка:
+- row count совпадает: 100 → 100
+- множество signal_id совпадает точно
+- header в results TSV соответствует требуемому
+
+Итоговые counts:
+- source_reviewed_candidate: 4
+- merge_existing_surface: 13
+- negative_evidence_candidate: 17
+- needs_named_source_extraction: 29
+- translation_review_needed: 1
+- reject_noise: 36

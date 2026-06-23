@@ -1,0 +1,26 @@
+
+session_id: 20260617_005557_1c4ddd
+Done.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane50-418fc99d/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane50-418fc99d/case-extraction-summary.md
+
+Updated manifest:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane50-418fc99d/manifest.json
+
+Verification:
+- input rows: 16
+- output rows: 16
+- source_cluster_key set verified: true
+- duplicate output keys: 0
+- verification errors: none
+
+Verdict counts:
+- case_candidate_for_hardening: 1
+- closed_noncase_source_surface: 15
+
+Extracted one bounded candidate:
+- Stanford CRFM Alpaca public demo disabled, bounded to CRFM’s own stated reasons including hosting costs and inadequacies of content filters.
+
+No reviewed-core promotion or ObscureAI addition performed.

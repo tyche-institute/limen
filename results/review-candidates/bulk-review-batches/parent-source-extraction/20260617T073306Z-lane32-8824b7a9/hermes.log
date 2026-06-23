@@ -1,0 +1,25 @@
+
+session_id: 20260617_093310_59d7d3
+Готово.
+
+Записаны файлы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073306Z-lane32-8824b7a9/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073306Z-lane32-8824b7a9/parent-source-extraction-summary.md
+
+Обновлён manifest:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073306Z-lane32-8824b7a9/manifest.json
+
+Проверка:
+- input rows: 24
+- output rows: 24
+- queue_id set matches input: yes
+- duplicate output queue_id values: 0
+- output order matches input: yes
+
+Verdict counts:
+- parent_source_wrapper: 20
+- country_gap_no_parent_source: 3
+- source_url_extracted: 1
+
+Единственный извлечённый explicit local parent URL:
+- BPSE-03505: https://www.secp.gov.pk/regulatory-sandbox/

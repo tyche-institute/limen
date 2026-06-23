@@ -1,0 +1,26 @@
+{
+  "boundary": "Bulk routing is processing-state only; no promotion, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+  "bulk_route_counts": {
+    "closed_merge_existing_surface": 886,
+    "closed_negative_evidence": 3685,
+    "closed_reject_noise": 4082,
+    "done_source_reviewed_layer_closed": 1332,
+    "next_named_source_extraction": 3182,
+    "next_translation_or_language_review": 751
+  },
+  "current_queue_missing_rows": 0,
+  "current_queue_reviewed_rows": 13918,
+  "current_queue_rows": 13918,
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-source-review-routing.tsv",
+  "generated_at_utc": "2026-06-23T17:23:42Z",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-source-review-routing-v0.1.tsv",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/direct-source-review-queue.tsv",
+  "source_review_verdict_counts": {
+    "merge_existing_surface": 886,
+    "needs_named_source_extraction": 3182,
+    "negative_evidence_candidate": 3685,
+    "reject_noise": 4082,
+    "source_reviewed_candidate": 1332,
+    "translation_review_needed": 751
+  }
+}

@@ -1,0 +1,14 @@
+cluster_id	source_host	final_decision	reviewed_core_action	obscure_ai_action	rationale
+RCCQ-00001	api.github.com	hold_source_gap	no_new_row	no_new_obscure_ai_case	The source URL or public identifier already appears in reviewed-core data.
+RCCQ-00002	arxiv.org	duplicate_existing_core	no_new_row	no_new_obscure_ai_case	The row is useful as research/source surface, but not a bounded real-world case by itself.
+RCCQ-00003	crfm.stanford.edu	hold_source_only	no_new_row	no_new_obscure_ai_case	The source URL or public identifier already appears in reviewed-core data.
+RCCQ-00004	innovationisrael.org.il	promoted_to_reviewed_core	promoted_to_batch5	promoted_after_reviewed_core	The row appears to be an announcement, pilot, or program surface rather than verified case outcome.
+RCCQ-00005	intic.gov.mz	hold_source_only	no_new_row	no_new_obscure_ai_case	The hardened row is not source-verified and ready for acceptance.
+RCCQ-00006	irs.gov	hold_source_gap	no_new_row	no_new_obscure_ai_case	The row is source-verified and has bounded claim text; deterministic review can queue it for human acceptance without LLM tokens.
+RCCQ-00007	link.springer.com	hold_source_only	no_new_row	no_new_obscure_ai_case	The row is useful as research/source surface, but not a bounded real-world case by itself.
+RCCQ-00008	linkedin.com	hold_source_only	no_new_row	no_new_obscure_ai_case	The row is grounded in a social/allegation source and needs primary-source corroboration.
+RCCQ-00009	news.microsoft.com	hold_low_evidence	no_new_row	no_new_obscure_ai_case	The row appears to be an announcement, pilot, or program surface rather than verified case outcome.
+RCCQ-00010	osf.io	hold_source_only	no_new_row	no_new_obscure_ai_case	The hardened row is not source-verified and ready for acceptance.
+RCCQ-00011	proto.cx	hold_source_only	no_new_row	no_new_obscure_ai_case	The row appears to be an announcement, pilot, or program surface rather than verified case outcome.
+RCCQ-00012	sakana.ai	hold_source_only	no_new_row	no_new_obscure_ai_case	The source URL or public identifier already appears in reviewed-core data.
+RCCQ-00013	skillsmin.gov.lk	promoted_to_reviewed_core	promoted_to_batch5	promoted_after_reviewed_core	The row appears to be an announcement, pilot, or program surface rather than verified case outcome.

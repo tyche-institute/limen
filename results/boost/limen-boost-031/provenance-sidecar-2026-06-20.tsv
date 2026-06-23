@@ -1,0 +1,18 @@
+provenance_sidecar.tsv	https://example.com/source1	2026-06-20	EN	Public Domain	Confirmed
+provenance_sidecar.md
+# Provenance Sidecar for Dashboard
+
+This file tracks row-level provenance metadata for the LIMEN dashboard, ensuring traceability of sources and evidence tiers.
+
+## Fields
+- `file`: Name of the provenance file
+- `url`: Source URL
+- `date`: Access date
+- `language`: Document language
+- `rights`: License/permissions
+- `status`: Verification status
+
+## Entries
+| file                | url                      | date       | language | rights            | status      |
+|----------------------|-------------------------|------------|----------|------------------|-------------|
+| provenance_sidecar.tsv | https://example.com/source1 | 2026-06-20 | EN      | Public Domain   | Confirmed   |

@@ -1,0 +1,19 @@
+
+session_id: 20260617_093307_1f018a
+Completed the bounded LIMEN parent-source-extraction batch.
+
+Written:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073304Z-lane16-777cd9f1/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073304Z-lane16-777cd9f1/parent-source-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073304Z-lane16-777cd9f1/manifest.json
+
+Verification:
+- Input rows: 24
+- Output rows: 24
+- Queue ID set matches input: true
+- Duplicate output queue_ids: none
+- Verdict counts: country_gap_no_parent_source = 24
+
+No public parent URLs were extracted; every row was a country query pack or atlas score/profile placeholder without an explicit concrete parent source URL in the local row/context.

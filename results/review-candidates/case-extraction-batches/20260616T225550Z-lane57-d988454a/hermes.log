@@ -1,0 +1,28 @@
+
+session_id: 20260617_005557_5afd96
+Готово.
+
+Файлы записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225550Z-lane57-d988454a/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225550Z-lane57-d988454a/case-extraction-summary.md
+
+Manifest обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225550Z-lane57-d988454a/manifest.json
+
+Проверка пройдена:
+- input rows: 16
+- result rows: 16
+- header matches required schema: yes
+- source_cluster_key set matches exactly: yes
+- duplicate source_cluster_key values: 0
+- invalid verdicts: 0
+- embedded tabs/newlines in fields: 0
+- manifest status: completed
+
+Итоговые verdict counts:
+- closed_noncase_source_surface: 15
+- case_candidate_for_hardening: 1
+
+Единственный case_candidate_for_hardening:
+- https://sakana.ai/ai-scientist-first-publication
+- bounded framing: vendor-reported AI Scientist-v2 paper passed an ICLR 2025 workshop peer-review process; requires corroboration before reviewed-core/ObscureAI use.

@@ -1,0 +1,4 @@
+{"lane_id": "lane02", "task": "translation-source-review", "status": "empty", "timestamp": "2026-06-17T07:54:48Z"}
+{"lane_id": "lane02", "task": "translation-source-review", "status": "empty", "timestamp": "2026-06-17T07:56:51Z"}
+{"lane_id": "lane02", "task": "translation-source-review", "status": "empty", "timestamp": "2026-06-17T07:59:48Z"}
+{"lane_id": "lane02", "task": "translation-source-review", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260617T080041Z-lane02-4b858550", "status": "allocated"}

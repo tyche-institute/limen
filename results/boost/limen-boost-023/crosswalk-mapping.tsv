@@ -1,0 +1,13 @@
+Case_ID	Framework	Mapping_Details	Evidence_Source	Uncertainty_Level
+LIMEN-000001	MITRE ATT&CK
+Mapped to TA0001: Initial Access
+MITRE ATT&CK v2024.1 Documentation
+Low
+LIMEN-000002	OECD AI Principles
+Aligned with Principle 2: Transparency
+OECD (2023) AI Principles Report
+Moderate
+LIMEN-000003	AIID Framework
+Linked to Category B: Safety Violations
+AIID v2.0 Taxonomy
+High

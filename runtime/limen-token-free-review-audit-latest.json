@@ -1,0 +1,175 @@
+{
+  "blockers": [
+    {
+      "code": "missing_review_rows",
+      "rows": 2
+    },
+    {
+      "code": "paid_token_review_rows",
+      "rows": 2
+    }
+  ],
+  "boundary": "Audit only. It does not mine, call models, promote reviewed-core rows, add ObscureAI cases, or deploy.",
+  "current_human_required_rows": 0,
+  "current_missing_review_rows": 2,
+  "current_paid_token_required_rows": 2,
+  "generated_at_utc": "2026-06-23T15:39:55Z",
+  "incomplete_layers": [
+    "bulk_parent_source_extraction"
+  ],
+  "layers": [
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "deterministic_no_tokens",
+      "name": "candidate_materialization",
+      "note": "Materializes non-self mined rows as review candidates; no model call.",
+      "paid_token_required_rows": 0,
+      "rows": 55725
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "deterministic_no_tokens",
+      "name": "first_pass_candidate_review",
+      "note": "Rule-based triage only; not reviewed-core promotion.",
+      "paid_token_required_rows": 0,
+      "rows": 55725
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "hermes_or_human_when_backlog_exists",
+      "name": "direct_source_review",
+      "note": "Current queue is closed; future new rows need source interpretation unless deterministic rules close them first.",
+      "paid_token_required_rows": 0,
+      "rows": 13918
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "deterministic_no_tokens_for_board_only",
+      "name": "translation_hold_board",
+      "note": "Board creation is free; downstream translation-source review is separately tracked before any promotion.",
+      "paid_token_required_rows": 0,
+      "rows": 554
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "hermes_or_human_when_backlog_exists",
+      "name": "hardening_named-url-extraction",
+      "note": "Bounded source-review aid; not reviewed-core promotion.",
+      "paid_token_required_rows": 0,
+      "rows": 208
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "hermes_or_human_when_backlog_exists",
+      "name": "hardening_translation-source-review",
+      "note": "Bounded source-review aid; not reviewed-core promotion.",
+      "paid_token_required_rows": 0,
+      "rows": 554
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "hermes_or_human_when_backlog_exists",
+      "name": "bulk_bulk_translation_review",
+      "note": "Bulk semantic lanes are already drained; rollup itself is local.",
+      "paid_token_required_rows": 0,
+      "rows": 751
+    },
+    {
+      "complete": false,
+      "human_required_rows": 0,
+      "missing_rows": 2,
+      "mode": "hermes_or_human_when_backlog_exists",
+      "name": "bulk_parent_source_extraction",
+      "note": "Bulk semantic lanes are already drained; rollup itself is local.",
+      "paid_token_required_rows": 2,
+      "rows": 1826
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "hermes_or_human_when_backlog_exists",
+      "name": "bulk_translation_parent_source_extraction",
+      "note": "Bulk semantic lanes are already drained; rollup itself is local.",
+      "paid_token_required_rows": 0,
+      "rows": 116
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "deterministic_no_tokens",
+      "name": "source_review_promotion_hardening",
+      "note": "Classifies reviewed source surfaces into bounded promotion gates.",
+      "paid_token_required_rows": 0,
+      "rows": 1646
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "deterministic_no_tokens",
+      "name": "source_review_completion_ledger",
+      "note": "Closes the source-reviewed layer without adding reviewed-core or ObscureAI rows.",
+      "paid_token_required_rows": 0,
+      "rows": 1646
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "deterministic_no_tokens",
+      "name": "reviewed_core_promotion_packet",
+      "note": "Builds bounded source-linked packet; no promotion by itself.",
+      "paid_token_required_rows": 0,
+      "rows": 2003
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "hermes_or_human_when_backlog_exists",
+      "name": "case_extraction_rollup",
+      "note": "Current case extraction is complete; future clusters may need semantic extraction lanes.",
+      "paid_token_required_rows": 0,
+      "rows": 974
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "deterministic_fetch_no_model_tokens",
+      "name": "case_hardening_review",
+      "note": "Fetches/checks public sources and drafts bounded claims; human acceptance remains the boundary.",
+      "paid_token_required_rows": 0,
+      "rows": 13
+    },
+    {
+      "complete": true,
+      "human_required_rows": 0,
+      "missing_rows": 0,
+      "mode": "deterministic_no_tokens",
+      "name": "case_autoreview",
+      "note": "Creates deterministic final recommendations/draft adjudication; never calls an LLM.",
+      "paid_token_required_rows": 0,
+      "rows": 13
+    }
+  ],
+  "ok": false,
+  "recommended_health_command": "tools/limen_doctor.py --pretty",
+  "recommended_no_token_command": "tools/limen_case_review_no_tokens.sh --refresh-frontends"
+}

@@ -1,0 +1,136 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-0004",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-07T06:13:45Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-clustered-live-20260607T061345Z",
+  "action": "clustered",
+  "subject_ref": {
+    "kind": "duplicate_cluster",
+    "id": "REVIEW-NOMERGE-CODEEXEC-002",
+    "path_or_uri": "results/clusters/duplicate-clusters-v0.1.tsv#row=REVIEW-NOMERGE-CODEEXEC-002",
+    "title": "LangChain / LlamaIndex reviewed non-merge duplicate-control row",
+    "version": "2026-06-07T06:09:00Z"
+  },
+  "inputs": [
+    {
+      "kind": "cluster_table",
+      "locator": "results/clusters/duplicate-clusters-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:8cb98b0afb53b32ff253ddce1bf1c9dff764473f021c4c8175da0f7c2c9db6d2",
+      "captured_at": "2026-06-07T06:09:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/clusters/status.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:125b2cae2bdef0cd1fbc55b4706ec6b23b1298d2d234796dc71dcfdc860089d4",
+      "captured_at": "2026-06-07T06:09:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "schema/limen-envelope.schema.json",
+      "media_type": "application/json",
+      "sha256": "sha256:1a513e94f27e65ac02e8ae1fb8ac546dd0931d341278c5ed4aa89bca1ab93694",
+      "captured_at": "2026-06-07T05:39:11Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/live-clustered-duplicate-note-v0.1.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:9b8cfabc0f2155475d7476481950af59147c5b20047c44c3c3cf66a58354c938",
+      "emitted_at": "2026-06-07T06:13:45Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from local LIMEN duplicate-control artifacts"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "A1",
+      "assertion_type": "cluster_membership",
+      "statement": "A live clustering-control step recorded REVIEW-NOMERGE-CODEEXEC-002 as a relationship edge between LangChain LIMEN-000006 and LlamaIndex LIMEN-000007 without collapsing them into one event.",
+      "value": {
+        "row_id": "REVIEW-NOMERGE-CODEEXEC-002",
+        "pair_kind": "reviewed_not_duplicate",
+        "member_case_ids": [
+          "data/cases/security-agentic-candidates.jsonl:LIMEN-000006",
+          "data/cases/security-agentic-candidates.jsonl:LIMEN-000007"
+        ],
+        "merge_decision": "do_not_merge"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A2",
+      "assertion_type": "uncertainty_note",
+      "statement": "The linkage supports subtype interpretation only and must not be read as same-incident identity, recurrence prevalence, or authoritative merge proof.",
+      "value": {
+        "allowed_use": "execution_surface_subtype_interpretation",
+        "disallowed_use": [
+          "same_incident_identity",
+          "prevalence_count",
+          "event_merge"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    }
+  ],
+  "schema_refs": [
+    "urn:tyche:limen:envelope:0.1"
+  ],
+  "tooling": {
+    "tool_manifest_hash": "sha256:1a513e94f27e65ac02e8ae1fb8ac546dd0931d341278c5ed4aa89bca1ab93694",
+    "prompt_hash": "sha256:4444444444444444444444444444444444444444444444444444444444444444",
+    "model_name": "python3-stdlib+jsonschema",
+    "provider": "local_execution",
+    "schema_version": "0.1"
+  },
+  "dashboard_hooks": [
+    "duplicate_cluster_graph",
+    "attestation_timeline"
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ]
+}

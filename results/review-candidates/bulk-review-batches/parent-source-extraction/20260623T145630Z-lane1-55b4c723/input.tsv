@@ -1,0 +1,2 @@
+queue_id	signal_id	source_review_role	review_priority	shards	queries	source_path	source_line	reason	claim_ceiling	next_action
+BPSE-03655	LIMEN-SIGNAL-F594C9B51806CB87	source_pack_proxy	P2_article_relevance_review	legal-research	retraction	/srv/tyche/gaia/tyche-research-vault/STATUS.md	404	Source-pack/index/profile row points toward a source but does not expose a named reviewable surface.	source-surface existence only from local metadata/files	extract the named source surface from local materials

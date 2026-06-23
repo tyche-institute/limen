@@ -1,0 +1,29 @@
+
+session_id: 20260616_141724_daaae0
+Готово.
+
+Записаны файлы:
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T121720Z-lane1-9bdc1d20/parent-source-extraction-results.tsv
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T121720Z-lane1-9bdc1d20/parent-source-extraction-summary.md
+
+Обновлён manifest:
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T121720Z-lane1-9bdc1d20/manifest.json
+
+Проверка пройдена:
+- input rows: 24
+- output rows: 24
+- queue_id set match: true
+- duplicate output queue_id: none
+- exact header: true
+- allowed verdicts only: true
+- verification issues: []
+
+Итоговые verdict counts:
+- country_gap_no_parent_source: 20
+- parent_source_wrapper: 4
+- source_url_extracted: 0
+
+Границы соблюдены: использовались только локальные metadata/source/source-pack файлы; web crawl и внешние действия не выполнялись.

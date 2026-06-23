@@ -1,0 +1,8 @@
+artifact	metric_or_row	old_value	new_value	status	notes
+duplicate-taxonomy-pressure-board-v0.1.tsv	cluster_status.reviewed_not_duplicate	9	11	updated	Canonical ledger has added trust-boundary and MCP/deployment reviewed pairs since the helper board last refresh.
+duplicate-taxonomy-pressure-board-v0.1.tsv	cluster_status.no_cluster_review_row	11	12	updated	Canonical ledger now includes the ToolHive singleton alongside earlier sidecars/frontier rows.
+duplicate-taxonomy-pressure-board-v0.1.tsv	reviewed_nonmerge_bucket.agent_tool_authorization_boundary	missing	1	added	Helper board previously omitted the current `REVIEW-NOMERGE-TRUSTBOUNDARY-001` bucket.
+duplicate-taxonomy-pressure-board-v0.1.tsv	reviewed_nonmerge_bucket.mcp_deployment_trust_boundary	missing	1	added	Helper board previously omitted the current `REVIEW-NOMERGE-MCP-001` bucket.
+taxonomy-subtype-pressure-board-v0.1.tsv	agent_tool_authorization_boundary_failures	absent	present	added	Subtype board now reflects the live reviewed trust-boundary pair already governed in the canonical ledger.
+taxonomy-subtype-pressure-board-v0.1.tsv	mcp_deployment_trust_boundary_failures	absent	present	added	Subtype board now reflects the live reviewed MCP/deployment pair already governed in the canonical ledger.
+taxonomy-subtype-pressure-board-v0.1.tsv	all_rows.as_of_utc	2026-06-08T08:06:43Z	2026-06-08T12:07:46Z	updated	Refresh sync to the current canonical duplicate-governed state.

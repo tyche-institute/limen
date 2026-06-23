@@ -1,0 +1,1919 @@
+BILLING CODE: 6750-01-P
+FEDERAL TRADE COMMISSION
+16 CFR Part 461
+RIN 3084-AB71
+Trade Regulation Rule on Impersonation of Government and Businesses
+AGENCY: Federal Trade Commission.
+ACTION: Final rule.
+SUMMARY: This final rule prohibits the impersonation of government, businesses, and
+their officials or agents in interstate commerce. This document contains the text of the
+final rule and the rule’s Statement of Basis and Purpose (“SBP”), including a Regulatory
+Analysis.
+DATES: This rule is effective [INSERT DATE 30 DAYS AFTER DATE OF
+PUBLICATION IN THE FEDERAL REGISTER].
+FOR FURTHER INFORMATION CONTACT: Christopher E. Brown (202-3262825), Attorney, Division of Marketing Practices, Bureau of Consumer Protection,
+Federal Trade Commission, 600 Pennsylvania Avenue NW, Washington, DC 20580.
+SUPPLEMENTARY INFORMATION:
+I. Background
+A. Advance Notice of Proposed Rulemaking
+On December 23, 2021, the Federal Trade Commission (“Commission” or
+“FTC”) published an advance notice of proposed rulemaking (“ANPR”) to address
+certain deceptive or unfair acts or practices of impersonation. 1 As part of the ANPR, the
+0F
+
+Commission requested comment on any issues or concerns relevant or appropriate to this
+
+1
+
+rulemaking to combat impersonation of governments, businesses, or their agents, and
+whether and how to proceed with a notice of proposed rulemaking (“NPRM”). 2 The
+1F
+
+Commission took comments for 60 days, and received 164 comments from
+representatives from a broad spectrum of businesses, trade associations, government or
+law-enforcement organizations, and individual consumers, which are publicly available
+on this rulemaking’s docket at https://www.regulations.gov/docket/FTC-20210077/comments. Commenters generally expressed support for the Commission’s
+proceeding with the rulemaking. They also voiced deep concerns about the prevalence
+and harmfulness of both government and business impersonation. No commenter
+expressed the view that the Commission should not commence the rulemaking.
+Commenters also offered suggestions for the Commission’s consideration in drafting the
+proposed rule and other recommendations in furtherance of the proposed rulemaking.
+B. Notice of Proposed Rulemaking
+Based on an extensive review of the comments received in response to the ANPR,
+the Commission’s own history of enforcement, and other considerations that occurred
+after the ANPR’s publication, 3 the Commission published the NPRM on October 17,
+2F
+
+2022. 4 In the NPRM, the Commission stated it has reason to believe impersonation of
+3F
+
+government, businesses, and their officials or agents is prevalent. 5 The Commission
+4F
+
+identified no disputed issues of material fact based on the comment record; explained its
+considerations in developing the proposed rule; solicited additional public comment
+thereon, including posing specific questions designed to assist the public in submitting
+comment; and provided interested parties the opportunity to request to present their
+
+2
+
+position orally at an informal hearing. 6 Finally, the NPRM set out the Commission’s
+5F
+
+proposed rule.
+In response to the NPRM, the Commission received 78 comments from entities
+and individuals interested in the proposed rule, discussed in Section III. 7 Although some
+6F
+
+raised concerns and recommended specific modifications or additions to the
+Commission’s proposal, the majority generally supported the rule proposed in the
+NPRM. Two commenters timely submitted requests for interested parties to make an oral
+statement at an informal hearing. 8
+7F
+
+C. Notice of Informal Public Hearing
+On March 30, 2023, the Commission published an Initial Notice of Informal
+Hearing (“Notice of Hearing”). 9 The Notice designated the Commission’s Chief
+8F
+
+Administrative Law Judge, D. Michael Chappell, to serve as the presiding officer of the
+informal hearing and stated that any member of the public wishing to speak at the
+informal hearing or make a documentary submission to be placed on the public
+rulemaking record (or both) should submit a comment on or before April 14, 2023. 10
+9F
+
+On May 4, 2023, Chief Judge Chappell presided over the informal hearing using
+video conferencing, which enabled the public to watch live from the Commission’s
+website, https://www.ftc.gov. Because there were no disputed issues of material fact to
+resolve, the informal hearing included no cross examination or rebuttal submissions, and
+the presiding officer made no recommended decision. The informal hearing included oral
+statements from 14 interested parties. 11 The majority of commenters who presented oral
+1 0F
+
+statements at the informal hearing or filed documentary submissions generally expressed
+strong support for the Commission’s proposed rule. 12 Several commenters, however, also
+1 1F
+
+3
+
+expressed concern that the proposed rule language does not explain the circumstances
+under which the Commission would apply proposed § 461.4, which would prohibit
+providing the means and instrumentalities to commit violations of government and
+business impersonation. Some suggested alternative language imposing a scienter
+requirement to narrow the scope of this provision, discussed in Section III.D.
+In crafting the final rule, the Commission has carefully considered the comments
+received in response to the NPRM and on the rulemaking record as a whole, which
+includes the oral statements and documentary submissions in response to the Notice of
+Hearing. The final rule contains some changes from the proposed rule. These
+modifications, discussed in detail in Section III, are based upon input from commenters
+and careful consideration of relevant law. Section III also discusses commenters’
+recommendations that the Commission declined to adopt, along with the Commission’s
+reasons for rejecting them. Accordingly, the Commission adopts the proposed rule with
+limited modifications as discussed below. The rule will take effect [INSERT DATE 30
+DAYS AFTER DATE OF PUBLICATION IN THE FEDERAL REGISTER].
+II. The Legal Standard for Promulgating the Rule
+The Commission is promulgating 16 CFR Part 461 pursuant to section 18 of the
+FTC Act, 15 U.S.C. 57a, the Administrative Procedure Act (“APA”), and Part 1, subpart
+B of the Commission’s Rules of Practice. 13 This authority permits the Commission to
+1 2F
+
+promulgate, modify, and repeal trade regulation rules that define with specificity acts or
+practices that are unfair or deceptive in or affecting commerce within the meaning of
+section 5(a)(1) of the FTC Act, 15 U.S.C. 45(a)(1).
+
+4
+
+The Commission’s Rules of Practice further provide that if the Commission
+determines to promulgate a rule, it will adopt a SBP, which must address three factors:
+(1) The prevalence of the acts or practices addressed by the rule; (2) the manner and
+context in which the acts or practices are unfair or deceptive; and (3) the economic effect
+of the rule, taking into account the effect on small businesses and consumers. 14 In this
+13 F
+
+section of the preamble, the Commission summarizes its findings regarding each of these
+factors.
+A. Prevalence of Acts or Practices Addressed by the Rule
+In its ANPR, the Commission cited public data from the Consumer Sentinel
+Network database and described its enforcement record, demonstrating government and
+business impersonation scams are not only highly prevalent but increasingly harmful. 15
+1 4F
+
+In the NPRM, the Commission also took notice of additional indications of prevalence
+that came after the ANPR’s publication. 16 Specifically, the NPRM cited data from a
+15 F
+
+broad spectrum of commenters (businesses, trade associations, and government or lawenforcement organizations) regarding the prevalence of government and business
+impersonation scams, which echoed the Commission’s findings that these schemes are
+among the most common deceptive or unfair practices affecting U.S. consumers and
+businesses and continue to be a significant source of consumer injury. 17
+16 F
+
+B. Manner and Context in Which the Acts or Practices Are Deceptive or Unfair
+A representation, omission, or practice is deceptive if it is material and likely to
+mislead a consumer acting reasonably under the circumstances. 18 The most frequent
+1 7F
+
+allegations in the Commission’s enforcement actions involving government and business
+impersonation pertain to defendants tricking consumers to pay money or disclose
+
+5
+
+personal information by making, expressly or by implication, statements that
+misrepresent the defendants’ identity. 19 Nearly as frequent are allegations of
+18F
+
+misrepresentations concerning defendants’ affiliation with, endorsement or approval by,
+or other association with a government or business. The Commission has further found
+false threats of severe consequences and promises of benefits are additional deceptive
+tactics deployed by government and business impersonators. In the Commission’s
+experience, such claims regarding identity, affiliation, or endorsement are material to
+consumers making their decision to trust impersonators. The numerous government and
+business impersonation complaints consumers submit to the Commission each year, as
+well as comments submitted in connection with this rulemaking proceeding, consistently
+reference these same concerns. Accordingly, the specific practices described in the
+preamble to the proposed rule reflect the type of conduct most commonly associated with
+deceptive and unfair practices pertaining to government and business impersonation. 20
+19 F
+
+C. The Economic Effect of the Rule
+As part of the rulemaking proceeding, the Commission solicited comment and
+data (both qualitative and quantitative) on the economic impact of the proposed rule and
+its costs and benefits. 21 In issuing the final rule, the Commission has carefully considered
+2 0F
+
+the comments received and the costs and benefits of each provision, as discussed in more
+detail below in Section VI. The record demonstrates the most significant anticipated
+benefit of the final rule is the Commission’s ability to obtain monetary relief. This is
+particularly critical because that ability was curtailed by the U.S. Supreme Court’s
+decision in AMG Cap. Mgmt., LLC v. FTC, which holds that equitable monetary relief,
+including consumer redress, is not available under section 13(b) of the FTC Act. 22
+2 1F
+
+6
+
+Further, obtaining monetary relief based on violations of the final rule under section
+19(b) of the FTC Act will be significantly faster than obtaining such relief under section
+19(a)(2) without a rule violation. 23 By enabling the Commission to obtain monetary relief
+22F
+
+more efficiently, the final rule would also reduce the expenditure of Commission
+resources. 24 As an additional benefit, the rule enables the Commission to obtain civil
+2 3F
+
+penalties against violators. 25 The final rule also provides a benefit to businesses through
+24 F
+
+increased deterrence of business impersonators, which reduces businesses’ expenditure of
+resources associated with monitoring for and addressing impersonation. 26 Moreover, as
+25 F
+
+the record and the Commission’s law enforcement experience demonstrate, the final rule
+is unlikely to impose costs on any honest business, and may increase deterrence of
+impersonation scams, which would benefit consumers through a reduction in their total
+financial losses from these schemes. 27
+26 F
+
+III. Response to Comments
+The Commission received 78 comments in response to the NPRM from a diverse
+group of individuals, industry groups and trade associations, consumer organizations, and
+government agencies. 28 The Commission received 28 comments in response to the
+27 F
+
+Notice of Hearing, including oral presentations from 14 commenters. 29 Commenters
+2 8F
+
+generally supported the proposed rule, recognizing the Commission’s authority to protect
+consumers from the increasing number of government and business impersonation frauds
+targeting consumers.
+In the NPRM, the Commission invited comment on any issues or concerns the
+public believes are relevant or appropriate to the Commission’s consideration of the
+proposed rule. 30 The NPRM also posed eight specific questions for the public. 31 Some of
+29 F
+
+3 0F
+
+7
+
+these questions relate to the Paperwork Reduction Act (“PRA”) and Regulatory
+Flexibility Act (‘‘RFA’’), and are addressed in Sections V and VI, respectively. 32 The
+31 F
+
+other questions, along with common issues or concerns relevant to the Commission’s
+consideration of the proposed rule outside of the specific questions, are addressed in this
+section of the preamble.
+A. Finalizing the Proposed Rule as a Final Rule
+In Question 1 of the NPRM, the Commission asked whether it should finalize the
+proposed rule as a final rule, and how, if at all, it should change the proposed rule in
+promulgating the final rule. 33 The majority of commenters did not express a clear view
+32 F
+
+regarding whether the Commission should adopt the proposed rule as final. Many of
+these commenters, however, did share their experience regarding the prevalence and
+harmfulness of various kinds of government and business impersonation frauds. 34 Some
+33 F
+
+of these commenters complained more generally about various non-impersonation
+scams. 35 The majority of commenters that addressed Question 1 of the NPRM were
+3 4F
+
+substantially supportive of the proposed rule, but stopped short of urging the Commission
+to finalize the text of the proposed rule without modification. These commenters typically
+recommended either broadening or narrowing the scope or text of the rule in response to
+other specific questions asked in the NPRM or relevant to the Commission’s
+consideration of the proposed rule. 36
+35F
+
+Six commenters explicitly addressed the Commission’s question regarding
+finalizing the proposed rule as a final rule, and without recommending additional
+modifications to the text of the proposed rule, urged the Commission to do so. 37 Some of
+36 F
+
+these commenters stated the proposed rule is in the public interest because it would allow
+
+8
+
+for civil penalties against government and business impersonators, provide redress for
+victims of impersonation scams, and deter future bad acts. 38
+37F
+
+Several government agencies and trade associations explained how the proposed
+rule would benefit them, their members, or the people they serve. The United States
+Patent and Trademark Office (“USPTO”) described its experience of agency
+impersonation, and stated that reliance on the FTC’s enforcement capabilities through
+such a rule would allow the USPTO to conserve and allocate its resources to different
+enforcement efforts that impact the USPTO and its stakeholders. 39 Similarly, the Marine
+38 F
+
+Retailers Association of the Americas (“MRAA”), a trade association representing
+marine retailers, argued the benefits associated with finalizing the proposed rule would
+reduce the financial burden on businesses and improve trust among consumers. 40 The
+3 9F
+
+United States Copyright Office (“USCO”) expressed support for finalizing the proposed
+rule, arguing that doing so would allow the Commission to move more quickly to put a
+stop to impersonation scams. 41 The USPTO and the USCO explained they do not have
+40F
+
+law enforcement authority to remedy the harms resulting from bad actors impersonating
+the agencies, and USCO argued the proposed rule would foster public trust in the
+copyright system. 42 The Cellular Telecommunications and Internet Association
+41 F
+
+(“CTIA”), a trade association for wireless service providers, argued in favor of finalizing
+the proposed rule because its scope is “targeted and judicious,” and appropriately focused
+on the bad actors that harm consumers. 43
+4 2F
+
+Somos, Inc., which manages registry databases for the telecommunications
+industry, stated it “strongly supports the Commission’s proposed rules,” but suggested
+the Commission explicitly clarify that spoofing a telephone number of a business or
+
+9
+
+government entity to aid in that impersonation violates the rule. 44 The Commission is not
+43 F
+
+persuaded that explicitly stating telephone spoofing, or any specific type of government
+or business impersonation, constitutes a violation of the rule is necessary. 45 Moreover,
+4 4F
+
+the Telemarketing Sales Rule (“TSR”) already bars telemarketers from ‘‘failing to
+transmit. . . the telephone number and . . . the name of the telemarketer to any caller
+identification service in use by a recipient of a telemarketing call.’’ 46 By definition, a
+4 5F
+
+spoofed telephone number is not the number of the telemarketer, and the Commission can
+rely on this prohibition to bring an enforcement action for violation of the TSR against a
+telemarketer that uses a spoofed number.
+The Commission also received several comments that identified the lack of access
+to accurate information concerning domain name registrants (commonly known as
+“WHOIS” data) as a significant impediment to combatting the use of domain names to
+impersonate government and businesses. 47 These commenters expressed support for
+4 6F
+
+expanding the text or scope of the final rule to address this issue. 48 In particular, a few
+47 F
+
+commenters urged the Commission to issue a final rule that requires domain name
+registrars to collect, verify, maintain, and disclose accurate WHOIS data to the FTC and
+third-party victims on request for such information based on credible evidence of
+impersonation fraud. 49 The Coalition for Online Accountability (“COA”), a group
+48 F
+
+advocating for online transparency and accountability, argued “[t]here is no justification
+for the redaction of data of legal person registrants or the overwhelming denial of
+reasonable access to personal WHOIS data for legitimate third-party interests….” 50 Both
+49 F
+
+the Messaging Malware Mobile Anti-Abuse Working Group (“M3AAWG”) and the
+Anti-Phishing Working Group (“APWG”) also suggested the Commission encourage
+
+10
+
+Domain Name System (“DNS”) registries and registrars to engage in DNS mitigation and
+frequently impersonated entities to participate as “trusted notifiers” to address
+fraudulently registered domain names. 51
+5 0F
+
+The Commission declines to adopt commenters’ suggestion that the final rule
+expressly reference in accompanying examples the use of domain names in
+impersonation schemes. Rather, the Commission here repeats what it previously stated in
+the NPRM and earlier in this SBP, that the following list of examples of conduct covered
+by the prohibition on the impersonation of government and businesses was intended to be
+illustrative, not exhaustive: (1) calling, messaging, or otherwise contacting an individual
+or entity while posing as a government or an officer or agent or affiliate or endorsee
+thereof, including by identifying a government or officer by name or by implication; (2)
+sending physical mail through any carrier using addresses, government seals or
+lookalikes, or other identifying insignia of a government or officer thereof; (3) creating a
+website or other electronic service impersonating the name, government seal, or
+identifying insignia of a government or officer thereof or using ‘‘.gov’’ or any lookalike,
+such as ‘‘govusa.com’’; (4) creating or spoofing an email address using ‘‘.gov’’ or any
+lookalike; (5) placing advertisements that pose as a government or officer thereof against
+search queries for government services; (6) using a government seal on a building,
+letterhead, website, email, vehicle, or other physical or digital place; (7) calling,
+messaging, or otherwise contacting an individual or entity while posing as a business or
+an officer or agent or affiliate or endorsee thereof, including by naming a business by
+name or by implication, such as ‘‘card member services’’ or ‘‘the car dealership’’; (8)
+sending physical mail through any carrier using addresses, seals, logos, or other
+
+11
+
+identifying insignia of a business or officer thereof; (9) creating a website or other
+electronic service impersonating the name, logo, insignia, or mark of a business or a close
+facsimile or keystroke error, such as ‘‘ntyimes.com,’’ ‘‘rnicrosoft.com,’’
+‘‘microsoft.biz,’’ or‘‘carnegiehall.tixsales.com’’; (10) creating or spoofing an email
+address that impersonates a business; (11) placing advertisements that pose as a business
+or officer thereof against search queries for business services; and (12) using, without
+authorization, a business’s mark on a building, letterhead, website, email, vehicle, or
+other physical or digital place. 52 Accordingly, the Commission finds the final rule is
+51 F
+
+drafted with sufficient clarity and flexibility to address the unauthorized use of internet
+identifiers, including but not limited to domain names.
+Only one commenter suggested in response to Question 1 of the NPRM that the
+proposed rule should not be finalized. 53 The Americans for Prosperity Foundation
+52 F
+
+(“AFPF”), a 501(c)(3) nonpartisan education organization, argued the Commission
+should “abandon its Section 18 rulemaking ambitions, instead refocusing its efforts on
+case-by-case enforcement actions in federal court in cases involving concrete harm to
+consumers.” 54
+53 F
+
+The Commission disagrees with the AFPF’s suggestion that the section 18
+rulemaking process is too difficult or unwieldy to address many of the unfair or deceptive
+acts or practices prevalent in commerce. In 1975, Congress passed the Magnuson-Moss
+Warranty—Federal Trade Commission Improvement Act laying out specific procedures
+for the promulgation of “Trade Regulation Rules” to protect consumers in a dynamic and
+changing economic landscape. 55 The Commission’s regulations at 16 CFR part 1, subpart
+54 F
+
+B, respect the underlying statutory requirements of section 18, which provide ample
+
+12
+
+transparency and opportunity for public participation in the promulgation of Trade
+Regulation Rules. The Commission intends therefore to fulfill its mission to protect
+against unfair or deceptive acts or practices in or affecting commerce and to provide
+consumers and businesses with due process, clarity, and transparency while crafting the
+rules to do so. Accordingly, the Commission rightfully responds to Congress’s grant of
+authority by initiating this rulemaking.
+The AFPF also expressed various criticisms specific to the language of the
+proposed rule and recommended several suggested revisions discussed in greater detail in
+Sections III.C and III.D below.
+Following review of all comments and careful consideration of the relevant law,
+the final rule issued by the Commission contains some minor changes from the proposed
+rule, as discussed in Section III.
+B. Relevant Evidence Regarding Provisions of the Proposed Rule, Prevalence, Impact
+and Alternative Proposals
+In the ANPR, the Commission asked specific questions about the prevalence of
+impersonation fraud, and requested the data source commenters relied upon for
+formulating their answer(s). 56 The ANPR also asked specific questions regarding how to
+55 F
+
+craft a proposed rule to maximize the benefits to consumers and minimize the costs to
+businesses, and what alternatives to regulations the Commission should consider in
+addressing impersonation frauds. 57 In Question 2 of the NPRM, the Commission posed
+56 F
+
+these same or nearly identical specific questions regarding each different provision of the
+proposed rule. 58 Six commenters specifically addressed these questions. 59 Each of these
+57 F
+
+5 8F
+
+commenters described various types of government and business impersonation scams
+
+13
+
+common to their own experience or industry in support of their view that such frauds are
+highly prevalent. 60 For example, the Toy Association noted various business
+5 9F
+
+impersonation scams experienced by its members, including counterfeit or non-compliant
+toys, falsified documents regarding endorsement and affiliation related to counterfeit
+toys, false solicitation and phishing schemes collecting customer information, and
+domain impersonation. 61 Similarly, the USPTO and USCO described several examples
+60 F
+
+of government impersonation scams involving the trademark and copyright registration
+processes, respectively, and included illustrative examples as attachments with their
+public comment. 62
+61 F
+
+Other commenters particularly concerned with online business impersonation
+cited data from studies or reports regarding trends in these kinds of impersonation frauds,
+and recent examples of phishing attacks against consumers through the impersonation of
+recognized online companies in support of their arguments regarding prevalence. 63
+62 F
+
+A small number of commenters addressed the impact (including any benefits and costs)
+on consumers, governments, and businesses, discussed in more detail in Section VI.
+Only one commenter suggested an alternative proposal for the Commission’s
+consideration. 64 Specifically, the M3AAWG recommended as an alternative to the means
+6 3F
+
+and instrumentalities provision in proposed § 461.4 that the Commission “identify best
+practices or safe harbors to incentivize prompt mitigation efforts and sound verification
+techniques” to address the use of domain names in business impersonation schemes. 65
+6 4F
+
+M3AAWG argued this alternative to regulation would avoid the risk of inadvertently
+imposing “secondary or intermediary liability against legitimate businesses, technologies
+or services” exploited by impersonators. 66
+6 5F
+
+14
+
+Upon review of the comments received in response to Question 2 of the NPRM,
+the Commission concludes such comments support its own findings that government and
+business impersonation schemes are both prevalent and harmful. The Commission
+declines at this time to adopt M3AAWG’s alternative proposal for § 461.4. As discussed
+in Section III.D, the Commission is continuing to review comments and records relevant
+to the means and instrumentalities provision in proposed § 461.4 to determine whether
+additional action or protections are warranted and is requesting additional public
+comment through a SNPRM, published elsewhere in this issue of the Federal Register.
+C. Clarity of Prohibitions Against Impersonation of Government & Businesses
+In Question 5 of the NPRM, the Commission solicited comment regarding
+whether the proposed rule’s one-sentence prohibitions against impersonation of
+government in § 461.2 and against impersonation of businesses in § 461.3 are clear and
+unambiguous, and how, if at all, they should be improved. 67 The Commission received
+6 6F
+
+several comments that addressed this question directly 68 or indirectly. 69 Two
+67 F
+
+68 F
+
+commenters considered the one-sentence prohibitions to be clear and unambiguous
+and/or deferred to the Commission’s construction, but suggested certain additions or
+modifications. 70 For example, the USCO suggested the Commission consider whether
+69 F
+
+the definition of “officer,” which covers representatives of both governments and
+businesses, should be bifurcated into two separate and more specific terms to define
+representatives of governments and businesses, respectively. 71 No other commenter
+7 0F
+
+suggested a revision to the definitions in proposed § 461.1. The USPTO suggested the
+Commission broaden the exemplary “list of matter” used to impersonate a government to
+specifically reference “logos.” 72 In support of this recommendation, the USPTO noted
+7 1F
+
+15
+
+“the use of logos” was explicitly identified in the NPRM’s examples of unlawful conduct
+that would be covered by the prohibition against business impersonation in proposed §
+461.3, but not in the NPRM’s examples of unlawful conduct that would be covered by
+the prohibition of government impersonation in proposed § 461.2. The USPTO further
+asserted government agencies also “use logos in addition to official seals and insignia,”
+and provided an illustrative example of impersonators misusing the USPTO’s logo. 73
+72 F
+
+Three commenters indicated the language of proposed §§ 461.2 and 461.3 was
+vague or provided inadequate guidance, and warranted modification. 74 Some commenters
+73 F
+
+raised constitutional concerns based on the purported overbreadth of the one-sentence
+prohibitions. 75 These commenters’ constitutional arguments addressed two primary
+74F
+
+considerations: (1) whether the proposed rule provides due process notice; 76 and (2)
+7 5F
+
+whether it encroaches upon free speech protected under the First Amendment. 77 The
+76 F
+
+AFPF stated the proposed rule is an “open-ended regulation,” arguing it “fails to provide
+constitutionally adequate notice of required or prohibited conduct” and otherwise falls
+short of section 18’s specificity requirements. 78 Other commenters wary of inadvertent
+77 F
+
+intrusions on protected speech asserted any final prohibition should exempt innocent
+behavior such as parody 79 and non-commercial or otherwise legitimate speech. 80
+78 F
+
+79 F
+
+In his documentary submission in response to the Notice of Informal Hearing,
+William MacLeod echoed concerns he previously expressed in response to the NPRM
+that the language in proposed §§ 461.2 and 461.3 “depart[s] from the standards of
+deception that the Commission applies under Section 5.” 81 MacLeod noted that: “[i]ts
+8 0F
+
+terms do not include ‘deception’ or ‘fraud’ or critical elements of the FTC’s deception
+policy statement.” 82 He raised additional concerns about “impersonations and affiliations
+8 1F
+
+16
+
+[that] can be false, but also unbelievable.” 83 MacLeod argued that the prohibitions, as
+82 F
+
+written, are too broad and would proscribe non-deceptive acts or practices, such as
+“fictional depictions” in television advertisements. 84
+83 F
+
+Raising First Amendment concerns, the AFPF similarly asserted that the proposed
+rule’s “falsely pose as” language, “read literally,” would impose civil penalties on
+“utterly innocuous conduct” and “would appear to make it unlawful for anyone to dress
+up as an FTC Commissioner, politicians, or…a Microsoft executive and attend a
+Halloween party.” 85 It also expressed concern that the proposed prohibitions did not
+84 F
+
+require “materiality,” “consumer harm,” or “connection to interstate commerce.” 86
+8 5F
+
+Several commenters suggested alternative language to cure what they perceived to be the
+overbreadth of the prohibition provisions. For example, M3AAWG recommended that
+the final rule adopt a definition of “impersonation” that mirrors the definition of
+“criminal impersonation” in 18 U.S.C. Chapter 43. 87 M3AAWG asserted that such a
+86 F
+
+definition would narrow the scope of the rule to cover only those bad actors with “clear
+intent and specific knowledge” of prohibited acts.
+MacLeod proposed narrowing the focus of the final rule by adopting language
+that specifies particular prohibited practices or the mens rea of its intended targets. 88 The
+8 7F
+
+AFPF agreed with MacLeod, and suggested that the Commission revise the proposed rule
+to “explicitly incorporate Section 5’s statutory prohibition… [and] requirements set forth
+in the Commission’s Deception Statement.” 89
+8 8F
+
+After analyzing and considering the comments, the Commission is persuaded that
+the language of the final rule should adhere more closely to the language of section 5 of
+the FTC Act to avoid any potential confusion about the scope of the rule. The
+
+17
+
+Commission believes that these revisions sufficiently address some commenters’
+concerns that the language of the proposed rule put it in conflict with Due Process
+requirements and the First Amendment.
+The Commission emphasizes that it does not intend for the final rule to regulate
+non-commercial speech. To adhere more closely to the language of section 5 of the FTC
+Act and case law, the Commission has revised the final regulatory text to incorporate
+relevant language from section 5. Specifically, the Commission has replaced “unlawful”
+with “unfair or deceptive act or practice,” and added “materially” and “in or affecting
+commerce” in §§ 461.2 and 461.3. These changes make it abundantly clear that the scope
+of the final regulatory text is coterminous with the scope of the FTC’s authority under the
+FTC Act and they clearly specify the misconduct prohibited by the final rule.
+Accordingly, false impersonations or misrepresentations that are not material to a
+commercial transaction, such as impersonation in purely artistic or recreational
+costumery or impersonation in connection with political or other non-commercial speech,
+are not covered by the final rule.
+The Commission concludes that it is unnecessary to divide the definition of
+“officer” into two separate terms as suggested by the USCO. Section 461.1 defines
+“officer” to “include[] executives, officials, employees, and agents,” which the
+Commission believes appropriately describes and covers both government and business
+representatives.
+As previously stated, the NPRM’s list of examples of prohibited conduct covered
+by the rule is intended to be illustrative, not exhaustive, and therefore, the Commission
+declines to adopt the USPTO’s suggestion that it enlarge that exemplary “list of matter.”
+
+18
+
+Rather, the Commission maintains that not including specific prohibitions in the
+regulatory text provides it with sufficient flexibility to address the many types of “matter”
+(including objects, items, logos, insignia, etc.) used to impersonate governments and
+businesses alike, which are too numerous to list.
+The Commission declines to adopt a definition of “impersonation” that reflects a
+criminal regulatory scheme as proposed by M3AAWG. The FTC Act does not include a
+mens rea requirement, and there is no evidence in the record that the imposition of such a
+requirement is warranted. Furthermore, while intent is not required under the rule or the
+FTC Act, in any action seeking civil penalties for violation of the rule, the Commission
+will need to establish “actual knowledge or knowledge fairly implied on the basis of
+objective circumstances that such act is unfair or deceptive and is prohibited by such
+rule.” 90
+89F
+
+The Commission rejects the recommendation by both MacLeod and AFPF to
+incorporate the FTC Deception Policy Statement into the final rule. Nevertheless, as
+discussed earlier in this Section III.C, informed by MacLeod’s and AFPF’s comments,
+the Commission has revised the regulatory text of §§ 461.2 and 461.3 to mirror the
+language of section 5 of the FTC Act more closely. In particular, the reference to “unfair
+or deceptive act or practice,” and the inclusion of materiality and interstate commerce
+requirements should address commenters’ concerns that this rule might be read to cover
+impersonation in connection with artistic costumery, parody, or other non-commercial
+speech. 91 The Commission further notes that, by the terms of these sections, a court must
+90F
+
+find that the alleged defendant made an express or implied misrepresentation regarding
+material information for §§ 461.2 and 461.3 to be violated. For an express or implied
+
+19
+
+misrepresentation regarding material information to be made in violation of the FTC Act
+and this rule, there must be a representation that misleads consumers acting reasonably
+under the circumstances regarding material information. Thus, while the Commission
+rejects the recommendation by both MacLeod and AFPF to incorporate the FTC
+Deception Policy Statement into the final rule, by incorporating the changes above, the
+Commission has ensured that the final rule is consistent with the Deception Policy
+Statement, is consistent with other relevant Commission rules, and provides further
+specificity regarding the prohibited acts and practices under section 5 of the FTC Act.
+D. Prohibition Against Providing Means and Instrumentalities
+In Question 6 of the NPRM, the Commission asked whether the final rule should
+contain the prohibition in proposed § 461.4 against providing the means and
+instrumentalities for violations against government or business impersonation. The
+Commission received more than 20 comments that expressly addressed this question. 92
+91 F
+
+Many of the sentiments reflected in these comments were also echoed by several
+commenters that presented oral statements in response to the Notice of Informal
+Hearing. 93A few commenters arguing for the importance of holding intermediaries
+92 F
+
+accountable for enabling or promoting impersonation schemes encouraged the
+Commission to finalize the text of the proposed provision without modification. 94 These
+93 F
+
+commenters specifically argued that finalizing the proposed § 461.4 could help to combat
+impersonation schemes perpetrated by foreign-based scammers—beyond U.S. court
+jurisdiction—that obtain services from U.S.-based instrumentalities, such as payment
+processors and internet service providers. 95
+94 F
+
+20
+
+Addressing means and instrumentality liability, both the AFPF and MacLeod
+reiterated their concerns referenced in Section III.C, regarding section 18’s specificity
+requirements, due process notice, free speech, and conformity to the FTC’s Deception
+Policy Statement. 96 Most commenters who addressed Question 6 expressed support for
+95F
+
+means and instrumentalities liability, but with some concern or suggested modifications.
+Some supportive commenters cautioned that the proposed means and instrumentalities
+provision could be read too broadly. 97 Others expressed the concern that without a
+9 6F
+
+specific scienter or knowledge requirement, the proposed rule provision runs the risk of
+imposing strict liability against innocent and unwitting third-party providers of services
+or products. 98 Accordingly, several commenters urged the Commission to clarify the
+9 7F
+
+scope of means and instrumentalities liability or explicitly include a specific knowledge
+requirement in the final rule provision. 99
+98 F
+
+For example, the Consumer Technology Association (“CTA”), a trade association
+representing the U.S. consumer technology industry, stated that the Commission’s
+explanation and examples of the “means and instrumentalities” provision in the NPRM
+seem to limit its applicability, but such limitation “is not squarely reflected in the text of
+the proposed rule.” 100 The CTA therefore urged the FTC to clarify that “means and
+9 9F
+
+instrumentalities” liability applies only “to entities that have knowledge or consciously
+avoid knowing that they are making representations being used to commit impersonation
+fraud.” USTelecom, a trade association representing the broadband technology industry,
+argued that a discrepancy exists between the case law, the NPRM’s discussion of means
+and instrumentality liability, and the proposed rule provision. It urged the Commission to
+“adjust the proposed language in § 461.4 to codify the requirement that the person has
+
+21
+
+knowledge or reason to expect it is providing the means and instrumentalities . . .”
+(emphasis in original). 101 Similarly, the American Bar Association Section of Intellectual
+100F
+
+Property Law suggested that the Commission “explicitly include [in § 461.4] the
+language referenced in the [NPRM] from Shell Oil Co., 128 F.T.C. 749 (1999)—acting
+with ‘knowledge or reason to expect that consumers may possibly be deceived as a
+result.’” 102
+101F
+
+Other commenters argued that inclusion of a scienter requirement is a necessary
+but not sufficient modification of the proposed language to impose means and
+instrumentalities liability. For example, the Internet & Television Association
+(‘‘NCTA’’), a trade association for the United States cable television industry, argued
+that such “liability requires both providing deceptive means and instrumentalities, e.g.,
+providing false or misleading claims or counterfeit items, and actual knowledge that the
+deceptive representations or goods will be used to commit impersonation violations”
+(emphasis in original). 103 Likewise, M3AAWG advocated that, in addition to a
+102F
+
+“knowledge or reason-to-know test,” primary liability under a revised § 461.4 should also
+require that the provision of such means and instrumentalities be done willfully or in bad
+faith, and with clear intent and specific knowledge. 104
+103F
+
+A few commenters urged the Commission to adopt a final rule that explicitly
+recognizes specific or defined “means and instrumentality” violations perpetrated in
+connection with impersonation frauds, such as the use of legal process documents 105 or
+104F
+
+manipulated media technologies (i.e., deepfakes) 106 or failure to disclose WHOIS
+105F
+
+data. 107
+106F
+
+22
+
+Based upon the comments received on the proposed provision regarding means and
+instrumentalities, the Commission has decided that this specific provision warrants
+further analysis and consideration; thus, the Commission has decided not to finalize
+proposed § 461.4. The Commission is not aware of any other rule, whether issued
+pursuant to section 18 or APA rulemaking authority, that identifies a means and
+instrumentalities violation. The Commission notes that it has used means and
+instrumentalities allegations as a type of deception to establish primary liability in the
+absence of privity between the defendant and the deceived persons, albeit rarely, in
+connection with matters that involve impersonation. 108 Pending further analysis and
+107F
+
+consideration, the Commission declines to adopt proposed § 461.4 at this time. The
+Commission is still considering the provision regarding means and instrumentalities, as
+well as issues related to the impersonation of individuals or entities other than
+governments and business in interstate commerce, and is requesting public comment
+through a Supplemental Notice of Proposed Rulemaking (“SNPRM”), published
+elsewhere in this issue of the Federal Register.
+E. Inclusion of Prohibition Against Impersonating Nonprofits
+In response to the ANPR, the Commission received a number of comments that
+urged the Commission to include ‘‘nonprofit” entities in the proposed rule’s definition of
+businesses that can be impersonated. 109 The Commission agreed with these comments,
+108F
+
+and consequently, defined a ‘‘business’’ that may be impersonated to include nonprofits
+in § 461.1 of the proposed rule, notwithstanding the fact that the Commission is
+authorized to sue a corporation only when the corporation is ‘‘organized to carry on
+business for its own profit or that of its members.” 110 As the Commission explained in
+109F
+
+23
+
+the NPRM, the reason for doing so is because for profit businesses may impersonate
+nonprofit business. 111 In Question 7 of the NPRM, the Commission solicited comment
+11 0F
+
+regarding whether any final rule should keep the prohibition against impersonating
+nonprofit organizations. 112 The Commission received more than a dozen comments that
+11 1F
+
+specifically addressed this question, and each of them expressed support for a final rule
+keeping the prohibition against impersonating nonprofits. 113 None of the comments
+11 2F
+
+responding to the NPRM or Notice of Hearing opposed doing so. The vast majority of
+commenters who addressed this question were themselves nonprofit organizations
+operating as trade associations, and referenced their own experience with impersonation
+frauds in support of a final rule keeping the prohibition against impersonating
+nonprofits. 114 Several commenters expressed the view that nonprofits are often the
+11 3F
+
+subject of impersonation scams in the same way as for profit businesses and government
+agencies. 115 Other commenters asserted that impersonation of nonprofits could be
+114F
+
+uniquely harmful because bad actors “prey[] on the goodwill of individuals attempting to
+make donations, and misappropriate[] those donations to corrupt private actions.” 116
+11 5F
+
+Some commenters noted that nonprofits are particularly susceptible to being
+impersonated in scams involving affiliation or endorsement claims because nonprofits
+often offer awards or seals of approval. 117
+11 6F
+
+Finally, two commenters cited trademark law in support of keeping nonprofits in
+the definition of business and a final rule that includes the prohibition against
+impersonating nonprofits. Specifically, both INTA and the Toy Association stated that
+trademark law has “long recognized that the misuse of names of non-profit organizations
+can lead to harmful consumer confusion.” 118 In INTA’s and the Toy Association’s view,
+117F
+
+24
+
+the same applies with respect to impersonation schemes; thus, the final rule should also
+make no distinction between for profit and nonprofit businesses.
+Based upon the record, including public comments in response to Question 7 of
+the NPRM, the Commission has determined that the final rule will retain the definition of
+“business” in § 461.1 that includes nonprofits and the prohibition against impersonating
+nonprofit organizations in § 461.3.
+F. Inclusion of Individuals or Entities Other Than Government and Business
+Impersonators
+In the NPRM, the Commission asked whether the proposed rule should be
+expanded to address the impersonation of individuals or entities other than governments
+and business in interstate commerce. 119 The NPRM identified romance and grandparent
+118F
+
+impersonation scams as illustrative, but non-exhaustive, examples of other types of
+impersonation fraud, and solicited further comment regarding their prevalence and
+impact, and alternative proposals to regulation. Six commenters specifically addressed
+these questions, and each of them stated that the Commission should expand the reach of
+the proposed rule to extend beyond government and business impersonators. 120 Some
+119F
+
+commenters asserted that fraudsters often impersonate individuals in similar ways they
+impersonate government and businesses. 121 In support of expanding the rule, several
+120F
+
+commenters argued that romance and grandparent impersonation scams were harmful and
+prevalent, citing to data from the FTC and other sources showing a steady increase in the
+number of consumer reports and median individual losses for such scams. 122 A comment
+121F
+
+submitted by a group of students at Rutgers Law School asserted that older consumers are
+susceptible to “interpersonal confidence fraud and romance scams” and provided relevant
+
+25
+
+data demonstrating that older consumers may be more likely to fall victim to these kinds
+of impersonation than to government impersonation. 123 Several commenters also stated
+12 2F
+
+that while the number of reports of these two types of impersonation scams are not as
+high as government and business impersonation, they are likely underreported, and that
+median individual losses are often higher. 124 The AARP stated that, “[o]f all fraud
+12 3F
+
+activity, romance scams and scams impersonating a family member in trouble are the
+most insidious, given the emotional devastation that combines with often significant
+financial losses.” 125 A joint comment submitted by several consumer and privacy
+12 4F
+
+advocacy organizations argued that such evidence “should be sufficient justification” for
+the Commission to “add a subsection to proposed Section 461 to cover ‘Impersonation of
+Individuals.’” 126
+125F
+
+A few commenters discussed the prevalence and harmfulness of other kinds of
+impersonation scams as support for expanding the rule beyond government and
+businesses to include individuals. For example, the NCTA stated that its member
+companies had observed an increase in sophisticated residential IP address scams that
+impersonate online subscribers for illegal purposes such as piracy and fraud. 127 NCTA
+12 6F
+
+encouraged the Commission to consider a new rule to prohibit impersonation of
+individuals through “unauthorized use of an individual’s online credentials, accounts, IP
+addresses, and digital networks.” 128 The Recording Industry Association of America
+127F
+
+(“RIAA”) described impersonation scams involving offers of NFTs and mobile apps
+suggesting affiliation with sound recording artists and phishing scams where third parties
+claimed to be a music artist’s manager or producer. 129 RIAA recommended that the
+128F
+
+Commission expand the rule to include the following: “[I]t [is] unlawful to falsely pose
+
+26
+
+as or to misrepresent, directly or by implication, affiliation with, including endorsement
+or sponsorship by, an individual, for financial gain.” 130
+129F
+
+The Rutgers Law Students noted the prevalence of social media, and profiles of
+celebrities and influencers in current modes of online communication, arguing that it
+would be a “grave oversight” to omit persons with such notable identities from a rule
+prohibiting impersonation. 131 The students also argued that individuals are more likely
+13 0F
+
+than government agencies or businesses to suffer direct harm to their identities from
+impersonation scams and less likely to be able to repair the reputational injuries. 132
+131F
+
+Accordingly, they proposed that the Commission add another section to the rule with
+language prohibiting the impersonation of “any person” that parallels the language in §§
+461.2 and 461.3 prohibiting the impersonation of government and businesses,
+respectively. 133 The students further stated that this additional provision “closes a
+13 2F
+
+loophole” that proposed §§ 461.2 and 461.3 leave open regarding the impersonation of
+former government and business officials. 134 Finally, the students concluded that adding
+133F
+
+such a narrowly drafted provision would not burden honest businesses or individuals, and
+would benefit consumers because the median individual losses for other kinds of
+impersonation frauds are often greater than for government and business
+impersonation. 135 Both the students and the NCTA agreed that expanding the proposed
+13 4F
+
+rule to prohibit impersonation of individuals would not impact recreational or comedic
+impersonations of individuals in television or film. 136
+13 5F
+
+Upon consideration of the comments received in response to Question 8 of the
+NPRM and all relevant records and data, the Commission is seeking additional public
+comment about potentially expanding part 461 to cover impersonation of individuals or
+
+27
+
+entities other than governments and businesses in interstate commerce in a SNPRM
+published elsewhere in this issue of the Federal Register. 137
+136F
+
+G. Requiring Domain Name Registrars to Collect, Verify, Maintain, and Disclose
+Accurate WHOIS Data
+The Commission received several comments that identified the lack of access to
+accurate information concerning domain name registrants (commonly known as
+“WHOIS” data) as a significant impediment to combatting the use of domain names to
+impersonate government and businesses. 138 These commenters expressed support for
+137F
+
+expanding the text or scope of the final rule to protect consumers from this increasingly
+prevalent impersonation scheme. 139 In particular, a few commenters urged the
+138F
+
+Commission to issue a final rule that requires domain name registrars to collect, verify,
+maintain, and disclose accurate WHOIS data to the FTC and third-party victims on
+request for such information based on credible evidence of impersonation fraud. 140 As
+139F
+
+previously noted, the COA argued that the redaction or denial of reasonable access to
+WHOIS data is unjustified. 141 Both M3AAWG and APWG also suggested that the
+140F
+
+Commission encourage DNS registries or registrars to engage in DNS mitigation and
+frequently impersonated entities to participate as “trusted notifiers” to address
+fraudulently registered domain names. 142
+141F
+
+Because the deceptive use of internet domain names is already covered under the
+rule, the Commission declines to adopt commenters’ suggestion that the final rule
+expressly reference in the text or accompanying examples the use of domain names in
+impersonation schemes. As previously noted in Section III.A, the NPRM’s preamble
+contained a list of examples of conduct covered by the prohibition on the impersonation
+
+28
+
+of government and businesses that was intended to be illustrative, not exhaustive. 143
+14 2F
+
+Such a comprehensive list would be both impossible and would not provide the trade
+regulation rule with the flexibility to accommodate changes in the marketplace and
+scammers’ behavior. The Commission finds therefore that the final rule is drafted with
+sufficient clarity and flexibility to address the unauthorized use of internet identifiers,
+including but not limited to, domain names. Furthermore, the Commission declines to
+issue a final rule that imposes affirmative requirements upon domain name registrars
+which is beyond the purview of this rulemaking and doing so arguably would place an
+impracticable burden upon consumers to know about and verify the trustworthiness of
+such WHOIS data.
+H. Comments Regarding Limitation of Remedies
+A small number of commenters urged the Commission to clarify that any final
+rule regarding impersonation would not limit any rights and remedies already available to
+businesses and consumers that have been the subject of impersonation. 144 For example,
+14 3F
+
+notwithstanding its support of the Commission’s rulemaking to address impersonation,
+the American Bar Association Section of Intellectual Property Law asserted that many
+government impersonation scams should be referred to the Department of Justice for
+criminal prosecution, and therefore, cautioned that any regulatory approach “not dilute
+the impetus for a criminal law solution.” 145 Other commenters suggested that the
+14 4F
+
+Commission clarify that any final rule is not intended to limit any existing private right of
+action or civil remedies. 146 Specifically, the Toy Association and INTA both advocated
+145F
+
+that any final rule on impersonation not be interpreted as limiting the rights and remedies
+available to trademark owners under the Lanham Act and the Anti-Cybersquatting
+
+29
+
+Consumer Protection Act. INTA further proposed that the Commission issue a
+clarification that any final rule is intended only to complement—not expand or contract—
+the legal protections available to private parties under the entire body of federal or state
+trademark and unfair competition law. 147
+14 6F
+
+By issuing the final rule regarding government and business impersonation, the
+Commission does not preempt or intend to preempt action in the same area, which is not
+inconsistent with this final rule, by any federal, state, municipal, or other local
+government. This final rule does not annul or diminish any rights or remedies provided to
+consumers or businesses by any federal, state law, municipal ordinance, or other local
+regulation, insofar as those rights or remedies are equal to or greater than those provided
+by this final rule.
+IV. Final Rule
+For the reasons described above, the Commission has determined to adopt the
+provisions of proposed § 461.1 as initially proposed, and the provisions of §§ 461.2 and
+461.3 with clarifying modifications. The Commission declines to finalize proposed §
+461.4 at this time.
+Specifically, the Commission concludes that the proposed definition of “officer”
+is sufficient to cover both government and business representatives, and therefore, need
+not be divided into two separate terms. Further, the final rule includes a definition of
+“materially”—which has been used in other section 18 rules—to avoid potential
+confusion or potential perceived conflict with non-commercial speech. For these same
+reasons, the final rule replaces “unlawful” with “unfair or deceptive act or practice” and
+adds “materially” and “in or affecting commerce” in §§ 461.2 and 461.3. Such revised
+
+30
+
+language further clarifies that the rule conforms to the well established standards for
+deception and unfairness under the FTC Act. Finally, the Commission declines to finalize
+the proposed § 461.4 provision regarding means and instrumentalities at this time
+because further analysis and consideration is warranted based on the record, including
+comments. The Commission is requesting additional public comment on this provision,
+and on issues related to the impersonation of individuals or entities other than
+governments and business in interstate commerce, through a SNPRM, published
+elsewhere in this issue of the Federal Register.
+V. Paperwork Reduction Act
+The Paperwork Reduction Act (“PRA”), 44 U.S.C. 3501 et seq., requires federal
+agencies to seek and obtain Office of Management and Budget (“OMB”) approval before
+undertaking a collection of information directed to ten or more persons. In Question 3 of
+the NPRM, the Commission asked commenters whether the proposed rule contained a
+collection of information. 148 No comments responding to the NPRM or Notice of
+14 7F
+
+Hearing addressed this question. While the Commission has revised the rule based on the
+comments it received, it has not added any new requirements that would collect
+information from the public. Accordingly, the Commission has determined that there are
+no new requirements for information collection associated with this final rule.
+VI. Regulatory Analysis and Regulatory Flexibility Act Requirements
+Under section 22 of the FTC Act, the Commission, when it promulgates a final
+rule, must issue a ‘‘final regulatory analysis.’’ 149 The required contents of this final
+148F
+
+regulatory analysis are: (1) ‘‘a concise statement of the need for, and the objectives of,
+the final rule’’; (2) ‘‘a description of any alternatives to the final rule which were
+
+31
+
+considered by the Commission”; (3) ‘‘an analysis of the projected benefits and any
+adverse economic effects and any other effects of the final rule’’; (4) “an explanation of
+the reasons for the determination of the Commission that the final rule will attain its
+objectives in a manner consistent with applicable law and the reasons the particular
+alternative was chosen”; and (5) “a summary of any significant issues raised by the
+comments submitted during the public comment period in response to the preliminary
+regulatory analysis, and a summary of the assessment by the Commission of such
+issues.” 150 Additionally, the Regulatory Flexibility Act (‘‘RFA’’), 5 U.S.C. 601–612,
+149F
+
+requires an agency to provide a Final Regulatory Flexibility Analysis (‘‘FRFA’’) with the
+final rule, if any, unless the agency certifies that the rule will not have a significant
+economic impact on a substantial number of small entities. 151
+15 0F
+
+The NPRM included an Initial Regulatory Flexibility Analysis (‘‘IRFA’’) even
+though the Commission did not expect that the proposed rule would have a significant
+economic impact on a substantial number of small entities. 152 The Commission invited
+15 1F
+
+public comment on the proposed rule’s effect on small entities to ensure that no
+significant impact would be overlooked. 153
+152F
+
+The FTC does not expect that the final rule will have a significant economic
+impact on a substantial number of small entities, and this SBP serves as notice to the
+Small Business Administration of the agency’s certification of no significant impact. The
+final rule imposes no disclosure or recordkeeping requirements. As such, both the
+burdens imposed on small entities and the economic impact of the final rule are likely to
+be minimal, if any. Furthermore, as noted in the IRFA, the rule does not change the law
+regarding the legality of government and business impersonation, which are already
+
+32
+
+prohibited by section 5 of the FTC Act. 154 Although the Commission certifies the final
+153F
+
+rule would not, if promulgated, have a significant impact on a substantial number of
+small entities, the Commission has determined, nonetheless, it is appropriate to conduct
+the following FRFA, 155 which incorporates the Commission’s initial findings, as set forth
+154F
+
+in the NPRM, 156 addresses the required contents of the final regulatory analysis, and
+155F
+
+describes the steps the Commission has taken in the final rule to minimize its impact on
+small entities.
+A. Concise Statement of the Need for, and Objectives of, the Final Rule
+Based upon the record, including public comments, the Commission is
+implementing the rule to expand the remedies available to it to combat government and
+business impersonation deception. Throughout this rulemaking proceeding, the
+Commission has described how the U.S. Supreme Court decision in AMG Cap. Mgmt.,
+LLC v. FTC, 141 S. Ct. 1341, 1352 (2021) overturned how section 13(b) of the FTC Act
+had historically been understood for 40 years to provide equitable monetary relief, and
+made it significantly more difficult for the Commission to obtain money for injured
+consumers. 157 The objective of this final rule is to make available a shorter, faster and
+156F
+
+more efficient path for recovery of money for injured consumers directly through federal
+court action in Commission enforcement actions involving impersonation of government
+or business. 158 Further, the rule would deter illegal impersonation and allow for the
+157F
+
+imposition of civil penalties, where appropriate. 159
+158F
+
+B. Discussion of Significant Alternatives the Commission Considered That Would
+Accomplish the Stated Objectives of the Final Rule and That Would Minimize Any
+Significant Economic Impact of the Final Rule on Small Entities
+
+33
+
+Through the NPRM, the Commission requested public comment on what impact
+(including costs) will be incurred by existing and future businesses to comply with the
+proposed rule, and whether the Commission should consider alternative proposals to the
+proposed rule. 160 This information was requested by the Commission to minimize the
+15 9F
+
+final rule’s burden on all businesses, including small entities. As explained throughout
+this SBP, the Commission has considered the comments and alternatives proposed by
+commenters and finds the final rule will not create a significant economic impact on
+small entities. 161 Indeed, the type of deception that will be unlawful under the final rule is
+160 F
+
+already unlawful under the FTC Act, but the final rule would allow the Commission to
+obtain monetary relief more efficiently than it could solely under section 19(a)(2) of the
+FTC Act (i.e., without a rule violation). Accordingly, the Commission does not propose
+any specific small entity exemption or other significant alternatives.
+C. Summary of Significant Issues Raised by the Public Comments in Response to the
+Preliminary Regulatory Analysis and IRFA
+None of the comments received during the public comment period raised any
+significant issues in response to the preliminary regulatory analysis required pursuant to
+section 22 of the FTC Act. 162 In the IRFA, however, the Commission sought comment
+16 1F
+
+regarding the impact of the proposed rule and any alternatives the Commission should
+consider, with a specific focus on the effect of the rule on small entities. In the NPRM,
+the Commission reiterated this request for comment in Question 4, asking whether the
+proposed rule, if promulgated, would have a significant impact on a substantial number
+of small entities. Two commenters that specifically addressed the impact of the proposed
+rule on small entities stated it would have a beneficial economic impact by reducing the
+
+34
+
+time and financial burden small entities expend on fighting impersonation frauds. 163 One
+16 2F
+
+commenter urged the Commission not to implement a final rule that would require thirdparty providers of government filing services to include extensive disclosures in their
+marketing materials, arguing such disclosure requirements could lead to small businesses
+declining the offered services and falling out of compliance with government filing
+obligations. 164 This commenter, however, did not identify any proposed disclosure
+163 F
+
+requirements that were the subject of his concern, nor does the Commission impose any
+such disclosure requirements in connection with the final rule. None of the comments
+responding to the NPRM or Notice of Hearing disputed the analysis in the IRFA. Finally,
+the Small Business Administration did not submit comments.
+After reviewing the public comments on the proposed rule, as discussed
+throughout this SBP, the Commission concludes the final rule will not unduly burden
+small entities. The Commission’s explanation in the IRFA regarding the proposed rule is
+true of the final rule—it only constitutes a significant economic impact for small entities
+violating existing law, which are not entitled to procedural protections when agencies
+consider rulemaking. 165
+164F
+
+D. Analysis of Projected Benefits and Adverse Effects of the Final Rule
+In the NPRM, the Commission invited public comment and data on any benefits
+and costs of proceeding with the rulemaking to inform a final regulatory analysis. 166 In
+16 5F
+
+issuing the final rule, the Commission has carefully considered the comments received
+and the costs and benefits of each provision. As discussed throughout this SBP, the
+Commission believes, and the record demonstrates, the final rule would provide several
+
+35
+
+benefits to consumers, businesses, and competition, and help preserve agency resources,
+without imposing any significant adverse effects.
+The Commission’s explanation in the IRFA regarding the proposed rule is true of
+the final rule—it is difficult to quantify with precision what all its benefits may be, but it
+is helpful to begin with the scope of the problem the final rule would address, and then
+describe the benefits qualitatively. As discussed in the NPRM, reported consumer losses
+due to government impersonation topped $445 million in 2021; 167 and as anticipated,
+166F
+
+remained large, and even increased substantially, with total consumer losses of $513
+million reported in 2022 and more than $483 million for the first ten months of 2023. 168
+167F
+
+Similarly, the annual consumer loss reported due to business impersonation has increased
+from $453 million in 2021 to $670 million in 2022. 169 Accordingly, the most significant
+16 8F
+
+anticipated benefit of the final rule is that it will allow the Commission to provide
+monetary relief to victims of rule violations and seek civil penalties against violators. 170
+16 9F
+
+Furthermore, the final rule should reduce economic harm resulting from impersonation
+because its potential deterrent effects make it less likely impersonators get to keep their
+ill-gotten gains and more likely they must pay civil penalties.
+The final rule also would provide the benefit of a shorter path to obtaining
+consumer redress because the Commission could directly pursue in federal court
+section 19 remedies in government and business impersonation enforcement actions that
+do not implicate an existing rule. The availability of more immediate consumer redress in
+federal court under section 19 would allow the Commission to reduce the expense of
+litigating and minimize the litigation fora and scope. The Commission could then apply
+
+36
+
+the savings of these enforcement resources to investigating and, where the facts warrant,
+bringing enforcement actions in additional impersonation matters.
+The final rule also would benefit businesses whose brands are harmed by
+impersonators. 171 As several commenters have mentioned, a final rule that would allow
+170F
+
+the Commission to more efficiently bring enforcement actions against impersonators
+would save businesses the time and other resources dedicated to monitoring and
+combatting these kinds of deception.
+The record is devoid of any evidence suggesting the final rule would cause harm
+or adversely impact economic conditions.
+E. Description and an Estimate of the Number of Small Entities to Which the Final Rule
+Will Apply, or Explanation Why No Estimate Is Available
+Small entities engaging in the impersonation of government and business
+potentially may be found across a variety of industries and economic sectors, but industry
+and sector data do not identify entities by such conduct. Accordingly, it is not possible to
+estimate the number of small entities to which the final rule will apply. However, because
+the Commission finds the final rule will not impose any recordkeeping or other
+compliance costs on covered entities, the Commission concludes the final rule will not
+have a significant impact on a substantial number of small entities, notwithstanding the
+lack of data on how many small entities will be covered by the final rule.
+F. Description of the Projected Reporting, Recordkeeping, and Other Compliance
+Requirements of the Final Rule, Including an Estimate of the Classes of Small Entities
+That Will Be Subject to the Requirements of the Final Rule and the Type of Professional
+Skills That Will Be Necessary to Implement the Final Rule
+
+37
+
+The final rule does not have any reporting or recordkeeping requirements. 172 As
+17 1F
+
+explained previously, the final rule would apply to no small entities other than small
+entities violating existing law, and therefore, no classes of small entities will be subject to
+the requirements of the final rule. Finally, no professional skills are necessary for
+compliance with the final rule other than honesty and integrity.
+G. An Explanation of the Reasons for the Determination of the Commission that the Final
+Rule Will Attain Its Objectives in a Manner Consistent with Applicable Law and the
+Reasons the Particular Alternative Was Chosen
+The Commission’s primary objective in commencing this rulemaking was to
+expand the remedies available to it in combatting two prevalent categories of
+impersonation scams most frequently reported by consumers—government
+impersonators and business impersonators. As explained throughout this SBP, based
+upon the record, including public comments, the Commission finds the final rule will
+attain this objective in a manner consistent with applicable law.
+The final rule is straightforward and defines with specificity acts or practices that
+are unfair or deceptive in or affecting commerce within the meaning of section 5(a)(1) of
+the FTC Act, 15 U.S.C. 45(a)(1). It also avoids novelty by borrowing from existing rules
+and statutory definitions. 173 At the same time, the final rule is drafted with sufficient
+17 2F
+
+flexibility to address the various types of conduct covered by the prohibition on the
+impersonation of government and businesses. Furthermore, this rulemaking has provided
+ample transparency and opportunity for public participation in accordance with the
+underlying statutory requirements of section 18 of the FTC Act, 15 U.S.C. 57a, the
+
+38
+
+Administrative Procedure Act, and Part 1, subpart B of the Commission’s Rules of
+Practice. 174
+17 3F
+
+VII. Congressional Review Act
+Pursuant to the Congressional Review Act (5 U.S.C. 801 et seq.), the Office of
+Information and Regulatory Affairs has designated this rule as not a “major rule,” as
+defined by 5 U.S.C. 804(2).
+List of Subjects in 16 CFR Part 461
+Consumer protection, Impersonation, Trade Practices.
+For the reasons set forth above, the Federal Trade Commission amends 16 CFR
+Chapter I by adding part 461 to read as follows:
+Part 461—Rule on Impersonation of Government and Businesses
+Sec.
+461.1 Definitions.
+461.2 Impersonation of Government Prohibited.
+461.3 Impersonation of Businesses Prohibited.
+Authority: 15 U.S.C. 41 through 58.
+§ 461.1 Definitions.
+As used in this part:
+Business means a corporation, partnership, association, or any other entity that provides
+goods or services, including not-for-profit entities.
+Government includes federal, state, local, and tribal governments as well as agencies and
+departments thereof.
+Materially means likely to affect a person’s choice of, or conduct regarding, goods or
+services.
+Officer includes executives, officials, employees, and agents.
+39
+
+§ 461.2 Impersonation of Government Prohibited.
+It is a violation of this part, and an unfair or deceptive act or practice to:
+(a) materially and falsely pose as, directly or by implication, a government entity or
+officer thereof, in or affecting commerce as commerce is defined in the Federal
+Trade Commission Act (15 U.S.C. 44); or
+(b) materially misrepresent, directly or by implication, affiliation with, including
+endorsement or sponsorship by, a government entity or officer thereof, in or
+affecting commerce as commerce is defined in the Federal Trade Commission Act
+(15 U.S.C. 44).
+§ 461.3 Impersonation of Businesses Prohibited.
+It is a violation of this part, and an unfair or deceptive act or practice to:
+(a) materially and falsely pose as, directly or by implication, a business or officer
+thereof, in or affecting commerce as commerce is defined in the Federal Trade
+Commission Act (15 U.S.C. 44); or
+(b) materially misrepresent, directly or by implication, affiliation with, including
+endorsement or sponsorship by, a business or officer thereof, in or affecting
+commerce as commerce is defined in the Federal Trade Commission Act (15
+U.S.C. 44).
+
+By direction of the Commission.
+April J. Tabor,
+Secretary.
+
+40
+
+Fed. Trade Comm’n, Advance Notice of Proposed Rulemaking: Trade Regulation Rule on Impersonation
+of Government and Businesses, 86 FR 72901 (Dec. 23, 2021),
+https://www.federalregister.gov/documents/2021/12/23/2021-27731/trade-regulation-rule-onimpersonation-of-government-and-businesses.
+2
+See id. at 72904.
+3
+Those included, among others, numerous reports of government impersonation scams reported to federal
+agencies as reflected in the following public announcements. On March 7, 2022, the Federal Bureau of
+Investigation issued a Public Service Announcement ‘‘warning the public of ongoing widespread fraud
+schemes in which scammers impersonate law enforcement or government officials in attempts to extort
+money or steal personally identifiable information.’’ Similarly, on May 20, 2022, multiple federal law
+enforcement agencies issued a scam alert spearheaded by the Social Security Administration’s Office of the
+Inspector General warning the public of government impersonation scams involving the reproduction of
+federal law enforcement credentials and badges. On June 3, 2022, the Commission issued a press release
+noting that in some impersonation scams, fraudsters have instructed consumers to convert cash into
+cryptocurrency under false threats of government investigations or fraud. See Fed. Trade Comm’n, Notice
+of Proposed Rulemaking: Trade Regulation Rule on Impersonation of Government and Businesses, 87 FR
+62741, 62742 (Oct. 17, 2022), https://www.federalregister.gov/documents/2022/10/17/2022-21289/traderegulation-rule-onimpersonation-of-government-and-businesses.
+4
+See id. at 62741-51.
+5
+See id. at 62741-42.
+6
+Id. at 62750.
+7
+See Fed. Trade Comm’n, Trade Regulation Rule on Impersonation of Government and Businesses,
+https://www.regulations.gov/docket/FTC-2022-0064/comments.
+8
+Cindy L. Brown and Raye Mitchell, Cmt. on NPRM at 9 (Dec. 19, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0077 (“Brown Cmt.”); William MacLeod, Cmt. on
+NPRM at 2 (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0078 (“MacLeod
+Cmt.”).
+9
+Fed. Trade Comm’n, Initial Notice of Informal Hearing: Trade Regulation Rule on Impersonation of
+Government and Businesses, 88 FR 19024 (Mar. 30, 2023),
+https://www.federalregister.gov/documents/2023/03/30/2023-06537/trade-regulation-rule-onimpersonation-of-government-and-businesses. This Initial Notice of Informal Hearing also served as the
+Final Notice of Informal Hearing. The Commission determined William MacLeod’s comment in response
+to the NPRM represented an “adequate request” for such an informal hearing. The comment from Cindy
+Brown explicitly requesting to make a presentation at an informal hearing also represented an “adequate
+request” triggering the Commission’s obligation to hold an informal hearing, but was inadvertently omitted
+from inclusion in the Initial Notice of Informal Hearing.
+10
+Because this informal hearing was the first held in several decades, the Commission allowed interested
+parties to request the opportunity to make an oral comment in response to the Notice of Informal Hearing
+as well as the NPRM. However, the Commission noted that in the future it may limit oral statements to
+those who requested to make an oral statement in response to the NPRM, as provided for in the Rules of
+Practice. Id. at 19025 n.24.
+11
+Although Cindy Brown did not submit a request to make an oral statement in response to the Notice of
+Hearing, she was permitted to make an oral statement at the hearing based upon her prior comment in
+response to the NPRM in which she explicitly stated her interest “in making a presentation at an informal
+hearing.”
+12
+The Notice of Informal Public Hearing comments addressing specific provisions of the rule or questions
+in the NPRM soliciting public comment are discussed in Section III within the substantive discussions on
+the relevant provisions.
+13
+5 U.S.C. 551 et seq.; 16 CFR 1.7-1.20.
+14
+Rules of Practice, 16 CFR 1.14(a)(1)(i)-(iii). In addition, in accordance with 16 CFR 1.14(a)(2), the
+regulatory analysis is provided in Section VI of this SBP.
+1
+
+41
+
+ANPR, 86 FR at 72901; see also Fed. Trade Comm’n, Explore Government Imposter Scams, TABLEAU
+PUBLIC,
+https://public.tableau.com/app/profile/federal.trade.commission/viz/GovernmentImposter/Infographic.
+16
+NPRM, 87 FR at 62742.
+17
+Id. at 62742-46.
+18
+In re Cliffdale Assocs., Inc., 103 F.T.C. 110, 174 (1984); see also In re POM Wonderful LLC, No. 9344,
+2013 WL 268926, at *18 (Jan. 16, 2013).
+19
+ANPR, 86 FR at 72901.
+20
+NPRM, 87 FR at 62746-47.
+21
+ANPR, 86 FR at 72903-04; see also NPRM, 87 FR at 62748-49.
+22
+See AMG Cap. Mgmt., LLC v. FTC, 141 S. Ct. 1341, 1352 (2021).
+23
+See 15 U.S.C. 57b(a) and (b); see also NPRM, 87 FR at 62746 (discussing AMG Cap. Mgmt.).
+24
+The Commission can recover money for consumers directly through a federal court action or obtain civil
+penalties directly from a federal court when the Rule has been violated. Without the Rule, the path to
+monetary relief is longer, and requires the Commission to first issue a final cease-and-desist order—which
+might not become final until after the resolution of any resulting appeal. Then, to recover money for
+consumers, the Commission must prove that the violator engaged in fraudulent or dishonest conduct in a
+second action in federal court. See 15 U.S.C. 57b(a) and (b).
+25
+See section 5(m)(1)(A) of the FTC Act, 15 U.S.C. 45(m)(1)(A) (providing that violators of a trade
+regulation rule “with actual knowledge or knowledge fairly implied on the basis of objective circumstances
+that such act is unfair or deceptive and is prohibited by such rule” are liable for civil penalties for each
+violation). In addition, any entity or person who violates such a rule (irrespective of the state of knowledge)
+is liable for injury caused to consumers by the rule violation. The Commission may pursue such recovery in
+a suit for consumer redress under section 19 of the FTC Act, 15 U.S.C. 57b.
+26
+NPRM, 87 FR at 62749.
+27
+Id.
+28
+https://www.regulations.gov/document/FTC-2021-0077-0001/comment.
+29
+https://www.regulations.gov/docket/FTC-2023-0030/comments.
+30
+NPRM, 87 FR at 62750.
+31
+Id.
+32
+Id., Question 3 (Does the proposed rule contain a collection of information?) and Question 4 (Would the
+proposed rule, if promulgated, have a significant economic impact on a substantial number of small
+entities? If so, how could it be modified to avoid a significant economic impact on a substantial number of
+small entities?)
+33
+NPRM, 87 FR at 62750.
+34
+See, e.g., Anonymous, Cmt. on NPRM (Nov. 3, 2022), https://www.regulations.gov/comment/FTC2022-0064-0011 (describing impersonation of accounts payable in medical device industry); Bernadette
+Padilla, Cmt. on NPRM (Nov. 8, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0014
+(describing police impersonation scam involving stolen PII); Anonymous Meeting Planner, Cmt. on NPRM
+(Dec. 6, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0030 (describing attendee list and
+hotel reservation impersonation scams); California IT in Education, Cmt. on NPRM (Nov. 9, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0034 (describing attendee list impersonation scam);
+Illinois Landscape Contractors Association, Cmt. on NPRM (Dec. 12, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0038 (describing attendee list and hotel reservation
+impersonation scams).
+35
+See e.g., Salina Maddox, Cmt. on NPRM (Oct. 22, 2022), https://www.regulations.gov/comment/FTC2022-0064-0003 (spam calls); Tatiana Alvarez, Cmt. on NPRM (Nov. 22, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0008 (Romanian mob scam); Tinee Carraker, Cmt.
+on NPRM (Nov. 4, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0012 (foreclosure
+scam); Susan Rounsley, Cmt. on NPRM (Nov. 6, 2022), https://www.regulations.gov/comment/FTC-20220064-0013 (violations of Do Not Call requirements).
+36
+See, e.g., Suhkvir Singh/Rutgers Law School Students, Cmt. on NPRM (Nov. 22, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0019 (“Rutgers Law Students/Singh Cmt.”); AIM,
+the European Brands Association, Cmt. on NPRM (Dec. 13, 2022),
+15
+
+42
+
+https://www.regulations.gov/comment/FTC-2022-0064-0041 (“AIM Cmt.”); The Messaging Malware
+Mobile Anti-Abuse Working Group, Cmt. on NPRM (Dec. 15, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0051 (“M3AAWG Cmt.”); The International
+Trademark Association, Cmt. on NPRM (Dec. 16, 2022), https://www.regulations.gov/comment/FTC2022-0064-0054 (“INTA Cmt.”); Electronic Privacy Information Center, National Consumer Law Center,
+National Consumers League, Consumer Action, Consumer Federation of America, National Association of
+Consumer Advocates, and U.S. PIRG, Cmt. on NPRM (Dec. 16, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0070 (“EPIC Cmt.”); Recording Industry
+Association of America, Cmt. on NPRM (Dec. 16, 2022), https://www.regulations.gov/comment/FTC2022-0064-0064 (“RIAA Cmt.”).
+37
+United States Patent and Trademark Office, Cmt. on NPRM at 2-3 (Dec. 2, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0026 (“USPTO Cmt.”); INTA Cmt. on NPRM;
+United States Copyright Office, Cmt. on NPRM (Dec. 16, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0067 (“USCO Cmt.”); The Toy Association, Inc.,
+Cmt. on NPRM at 2 (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0069 (“Toy
+Cmt.”); Cellular Telecommunications and Internet Association, Cmt. on NPRM (Dec. 16, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0066 (“CTIA Cmt.”); Marine Retailers Association
+of the Americas, National Marine Manufacturers Association, National RV Dealers Association, Cmt. on
+NPRM (Dec. 19, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0076 (“MRAA Cmt.”).
+38
+See, e.g., USPTO Cmt. on NPRM at 2-3; USCO Cmt. on NPRM at 2; Toy Cmt. on NPRM at 2; CTIA
+Cmt. on NPRM at 3; MRAA Cmt. on NPRM at 4. See also supra, note 25.
+39
+USPTO Cmt. on NPRM at 2-3.
+40
+MRAA Cmt. on NPRM at 4.
+41
+USCO Cmt. on NPRM at 2-3.
+42
+Id.; USPTO Cmt. on NPRM at 2.
+43
+CTIA Cmt. on NPRM at 5, 7.
+44
+Somos, Inc., Cmt. on NPRM at 2-3 (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-20220064-0068 (“Somos Cmt.”).
+45
+In explaining the scope of the proposed rule, the NPRM provided an illustrative, but non-exhaustive, list
+of unlawful conduct that would be covered by the prohibitions against impersonating government and
+businesses. NPRM, 87 FR at 62746-47. That list merely provides examples as it would be impracticable to
+list all possible violative conduct.
+46
+16 CFR 310.4(a)(8).
+47
+USTelecom Cmt. on NPRM at 2; M3AAWG Cmt. on NPRM at 3-4; RIAA Cmt. on NPRM at 3; AntiPhishing Working Group, Cmt. on NPRM at 1-2 (Dec. 16, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0073 (“APWG Cmt.”),
+https://www.regulations.gov/comment/FTC-2022-0064-0073 (“APWG Cmt.”); Coalition for Online
+Accountability, Cmt. on NPRM at 1-3 (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-20220064-0074 (“COA Cmt.”); INTA Cmt. on NPRM at 8-10; Coalition for a Secure & Transparent Internet,
+Cmt. on NPRM at 1 (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0065 (“CSTI
+Cmt.”).
+48
+Id.
+49
+M3AAWG Cmt. on NPRM at 3-4; RIAA Cmt. on NPRM at 3-4; AIM Cmt. on NPRM at 1; COA Cmt.
+on NPRM at 1-3; INTA Cmt. on NPRM at 8-10.
+50
+COA Cmt. on NPRM at 2.
+51
+M3AAWG Cmt. on NPRM at 3-4; APWG Cmt. on NPRM at 1-2; see also APWG, Cmt. on Informal
+Hearing at 1-2 (Apr. 14, 2023), https://www.regulations.gov/comment/FTC-2023-0030-0027 (“APWG IH
+Cmt.”).
+52
+See NPRM, 87 FR at 62746-47. The example of voice cloning—a relatively new technology—
+emphasizes the need for an illustrative, but non-exhaustive, list of unlawful conduct. Audio deepfakes,
+including voice cloning, are generated, edited, or synthesized by artificial intelligence, or “AI,” to create
+fake audio that seems real. See Khanjani, et. al., How Deep are the Fakes? Focusing on Audio Deepfake: A
+Survey, available at https://arxiv.org/ftp/arxiv/papers/2111/2111.14203.pdf.
+
+43
+
+Americans for Prosperity Foundation, Cmt. on NPRM at 1-2 (Dec. 16, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0062 (“AFPF Cmt.”).
+54
+Id. at 1.
+55
+Pub. L. No. 93-637, 88 Stat. 2183 (1975).
+56
+ANPR, 86 FR at 72904.
+57
+Id.
+58
+NPRM, 87 FR at 62750, Question 2.
+59
+USPTO Cmt. on NPRM at 3-9; M3AAWG Cmt. on NPRM at 6-9; INTA Cmt. on NPRM at 3-5; Toy
+Cmt. on NPRM at 3-5; USCO Cmt. on NPRM at 3-7; MRAA Cmt. on NPRM at 2-4.
+60
+USPTO Cmt. on NPRM at 3-9; M3AAWG Cmt. on NPRM at 6-9; INTA Cmt. on NPRM at 3-5; Toy
+Cmt. on NPRM at 3-5; USCO Cmt. on NPRM at 3-7; MRAA Cmt. on NPRM at 2-4.
+61
+Toy Cmt. on NPRM at 3-5.
+62
+USPTO Cmt. on NPRM at 3-9; USCO Cmt. on NPRM at 3-4;
+63
+INTA Cmt. on NPRM at 3; M3AAWG Cmt. on NPRM at 7.
+64
+M3AAWG Cmt. on NPRM at 9.
+65
+Id.
+66
+Id.
+67
+NPRM, 87 FR at 62750, Question 5.
+68
+USCO Cmt. on NPRM at 8; USPTO Cmt. on NPRM at 10; INTA Cmt. on NPRM at 6-7; M3AAWG
+Cmt. on NPRM at 9; MacLeod Cmt. on NPRM at 1-2; AFPF Cmt. on NPRM at 3-6.
+69
+NetChoice Cmt. on NPRM at 2; Toy Cmt. on NPRM at 2; ZoomInfo Technologies LLC, Cmt. on NPRM
+at 1-2 (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0079 (“Zoom NPRM
+Cmt.”).
+70
+USCO Cmt. on NPRM at 8; USPTO Cmt. on NPRM at 10.
+71
+USCO Cmt. on NPRM at 8.
+72
+USPTO Cmt. on NPRM at 10.
+73
+Id. at 9-10.
+74
+MacLeod Cmt. on NPRM at 2; AFPF Cmt. on NPRM at 3; M3AAWG Cmt. on NPRM at 9.
+75
+M3AAWG Cmt. on NPRM at 2; NetChoice Cmt. on NPRM at 2; Toy Cmt. on NPRM at 2; AFPF Cmt.
+on NPRM at 2, 4; Zoom Cmt. on NPRM at 1; INTA Cmt. on NPRM at 5-6; William MacLeod, Cmt. on
+Informal Hearing at 5-7 (Apr. 14, 2023), https://www.regulations.gov/comment/FTC-2023-0030-0019
+(“MacLeod IH Cmt.”).
+76
+AFPF Cmt. on NPRM at 2, 4; see also MacLeod IH Cmt. at 2.
+77
+AFPF Cmt. on NPRM at 3, 4. M3AAWG Cmt. on NPRM at 2; NetChoice Cmt. on NPRM at 2; INTA
+Cmt. on NPRM at 5-6; Toy Cmt. on NPRM at 2; Zoom Cmt. on NPRM at 1; MacLeod IH Cmt. at 5-7.
+78
+AFPF Cmt. on NPRM at 2, 6.
+79
+NetChoice Cmt. on NPRM at 2; M3AAWG Cmt. on NPRM at 3.
+80
+AFPF Cmt. on NPRM at 4; INTA Cmt. on NPRM at 5-6; Toy Cmt. on NPRM at 2; Zoom Cmt. on
+NPRM at 1; MacLeod IH Cmt. at 5.
+81
+MacLeod IH Cmt. at 1; see also MacLeod Cmt. on NPRM at 1.
+82
+MacLeod IH Cmt. at 2.
+83
+Id. at 3.
+84
+Id. at 3.
+85
+AFPF Cmt. on NPRM at 3-4.
+86
+Id. at 3, 5-6.
+87
+M3AAWG Cmt. on NPRM at 9.
+88
+Id. at 1, 5.
+89
+AFPF Cmt. on NPRM at 5.
+90
+See 15 U.S.C. 45(m)(1)(A).
+91
+See Cent. Hudson Gas & Elec. Corp. v. Pub. Serv. Comm’n of N.Y., 447 U.S. 557, 563-64 (1980)
+(“[T]here can be no constitutional objection to the suppression of commercial messages that do not
+accurately inform the public about lawful activity. The government may ban forms of communication more
+likely to deceive the public than to inform it, or commercial speech related to illegal activity.”) (citations
+omitted); see also Zauderer v. Office of Disciplinary Counsel, 471 U.S. 626, 638 (1985) (holding it is “well
+53
+
+44
+
+settled” that “[t]he States and the Federal Government are free to prevent the dissemination of commercial
+speech that is false, deceptive, or misleading”).
+92
+USPTO Cmt. on NPRM; Anonymous, Cmt. on NPRM (Dec. 9, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0033 (“0033 Cmt.”); AIM Cmt. on NPRM; Erik M.
+Pelton & Associates, PLLC, Cmt. on NPRM (Dec. 14, 2022), https://www.regulations.gov/comment/FTC2022-0064-0045; NetChoice Cmt. on NPRM; M3AAWG Cmt. on NPRM; Consumer Technology
+Association, Cmt. on NPRM (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0073
+(“CTA Cmt.”); NCTA - The Internet and Television Association, Cmt. on NPRM (Dec. 16, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0071 (“NCTA Cmt.”); ASAE Cmt. on NPRM;
+INTA Cmt. on NPRM; Somos Cmt. on NPRM; CTIA Cmt. on NPRM; USCO Cmt. on NPRM;
+USTelecom Cmt. on NPRM; American Society of Association Executives, Center for Exhibition Industry
+Research
+Destinations International, Exhibition Services & Contractors Association, Exhibitions & Conferences
+Alliance, Experiential Designers + Producers Association, International Association of Exhibitions &
+Events, International Association of Venue Managers, PCMA, Society of Independent Show Organizers,
+UFI, Cmt. on NPRM (Dec 16, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0060 (“ECA
+Cmt.”); RIAA Cmt. on NPRM; American Bar Association Section of Intellectual Property Law, Cmt. on
+NPRM at 3 (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0061 (“ABA-IPL
+Cmt.”); AFPF Cmt. on NPRM; Zoom Cmt. on NPRM; American Bankers Association, ACA International,
+American Association of Healthcare Administrative Management, Credit Union National Association,
+Mortgage Bankers Association National Association of Federally-Insured Credit Unions (the Associations),
+Cmt. on NPRM (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0080 (“Assocns.
+Cmt.”); COA Cmt. on NPRM; MacLeod Cmt. on NPRM; Brown Cmt. on NPRM.
+93
+A copy of the transcript of the May 4, 2023 Informal Hearing is available at
+https://www.ftc.gov/system/files/ftc_gov/pdf/impersonationruleinformalhearingtranscript.pdf. References
+to the transcript from the May 4, 2023 Informal Hearing are cited herein as: Name of commenter, May
+2023 Tr at page no. (e.g., Doe, May 2023 Tr at #); see CTA, May 2023 Tr at 16; MacLeod, May 2023 Tr at
+27; USTelecom, May 2023 Tr at 30; Chilson, May 2023 Tr at 34; VON, May 2023 Tr at 36; American
+Bankers Association (ABA), May 2023 Tr at 39-40; INCOMPAS, May 2023 Tr at 42, 44; NCTA, May
+2023 Tr at 51-52.
+94
+USPTO Cmt. on NPRM at 10; USCO Cmt. on NPRM at 8; RIAA Cmt. on NPRM at 3; ABA, May 2023
+Tr at 39-40.
+95
+USPTO Cmt. on NPRM at 10; USCO Cmt. on NPRM at 8; RIAA Cmt. on NPRM at 3; ABA, May 2023
+Tr at 39-40.
+96
+AFPF Cmt. on NPRM at 3-5; MacLeod IH Cmt. at 6-7; McLeod, May 2023 Tr at 27.
+97
+0033 Cmt. on NPRM; ABA-IPL Cmt. on NPRM at 2; Zoom Cmt. on NPRM at 1.
+98
+ABA-IPL Cmt. on NPRM at 1-2; NetChoice Cmt. on NPRM at 2; USTelecom Cmt. on NPRM at 2; see
+also CTA, May 2023 Tr at 16; VON, May 2023 Tr at 36; ABA, May 2023 Tr at 39-40; INCOMPAS, May
+2023 Tr at 42.
+99
+NetChoice Cmt. on NPRM at 2; CTA Cmt. on NPRM; American Society of Association Executives,
+Cmt. on NPRM at 1 (Dec. 16, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0057 (“ASAE
+Cmt.”); INTA Cmt. on NPRM; Somos Cmt. on NPRM; CTIA Cmt. on NPRM at 7; USTelecom Cmt. on
+NPRM at 2; ECA Cmt. on NPRM at 3; ABA-IPL Cmt. on NPRM at 3; Zoom Cmt. on NPRM at 2; Cmt. on
+NPRM at 3; see also CTA, May 2023 Tr at 16; MacLeod, May 2023 Tr at 27; USTelecom, May 2023 Tr at
+30; Chilson, May 2023 Tr at 34; VON, May 2023 Tr at 36; INCOMPAS, May 2023 Tr at 42, 44; NCTA,
+May 2023 Tr at 51-52.
+100
+CTA Cmt. on NPRM at 7.
+101
+USTelecom Cmt. on NPRM at 2.
+102
+ABA-IPL Cmt. on NPRM at 3.
+103
+NCTA Cmt. on NPRM at 2.
+104
+M3AAWG Cmt. on NPRM at 10.
+105
+Brown Cmt. on NPRM at 8.
+106
+M3AAWG Cmt. on NPRM at 3.
+
+45
+
+COA Cmt. on NPRM at 3; M3AAWG Cmt. on NPRM at 4-5. “WHOIS data” is a commonly used
+Internet record listing that identifies who owns a domain and how to get in contact with them.
+108
+See, e.g., Compl. at 3–5 & Ex. H, FTC v. Moore, No. 5:18–cv–01960 (C.D. Cal. filed Sept. 13, 2018)
+(alleging that a seller of variety of fake but genuine-looking financial documents provided to others the
+means and instrumentalities with which to make misrepresentations regarding a person’s identity).
+109
+NPRM, 87 FR at 62746.
+110
+Id. at 62751; see also 15 U.S.C. 44.
+111
+NPRM, 87 FR at 62747.
+112
+Id. at 62750.
+113
+Minnesota Nursery & Landscape Association, Cmt. on NPRM at 2 (Dec. 2, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0027; Louise Nemmers, Cmt. on NPRM (Dec. 5,
+2022), https://www.regulations.gov/comment/FTC-2022-0064-0028; California Landscape Contractors
+Association, Cmt. on NPRM (Dec. 6, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0029;
+Outdoor Power Equipment Institute, Cmt. on NPRM at 2 (Dec. 7, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0032; AIM Cmt. on NPRM at 2; AARP, Cmt. on
+NPRM (Dec. 14, 2022), https://www.regulations.gov/comment/FTC-2022-0064-0043 (“AARP Cmt.”);
+Minnesota Municipal Utilities Association, Cmt. on NPRM (Dec. 14, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0048; M3AAWG Cmt. on NPRM at 10; CTA Cmt.
+on NPRM; ASAE Cmt. on NPRM; INTA Cmt. on NPRM; Toy Cmt. on NPRM at 6; RIAA Cmt. on
+NPRM at 2; National Association of Broadcasters, Cmt. on NPRM (Dec. 19, 2022),
+https://www.regulations.gov/comment/FTC-2022-0064-0075; MRAA Cmt. on NPRM at 4.
+114
+See, e.g., Toy Cmt. on NPRM at 6; MRAA Cmt. on NPRM at 4; AARP Cmt. at 2; CTA Cmt. on NPRM
+at 1; ASAE Cmt. on NPRM; RIAA Cmt. on NPRM at 1; INTA Cmt. on NPRM at 2.
+115
+AIM Cmt. on NPRM at 2; M3AAWG Cmt. on NPRM at 10; CTA Cmt. on NPRM at 1.
+116
+Toy Cmt. on NPRM at 6; INTA Cmt. on NPRM at 6.
+117
+Toy Cmt. on NPRM at 6; RIAA Cmt. on NPRM at 3.
+118
+INTA Cmt. on NPRM at 6; Toy Cmt. on NPRM at 6.
+119
+NPRM, 87 FR at 62750.
+120
+Rutgers Law Students/Singh Cmt. on NPRM; AIM Cmt. on NPRM; AARP Cmt. on NPRM; NCTA
+Cmt. on NPRM; EPIC Cmt. on NPRM; RIAA Cmt. on NPRM.
+121
+AIM Cmt. on NPRM at 2; Rutgers Law Students/Singh Cmt. on NPRM at 1.
+122
+Rutgers Law Students/Singh Cmt. on NPRM at 1-2; AARP Cmt. on NPRM at 2; EPIC Cmt. on NPRM
+at 5.
+123
+Rutgers Law Students/Singh Cmt. on NPRM at 1-2.
+124
+Rutgers Law Students/Singh Cmt. on NPRM at 2-4; AARP Cmt. on NPRM at 1-2; EPIC Cmt. on
+NPRM at 4-5.
+125
+AARP Cmt. on NPRM at 2.
+126
+EPIC Cmt. on NPRM at 5.
+127
+NCTA Cmt. on NPRM at 3, 8.
+128
+Id.
+RIAA Cmt. on NPRM at 3.
+130
+Id. at 2.
+131
+Rutgers Law Students/Singh Cmt. on NPRM at 2.
+132
+Id.
+133
+Id. at 3.
+134
+Id.
+135
+Id. at 3-4.
+136
+Id.; NCTA Cmt. on NPRM at 8, n. 16.
+137
+The Commission also is exploring other tools to address the fake endorsement concerns raised by the
+RIAA and Rutgers Law School Students. Specifically, in the Commission’s proposed Rule on the Use of
+Consumer Reviews and Testimonials, § 465.2 would prohibit businesses from purchasing a consumer
+review, or from disseminating or causing the dissemination of a consumer testimonial or celebrity
+testimonial when the business knew or should have known it was false or fake. See Fed. Trade Comm’n,
+Notice of Proposed Rulemaking: Trade Regulation Rule on the Use of Consumer Reviews and
+107
+
+46
+
+Testimonials, 88 FR 49364, 49391 (Jul. 31, 2023),
+https://www.federalregister.gov/documents/2023/07/31/2023-15581/trade-regulation-rule-on-the-use-ofconsumer-reviews-and-testimonials#sectno-reference-465.2.
+138
+USTelecom Cmt. on NPRM at 2; M3AAWG Cmt. on NPRM at 3-4; RIAA Cmt. on NPRM at 3; APWG
+Cmt. on NPRM; COA Cmt. on NPRM at 1-3; INTA Cmt. on NPRM at 8-10; CSTI Cmt. on NPRM at 1.
+139
+Id.
+140
+M3AAWG Cmt. on NPRM at 3-4; RIAA Cmt. on NPRM at 3-4; AIM Cmt. on NPRM at 1; COA Cmt.
+on NPRM at 1-3; INTA Cmt. on NPRM at 8-10.
+141
+COA Cmt. on NPRM at 2.
+142
+M3AAWG Cmt. on NPRM at 3-4; APWG Cmt. on NPRM at 1-2; see also APWG, Cmt. on Informal
+Hearing at 1-2 (Apr. 14, 2023), https://www.regulations.gov/comment/FTC-2023-0030-0027 (“APWG IH
+Cmt.”).
+143
+See also supra, note 52.
+144
+Toy Cmt. on NPRM at 2; M3AAWG Cmt. on NPRM at 2; ABA-IPL Cmt. on NPRM at 3; INTA Cmt.
+on NPRM at 2.
+145
+ABA-IPL Cmt. on NPRM at 3.
+146
+Toy Cmt. on NPRM at 2; M3AAWG Cmt. on NPRM at 2; INTA Cmt. on NPRM at 2.
+147
+INTA Cmt. on NPRM at 6-7.
+148
+NPRM, 87 FR at 62750.
+149
+See 15 U.S.C. 57b–3(b)(2).
+150
+15 U.S.C. 57b–3(b)(2)(A).
+151
+See 5 U.S.C. 603–605; see also section 22(b) of the FTC Act, 15 U.S.C. 57b-3(b).
+152
+NPRM, 87 FR at 62749-50; see also 5 U.S.C. 603.
+153
+NPRM, 87 FR at 62750.
+154
+NPRM, 87 FR at 62749.
+155
+See 15 U.S.C. 57b-3(b)(3)(A)(ii) (“In order to avoid duplication or waste, the Commission is authorized
+to . . . whenever appropriate, incorporate any data or analysis contained in a regulatory analysis issued
+under this subsection in the statement of basis and purpose.”).
+156
+NPRM, 87 FR at 62749-50.
+157
+See ANPR, 86 FR at 72901 & n.24 (discussing AMG Cap. Mgmt.); NPRM, 87 FR at 62746 (same).
+158
+See ANPR, 86 FR at 72901 & n.24; NPRM, 87 FR at 62746; see also 15 U.S.C. 57b(a) and (b).
+159
+See 15 U.S.C. 45(m)(1)(A).
+160
+NPRM, 87 FR at 62750.
+161
+Only one commenter suggested an alternative to regulation, which the Commission declines to adopt for
+the reasons previously stated in Section III.B.
+162
+See supra note 161.
+163
+Toy Cmt. on NPRM at 5-6; MRAA Cmt. on NPRM at 4.
+164
+Robert Kamerschen, Cmt. on NPRM at 2 (Nov. 30, 2022), https://www.regulations.gov/comment/FTC2022-0064-0023.
+165
+See NPRM, 87 FR at 62750.
+166
+NPRM, 87 FR at 62748.
+167
+Id.
+168
+See Fed. Trade Comm’n, Explore Government Imposter Scams, TABLEAU PUBLIC,
+https://public.tableau.com/app/profile/federal.trade.commission/viz/FraudReports/SubcategoriesOverTime
+(last visited December 21, 2023).
+169
+Id.
+170
+See 15 U.S.C. Secs. 45(m)(1)(A) and 57b.
+171
+See Toy Cmt. on NPRM at 5-6; MRAA Cmt. on NPRM at 4; see also NPRM, 87 FR at 62749.
+172
+NPRM, 87 FR at 62750.
+173
+See, e.g., TSR, 16 CFR 310.3(a)(2)(vii); R-Value Rule, 16 CFR 460.21; Regulation O (Mortgage
+Assistance Relief Services), 12 CFR 1015.3(b)(3).
+174
+5 U.S.C. 551 et seq.; 16 CFR 1.7 through 1.20.
+
+47
+
+

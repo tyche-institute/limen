@@ -1,0 +1,720 @@
+232-3042
+UNITED STATES OF AMERICA
+BEFORE THE FEDERAL TRADE COMMISSION
+COMMISSIONERS:
+
+Lina M. Khan, Chair
+Rebecca Kelly Slaughter
+Alvaro M. Bedoya
+Melissa Holyoak
+Andrew Ferguson
+
+In the Matter of
+
+DOCKET NO. C-4812
+
+DONOTPAY, INC., a corporation.
+
+COMPLAINT
+The Federal Trade Commission, having reason to believe that DoNotPay, Inc., a
+corporation (“Respondent” or “DoNotPay”), has violated the provisions of the Federal Trade
+Commission Act, and it appearing to the Commission that this proceeding is in the public
+interest, alleges:
+1.
+Respondent DoNotPay, Inc. (“DoNotPay”) is a Delaware corporation with its principal
+office or place of business at 167-169 Great Portland Street, 5th Floor, London, W1W 5PF,
+United Kingdom.
+2.
+Respondent transacts or has transacted business in San Francisco, California and
+throughout the United States. Respondent has advertised, offered for sale, sold, and distributed to
+U.S. consumers the DoNotPay Service (hereafter “the DoNotPay Service” or “the Service”) via
+the donotpay.com website and the DoNotPay mobile application.
+3.
+The acts and practices of DoNotPay alleged in this complaint have been in or affecting
+commerce, as “commerce” is defined in Section 4 of the Federal Trade Commission Act, 15
+U.S.C. § 44.
+Summary of the Case
+4.
+The DoNotPay Service is an online subscription service targeted to U.S. consumers
+seeking assistance with a range of commercial issues and legal issues involving American civil
+law. Respondent used the emergence of new technology like artificial intelligence (AI) as a
+marketing tool, positioning the DoNotPay Service as a cutting-edge solution for producing legal
+documents. Respondent described the Service as “the world’s first robot lawyer” and an “AI
+1
+
+lawyer” capable of performing legal services such as drafting “ironclad” demand letters,
+contracts, complaints for small claims court, challenging speeding tickets, and appealing parking
+tickets. Through a chatbot, subscribers would submit prompts or queries to an AI “robot lawyer”
+that purportedly operated like a human lawyer, including by applying the relevant laws to
+subscribers’ particular legal and factual situations; relying on legal expertise and knowledge to
+avoid potential complications, such as statutes of limitations, compensation limits, and
+jurisdiction, when generating legal demand letters or initiating cases in small claims court; and
+detecting legal violations on subscribers’ business websites and providing advice about how to
+fix them. In fact, the DoNotPay Service was not designed to operate like a human lawyer in these
+respects.
+The DoNotPay Service
+5.
+Respondent has offered a General Membership subscription for the DoNotPay Service
+since 2019. Although the cost of a General Membership has fluctuated since at least 2020, at
+times relevant to this Complaint, Respondent charged subscribers $36 every two months.
+6.
+Respondent has offered a Small Business Protection Plan since 2021. Although the cost
+of the Small Business Protection Plan has fluctuated, at times relevant to this Complaint,
+Respondent charged subscribers $49.99 per month.
+7.
+The DoNotPay Service has offered features designed to assist subscribers with consumer
+issues, including obtaining college fee waivers, creating passport photos, changing mailing
+addresses, claiming rebates, deleting accounts, donating plasma for cash, and finding discounts.
+At times relevant to this Complaint, the Service also offered features designed to assist
+subscribers with legal issues, including but not necessarily limited to, breach of contract demand
+letters, defamation cease-and-desist letters, divorce settlement agreements, restraining orders,
+insurance claims, releases of liability, revocable living trusts, lawsuits in small claims court,
+challenging speeding tickets, and appealing parking tickets.
+DoNotPay Advertising
+8.
+Through the Apple App Store, the Google Play Store, the website donotpay.com, and
+social media accounts such as on X.com and TikTok, Respondent has disseminated or caused to
+be disseminated advertisements for the DoNotPay Service that include the statements and
+depictions in Exhibits A through L to this Complaint.
+
+2
+
+The “Robot Lawyer”
+9.
+Respondent’s advertisements called the DoNotPay Service the world’s first robot lawyer,
+capable of suing anyone at the press of a button. Compl. Exhs. A through E.
+From Exhibit A: www.donotpay.com (captured March 14, 2023)
+
+From Exhibit B: www.donotpay.com (captured March 13, 2023)
+
+3
+
+From Exhibit C: Apple App Store (captured November 1, 2023)
+
+4
+
+From Exhibit D: Google Play Store (captured November 1, 2023)
+
+From Exhibit E: DoNotPay TikTok posts (captured August 31, 2023)
+
+#
+
+5
+
+10.
+The donotpay.com website has prominently featured a quote that purports to come from
+The Los Angeles Times newspaper and states, “What this robot lawyer can do is astonishingly
+similar – if not more – to what human lawyers do.” Compl. Exh. F.
+From Exhibit F: www.donotpay.com (captured April 6, 2023)
+
+11.
+In fact, the foregoing quote derives from a high-schooler’s opinion piece in the Los
+Angeles Times’ High School Insider website, a user-generated content platform for young
+people.
+
+6
+
+Law-Related Features
+12.
+The Chief Executive Officer for DoNotPay has claimed that the company’s goals were
+“to be like the general counsel for the consumer,” and “to replace the $200-billion-dollar legal
+industry with artificial intelligence.” See Compl. Exh. B (screen captures from videos posted on
+donotpay.com, including an interview on The Daily Show).
+13.
+Respondent has claimed that the DoNotPay Service “fights companies and the
+government across two hundred areas of the law.” See Compl. Exh. B (screen capture of an
+interview with Bloomberg posted on donotpay.com). Respondent has promoted law-related
+features for, among other issues, breach of contract, defamation demand letters, divorce
+settlement agreements, restraining orders, insurance claims, releases of liability, revocable living
+trusts, standardized legal documents, lawsuits in small claims court, speeding tickets, and
+parking tickets. Compl. Exhs. A, E, G through J, and L.
+14.
+Respondent has warned consumers against “rush[ing] to iffy demand letter templates”
+when a breach of contract occurs because “dealing with legal matters without proper knowledge
+is not a good idea.” Compl. Exh. G. Respondent claimed that the Service’s breach of contract
+demand letter feature would present “crucial” and “necessary information” and generate an
+“ironclad” and “rock-solid demand letter tailored for [a consumer’s] case.” Id.
+From Exhibit G: www.donotpay.com (captured May 4, 2023)
+
+7
+
+15.
+In conjunction with the demand letter feature, Respondent has promoted the Service’s
+ability to help consumers “take further legal action” by preparing all the necessary forms for a
+complaint in small claims court and creating “a script with strong argumentation you can use
+during the court hearing.” Id.
+16.
+DoNotPay has promoted a feature of the Service to address defamation of character.
+Compl. Exh. H. Through the statements and depictions in Complaint Exhibit H, Respondent has
+represented that the subscriber could tell a chatbot about allegedly defamatory statements and the
+resulting harm, and then DoNotPay’s “AI lawyer” would “help [them] draw up a cease and desist
+letter quickly and efficiently . . . with the most relevant state legislation regarding defamation.”
+Id.
+From Exhibit H: www.donotpay.com (captured March 20 and May 4, 2023)
+
+8
+
+9
+
+17.
+Respondent has promoted a feature of the Service that purportedly would enable
+consumers to sue for assault in small claims court without a lawyer. Compl. Exh. I. Respondent
+has made the following statements in connection with this feature:
+A. “While it is possible to handle suing for assault on your own, it may not be the best
+approach. In most cases, it is easier to have the expertise of an entity such as
+DoNotPay on your side to avoid complications.” Id.
+B. “Let DoNotPay help you alleviate the stress of filing a lawsuit in small claims court
+on your own. Our professional team is available to answer your questions and help
+you get the ball rolling.” Id.
+From Exhibit I: www.donotpay.com (captured April 24, 2023)
+
+10
+
+11
+
+18.
+Respondent has advertised that the Service’s standardized legal documents feature would
+enable consumers to generate, among other things, non-disclosure agreements, independent
+contractor agreements, general business contracts, non-compete agreements, residential lease
+agreements, prenuptial agreements, and custody agreements. Compl. Exh. J. DoNotPay has
+promised that these documents would be appropriate and tailored for subscribers’ special
+requirements. Id. Respondent’s advertisements have included the following statements and
+depictions, among others, from the donotpay.com website:
+From Exhibit J: www.donotpay.com/learn/legal-documents/ (captured May 4, 2023)
+
+#
+“Generate Perfectly Valid Legal Documents in No Time”
+
+12
+
+#
+“We all come across some life or business activities that require legal
+documents. Do you need to hire a lawyer every time you’re in one of those
+situations? Luckily, no, because some apps can help you prepare everything on
+your own without too much trouble. DoNotPay is the world’s first robot lawyer,
+here to assist you in closing any significant business deals for which you need
+official agreements.”
+#
+“DoNotPay has your best interests at heart. That’s why we’ve created our
+Standardized Legal Documents tool that can generate various legal documents
+to fulfill your needs. Here’s a non-exclusive list of legal documents DoNotPay
+supplies for you: . . . Non-Disclosure Agreement (NDA) . . . Independent
+Contractor Agreement . . . General Business Contract . . . Non-Compete
+Agreement . . . Residential Lease Agreement . . . Prenuptial Agreement . . . [.]
+These are some legal documents you’ll be able to generate with the help of
+our vast legal document database.”
+#
+“Once you provide essential data regarding your upcoming deal or the issue
+you’ve been dealing with, we’ll generate an appropriate legal document to meet
+your special requirements.”
+#
+“Let DoNotPay Produce Legal Documents To Meet Your Needs”
+#
+“You can try to make an agreement by yourself by searching for legal
+documents online, but it can be challenging. Creating a contract requires a
+certain level of legal knowledge. That’s why your obvious choice would be to hire
+a lawyer to prepare a suitable contract. As turning to a lawyer can be a pricey
+option, DoNotPay can assist you in this matter. . . . Provide the necessary
+details to the chatbot (names, addresses, and other relevant information) . . .
+That’s all! DoNotPay will now generate a document tailored to your
+particular requirements and business activities.”
+19.
+The Service elicited few facts from subscribers utilizing the law-related features
+described in paragraphs 12 through 18, above. For example, if an assault victim selected the “Sue
+Now” feature, the DoNotPay chatbot would have requested that the subscriber provide only a
+“short phrase that detail[ed] the incident.” At the end of the chat session, the chatbot would have
+asked the subscriber to input any additional questions or concerns. Any information the
+13
+
+subscriber might have provided, however, would have received the same irrelevant response
+from the chatbot: “Thanks, [subscriber’s name]. Once you set your personal details, I won’t ask
+you again. You can update them any time under the settings menu by selecting ‘Edit My
+Profile’.” The Service then would have generated a half-page demand letter with a phrase-length
+description of the incident, a monetary demand, and a warning that failure to settle could result in
+a costly legal judgment.
+20.
+DoNotPay did not test whether the Service’s law-related features operated like a human
+lawyer. DoNotPay has developed the Service based on technologies that included a natural
+language processing model for recognizing statistical relationships between words, chatbot
+software for conversing with users, and an Application Programming Interface (“API”) with
+OpenAI’s ChatGPT. None of the Service’s technologies has been trained on a comprehensive
+and current corpus of federal and state laws, regulations, and judicial decisions or on the
+application of those laws to fact patterns. DoNotPay employees have not tested the quality and
+accuracy of the legal documents and advice generated by most of the Service’s law-related
+features. DoNotPay has not employed attorneys and has not retained attorneys, let alone
+attorneys with the relevant legal expertise, to test the quality and accuracy of the Service’s lawrelated features.
+21.
+DoNotPay subscribers who used the law-related features have complained that the
+Service did not ask them to submit information relevant to their breach of contract claims, failed
+to consider important legal issues, and generated legal documents that were not fit for use.
+Website Legal Diagnostics Feature
+22.
+DoNotPay has promoted a website diagnostic feature of the Service that purportedly
+would check a consumer’s small business website for hundreds of federal and state law
+violations based solely on the consumer’s email address. Compl. Exh. K. This feature
+purportedly would detect legal violations that, if unaddressed, would potentially cost a consumer
+$125,000 in legal fees. Id.
+From Exhibit K: www.donotpay.com (captured April 28, 2023)
+
+14
+
+#
+
+23.
+DoNotPay’s website diagnostic tool did not, in fact, analyze a consumer’s small business
+website for hundreds of federal and state law violations based solely on an email address.
+Unavailability of Some Law-Related Features
+24.
+At times relevant to this Complaint, DoNotPay’s website advertised that a General
+Membership included features that could protect a copyright and generate a customized ceaseand-desist letter for a defamation claim, non-compete agreement, and residential lease when
+those features were not available.
+State Bar of California’s Investigation of DoNotPay for the
+Unauthorized Practice of Law
+25.
+On or about November 16, 2021, the Office of Chief Trial Counsel of the State Bar of
+California (“the California Bar”) opened an investigation into the DoNotPay Service related to
+allegations of engaging in the unauthorized practice of law.
+26.
+On or about January 21, 2022, the Chief Executive Officer for DoNotPay promised the
+California Bar that DoNotPay would no longer represent that the DoNotPay Service was the
+world’s first robot lawyer. Nevertheless, DoNotPay continued to make this representation.
+Compl. Exhs. A through E, L.
+27.
+On June 15, 2023, the California Bar sent a cease-and-desist notice alleging the
+DoNotPay Service amounted to engagement in the unauthorized practice of law. On the same
+day, Respondent affirmed that it had removed: a) all mentions of “robot lawyer” from the
+DoNotPay website and related social media; b) all products on the DoNotPay website that
+allowed consumers to generate legal documents; and c) any mention of “sue anyone” from the
+15
+
+DoNotPay website. Notwithstanding these representations to the California Bar, the DoNotPay
+website and social media account continued to promote the Service as the “World’s First Robot
+Lawyer” and advertise “sue anyone” claims. Compl. Exhs. C, D, E.
+Count I
+False or Unsubstantiated Performance Claims
+28.
+In connection with the advertising, marketing, promotion, offering for sale, or sale of
+subscriptions to the DoNotPay Service, Respondent represented, directly or indirectly, expressly
+or by implication, that the Service’s artificial intelligence and other technology operates like a
+human lawyer, including by applying the relevant laws to subscribers’ particular legal and
+factual situations; relying on legal expertise and knowledge to avoid potential complications,
+such as statutes of limitations, compensation limits, and jurisdiction, when generating legal
+demand letters or initiating cases in small claims court; and detecting legal violations on
+subscribers’ business websites and providing advice about how to fix them.
+29.
+The representations set forth in Paragraph 28 are false or misleading or were not
+substantiated at the time the representations were made.
+Count II
+False Claims
+30.
+In connection with the advertising, marketing, promotion, offering for sale, or sale of
+subscriptions to the DoNotPay Service, Respondent represented, directly or indirectly, expressly
+or by implication, that:
+A. based solely on a consumer’s email address, the Service’s artificial intelligence and
+other technology can analyze a consumer’s small business website for hundreds of
+federal and state law violations, determine that the website is in serious danger of
+governmental enforcement action, and save the consumer hundreds of thousands of
+dollars in potential legal fees; and
+B. a General Membership subscription to the Service includes features that protect a
+copyright and generate a customized cease-and-desist letter for a defamation claim,
+non-compete agreement, and residential lease.
+31.
+
+In fact:
+A. based solely on a consumer’s email address, the DoNotPay Service’s artificial
+intelligence and other technology cannot analyze a consumer’s small business website
+for hundreds of federal and state law violations, determine that the website is in
+serious danger of governmental enforcement action, and save the consumer hundreds
+of thousands of dollars in potential legal fees; and
+B. at times relevant to this Complaint, a General Membership subscription to the Service
+has not included features to protect a copyright and generate a customized cease-and
+16
+
+desist letter for a defamation claim, non-compete agreement, and residential lease.
+Therefore, the representations set forth in Paragraph 30 are false or misleading.
+Violations of Section 5
+32.
+The acts and practices of the Respondent as alleged in this complaint constitute unfair or
+deceptive acts or practices in or affecting commerce in violation of Section 5(a) of the Federal
+Trade Commission Act.
+THEREFORE, the Federal Trade Commission this 14th day of January, 2025, has
+issued this Complaint against the Respondent.
+By the Commission
+
+April J. Tabor
+Secretary
+SEAL:
+
+17
+
+Exhibit A: www.donotpay.com
+(excerpts captured March 14, 2023)
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+2
+
+Exhibit B: www.donotpay.com/about/
+(website and embedded video excerpts captured March 13, 2023)
+
+\
+
+#
+
+World's First Robot
+
+Lawyer
+~19r1t corporutior1s tJcu: txucciucrucy cwd sue cmyonc ut tr1c press of CJ lJuttor1
+
+ir'i!i Enter your email
+
+~
+
+2
+
+Exhibit C: Apple App Store
+(excerpts captured November 1, 2023)
+
+Exhibit D: Google Play Store
+(excerpt captured November 1, 2023)
+
+Exhibit E: Posts on TikTok by username donotpaylaw
+(captured August 31, 2023)
+
+Exhibit F: www.donotpay.com
+(excerpts captured April 6, 2023)
+
+Exhibit G: www.donotpay.com/learn/demand-letter-template/
+(excerpts captured May 4, 2023)
+
+#
+
+#
+
+2
+
+Exhibit H: www.donotpay.com/learn/defamation-of-character-lawsuit/
+(excerpts captured March 20 and May 4, 2023)
+
+#
+
+What can I help you with?
+
+r
+
+\_
+
+) ...........
+
+oeromouo~
+
+UVSIARCHSHO
+
+~united airlines~
+
+categories
+Customer Service
+Issues
+
+a H1dde1, Money
+• Tick.el Disputes
+
+DE.FAMATION DEMAND LETTElll:S
+
+--­
+
+• rm OWO'd SSOO♦
+
+HIM,youtooodwbdofarrobon,F«la
+
+(!) ~~:n\ggol
+
+Defamation Demand
+Letters
+
+f") ~,;!;:~nt
+
+Q lnve!ltment Tools
+2 Tell us about your situation, including whether the statements were libel or
+slander, listing the statements that were made, explaining why they are false or
+misleading, and what consequences you have suffered as a result.
+
+Are you a victim of unfair and false defamation? I
+can help you write a demand letter to get the justice
+and compensation you deserve. To get started, are
+you a victim of libel, slander, or both? (Libel is
+written defamation whi le slander is spoken or oral.)
+
+........
+
+3. Based on your location, DoNotPay will generate a formal demand letter on
+your behalf with the most relevant state legislation regarding defamation.
+
+Defamation Demand Letter
+Created At Jun 15, 2021
+
+Success!
+
+Task Progress
+
+Congrats! I've generated a defamation
+demand letter on your behalf.
+This task was completed on Jun 15,
+
+P.I
+
+View PDF
+
+2021 at 10:00 AM
+
+.±. Download file
+
+Confirmation Number. 7524!19494048
+
+That's it! All we need is a little information and your letter is ready to send.
+
+2
+
+Exhibit I: www.donotpay.com/learn/small-claims-court/
+(excerpts captured April 24, 2023)
+
+#
+
+#
+
+#
+
+2
+
+2. Enter the dollar amount you are seeking for compensation
+
+I can generate demand letters, court filings and give
+you a script to read in court. How much are you
+owed?
+
+$ 01
+
+)0
+
+3. Select whether you want to serve a demand letter or file a claim in court
+
+I can file court filing forms for you. Would you like to
+continue?
+
+Conw,u•
+
+Autoso\ring 9
+
+$elect an OJ:ihOI\ to eon,lnue
+
+3
+
+4. Describe the reasons for the lawsuit and submit any applicable details,
+includlng photo evidence
+
+•
+Do you have a photographic evidence that could
+bolster your demand letter?
+
+Yes
+
+No
+
+Autosalllng 8
+
+That's It! DoNotPay will then generate a demand letter or court filing forms for you.
+We'll even moil a copy of your demand letter to the individual or business you are
+suing.
+
+4
+
+Exhibit J: www.donotpay.com/learn/legal-documents/
+(excerpts captured May 4, 2023)
+
+What Types of Legal Documents Do You Need?
+
+he Best sotutior for Creating Lego Documents
+onYourOWn
+
+legal documents are agreements and contracts that protect your business and
+
+The Best Contract Template at Your Disposal
+
+personal interests. Depending on your endeavor, you can pick different legal
+
+The Ch td Custody Agreernent Explained
+
+documents to meet your needs and, at the same time, protect you from harm.
+
+We understand how complicated and incomprehensible all that legal terminology
+
+The Best Way To Make a Lease Agreement
+How to Write a Contract-without a Lawyer
+
+can be, but the documents must comply with laws and regulations.
+OoNotpay has your best interests at heart That's why we've created our
+Standardized Legal Documents tool that can generate various legal documents to
+
+Legal Documents Deciphered: Guides, How
+Tos, Drafts, and More
+
+fulfill your needs.
+Lego, r&mplutes.net Rs,iew: 1 11 Leg,t? Is It safe
+
+Here's a non-exclusive list of legol documents OoNotPay supplies for you:
+
+to use"
+LawO~pot vs I ego Zoom· Whats Oit•erP.nt•
+Wh ch IS Better"
+
+Legal Contracta
+
+Pu,pose
+
+Non-Disclosure
+
+A legally binding contract establishing a conftdential relationship
+
+Agreement
+
+between the cantroctual parties that agrae not to reveal any
+
+(NOA)
+
+sensitive information; also known as a confidenticd ogreem.nt
+
+LegalZoorr vs Le9alSh1eld What Are +i,9
+o,tterences?
+We Read All Lego!Nature Reviews Heres Wl"lat
+You Must Know
+1s eforms Leg,t? Does 11 Store My Soc,ol ~ur,ty
+
+NUMber?
+
+Jodependoot
+
+A written contract between two p<1111fl for Implementation of
+
+Contractor
+
+specific projects or sennc,os; an Individual or a company hires an
+
+Agreement
+
+independent contractor to imp..ment short- or medium-term
+
+We Read Every eForm Review - Heres a
+Summary fo, You
+freew II com Reviews:. ls It egit or o Scom'
+What rs Better lhon FormSw1ft? Is FormSwift losy
+
+activltles
+
+1oconcel?
+
+emotsa1e
+
+A legal document providing the specifics of o sale of products or
+
+Lego zoom Loving Trust lev8\l/s; Pros & cons You
+
+transfer of propertiea; the seller transfers the assets' rights to the
+
+M1stknow
+
+buyer
+
+lowDPpot Review. ls It a leg t1mate 4>ervice and
+Safe to t..,se?
+
+General Business
+Contract
+
+A legal document outlining the terms and conditions of a busin"s
+
+deal made by two parties
+
+Recent Posts
+Non:Compete
+
+A contract betw. .n an emplayNancl an employer where the
+
+Agreement
+
+employee promises not to compete with the employer in any way
+
+Hassle-Free
+
+upon the employment termination; the employee must not
+
+How to Remove My Case From The Internet
+
+disclose proprietary sensitive Information at any time
+
+tnstan~y
+
+2
+
+10
+
+to Pay 'I
+
+w1 H
+
+1stc.n Water Bil s On1tne
+
+#
+
+#
+
+#
+
+3
+
+#
+
+4
+
+Exhibit K: www.donotpay.com/web/website-diagnostics/. . . breach-of-contract/
+(excerpts captured April 28, 2023)
+
+#
+
+#
+
+#
+
+#
+
+2
+
+Exhibit L: www.donotpay.com/learn/denver-parking-tickets/
+(excerpts captured April 9, 2024)
+
+#
+
+#
+
+2
+
+#
+
+#
+
+3
+
+

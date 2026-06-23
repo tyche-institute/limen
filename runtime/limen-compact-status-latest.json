@@ -1,0 +1,126 @@
+{
+  "bulk": {
+    "current_output_clean": false,
+    "tasks": {
+      "bulk_translation_review": {
+        "completed_rows": 751,
+        "missing_rows": 0,
+        "queue_rows": 751
+      },
+      "parent_source_extraction": {
+        "completed_rows": 1826,
+        "missing_rows": 2,
+        "queue_rows": 1828
+      },
+      "translation_parent_source_extraction": {
+        "completed_rows": 116,
+        "missing_rows": 0,
+        "queue_rows": 116
+      }
+    }
+  },
+  "case_autoreview": {
+    "already_final_adjudicated_rows": 13,
+    "human_acceptance_required_rows": 0,
+    "paid_token_required_rows": 0,
+    "rows": 13,
+    "rows_without_final_adjudication": 0,
+    "token_free_auto_close_rows": 0,
+    "token_free_promotion_candidate_rows": 0
+  },
+  "case_extraction": {
+    "case_candidate_rows": 13,
+    "completed_rows": 974,
+    "current_output_clean": true,
+    "missing_rows": 0,
+    "queue_rows": 974
+  },
+  "case_hardening": {
+    "final_adjudication_rows": 14,
+    "final_obscure_ai_promoted_rows": 2,
+    "final_promoted_rows": 2,
+    "ready_for_human_acceptance": 0,
+    "review_rows": 13
+  },
+  "generated_at_utc": "2026-06-23T15:34:52Z",
+  "hardening": {
+    "current_output_clean": true,
+    "translation": {
+      "missing_rows": 0,
+      "queue_rows": 554,
+      "result_rows": 554,
+      "stale_extra_rows": 0
+    },
+    "url": {
+      "missing_rows": 0,
+      "queue_rows": 208,
+      "result_rows": 208,
+      "stale_extra_rows": 201
+    }
+  },
+  "latest_cpu": [
+    {
+      "matches": 644,
+      "run_id": "20260618T131700Z",
+      "shard": "health-finance-education"
+    },
+    {
+      "matches": 13180,
+      "run_id": "20260618T131659Z",
+      "shard": "identity-provenance"
+    },
+    {
+      "matches": 7685,
+      "run_id": "20260618T131700Z",
+      "shard": "legal-research"
+    },
+    {
+      "matches": 31840,
+      "run_id": "20260618T131659Z",
+      "shard": "public-sector"
+    },
+    {
+      "matches": 652,
+      "run_id": "20260618T131700Z",
+      "shard": "residual-weird"
+    },
+    {
+      "matches": 4656,
+      "run_id": "20260618T131659Z",
+      "shard": "security-agentic"
+    }
+  ],
+  "mining": {
+    "running_sessions": [],
+    "stop_files": [
+      "STOP-limen-cpu-miner-health-finance-education",
+      "STOP-limen-cpu-miner-health-finance-education.cleared-athena-full-foundry-20260608T051531Z",
+      "STOP-limen-cpu-miner-identity-provenance",
+      "STOP-limen-cpu-miner-identity-provenance.cleared-athena-full-foundry-20260608T051531Z",
+      "STOP-limen-cpu-miner-legal-research",
+      "STOP-limen-cpu-miner-legal-research.cleared-athena-full-foundry-20260608T051531Z",
+      "STOP-limen-cpu-miner-public-sector",
+      "STOP-limen-cpu-miner-public-sector.cleared-athena-full-foundry-20260608T051531Z",
+      "STOP-limen-cpu-miner-residual-weird",
+      "STOP-limen-cpu-miner-residual-weird.cleared-athena-full-foundry-20260608T051531Z",
+      "STOP-limen-cpu-miner-security",
+      "STOP-limen-cpu-miner-security.cleared-athena-full-foundry-20260608T051531Z"
+    ],
+    "stopped": true
+  },
+  "promotion": {
+    "obscure_ai_ready_now": 0,
+    "packet_rows": 2003,
+    "reviewed_core_ready_now": 0,
+    "source_clusters": 974
+  },
+  "review": {
+    "candidate_rows": 55725,
+    "direct_source_missing_rows": 0,
+    "direct_source_queue_rows": 13918,
+    "direct_source_reviewed_rows": 13918,
+    "first_pass_reviewed_rows": 55725,
+    "raw_rows": 58516,
+    "self_echo_rows_excluded": 2791
+  }
+}

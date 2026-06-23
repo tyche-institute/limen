@@ -1,0 +1,12 @@
+{
+  "summary_id": "F4-047-THRESH-SUMMARY",
+  "as_of_utc": "2026-06-07T15:32:05Z",
+  "missing_total_edges": 2,
+  "current_graph_edges": 18,
+  "projected_graph_edges_if_all_materialized": 20,
+  "identifier_collision_edges_missing": 0,
+  "reviewed_not_duplicate_edges_missing": 2,
+  "claim_ceiling_delta_if_all_materialized": "none_graph_becomes_more_complete_but_not_stronger_than_ledger",
+  "recommended_route": "hold_current_18_edge_export_or_materialize_two_recurrence_overlay_edges_only_if_caption_discipline_gain_is_worth_it",
+  "residual_caution": "After P1 materialization, Figure 4 remains a duplicate-review quality-control graph and must not be narrated as recurrence prevalence or event count; the remaining 2 gaps are recurrence-overlay edges only."
+}

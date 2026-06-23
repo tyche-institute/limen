@@ -1,0 +1,7 @@
+audit_id	metric	value	note
+LFQR-AUDIT-001	generated_at	2026-06-08T18:35:05Z	Bounded framework-anchor quote register refresh under hostile-reviewer sprint.
+LFQR-AUDIT-002	quote_row_count	11	Two EU AI Act rows plus one additional deepfake-disclosure passage, two NIST rows, two OECD heading rows, two UNESCO rows, and two ISO overview rows.
+LFQR-AUDIT-003	direct_framework_families_covered	5	EU AI Act, NIST AI RMF, OECD AI Principles, UNESCO Recommendation, ISO/IEC 42001 overview.
+LFQR-AUDIT-004	shared_legal_matrix_denominator	15_rows	Register strengthens citation discipline but does not change seeded counts or framework-family directness counts.
+LFQR-AUDIT-005	per_family_counts	eu_ai_act=3; nist_ai_rmf=2; oecd_ai_principles=2; unesco_recommendation=2; iso_42001_overview=2	Counts by framework family in the new register.
+LFQR-AUDIT-006	claim_ceiling	anchor_text_only	Register is for bounded quotation and manuscript-safe wording only; not for legality, compliance, liability, or case-specific applicability claims.

@@ -1,0 +1,62 @@
+{
+  "title": "LIMEN Evidence Schema",
+  "description": "Schema for validating AI edge-case evidence records",
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "description": "Unique identifier for the case"
+    },
+    "title": {
+      "type": "string",
+      "description": "Brief title of the edge case"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source URL or reference"
+    },
+    "evidence_type": {
+      "type": "string",
+      "description": "Type of evidence (e.g., public report, official document, research paper)"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Jurisdiction where the case occurred"
+    },
+    "language": {
+      "type": "string",
+      "description": "Language of the source material"
+    },
+    "machine_translated": {
+      "type": "boolean",
+      "description": "Whether the source was machine-translated"
+    },
+    "uncertainty": {
+      "type": "string",
+      "description": "Uncertainty level (low/medium/high)"
+    },
+    "evidence_tier": {
+      "type": "integer",
+      "description": "Evidence tier (1=string, 2=partially corroborated, 3=fully vetted)"
+    },
+    "claim_support": {
+      "type": "string",
+      "description": "How this evidence supports the research claim"
+    },
+    "date_collected": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": [
+    "case_id",
+    "title",
+    "source",
+    "evidence_type",
+    "jurisdiction",
+    "language",
+    "evidence_tier",
+    "claim_support",
+    "date_collected"
+  ]
+}

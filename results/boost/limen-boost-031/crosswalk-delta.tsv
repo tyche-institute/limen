@@ -1,0 +1,15 @@
+source_id	aiid_mapping	olympus_mapping	oecd_mapping
+LIMEN-S-001	"Article 50: Transparency, traceability, and human oversight"
+LIMEN-S-003	"C2PA 2.3: Provenance encoding and attestation"
+LIMEN-S-006	"MITRE ATLAS CA-23-1001: AI system transparency failures"
+LIMEN-S-008	"CVE-2025-55284: Agent code-execution via hidden prompts"
+LIMEN-S-016	"FCC 24-17: Robocall AI attribution and consumer protection"
+LIMEN-S-022	"SEC 2024-36: AI asset misrepresentation in investment advisory"
+LIMEN-S-030	"NIST AI RMF 1.0: Trustworthy AI system framework"
+LIMEN-S-039	"Langflow issue #1973: RCE vulnerability in Python RAG tools"
+LIMEN-S-045	"CVE-2026-2285: CrewAI SSRF through RAG model inputs"
+LIMEN-S-058	"GHSA-xj5p-w2v5-fjm6: ToolHive secret exposure in run configs"
+LIMEN-S-071	"CVE-2025-47274: Playwright MCP origin-header validation bypass"
+LIMEN-S-082	"arXiv 2510.25662: Agent audit framework for LLM-based programming assistants"
+LIMEN-S-100	"arXiv 2403.03792: Neural Exec code generation risks"
+...

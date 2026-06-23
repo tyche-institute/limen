@@ -1,0 +1,83 @@
+{
+  "backlog": {
+    "bulk_missing_rows": 2,
+    "case_extraction_missing_rows": 0,
+    "direct_source_missing_rows": 0,
+    "hardening_translation_missing_rows": 0,
+    "hardening_url_missing_rows": 0,
+    "hermes_review_backlog_rows": 2
+  },
+  "blockers": [],
+  "boundary": "Read-only readiness check; does not call models, launch lanes, mine data, process queues, or deploy.",
+  "generated_at_utc": "2026-06-23T15:39:56Z",
+  "hermes": {
+    "auth": {
+      "exists": true,
+      "openai_codex_auth_mode": "chatgpt",
+      "openai_codex_has_access_token": true,
+      "openai_codex_has_account_id": true,
+      "openai_codex_has_refresh_token": true,
+      "openai_codex_last_refresh": "2026-06-16T08:10:50.270168Z",
+      "openai_codex_provider_present": true,
+      "path": "/home/anton/.hermes/auth.json"
+    },
+    "binary": {
+      "exists": true,
+      "path": "/usr/local/bin/hermes",
+      "version": "Hermes Agent v0.14.0 (2026.5.16)",
+      "version_returncode": 0
+    },
+    "config": {
+      "default_model": "meta/llama-3.3-70b-instruct",
+      "default_provider": "nvcloud",
+      "exists": true,
+      "fallback_has_openai_codex": false,
+      "path": "/home/anton/.hermes/config.yaml"
+    }
+  },
+  "infos": [
+    {
+      "code": "hermes_default_provider_not_codex",
+      "message": "LIMEN lane launchers pass --provider openai-codex explicitly; global default differs.",
+      "value": "nvcloud"
+    }
+  ],
+  "lanes": {
+    "active_lane_sessions": 1,
+    "by_prefix": {
+      "limen-bulk-source-lane": 1,
+      "limen-bulk-translation-lane": 0,
+      "limen-bulk-translation-source-lane": 0,
+      "limen-case-extraction-lane": 0,
+      "limen-source-review-lane": 0,
+      "limen-translation-review-lane": 0,
+      "limen-url-hardening-lane": 0
+    }
+  },
+  "ok": true,
+  "supervisor": {
+    "cycle_complete_age_seconds": 80,
+    "fresh": true,
+    "latest_cycle_complete_utc": "2026-06-23T15:38:36Z",
+    "latest_cycle_start_utc": "2026-06-23T15:39:21Z",
+    "latest_direct_source_backlog": 0,
+    "log_age_seconds": 17,
+    "log_exists": true,
+    "log_path": "/srv/tyche/projects/limen-ai-edge-case-atlas/logs/limen-hermes-lane-supervisor.log",
+    "recent_failure_lines": [],
+    "recent_quota_lines": [],
+    "session": "limen-hermes-lane-supervisor",
+    "session_present": true
+  },
+  "throughput_defaults": {
+    "bulk_source_lanes": 32,
+    "bulk_translation_lanes": 32,
+    "bulk_translation_source_lanes": 24,
+    "case_extraction_batch_size": 16,
+    "case_extraction_lanes": 8,
+    "hardening_lanes": 2,
+    "source_batch_size": 160,
+    "source_lanes": 48
+  },
+  "warnings": []
+}

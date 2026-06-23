@@ -1,0 +1,9 @@
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T151250Z-lane1-25be054c/parent-source-extraction-results.tsv → b/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T151250Z-lane1-25be054c/parent-source-extraction-results.tsv
+@@ -0,0 +1,3 @@
++queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason
++BPSE-03656	duplicate_existing_core		draft/preprint.md	source_surface_only_no_case: Internal corpus aggregate citation without explicit public source URL in metadata or context
++BPSE-03657	duplicate_existing_core		draft/preprint.md	source_surface_only_no_case: Internal corpus aggregate citation without explicit public source URL in metadata or context
+
+session_id: 20260623_171251_1640c3
+<TOOLCALL>[{"name": "write_file", "arguments": {"content": "# Parent Source Extraction Summary\n\n## Batch: 20260623T151250Z-lane1-25be054c\n\n### Summary\n- **Total rows processed**: 2\n- **Rows with parent source URL extracted**: 0\n- **Rows marked as parent source wrapper**: 0\n- **Country gap (no parent source)**: 0\n- **Rows marked as source surface only (no case)**: 2\n- **Duplicates of existing core**: 2\n\n### Details\n**Source surface only (no case)**: 2 rows marked because internal corpus/atlas aggregates cited a source but did not expose a standalone reviewable source surface row. No explicit public source URLs found in local metadata or context.\n\n**Duplicates of existing core**: Both rows were found to be duplicates of existing core entries, hence marked accordingly.\n", "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T151250Z-lane1-25be054c/parent-source-extraction-summary.md"}}]</TOOLCALL>

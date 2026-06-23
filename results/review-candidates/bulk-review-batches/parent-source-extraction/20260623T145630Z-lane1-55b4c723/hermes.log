@@ -1,0 +1,19 @@
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T145630Z-lane1-55b4c723/parent-source-extraction-results.tsv → b/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T145630Z-lane1-55b4c723/parent-source-extraction-results.tsv
+@@ -0,0 +1,2 @@
++queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason	claim_ceiling	next_action
++BPSE-03655	LIMEN-SIGNAL-F594C9B51806CB87	parent_source_wrapper		documentation Gap in source-pack proxy resolution	/srv/tyche/gaia/tyche-research-vault/STATUS.md	Source-pack points to a source without exposing a named reviewable surface. Source metadata only indicates existence of a surface without concrete manifestation in local materials.	source-surface existence only from local metadata/files	extract the named source surface from local materials
+
+session_id: 20260623_165632_01a2c9
+Processing complete. Outputs written:
+
+1. Result TSV:
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T145630Z-lane1-55b4c723/parent-source-extraction-results.tsv
+
+2. Summary MD:
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T145630Z-lane1-55b4c723/parent-source-extraction-summary.md
+
+Manifest updated at:
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T145630Z-lane1-55b4c723/manifest.json
+
+All outputs validated for format compliance. Row count matches input (1 data row processed).

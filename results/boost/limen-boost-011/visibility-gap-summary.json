@@ -1,0 +1,23 @@
+{
+  "safe_aggregate_lineages": 21,
+  "omitted_high_confidence_t3_rows_count": 11,
+  "by_visibility_gap_state": {
+    "authoritative_core_not_in_publication_safe_aggregate": 5,
+    "bounded_shared_sidecar_not_in_publication_safe_aggregate": 1,
+    "extended_reviewed_local_surface_only": 2,
+    "high_confidence_nonaggregate_row": 3
+  },
+  "public_ids": [
+    "LIMEN-000008",
+    "LIMEN-000008",
+    "LIMEN-000009",
+    "LIMEN-000010",
+    "LIMEN-000011",
+    "LIMEN-000012",
+    "LIMEN-000013",
+    "LIMEN-000014",
+    "LIMEN-000009",
+    "LIMEN-000012",
+    "LIMEN-000015"
+  ]
+}

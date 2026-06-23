@@ -1,0 +1,7 @@
+envelope_id	action	subject_kind	subject_id	review_status	dashboard_hooks	paper_use
+LIMEN-ENV-EXAMPLE-0001	classified	case_record	LIMEN-000001	lane_checked	evidence_tier_funnel; attestation_timeline; legal_uncertainty_matrix	appendix sample or methods example
+LIMEN-ENV-EXAMPLE-0002	reviewed	case_record	LIMEN-CAND-LMWCS-20260606-004	needs_revision	jurisdiction_language_map; attestation_timeline	appendix sample or methods example
+LIMEN-ENV-EXAMPLE-0003	clustered	duplicate_cluster	REVIEW-NOMERGE-ICO-001	lane_checked	duplicate_cluster_graph; attestation_timeline	dedupe logic appendix and dashboard provenance
+LIMEN-ENV-EXAMPLE-0004	classified	crosswalk_row	limen-legal-normative-crosswalk:deepfake_or_synthetic_identity	lane_checked	legal_uncertainty_matrix; taxonomy_heatmap; attestation_timeline	standards/legal crosswalk appendix and caution demo
+LIMEN-ENV-EXAMPLE-0005	published	artifact	limen-dashboard-paper-forge:evidence-funnel-v0.1	lane_checked	evidence_tier_funnel; attestation_timeline	dashboard export provenance and methods figure note
+LIMEN-ENV-EXAMPLE-0006	published	artifact	limen-attestation-publication-bundle-v0.1	lane_checked	attestation_timeline	signed-placeholder appendix and publication-bundle methods note

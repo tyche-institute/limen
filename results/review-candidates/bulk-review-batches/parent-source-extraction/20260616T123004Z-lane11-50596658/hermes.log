@@ -1,0 +1,99 @@
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123004Z-lane11-50596658/parent-source-extraction-results.tsv → b/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123004Z-lane11-50596658/parent-source-extraction-results.tsv
+@@ -0,0 +1,25 @@
++queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason	claim_ceiling	next_action
++BPSE-01129	LIMEN-SIGNAL-D0904F9D0F29992D	source_surface_only_no_case		Nekropolis reputational/legal risk limitation	/srv/tyche/gaia/tyche-research-vault/notes/zeus-lane-harvest-2026-05-22/nekropolis/paper/draft.md.bundle/sources/paper-draft-after-actor-normalized-candidate-update.md:232	Draft limitation text names lifecycle-event families but no concrete parent source URL.	source-surface existence only; no incident/legal/safety claim	leave as manuscript limitation, not parent-source row
++BPSE-01130	LIMEN-SIGNAL-D0B1E16581F243A6	country_gap_no_parent_source		Greenland regulatory sandbox gap warning	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_READINESS_SPRINT_3_WEAK_SOURCE_WARNINGS.md:614-616	Country weak-source warning says no formal AI or digital-regulatory sandbox source was found.	bounded gap warning only; no absence finding beyond checked local pass	keep as gap/no-parent-source row
++BPSE-01131	LIMEN-SIGNAL-D0D2FB78BFCCC0E8	country_gap_no_parent_source		Guinea observability research queue row	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_RESEARCH_QUEUE.csv:59	Research-queue placeholder lists search queries and preferred source types, not a concrete source URL.	research queue only; no country evidence claim	keep as country research gap row
++BPSE-01132	LIMEN-SIGNAL-D0DC4A234C790D6E	source_url_extracted	https://www.bk.admin.ch/dam/bk/de/dokumente/dti/themen/ki/EN/Project%20database%20march%202026.csv.download.csv/Project%20database%20march%202026.csv	Project database March 2026	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_13_SOURCE_REFRESH.csv:26	Local source_refresh row explicitly gives the CH I05 project-database URL named by the delta row.	URL extraction only; project inventory not statutory algorithm register claim	human review extracted source before any score/use claim
++BPSE-01133	LIMEN-SIGNAL-D11D006BE12D19A9	country_gap_no_parent_source		Tajikistan observability country index row	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_COUNTRY_INDEX.csv:108	Country profile row reports no_algorithm_register_found and provides no concrete parent URL for the queried register gap.	country profile/gap signal only; no final absence claim	keep as country gap row
++BPSE-01134	LIMEN-SIGNAL-D123282FE4FE1672	source_url_extracted	https://www.gouv.bj/plateformes-services/	Negative search for public algorithm register	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_3_SOURCE_REFRESH.csv:31	Source_refresh row explicitly records the Benin I05 negative-search surface URL used for the delta row.	negative search surface only; no definitive absence or register claim	human review negative-search scope
++BPSE-01135	LIMEN-SIGNAL-D12D82527917C608	source_url_extracted	https://www.sainthelena.gov.sh/	Official site keyword checks for sandbox/artificial intelligence/algorithm	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_4_SOURCE_REFRESH.csv:228	Source_refresh row explicitly records the Saint Helena official portal negative-search surface for I03.	negative search surface only; no definitive absence or AI-sandbox claim	human review checked search terms and portal scope
++BPSE-01136	LIMEN-SIGNAL-D13178DCE198767D	country_gap_no_parent_source		Vietnam follow-up verification priority	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_READINESS_SPRINT_4_WEAK_SOURCE_WARNINGS.md:972-976	Follow-up list requests future searches for algorithm-register terms and does not expose a concrete source URL.	follow-up gap task only; no source or absence claim	keep as verification-priority gap
++BPSE-01137	LIMEN-SIGNAL-D13FF7C4887CB1A5	source_surface_only_no_case		Public-Sector AI Evidence Packages readiness topic	/srv/tyche/atlas/tyche-thesis-atlas-factory/analysis/paper-readiness-v0.2.md:8	Readiness matrix row names a paper topic, not a reviewable parent source.	planning surface only; no public-source claim	leave for paper planning, not source extraction
++BPSE-01138	LIMEN-SIGNAL-D161CAB9709FC616	parent_source_wrapper		Jersey I10 consolidated laws/source_refresh bundle	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_13_SOURCE_REFRESH.csv:129-133	Delta row is supported by multiple Jersey I10 source_refresh URLs; one parent must be chosen by human review.	wrapper/source-pack only; no single parent URL selected	human choose among Jersey I10 parent sources
++BPSE-01139	LIMEN-SIGNAL-D1777B62036DAA60	source_url_extracted	https://www.kratid.ee/en/algoritm-ulevaade	Kratid algorithm mapping	/srv/tyche/atlas/tyche-thesis-atlas-factory/corpus/v0.1-freeze/data/semantic-links/estonia-regulatory-sandboxes-2026-05-29.json:162-165	Semantic-link node explicitly gives the Kratid algorithm mapping URL referenced by the edge at the input line.	URL extraction only; public-verification surface context, not register adequacy claim	human review URL and edge relation before citation
++BPSE-01140	LIMEN-SIGNAL-D17F40524EFC5377	source_url_extracted	https://mopt.gov.lr/documents/national-digitalstrategy2025-2029/	National Digital Strategy (2025-2029)	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_4_SOURCE_REFRESH.csv:28	Source_refresh row explicitly records the Liberia strategy URL used as bounded negative I05 evidence.	negative evidence surface only; no definitive public-register absence claim	human review against related portal-check row
++BPSE-01141	LIMEN-SIGNAL-D1834B55CB2051DB	country_gap_no_parent_source		Denmark EU official legal source review row	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_EU_OFFICIAL_LEGAL_SOURCE_REVIEW.csv:8	Country review-summary row gives review-bound warnings but no concrete parent source URL.	country review signal only; no legal-status or source claim	keep as review-bound country gap
++BPSE-01142	LIMEN-SIGNAL-D19116240939B925	parent_source_wrapper		DfE Correspondence Drafter evidence-target queue item	/srv/tyche/gaia/tyche-research-vault/data/global-agent-atlas-v0.1/sources/v02-gap-sprint.json:3058-3070	Queue item lists evidence targets for future lookup and no concrete parent URL.	wrapper/target list only; no deployment or registry claim	human select or locate a parent source in a later review
++BPSE-01143	LIMEN-SIGNAL-D192E9E4A2515CFF	source_url_extracted	https://www.data.gouv.fr/organizations/terres-australes-et-antarctiques-francaises	Organisation - Terres australes et antarctiques françaises	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_6_SOURCE_REFRESH.csv:248	Source_refresh row explicitly gives the TAAF data.gouv.fr organization URL referenced by the I05 delta.	negative/open-data surface only; no TAAF algorithm-register claim	human review alongside ODAP context before use
++BPSE-01144	LIMEN-SIGNAL-D1A42A1006BB61EA	parent_source_wrapper		Retraction Watch source-family cause-count aggregate	/srv/tyche/gaia/tyche-research-vault/notes/zeus-lane-harvest-2026-05-22/nekropolis/paper/draft.md.bundle/sources/source-family-cause-counts-20260522T153509Z.csv:22	Aggregate count row names a source family and cause bucket, not one public parent record URL.	aggregate/source-family only; no individual retraction claim	human choose individual source record if needed
++BPSE-01145	LIMEN-SIGNAL-D1A7B48B1982FA56	parent_source_wrapper		Retraction Watch/arXiv source-family distinction	/srv/tyche/gaia/tyche-research-vault/notes/zeus-lane-harvest-2026-05-22/nekropolis/paper/draft.md.bundle/sources/paper-draft-after-count-consistency-20260519T174226Z.md:92-97	Manuscript aggregate distinguishes source families and counts, requiring record-level selection for any parent URL.	aggregate family context only; no individual lifecycle-event claim	human choose a concrete record/source family member
++BPSE-01146	LIMEN-SIGNAL-D1B3DF242D1EB681	source_surface_only_no_case		Estonian Baltic language lane mission	/srv/tyche/atlas/tyche-thesis-atlas-factory/corpus/v0.2-working/reports/lanes/estonian-baltic-language-latest.md:8	Lane mission describes source families to track but exposes no concrete parent source URL at the cited row.	lane mission only; no source-specific claim	leave as lane/report surface, not parent source
++BPSE-01147	LIMEN-SIGNAL-D1EA192EFA996EFE	parent_source_wrapper		Retraction Watch precision diagnostics pointer	/srv/tyche/gaia/tyche-research-vault/notes/zeus-lane-harvest-2026-05-22/nekropolis/paper/draft.md.bundle/sources/paper-count-path-consistency-audit-20260520T184705Z.json:84-88	Audit JSON points to a local diagnostics file for a source-family candidate set, not a public parent URL.	local audit/source-family pointer only; no individual source claim	human select record-level source if needed
++BPSE-01148	LIMEN-SIGNAL-D1EC698A94030CD0	source_url_extracted	https://www.bot.go.tz/DFDI/Sandbox	FinTech Regulatory Sandbox	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_3_SOURCE_REFRESH.csv:262	Source_refresh row explicitly gives the Bank of Tanzania sandbox URL underlying the Tanzania summary warning.	sectoral sandbox surface only; not AI-wide sandbox claim	human review sectoral scope before citation
++BPSE-01149	LIMEN-SIGNAL-D1F3C771B3C4BC66	parent_source_wrapper		GE Vernova GridOS evidence-target queue item	/srv/tyche/gaia/tyche-research-vault/data/global-agent-atlas-v0.1/sources/v02-gap-sprint.json:2396-2408	Queue item lists target evidence types for future separation review and no concrete parent URL.	wrapper/target list only; no product deployment or registry claim	human choose or locate parent source later
++BPSE-01150	LIMEN-SIGNAL-D1FAE1F008E4E7D6	source_surface_only_no_case		verify-public-algorithm-register-fields task	/srv/tyche/atlas/tyche-thesis-atlas-factory/preprint-packages/tyche-thesis-atlas-v0.2.3-preprint/analysis/verification/verification-priority-queue-v0.2.md:27	Verification-priority queue row names a task and contains no concrete public source URL.	verification task only; no evidence/source claim	route to human verification planning
++BPSE-01151	LIMEN-SIGNAL-D1FF335B5B04CF1C	source_surface_only_no_case		Nekropolis Paper D submission queue entry	/srv/tyche/gaia/tyche-research-vault/notes/hekate/submission-queue.md:650-658	Submission-status entry names a manuscript and venue, not an original public source URL.	processing-state only; no publication/source claim	keep out of parent-source extraction
++BPSE-01152	LIMEN-SIGNAL-D202B855A4210F0C	source_url_extracted	https://www.bou.or.ug/uploads/Sandbox_Framework_June_2021_c2ba7196f6.pdf	The National Payment Systems Regulatory Sandbox Framework 2021	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_3_SOURCE_REFRESH.csv:281	Source_refresh row explicitly gives the Bank of Uganda sandbox framework PDF URL named by the score-change row.	sectoral payment-systems sandbox source only; not AI-wide sandbox claim	human review sectoral scope before citation
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123004Z-lane11-50596658/parent-source-extraction-summary.md → b/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123004Z-lane11-50596658/parent-source-extraction-summary.md
+@@ -0,0 +1,29 @@
++# Parent source extraction summary
++
++Batch: 20260616T123004Z-lane11-50596658
++Task: bounded parent-source-extraction using local metadata and local source context only.
++
++## Review method
++
++- Reviewed each input.tsv row once.
++- Inspected the cited local line and nearby context.
++- For PALLAS score-delta/profile rows, checked local source_refresh/source-pack rows only when the cited row named a lane/source surface needing URL recovery.
++- Extracted a public URL only when it was explicitly present in local JSON/CSV/Markdown context or a local source_refresh/source-pack pointer.
++- Did not use broad web crawl or external forms.
++
++## Verdict counts
++
++- source_url_extracted: 9
++- parent_source_wrapper: 6
++- country_gap_no_parent_source: 5
++- source_surface_only_no_case: 4
++- duplicate_existing_core: 0
++- reject_noise: 0
++
++## Notes
++
++Extracted URLs are processing-state source pointers only. They do not promote any row into reviewed core, ObscureAI, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking. Rows marked parent_source_wrapper require human choice among multiple local source-pack/source-family candidates or later record-level selection. Rows marked country_gap_no_parent_source are country/profile/gap placeholders with no single extractable parent source at the cited row.
++
++## Verification
++
++The output TSV was written with the required header and one result row for every input queue_id. A machine check was run after writing to verify row count and queue_id set equality.
+  ┊ review diff
+a//srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123004Z-lane11-50596658/parent-source-extraction-summary.md → b//srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123004Z-lane11-50596658/parent-source-extraction-summary.md
+@@ -13,10 +13,10 @@
+ 
+ ## Verdict counts
+ 
+-- source_url_extracted: 9
++- source_url_extracted: 8
+ - parent_source_wrapper: 6
+ - country_gap_no_parent_source: 5
+-- source_surface_only_no_case: 4
++- source_surface_only_no_case: 5
+ - duplicate_existing_core: 0
+ - reject_noise: 0
+ 
+
+session_id: 20260616_143005_7f4294
+Готово.
+
+Записаны файлы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123004Z-lane11-50596658/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123004Z-lane11-50596658/parent-source-extraction-summary.md
+
+Обновлён manifest:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123004Z-lane11-50596658/manifest.json
+
+Проверка пройдена:
+- input rows: 24
+- output rows: 24
+- queue_id set matches input: true
+- duplicate output queue_id: false
+- required header: true
+- manifest status: completed
+
+Verdict counts:
+- source_url_extracted: 8
+- parent_source_wrapper: 6
+- country_gap_no_parent_source: 5
+- source_surface_only_no_case: 5

@@ -1,0 +1,14 @@
+id	status	requirement	evidence_needed_to_close	notes
+R01	DONE	Fix broken tables, captions, figures, headings, and page breaks.	Rendered manuscript PDF and visual scan.	Figures regenerated with larger type, plain-language labels, and simplified dense Figure 4 / Figure 5 wording.
+R02	DONE	Remove hanging lines and overlong strings, especially paths, URLs, hashes, code names, and command lines.	Public manuscript scan and rendered PDF check.	Local paths removed from manuscript body; data availability says archive locator is still pending.
+R03	DONE	Remove local paths, private URLs, and internal workflow names from public-facing text.	Public-safety grep.	Internal package paths removed from the article draft; internal files remain only in workflow artifacts.
+R04	BOUNDED	Verify references are real and support the attached claims.	Public source spot check and source ledger.	Primary public source URLs are already part of the frozen source ledger; no new source retrieval was performed in this polish pass.
+R05	DONE	Explain failed, negative, anomalous, or limited cases plainly.	Negative-results section.	Negative results are now a narrative section, not only a table.
+R06	DONE	Strengthen case examples only where evidence allows.	Claim-ceiling review.	Examples are described by source posture rather than legal or prevalence claims.
+R07	DONE	Introduce abbreviations, technical terms, organizations, and novelty claims gently.	First-use scan.	Public-facing scan found no remaining shorthand such as AI, ID, HR, agency initials, or internal evidence codes in the manuscript or figure text.
+R08	DONE	Rewrite long noun chains and term sequences into human sentences.	Manuscript prose pass.	The paper now opens with a reader-facing story and has a motivation/action arc.
+R09	DONE	Remove self-reference, process leakage, and decorative internal notes.	Public manuscript scan.	References to local directories, Route A, boost shards, and system labels were removed from public-facing prose.
+R10	BOUNDED	Align with venue/style requirements if target is known.	Target venue requirements.	No target venue supplied; polished as a venue-neutral preprint.
+R11	DEFERRED+reason	Stage data/code/archive/deposit material only if requested and safe.	Deposit location.	No deposit or public upload was requested.
+R12	BOUNDED	Run second review before final readiness.	Second-coder worksheet.	Second-coder worksheet exists but still requires a real human second coder.
+R13	DONE	Translate SIGIL acronym or remove it from public text.	Project-text grep.	No public manuscript or figure text contains SIGIL; no expansion was invented.

@@ -1,0 +1,87 @@
+{
+  "package_id": "limen-route-a-accelerated-submission-20260607",
+  "source_snapshot": "results/paper-snapshot-20260607",
+  "mode": "paper_factory",
+  "denominator_policy": "locked_21_lineage_freeze",
+  "created_date": "2026-06-07",
+  "manuscript": {
+    "markdown": "manuscript/limen-route-a-manuscript-draft.md",
+    "pdf": "manuscript/limen-route-a-manuscript-draft.pdf",
+    "polished_markdown": "manuscript/limen-route-a-manuscript-polished.md",
+    "polished_pdf": "manuscript/limen-route-a-manuscript-polished.pdf",
+    "preprint_markdown": "manuscript/limen-preprint.md",
+    "preprint_pdf": "manuscript/limen-preprint.pdf"
+  },
+  "figures": [
+    "figures/figure1-observatory-scale-map.svg",
+    "figures/figure1-observatory-scale-map.png",
+    "figures/figure2-source-family-observability-map.svg",
+    "figures/figure2-source-family-observability-map.png",
+    "figures/figure3-evidence-tier-funnel.svg",
+    "figures/figure3-evidence-tier-funnel.png",
+    "figures/figure4-duplicate-collision-graph.svg",
+    "figures/figure4-duplicate-collision-graph.png",
+    "figures/figure5-taxonomy-heatmap.svg",
+    "figures/figure5-taxonomy-heatmap.png",
+    "figures/figure6-source-depth-ladder.svg",
+    "figures/figure6-source-depth-ladder.png",
+    "figures/preprint-figure1-evidence-gradient.svg",
+    "figures/preprint-figure1-evidence-gradient.png",
+    "figures/preprint-figure2-register-scarcity.svg",
+    "figures/preprint-figure2-register-scarcity.png",
+    "figures/preprint-figure3-lifecycle-infrastructure-contrast.svg",
+    "figures/preprint-figure3-lifecycle-infrastructure-contrast.png",
+    "figures/preprint-figure4-comparator-cohort.svg",
+    "figures/preprint-figure4-comparator-cohort.png",
+    "figures/preprint-figure5-workflow-bands.svg",
+    "figures/preprint-figure5-workflow-bands.png",
+    "figures/preprint-figure6-bridge-stress-test.svg",
+    "figures/preprint-figure6-bridge-stress-test.png"
+  ],
+  "preprint_rebuild": {
+    "figure_generator": "figures/generate_preprint_figures.py",
+    "atlas_claim_support": "exports/atlas-claim-support-v0.1.tsv",
+    "structure": [
+      "Introduction: evidence-infrastructure problem",
+      "Data: world matrix, source pack, four-bin ledger, workflow bands, bridge snapshot",
+      "Methods: ten indicators, confidence tags, source-family bins, workflow promotion gates",
+      "Results: evidence-gradient, register scarcity, lifecycle-infrastructure contrast, comparator cohort, workflow bands, bridge stress-test"
+    ],
+    "layout_review": "passed rendered-page review for table cohesion, figure readability, caption placement, heading placement, and widow/orphan behavior",
+    "phrase_scan": "passed for banned phrases, old evidence-tier codes, bare artificial-intelligence acronym, and requested acronym residues"
+  },
+  "archive_package": {
+    "directory": "archive/limen-preprint-package-20260607T195851Z",
+    "tarball": "archive/limen-preprint-package-20260607T195851Z.tar.gz",
+    "contents": [
+      "manuscript",
+      "figures",
+      "source-tables",
+      "dashboard",
+      "audit",
+      "metadata"
+    ]
+  },
+  "audit_packet": {
+    "instructions": "audit/second-coder-instructions.md",
+    "worksheet": "audit/second-coder-worksheet.tsv",
+    "first_coder_answer_key": "audit/first-coder-answer-key.tsv",
+    "adjudication_template": "audit/adjudication-template.tsv",
+    "raw_agreement_script": "audit/compute_raw_agreement.py"
+  },
+  "dashboard_handoff": "dashboard/dashboard-refresh-handoff.md",
+  "submission_checklist": "submission/48h-paper-factory-checklist.tsv",
+  "final_polish": {
+    "checklist": "polish/final-polish-checklist.tsv",
+    "transcript": "polish/final-polish-transcript.md",
+    "public_facing_scan": "passed for manuscript markdown, rendered PDF text, and figure SVG text"
+  },
+  "claim_boundary": [
+    "No new discovery for this draft.",
+    "No legal conclusions.",
+    "No prevalence claims.",
+    "No compliance or certification claims.",
+    "No access-control bypass.",
+    "Reliability requires a real second-coder worksheet, not the internal dry-run."
+  ]
+}

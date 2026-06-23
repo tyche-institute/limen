@@ -1,0 +1,105 @@
+  ┊ review diff
+a//tmp/write_case_extraction.py → b//tmp/write_case_extraction.py
+@@ -1,191 +1,124 @@
+-import csv, json
++import csv, json, io
+ from pathlib import Path
+ from datetime import datetime, timezone
++base=Path('/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane14-ae57c955')
++inp=base/'input.tsv'
++out=base/'case-extraction-results.tsv'
++summary=base/'case-extraction-summary.md'
++manifest=base/'manifest.json'
++with inp.open(newline='', encoding='utf-8') as f:
++    rows=list(csv.DictReader(f, delimiter='\t'))
++header=['source_cluster_key','case_extraction_verdict','source_url_or_locator','source_name','source_host','proposed_case_title','proposed_evidence_tier','proposed_limen_categories','source_record_date','jurisdiction','bounded_claim_candidate','claim_ceiling','forbidden_overread','rationale','required_before_reviewed_core','required_before_obscure_ai','next_action']
++# per-row jurisdiction/category refinements only from URL/source metadata
++jur={
++ 'cnie.ma':'Morocco', 'cnil.fr':'France', 'dane.gov.pl':'Poland', 'data.gouv.fr':'France', 'data.gov.bn':'Brunei',
++ 'data.gov.lt':'Lithuania', 'data.norge.no':'Norway', 'datatilsynet.dk':'Denmark', 'dia.gov.cz':'Czechia',
++ 'digdir.no':'Norway', 'digital-strategy.ec.europa.eu':'European Union'
++}
++kind_overrides={
++ 'https://cnil.fr/fr/ia-la-cnil-publie-ses-premieres-recommandations-sur-le-developpement-des-systemes-dintelligence':'AI development recommendations/guidance page',
++ 'https://cnil.fr/en/artificial-intelligence':'AI topic/guidance landing page',
++ 'https://dane.gov.pl/pl':'open data portal landing page',
++ 'https://data.gov.bn/Pages/About.aspx':'open data portal about page',
++ 'https://data.gov.lt':'open data portal landing page',
++ 'https://datatilsynet.dk/regler-og-vejledning/kunstig-intelligens':'AI rules and guidance page',
++ 'https://digdir.no/kunstig-intelligens/apenhet-og-kunstig-intelligens/4581':'AI transparency guidance page',
++ 'https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation':'EUDI Wallet implementation policy/pilot page',
++}
+ 
+-base = Path('/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane01-b0985abd')
+-input_path = base/'input.tsv'
+-out_path = base/'case-extraction-results.tsv'
+-summary_path = base/'case-extraction-summary.md'
+-manifest_path = base/'manifest.json'
++def clean(s):
++    return ' '.join((s or '').replace('\t',' ').replace('\r',' ').replace('\n',' ').split())
+ 
+-header = [
+-'source_cluster_key','case_extraction_verdict','source_url_or_locator','source_name','source_host','proposed_case_title','proposed_evidence_tier','proposed_limen_categories','source_record_date','jurisdiction','bounded_claim_candidate','claim_ceiling','forbidden_overread','rationale','required_before_reviewed_core','required_before_obscure_ai','next_action'
+-]
+-
+-with input_path.open(newline='', encoding='utf-8') as f:
+-    rows = list(csv.DictReader(f, delimiter='\t'))
+-
+-# Deterministic extraction decisions, one per source_cluster_key, using input metadata plus exact local lineage hits.
+-def clean(s):
+-    if s is None:
+-        return ''
+-    return ' '.join(str(s).replace('\t',' ').replace('\r',' ').replace('\n',' ').split())
+-
+-records = {}
+-
+-def add(key, verdict, title, tier, cats, date, juris, bounded, ceiling, forbidden, rationale, before_core, before_obscure, next_action):
+-    records[key] = {
+-        'case_extraction_verdict': verdict,
+-        'proposed_case_title': title,
+-        'proposed_evidence_tier': tier,
+-        'proposed_limen_categories': cats,
+-        'source_record_date': date,
+-        'jurisdiction': juris,
+-        'bounded_claim_candidate': bounded,
+-        'claim_ceiling': ceiling,
+-        'forbidden_overread': forbidden,
+-        'rationale': rationale,
+-        'required_before_reviewed_core': before_core,
+-        'required_before_obscure_ai': before_obscure,
+-        'next_action': next_action,
+-    }
+-
+-add('https://corteconstitucional.gov.co/relatoria/2024/T-323-24.htm',
+-    'closed_duplicate_existing_core',
+-    'Colombian Constitutional Court T-323/24 PretorIA source surface',
+-    'P1_official_or_regulator_review',
+-    'justice_sector_ai_governance; automated_decision_support',
+-    '2024', 'Colombia',
+-    'Official court URL is an exact reviewed-core duplicate for a PretorIA/T-323 court-AI source surface.',
+-    'Lineage/dedupe evidence only; no new legal holding or incident claim.',
+-    'Do not infer due-process violation, legality, deployment status, safety finding, prevalence, or ranking.',
+… omitted 231 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260617_005506_d290f6
+Готово.
+
+Созданы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane14-ae57c955/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane14-ae57c955/case-extraction-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane14-ae57c955/manifest.json
+
+Проверка:
+- input rows: 16
+- output rows: 16
+- unique input source_cluster_key: 16
+- unique output source_cluster_key: 16
+- key-set equality: PASS
+- duplicate output keys: none
+
+Итог verdict counts:
+- closed_noncase_source_surface: 16
+
+Никаких reviewed-core promotion / ObscureAI addition / public actions не выполнялось.

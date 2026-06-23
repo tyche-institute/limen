@@ -1,0 +1,5 @@
+{"lane_id": "lane1", "task": "named-url-extraction", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T111209Z-lane1-54e3423a", "status": "allocated"}
+{"lane_id": "lane1", "task": "named-url-extraction", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T111209Z-lane1-54e3423a", "status": "complete", "verdict_counts": {"url_extracted": 15}}
+{"lane_id": "lane1", "task": "named-url-extraction", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T111714Z-lane1-56e984c3", "status": "allocated"}
+{"lane_id": "lane1", "task": "named-url-extraction", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T111714Z-lane1-56e984c3", "status": "complete", "verdict_counts": {"url_extracted": 15}}
+{"lane_id": "lane1", "task": "named-url-extraction", "status": "empty", "timestamp": "2026-06-16T11:27:15Z"}

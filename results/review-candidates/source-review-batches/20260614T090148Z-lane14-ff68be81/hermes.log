@@ -1,0 +1,25 @@
+
+session_id: 20260614_110149_0c6f34
+Готово.
+
+Файлы записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090148Z-lane14-ff68be81/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090148Z-lane14-ff68be81/source-review-summary.md
+
+Манифест обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090148Z-lane14-ff68be81/manifest.json
+
+Проверка:
+- обработано 100/100 строк ровно по одному разу
+- signal_id set совпадает между input и results
+- число строк совпадает
+
+Итоги по verdict:
+- source_reviewed_candidate: 12
+- merge_existing_surface: 26
+- negative_evidence_candidate: 30
+- needs_named_source_extraction: 5
+- translation_review_needed: 3
+- reject_noise: 24
+
+Самый явный следующий hardening move уже зафиксирован в summary: предедуплицировать NL-ALG-REG и CA-AI-REG до лизинга батчей.

@@ -1,0 +1,61 @@
+{"source_family": "local structured legal knowledge", "jurisdiction": "European Union", "language": "English", "count": 1, "source_ids": ["LIMEN-S-001"]}
+{"source_family": "local seed ledger with external URL", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-002"]}
+{"source_family": "public standards/specification website", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-003"]}
+{"source_family": "public technical specification", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-004"]}
+{"source_family": "local analytical draft", "jurisdiction": "EU/global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-005"]}
+{"source_family": "public vulnerability record", "jurisdiction": "Global", "language": "English", "count": 9, "source_ids": ["LIMEN-S-006", "LIMEN-S-007", "LIMEN-S-008", "LIMEN-S-009", "LIMEN-S-010", "LIMEN-S-032", "LIMEN-S-036", "LIMEN-S-041", "LIMEN-S-051"]}
+{"source_family": "public legal text", "jurisdiction": "European Union", "language": "English", "count": 1, "source_ids": ["LIMEN-S-011"]}
+{"source_family": "public vendor/platform security advisory API", "jurisdiction": "Global", "language": "English", "count": 7, "source_ids": ["LIMEN-S-012", "LIMEN-S-013", "LIMEN-S-019", "LIMEN-S-021", "LIMEN-S-042", "LIMEN-S-045", "LIMEN-S-071"]}
+{"source_family": "public vendor repository issue API", "jurisdiction": "Global", "language": "English", "count": 3, "source_ids": ["LIMEN-S-014", "LIMEN-S-024", "LIMEN-S-057"]}
+{"source_family": "public coordination-center vulnerability API", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-015"]}
+{"source_family": "public state attorney general press release mirror", "jurisdiction": "United States / Pennsylvania / multistate", "language": "English", "count": 1, "source_ids": ["LIMEN-S-016"]}
+{"source_family": "public state attorney general document", "jurisdiction": "United States / multistate", "language": "English", "count": 1, "source_ids": ["LIMEN-S-017"]}
+{"source_family": "public federal agency press release", "jurisdiction": "United States", "language": "English", "count": 1, "source_ids": ["LIMEN-S-018"]}
+{"source_family": "public vendor release-note API", "jurisdiction": "Global", "language": "English", "count": 2, "source_ids": ["LIMEN-S-020", "LIMEN-S-025"]}
+{"source_family": "public federal regulator press release", "jurisdiction": "United States", "language": "English", "count": 1, "source_ids": ["SRC-SEC-2024-36"]}
+{"source_family": "public federal regulator administrative order", "jurisdiction": "United States", "language": "English", "count": 2, "source_ids": ["SRC-SEC-IA-6573", "SRC-SEC-IA-6574"]}
+{"source_family": "public federal enforcement press release", "jurisdiction": "United States", "language": "English", "count": 1, "source_ids": ["LIMEN-S-022"]}
+{"source_family": "public federal court/enforcement document", "jurisdiction": "United States", "language": "English", "count": 1, "source_ids": ["LIMEN-S-023"]}
+{"source_family": "public vendor repository tags API", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-026"]}
+{"source_family": "public broadcaster news article", "jurisdiction": "Finland", "language": "Finnish", "count": 1, "source_ids": ["LIMEN-S-027"]}
+{"source_family": "public federal regulator document", "jurisdiction": "United States", "language": "English", "count": 1, "source_ids": ["LIMEN-S-028"]}
+{"source_family": "public federal regulator enforcement document", "jurisdiction": "United States", "language": "English", "count": 1, "source_ids": ["LIMEN-S-029"]}
+{"source_family": "public standards/governance framework", "jurisdiction": "United States / global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-030"]}
+{"source_family": "public intergovernmental policy standard page", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-031"]}
+{"source_family": "public independent-lab security advisory", "jurisdiction": "Global", "language": "English", "count": 2, "source_ids": ["LIMEN-S-033", "LIMEN-S-037"]}
+{"source_family": "public national police news article", "jurisdiction": "Finland", "language": "Finnish", "count": 1, "source_ids": ["LIMEN-S-034"]}
+{"source_family": "public justice ministry article", "jurisdiction": "Finland", "language": "Finnish", "count": 1, "source_ids": ["LIMEN-S-035"]}
+{"source_family": "public judicial portal search API", "jurisdiction": "Finland", "language": "Finnish", "count": 1, "source_ids": ["LIMEN-S-038"]}
+{"source_family": "public court search page", "jurisdiction": "Finland", "language": "Finnish", "count": 1, "source_ids": ["LIMEN-S-039"]}
+{"source_family": "public intergovernmental ethics/governance framework", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-040"]}
+{"source_family": "public national police project page", "jurisdiction": "Slovenia", "language": "Slovenian", "count": 1, "source_ids": ["LIMEN-S-043"]}
+{"source_family": "public regional news article", "jurisdiction": "Slovenia", "language": "Slovenian", "count": 1, "source_ids": ["LIMEN-S-044"]}
+{"source_family": "public federal regulator disposition order", "jurisdiction": "United States", "language": "English", "count": 1, "source_ids": ["LIMEN-S-046"]}
+{"source_family": "public federal agency release", "jurisdiction": "United States", "language": "English", "count": 1, "source_ids": ["LIMEN-S-047"]}
+{"source_family": "public official standards overview page", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-048"]}
+{"source_family": "public scholarly preprint", "jurisdiction": "Global", "language": "English", "count": 10, "source_ids": ["LIMEN-S-049", "LIMEN-S-050", "LIMEN-S-053", "LIMEN-S-054", "LIMEN-S-063", "LIMEN-S-064", "LIMEN-S-065", "LIMEN-S-081", "LIMEN-S-083", "LIMEN-S-100"]}
+{"source_family": "public vendor release note", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-052"]}
+{"source_family": "public vendor repository timeline API", "jurisdiction": "Global", "language": "English", "count": 2, "source_ids": ["LIMEN-S-055", "LIMEN-S-058"]}
+{"source_family": "public vendor repository pull-request API", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-056"]}
+{"source_family": "public scholarly metadata API", "jurisdiction": "Global", "language": "English", "count": 7, "source_ids": ["LIMEN-S-059", "LIMEN-S-060", "LIMEN-S-061", "LIMEN-S-062", "LIMEN-S-087", "LIMEN-S-091", "LIMEN-S-094"]}
+{"source_family": "public scholarly preprint metadata", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-066"]}
+{"source_family": "public scholarly metadata for published journal article", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-067"]}
+{"source_family": "public regional news article shell with bounded visible excerpt", "jurisdiction": "Finland", "language": "Finnish", "count": 1, "source_ids": ["LIMEN-S-068"]}
+{"source_family": "Google News-discovered news lead", "jurisdiction": "Lithuania", "language": "Lithuanian", "count": 1, "source_ids": ["LIMEN-S-069"]}
+{"source_family": "Google News-discovered news lead", "jurisdiction": "Estonia", "language": "Estonian", "count": 1, "source_ids": ["LIMEN-S-070"]}
+{"source_family": "public AVID incident report JSON", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-072"]}
+{"source_family": "public vendor release metadata API", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-073"]}
+{"source_family": "public vulnerability-record API", "jurisdiction": "Global", "language": "English", "count": 4, "source_ids": ["LIMEN-S-074", "LIMEN-S-075", "LIMEN-S-077", "LIMEN-S-090"]}
+{"source_family": "public social post", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-080"]}
+{"source_family": "public archived platform page", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-082"]}
+{"source_family": "public archival metadata API", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-084"]}
+{"source_family": "public advisory-database page", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-076"]}
+{"source_family": "public archived publisher page", "jurisdiction": "Global", "language": "English", "count": 2, "source_ids": ["LIMEN-S-085", "LIMEN-S-086"]}
+{"source_family": "public bibliographic metadata API", "jurisdiction": "Global", "language": "English", "count": 3, "source_ids": ["LIMEN-S-088", "LIMEN-S-092", "LIMEN-S-093"]}
+{"source_family": "public platform security advisory API", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-089"]}
+{"source_family": "public vendor pull-request API", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-095"]}
+{"source_family": "public vendor release/tag metadata API", "jurisdiction": "Global", "language": "English", "count": 1, "source_ids": ["LIMEN-S-096"]}
+{"source_family": "public legal database search interface", "jurisdiction": "Finland", "language": "Finnish", "count": 1, "source_ids": ["LIMEN-S-097"]}
+{"source_family": "public parliamentary ombudsman search interface", "jurisdiction": "Finland", "language": "Finnish", "count": 1, "source_ids": ["LIMEN-S-098"]}
+{"source_family": "public ministry search interface", "jurisdiction": "Finland", "language": "Finnish", "count": 1, "source_ids": ["LIMEN-S-099"]}
+{"source_family": "public Slovenian procurement search interface", "jurisdiction": "Slovenia", "language": "Slovenian", "count": 1, "source_ids": ["LIMEN-S-101"]}

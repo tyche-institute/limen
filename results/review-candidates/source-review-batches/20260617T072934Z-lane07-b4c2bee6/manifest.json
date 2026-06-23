@@ -1,0 +1,47 @@
+{
+  "batch_id": "20260617T072934Z-lane07-b4c2bee6",
+  "batch_size": 160,
+  "completed_at_utc": "2026-06-17T07:32:05Z",
+  "created_at_utc": "2026-06-17T07:29:34Z",
+  "details": {
+    "boundary": "local metadata and local source files only; source-surface triage only; no public/portal actions",
+    "verification": "passed: output header exact; output data row count equals input row count; signal_id set and uniqueness match; verdict values allowed; raw output rows contain six tab separators each"
+  },
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072934Z-lane07-b4c2bee6/source-review-input.tsv",
+  "input_rows": 160,
+  "lane_id": "lane07",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072934Z-lane07-b4c2bee6/source-review-results.tsv",
+  "output_rows": 160,
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-drain-targets/20260617T072933Z-direct-source-review-queue.tsv",
+  "queue_rows": 17916,
+  "remaining_unleased_at_allocation": 1189,
+  "source_review_verdict_counts": {
+    "merge_existing_surface": 115,
+    "needs_named_source_extraction": 13,
+    "negative_evidence_candidate": 27,
+    "source_reviewed_candidate": 3,
+    "translation_review_needed": 2
+  },
+  "started_at_utc": "2026-06-17T07:29:34Z",
+  "status": "complete",
+  "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072934Z-lane07-b4c2bee6/source-review-summary.md",
+  "updated_at_utc": "2026-06-17T07:32:05Z",
+  "verdict_counts": {
+    "merge_existing_surface": 115,
+    "needs_named_source_extraction": 13,
+    "negative_evidence_candidate": 27,
+    "source_reviewed_candidate": 3,
+    "translation_review_needed": 2
+  },
+  "verification": {
+    "all_verdicts_allowed": true,
+    "header_exact": true,
+    "input_rows": 160,
+    "input_unique_signal_ids": true,
+    "output_rows": 160,
+    "output_unique_signal_ids": true,
+    "raw_tab_field_count_ok": true,
+    "same_signal_id_set": true
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-SHARED-BUNDLE-0004",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-07T22:50:23Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-receipt-profile-shared-bundle-refresh-20260607T225023Z",
+  "action": "published",
+  "subject_ref": {
+    "kind": "artifact",
+    "id": "limen-shared-attestation-release-bundle-v0.4",
+    "path_or_uri": "results/attestation/shared-release-bundle-manifest-v0.4.tsv",
+    "title": "Refreshed local shared release bundle manifest for LIMEN attestation/provenance package after post-v0.3 shared-surface drift",
+    "version": "2026-06-07T22:50:23Z"
+  },
+  "inputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "attestation/limen-envelope-profile-v0.1.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:ab6452e7dbe03fb541453392bc8125f56eebf200d86e371330cf4d16179f1db7"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "schema/limen-envelope.schema.json",
+      "media_type": "application/json",
+      "captured_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:c2f3cae1d57292bd85a29b37ab3feb3a84f98be501e1deb1f0733261465ef887"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/status.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:d0f28945c66a1f8dc0a4a07415a2ac08aaa1ad00fc8c6ab997d97a1fdd47c5ab"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/limen-attestation-role-crosswalk-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "captured_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:817ef4b9218ae38daa39d31024d09f1a6178f088b90e6ae336d86c28f05e3e3e"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/external-trust-readiness-matrix-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "captured_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:1c7f090294019fa0d6c39f7db877e4d12b8a7f5d0b361745f5cd63dcd34e9a60"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "dashboard/limen-dashboard-spec-v0.1.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:2e8d3ca85df2bc9579a4b2f0f31b766114f23eb607559bddc745c776b33c10e9"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "papers/article-architecture-v0.1.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:2672f12c2b32fef0cc3ceb13b81e076f1f1471b9b684e0614edd52a7816c8912"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "draft/preprint.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:c7fe006a962a37ce6b66346c5a97e4b0770acb8ac2c0772eded28f519579151b"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/shared-release-bundle-manifest-v0.4.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:0030a49e082f0b2432f73d12cfa47c98b073ef1f9aa74014541af7c191547163",
+      "emitted_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/shared-release-bundle-refresh-audit-v0.4.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:d45cc2d96ee9f35e3d25854935cc0946eeed1c0e7fedbbc417ade2ada426862c",
+      "emitted_at": "2026-06-07T22:50:23Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "A1",
+      "assertion_type": "artifact_derivation",
+      "statement": "A refreshed local shared bundle manifest was generated to bind the current LIMEN attestation profile, schema, status, and shared consumer surfaces to exact file hashes after post-v0.3 drift was observed.",
+      "value": {
+        "bundle_member_count": 8,
+        "bundle_manifest_path": "results/attestation/shared-release-bundle-manifest-v0.4.tsv",
+        "refreshed_from": "results/attestation/shared-release-bundle-manifest-v0.3.tsv",
+        "shared_consumer_surfaces": [
+          "article_architecture",
+          "attestation_methods_note",
+          "dashboard",
+          "preprint"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "supporting_output_refs": [
+        0,
+        1
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A2",
+      "assertion_type": "review_decision",
+      "statement": "This refreshed bundle restores a truthful current local publication object for Route C after additional shared-surface edits while keeping the trust posture at project-shared local bundle only.",
+      "value": {
+        "shared_release_state": "project_shared_local_bundle",
+        "external_witness_present": false,
+        "hash_changed_member_count_vs_v0_3": 5,
+        "unchanged_member_count_vs_v0_3": 3
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "supporting_output_refs": [
+        0,
+        1
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A3",
+      "assertion_type": "uncertainty_note",
+      "statement": "The refreshed bundle attests only that these local artifacts were grouped and hashed together at a stated time; it does not prove truth of incidents, legal validity, compliance, certification, safety, detached signature verification, transparency-log inclusion, VC issuance, or completeness beyond the listed files.",
+      "value": {
+        "excluded_claims": [
+          "truth",
+          "legality",
+          "compliance",
+          "certification",
+          "safety",
+          "completeness"
+        ],
+        "additional_absent_trust_surfaces": [
+          "detached_signature",
+          "transparency_receipt",
+          "vc_issuance"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "supporting_output_refs": [
+        0,
+        1
+      ],
+      "review_needed": false
+    }
+  ],
+  "schema_refs": [
+    "urn:tyche:limen:envelope:0.1"
+  ],
+  "tooling": {
+    "tool_manifest_hash": "sha256:c2f3cae1d57292bd85a29b37ab3feb3a84f98be501e1deb1f0733261465ef887",
+    "model_name": "python3-stdlib+jsonschema+sha256sum",
+    "provider": "local_execution",
+    "schema_version": "0.1"
+  },
+  "review_status": "lane_checked",
+  "review_notes": [
+    "This receipt attests one refreshed project-level local bundle manifest only.",
+    "The refresh closes the post-v0.3 currentness gap by hashing the current profile, schema, status, dashboard, article-architecture, preprint, and attestation support tables again.",
+    "No detached signature, VC issuance, transparency inclusion proof, trust anchor, truth, legality, compliance, or certification claim is made."
+  ],
+  "dashboard_hooks": [
+    "attestation_timeline"
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ]
+}

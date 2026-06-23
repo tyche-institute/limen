@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="880" viewBox="0 0 1700 880">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111111}
+.title{font-size:58px;font-weight:700}
+.subtitle{font-size:34px;fill:#4b5563}
+.head{font-size:36px;font-weight:700}
+.label{font-size:32px}
+.small{font-size:28px;fill:#4b5563}
+.tiny{font-size:24px;fill:#4b5563}
+.num{font-size:52px;font-weight:700}
+.huge{font-size:78px;font-weight:700}
+</style>
+</defs>
+<rect width="1700" height="880" fill="#ffffff"/>
+<text x="70" y="82" class="title">Workflow infrastructure versus event evidence</text>
+<text x="70" y="132" class="subtitle">Process receipts and event claims are separate axes.</text>
+<text x="150" y="205" class="head" text-anchor="start">Workflow receipts</text>
+<text x="1010" y="205" class="head" text-anchor="start">Evidence controls</text>
+<line x1="110" y1="235" x2="735" y2="235" stroke="#111111" stroke-width="4"/>
+<line x1="970" y1="235" x2="1545" y2="235" stroke="#111111" stroke-width="4"/>
+<circle cx="160" cy="300" r="15" fill="#174a7c"/>
+<text x="205" y="310" class="label" text-anchor="start">Observed</text>
+<line x1="160" y1="318" x2="160" y2="355" stroke="#b8c0cc" stroke-width="3"/>
+<circle cx="160" cy="376" r="15" fill="#174a7c"/>
+<text x="205" y="386" class="label" text-anchor="start">Extracted</text>
+<line x1="160" y1="394" x2="160" y2="431" stroke="#b8c0cc" stroke-width="3"/>
+<circle cx="160" cy="452" r="15" fill="#174a7c"/>
+<text x="205" y="462" class="label" text-anchor="start">Classified</text>
+<line x1="160" y1="470" x2="160" y2="507" stroke="#b8c0cc" stroke-width="3"/>
+<circle cx="160" cy="528" r="15" fill="#174a7c"/>
+<text x="205" y="538" class="label" text-anchor="start">Reviewed</text>
+<line x1="160" y1="546" x2="160" y2="583" stroke="#b8c0cc" stroke-width="3"/>
+<circle cx="160" cy="604" r="15" fill="#174a7c"/>
+<text x="205" y="614" class="label" text-anchor="start">Clustered</text>
+<line x1="160" y1="622" x2="160" y2="659" stroke="#b8c0cc" stroke-width="3"/>
+<circle cx="160" cy="680" r="15" fill="#174a7c"/>
+<text x="205" y="690" class="label" text-anchor="start">Published</text>
+<line x1="160" y1="698" x2="160" y2="735" stroke="#b8c0cc" stroke-width="3"/>
+<circle cx="160" cy="756" r="15" fill="#174a7c"/>
+<text x="205" y="766" class="label" text-anchor="start">Superseded</text>
+<rect x="990" y="272" width="500" height="56" rx="0" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="1018" y="309" class="label" text-anchor="start">Source depth</text>
+<rect x="990" y="368" width="500" height="56" rx="0" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="1018" y="405" class="label" text-anchor="start">Access state</text>
+<rect x="990" y="464" width="500" height="56" rx="0" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="1018" y="501" class="label" text-anchor="start">Language state</text>
+<rect x="990" y="560" width="500" height="56" rx="0" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="1018" y="597" class="label" text-anchor="start">Duplicate state</text>
+<rect x="990" y="656" width="500" height="56" rx="0" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="1018" y="693" class="label" text-anchor="start">Claim limit</text>
+<text x="150" y="820" class="small" text-anchor="start">Complete workflow records improve auditability.</text>
+<text x="970" y="820" class="small" text-anchor="start">They do not upgrade weak public sources.</text>
+</svg>

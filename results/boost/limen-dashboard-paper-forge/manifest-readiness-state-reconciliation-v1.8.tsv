@@ -1,0 +1,7 @@
+field	old_value	new_value	evidence_or_reason	status
+generated_at	2026-06-19T05:14:58Z	2026-06-19T05:56:12Z	Fresh manifest timestamp for v1.8 reconciliation cycle.	PASS
+notes	v1.0 caption-gated renderer preflight converted caption-currentness audit into executable fail-closed UI/API/static expo	v1.8 manifest reconciliation: caption-control blocker resolved; v1.7/v1.8 pre-submit gate passes 9/9 with 0 FAIL and 0 WARN. Claim ceiling unchanged.	PASS
+last_cycle	2026-06-19T01:20:00Z	2026-06-19T05:56:12Z	Align manifest last_cycle with latest dashboard-paper forge artifact.	PASS
+last_cycle_summary	Created v1.3 source-ledger join materialization; all seven dashboard release-card views have explicit provenance join st	Reconciled stale manifest readiness fields after v1.1-v1.7 gates; package remains internally consistent under limen_pre_submit_check.py 9/9.	PASS
+submission_readiness.caption_discipline	blocked_taxonomy_caption_controls_CCR-001_CCR-002	complete_current_denominator_language	CCR-001/CCR-002 blocker was closed in v1.1; current checks pass.	PASS
+submission_readiness.pre_submit_gate	complete_8_of_8_pass_2026-06-18T07:24:22Z	complete_9_of_9_pass_2026-06-19T05:56:12Z	Direct verification: python3 tools/limen_pre_submit_check.py --project-root /srv/tyche/projects/limen-ai-edge-case-atlas returned PASS 9/9, 0 FAIL, 0 WARN.	PASS

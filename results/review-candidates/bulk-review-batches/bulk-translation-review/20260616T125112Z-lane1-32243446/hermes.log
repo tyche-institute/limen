@@ -1,0 +1,22 @@
+
+session_id: 20260616_145112_bf60ff
+Готово.
+
+Созданы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T125112Z-lane1-32243446/bulk-translation-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T125112Z-lane1-32243446/bulk-translation-review-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T125112Z-lane1-32243446/manifest.json
+
+Проверка пройдена:
+- header exact: true
+- input rows: 16
+- output rows: 16
+- queue_id set match: true
+- duplicates: none
+- missing: none
+- extra: none
+- bad verdicts: none
+- malformed TSV field counts: none
+- manifest status: completed

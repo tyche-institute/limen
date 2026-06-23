@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1180" viewBox="0 0 1800 1180">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.title{font-size:46px;font-weight:700}
+.subtitle{font-size:28px;fill:#526071}
+.section{font-size:29px;font-weight:700}
+.label{font-size:27px}
+.small{font-size:22px;fill:#526071}
+.tiny{font-size:18px;fill:#526071}
+.number{font-size:40px;font-weight:700}
+</style>
+</defs>
+<rect width="1800" height="1180" fill="#ffffff"/>
+<text x="60" y="70" class="title">Figure 2. What kind of public evidence is visible?</text>
+<text x="60" y="108" class="subtitle">The paper separates the main set from extra anchors instead of mixing everything into one count.</text>
+<text x="60" y="180" class="section">Main paper set</text>
+<text x="80" y="266" class="label">Regulators and enforcement agencies</text>
+<rect x="650" y="235" width="800" height="36" rx="8" fill="#edf1f7"/>
+<rect x="650" y="235" width="600" height="36" rx="8" fill="#2166ac"/>
+<text x="1272" y="265" class="number">6</text>
+<text x="80" y="348" class="label">Courts and tribunal records</text>
+<rect x="650" y="317" width="800" height="36" rx="8" fill="#edf1f7"/>
+<rect x="650" y="317" width="100" height="36" rx="8" fill="#087f8c"/>
+<text x="772" y="347" class="number">1</text>
+<text x="80" y="430" class="label">Security advisories and research</text>
+<rect x="650" y="399" width="800" height="36" rx="8" fill="#edf1f7"/>
+<rect x="650" y="399" width="800" height="36" rx="8" fill="#c97700"/>
+<text x="1472" y="429" class="number">8</text>
+<text x="80" y="512" class="label">Local-language news and investigations</text>
+<rect x="650" y="481" width="800" height="36" rx="8" fill="#edf1f7"/>
+<rect x="650" y="481" width="500" height="36" rx="8" fill="#6b4cb4"/>
+<text x="1172" y="511" class="number">5</text>
+<text x="80" y="594" class="label">Public-sector registers and procurement</text>
+<rect x="650" y="563" width="800" height="36" rx="8" fill="#edf1f7"/>
+<rect x="650" y="563" width="100" height="36" rx="8" fill="#188b5b"/>
+<text x="772" y="593" class="number">1</text>
+<text x="60" y="725" class="section">Extra anchors kept outside the main count</text>
+<text x="80" y="811" class="label">Research-integrity and publisher notices</text>
+<rect x="650" y="780" width="800" height="36" rx="8" fill="#edf1f7"/>
+<rect x="650" y="780" width="200" height="36" rx="8" fill="#667085"/>
+<text x="872" y="810" class="number">2</text>
+<text x="80" y="893" class="label">Regulators and enforcement agencies</text>
+<rect x="650" y="862" width="800" height="36" rx="8" fill="#edf1f7"/>
+<rect x="650" y="862" width="400" height="36" rx="8" fill="#667085"/>
+<text x="1072" y="892" class="number">4</text>
+<text x="80" y="975" class="label">Public-sector registers and procurement</text>
+<rect x="650" y="944" width="800" height="36" rx="8" fill="#edf1f7"/>
+<rect x="650" y="944" width="100" height="36" rx="8" fill="#667085"/>
+<text x="772" y="974" class="number">1</text>
+<text x="60" y="1110" class="tiny">Read this as a map of observability, not a map of how often artificial intelligence failures happen.</text>
+</svg>

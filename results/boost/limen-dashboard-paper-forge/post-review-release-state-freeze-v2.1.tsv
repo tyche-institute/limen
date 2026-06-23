@@ -1,0 +1,7 @@
+gate_id	surface	state	evidence	claim_ceiling	next_action
+PRSF-001	STOP safety	PASS	No /srv/tyche/STOP or project STOP existed at cycle start; lane STOP not used for this running cycle.	Operational safety only; no empirical/legal/public-release claim.	Continue harvest mode only.
+PRSF-002	Pre-submit gate rerun	PASS		Internal package consistency only; no completeness/prevalence/legal/safety claim.	Rerun after any edit.
+PRSF-003	Caption-currentness rerun	PASS	2 passed in 0.00s	Caption denominator currentness only.	Rerun after caption/dashboard/manuscript edit.
+PRSF-004	Manifest syntax rerun	PASS	python3 -m json.tool manifest.json exit 0	Metadata parseability only.	Keep manifest updated with future artifacts.
+PRSF-005	External-action boundary	BLOCKED_BY_POLICY	No Zenodo deposit, F1000Research upload, portal form, email, publication, or contact performed.	Only Anton may decide external release/submission actions.	Human review/release decision.
+PRSF-006	Dashboard observatory hook	READY	This TSV can feed package_health/release_state_freeze with gate_id, surface, state, evidence, claim_ceiling, next_action.	Readiness gate visualization, not empirical count visualization.	Bind panel to current artifact if UI is edited.

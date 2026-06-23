@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1450" viewBox="0 0 1700 1450">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.title{font-size:46px;font-weight:700}
+.subtitle{font-size:28px;fill:#526071}
+.section{font-size:29px;font-weight:700}
+.label{font-size:27px}
+.small{font-size:22px;fill:#526071}
+.tiny{font-size:18px;fill:#526071}
+.number{font-size:40px;font-weight:700}
+</style>
+</defs>
+<rect width="1700" height="1450" fill="#ffffff"/>
+<text x="60" y="70" class="title">Figure 5. What kinds of cases are easy or hard to see?</text>
+<text x="60" y="108" class="subtitle">The heatmap shows support and gaps; it does not rank harm or legality.</text>
+<text x="60" y="155" class="small">Topic area</text>
+<text x="570" y="155" class="small">Visible case threads</text>
+<text x="1230" y="155" class="small">Public-evidence state</text>
+<text x="60" y="205" class="label">Security risk</text>
+<rect x="570" y="180" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="180" width="420" height="36" rx="8" fill="#188b5b"/>
+<text x="1010" y="212" class="number">9</text>
+<text x="1030" y="211" class="small">8 official</text>
+<text x="1230" y="204" class="small">authoritatively seeded</text>
+<text x="60" y="283" class="label">Agentic control failure</text>
+<rect x="570" y="258" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="258" width="420" height="36" rx="8" fill="#188b5b"/>
+<text x="1010" y="290" class="number">9</text>
+<text x="1030" y="289" class="small">8 official</text>
+<text x="1230" y="282" class="small">authoritatively seeded</text>
+<text x="60" y="361" class="label">Public-sector misuse or evidence</text>
+<text x="60" y="387" class="label">gap</text>
+<rect x="570" y="336" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="336" width="326" height="36" rx="8" fill="#188b5b"/>
+<text x="916" y="368" class="number">7</text>
+<text x="1030" y="367" class="small">4 official</text>
+<text x="1230" y="360" class="small">authoritatively seeded</text>
+<text x="60" y="439" class="label">Unlawful or allegedly unlawful use</text>
+<rect x="570" y="414" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="414" width="233" height="36" rx="8" fill="#188b5b"/>
+<text x="823" y="446" class="number">5</text>
+<text x="1030" y="445" class="small">3 official</text>
+<text x="1230" y="438" class="small">authoritatively seeded</text>
+<text x="60" y="517" class="label">Normative or moral outlier</text>
+<rect x="570" y="492" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="492" width="233" height="36" rx="8" fill="#188b5b"/>
+<text x="823" y="524" class="number">5</text>
+<text x="1030" y="523" class="small">3 official</text>
+<text x="1230" y="516" class="small">authoritatively seeded</text>
+<text x="60" y="595" class="label">Education, workplace, or human</text>
+<text x="60" y="621" class="label">resources</text>
+<rect x="570" y="570" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="570" width="186" height="36" rx="8" fill="#188b5b"/>
+<text x="776" y="602" class="number">4</text>
+<text x="1030" y="601" class="small">3 official</text>
+<text x="1230" y="594" class="small">authoritatively seeded</text>
+<text x="60" y="673" class="label">Artificial intelligence washing or</text>
+<text x="60" y="699" class="label">false claim</text>
+<rect x="570" y="648" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="648" width="186" height="36" rx="8" fill="#188b5b"/>
+<text x="776" y="680" class="number">4</text>
+<text x="1030" y="679" class="small">3 official</text>
+<text x="1230" y="672" class="small">authoritatively seeded</text>
+<text x="60" y="751" class="label">Institutional absurdity</text>
+<rect x="570" y="726" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="726" width="140" height="36" rx="8" fill="#c97700"/>
+<text x="730" y="758" class="number">3</text>
+<text x="1030" y="757" class="small">0 official</text>
+<text x="1230" y="750" class="small">candidate only seeded</text>
+<text x="60" y="829" class="label">Deepfake or synthetic identity</text>
+<rect x="570" y="804" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="804" width="140" height="36" rx="8" fill="#188b5b"/>
+<text x="730" y="836" class="number">3</text>
+<text x="1030" y="835" class="small">1 official</text>
+<text x="1230" y="828" class="small">authoritatively seeded</text>
+<text x="60" y="907" class="label">Surveillance, biometrics, or</text>
+<text x="60" y="933" class="label">policing</text>
+<rect x="570" y="882" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="882" width="140" height="36" rx="8" fill="#188b5b"/>
+<text x="730" y="914" class="number">3</text>
+<text x="1030" y="913" class="small">3 official</text>
+<text x="1230" y="906" class="small">authoritatively seeded</text>
+<text x="60" y="985" class="label">Legal/procedural contamination</text>
+<rect x="570" y="960" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="960" width="93" height="36" rx="8" fill="#188b5b"/>
+<text x="683" y="992" class="number">2</text>
+<text x="1030" y="991" class="small">1 official</text>
+<text x="1230" y="984" class="small">authoritatively seeded</text>
+<text x="60" y="1063" class="label">Finance, insurance, or market</text>
+<rect x="570" y="1038" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="1038" width="93" height="36" rx="8" fill="#188b5b"/>
+<text x="683" y="1070" class="number">2</text>
+<text x="1030" y="1069" class="small">2 official</text>
+<text x="1230" y="1062" class="small">authoritatively seeded</text>
+<text x="60" y="1141" class="label">Health, medical, or mental-health</text>
+<text x="60" y="1167" class="label">misuse</text>
+<rect x="570" y="1116" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="1116" width="0" height="36" rx="8" fill="#c43c39"/>
+<text x="590" y="1148" class="number">0</text>
+<text x="1030" y="1147" class="small">0 official</text>
+<text x="1230" y="1140" class="small">zero seed local gap</text>
+<text x="60" y="1219" class="label">Research integrity</text>
+<rect x="570" y="1194" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="1194" width="0" height="36" rx="8" fill="#c43c39"/>
+<text x="590" y="1226" class="number">0</text>
+<text x="1030" y="1225" class="small">0 official</text>
+<text x="1230" y="1218" class="small">zero seed local gap</text>
+<text x="60" y="1297" class="label">Residual/unclassified</text>
+<rect x="570" y="1272" width="420" height="36" rx="8" fill="#edf1f7"/>
+<rect x="570" y="1272" width="0" height="36" rx="8" fill="#c43c39"/>
+<text x="590" y="1304" class="number">0</text>
+<text x="1030" y="1303" class="small">0 official</text>
+<text x="1230" y="1296" class="small">zero seed local gap</text>
+<text x="60" y="1385" class="tiny">Empty or thin rows are not failures of the paper. They show where public evidence is missing, blocked, translated, or too weak for strong claims.</text>
+</svg>

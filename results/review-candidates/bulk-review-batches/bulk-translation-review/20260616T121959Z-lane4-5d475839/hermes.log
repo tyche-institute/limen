@@ -1,0 +1,102 @@
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T121959Z-lane4-5d475839/bulk-translation-review-results.tsv → b/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T121959Z-lane4-5d475839/bulk-translation-review-results.tsv
+@@ -0,0 +1,17 @@
++queue_id	signal_id	bulk_translation_verdict	language_reviewed	source_url_or_locator	source_name	reason	claim_ceiling	next_action
++BTR-00225	LIMEN-SIGNAL-A57C9EC8F4FDD87B	candidate_for_parent_source_extraction	es	http://www.corteconstitucional.gov.co/relatoria/2024/T-323-24.htm	T-323/24	Local digest identifies an official Colombian Constitutional Court judgment naming PretorIA, but the reviewed evidence remains a translation-mediated digest/paraphrase.	direct source-surface candidate only; no legal, safety, compliance, or incident finding	if used, extract from the original Spanish court source or local snapshot with human translation review
++BTR-00226	LIMEN-SIGNAL-A589BC4F62C41DDE	candidate_for_parent_source_extraction	nl	https://algoritmes.overheid.nl/en/algoritme/mnre1045/83985427/octobox-anonymisation	Octobox Anonymisation	Registry row is explicitly an English auto-translation from Dutch and contains concrete register-record fields for an anonymisation system.	direct register-record surface only; no factual claim beyond local translated row fields	extract against the Dutch original/register record before any stronger use
++BTR-00227	LIMEN-SIGNAL-A5B03EB753ED2ABD	source_surface_only_no_case	de	https://www.digitalaustria.gv.at/themen/kuenstliche-intelligenz/kiverwaltung1.html	KI in der Verwaltung	Official Digital Austria row supports planned KI-Kennzeichnung/KI-Landkarte transparency context, and the local note says it is not yet a public national algorithm register.	source-surface/context only; no algorithm-register or edge-case promotion	retain as adjacent transparency-practice source with no case promotion
++BTR-00228	LIMEN-SIGNAL-A5BE5D11016C199C	cross_project_duplicate	de	https://www.digitalaustria.gv.at/themen/kuenstliche-intelligenz/kiverwaltung1.html	KI in der Verwaltung	Duplicate Digital Austria source surface also reviewed in BTR-00227; this older source-pack row adds only first-pass context and no centralized register.	source-surface/context only; no algorithm-register or edge-case promotion	merge/dedupe under BTR-00227 source review if retained
++BTR-00229	LIMEN-SIGNAL-A6BBA723AC2E1205	cross_project_duplicate	es	http://www.corteconstitucional.gov.co/relatoria/2024/T-323-24.htm	T-323/24 / PretorIA	Duplicate Colombia Constitutional Court/PretorIA digest surface already reviewed in BTR-00225.	direct source-surface candidate only; no legal, safety, compliance, or incident finding	dedupe to BTR-00225 and use original Spanish source extraction if needed
++BTR-00230	LIMEN-SIGNAL-A72A8CBB594D9C95	source_surface_only_no_case	am/unknown	local CSV row: PALLAS_SECOND_PASS_SPRINT_7_HARDENING_SUMMARY.csv:6	Ethiopia hardening summary	Batch summary contains source-improvement/gap notes and explicitly says algorithm-register evidence is not verified and candidate changes need human review.	processing-state/gap context only; no source truth or edge-case claim	do not promote; inspect underlying Ethiopian source leads separately if needed
++BTR-00231	LIMEN-SIGNAL-A7678E7A7B4FFF40	needs_original_language_source	en	https://moitt.gov.pk/Detail/ZWUzMjIyN2UtMWQ3Yi00Y2M1LTgxYTctY2QxMmUzOTdhNjVj	Pakistan Ministry of IT and Telecom AI Policy material	Local JSONL row is an English curated seed with translation_status not-needed, but fetch failed and no local source content was available.	seed/source-locator only; no case-level or source-content claim	obtain local original/source content before substantive review
++BTR-00232	LIMEN-SIGNAL-A81E6C2A97FDD5C6	cross_project_duplicate	es	http://www.corteconstitucional.gov.co/relatoria/2024/T-323-24.htm	T-323/24 / PretorIA	Duplicate Colombia Constitutional Court/PretorIA digest surface already reviewed in BTR-00225; line only adds why-it-matters framing.	direct source-surface candidate only; no legal, safety, compliance, or incident finding	dedupe to BTR-00225 and use original Spanish source extraction if needed
++BTR-00233	LIMEN-SIGNAL-A9061EE943B8A703	source_surface_only_no_case	es	https://guatemala.un.org/es/311127-evaluaci%C3%B3n-de-ia-en-guatemala	Evaluación de IA en Guatemala	Spanish UN/UNDP digest is governance-radar context about AI assessment and sandbox gaps, explicitly not a named-agent deployment.	governance/source-surface context only; no sandbox operation, legality, or edge-case finding	retain as contextual source only or human-review Spanish original for governance radar
++BTR-00234	LIMEN-SIGNAL-A9328989A6C0F2EA	needs_original_language_source	he	local CSV row: PALLAS_OBSERVABILITY_LANE_SOURCE_CANDIDATES.csv:573	Public AI/algorithm register not identified	Local row is a negative/gap note that itself says further Hebrew-language search is needed before any firm conclusion.	gap-search processing note only; no absence finding or ranking	perform Hebrew-language original-source search/review before using as negative evidence
++BTR-00235	LIMEN-SIGNAL-AB7EAFBE84774107	needs_original_language_source	pt	https://www.gov.br/anpd/pt-br/assuntos/projetos-acoes-iniciativas/sandbox/por-que-inteligencia-artificial	ANPD sandbox regulatório: Por que Inteligência Artificial?	Portuguese official-source seed is relevant to an AI sandbox, but local fetch failed and row is marked translation-needed.	source-locator only; no sandbox-operation or legal/policy conclusion	obtain local Portuguese source content and human translation review before extraction
++BTR-00236	LIMEN-SIGNAL-AC005735B19FC013	source_surface_only_no_case	en/el	https://knowledge4policy.ec.europa.eu/sites/default/files/cyprus_ai_strategy.pdf	National Artificial Intelligence Strategy: transparency and traceability language	Local row describes strategy-level transparency/traceability principles and explicitly says it does not evidence a public algorithm register or publication practice.	adjacent strategy context only; no register, implementation, or case claim	retain as weak adjacent context only
++BTR-00237	LIMEN-SIGNAL-AC07D8AD65251FCF	source_surface_only_no_case	no	https://www.digdir.no/kunstig-intelligens/veiledning-ki-i-offentlig-sektor/4132	Veiledning for KI i offentlig sektor	Norwegian Digdir guidance is an official guidance surface, but local row says no territory-specific AI audit-trail requirement was found.	guidance/source-surface only; no binding control, prevalence, or compliance claim	retain as general guidance context; use Norwegian original for any quoted details
++BTR-00238	LIMEN-SIGNAL-AC5D9CCB5879D373	cross_project_duplicate	no	https://www.digdir.no/kunstig-intelligens/veiledning-ki-i-offentlig-sektor/4132	Digdir GenAI guidance / Veiledning for KI i offentlig sektor	Duplicate Digdir Norwegian guidance theme already reviewed in BTR-00237; delta row explicitly keeps no score uplift and requires human review.	guidance/source-surface only; no binding lifecycle, post-market, revocation, or compliance claim	dedupe to BTR-00237 and preserve no-uplift caveat
++BTR-00239	LIMEN-SIGNAL-ADEEF42E130C5A57	machine_translation_hold	zh	https://www.cac.gov.cn/2022-12/11/c_1672221949318230.htm	Provisions on the Administration of Deep Synthesis Internet Information Services	Local evidence is a quote-safe paraphrase of Chinese legal rules with human_review_needed and no local snapshot content in the digest.	translation-safe legal-source locator only; no legal, policy, compliance, or provider-obligation conclusion	use original Chinese legal text and human legal/translation review before any claim
++BTR-00240	LIMEN-SIGNAL-AF2502FC49240D81	source_surface_only_no_case	lt	https://data.gov.lt/	Lietuvos atviru duomenu portalas	Official Lithuanian open-data portal is useful adjacent transparency infrastructure, and local notes say it is not a public algorithm register.	adjacent open-data source surface only; no algorithm-register or edge-case claim	retain as adjacent context or review Lithuanian portal pages before stronger use
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T121959Z-lane4-5d475839/bulk-translation-review-summary.md → b/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T121959Z-lane4-5d475839/bulk-translation-review-summary.md
+@@ -0,0 +1,40 @@
++# Bulk translation review summary
++
++Batch: `20260616T121959Z-lane4-5d475839`
++Task: `bulk-translation-review`
++Completed UTC: `2026-06-16T12:22:12Z`
++
++## Scope
++
++Reviewed all 16 input rows exactly once using only local metadata and local source files. This is a processing-state translation/source-surface review only. No reviewed-core promotion, ObscureAI addition, incident truth, legal finding, safety finding, compliance finding, prevalence claim, or ranking was made.
++
++## Verdict counts
++
++- `source_surface_only_no_case`: 7
++- `cross_project_duplicate`: 5
++- `needs_original_language_source`: 3
++- `candidate_for_parent_source_extraction`: 2
++- `machine_translation_hold`: 1
++- `translation_source_reviewed`: 0
++- `reject_noise`: 0
++
++## Main review notes
++
++- Colombia Constitutional Court / PretorIA appears as a concrete official court source-surface candidate, but local evidence is translation-mediated and duplicate across three rows; only BTR-00225 was kept as the extraction candidate, with BTR-00229 and BTR-00232 marked duplicate.
++- Dutch algorithm-register Octobox row is explicitly an English auto-translation from Dutch; it is a candidate for parent-source extraction, not a standalone factual/legal claim.
++- Digital Austria, Digdir/Norwegian guidance, Cyprus strategy, Lithuania open-data portal, Guatemala UN/UNDP assessment, and Ethiopia summary rows were kept at source-surface/context ceiling only.
++- Pakistan, Israel, and Brazil rows require original/local source review before substantive use because the local evidence is a seed/gap note/fetch-warning rather than reviewed source content.
++- Chinese deep-synthesis legal paraphrase was placed on machine-translation hold; no legal or policy conclusion was made from the paraphrase.
++
++## Verification
++
++Automated verification was run after writing outputs:
++
++- input rows: 16
++- result rows: 16
++- result header matches required header
++- queue_id set matches input exactly
++- no omitted queue_id values
++- no extra queue_id values
++- no duplicate queue_id values
++- no tabs or newlines inside TSV fields beyond delimiters/record separators
+  ┊ review diff
+a//srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T121959Z-lane4-5d475839/bulk-translation-review-summary.md → b//srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T121959Z-lane4-5d475839/bulk-translation-review-summary.md
+@@ -10,8 +10,8 @@
+ 
+ ## Verdict counts
+ 
+-- `source_surface_only_no_case`: 7
+-- `cross_project_duplicate`: 5
++- `source_surface_only_no_case`: 6
++- `cross_project_duplicate`: 4
+ - `needs_original_language_source`: 3
+ - `candidate_for_parent_source_extraction`: 2
+ - `machine_translation_hold`: 1
+
+session_id: 20260616_142000_8de91b
+Completed the bounded LIMEN bulk-translation-review batch.
+
+Written:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T121959Z-lane4-5d475839/bulk-translation-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T121959Z-lane4-5d475839/bulk-translation-review-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T121959Z-lane4-5d475839/manifest.json
+
+Final verification passed:
+- input rows: 16
+- result rows: 16
+- required header: OK
+- queue_id set matches input exactly: OK
+- duplicate queue_id values: none
+- omissions/extras: none
+- manifest status: completed
+
+Verdict counts:
+- candidate_for_parent_source_extraction: 2
+- cross_project_duplicate: 4
+- machine_translation_hold: 1
+- needs_original_language_source: 3
+- source_surface_only_no_case: 6

@@ -1,0 +1,28 @@
+
+session_id: 20260614_105854_65bd96
+Готово.
+
+Файлы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T085853Z-lane11-93bb235a/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T085853Z-lane11-93bb235a/source-review-summary.md
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T085853Z-lane11-93bb235a/manifest.json
+
+Итог:
+- rows reviewed: 100
+- signal_id set match: true
+- output rows = input rows: true
+
+Verdict counts:
+- negative_evidence_candidate: 26
+- source_reviewed_candidate: 9
+- translation_review_needed: 6
+- needs_named_source_extraction: 13
+- merge_existing_surface: 23
+- reject_noise: 23
+
+Manifest обновлён:
+- status: completed
+- results/summary paths записаны
+- verification добавлена
+
+Если хочешь, я могу сохранить этот triage-паттерн как reusable skill для следующих bounded source-review batch.

@@ -1,0 +1,15 @@
+cluster_id	source_host	final_decision	reviewed_core_action	obscure_ai_action	rationale
+RCCQ-00001	island.is	hold_source_gap	no_new_row	no_new_obscure_ai_case	Iceland sandbox notices did not fetch with enough source support for reviewed-core promotion; keep as source-gap until an exact official page can be hardened.
+RCCQ-00002	api.github.com	duplicate_existing_core	no_new_row	no_new_obscure_ai_case	LangChain GHSA is already represented in reviewed core as LIMEN-000008; keep as duplicate closure, not a second public case.
+RCCQ-00003	arxiv.org	hold_source_only	no_new_row	no_new_obscure_ai_case	Scholarly/preprint provenance analysis is a useful source surface but not a bounded real-world incident or institutional case for ObscureAI.
+RCCQ-00004	crfm.stanford.edu	promoted_to_reviewed_core	promoted_to_batch5	promoted_after_reviewed_core	Official Stanford CRFM page supports a bounded case about disabling the Alpaca public demo due to hosting costs and content-filter inadequacies.
+RCCQ-00005	innovationisrael.org.il	hold_source_only	no_new_row	no_new_obscure_ai_case	Official sandbox announcement is a public-sector AI source surface; it does not itself evidence a failure, harm, sanction, or completed deployment outcome.
+RCCQ-00006	intic.gov.mz	hold_source_gap	no_new_row	no_new_obscure_ai_case	Mozambique regulatory-sandbox support announcement still has source-support gaps; keep as a source surface, not a bounded AI incident or obscure failure case.
+RCCQ-00007	irs.gov	hold_source_only	no_new_row	no_new_obscure_ai_case	IRS bot page documents service-channel use; no supported failure, harm, sanction, or unusual institutional event was established.
+RCCQ-00008	link.springer.com	hold_source_only	no_new_row	no_new_obscure_ai_case	Scientometrics study is aggregate/research context about generated-content retractions, not a single reviewed-core case.
+RCCQ-00009	linkedin.com	hold_low_evidence	no_new_row	no_new_obscure_ai_case	LinkedIn/SSRN citation-scam lead is too weak for reviewed-core promotion without stronger primary-source support.
+RCCQ-00010	news.microsoft.com	hold_source_only	no_new_row	no_new_obscure_ai_case	Jugalbandi item is a vendor/public-service deployment surface; no bounded failure or enforcement event is established.
+RCCQ-00011	osf.io	hold_source_only	no_new_row	no_new_obscure_ai_case	OSF preprint is aggregate/research context about generated-content retractions, not a bounded case.
+RCCQ-00012	proto.cx	hold_source_only	no_new_row	no_new_obscure_ai_case	Namibia ConsumerConnect item is a pilot/deployment source surface, not a failure or claim-ceiling-safe case.
+RCCQ-00013	sakana.ai	promoted_to_reviewed_core	promoted_to_batch5	promoted_after_reviewed_core	Sakana public statement supports a bounded case about an AI Scientist-v2 paper passing an ICLR workshop review process, with vendor-statement caveats.
+RCCQ-00014	skillsmin.gov.lk	hold_source_only	no_new_row	no_new_obscure_ai_case	Sri Lanka chatbot launch page is a public-service source surface without verified case-level failure, harm, sanction, or anomalous outcome.

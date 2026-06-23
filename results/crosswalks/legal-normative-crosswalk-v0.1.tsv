@@ -1,0 +1,6 @@
+case_category	eu_ai_act_section	nist_ai_rmf_function	oecd_ethics_concept	tyche_evidence_need
+"High‑risk AI system for credit scoring"	"Article 5(1)(b)"	"Governance and Risk Management"	"Fairness, Transparency"	"Source ledger entries, model documentation"
+"AI‑driven content moderation"	"Article 5(1)(a)"	"Safety and Robustness"	"Accountability, Human Oversight"	"Content moderation logs, policy rules"
+"Predictive policing tool"	"Article 5(1)(c)"	"Security and Privacy"	"Justice, Non‑Discrimination"	"Event logs, fairness metrics"
+"Medical diagnosis assistant"	"Article 5(1)(d)"	"Performance and Monitoring"	"Human Oversight, Transparency"	"Clinical trial data, validation reports"
+"Data‑driven regulatory compliance checker"	"Article 5(1)(a)"	"Governance and Risk Management"	"Accountability, Transparency"	"Policy rule base, compliance logs"

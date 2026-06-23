@@ -1,0 +1,26 @@
+
+session_id: 20260616_144841_970b86
+Done.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T124840Z-lane4-4e7922a6/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T124840Z-lane4-4e7922a6/parent-source-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T124840Z-lane4-4e7922a6/manifest.json
+
+Verification passed:
+- input rows: 1
+- output rows: 1
+- queue_id set matches exactly
+- no duplicate output queue_id values
+- required header exact
+- verdict values allowed
+- no internal tabs/newlines in fields
+
+Verdict:
+- BPSE-01825: parent_source_wrapper
+
+Evidence used locally:
+- PALLAS_OBSERVABILITY_COUNTRY_INDEX.csv:121
+- PALLAS_SECOND_PASS_SPRINT_13_SOURCE_REFRESH.csv:150-151

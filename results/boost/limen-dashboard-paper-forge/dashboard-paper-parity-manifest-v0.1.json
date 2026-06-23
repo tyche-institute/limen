@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-06-18T13:48:24Z",
+  "lane_id": "limen-dashboard-paper-forge",
+  "input": {
+    "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/all-signals-review-candidates.tsv",
+    "sha256": "sha256:bfcc7a360a91c1025cb775c609723e11100b018facdc5d205d7d59608bb02c7d",
+    "rows": 55725
+  },
+  "outputs": [
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/evidence-tier-funnel-v0.1.tsv",
+      "sha256": "sha256:6bf9bc8d90d61dedb964a942d0871339fb35c119f98298cb0190d4ec6f54763f"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/source-family-coverage-map-v0.1.tsv",
+      "sha256": "sha256:36fb5fedbbb66143cdbd99af35bdd1ffbeacfbaf84a29d1f1ad0b122955bfc89"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/review-priority-routing-v0.1.tsv",
+      "sha256": "sha256:e478a2e0fcc7059b3093fb2f054c06dfbb3eea9833c67e2658f9c83e61478199"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/claim-ceiling-summary-v0.1.tsv",
+      "sha256": "sha256:d1d60aa7bc943404b13ac26b6f3442f69d2b23ada4e9568671799b7b38254357"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/taxonomy-query-proxy-heatmap-v0.1.tsv",
+      "sha256": "sha256:800eca2efbee144f6bfcf180b3defe889a29683a5f304f1787dda8225372c4ce"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/dashboard-paper-parity-summary-v0.1.md",
+      "sha256": "sha256:1dc333f2c1eb46a016ee0fe7d86a9728377c8c66bfb8a3cb9f8f59191d9cce97"
+    }
+  ],
+  "safety_boundary": "public-source review candidates only; no legal/compliance/safety/deployment/truth/prevalence claim from these outputs",
+  "observatory_hook": "Dashboard can ingest TSVs for Figure 1 source-family saturation, Figure 2 evidence-tier funnel, taxonomy query proxy heatmap, and claim-ceiling limitation panels."
+}

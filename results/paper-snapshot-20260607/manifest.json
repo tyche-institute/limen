@@ -1,0 +1,77 @@
+{
+  "snapshot_id": "paper-snapshot-20260607",
+  "project": "limen-ai-edge-case-atlas",
+  "paper_route": "methods/data observatory paper",
+  "working_title": "LIMEN: A Public-Source Observatory for Artificial Intelligence Edge Cases",
+  "created_date": "2026-06-07",
+  "claim": "LIMEN demonstrates a reproducible public-source method for structuring heterogeneous artificial-intelligence edge-case evidence under explicit claim ceilings.",
+  "headline_denominator": {
+    "source": "results/boost/limen-boost-011/publication-safe-aggregate-matrix.tsv",
+    "publication_safe_lineages": 21,
+    "raw_normalized_rows_reviewed": 29,
+    "derivative_queue_rows_excluded": 7,
+    "high_confidence_cap_lineages": 15,
+    "low_confidence_cap_lineages": 6,
+    "translation_dependent_lineages": 6
+  },
+  "non_denominator_additions": [
+    "LIMEN-RI-000001",
+    "LIMEN-RI-000002",
+    "LIMEN-FTC-000001",
+    "LIMEN-FTC-000002",
+    "LIMEN-PS-000001",
+    "LIMEN-FTC-000003",
+    "LIMEN-FTC-000004"
+  ],
+  "exports": {
+    "cases": "exports/cases.tsv",
+    "candidate_examples": "exports/candidate-examples-table.tsv",
+    "sources": "exports/sources.tsv",
+    "authoritative_source_anchors": "exports/authoritative-source-anchors.tsv",
+    "source_families": "exports/source-families.tsv",
+    "category_source_family_counts": "exports/category-source-family-counts.tsv",
+    "evidence_funnel": "exports/evidence-funnel.tsv",
+    "duplicate_graph": "exports/duplicate-graph.tsv",
+    "taxonomy_heatmap": "exports/taxonomy-heatmap.tsv",
+    "legal_uncertainty_matrix": "exports/legal-uncertainty-matrix.tsv",
+    "public_link_audit": "exports/public-link-audit.tsv",
+    "public_link_source_check_notes": "exports/public-link-source-check-notes.tsv",
+    "date_normalization_notes": "exports/date-normalization-notes.tsv",
+    "source_depth_ladder": "exports/source-depth-ladder.tsv",
+    "caption_claim_ceiling_registry": "exports/caption-claim-ceiling-registry.tsv",
+    "full_observatory_scale_summary": "exports/full-observatory-scale-summary.tsv"
+  },
+  "paper_controls": {
+    "pdf_report": "paper/limen-paper-snapshot-20260607-report.pdf",
+    "pdf_report_source": "paper/limen-paper-snapshot-20260607-report.md",
+    "accelerated_submission_package": "accelerated-submission/manifest.json",
+    "accelerated_manuscript_pdf": "accelerated-submission/manuscript/limen-route-a-manuscript-polished.pdf",
+    "accelerated_manuscript_markdown": "accelerated-submission/manuscript/limen-route-a-manuscript-polished.md",
+    "figure_plan": "paper/figure-plan-v0.1.md",
+    "methods_and_limitations_skeleton": "paper/methods-and-limitations-skeleton-v0.1.md",
+    "claim_register": "paper/paper-claim-register-v0.1.tsv",
+    "promoted_anchor_readiness": "paper/promoted-anchor-readiness-v0.1.tsv",
+    "reviewer_objection_appendix": "paper/reviewer-objection-appendix-v0.1.tsv",
+    "coding_protocol": "review/coding-protocol-v0.1.md",
+    "reliability_audit_dry_run": "review/reliability-audit-v0.1.tsv",
+    "negative_results": "review/negative-results-table.tsv",
+    "reviewed_promotion_queue": "review/reviewed-promotion-queue.tsv",
+    "full_case_review": "review/full-case-review-20260607.tsv",
+    "full_case_review_summary": "review/full-case-review-summary-20260607.md",
+    "full_case_review_priority_actions": "review/full-case-review-priority-actions-20260607.tsv"
+  },
+  "known_caveats": [
+    "The post-FTC live duplicate/taxonomy surface is recorded as 33 visible governed rows / 25 unique lineages elsewhere, but this snapshot freezes the 21-lineage paper denominator.",
+    "The reliability audit is an internal protocol dry-run, not inter-rater reliability.",
+    "DoNotPay and Workado are official-text sidecars unless a synchronized denominator recomputation is performed.",
+    "The Danish Datatilsynet public-sector artificial intelligence row is a governance/source-depth anchor, not a harm case.",
+    "Public access barriers and forbidden-response gaps are recorded as negative results; no bypass is allowed."
+  ],
+  "validation": {
+    "tsv_field_count_validation": "passed",
+    "pdf_report_validation": "passed: 5 pages, PDF 1.5, unencrypted",
+    "polished_manuscript_pdf_validation": "passed: 10 pages, PDF 1.5, unencrypted",
+    "polished_public_facing_scan": "passed for manuscript markdown, rendered PDF text, and figure SVG text",
+    "validated_at_utc": "2026-06-07T18:33:52Z"
+  }
+}

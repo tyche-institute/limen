@@ -1,0 +1,17 @@
+scope	count_dimension	value	lineage_count	notes
+headline_denominator	evidence_tier	T3_authoritative_source	14	Frozen `limen-boost-011` evidence funnel.
+headline_denominator	evidence_tier	T3_authoritative_source_direct_url_resolved	1	Frozen `limen-boost-011` evidence funnel; ORION direct official page.
+headline_denominator	evidence_tier	T1_single_public_source	6	Frozen low-cap band; use as limitations/provisional rows.
+headline_denominator	confidence_cap	high	15	Frozen `limen-boost-011` aggregate.
+headline_denominator	confidence_cap	low	6	Frozen `limen-boost-011` aggregate.
+headline_denominator	translation_dependency	translation_dependent	6	All translation-dependent rows retain capped claims.
+headline_denominator	translation_dependency	not_translation_dependent	15	Frozen `limen-boost-011` aggregate.
+headline_denominator	source_family	Regulator and enforcement sources	6	Italian DPA, EEOC, ICO Serco, ICO Chelmer, SEC Delphia, SEC Global Predictions.
+headline_denominator	source_family	Court and tribunal records	1	Nate charging-stage DOJ/indictment package; no disposition claim.
+headline_denominator	source_family	Security research and advisories	8	Security/agentic rows used as mechanism exemplars, not prevalence evidence.
+headline_denominator	source_family	Reputable multilingual media and investigations	5	Low-cap discovery/context rows.
+headline_denominator	source_family	Public-sector registers and procurement	1	ORION official project-page disclosure row.
+paper_anchor_additions	source_family	Academic and research-integrity sources	2	Springer direct-notice exemplars outside headline denominator.
+paper_anchor_additions	source_family	Regulator and enforcement sources	4	FTC DoNotPay and Workado sidecars plus Rytr/Air.ai candidates outside headline denominator.
+paper_anchor_additions	source_family	Public-sector registers and procurement	1	Danish Datatilsynet governance anchor outside headline denominator.
+dashboard_control	live_duplicate_surface_after_ftc_additions	33_visible_rows_25_lineages	25	Use as live-drift note only; not the frozen paper denominator until synchronized recomputation.

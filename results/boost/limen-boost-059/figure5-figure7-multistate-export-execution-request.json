@@ -1,0 +1,153 @@
+{
+  "request_id": "LIMEN-F57-MULTISTATE-EXPORT-059-001",
+  "created_at_utc": "2026-06-07T19:15:38Z",
+  "lane_id": "limen-boost-059",
+  "project_id": "limen-ai-edge-case-atlas",
+  "project_root": "/srv/tyche/projects/limen-ai-edge-case-atlas",
+  "phase": "boost",
+  "theme": "duplicate clustering, source authority, and confidence scoring",
+  "purpose": "Materialize one sidecar-aware shared export contract for Figure 5 and Figure 7 so singleton review and identifier-collision protection can travel together for LIMEN-000008 and LIMEN-000009 without overclaiming the current bounded 21-lineage legacy figures.",
+  "why_now": [
+    "The hostile-reviewer sprint prioritizes exact claim support, denominator discipline, and package readiness over more corpus growth.",
+    "Current shared Figure 7 surfaces are already wording-synchronized on the 21 / 23 / 25 stack, so the remaining blocker is structural transport rather than another prose-only repair.",
+    "Lane-local validators and threshold boards already prove the exact omitted-row effects, but no machine-readable execution request yet names the concrete export fields, acceptance tests, and patch order for a future multistate-safe repair cycle."
+  ],
+  "current_blocking_evidence": [
+    {
+      "artifact": "results/boost/limen-boost-011/singleton-multistate-propagation.tsv",
+      "locator": "SMP-011-001..SMP-011-SUMMARY",
+      "fact": "LIMEN-000008 and LIMEN-000009 are omitted from lane-011 publication-safe aggregate and source-authority-balance exports because current single-state tables flatten overlapping singleton-review and identifier-collision states."
+    },
+    {
+      "artifact": "results/boost/limen-boost-059/figure5-figure7-sidecar-validator.tsv",
+      "locator": "F7-059-001..SUM-059-005",
+      "fact": "A sidecar-aware contract would move Figure 7 from 21 to 23 lineages and Figure 5 high-confidence coverage from 15 to 17 while preserving omitted-row warnings."
+    },
+    {
+      "artifact": "results/boost/limen-boost-059/figure5-figure7-propagation-threshold-register.tsv",
+      "locator": "F57PTR-059-001..F57PTR-059-004",
+      "fact": "Shared registry, caption, export-stub, and prose surfaces should move together only after validator-aware transport is explicit."
+    },
+    {
+      "artifact": "results/boost/limen-continuous-experiments/figure7-shared-surface-current-state-reaudit-2026-06-07T18-55-00Z.tsv",
+      "locator": "F7CSS-20260607-001..007",
+      "fact": "No active core shared Figure 7 surfaces currently drift; the blocker is the missing multistate-safe export or sidecar-aware consumption path."
+    },
+    {
+      "artifact": "results/dashboard-paper/shared-export-promotion-register-v0.1.tsv",
+      "locator": "exp-008",
+      "fact": "Filesystem write restoration alone is insufficient because schema transport for overlapping singleton-plus-collision states is the substantive gate."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "LIMEN-VIS-005",
+      "canonical_label": "Figure 5 publication-safe evidence-tier funnel",
+      "current_state": "21 publication-safe lineages; confidence caps high=15, medium=0, low=6",
+      "projected_state_if_repaired": "23 publication-safe lineages; high-confidence cap=17; low remains 6",
+      "blocking_rows": [
+        "data/cases/authoritative-candidates.jsonl:LIMEN-000008",
+        "data/cases/security-agentic-candidates.jsonl:LIMEN-000009"
+      ],
+      "questions_to_answer": [
+        "Can the shared export carry both normalized lineage identity and a second join-hazard badge without collapsing to one duplicate_control_state?",
+        "Can Figure 5 retain the visible distinction between current materialized 21 and validated projected 23 rather than silently replacing the headline denominator?",
+        "Can the exported row schema preserve high-confidence eligibility while still warning that both restored rows are singleton-plus-collision cases?"
+      ]
+    },
+    {
+      "target_id": "LIMEN-VIS-010",
+      "canonical_label": "Figure 7 authority-balance composition panel",
+      "current_state": "21 lineages split authority_anchor=7, technical_authority=7, translation_caution_authority=1, provisional_or_limitations_only=6",
+      "projected_state_if_repaired": "23 lineages split authority_anchor=8, technical_authority=8, translation_caution_authority=1, provisional_or_limitations_only=6 while still remaining below the broader 25-lineage figure-family package",
+      "blocking_rows": [
+        "data/cases/authoritative-candidates.jsonl:LIMEN-000008",
+        "data/cases/security-agentic-candidates.jsonl:LIMEN-000009"
+      ],
+      "questions_to_answer": [
+        "Can the export preserve the exact 21 / 23 / 25 denominator-family distinction in both data and caption-ready metadata?",
+        "Can ORION remain the only translation-caution authority lineage while the two omitted T3 singleton rows are restored into the authority and technical bands?",
+        "Can the sidecar or rematerialized export expose both primary_review_state and additional_join_hazard_state so later shared surfaces do not overstate live completeness?"
+      ]
+    }
+  ],
+  "required_input_artifacts": [
+    "results/clusters/duplicate-clusters-v0.1.tsv",
+    "results/clusters/status.md",
+    "results/boost/limen-boost-011/normalized-join-key-ledger.tsv",
+    "results/boost/limen-boost-011/publication-safe-aggregate-matrix.tsv",
+    "results/boost/limen-boost-011/source-authority-balance.tsv",
+    "results/boost/limen-boost-011/refreshed-evidence-funnel-safe.tsv",
+    "results/boost/limen-boost-011/multistate-export-validator.tsv",
+    "results/boost/limen-boost-011/singleton-multistate-propagation.tsv",
+    "results/boost/limen-boost-035/authority-balance-multistate-repair.tsv",
+    "results/boost/limen-boost-035/figure7-denominator-family-audit.tsv",
+    "results/boost/limen-boost-059/figure5-figure7-sidecar-validator.tsv",
+    "results/boost/limen-boost-059/figure5-figure7-propagation-threshold-register.tsv",
+    "results/boost/limen-boost-011/figure5-figure7-shared-consumption-bundle.tsv"
+  ],
+  "required_export_fields": [
+    "normalized_record_key",
+    "record_title",
+    "visualization_band_if_exported",
+    "publication_confidence_cap",
+    "primary_review_state",
+    "additional_join_hazard_state",
+    "multistate_sidecar_required",
+    "safe_join_scope",
+    "counting_rule",
+    "current_materialized_denominator",
+    "validated_projected_denominator",
+    "broader_figure_family_denominator",
+    "warning_badge_text"
+  ],
+  "required_rules": [
+    "Never join or count by bare local case_id; normalized_record_key is canonical and bare IDs remain provenance-only.",
+    "If a row carries both no_cluster_review_row and identifier_collision_blocker, preserve both states rather than flattening to one badge.",
+    "Do not replace the current 21-lineage materialized figure claims silently; expose 21 as current materialization and 23 as validated overlap-aware projection until or unless a true multistate-safe export becomes the canonical shared output.",
+    "Keep the broader 25-lineage figure-family duplicate/taxonomy package explicit and separate from both Figure 5 and Figure 7 denominator claims.",
+    "Translation-caution authority counts remain unchanged by this repair; do not inflate multilingual authority claims."
+  ],
+  "expected_outputs": [
+    {
+      "path": "results/boost/limen-boost-059/figure5-figure7-multistate-export-contract.tsv",
+      "purpose": "One machine-readable row set defining fields, denominator states, patch order, and acceptance tests for future sidecar-aware export consumption."
+    },
+    {
+      "path": "results/boost/limen-boost-059/figure5-figure7-multistate-export-sample.tsv",
+      "purpose": "A compact sample export or sidecar showing both omitted rows with all required multistate fields populated."
+    },
+    {
+      "path": "results/boost/limen-boost-059/figure5-figure7-multistate-export-acceptance.md",
+      "purpose": "Human-readable validation note recording whether the sample satisfies the reviewer-safe 21 / 23 / 25 contract and exact band/count deltas."
+    }
+  ],
+  "acceptance_tests": [
+    "Both omitted rows LIMEN-000008 and LIMEN-000009 appear with normalized_record_key plus both state fields populated.",
+    "The sample export yields Figure 7 projected bands 8 / 8 / 1 / 6 and Figure 5 projected high-confidence count 17 without changing translation-caution authority counts.",
+    "No export row uses bare local LIMEN-000008 or LIMEN-000009 as the join key.",
+    "The contract keeps 21 current materialized, 23 validated projection, and 25 broader figure-family package visibly distinct.",
+    "Patch order remains synchronized: LIMEN-VIS-005, CCR-005, exp-003, LIMEN-VIS-010, CCR-014, exp-008, publication-route bridge, dashboard spec, article architecture."
+  ],
+  "allowed_methods": [
+    "Local artifacts only; no new web retrieval is required for this request.",
+    "Prefer small TSV/Markdown/JSON sidecars over shared-path promotion.",
+    "Do not patch shared denominator-bearing surfaces unless the contract and acceptance tests are satisfied in the same cycle.",
+    "Treat blocked results/dashboard writes as deployment state, not schema resolution."
+  ],
+  "safe_resource_limits": {
+    "max_new_files": 3,
+    "max_shared_surface_patches_if_contract_passes": 9,
+    "preferred_runtime_minutes": 20,
+    "network_calls_required": 0,
+    "disk_growth_mb": 2
+  },
+  "paper_thesis_use": [
+    "Provides a bounded handoff for the next cycle that can actually retire the most visible shard-011 denominator blocker instead of repeating drift checks.",
+    "Strengthens methods/thesis reproducibility because future writers can cite one explicit export contract for how omitted singleton-plus-collision rows are restored without overstating live figure state.",
+    "Feeds Figure 5 and Figure 7 warning badges, denominator-stack legends, and appendix-ready validator explanations."
+  ],
+  "visualization_dashboard_hook": "Figure 5 / Figure 7 denominator-stack repair card with fields for current_materialized_denominator, validated_projected_denominator, broader_figure_family_denominator, omitted_row_count, authority_band_delta, and high_confidence_delta.",
+  "success_condition": "A future lane produces a sample multistate-safe export or explicit sidecar contract that passes the listed tests and gives shared surfaces one synchronized, reviewer-safe path from 21 legacy counts to explicit 23 projected counts without collapsing the broader 25-lineage package into the same denominator.",
+  "next_smallest_publishability_move": "Use this request to run one bounded local sidecar/export-contract cycle for Figure 5 and Figure 7 instead of reopening wording-only Figure 7 synchronization or waiting on filesystem write restoration alone."
+}

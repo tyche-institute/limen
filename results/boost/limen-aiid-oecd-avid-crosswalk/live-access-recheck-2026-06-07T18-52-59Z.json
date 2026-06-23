@@ -1,0 +1,114 @@
+{
+  "retrieved_at_utc": "2026-06-07T18:52:59Z",
+  "lane_id": "limen-aiid-oecd-avid-crosswalk",
+  "project_id": "limen-ai-edge-case-atlas",
+  "checks": {
+    "aiid": {
+      "sample_page_data_url": "https://incidentdatabase.ai/page-data/cite/1515/page-data.json",
+      "exact_fields_verified": {
+        "incident_id": 1515,
+        "title_present": true,
+        "description_present": true,
+        "date": "2025-11-23",
+        "editor_notes_present": true,
+        "report_number_count": 3,
+        "pageContext_incident_id": 1515,
+        "pageContext_report_numbers_count": 3
+      },
+      "taxonomy_surface": {
+        "taxa_nodes": 7,
+        "first_namespace": "CSETv1",
+        "first_short_name": "Incident Number",
+        "classifications_nodes": 0
+      },
+      "snapshots_surface": {
+        "snapshot_filename_count": 264,
+        "latest_visible_filename": "backup-20260601120109.tar.bz2"
+      }
+    },
+    "oecd_aim_incidents": {
+      "index_slug_count_sampled": 20,
+      "sample_slug": "2026-06-06-be52",
+      "sample_slug_visible_on_index": true,
+      "detail_json_fields": {
+        "id": "2026-06-06-be52",
+        "title_present": true,
+        "article_count": 5,
+        "first_article_date": "2026-06-06",
+        "first_article_publisher": "Yahoo News (Taiwan)",
+        "first_article_url_present": true,
+        "concept_count": 10,
+        "property_group_count": 11,
+        "location_keys": [
+          "country",
+          "country_code",
+          "location"
+        ],
+        "location_country": "China",
+        "location_country_code": "CHN"
+      },
+      "vocab_counts": {
+        "countries": 131,
+        "languages": 41,
+        "concepts": 10977,
+        "property_value_groups": 8,
+        "property_value_group_names": [
+          "ai_tasks",
+          "autonomy_levels",
+          "business_functions",
+          "harm_levels",
+          "harm_types",
+          "harmed_entities",
+          "industries",
+          "principles"
+        ]
+      },
+      "rights_footer_detected": true
+    },
+    "avid": {
+      "license_startswith_mit": true,
+      "sample_report_fields": {
+        "metadata_report_id": "AVID-2022-R0001",
+        "reported_date": "2022-11-09",
+        "problemtype_description_value": "Gender Bias in Sentence Completion Tasks performed by bert-base-uncased using the HONEST metric",
+        "impact_avid_vuln_id": "AVID-2022-V001",
+        "first_metric_name": "HONEST",
+        "reference_count": 3
+      }
+    },
+    "mit_ai_risk_repo": {
+      "jsonld_dataset_license": "https://creativecommons.org/licenses/by/4.0/",
+      "distribution_names": [
+        "AI Risk Database - Google Sheets",
+        "AI Risk Database - OneDrive"
+      ],
+      "distribution_urls": [
+        "https://docs.google.com/spreadsheets/d/15LeHcpeuZC9txkvcaMoh3sUhkMvdMMry69xxXL46DT0/copy",
+        "https://mitprod-my.sharepoint.com/:x:/g/personal/pslat_mit_edu/EXEfhahe8YtDk9b50dAfGAsBwjWiCJC0Y3cW9sV0k3fARA?e=Mok9XH"
+      ],
+      "hasPart_names": [
+        "AI Risk Database",
+        "Causal Taxonomy of AI Risks",
+        "Domain Taxonomy of AI Risks"
+      ],
+      "visible_taxonomy_anchors_sample": [
+        "1. Discrimination & Toxicity",
+        "1.1 Unfair discrimination and misrepresentation",
+        "1.2 Exposure to toxic content"
+      ]
+    },
+    "cset_ai_harm": {
+      "title": "Understanding AI Harms: An Overview | Center for Security and Emerging Technology",
+      "creative_commons_marker_detected": false
+    },
+    "mitre_atlas": {
+      "apache2_license_detected": true,
+      "version": "5.6.0",
+      "deprecation_banner_detected": true,
+      "case_study_id_count": 57,
+      "top_level_technique_id_count": 101,
+      "technique_id_count_including_subtechniques": 170,
+      "mitigation_id_count": 35
+    }
+  }
+}

@@ -1,0 +1,26 @@
+
+session_id: 20260617_005505_853011
+Completed LIMEN source-surface case extraction.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane08-f5c884a9/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane08-f5c884a9/case-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane08-f5c884a9/manifest.json
+
+Verification passed:
+- input rows: 16
+- output rows: 16
+- header exact: true
+- same source_cluster_key set: true
+- duplicate output keys: none
+- missing keys: none
+- extra keys: none
+- invalid verdicts: none
+- manifest status: completed
+
+Verdict count:
+- closed_noncase_source_surface: 16
+
+No reviewed-core promotion or ObscureAI addition was performed.

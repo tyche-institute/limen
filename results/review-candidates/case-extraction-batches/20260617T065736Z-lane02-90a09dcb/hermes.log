@@ -1,0 +1,25 @@
+
+session_id: 20260617_085737_4d79b3
+Done.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260617T065736Z-lane02-90a09dcb/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260617T065736Z-lane02-90a09dcb/case-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260617T065736Z-lane02-90a09dcb/manifest.json
+
+Verdict:
+- 1 input source_cluster_key reviewed
+- 1 output row written
+- 0 case_candidate_for_hardening
+- 1 closed_noncase_source_surface
+
+Verification passed:
+- Header exact: true
+- Input rows: 1
+- Output rows: 1
+- Missing keys: 0
+- Extra keys: 0
+- Duplicate output keys: 0
+- Manifest status: completed

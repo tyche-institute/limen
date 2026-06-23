@@ -1,0 +1,22 @@
+
+session_id: 20260617_084344_4d7cc0
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064341Z-lane28-3343a4d8/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064341Z-lane28-3343a4d8/parent-source-extraction-summary.md
+
+Manifest обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064341Z-lane28-3343a4d8/manifest.json
+
+Итог:
+- input rows: 24
+- output rows: 24
+- queue_id set match: yes
+- duplicate output queue_id: none
+- required TSV header: yes
+- allowed verdicts only: yes
+- verdict counts:
+  - country_gap_no_parent_source: 24
+
+Все строки были research-query/country-gap placeholders без конкретного локально указанного original public URL.

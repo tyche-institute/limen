@@ -1,0 +1,29 @@
+
+session_id: 20260616_131211_ae600a
+Готово.
+
+Созданы/обновлены:
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111210Z-lane4-3368f369/translation-source-review-results.tsv
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111210Z-lane4-3368f369/translation-source-review-summary.md
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111210Z-lane4-3368f369/manifest.json
+
+Проверка пройдена:
+- input rows: 32
+- output rows: 32
+- unique output row_id: 32
+- row_id set: identical
+- header: exact
+- duplicate row_id: none
+- verdicts: allowed values only
+- TSV field count: valid
+
+Verdict counts:
+- translation_source_reviewed: 15
+- cross_project_duplicate: 11
+- candidate_for_url_extraction: 6
+- needs_original_language_source: 0
+- machine_translation_hold: 0
+- reject_noise: 0

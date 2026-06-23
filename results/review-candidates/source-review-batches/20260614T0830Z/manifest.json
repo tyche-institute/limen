@@ -1,0 +1,6 @@
+{
+  "batch_id": "20260614T0830Z",
+  "input_rows": 100,
+  "source_queue_rows": 19930,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T0830Z/source-review-input.tsv"
+}

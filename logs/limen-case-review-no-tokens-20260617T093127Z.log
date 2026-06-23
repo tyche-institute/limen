@@ -1,0 +1,68 @@
+[2026-06-17T09:31:27Z] token-free case review start log=/srv/tyche/projects/limen-ai-edge-case-atlas/logs/limen-case-review-no-tokens-20260617T093127Z.log
+[2026-06-17T09:31:27Z] run: python3 tools/build_reviewed_core_case_hardening_review.py
+{
+  "boundary": "Case-hardening review plus final adjudication ledger. Pending acceptance excludes rows already promoted, held, or closed in the final adjudication file.",
+  "case_final_adjudication_rows": 14,
+  "case_final_decision_counts": {
+    "duplicate_existing_core": 1,
+    "hold_low_evidence": 1,
+    "hold_source_gap": 2,
+    "hold_source_only": 8,
+    "promoted_to_reviewed_core": 2
+  },
+  "case_final_obscure_ai_promoted_rows": 2,
+  "case_final_promoted_rows": 2,
+  "case_hardening_review_rows": 14,
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-hardening-review.tsv",
+  "generated_at_utc": "2026-06-17T09:32:17Z",
+  "hardening_verdict_counts": {
+    "case_candidate_source_fetch_or_support_gap": 4,
+    "source_verified_case_candidate_needs_acceptance": 10
+  },
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-queue-v0.1.tsv",
+  "obscure_ai_candidate_status_counts": {
+    "not_obscure_ai_ready_until_reviewed_core_acceptance": 10,
+    "not_ready": 4
+  },
+  "obscure_ai_ready_now": 0,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-review-v0.1.tsv",
+  "reviewed_core_candidate_status_counts": {
+    "not_ready": 4,
+    "ready_for_human_acceptance_not_promoted": 10
+  },
+  "reviewed_core_promoted_now": 0,
+  "reviewed_core_ready_for_human_acceptance": 0,
+  "reviewed_core_ready_for_human_acceptance_pre_adjudication": 10
+}
+[2026-06-17T09:32:17Z] run: python3 tools/build_case_review_autorecommendations.py
+{
+  "already_final_adjudicated_rows": 14,
+  "autoreview_decision_counts": {
+    "auto_close_duplicate_existing_core": 3,
+    "auto_hold_announcement_or_pilot_needs_corroboration": 3,
+    "auto_hold_scholarly_or_preprint_source_only": 2,
+    "auto_hold_social_or_allegation_needs_primary": 1,
+    "auto_hold_source_gap": 4,
+    "token_free_promote_candidate_needs_human_acceptance": 1
+  },
+  "boundary": "Deterministic no-LLM autoreview; draft recommendations only unless copied into final adjudication by a human-controlled process.",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-autoreview.tsv",
+  "draft_final_adjudication": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-final-adjudication-draft-v0.1.tsv",
+  "effective_decision_counts": {
+    "duplicate_existing_core": 1,
+    "hold_low_evidence": 1,
+    "hold_source_gap": 2,
+    "hold_source_only": 8,
+    "promoted_to_reviewed_core": 2
+  },
+  "generated_at_utc": "2026-06-17T09:32:17Z",
+  "human_acceptance_required_rows": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-review-v0.1.tsv",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-autoreview-v0.1.tsv",
+  "paid_token_required_rows": 0,
+  "rows": 14,
+  "rows_without_final_adjudication": 0,
+  "token_free_auto_close_rows": 0,
+  "token_free_promotion_candidate_rows": 0
+}
+[2026-06-17T09:32:17Z] token-free case review complete

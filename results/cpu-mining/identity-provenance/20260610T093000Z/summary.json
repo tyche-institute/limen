@@ -1,0 +1,34 @@
+{
+  "by_query": {
+    "AI-generated evidence": 300,
+    "C2PA": 5648,
+    "content provenance": 826,
+    "deepfake": 5713,
+    "false authorship": 309,
+    "synthetic identity": 415,
+    "synthetic media": 516,
+    "voice cloning": 358,
+    "watermark": 1417
+  },
+  "by_root": {
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory": 2271,
+    "/srv/tyche/gaia/tyche-research-vault": 8734,
+    "/srv/tyche/pallas/pallas-ai-agent-observatory": 127,
+    "/srv/tyche/projects/limen-ai-edge-case-atlas": 4370
+  },
+  "failures": [],
+  "match_count": 15502,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/identity-provenance/20260610T093000Z/matches.tsv",
+  "query_count": 9,
+  "roots": [
+    "/srv/tyche/gaia/tyche-research-vault",
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory",
+    "/srv/tyche/pallas/pallas-ai-agent-observatory",
+    "/srv/tyche/projects/public-ai-registry",
+    "/srv/tyche/projects/public-ai-procurement-gap",
+    "/srv/tyche/projects/limen-ai-edge-case-atlas"
+  ],
+  "run_id": "20260610T093000Z",
+  "shard": "identity-provenance",
+  "timestamp_utc": "2026-06-10T09:30:04Z"
+}

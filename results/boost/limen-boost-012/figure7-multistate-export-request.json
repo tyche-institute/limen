@@ -1,0 +1,144 @@
+{
+  "request_id": "LIMEN-F7-MULTISTATE-012-001",
+  "created_at_utc": "2026-06-07T19:13:50Z",
+  "lane_id": "limen-boost-012",
+  "project_id": "limen-ai-edge-case-atlas",
+  "project_root": "/srv/tyche/projects/limen-ai-edge-case-atlas",
+  "phase": "boost",
+  "theme": "dashboard/paper/table/figure readiness",
+  "purpose": "Materialize or explicitly simulate a multistate-safe Figure 7 authority-balance export so reviewer-facing surfaces can stop relying on a legacy 21-lineage single-state panel alone.",
+  "why_now": [
+    "The hostile-reviewer sprint prioritizes package readiness, denominator discipline, and exact claim ceilings over more collection.",
+    "Shared wording drift for Figure 7 is already mostly closed; the remaining blocker is the missing multistate-safe export or an explicit sidecar-consumption path.",
+    "Shard 012 has already hardened figure naming, denominator warnings, and helper-file synchronization, so the next smallest publishability move is an execution-ready request for the unresolved Figure 7 export layer."
+  ],
+  "current_blocking_evidence": [
+    {
+      "artifact": "results/dashboard-paper/publication-route-visual-bridge-v0.1.tsv",
+      "locator": "LIMEN-VIS-010",
+      "fact": "Figure 7 is still a bounded 21-lineage legacy single-state panel; safe reuse still depends on warning-badge logic because the 23-lineage multistate-safe projection is not materialized."
+    },
+    {
+      "artifact": "results/dashboard-paper/caption-control-register-v0.1.tsv",
+      "locator": "CCR-014",
+      "fact": "Two singleton-plus-collision rows (LIMEN-000008 and LIMEN-000009) must remain outside the panel until singleton review and identifier-collision protection can travel together."
+    },
+    {
+      "artifact": "results/dashboard-paper/shared-export-promotion-register-v0.1.tsv",
+      "locator": "exp-008",
+      "fact": "Shared dashboard-path promotion is blocked on this host and write-enable alone would still not fix the multistate schema/denominator problem."
+    },
+    {
+      "artifact": "results/boost/limen-boost-059/figure5-figure7-sidecar-validator.tsv",
+      "locator": "SUM-059-005",
+      "fact": "The exact current-versus-projected Figure 7 family is already validated as 21 legacy versus 23 overlap-aware publication-safe lineages, with the broader duplicate/taxonomy family kept separate at 25."
+    },
+    {
+      "artifact": "results/boost/limen-continuous-experiments/figure7-denominator-stack-drift-audit-v0.1.tsv",
+      "locator": "F7DS-001..F7DS-005",
+      "fact": "The main remaining risk is no longer stale wording but failure to carry the full 21/23/25 denominator stack through a true export or explicit sidecar-aware contract."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "LIMEN-VIS-010",
+      "current_source_path": "results/boost/limen-boost-011/source-authority-balance.tsv",
+      "current_state": {
+        "denominator": 21,
+        "bands": {
+          "authority_anchor": 7,
+          "technical_authority": 7,
+          "translation_caution_authority": 1,
+          "provisional_or_limitations_only": 6
+        },
+        "status": "legacy_single_state_export"
+      },
+      "validated_projection": {
+        "denominator": 23,
+        "bands": {
+          "authority_anchor": 8,
+          "technical_authority": 8,
+          "translation_caution_authority": 1,
+          "provisional_or_limitations_only": 6
+        },
+        "condition": "Only if LIMEN-000008 and LIMEN-000009 travel with singleton-review plus identifier-collision metadata."
+      },
+      "broader_non_target_context": {
+        "denominator": 25,
+        "meaning": "Broader stable-or-standalone duplicate/taxonomy package for the Figure 7 family; not the same denominator as the current panel or the validated projection."
+      }
+    }
+  ],
+  "required_input_artifacts": [
+    "results/boost/limen-boost-011/source-authority-balance.tsv",
+    "results/boost/limen-boost-011/multistate-export-validator.tsv",
+    "results/boost/limen-boost-011/multistate-authority-balance-summary.md",
+    "results/boost/limen-boost-059/figure5-figure7-sidecar-validator.tsv",
+    "results/boost/limen-boost-059/figure5-figure7-propagation-threshold-register.tsv",
+    "results/boost/limen-boost-035/figure7-denominator-family-audit.tsv",
+    "results/dashboard-paper/figure-table-priority-register-v0.1.tsv",
+    "results/dashboard-paper/caption-control-register-v0.1.tsv",
+    "results/dashboard-paper/shared-export-promotion-register-v0.1.tsv",
+    "results/dashboard-paper/publication-route-visual-bridge-v0.1.tsv",
+    "dashboard/limen-dashboard-spec-v0.1.md",
+    "papers/article-architecture-v0.1.md"
+  ],
+  "output_contract": {
+    "must_produce": [
+      "One machine-readable multistate-safe Figure 7 export or an explicit sidecar bundle that is mechanically equivalent for reviewer-safe reuse.",
+      "One concise schema note explaining exactly which metadata fields prevent the legacy 21-lineage export from being silently overread as the 23-lineage projection.",
+      "One patch list showing every shared surface that must move together if the export is consumed."
+    ],
+    "preferred_output_paths": [
+      "results/boost/limen-boost-012/figure7-multistate-safe-export.tsv",
+      "results/boost/limen-boost-012/figure7-sidecar-consumption-contract.tsv",
+      "results/boost/limen-boost-012/figure7-shared-patch-bundle.tsv"
+    ],
+    "minimum_required_columns_for_export": [
+      "normalized_record_key",
+      "authority_band",
+      "primary_review_state",
+      "additional_join_hazard_state",
+      "multistate_sidecar_required",
+      "count_admission_state",
+      "omitted_row_reason_if_any",
+      "source_path"
+    ]
+  },
+  "questions_to_answer": [
+    "Can the current project produce a reviewer-safe Figure 7 export directly from local artifacts without writing to blocked shared dashboard paths?",
+    "If not, what is the smallest explicit sidecar contract that makes the 23-lineage projection reusable without pretending it is already the default materialized panel?",
+    "Which exact surfaces must be patched together once the export or sidecar is available so 21, 23, and 25 are not collapsed into one denominator again?",
+    "What warning text should remain even after a successful multistate-safe export, especially for multilingual authority caution and broader duplicate/taxonomy context?"
+  ],
+  "exact_surfaces_to_patch_together_if_threshold_lands": [
+    "results/dashboard-paper/figure-table-priority-register-v0.1.tsv:LIMEN-VIS-010",
+    "results/dashboard-paper/caption-control-register-v0.1.tsv:CCR-014",
+    "results/dashboard-paper/shared-export-promotion-register-v0.1.tsv:exp-008",
+    "results/dashboard-paper/publication-route-visual-bridge-v0.1.tsv:LIMEN-VIS-010",
+    "dashboard/limen-dashboard-spec-v0.1.md",
+    "papers/article-architecture-v0.1.md"
+  ],
+  "allowed_methods": [
+    "Public/open and local project artifacts only",
+    "No authentication, no portal access, no form submission, no publication",
+    "Prefer local TSV/Markdown control surfaces over new web retrieval",
+    "Treat host-blocked results/dashboard writes as an environment limitation, not a reason to bypass safeguards",
+    "Record a negative result if no reviewer-safe export can be materialized under current local constraints"
+  ],
+  "safe_resource_limits": {
+    "max_input_files": 12,
+    "max_generated_exports": 3,
+    "max_runtime_minutes": 20,
+    "max_total_output_mb": 2,
+    "no_network_required": true
+  },
+  "paper_thesis_use": [
+    "Would unlock a cleaner Figure 7 denominator note for manuscript, dashboard, and thesis surfaces.",
+    "Would reduce hostile-reviewer risk that current authority-balance prose is mistaken for the live atlas-wide authority distribution.",
+    "Would provide a reusable methods appendix artifact showing how multistate/collision guardrails affect visual denominators."
+  ],
+  "visualization_dashboard_hook": "Figure 7 denominator-stack card: current panel 21, validated projection 23, broader family 25, with explicit warning badges for singleton review and identifier collisions.",
+  "success_condition": "A future lane either materializes a reviewer-safe boost-local Figure 7 multistate-safe export or leaves a sidecar contract that downstream shared surfaces can cite as mechanically equivalent for 23-lineage reuse.",
+  "next_smallest_publishability_move": "Use this request as the bounded handoff for the next shard-012 or shard-011 cycle that touches Figure 7, instead of reopening wording-only drift repair or pretending that write-enable alone resolves the denominator problem."
+}

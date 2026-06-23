@@ -1,0 +1,4 @@
+{"lane_id": "lane04", "task": "translation-source-review", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260617T075248Z-lane04-e8ba1de8", "status": "allocated"}
+{"lane_id": "lane04", "task": "translation-source-review", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260617T075248Z-lane04-e8ba1de8", "status": "failed", "returncode": 1, "reason": "missing translation-source-review-results.tsv"}
+{"lane_id": "lane04", "task": "translation-source-review", "status": "empty", "timestamp": "2026-06-17T07:59:13Z"}
+{"lane_id": "lane04", "task": "translation-source-review", "status": "empty", "timestamp": "2026-06-17T08:01:44Z"}

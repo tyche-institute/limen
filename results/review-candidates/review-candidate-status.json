@@ -1,0 +1,37 @@
+{
+  "duplicate_rows_collapsed": 0,
+  "excluded_scope": {
+    "claim_boundary": "candidate status is not reviewed-core status and not incident truth",
+    "self_referential_cpu_mining_rows": "excluded from review-candidate denominator"
+  },
+  "generated_at_utc": "2026-06-23T17:23:24Z",
+  "inputs": {
+    "health-finance-education": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/health-finance-education/20260618T131700Z/matches.tsv",
+    "identity-provenance": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/identity-provenance/20260618T131659Z/matches.tsv",
+    "legal-research": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/legal-research/20260618T131700Z/matches.tsv",
+    "public-sector": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/public-sector/20260618T131659Z/matches.tsv",
+    "residual-weird": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/residual-weird/20260618T131700Z/matches.tsv",
+    "security-agentic": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/security-agentic/20260618T131659Z/matches.tsv"
+  },
+  "ledger": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/all-signals-review-candidates.tsv",
+  "policy": "all_latest_non_self_cpu_signals_are_materialized_as_review_candidates",
+  "raw_rows": 58516,
+  "review_candidate_rows": 55725,
+  "review_priority_counts": {
+    "P1_official_or_regulator_review": 9300,
+    "P2_article_relevance_review": 33040,
+    "P3_candidate_review": 13385
+  },
+  "review_state_counts": {
+    "review_candidate_pending": 55725
+  },
+  "self_echo_rows_excluded": 2791,
+  "shard_counts": {
+    "health-finance-education": 642,
+    "identity-provenance": 12981,
+    "legal-research": 7209,
+    "public-sector": 29690,
+    "residual-weird": 588,
+    "security-agentic": 4615
+  }
+}

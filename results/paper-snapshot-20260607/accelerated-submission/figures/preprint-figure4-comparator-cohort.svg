@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="880" viewBox="0 0 1700 880">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111111}
+.title{font-size:58px;font-weight:700}
+.subtitle{font-size:34px;fill:#4b5563}
+.head{font-size:36px;font-weight:700}
+.label{font-size:32px}
+.small{font-size:28px;fill:#4b5563}
+.tiny{font-size:24px;fill:#4b5563}
+.num{font-size:52px;font-weight:700}
+.huge{font-size:78px;font-weight:700}
+</style>
+</defs>
+<rect width="1700" height="880" fill="#ffffff"/>
+<text x="70" y="82" class="title">Comparator cohort</text>
+<text x="70" y="132" class="subtitle">Comparison systems have different evidence roles.</text>
+<line x1="250" y1="700" x2="1450" y2="700" stroke="#111111" stroke-width="4"/>
+<line x1="250" y1="700" x2="250" y2="210" stroke="#111111" stroke-width="4"/>
+<polygon points="1450,700 1418,682 1418,718" fill="#111111"/>
+<polygon points="250,210 232,242 268,242" fill="#111111"/>
+<text x="520" y="775" class="small" text-anchor="start">More machine-readable</text>
+<text x="100" y="250" class="small" text-anchor="start">Stronger event record</text>
+<circle cx="500" cy="330" r="56" fill="#174a7c" opacity="0.92"/>
+<text x="500" y="346" class="num" text-anchor="middle" fill="#ffffff">11</text>
+<text x="500" y="422" class="tiny" text-anchor="middle">Enforcement</text>
+<text x="500" y="452" class="tiny" text-anchor="middle">records</text>
+<circle cx="1050" cy="360" r="56" fill="#174a7c" opacity="0.92"/>
+<text x="1050" y="376" class="num" text-anchor="middle" fill="#ffffff">8</text>
+<text x="1050" y="452" class="tiny" text-anchor="middle">Structured</text>
+<text x="1050" y="482" class="tiny" text-anchor="middle">vulnerability</text>
+<text x="1050" y="512" class="tiny" text-anchor="middle">records</text>
+<circle cx="640" cy="470" r="56" fill="#174a7c" opacity="0.92"/>
+<text x="640" y="486" class="num" text-anchor="middle" fill="#ffffff">2</text>
+<text x="640" y="562" class="tiny" text-anchor="middle">Public</text>
+<text x="640" y="592" class="tiny" text-anchor="middle">registers</text>
+<circle cx="835" cy="560" r="56" fill="#174a7c" opacity="0.92"/>
+<text x="835" y="576" class="num" text-anchor="middle" fill="#ffffff">2</text>
+<text x="835" y="652" class="tiny" text-anchor="middle">Incident</text>
+<text x="835" y="682" class="tiny" text-anchor="middle">monitors</text>
+<circle cx="1080" cy="565" r="56" fill="#174a7c" opacity="0.92"/>
+<text x="1080" y="581" class="num" text-anchor="middle" fill="#ffffff">2</text>
+<text x="1080" y="657" class="tiny" text-anchor="middle">Risk</text>
+<text x="1080" y="687" class="tiny" text-anchor="middle">vocabularies</text>
+<rect x="245" y="205" width="1205" height="495" rx="0" fill="none" stroke="#b8c0cc" stroke-width="2"/>
+</svg>

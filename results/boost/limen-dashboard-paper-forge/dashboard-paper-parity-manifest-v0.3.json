@@ -1,0 +1,58 @@
+{
+  "generated_utc": "2026-06-18T15:38:51Z",
+  "lane": "limen-dashboard-paper-forge",
+  "purpose": "second-stage dashboard/paper parity funnel and AI-washing pointer resolution",
+  "claim_ceiling": "workflow denominator, routing, hardening, adjudication, and authority-posture transparency only; no prevalence/legal/compliance/deployment/safety/completeness claims",
+  "files": [
+    {
+      "path": "results/boost/limen-dashboard-paper-forge/second-stage-reviewed-core-funnel-v0.3.tsv",
+      "sha256": "21209afeec69921250bf343d7e04c956ca076be5a89bdf6471c9e5ff6d2e7b64",
+      "bytes": 3360
+    },
+    {
+      "path": "results/boost/limen-dashboard-paper-forge/second-stage-reviewed-core-breakdowns-v0.3.tsv",
+      "sha256": "502845a6c2cf6057373f5f02ce447f79794ee12321baad95460b9a070216ed7b",
+      "bytes": 3772
+    },
+    {
+      "path": "results/boost/limen-dashboard-paper-forge/ai-washing-posture-pointer-resolution-2026-06-18.md",
+      "sha256": "a039fa8e0df6194805d9e400481805034f7f1a7b43a4b3affb5d677aedf6f86a",
+      "bytes": 1588
+    },
+    {
+      "path": "results/boost/limen-dashboard-paper-forge/dashboard-paper-parity-summary-v0.3.md",
+      "sha256": "12ed2b4c474b88299d1d4c1eda8adfc586689ce5fc47dda9e010fb898410e867",
+      "bytes": 3402
+    },
+    {
+      "path": "results/dashboard-paper/ai-washing-posture-table-v0.1.tsv",
+      "sha256": "8d3aff041f08ee690239532987b2aeba092c0f58f7bfc71569edd79245ed2505",
+      "bytes": 3505
+    },
+    {
+      "path": "results/review-candidates/reviewed-core-case-final-adjudication-v0.1.tsv",
+      "sha256": "04cdb75374440f3ad0308e1459bfc2067401ba9549975b1938596f0b5d5ed1e8",
+      "bytes": 3067
+    },
+    {
+      "path": "results/review-candidates/reviewed-core-case-hardening-review-v0.1.tsv",
+      "sha256": "6f69a8c6fb509ba227603f3ba584d3e88eafb9d069cd40d511fc95db3b5fff19",
+      "bytes": 18079
+    },
+    {
+      "path": "results/review-candidates/source-reviewed-completion-ledger-v0.1.tsv",
+      "sha256": "126d9d878c35b3af8420e9c39cc1707a6e567286120c3a2da24b2f4a997f729f",
+      "bytes": 1545254
+    },
+    {
+      "path": "results/review-candidates/source-reviewed-promotion-hardening-v0.1.tsv",
+      "sha256": "eefcbd83dac148582c95e85958322e593cf777af0ddcc0a260a6f748cacc7a9c",
+      "bytes": 1963471
+    },
+    {
+      "path": "results/review-candidates/reviewed-core-case-extraction-results-v0.1.tsv",
+      "sha256": "54bde2a101d15c5f948380cfd220839632b0b5954db320d51791c4c2ef05ec6e",
+      "bytes": 1068072
+    }
+  ]
+}

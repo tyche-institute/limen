@@ -1,0 +1,28 @@
+
+session_id: 20260614_110831_c5cca4
+Готово.
+
+Сделано:
+- Записал results:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090830Z-lane06-b5ce6182/source-review-results.tsv
+- Записал summary:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090830Z-lane06-b5ce6182/source-review-summary.md
+- Обновил manifest:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090830Z-lane06-b5ce6182/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- signal_id set: совпадает в точности
+- duplicate signal_id в output: нет
+
+Сводка verdict counts:
+- source_reviewed_candidate: 6
+- merge_existing_surface: 16
+- negative_evidence_candidate: 22
+- needs_named_source_extraction: 18
+- translation_review_needed: 1
+- reject_noise: 37
+
+Ключевой queue-hardening вывод:
+- имеет смысл заранее дедуплицировать уже известные family/surface линии вроде Helsinki / Dutch Algorithm Register / Scottish AI Register до lease allocation.

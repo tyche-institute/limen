@@ -1,0 +1,35 @@
+{
+  "batch_id": "20260616T122729Z-lane2-dbf0da0d",
+  "batch_size": 16,
+  "completed_at_utc": "2026-06-16T12:29:57Z",
+  "created_at_utc": "2026-06-16T12:27:29Z",
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T122729Z-lane2-dbf0da0d/input.tsv",
+  "input_rows": 16,
+  "lane_id": "lane2",
+  "output_results": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T122729Z-lane2-dbf0da0d/bulk-translation-review-results.tsv",
+  "output_rows": 16,
+  "output_summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T122729Z-lane2-dbf0da0d/bulk-translation-review-summary.md",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/bulk-translation-review-queue.tsv",
+  "queue_rows": 703,
+  "remaining_unleased_at_allocation": 399,
+  "started_at_utc": "2026-06-16T12:27:29Z",
+  "status": "complete",
+  "task": "bulk-translation-review",
+  "updated_at_utc": "2026-06-16T12:29:57Z",
+  "verdict_counts": {
+    "cross_project_duplicate": 1,
+    "needs_original_language_source": 2,
+    "source_surface_only_no_case": 6,
+    "translation_source_reviewed": 7
+  },
+  "verification": {
+    "duplicate_queue_ids": [],
+    "extra_queue_ids": [],
+    "input_rows": 16,
+    "missing_queue_ids": [],
+    "output_rows": 16,
+    "queue_id_set_match": true,
+    "required_header": "queue_id\tsignal_id\tbulk_translation_verdict\tlanguage_reviewed\tsource_url_or_locator\tsource_name\treason\tclaim_ceiling\tnext_action"
+  }
+}

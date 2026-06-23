@@ -1,0 +1,80 @@
+  ┊ review diff
+a//tmp/limen_case_extract_lane02.py → b//tmp/limen_case_extract_lane02.py
+@@ -0,0 +1,75 @@
++import csv, json, pathlib, re
++from datetime import datetime, timezone
++base=pathlib.Path('/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane02-e1f88c60')
++inp=base/'input.tsv'; out=base/'case-extraction-results.tsv'; sum_path=base/'case-extraction-summary.md'; manifest_path=base/'manifest.json'
++patent_meta={
++'https://patents.google.com/patent/US12294650B2/en':('Dynamic authorization and access management','2022-01-13','US'),
++'https://patents.google.com/patent/US20200137097A1/en':('System and method for securing an enterprise computing environment','2019-11-21','US'),
++'https://patents.google.com/patent/US20200250747A1/en':('Systems, methods, and apparatuses for dynamically assigning nodes to a group within blockchains based on transaction type and node intelligence using distributed ledger technology (dlt)','2020-01-29','US'),
++'https://patents.google.com/patent/US20220198410A1/en':('Providing data provenance, permissioning, compliance, and access control for data storage systems using an immutable ledger overlay network','2022-03-08','US'),
++'https://patents.google.com/patent/US20220215111A1/en':('Data Protection For Container Storage','2022-01-19','US'),
++'https://patents.google.com/patent/US20220222348A1/en':('Attesting update of a firmware layer','2021-01-13','US'),
++'https://patents.google.com/patent/US20230385815A1/en':('Systems and Methods for Facilitating Access to Token Content','2023-05-24','US'),
++'https://patents.google.com/patent/US20240005409A1/en':('Systems, methods, and storage media for managing digital liquidity tokens in a distributed ledger platform','2023-09-18','US'),
++'https://patents.google.com/patent/US20240252048A1/en':('Ai assistance system','2024-03-28','US'),
++'https://patents.google.com/patent/US20240281782A1/en':('Apparatus for cryptographic resource transfer based on quantitative assessment regarding non-fungible tokens','2024-04-10','US'),
++'https://patents.google.com/patent/US20240364538A1/en':('Systems and methods for post-quantum cryptography optimization','2024-07-11','US'),
++'https://patents.google.com/patent/US20250259043A1/en':('Platform for orchestrating fault-tolerant, security-enhanced networks of collaborative and negotiating agents with dynamic resource management','2025-03-13','US'),
++'https://patents.google.com/patent/US20250330306A1/en':('System and Methods for Secure Communication Using Post-Quantum Cryptography','2025-07-02','US'),
++'https://patents.google.com/patent/US8449471B2/en':('Health monitoring appliance','2011-12-26','US'),
++'https://patents.google.com/patent/WO2014178893A1/en':('Identifying, verifying, and authenticating an identity','2013-08-13','WO'),
++'https://patents.google.com/patent/WO2024176523A1':('ｅシール管理装置、方法、並びにプログラム','2023-11-01','WO'),
++}
++header=['source_cluster_key','case_extraction_verdict','source_url_or_locator','source_name','source_host','proposed_case_title','proposed_evidence_tier','proposed_limen_categories','source_record_date','jurisdiction','bounded_claim_candidate','claim_ceiling','forbidden_overread','rationale','required_before_reviewed_core','required_before_obscure_ai','next_action']
++with inp.open(newline='',encoding='utf-8') as f:
++    rows=list(csv.DictReader(f, delimiter='\t'))
++seen=set(); out_rows=[]
++for r in rows:
++    key=r['source_cluster_key']
++    if key in seen: raise SystemExit(f'duplicate input key: {key}')
++    seen.add(key)
++    title, date, jur=patent_meta.get(key, ('Patent/IP source surface', '', 'unknown'))
++    query=r.get('queries','').strip()
++    cats='source_family_accounting; patent_or_ip_surface'
++    if query: cats += '; ' + re.sub(r'\s*;\s*','; ', query)
++    row={
++        'source_cluster_key':key,
++        'case_extraction_verdict':'closed_noncase_source_surface',
++        'source_url_or_locator':r['source_url_or_locator'],
++        'source_name':r['source_name'],
++        'source_host':r['source_host'],
++        'proposed_case_title':'Patent/IP source surface: ' + title,
++        'proposed_evidence_tier':'noncase_patent_ip_surface',
++        'proposed_limen_categories':cats,
++        'source_record_date':date or 'not_exposed_in_batch_metadata',
++        'jurisdiction':jur,
++        'bounded_claim_candidate':f'Google Patents record for "{title}" is a patent/IP surface; batch metadata does not identify a concrete AI edge-case event, vulnerability, finding, or official enforcement record.',
++        'claim_ceiling':'May be used only as source-family/IP-topology accounting, not as an incident, safety, legality, compliance, deployment, prevalence, or guilt claim.',
++        'forbidden_overread':'Do not infer real-world deployment, harm, illegality, vulnerability, safety failure, regulatory finding, AI incident status, adoption, or prevalence from this patent record.',
++        'rationale':r['rationale'] or 'Patent/IP surface lacks a bounded concrete edge-case event or authority finding.',
++        'required_before_reviewed_core':'A separate concrete public event/finding/official record with bounded source text would be required before reviewed-core consideration.',
++        'required_before_obscure_ai':'Not ObscureAI material unless later tied to an evidence-tiered concrete case record.',
++        'next_action':'Close for extraction; retain only for source-surface accounting unless a separate concrete public case source is supplied.'
++    }
++    for k,v in row.items():
++        row[k]=str(v).replace('\t',' ').replace('\r',' ').replace('\n',' ').strip()
++    out_rows.append(row)
++with out.open('w', newline='', encoding='utf-8') as f:
++    w=csv.DictWriter(f, fieldnames=header, delimiter='\t', lineterminator='\n'); w.writeheader(); w.writerows(out_rows)
++summary = '# Case extraction summary: 20260616T225502Z-lane02-e1f88c60\n\n' + \
++f'- Input: `{inp}`\n- Output TSV: `{out}`\n- Rows reviewed: {len(rows)} source_cluster_key values\n- Result: {len(out_rows)} closed_noncase_source_surface; 0 case_candidate_for_hardening; 0 blocked_no_public_source; 0 needs_original_source_text; 0 reject_noise\n- Source surface pattern: all rows are Google Patents patent/IP records. Exact listed Google Patents URLs were inspected for record titles/dates where needed; no broad crawling or general web search was used.\n- Extraction decision: patent/IP records can support source-family/topology accounting, but in this batch they do not themselves expose concrete AI edge-case events, vulnerabilities, findings, enforcement records, deployment proof, safety/legal/compliance findings, or bounded incident claims.\n- Boundary honored: no reviewed-core promotion, no ObscureAI addition, no public action, no incident-truth/legal/safety/compliance/deployment/prevalence/ranking claim.\n\n## Verification\n\n- Input row count: {len(rows)}\n- Result row count: {len(out_rows)}\n- Source key set: identical\n- Duplicate result keys: none\n'
++sum_path.write_text(summary, encoding='utf-8')
++with out.open(newline='', encoding='utf-8') as f: got=list(csv.DictReader(f, delimiter='\t'))
++in_keys=[r['source_cluster_key'] for r in rows]; out_keys=[r['source_cluster_key'] for r in got]
++assert len(got)==len(rows), (len(got), len(rows))
++assert set(out_keys)==set(in_keys), 'key set mismatch'
++assert len(out_keys)==len(set(out_keys)), 'duplicate output keys'
++assert list(got[0].keys())==header, 'header mismatch'
++now=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00','Z')
++manifest=json.loads(manifest_path.read_text(encoding='utf-8'))
++manifest.update({'status':'completed','completed_at_utc':now,'updated_at_utc':now,'output':str(out),'summary':str(sum_path),'result_rows':len(got),'verification':{'input_rows':len(rows),'result_rows':len(got),'source_cluster_key_set_matches':True,'duplicate_source_cluster_keys':0,'case_candidate_for_hardening':0,'closed_noncase_source_surface':len(got)}})
++manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
++print(f'wrote {out}')
++print(f'wrote {sum_path}')
++print(f'updated {manifest_path}')
++print(f'verified rows={len(got)} key_set_matches=True duplicates=0')
+
+session_id: 20260617_005505_6f1cb0

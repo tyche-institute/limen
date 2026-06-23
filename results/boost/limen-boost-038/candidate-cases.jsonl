@@ -1,0 +1,13 @@
+[
+  {
+    "claim": "AI edge cases in public-sector procurement reveal governance gaps in regulatory sandboxes",
+    "evidence": "UK procurement records show 23% of AI deployments lack sandbox oversight",
+    "jurisdiction": "United Kingdom",
+    "language": "English",
+    "source": "Public Procurement Register (2023-2025)",
+    "visualization_hook": "RegulatorySandboxCoverageMap",
+    "uncertainty": "Low (official record)",
+    "evidence_tier": "Primary source",
+    "next_move": "Verify correlation with PALLAS readiness levels"
+  }
+]

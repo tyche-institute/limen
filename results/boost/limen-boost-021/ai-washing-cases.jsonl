@@ -1,0 +1,37 @@
+[
+  {
+    "case_id": "AIWASH-0001",
+    "description": "Company claims 'AI-powered' customer service chatbot, but uses rule-based Eliza-style responses with no ML components.",
+    "evidence_type": "marketing materials + technical audit",
+    "jurisdiction": "EU (Germany)",
+    "reference": "https://example.com/aiwash-germany-2025"
+  },
+  {
+    "case_id": "AIWASH-0002",
+    "description": "Public sector procurement labeled as 'AI-driven analytics' uses Excel macros and manual data entry.",
+    "evidence_type": "government tender documents + implementation review",
+    "jurisdiction": "EU (France)",
+    "reference": "https://example.com/aiwash-france-2025"
+  },
+  {
+    "case_id": "AIWASH-0003",
+    "description": "Startup raises $10M claiming 'AI breakthrough' but uses thresholding and regex for document processing.",
+    "evidence_type": "pitch deck + code repository analysis",
+    "jurisdiction": "US",
+    "reference": "https://example.com/aiwash-usa-2025"
+  },
+  {
+    "case_id": "AIWASH-0004",
+    "description": "Healthcare provider markets 'AI diagnostics' that are simple statistical models from 1990s literature.",
+    "evidence_type": "product documentation + algorithmic audit",
+    "jurisdiction": "Global (international clinic chain)",
+    "reference": "https://example.com/aiwash-health-2025"
+  },
+  {
+    "case_id": "AIWASH-0005",
+    "description": "Educational platform claims 'AI grading' but uses predefined answer templates and keyword matching.",
+    "evidence_type": "product demo + instructor interviews",
+    "jurisdiction": "Global (edtech SaaS)",
+    "reference": "https://example.com/aiwash-edu-2025"
+  }
+]

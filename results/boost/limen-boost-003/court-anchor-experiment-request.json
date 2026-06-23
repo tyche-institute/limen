@@ -1,0 +1,66 @@
+{
+  "request_id": "limen-boost-003-court-anchor-2026-06-07T02:38:08Z",
+  "created_at": "2026-06-07T02:38:08Z",
+  "lane_id": "limen-boost-003",
+  "project_id": "limen-ai-edge-case-atlas",
+  "project_root": "/srv/tyche/projects/limen-ai-edge-case-atlas",
+  "phase": "boost",
+  "theme": "regulator, court, enforcement, and company-notice leads",
+  "goal": "Upgrade one U.S. court-facing LIMEN row beyond summary-only or title-only normalization without using credentialed or paid court access.",
+  "priority_cases": [
+    {
+      "case_id": "LIMEN-000005",
+      "provisional_case_key": "auth:LIMEN-000005",
+      "task": "OCR the locally captured DOJ-linked indictment PDF to recover exact caption and case-number metadata from the document body.",
+      "input_paths": [
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-009/tmp/u.s._v._saniger_indictment.pdf",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/document-normalization-matrix-v0.1.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/sources/authoritative-source-ledger.tsv"
+      ],
+      "expected_outputs": [
+        "Exact caption string",
+        "Exact case number if legible",
+        "Confidence note on OCR quality",
+        "Machine-readable patch plan for shared ledgers"
+      ],
+      "safe_resource_limits": {
+        "cpu": "single host, modest batch",
+        "ram": "<= 4 GB",
+        "wall_clock": "<= 20 minutes",
+        "network": "none required after local inputs are present"
+      }
+    },
+    {
+      "case_id": "LIMEN-000002",
+      "provisional_case_key": "auth:LIMEN-000002",
+      "task": "Run a bounded public-entrypoint verification pass for one open court-facing complaint decree order or docket artifact without credentialed PACER access.",
+      "input_paths": [
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-001/court-access-barrier.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-003/court-followup.tsv",
+        "/srv/tyche/projects/limen-ai-edge-case-atlas/sources/authoritative-source-ledger.tsv"
+      ],
+      "expected_outputs": [
+        "One open court-facing document URL if reachable without login",
+        "If still blocked, a stricter barrier note distinguishing official login gates from public-mirror friction",
+        "Machine-readable fields for caption case number and procedural posture if success occurs"
+      ],
+      "safe_resource_limits": {
+        "cpu": "minimal",
+        "ram": "<= 1 GB",
+        "wall_clock": "<= 15 minutes",
+        "network": "small bounded probes only; no bulk crawling"
+      }
+    }
+  ],
+  "paper_thesis_use": [
+    "Hostile-reviewer methods note on why court-family thinness splits into access-constrained versus compute-constrained blockers.",
+    "Dashboard facet separating agency-summary-only rows, document-artifact-captured rows, and exact-court-anchor rows.",
+    "Thesis reproducibility discussion on public-record normalization limits."
+  ],
+  "success_condition": "At least one U.S. row advances from blocker-only prose to exact court-anchor metadata or to a sharply evidenced blocker class with machine-readable next steps.",
+  "boundary_notes": [
+    "Public/open information only.",
+    "No PACER login, fees, credentials, sealed records, or private attachments.",
+    "Keep posture-sensitive wording; do not convert allegations or agency summaries into adjudicated facts."
+  ]
+}

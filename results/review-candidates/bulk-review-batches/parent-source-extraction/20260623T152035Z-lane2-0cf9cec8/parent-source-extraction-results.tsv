@@ -1,0 +1,3 @@
+queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason	claim_ceiling	next_action
+BPSE-03656		country_gap_no_parent_source				No valid parent source URL found in local data	source-surface existence only from local metadata/files	
+BPSE-03657		country_gap_no_parent_source				No valid parent source URL found in local data	source-surface existence only from local metadata/files	

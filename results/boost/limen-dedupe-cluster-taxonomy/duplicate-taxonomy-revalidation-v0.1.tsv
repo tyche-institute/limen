@@ -1,0 +1,22 @@
+as_of_utc	check_id	subject	expected	observed	status	note
+2026-06-08T01:08:01Z	source_row_count_authoritative	authoritative candidates	14	14	pass	Live authoritative inventory count rechecked from data/cases/authoritative-candidates.jsonl.
+2026-06-08T01:08:01Z	source_row_count_security	security candidates	10	10	pass	Live security inventory count rechecked from data/cases/security-agentic-candidates.jsonl.
+2026-06-08T01:08:01Z	source_row_count_multilingual	multilingual candidates	6	6	pass	Live multilingual inventory count rechecked from data/cases/multilingual-candidates.jsonl.
+2026-06-08T01:08:01Z	source_row_count_boost005	boost-005 derivative queue	5	5	pass	Derivative queue still matches duplicate-ledger empirical base.
+2026-06-08T01:08:01Z	source_row_count_boost007	boost-007 derivative queue	6	6	pass	FCC lifecycle derivative bundle count rechecked.
+2026-06-08T01:08:01Z	source_row_count_boost008	boost-008 derivative queue	7	7	pass	Residual/procedural-contamination derivative bundle count rechecked.
+2026-06-08T01:08:01Z	source_row_count_boost009	boost-009 shard-local SEC rows	2	2	pass	Shard-local SEC derivative bundle remains unchanged.
+2026-06-08T01:08:01Z	duplicate_row_count	duplicate cluster review rows	35	35	pass	Header-excluded rows in results/clusters/duplicate-clusters-v0.1.tsv.
+2026-06-08T01:08:01Z	state_count_identifier_collision	identifier_collision_blocker rows	10	10	pass	Matches duplicate-cluster and status summaries.
+2026-06-08T01:08:01Z	state_count_stable_duplicate	stable_duplicate_cluster rows	9	9	pass	Matches duplicate-cluster and status summaries.
+2026-06-08T01:08:01Z	state_count_reviewed_not_duplicate	reviewed_not_duplicate rows	8	8	pass	Matches duplicate-cluster and status summaries.
+2026-06-08T01:08:01Z	state_count_singleton	no_cluster_review_row rows	8	8	pass	Matches duplicate-cluster and status summaries.
+2026-06-08T01:08:01Z	governed_records_extended	extended governed record refs	38	38	pass	Unique member_case_ids across all 35 review rows.
+2026-06-08T01:08:01Z	governed_records_core	core governed record refs	37	37	pass	Excludes explicit residual frontier singleton REVIEW-SINGLETON-LIMEN-008-LEAD-007.
+2026-06-08T01:08:01Z	live_case_coverage_governed	live data/cases refs represented in duplicate-governed surface	28	28	pass	All current live rows except the two intentionally held FTC rows remain governed.
+2026-06-08T01:08:01Z	live_case_coverage_intentional_gap	live data/cases refs intentionally outside duplicate-governed surface	2	2	pass	Intentional held rows remain data/cases/authoritative-candidates.jsonl:LIMEN-000013 and data/cases/authoritative-candidates.jsonl:LIMEN-000014.
+2026-06-08T01:08:01Z	status_core_denominator_literal	results/clusters/status.md core denominator literal	present	True	pass	Core denominator prose refreshed and synchronized to 34 / 37 / 27.
+2026-06-08T01:08:01Z	status_extended_denominator_literal	results/clusters/status.md extended denominator literal	present	True	pass	Extended denominator prose refreshed and synchronized to 35 / 38 / 28.
+2026-06-08T01:08:01Z	taxonomy_core_denominator_literal	results/taxonomy/taxonomy-delta-v0.1.md core denominator literal	present	True	pass	Core taxonomy denominator prose refreshed and synchronized.
+2026-06-08T01:08:01Z	taxonomy_extended_denominator_literal	results/taxonomy/taxonomy-delta-v0.1.md extended denominator literal	present	True	pass	Extended taxonomy denominator prose refreshed and synchronized.
+2026-06-08T01:08:01Z	required_output_presence	required lane outputs	4_of_4	4_of_4	pass	duplicate-clusters-v0.1.tsv, taxonomy-delta-v0.1.md, results/clusters/status.md, and lane journal update are all present after this cycle.

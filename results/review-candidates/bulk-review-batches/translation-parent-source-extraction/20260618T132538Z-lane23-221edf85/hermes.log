@@ -1,0 +1,19 @@
+
+session_id: 20260618_152539_590c59
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260618T132538Z-lane23-221edf85/translation-parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260618T132538Z-lane23-221edf85/translation-parent-source-extraction-summary.md
+
+Обновлён manifest:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260618T132538Z-lane23-221edf85/manifest.json
+
+Проверка:
+- input rows: 1
+- output rows: 1
+- queue_id set matches exactly: BTPS-00137
+- duplicates/omissions/extras: none
+- verdict: source_url_extracted
+- URL extracted only from explicit local source line:
+  /srv/tyche/projects/public-ai-registry/results/submission-preprint-packages/public-ai-registry-preprint-package-20260618T033625Z/zenodo/public-ai-registry-observatory-initial-corpus-20260608/data/registry-deployed-record-accession-all-20260607.csv:62

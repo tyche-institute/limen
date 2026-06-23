@@ -1,0 +1,123 @@
+{
+  "request_id": "LIMEN-FTC-DOCREAD-057-001",
+  "created_at_utc": "2026-06-07T19:09:45Z",
+  "lane_id": "limen-boost-057",
+  "project_id": "limen-ai-edge-case-atlas",
+  "project_root": "/srv/tyche/projects/limen-ai-edge-case-atlas",
+  "phase": "boost",
+  "theme": "AI washing, false AI claims, and human-as-AI cases",
+  "purpose": "Resolve the highest-value remaining shard-009 FTC hold states that currently block reviewer-safe use of Rytr and Air.ai in the LIMEN paper package.",
+  "why_now": [
+    "The hostile-reviewer sprint favors exact claim support and queue retirement over more exploratory harvesting.",
+    "Full-case review priority actions explicitly hold Rytr and Air.ai until complaint/order/set-aside documents are read.",
+    "This host can verify public FTC page existence but FTC legal-library pages are currently blocked to local shell and browser retrieval, so a bounded follow-through request is the smallest publishability move available without unsafe access workarounds."
+  ],
+  "current_blocking_evidence": [
+    {
+      "artifact": "results/paper-snapshot-20260607/review/full-case-review-priority-actions-20260607.tsv",
+      "locator": "row P1 / non_core_ftc_candidates",
+      "fact": "Rytr and Air.ai are held until primary complaint/order/set-aside materials are read."
+    },
+    {
+      "artifact": "results/paper-snapshot-20260607/review/full-case-review-20260607.tsv",
+      "locator": "rows LIMEN-FTC-000003 and LIMEN-FTC-000004",
+      "fact": "Rytr is a complex-posture hold; Air.ai is a document-read-pending hold."
+    },
+    {
+      "artifact": "results/zeus1-continuation/20260607T115820Z/public-link-source-check-notes.tsv",
+      "locator": "LINK-Z1-003 and LINK-Z1-004",
+      "fact": "Public FTC case pages were visible via web search/open, but local shell curl returned 403 and no bypass was attempted."
+    },
+    {
+      "artifact": "live browser check on 2026-06-07T19:09:45Z",
+      "locator": "browser_console on FTC Rytr case page",
+      "fact": "FTC returned an anti-automation apology page stating the request resembled an abusive automated request; this cycle did not proceed further against the blocked surface."
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "LIMEN-FTC-000003",
+      "canonical_label": "FTC Rytr AI review/testimonial generator matter with later set-aside posture",
+      "public_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/232-3052-rytr-llc-matter",
+      "current_local_state": "hold_complex_posture_review",
+      "known_dates": {
+        "complaint_or_proposed_package": "2024-09-25",
+        "final_order": "2024-12-18",
+        "set_aside_order": "2025-12-22"
+      },
+      "documents_needed": [
+        "complaint or administrative complaint text",
+        "final order text",
+        "set-aside order text",
+        "any commissioner statement or dissent that clarifies why the order was reopened or set aside"
+      ],
+      "questions_to_answer": [
+        "What exact AI-related representations are attributed to Rytr in the complaint/order text?",
+        "Does the matter fit AI washing / false AI claim, deceptive review/testimonial generation, unlawful-use enablement, or a narrower procedural/advertising posture?",
+        "What did the 2025 set-aside order actually change: liability posture, remedial posture, procedural validity, or only one part of the prior order stack?",
+        "After reading the full chronology, what is the highest safe LIMEN role: negative-results appendix, complex-posture comparator, regulator-side anchor, or not useful enough for the first paper package?"
+      ],
+      "expected_outputs": [
+        "one chronology table with date, document type, exact procedural state, and claim ceiling",
+        "one classification note with allowed statement / forbidden overread",
+        "one recommendation on whether Rytr stays held, moves to appendix-only complex-posture comparator, or is excluded from the first package"
+      ],
+      "promotion_threshold": "Do not promote as a current final-order exemplar unless the document set supports that characterization after accounting for the later set-aside order."
+    },
+    {
+      "target_id": "LIMEN-FTC-000004",
+      "canonical_label": "FTC Air.ai AI-branded business-opportunity matter",
+      "public_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/airai",
+      "current_local_state": "hold_until_document_read",
+      "known_dates": {
+        "complaint": "2025-08-25",
+        "settlement_or_stipulated_order": "2026-03-24"
+      },
+      "documents_needed": [
+        "complaint text",
+        "stipulated order or settlement text",
+        "final court or commission approval text if separately public"
+      ],
+      "questions_to_answer": [
+        "What exact AI role is alleged or described: AI marketing inflation, business-opportunity deception, human-hidden-behind-AI, or only AI-adjacent branding?",
+        "What exact product/service claims are described in the primary documents?",
+        "Does the matter belong inside shard-009 as a bounded non-finance AI-claim sidecar candidate, or is it better treated as a business-opportunity/deceptive-marketing queue outside the current core package?",
+        "What is the highest safe publication role after reading the documents: sidecar candidate, queue-only note, or excluded from first-package rhetoric?"
+      ],
+      "expected_outputs": [
+        "one claim-substance table with quoted/paraphrased document support",
+        "one classification note assigning the safest LIMEN category and evidence role",
+        "one recommendation on whether Air.ai remains held or becomes a bounded non-finance sidecar candidate"
+      ],
+      "promotion_threshold": "Do not classify from the FTC page title alone; use only primary complaint/order wording plus exact procedural posture."
+    }
+  ],
+  "allowed_methods": [
+    "Public/open sources only",
+    "Reuse local LIMEN artifacts first",
+    "No authentication, no form submission, no account creation, no portal access",
+    "No access-control bypass, evasion, or repeated aggressive retries",
+    "If blocked again, record the blocked state as source-state metadata rather than event evidence"
+  ],
+  "suggested_output_paths": [
+    "results/boost/limen-boost-057/ftc-rytr-chronology-audit.tsv",
+    "results/boost/limen-boost-057/ftc-airai-classification-note.md",
+    "results/boost/limen-boost-057/ftc-hold-resolution-matrix.tsv"
+  ],
+  "safe_resource_limits": {
+    "max_targets": 2,
+    "max_public_pages_per_target": 6,
+    "max_document_downloads_per_target": 4,
+    "max_total_download_mb": 25,
+    "max_retries_per_url": 2,
+    "preferred_runtime_minutes": 20
+  },
+  "paper_thesis_use": [
+    "Could retire one reviewer-visible hold or at least convert it into a fully specified complex-posture appendix row.",
+    "Would strengthen the AI-washing / non-finance diversification discussion by separating promotion-ready FTC rows from merely title-level or procedurally unstable ones.",
+    "Feeds a dashboard or appendix badge layer for FTC sidecars, complex-posture candidates, and document-read-pending candidates."
+  ],
+  "visualization_dashboard_hook": "FTC sidecar / hold-resolution panel with columns for target_id, procedural posture, AI-role certainty, allowed publication role, and next upgrade trigger.",
+  "success_condition": "A future lane reads the primary public documents and resolves at least one of the two current hold states into a reviewer-safe role with explicit claim ceiling and chronology.",
+  "next_smallest_publishability_move": "Use this request as the bounded handoff for the next public-document-reading cycle touching Rytr or Air.ai rather than reopening generic FTC discovery or title-only summaries."
+}

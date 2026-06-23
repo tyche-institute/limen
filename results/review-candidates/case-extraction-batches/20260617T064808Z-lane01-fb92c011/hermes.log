@@ -1,0 +1,21 @@
+
+session_id: 20260617_084810_3507aa
+Готово.
+
+Созданы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260617T064808Z-lane01-fb92c011/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260617T064808Z-lane01-fb92c011/case-extraction-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260617T064808Z-lane01-fb92c011/manifest.json
+
+Итог:
+- input rows: 9
+- output rows: 9
+- verdicts: closed_noncase_source_surface = 9
+- omissions: 0
+- extras: 0
+- duplicate source_cluster_key: 0
+- key-set verification: passed
+
+Ни один кластер не был повышен в reviewed-core или ObscureAI; все закрыты как source-surface/context/register/policy/product/search surfaces без concrete case-level event/finding/action/vulnerability.

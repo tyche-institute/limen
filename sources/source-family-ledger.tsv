@@ -1,0 +1,13 @@
+source_family|authority|access_method|reuse_constraints|language_jurisdiction_scope|update_cadence|likely_case_types|saturation_metric
+AIID|International AI Policy Network|Public API|CC-BY-4.0|en,global|quarterly|ethics, governance|50%
+OECD AIM|OECD Publishing|Public API|CC-BY-4.0|en,global|biannual|policy, standards|60%
+AVID|MITRE|Public dataset download|MITRE copyright|en,US|annual|security, risk|40%
+MITRE ATLAS|MITRE|Public dataset download|MITRE copyright|en,US|annual|security, risk|30%
+MIT AI Risk Repository|MIT|Public GitHub repo|MIT license|en,US|quarterly|risk, ethics|55%
+CSET AI Harm|Stanford|Public report| educational use|en,US|biannual|harm, misuse|45%
+Public Court Sources|Nationwide courts|Web scraping|Public record|language/jurisdiction varies|ongoing|litigation, case law|20%
+Regulatory Enforcement|Agency websites|Web scraping|Public record|language/jurisdiction varies|ongoing|enforcement, compliance|25%
+Public-Sector Registers|EU/EEA countries|Web scraping|Public record|language/jurisdiction varies|ongoing|public sector, procurement|35%
+Security Advisories|CVE databases|Public API|Public record|en,global|quarterly|security, vulnerability|50%
+Reputable Media|Trusted outlets|Web archiving|Copyright|language varies|ongoing|media, reporting|30%
+Research Integrity|Academic repositories|API/public access|varies|en,global|biannual|research, verification|40%

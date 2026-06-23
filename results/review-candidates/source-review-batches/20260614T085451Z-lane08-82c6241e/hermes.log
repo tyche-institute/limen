@@ -1,0 +1,27 @@
+
+session_id: 20260614_105452_dbc84b
+Готово.
+
+Сделано:
+- Записал results TSV:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T085451Z-lane08-82c6241e/source-review-results.tsv
+- Записал summary:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T085451Z-lane08-82c6241e/source-review-summary.md
+- Обновил manifest:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T085451Z-lane08-82c6241e/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- signal_id set: совпадает
+- duplicate signal_id в output: нет
+
+Итоговые counts:
+- source_reviewed_candidate: 13
+- merge_existing_surface: 27
+- negative_evidence_candidate: 20
+- needs_named_source_extraction: 13
+- translation_review_needed: 4
+- reject_noise: 23
+
+Если хочешь, могу следующим сообщением сразу сделать короткий QC-аудит самых спорных классификаций (например translation vs needs_named_source_extraction, merge vs reject_noise) без трогания файлов.

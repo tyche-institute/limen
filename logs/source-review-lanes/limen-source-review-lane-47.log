@@ -1,0 +1,6 @@
+{"lane_id": "lane47", "status": "empty", "timestamp": "2026-06-17T06:42:04Z"}
+{"lane_id": "lane47", "status": "empty", "timestamp": "2026-06-17T06:45:49Z"}
+{"lane_id": "lane47", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T073142Z-lane47-7e473884", "status": "allocated"}
+{"lane_id": "lane47", "batch": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T073142Z-lane47-7e473884", "status": "complete", "verdict_counts": {"merge_existing_surface": 105, "needs_named_source_extraction": 24, "negative_evidence_candidate": 30, "translation_review_needed": 1}}
+{"lane_id": "lane47", "status": "empty", "timestamp": "2026-06-17T07:36:42Z"}
+{"lane_id": "lane47", "status": "empty", "timestamp": "2026-06-18T13:23:07Z"}

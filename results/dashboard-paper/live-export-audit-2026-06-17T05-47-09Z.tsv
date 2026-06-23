@@ -1,0 +1,14 @@
+as_of_utc	artifact_path	rows	sha12	role
+2026-06-17T05:47:09Z	results/dashboard/source-family-coverage.tsv	15	b1d3a0e616db	Figure 1 source-family saturation map
+2026-06-17T05:47:09Z	results/dashboard/taxonomy-heatmap.tsv	15	c0c9db0ed86a	Figure 2 taxonomy support heatmap
+2026-06-17T05:47:09Z	results/dashboard/legal-uncertainty-matrix.tsv	15	e7e9859a36b3	Figure 3 legal uncertainty matrix
+2026-06-17T05:47:09Z	results/dashboard/duplicate-review-graph.tsv	27	bb36d1fd9ddc	Figure 4 duplicate-review quality-control graph
+2026-06-17T05:47:09Z	results/dashboard/evidence-funnel.tsv	11	866475937cae	Figure 5 publication-safe evidence-tier funnel
+2026-06-17T05:47:09Z	results/dashboard/jurisdiction-language-coverage.tsv	12	8bb99a9b5e4d	Figure 6 jurisdiction/language visibility map
+2026-06-17T05:47:09Z	results/dashboard/authoritative-document-depth-facet.tsv	9	a8a4cd8b9388	Table A authoritative document-depth facet
+2026-06-17T05:47:09Z	results/dashboard/public-sector-disclosure-comparison.tsv	6	eaee7560d431	Table B public-sector disclosure asymmetry comparison
+2026-06-17T05:47:09Z	results/dashboard/security-crosswalk-coverage-panel.tsv	6	838efefa8e6d	Table C security / agentic crosswalk coverage
+2026-06-17T05:47:09Z	results/dashboard/security-threshold-ladder-panel.tsv	4	c989a5509d9e	Figure 7 security / agentic threshold ladder
+2026-06-17T05:47:09Z	results/dashboard/attestation-trust-surface-readiness.tsv	4	573b69c981fb	Figure 8 attestation trust-surface readiness
+2026-06-17T05:47:09Z	results/dashboard-paper/dashboard-paper-figure-route-registry-2026-06-16T23-33-03Z.tsv	11	2070ce096b7a	Shared figure/table route authority
+2026-06-17T05:47:09Z	results/dashboard-paper/caption-control-register-v0.1.tsv	19	d1be39b6335e	Shared caption-control authority

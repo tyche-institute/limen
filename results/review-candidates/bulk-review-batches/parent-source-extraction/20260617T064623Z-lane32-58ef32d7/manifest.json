@@ -1,0 +1,30 @@
+{
+  "batch_id": "20260617T064623Z-lane32-58ef32d7",
+  "batch_size": 24,
+  "completed_at_utc": "2026-06-17T06:49:32Z",
+  "created_at_utc": "2026-06-17T06:46:23Z",
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064623Z-lane32-58ef32d7/input.tsv",
+  "input_rows": 24,
+  "lane_id": "lane32",
+  "output_results": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064623Z-lane32-58ef32d7/parent-source-extraction-results.tsv",
+  "output_rows": 24,
+  "output_summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064623Z-lane32-58ef32d7/parent-source-extraction-summary.md",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/parent-source-extraction-queue.tsv",
+  "queue_rows": 2711,
+  "remaining_unleased_at_allocation": 24,
+  "started_at_utc": "2026-06-17T06:46:23Z",
+  "status": "complete",
+  "task": "parent-source-extraction",
+  "updated_at_utc": "2026-06-17T06:49:32Z",
+  "verdict_counts": {
+    "country_gap_no_parent_source": 24
+  },
+  "verification": {
+    "duplicate_queue_ids_in_output": [],
+    "input_rows": 24,
+    "output_rows": 24,
+    "queue_id_set_matches_input": true,
+    "result_header_matches_required": true
+  }
+}

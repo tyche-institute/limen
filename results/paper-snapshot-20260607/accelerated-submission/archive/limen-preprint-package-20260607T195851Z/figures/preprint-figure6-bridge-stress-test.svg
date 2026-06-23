@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="880" viewBox="0 0 1700 880">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111111}
+.title{font-size:58px;font-weight:700}
+.subtitle{font-size:34px;fill:#4b5563}
+.head{font-size:36px;font-weight:700}
+.label{font-size:32px}
+.small{font-size:28px;fill:#4b5563}
+.tiny{font-size:24px;fill:#4b5563}
+.num{font-size:52px;font-weight:700}
+.huge{font-size:78px;font-weight:700}
+</style>
+</defs>
+<rect width="1700" height="880" fill="#ffffff"/>
+<text x="70" y="82" class="title">Bridge stress-test counts</text>
+<text x="70" y="132" class="subtitle">Constraints are operating controls, not hidden footnotes.</text>
+<text x="115" y="220" class="label" text-anchor="start">Anchor export gap</text>
+<rect x="610" y="185" width="720" height="42" rx="0" fill="#e5e9ef" stroke="#e5e9ef" stroke-width="1"/>
+<rect x="610" y="185" width="720" height="42" rx="0" fill="#174a7c" stroke="#174a7c" stroke-width="1"/>
+<text x="1385" y="223" class="num" text-anchor="start">9</text>
+<text x="115" y="312" class="label" text-anchor="start">Identifier collision</text>
+<rect x="610" y="277" width="720" height="42" rx="0" fill="#e5e9ef" stroke="#e5e9ef" stroke-width="1"/>
+<rect x="610" y="277" width="720" height="42" rx="0" fill="#174a7c" stroke="#174a7c" stroke-width="1"/>
+<text x="1385" y="315" class="num" text-anchor="start">9</text>
+<text x="115" y="404" class="label" text-anchor="start">Translation caution</text>
+<rect x="610" y="369" width="720" height="42" rx="0" fill="#e5e9ef" stroke="#e5e9ef" stroke-width="1"/>
+<rect x="610" y="369" width="560" height="42" rx="0" fill="#174a7c" stroke="#174a7c" stroke-width="1"/>
+<text x="1385" y="407" class="num" text-anchor="start">7</text>
+<text x="115" y="496" class="label" text-anchor="start">Low confidence</text>
+<rect x="610" y="461" width="720" height="42" rx="0" fill="#e5e9ef" stroke="#e5e9ef" stroke-width="1"/>
+<rect x="610" y="461" width="480" height="42" rx="0" fill="#174a7c" stroke="#174a7c" stroke-width="1"/>
+<text x="1385" y="499" class="num" text-anchor="start">6</text>
+<text x="115" y="588" class="label" text-anchor="start">Access limit</text>
+<rect x="610" y="553" width="720" height="42" rx="0" fill="#e5e9ef" stroke="#e5e9ef" stroke-width="1"/>
+<rect x="610" y="553" width="320" height="42" rx="0" fill="#174a7c" stroke="#174a7c" stroke-width="1"/>
+<text x="1385" y="591" class="num" text-anchor="start">4</text>
+<text x="115" y="680" class="label" text-anchor="start">Document hold</text>
+<rect x="610" y="645" width="720" height="42" rx="0" fill="#e5e9ef" stroke="#e5e9ef" stroke-width="1"/>
+<rect x="610" y="645" width="160" height="42" rx="0" fill="#174a7c" stroke="#174a7c" stroke-width="1"/>
+<text x="1385" y="683" class="num" text-anchor="start">2</text>
+<line x1="95" y1="790" x2="1520" y2="790" stroke="#111111" stroke-width="4"/>
+<text x="115" y="835" class="small" text-anchor="start">Next cycle: synchronize, read held records, triage discovery, and refresh the dashboard.</text>
+</svg>

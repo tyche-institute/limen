@@ -1,0 +1,37 @@
+{
+  "batch_id": "20260616T225548Z-lane34-c91967b1",
+  "batch_size": 16,
+  "completed_at_utc": "2026-06-16T22:57:42Z",
+  "created_at_utc": "2026-06-16T22:55:48Z",
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225548Z-lane34-c91967b1/input.tsv",
+  "input_rows": 16,
+  "lane_id": "lane34",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225548Z-lane34-c91967b1/case-extraction-results.tsv",
+  "output_rows": 16,
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-source-surface-disposition-v0.1.tsv",
+  "queue_rows": 975,
+  "remaining_unleased_at_allocation": 447,
+  "review_boundary": "extraction only; no reviewed-core promotion, no ObscureAI addition, no incident truth/legal/safety/compliance/deployment/prevalence/ranking claim",
+  "started_at_utc": "2026-06-16T22:55:48Z",
+  "status": "complete",
+  "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225548Z-lane34-c91967b1/case-extraction-summary.md",
+  "task": "source-surface-case-extraction",
+  "updated_at_utc": "2026-06-16T22:57:42Z",
+  "verdict_counts": {
+    "closed_noncase_source_surface": 16
+  },
+  "verification": {
+    "duplicate_source_cluster_keys": 0,
+    "extra_source_cluster_keys": [],
+    "input_key_count": 16,
+    "input_rows": 16,
+    "missing_source_cluster_keys": [],
+    "result_key_count": 16,
+    "result_rows": 16,
+    "source_cluster_key_set_match": true,
+    "verdict_counts": {
+      "closed_noncase_source_surface": 16
+    }
+  }
+}

@@ -1,0 +1,4 @@
+AIID_Case_ID,MITRE_Vector,OECD_Principle,Source,Date
+Case_LIMEN_001,TA0011,Transparency,MITRE ATT&CK,2024-06-20
+Case_LIMEN_002,TA0022,Accountability,OECD AI Principles,2024-06-20
+Case_LIMEN_003,TA0044,Robustness,MITRE ATT&CK,2024-06-20

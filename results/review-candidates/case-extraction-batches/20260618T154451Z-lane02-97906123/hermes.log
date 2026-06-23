@@ -1,0 +1,23 @@
+
+session_id: 20260618_174452_e7ae05
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260618T154451Z-lane02-97906123/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260618T154451Z-lane02-97906123/case-extraction-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260618T154451Z-lane02-97906123/manifest.json
+
+Проверка пройдена:
+- header совпадает с требуемым
+- input rows: 1
+- output rows: 1
+- source_cluster_key set совпадает
+- дубликатов, пропусков и лишних ключей нет
+- manifest status: completed
+
+Вердикт по единственному кластеру:
+- https://in-toto.io/Attestation → closed_noncase_source_surface
+
+Точное URL-поле было проверено; https://in-toto.io/Attestation/ вернул HTTP 404. Конкретного AI edge-case event/action/vulnerability/finding/official record в supplied surface не найдено.

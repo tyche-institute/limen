@@ -1,0 +1,18 @@
+{
+  "batch_id": "20260617T075248Z-lane01-13d63c0a",
+  "batch_size": 32,
+  "created_at_utc": "2026-06-17T07:52:48Z",
+  "failed_at_utc": "2026-06-17T07:56:23Z",
+  "failure_reason": "quota_429: OpenAI Codex usage limit reached",
+  "hermes_returncode": 1,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260617T075248Z-lane01-13d63c0a/input.tsv",
+  "input_rows": 32,
+  "lane_id": "lane01",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/translation-source-review-queue.tsv",
+  "queue_rows": 551,
+  "remaining_unleased_at_allocation": 47,
+  "started_at_utc": "2026-06-17T07:52:48Z",
+  "status": "failed",
+  "task": "translation-source-review",
+  "updated_at_utc": "2026-06-17T07:56:23Z"
+}

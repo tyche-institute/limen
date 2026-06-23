@@ -1,0 +1,12 @@
+figure_id	ccr_id	canonical_path	path_exists	line_count	denominator_class	manuscript_role	verified_this_cycle
+Figure 1	CCR-008	results/dashboard/source-family-coverage.tsv	yes	15	15 source families	Source-family saturation map	2026-06-17
+Figure 2 / Table 2	CCR-001/CCR-002	results/dashboard/taxonomy-heatmap.tsv	yes	15	39/29 core; 44/34 extended	Taxonomy support heatmap	2026-06-17
+Figure 3	CCR-019/CCR-020	results/dashboard/legal-uncertainty-matrix.tsv	yes	15	15 category rows	Legal uncertainty matrix / claim-ceiling surface	2026-06-17
+Figure 4	CCR-018	results/dashboard/duplicate-review-graph.tsv	yes	27	27 edges	Duplicate-review quality-control graph	2026-06-17
+Figure 5	CCR-005	results/dashboard/evidence-funnel.tsv	yes	11	21 publication-safe lineages	Publication-safe evidence-tier funnel	2026-06-17
+Figure 6	CCR-016	results/dashboard/jurisdiction-language-coverage.tsv	yes	12	12 jurisdiction/language rows	Jurisdiction/language visibility map	2026-06-17
+Table A	CCR-009	results/dashboard/authoritative-document-depth-facet.tsv	yes	9	8 authoritative cases	Authoritative document-depth facet	2026-06-17
+Table B	CCR-015	results/dashboard/public-sector-disclosure-comparison.tsv	yes	6	5 core rows + header	Public-sector disclosure asymmetry comparison	2026-06-17
+Table C	CCR-017	results/dashboard/security-crosswalk-coverage-panel.tsv	yes	6	4 panel segments	Security/agentic crosswalk coverage (bounded companion)	2026-06-17
+Figure 7	CCR-014	results/dashboard/security-threshold-ladder-panel.tsv	yes	4	4 threshold rows	Security threshold ladder (bounded Route B companion)	2026-06-17
+Figure 8	CCR-021	results/dashboard/attestation-trust-surface-readiness.tsv	yes	4	4 trust surfaces	Attestation trust-surface readiness (bounded Route C companion)	2026-06-17

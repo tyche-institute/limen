@@ -1,0 +1,9 @@
+jurisdiction,enforcement_type,case_status,severity_score,language
+"Estonia","Data Protection Authority","Active",0.85,"Estonian"
+"Latvia","Financial Regulator","Resolved",0.72,"Latvian"
+"Georgia","Cybercrime Unit","Pending",0.91,"Georgian"
+"UK","Information Commissioner's Office","Active",0.78,"English"
+"Russia","Federal Service for Supervision of Communications","Closed",0.63,"Russian"
+"Ukraine","National Police","Investigating",0.95,"Ukrainian"
+"Lithuania","Consumer Protection Authority","Active",0.80,"Lithuanian"
+"Azerbaijan","Ministry of Internal Affairs","Pending*,0.88,"Azerbaijani"

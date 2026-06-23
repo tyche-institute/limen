@@ -1,0 +1,16 @@
+{
+  "artifact": "dashboard-surface-export-contract-v0.7",
+  "created_utc": "2026-06-18T19:45:00Z",
+  "lane": "limen-dashboard-paper-forge",
+  "outputs": [
+    "results/boost/limen-dashboard-paper-forge/dashboard-surface-export-contract-v0.7.tsv",
+    "results/boost/limen-dashboard-paper-forge/dashboard-surface-export-contract-v0.7.md"
+  ],
+  "rows": 8,
+  "canonical_ready": 8,
+  "sha256": {
+    "results/boost/limen-dashboard-paper-forge/dashboard-surface-export-contract-v0.7.tsv": "b975a2b9b67a167b6b76fc715fc36b40e157da2695672c0a834a60a584a54285",
+    "results/boost/limen-dashboard-paper-forge/dashboard-surface-export-contract-v0.7.md": "ac3418988840e558d32e53e8d03e4d453c449ed1e46f132a92adfd0ecb7029f4"
+  },
+  "claim_ceiling": "path-resolution and dashboard/paper parity only; no substantive claim promotion"
+}

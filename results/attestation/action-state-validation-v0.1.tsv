@@ -1,0 +1,16 @@
+test_id	test_group	action	subject_kind	expected	result	detail
+LIMEN-ENV-EXAMPLE-0001	positive_example	classified	case_record	PASS	PASS	Schema-valid example envelope.
+LIMEN-ENV-EXAMPLE-0002	positive_example	reviewed	case_record	PASS	PASS	Schema-valid example envelope.
+LIMEN-ENV-EXAMPLE-0003	positive_example	clustered	duplicate_cluster	PASS	PASS	Schema-valid example envelope.
+LIMEN-ENV-EXAMPLE-0004	positive_example	classified	crosswalk_row	PASS	PASS	Schema-valid example envelope.
+LIMEN-ENV-EXAMPLE-0005	positive_example	published	artifact	PASS	PASS	Schema-valid example envelope.
+LIMEN-ENV-EXAMPLE-0006	positive_example	published	artifact	PASS	PASS	Schema-valid example envelope.
+NEG-PUBLISHED-WRONG-SUBJECT	negative_control	published	case_record	FAIL	FAIL	Based on LIMEN-ENV-EXAMPLE-0005; subject_ref.kind: 'artifact' was expected
+NEG-PUBLISHED-NO-OUTPUTS	negative_control	published	artifact	FAIL	FAIL	Based on LIMEN-ENV-EXAMPLE-0005; <root>: 'outputs' is a required property
+NEG-REVIEWED-MISSING-REVIEW-STATUS	negative_control	reviewed	case_record	FAIL	FAIL	Based on LIMEN-ENV-EXAMPLE-0002; <root>: 'review_status' is a required property
+NEG-REVIEWED-MISSING-REVIEW-NOTES	negative_control	reviewed	case_record	FAIL	FAIL	Based on LIMEN-ENV-EXAMPLE-0002; <root>: 'review_notes' is a required property
+NEG-CLUSTERED-ARTIFACT-SUBJECT	negative_control	clustered	artifact	FAIL	FAIL	Based on LIMEN-ENV-EXAMPLE-0003; subject_ref.kind: 'artifact' is not one of ['duplicate_cluster', 'case_record']
+NEG-TRANSPARENCY-PROOF-PENDING-NO-RECEIPT-HASH	negative_control	published	artifact	FAIL	FAIL	Based on LIMEN-ENV-EXAMPLE-0006; transparency: 'receipt_hash' is a required property
+NEG-VC-ISSUED-NO-ISSUER	negative_control	published	artifact	FAIL	FAIL	Based on LIMEN-ENV-EXAMPLE-0006; vc: 'issuer' is a required property
+NEG-SIGNATURE-PLACEHOLDER-NO-SIGNATURE-REF	negative_control	published	artifact	FAIL	FAIL	Based on LIMEN-ENV-EXAMPLE-0006; signature_placeholders: 'signature_ref' is a required property
+NEG-SUPERSEDED-WRONG-SUBJECT	negative_control	superseded	crosswalk_row	FAIL	FAIL	Based on LIMEN-ENV-LIVE-0005; subject_ref/kind: 'crosswalk_row' is not one of ['artifact', 'case_record']

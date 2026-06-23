@@ -1,0 +1,9 @@
+surface_path	active_bundle_reference	status	note
+attestation/limen-envelope-profile-v0.1.md	results/attestation/shared-release-bundle-manifest-v0.9.tsv	aligned	present-tense Route C pointer audit
+results/attestation/route-c-readiness-audit-v0.1.tsv	results/attestation/shared-release-bundle-manifest-v0.9.tsv	aligned	present-tense Route C pointer audit closed 2026-06-08T18:34:24Z
+results/attestation/attestation-claim-support-register-v0.1.tsv	results/attestation/shared-release-bundle-manifest-v0.9.tsv	aligned	present-tense Route C pointer audit closed 2026-06-08T18:34:24Z
+results/attestation/detached-signature-verifier-experiment-request-v0.1.json	results/attestation/shared-release-bundle-manifest-v0.9.tsv	aligned	present-tense Route C pointer audit
+results/attestation/detached-signature-blocker-note-v0.1.md	results/attestation/shared-release-bundle-manifest-v0.9.tsv	aligned	present-tense Route C pointer audit
+results/attestation/profile-brief-conformance-note-v0.1.md	results/attestation/shared-release-bundle-manifest-v0.9.tsv	aligned	present-tense Route C pointer audit
+results/dashboard-paper/attestation-trust-surface-readiness-v0.1.tsv	results/attestation/shared-release-bundle-manifest-v0.9.tsv	aligned	present-tense Route C pointer audit
+next.md	results/attestation/shared-release-bundle-manifest-v0.9.tsv	aligned	present-tense Route C pointer audit

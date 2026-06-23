@@ -1,0 +1,2 @@
+queue_id	signal_id	source_review_role	review_priority	shards	queries	source_path	source_line	reason	claim_ceiling	next_action
+BPSE-03652	LIMEN-SIGNAL-297D5294C717008C	internal_aggregate	P3_candidate_review	identity-provenance	C2PA	/srv/tyche/atlas/tyche-thesis-atlas-factory/sources/sources.md	1076	Internal corpus/atlas aggregate cites a source but does not expose a standalone reviewable source surface row.	source-surface existence only from local metadata/files	extract the named source surface from the aggregate

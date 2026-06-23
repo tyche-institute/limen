@@ -1,0 +1,16 @@
+{
+  "batch_id": "20260617T080110Z-lane05-2bd2492c",
+  "batch_size": 32,
+  "created_at_utc": "2026-06-17T08:01:10Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260617T080110Z-lane05-2bd2492c/input.tsv",
+  "input_rows": 32,
+  "lane_id": "lane05",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/translation-source-review-queue.tsv",
+  "queue_rows": 551,
+  "remaining_unleased_at_allocation": 32,
+  "started_at_utc": "2026-06-17T08:01:10Z",
+  "status": "superseded_abandoned",
+  "superseded_reason": "covered_by_current_hardening_rollup_after_local_autoresolve",
+  "task": "translation-source-review",
+  "updated_at_utc": "2026-06-17T08:06:25Z"
+}

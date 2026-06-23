@@ -1,0 +1,95 @@
+# Status — limen-boost-029
+
+Generated: 2026-06-23T12:00:00Z
+Project: `limen-ai-edge-case-atlas`
+Lane: `limen-boost-029`
+Shard theme: deepfake, synthetic identity, false authorship, and provenance confusion
+Sprint: `20260607-hostile-reviewer-pass`
+
+## Artifact touched
+
+- Created `results/boost/limen-boost-029/claim-support-link.tsv`
+- Created `results/boost/limen-boost-029/claim-defense-crosswalk.tsv`
+- Created `results/boost/limen-boost-029/cycle-2026-06-23T12-00-00Z.md`
+- Refreshed `results/boost/limen-boost-029/status.md`
+- Prepended `results/boost/limen-boost-029/journal.md`
+- Prepended project `journal.md`
+- Prepended `next.md`
+
+## Paper/thesis use
+
+- Converts the shard-007 package into one lane-local claim-safe front door for manuscript, dashboard, reviewer-response, and thesis reuse, so later consumers no longer need to reconstruct the FCC hero row, governance-context band, hidden-row gates, and threshold-changing route order from scattered artifacts.
+- Gives Table 1F, `CCR-013`, and claim-level prose one machine-readable crosswalk that answers the hostile-reviewer question “what exactly may LIMEN say now, and what exact evidence would change that wording?”
+- Reduces cross-lane dependency risk by localizing the current publication-safe wording for `LIMEN-C-004A`, `LIMEN-C-004B`, the one-exemplar Table 1F architecture, and the Finland/New Hampshire/Lithuania/Pennsylvania boundary bundle.
+
+## Evidence used
+
+Priority and boundary checks this cycle:
+- `/srv/tyche/STOP` exact file check: absent
+- project `STOP` exact file check: absent
+- `/etc/tyche-factory/current-publication-sprint.md`
+- `publication-goal-card-current.md`
+- `/srv/tyche/repos/tyche-research-vault/meetings/ATHENA-CODEX-MEMORY-TRANSFER-2026-06-08.md`
+- `/srv/tyche/repos/tyche-research-vault/AGENT.md`
+- `next.md`
+
+Shard-007 control surfaces re-read before route selection:
+- `results/boost/limen-boost-007/status.md`
+- `results/boost/limen-boost-007/publication-claim-unlock-matrix.tsv`
+- `results/boost/limen-boost-007/provenance-question-role-matrix.tsv`
+- `results/boost/limen-boost-007/provenance-confusion-manuscript-bundle.tsv`
+- `results/boost/limen-boost-007/table1f-control-travel-kit.tsv`
+- `results/boost/limen-boost-007/shared-caption-propagation.tsv`
+- `results/boost/limen-boost-007/deepfake-fragility-publication-bridge.tsv`
+- `results/boost/limen-boost-007/state-origin-access-barrier.tsv`
+- `results/boost/limen-boost-055/second-results-promotion-matrix.tsv`
+- `results/boost/limen-boost-055/claim-defense-crosswalk.tsv`
+- `results/boost/limen-boost-055/provenance-hostile-reviewer-response-kit.tsv`
+- `results/dashboard-paper/caption-control-register-v0.1.tsv:CCR-013`
+
+## Paper-readiness delta
+
+This cycle chose claim-defense consolidation rather than another retrieval replay. The strongest remaining reviewer-visible gap was no longer “which route is strongest?” — that was already explicit in `publication-claim-unlock-matrix.tsv` and `second-results-promotion-matrix.tsv` — but “what exact sentence-level claim or package-level statement is safe to reuse now without silently widening scope?”
+
+`claim-defense-crosswalk.tsv` makes that front-door contract explicit inside lane 007 itself. It localizes four reuse-critical surfaces: `LIMEN-C-004A` as governance context only, `LIMEN-C-004B` as the sole default-visible lifecycle-closure result, the one-exemplar Table 1F architecture as an evidence-roles panel rather than a deepfake count, and the Finland/New Hampshire/Lithuania/Pennsylvania bundle as a gated limitations/upgrade surface. That is a real paper-readiness delta because later manuscript, dashboard, reviewer-response, and thesis users can now cite one lane-local crosswalk instead of reassembling the same safe wording from multiple bundles across shards 007 and 055.
+
+## Claims verified, rewritten, or dropped
+
+- Verified and preserved: `LIMEN-C-004A` remains governance-context support only, not a second event-closure family.
+- Verified and preserved: `LIMEN-C-004B` remains the only default-visible shard-007 substantive result.
+- Verified and preserved: the publishable Table 1F posture remains one-exemplar evidence architecture, not a denominator-ready deepfake incident panel.
+- Verified and preserved: Finland remains the best threshold-changing non-telecom route; New Hampshire remains the stronger chronology-deepening but later-stage-authority-dependent route; Lithuania remains barrier-dominated; Pennsylvania remains context-only or metadata-only depending on surface.
+- Dropped: any residual need to route current claim-safe wording primarily through cross-lane 055 helper files when lane-local shard-007 surfaces already suffice.
+
+## Uncertainty and evidence tier
+
+- Evidence tier for this cycle: synthesis over existing bounded public-source artifacts and previously landed reviewer-control surfaces.
+- Overall cycle uncertainty: low for the claim ceilings and route ordering encoded in the cited files; medium for when, or whether, a threshold-changing Finland or New Hampshire source will appear.
+- Interpretive caution: the new crosswalk governs publication-safe wording and reuse discipline, not factual event truth beyond already-supported source ceilings.
+
+## Visualization/dashboard hook
+
+Primary hook:
+- `results/boost/limen-boost-029/claim-defense-crosswalk.tsv`
+
+Suggested views:
+- claim-text-to-caption-control card for `CCR-013` consumers
+- reviewer-response side panel showing the difference between governance context, default-visible closure, and hidden-row upgrade candidates
+- thesis claim-support inset mapping safe statements to stronger-source needs
+
+Interpretation supported:
+- shard 007 is publishable because its evidence roles are explicit, not because it has a balanced deepfake case count;
+- the FCC lifecycle row remains the only default-visible substantive result;
+- Finland, New Hampshire, Lithuania, and Pennsylvania remain analytically useful only under distinct non-default ceilings.
+
+## Remaining blocker
+
+Shard 007 still needs one threshold-changing route — most plausibly a compliant Finland direct-body/public-authority companion or a later-stage New Hampshire authority record — before the package can broaden beyond the one-exemplar substantive-results architecture.
+
+## Next smallest publishability move
+
+Use `results/boost/limen-boost-029/claim-defense-crosswalk.tsv` together with `results/boost/limen-boost-029/publication-claim-unlock-matrix.tsv`, `results/boost/limen-boost-029/provenance-question-role-matrix.tsv`, `results/boost/limen-boost-055/second-results-promotion-matrix.tsv`, and `results/dashboard-paper/caption-control-register-v0.1.tsv:CCR-013` whenever manuscript, dashboard, reviewer-response, or thesis surfaces need one exact statement of what shard 007 may claim now and what threshold event would actually justify stronger wording.
+
+## Lane recommendation
+
+Hold lane count steady. This cycle added a real reviewer-facing reuse artifact, but the next substantive shard-007 gain still depends on one threshold-changing public source rather than another same-shape packaging layer unless an active shared consumer drifts below this new claim-defense contract.

@@ -1,0 +1,58 @@
+Traceback (most recent call last):
+  File "/home/anton/.hermes/hermes-agent/agent/conversation_loop.py", line 1172, in run_conversation
+    response = agent._interruptible_streaming_api_call(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/run_agent.py", line 3250, in _interruptible_streaming_api_call
+    return interruptible_streaming_api_call(self, api_kwargs, on_first_delta=on_first_delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/agent/chat_completion_helpers.py", line 1400, in interruptible_streaming_api_call
+    return agent._interruptible_api_call(api_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/run_agent.py", line 3077, in _interruptible_api_call
+    return interruptible_api_call(self, api_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/agent/chat_completion_helpers.py", line 414, in interruptible_api_call
+    raise result["error"]
+  File "/home/anton/.hermes/hermes-agent/agent/chat_completion_helpers.py", line 208, in _call
+    result["response"] = agent._run_codex_stream(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/run_agent.py", line 2733, in _run_codex_stream
+    return run_codex_stream(self, api_kwargs, client, on_first_delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/agent/codex_runtime.py", line 227, in run_codex_stream
+    with active_client.responses.stream(**api_kwargs) as stream:
+  File "/home/anton/.hermes/hermes-agent/venv/lib/python3.12/site-packages/openai/lib/streaming/responses/_responses.py", line 111, in __enter__
+    raw_stream = self.__api_request()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/venv/lib/python3.12/site-packages/openai/resources/responses/responses.py", line 898, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'type': 'usage_limit_reached', 'message': 'The usage limit has been reached', 'plan_type': 'pro', 'resets_at': 1781684340, 'eligible_promo': None, 'resets_in_seconds': 1941}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/anton/.hermes/hermes-agent/venv/bin/hermes", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/anton/.hermes/hermes-agent/hermes_cli/main.py", line 13993, in main
+    args.func(args)
+  File "/home/anton/.hermes/hermes-agent/hermes_cli/main.py", line 1810, in cmd_chat
+    cli_main(**kwargs)
+  File "/home/anton/.hermes/hermes-agent/cli.py", line 15023, in main
+    result = cli.agent.run_conversation(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/run_agent.py", line 4165, in run_conversation
+    return run_conversation(self, user_message, system_message, conversation_history, task_id, stream_callback, persist_user_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/agent/conversation_loop.py", line 3066, in run_conversation
+    time.sleep(0.2)  # Check interrupt every 200ms
+    ^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/cli.py", line 14943, in _signal_handler_q
+    raise KeyboardInterrupt()
+KeyboardInterrupt

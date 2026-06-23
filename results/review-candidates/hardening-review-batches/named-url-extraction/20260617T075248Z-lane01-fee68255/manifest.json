@@ -1,0 +1,18 @@
+{
+  "batch_id": "20260617T075248Z-lane01-fee68255",
+  "batch_size": 15,
+  "created_at_utc": "2026-06-17T07:52:48Z",
+  "failed_at_utc": "2026-06-17T07:56:33Z",
+  "failure_reason": "quota_429: OpenAI Codex usage limit reached",
+  "hermes_returncode": 1,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260617T075248Z-lane01-fee68255/input.tsv",
+  "input_rows": 15,
+  "lane_id": "lane01",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/named-url-extraction-queue.tsv",
+  "queue_rows": 87,
+  "remaining_unleased_at_allocation": 64,
+  "started_at_utc": "2026-06-17T07:52:48Z",
+  "status": "failed",
+  "task": "named-url-extraction",
+  "updated_at_utc": "2026-06-17T07:56:33Z"
+}

@@ -1,0 +1,24 @@
+
+session_id: 20260617_005556_0794a1
+Done.
+
+Written:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane41-f0ab6bf0/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane41-f0ab6bf0/case-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane41-f0ab6bf0/manifest.json
+
+Verification:
+- input rows: 16
+- result rows: 16
+- required header match: yes
+- source_cluster_key set match: yes
+- duplicate result keys: 0
+- manifest status: completed
+
+Verdicts:
+- closed_noncase_source_surface: 16
+- case_candidate_for_hardening: 0
+
+No reviewed-core promotion or ObscureAI addition performed.

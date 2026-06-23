@@ -1,0 +1,121 @@
+{
+  "blockers": [
+    {
+      "code": "bulk_not_clean",
+      "message": "Bulk review rollup is not clean."
+    },
+    {
+      "code": "bulk_parent_source_extraction_missing",
+      "message": "Bulk task parent_source_extraction has missing rows.",
+      "value": 2
+    },
+    {
+      "code": "token_free_review_missing_rows",
+      "message": "Token-free review audit found missing review rows.",
+      "value": 2
+    },
+    {
+      "code": "token_free_review_incomplete_layers",
+      "message": "Token-free review audit found incomplete layers.",
+      "value": [
+        "bulk_parent_source_extraction"
+      ]
+    }
+  ],
+  "counts": {
+    "bulk_missing_rows": 2,
+    "candidate_rows": 55725,
+    "case_autoreview_paid_token_required_rows": 0,
+    "case_autoreview_token_free_auto_close_rows": 0,
+    "case_autoreview_token_free_promotion_candidate_rows": 0,
+    "case_extraction_missing_rows": 0,
+    "direct_source_missing_rows": 0,
+    "first_pass_reviewed_rows": 55725,
+    "hardening_translation_missing_rows": 0,
+    "hardening_url_missing_rows": 0,
+    "hermes_active_lane_sessions": 3,
+    "hermes_codex_auth_present": 1,
+    "hermes_latest_direct_source_backlog": 0,
+    "hermes_review_backlog_rows": 2,
+    "hermes_supervisor_cycle_complete_age_seconds": 57,
+    "hermes_supervisor_fresh": 1,
+    "limen_live_candidate_rows": 55725,
+    "limen_live_first_pass_reviewed_rows": 55725,
+    "obscure_ai_live_case_rows": 297,
+    "obscure_ai_local_case_rows": 297,
+    "obscure_ai_project_case_rows": 297,
+    "obscure_ai_ready_now": 0,
+    "promotion_packet_rows": 2003,
+    "promotion_source_clusters": 974,
+    "token_free_human_required_rows": 0,
+    "token_free_incomplete_layers": 1,
+    "token_free_missing_review_rows": 2,
+    "token_free_paid_token_required_rows": 2
+  },
+  "generated_at_utc": "2026-06-23T15:34:52Z",
+  "hermes_readiness": {
+    "active_lane_sessions": 3,
+    "default_provider": "nvcloud",
+    "fallback_has_openai_codex": false,
+    "generated_at_utc": "2026-06-23T15:34:53Z",
+    "hermes_review_backlog_rows": 2,
+    "latest_cycle_complete_utc": "2026-06-23T15:33:56Z",
+    "latest_cycle_start_utc": "2026-06-23T15:34:41Z",
+    "latest_direct_source_backlog": 0,
+    "ok": true,
+    "openai_codex_auth_present": true,
+    "supervisor_fresh": true,
+    "supervisor_session_present": true
+  },
+  "last_process_run": {
+    "generated_at_utc": "2026-06-23T15:34:54Z",
+    "returncode": 0
+  },
+  "next_action": "run tools/limen_process_available_data.sh --deploy-frontends",
+  "ok": false,
+  "public_snapshot": {
+    "limen_live_generated_at_utc": "2026-06-23T15:34:22Z",
+    "obscure_ai_live_case_rows": 297,
+    "obscure_ai_live_generated_at_utc": "2026-06-23T15:34:41Z",
+    "ok": true
+  },
+  "token_free_review_audit": {
+    "current_human_required_rows": 0,
+    "current_missing_review_rows": 2,
+    "current_paid_token_required_rows": 2,
+    "generated_at_utc": "2026-06-23T15:34:52Z",
+    "incomplete_layers": [
+      "bulk_parent_source_extraction"
+    ],
+    "ok": false
+  },
+  "warnings": [
+    {
+      "code": "token_free_review_paid_tokens_needed",
+      "message": "Some rows cannot be closed by the no-token review path.",
+      "value": 2
+    },
+    {
+      "code": "runtime_log_stale",
+      "message": "Runtime heartbeat log is stale.",
+      "value": {
+        "age_seconds": 431650,
+        "exists": true,
+        "fresh": false,
+        "max_age_seconds": 1200,
+        "path": "/srv/tyche/local-projects/home-anton-projects/tyche-research-vault/logs/limen-observatory-refresh.log"
+      }
+    },
+    {
+      "code": "runtime_log_stale",
+      "message": "Runtime heartbeat log is stale.",
+      "value": {
+        "age_seconds": 431635,
+        "exists": true,
+        "fresh": false,
+        "max_age_seconds": 1200,
+        "path": "/srv/tyche/local-projects/home-anton-projects/tyche-research-vault/logs/obscure-ai-observatory-refresh.log"
+      }
+    }
+  ]
+}

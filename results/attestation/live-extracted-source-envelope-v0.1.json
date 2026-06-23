@@ -1,0 +1,176 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-0008",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-07T09:29:39Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-extracted-live-20260607T092939Z",
+  "action": "extracted",
+  "subject_ref": {
+    "kind": "source_record",
+    "id": "LIMEN-S-041",
+    "path_or_uri": "sources/sources.md#LIMEN-S-041",
+    "title": "CVE-2026-44843 raw CVE record for LangChain unsafe deserialization and message-history poisoning risk",
+    "version": "2026-06-07"
+  },
+  "inputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "sources/sources.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:ba98b28cd407dcfab485e5ec1d466566711cc1ced9c15b6728121835fe45366e",
+      "captured_at": "2026-06-07T00:00:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche source ledger derived from public/open materials"
+    },
+    {
+      "kind": "case_record",
+      "locator": "data/cases/security-agentic-candidates.jsonl#LIMEN-000008",
+      "media_type": "application/x-ndjson",
+      "sha256": "sha256:a63a48616c424ab4429047df6bcce6a97951ab849381d2e8bc0f060090e3ab12",
+      "captured_at": "2026-06-07T06:20:00Z",
+      "language": "en",
+      "jurisdiction": "Global",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche case file derived from public/open source and advisory material",
+      "record_status": "authoritative",
+      "evidence_tier": "T3_authoritative_source"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "schema/limen-envelope.schema.json",
+      "media_type": "application/json",
+      "sha256": "sha256:bd28c77296aa040d7cbc7c2bb26655e9d1529dba1a138fd1c5104dcc1b7ee78d",
+      "captured_at": "2026-06-07T07:22:45Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche schema artifact"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/live-extracted-source-note-v0.1.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:18d309db42df1918b3f4e3d5fa8fc4396265112f8d0ee75459040f8329aae412",
+      "emitted_at": "2026-06-07T09:29:39Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact documenting a live extraction receipt"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "A1",
+      "assertion_type": "extraction_event",
+      "statement": "A live LIMEN receipt records that source-ledger row LIMEN-S-041 can be normalized into the current structured case row LIMEN-000008 in the shared security candidate file.",
+      "value": {
+        "source_id": "LIMEN-S-041",
+        "derived_case_id": "LIMEN-000008",
+        "record_status": "authoritative",
+        "evidence_tier": "T3_authoritative_source",
+        "limen_categories": [
+          "security_risk",
+          "agentic_control_failure"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A2",
+      "assertion_type": "crosswalk_mapping",
+      "statement": "The extracted source-to-case link now has a live receipt path that connects source observation to the already-live classified security receipt for LIMEN-000008.",
+      "value": {
+        "source_to_case_link": "LIMEN-S-041->LIMEN-000008",
+        "downstream_live_receipt": "results/attestation/live-classified-security-envelope-v0.1.json",
+        "dashboard_hooks": [
+          "attestation_timeline",
+          "evidence_tier_funnel",
+          "security_agentic_crosswalk"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A3",
+      "assertion_type": "uncertainty_note",
+      "statement": "This extraction receipt does not prove that all source text is complete, that the resulting classification is uniquely correct, or that any impact example was realized in practice.",
+      "value": {
+        "excluded_claims": [
+          "truth",
+          "legality",
+          "compliance",
+          "certification",
+          "safety",
+          "completeness"
+        ],
+        "additional_exclusions": [
+          "unique_coding_correctness",
+          "realized_incident_proof"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    }
+  ],
+  "schema_refs": [
+    "urn:tyche:limen:envelope:0.1"
+  ],
+  "tooling": {
+    "tool_manifest_hash": "sha256:bd28c77296aa040d7cbc7c2bb26655e9d1529dba1a138fd1c5104dcc1b7ee78d",
+    "prompt_hash": "sha256:8888888888888888888888888888888888888888888888888888888888888888",
+    "model_name": "python3-stdlib+jsonschema",
+    "provider": "local_execution",
+    "schema_version": "0.1"
+  },
+  "review_status": "lane_checked",
+  "review_notes": [
+    "This live receipt attests a source-to-case extraction step only.",
+    "The existing case row remains a bounded structured interpretation of public source material rather than a legal or factual adjudication."
+  ],
+  "dashboard_hooks": [
+    "attestation_timeline",
+    "evidence_tier_funnel",
+    "security_agentic_crosswalk"
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ]
+}

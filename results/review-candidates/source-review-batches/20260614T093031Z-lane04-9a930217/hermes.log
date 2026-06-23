@@ -1,0 +1,26 @@
+
+session_id: 20260614_113032_59e51d
+Готово.
+
+Записал:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093031Z-lane04-9a930217/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093031Z-lane04-9a930217/source-review-summary.md
+
+Обновил:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093031Z-lane04-9a930217/manifest.json
+
+Проверка пройдена:
+- input rows: 100
+- output rows: 100
+- signal_id set match: true
+- duplicate output signal_id: 0
+
+Итоговые counts:
+- source_reviewed_candidate: 8
+- merge_existing_surface: 6
+- negative_evidence_candidate: 29
+- needs_named_source_extraction: 15
+- translation_review_needed: 3
+- reject_noise: 39
+
+Если хочешь, следующим ходом могу сделать mini-audit самых ценных 15 rows из needs_named_source_extraction и предложить порядок их hardening.

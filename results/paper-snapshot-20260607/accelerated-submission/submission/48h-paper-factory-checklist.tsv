@@ -1,0 +1,9 @@
+rank	workstream	owner_state	task	artifact	done_condition
+1	reliability	needs_human_second_coder	Run 15-row second-coder audit	audit/second-coder-worksheet.tsv	Worksheet completed and adjudication table filled.
+2	manuscript	codex_done_first_draft	Use draft as paper spine	manuscript/limen-route-a-manuscript-draft.md	Author reviews and trims to target venue length.
+3	figures	codex_done_first_pass	Use five generated figure files	figures/figure*.png; figures/figure*.svg	Visuals inserted and captions checked against claim register.
+4	dashboard	builder_ready	Load frozen exports	dashboard/dashboard-refresh-handoff.md	Public observatory shows frozen denominator and sidecar split.
+5	claims	codex_done_first_pass	Check every caption against claim register	paper/paper-claim-register-v0.1.tsv	No prevalence/legal/compliance overread remains.
+6	negative_results	codex_done_first_pass	Keep negative results in main paper or appendix	review/negative-results-table.tsv	Blocked/partial evidence is visible and cited.
+7	sources	codex_done_first_pass	Final source-link spot check	exports/public-link-source-check-notes.tsv	No bypass; 403s and blocked records documented.
+8	submission	author_pending	Choose venue and format	manuscript PDF / MD	Venue style applied after content freeze.

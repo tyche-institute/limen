@@ -1,0 +1,255 @@
+#!/usr/bin/env python3
+"""Materialize LIMEN CPU-mined signals as review candidates.
+
+The CPU miners produce broad public-source signals. This script converts the
+latest shard outputs into an explicit review-candidate ledger, excluding
+self-referential miner echoes so dashboard counts do not treat recursive
+`matches.tsv` rows as fresh evidence.
+"""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import re
+import argparse
+import sys
+from collections import Counter
+from datetime import datetime, timezone
+from pathlib import Path
+
+
+PROJECT_ROOT = Path("/srv/tyche/projects/limen-ai-edge-case-atlas")
+CPU_ROOT = PROJECT_ROOT / "results" / "cpu-mining"
+OUT_ROOT = PROJECT_ROOT / "results" / "review-candidates"
+JOURNAL = PROJECT_ROOT / "journal.md"
+
+SHARDS = [
+    "health-finance-education",
+    "identity-provenance",
+    "legal-research",
+    "public-sector",
+    "residual-weird",
+    "security-agentic",
+]
+
+SELF_ECHO_MARKERS = [
+    "/results/cpu-mining/",
+    "/results/dashboard/",
+    "/results/review-candidates/",
+]
+
+
+def raise_csv_field_limit() -> None:
+    limit = sys.maxsize
+    while True:
+        try:
+            csv.field_size_limit(limit)
+            return
+        except OverflowError:
+            limit //= 10
+
+
+raise_csv_field_limit()
+
+
+def utc_now() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def latest_matches(shard: str) -> Path | None:
+    files = sorted((CPU_ROOT / shard).glob("*/matches.tsv"))
+    return files[-1] if files else None
+
+
+def is_self_echo(path: str) -> bool:
+    return any(marker in path for marker in SELF_ECHO_MARKERS)
+
+
+def stable_key(row: dict[str, str]) -> str:
+    parts = [
+        row.get("query", "").strip().lower(),
+        row.get("path", "").strip(),
+        row.get("line", "").strip(),
+        row.get("snippet_hash", "").strip(),
+    ]
+    return "\t".join(parts)
+
+
+def signal_id(key: str) -> str:
+    return "LIMEN-SIGNAL-" + hashlib.sha256(key.encode("utf-8")).hexdigest()[:16].upper()
+
+
+def clean_cell(value: str, limit: int | None = None) -> str:
+    cleaned = re.sub(r"\s+", " ", value or "").strip()
+    if limit is not None:
+        return cleaned[:limit]
+    return cleaned
+
+
+def read_latest_signals() -> tuple[list[dict[str, str]], dict[str, object]]:
+    records: dict[str, dict[str, str]] = {}
+    raw_rows = 0
+    self_echo_rows = 0
+    duplicate_rows = 0
+    inputs: dict[str, str] = {}
+
+    for shard in SHARDS:
+        path = latest_matches(shard)
+        if not path:
+            continue
+        inputs[shard] = str(path)
+        with path.open("r", encoding="utf-8", newline="") as fh:
+            reader = csv.DictReader(fh, delimiter="\t")
+            for row in reader:
+                raw_rows += 1
+                source_path = row.get("path", "")
+                if is_self_echo(source_path):
+                    self_echo_rows += 1
+                    continue
+                key = stable_key(row)
+                if key in records:
+                    duplicate_rows += 1
+                    existing = records[key]
+                    existing["shards"] = ";".join(sorted(set(existing["shards"].split(";") + [shard])))
+                    existing["queries"] = ";".join(sorted(set(existing["queries"].split(";") + [row.get("query", "")])))
+                    continue
+                records[key] = {
+                    "signal_id": signal_id(key),
+                    "review_state": "review_candidate_pending",
+                    "candidate_state": "review_candidate",
+                    "shards": shard,
+                    "queries": clean_cell(row.get("query", "")),
+                    "source_path": clean_cell(source_path),
+                    "source_line": clean_cell(row.get("line", "")),
+                    "snippet_hash": clean_cell(row.get("snippet_hash", "")),
+                    "snippet": clean_cell(row.get("snippet", ""), limit=320),
+                    "review_priority": priority_for(row, shard),
+                    "review_reason": reason_for(row, shard),
+                    "claim_ceiling": "public-source signal only; no prevalence, truth, legality, compliance, safety, or deployment claim before review",
+                    "next_review_action": "human_or_hermes_review_for_promotion_rejection_or_merge",
+                }
+
+    rows = sorted(records.values(), key=lambda r: (priority_sort(r["review_priority"]), r["signal_id"]))
+    meta = {
+        "raw_rows": raw_rows,
+        "self_echo_rows_excluded": self_echo_rows,
+        "duplicate_rows_collapsed": duplicate_rows,
+        "review_candidate_rows": len(rows),
+        "inputs": inputs,
+    }
+    return rows, meta
+
+
+def priority_for(row: dict[str, str], shard: str) -> str:
+    text = " ".join([row.get("query", ""), row.get("path", ""), row.get("snippet", "")]).lower()
+    if any(token in text for token in ["gov", "europa.eu", "ftc.gov", "sec.gov", "ico.org", "datatilsynet", "court", "tribunal"]):
+        return "P1_official_or_regulator_review"
+    if shard in {"public-sector", "legal-research", "security-agentic"}:
+        return "P2_article_relevance_review"
+    return "P3_candidate_review"
+
+
+def priority_sort(priority: str) -> int:
+    if priority.startswith("P1"):
+        return 1
+    if priority.startswith("P2"):
+        return 2
+    return 3
+
+
+def reason_for(row: dict[str, str], shard: str) -> str:
+    query = row.get("query", "")
+    return f"latest non-self CPU-mined {shard} signal matched query `{query}`"
+
+
+def write_outputs(rows: list[dict[str, str]], meta: dict[str, object], timestamp: str, write_journal: bool) -> None:
+    OUT_ROOT.mkdir(parents=True, exist_ok=True)
+
+    ledger = OUT_ROOT / "all-signals-review-candidates.tsv"
+    fieldnames = [
+        "signal_id",
+        "review_state",
+        "candidate_state",
+        "review_priority",
+        "shards",
+        "queries",
+        "source_path",
+        "source_line",
+        "snippet_hash",
+        "snippet",
+        "review_reason",
+        "claim_ceiling",
+        "next_review_action",
+    ]
+    with ledger.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, delimiter="\t", fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
+
+    priority_counts = Counter(row["review_priority"] for row in rows)
+    shard_counts = Counter()
+    for row in rows:
+        for shard in row["shards"].split(";"):
+            shard_counts[shard] += 1
+
+    status = {
+        "generated_at_utc": timestamp,
+        "policy": "all_latest_non_self_cpu_signals_are_materialized_as_review_candidates",
+        "ledger": str(ledger),
+        **meta,
+        "review_state_counts": {"review_candidate_pending": len(rows)},
+        "review_priority_counts": dict(sorted(priority_counts.items())),
+        "shard_counts": dict(sorted(shard_counts.items())),
+        "excluded_scope": {
+            "self_referential_cpu_mining_rows": "excluded from review-candidate denominator",
+            "claim_boundary": "candidate status is not reviewed-core status and not incident truth",
+        },
+    }
+
+    status_json = OUT_ROOT / "review-candidate-status.json"
+    status_md = OUT_ROOT / "status.md"
+    with status_json.open("w", encoding="utf-8") as fh:
+        json.dump(status, fh, indent=2, sort_keys=True)
+        fh.write("\n")
+
+    with status_md.open("w", encoding="utf-8") as fh:
+        fh.write("# LIMEN Review-Candidate Status\n\n")
+        fh.write(f"Generated UTC: {timestamp}\n\n")
+        fh.write("Policy: all latest non-self CPU-mined signals are materialized as review candidates.\n\n")
+        fh.write(f"- Raw latest shard rows: `{meta['raw_rows']}`\n")
+        fh.write(f"- Self-referential miner echoes excluded: `{meta['self_echo_rows_excluded']}`\n")
+        fh.write(f"- Duplicate rows collapsed: `{meta['duplicate_rows_collapsed']}`\n")
+        fh.write(f"- Review-candidate rows: `{len(rows)}`\n")
+        fh.write(f"- Ledger: `{ledger}`\n\n")
+        fh.write("## Review Priority Counts\n\n")
+        for key, value in sorted(priority_counts.items()):
+            fh.write(f"- `{key}`: `{value}`\n")
+        fh.write("\n## Boundary\n\n")
+        fh.write("`review_candidate_pending` means every signal is in the review queue. It does not mean the signal is a reviewed core example, an incident truth finding, a legal conclusion, a prevalence denominator, or a deployment claim.\n")
+
+    if write_journal:
+        with JOURNAL.open("a", encoding="utf-8") as fh:
+            fh.write(f"\n## {timestamp} - all signals materialized as review candidates\n\n")
+            fh.write(
+                "Materialized latest non-self CPU-mined signals into "
+                f"`results/review-candidates/all-signals-review-candidates.tsv` with `{len(rows)}` "
+                "review-candidate rows. Excluded self-referential CPU-mining echoes and kept all rows at "
+                "`review_candidate_pending` until Hermes/human adjudication promotes, merges, or rejects them. "
+                "No broad crawling, submission, deposit, portal action, or public claim expansion occurred.\n"
+            )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--no-journal", action="store_true", help="Refresh ledgers without appending journal entry.")
+    args = parser.parse_args()
+    timestamp = utc_now()
+    rows, meta = read_latest_signals()
+    write_outputs(rows, meta, timestamp, write_journal=not args.no_journal)
+    print(json.dumps({"timestamp": timestamp, **meta}, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()

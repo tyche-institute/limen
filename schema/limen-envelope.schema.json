@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LIMEN Envelope Schema",
+  "type": "object",
+  "properties": {
+    "header": {
+      "type": "object",
+      "properties": {
+        "case_id": { "type": "string" },
+        "timestamp_utc": { "type": "string", "format": "date-time" },
+        "source_ref": { "type": "string" },
+        "language": { "type": "string" },
+        "authority_score": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "required": ["case_id", "timestamp_utc", "source_ref", "language", "authority_score"]
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "extraction_method": { "type": "string" },
+        "classification_tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "citation_format": { "type": "string" },
+        "rights_terms": { "type": "string" }
+      },
+      "required": ["extraction_method", "classification_tags", "citation_format", "rights_terms"]
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "raw_text": { "type": "string" },
+        "translated_text": { "type": "string" },
+        "annotated_claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "claim_text": { "type": "string" },
+              "traceability_links": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            },
+            "required": ["claim_text", "traceability_links"]
+          }
+        },
+        "supporting_evidence": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["raw_text", "annotated_claims", "supporting_evidence"]
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "vc_hash": { "type": "string" },
+        "scitt_receipt": { "type": "string" },
+        "c2pa_manifest": { "type": "string" },
+        "checksums": {
+          "type": "object",
+          "properties": {
+            "raw_sha256": { "type": "string" },
+            "processed_sha256": { "type": "string" }
+          }
+        }
+      },
+      "required": ["vc_hash", "scitt_receipt", "c2pa_manifest", "checksums"]
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "digital_signature": { "type": "string" },
+        "reviewer_endorsement": { "type": "string" }
+      }
+    }
+  },
+  "required": ["header", "metadata", "payload", "provenance", "verification"]
+}
