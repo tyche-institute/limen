@@ -1,0 +1,6 @@
+artifact	prior_state	new_state	note
+results/crosswalks/mit-ai-risk-local-taxonomy-bridge-v0.1.tsv	4 shared bridge rows	5 shared bridge rows	Added MITAIR-BRIDGE-005 for education_workplace_or_hr -> MITAIR-S1-1 with bounded exemplar LIMEN-000002
+results/crosswalks/source-threshold-priority-board-v0.1.tsv	mixed three-row wording	5-row wording	MIT AI Risk threshold now described as sixth bridge row or second bounded slice
+results/crosswalks/source-access-reuse-verification-v0.1.tsv	stale fourth-row blocker wording	truthful sixth-row blocker wording	Helper currentness repair only; no new retrieval
+results/crosswalks/source-reuse-stratification-board-v0.1.tsv	stale fourth-row threshold wording	truthful sixth-row threshold wording	Preserves bounded structured workbook overlay posture
+results/crosswalks/source-status-v0.1.md	four-bridge snapshot	five-bridge snapshot	Front door now includes education/workplace fairness bridge

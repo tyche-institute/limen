@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1220" viewBox="0 0 1800 1220">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.title{font-size:46px;font-weight:700}
+.subtitle{font-size:28px;fill:#526071}
+.section{font-size:29px;font-weight:700}
+.label{font-size:27px}
+.small{font-size:22px;fill:#526071}
+.tiny{font-size:18px;fill:#526071}
+.number{font-size:40px;font-weight:700}
+</style>
+</defs>
+<rect width="1800" height="1220" fill="#ffffff"/>
+<text x="60" y="70" class="title">Figure 1. LIMEN is a layered observatory</text>
+<text x="60" y="108" class="subtitle">The reviewed core sits inside a larger system for sources, candidates, links, and discovery.</text>
+<rect x="85" y="170" width="500" height="155" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="120" y="234" class="number" fill="#2166ac">21</text>
+<text x="235" y="228" class="section">Reviewed core</text>
+<text x="235" y="262" class="small">duplicate-controlled case threads</text>
+<rect x="655" y="170" width="500" height="155" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="690" y="234" class="number" fill="#188b5b">7</text>
+<text x="805" y="228" class="section">Side anchors</text>
+<text x="805" y="262" class="small">official or public records outside the</text>
+<text x="805" y="289" class="small">main count</text>
+<rect x="1225" y="170" width="500" height="155" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="1260" y="234" class="number" fill="#087f8c">13</text>
+<text x="1375" y="228" class="section">Source anchors</text>
+<text x="1375" y="262" class="small">dated public records for paper use</text>
+<rect x="85" y="375" width="500" height="155" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="120" y="439" class="number" fill="#6b4cb4">156</text>
+<text x="235" y="433" class="section">Public-link checks</text>
+<text x="235" y="467" class="small">retrieval and source-check rows</text>
+<rect x="655" y="375" width="500" height="155" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="690" y="439" class="number" fill="#c97700">15</text>
+<text x="805" y="433" class="section">Source families</text>
+<text x="805" y="467" class="small">kinds of public evidence tracked</text>
+<rect x="1225" y="375" width="500" height="155" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="1260" y="439" class="number" fill="#c43c39">15</text>
+<text x="1375" y="433" class="section">Watch categories</text>
+<text x="1375" y="467" class="small">topic areas and gaps</text>
+<rect x="85" y="605" width="1630" height="315" rx="24" fill="#f1f6fb" stroke="#d7dde8" stroke-width="2"/>
+<text x="125" y="677" class="title">57,603 discovery signals</text>
+<text x="125" y="717" class="subtitle">recorded public-source mining leads; not reviewed cases</text>
+<text x="125" y="779" class="small">Public sector</text>
+<rect x="500" y="760" width="900" height="20" rx="8" fill="#edf1f7"/>
+<rect x="500" y="760" width="900" height="20" rx="8" fill="#188b5b"/>
+<text x="1418" y="780" class="small">23,981</text>
+<text x="125" y="813" class="small">Identity and provenance</text>
+<rect x="500" y="794" width="900" height="20" rx="8" fill="#edf1f7"/>
+<rect x="500" y="794" width="447" height="20" rx="8" fill="#087f8c"/>
+<text x="965" y="814" class="small">11,931</text>
+<text x="125" y="847" class="small">Legal research</text>
+<rect x="500" y="828" width="900" height="20" rx="8" fill="#edf1f7"/>
+<rect x="500" y="828" width="247" height="20" rx="8" fill="#2166ac"/>
+<text x="765" y="848" class="small">6,595</text>
+<text x="125" y="881" class="small">Residual and weird</text>
+<rect x="500" y="862" width="900" height="20" rx="8" fill="#edf1f7"/>
+<rect x="500" y="862" width="201" height="20" rx="8" fill="#c43c39"/>
+<text x="719" y="882" class="small">5,366</text>
+<text x="125" y="915" class="small">Security and agentic</text>
+<rect x="500" y="896" width="900" height="20" rx="8" fill="#edf1f7"/>
+<rect x="500" y="896" width="187" height="20" rx="8" fill="#6b4cb4"/>
+<text x="705" y="916" class="small">4,991</text>
+<text x="125" y="949" class="small">Health, finance, education</text>
+<rect x="500" y="930" width="900" height="20" rx="8" fill="#edf1f7"/>
+<rect x="500" y="930" width="177" height="20" rx="8" fill="#c97700"/>
+<text x="695" y="950" class="small">4,739</text>
+<text x="60" y="1035" class="tiny">The large discovery layer is lead material. It shows where to triage next.</text>
+</svg>

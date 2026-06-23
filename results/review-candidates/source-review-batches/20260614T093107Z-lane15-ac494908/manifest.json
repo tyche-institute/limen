@@ -1,0 +1,47 @@
+{
+  "batch_id": "20260614T093107Z-lane15-ac494908",
+  "batch_size": 100,
+  "completed_at_utc": "2026-06-14T09:36:28Z",
+  "created_at_utc": "2026-06-14T09:31:07Z",
+  "details": {
+    "boundary_statement": "Boundary: local metadata and local source files only; this batch did not broad-crawl the web and did not infer incident truth, legality, compliance, safety, deployment, prevalence, or ranking.",
+    "next_smallest_queue_hardening_move": "Pre-filter derived configs/manifests/claim-support prose and auto-deduplicate known registry surfaces like Helsinki and Dutch register proxies before source-review leasing.",
+    "rows_reviewed": 100,
+    "verdict_counts": {
+      "merge_existing_surface": 14,
+      "needs_named_source_extraction": 16,
+      "negative_evidence_candidate": 16,
+      "reject_noise": 48,
+      "source_reviewed_candidate": 2,
+      "translation_review_needed": 4
+    },
+    "verification": {
+      "duplicate_signal_ids_in_output": false,
+      "row_count_match": true,
+      "signal_id_set_match": true
+    }
+  },
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093107Z-lane15-ac494908/source-review-input.tsv",
+  "input_rows": 100,
+  "lane_id": "lane15",
+  "output_rows": 100,
+  "outputs": {
+    "source_review_results_tsv": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093107Z-lane15-ac494908/source-review-results.tsv",
+    "source_review_summary_md": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093107Z-lane15-ac494908/source-review-summary.md"
+  },
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-drain-targets/20260614T084856Z-direct-source-review-queue.tsv",
+  "queue_rows": 20121,
+  "remaining_unleased_at_allocation": 7621,
+  "started_at_utc": "2026-06-14T09:31:07Z",
+  "status": "complete",
+  "updated_at_utc": "2026-06-14T09:36:28Z",
+  "verdict_counts": {
+    "merge_existing_surface": 14,
+    "needs_named_source_extraction": 16,
+    "negative_evidence_candidate": 16,
+    "reject_noise": 48,
+    "source_reviewed_candidate": 2,
+    "translation_review_needed": 4
+  }
+}

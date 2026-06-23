@@ -1,0 +1,33 @@
+{
+  "batch_id": "20260616T111949Z-lane5-70b73cd1",
+  "batch_size": 32,
+  "completed_at_utc": "2026-06-16T11:22:38Z",
+  "created_at_utc": "2026-06-16T11:19:49Z",
+  "details": {
+    "boundary": "local metadata and local source files only; translation-aware source-surface review only; no factual/legal/compliance/safety/deployment/prevalence/ranking inference",
+    "rows_reviewed": 32,
+    "verdict_counts": {
+      "cross_project_duplicate": 32
+    },
+    "verification": "passed: output TSV header exact; output row count and row_id set match input; no duplicate row_id; allowed verdicts only; no embedded tabs/newlines in fields",
+    "verified_rows": 32
+  },
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111949Z-lane5-70b73cd1/input.tsv",
+  "input_rows": 32,
+  "lane_id": "lane5",
+  "outputs": {
+    "results_tsv": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111949Z-lane5-70b73cd1/translation-source-review-results.tsv",
+    "summary_md": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111949Z-lane5-70b73cd1/translation-source-review-summary.md"
+  },
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/translation-source-review-queue.tsv",
+  "queue_rows": 503,
+  "remaining_unleased_at_allocation": 119,
+  "started_at_utc": "2026-06-16T11:19:49Z",
+  "status": "complete",
+  "task": "translation-source-review",
+  "updated_at_utc": "2026-06-16T11:22:38Z",
+  "verdict_counts": {
+    "cross_project_duplicate": 32
+  }
+}

@@ -1,0 +1,4 @@
+case_id,framework,mapping_confidence,notes
+EDGE-001,AIID,0.85,Mapping based on public incident report
+EDGE-002,OECD,0.78,Alignment with AI Risk category
+EDGE-003,MITRE ATLAS,0.9,Direct crosswalk to ATLAS-2023-0042

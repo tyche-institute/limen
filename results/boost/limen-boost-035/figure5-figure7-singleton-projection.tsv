@@ -1,0 +1,10 @@
+metric	current_value	projected_value	delta	notes
+visible_rows_under_duplicate_control	30	30	0	no new row retrieval; this cycle only projects propagation of already-controlled singleton rows
+normalized_rows_in_lane011_aggregate_contract	29	31	+2	projection if lane-011 aggregate catches up to both singleton rows already present in normalized ledger
+publication_safe_lineages	21	23	+2	adds FCC Lingo Telecom and PraisonAI singleton lineages without new merge claims
+figure5_high_confidence	15	17	+2	both omitted singleton rows are high-cap authoritative/technical-authority rows
+figure5_low_confidence	6	6	0	low-cap multilingual and Langflow rows unchanged
+figure7_authority_anchor	7	8	+1	FCC Lingo Telecom singleton is an authoritative public-authority row
+figure7_technical_authority	7	8	+1	PraisonAI singleton is a technical-authority security row
+figure7_translation_caution_authority	1	1	0	ORION remains the only authority-backed translation-caution lineage
+figure7_provisional_or_limitations	6	6	0	no provisional row is promoted in this projection

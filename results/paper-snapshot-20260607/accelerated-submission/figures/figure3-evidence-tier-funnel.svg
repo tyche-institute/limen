@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.title{font-size:46px;font-weight:700}
+.subtitle{font-size:28px;fill:#526071}
+.section{font-size:29px;font-weight:700}
+.label{font-size:27px}
+.small{font-size:22px;fill:#526071}
+.tiny{font-size:18px;fill:#526071}
+.number{font-size:40px;font-weight:700}
+</style>
+</defs>
+<rect width="1800" height="1120" fill="#ffffff"/>
+<text x="60" y="70" class="title">Figure 3. How strong is the public evidence?</text>
+<text x="60" y="108" class="subtitle">The same set contains firm public records and weaker leads; the paper labels them differently.</text>
+<rect x="95" y="185" width="760" height="195" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="130" y="247" class="number" fill="#2166ac">21</text>
+<text x="215" y="243" class="section">Main case threads</text>
+<text x="215" y="281" class="small">locked for this paper</text>
+<rect x="130" y="320" width="680" height="26" rx="8" fill="#edf1f7"/>
+<rect x="130" y="320" width="680" height="26" rx="8" fill="#2166ac"/>
+<rect x="935" y="185" width="760" height="195" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="970" y="247" class="number" fill="#188b5b">15</text>
+<text x="1055" y="243" class="section">Official or authoritative records</text>
+<text x="1055" y="281" class="small">can support narrow descriptions</text>
+<rect x="970" y="320" width="680" height="26" rx="8" fill="#edf1f7"/>
+<rect x="970" y="320" width="485" height="26" rx="8" fill="#188b5b"/>
+<rect x="95" y="435" width="760" height="195" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="130" y="497" class="number" fill="#c97700">6</text>
+<text x="215" y="493" class="section">Single-source leads</text>
+<text x="215" y="531" class="small">kept mainly for limits and discovery</text>
+<rect x="130" y="570" width="680" height="26" rx="8" fill="#edf1f7"/>
+<rect x="130" y="570" width="194" height="26" rx="8" fill="#c97700"/>
+<rect x="935" y="435" width="760" height="195" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="970" y="497" class="number" fill="#087f8c">15</text>
+<text x="1055" y="493" class="section">High-use examples</text>
+<text x="1055" y="531" class="small">safe for bounded paper examples</text>
+<rect x="970" y="570" width="680" height="26" rx="8" fill="#edf1f7"/>
+<rect x="970" y="570" width="485" height="26" rx="8" fill="#087f8c"/>
+<rect x="95" y="685" width="760" height="195" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="130" y="747" class="number" fill="#c43c39">6</text>
+<text x="215" y="743" class="section">Low-use examples</text>
+<text x="215" y="781" class="small">must stay cautious</text>
+<rect x="130" y="820" width="680" height="26" rx="8" fill="#edf1f7"/>
+<rect x="130" y="820" width="194" height="26" rx="8" fill="#c43c39"/>
+<rect x="935" y="685" width="760" height="195" rx="18" fill="#f7f9fc" stroke="#d7dde8" stroke-width="2"/>
+<text x="970" y="747" class="number" fill="#6b4cb4">6</text>
+<text x="1055" y="743" class="section">Need translation caution</text>
+<text x="1055" y="781" class="small">cannot be treated like English records</text>
+<rect x="970" y="820" width="680" height="26" rx="8" fill="#edf1f7"/>
+<rect x="970" y="820" width="194" height="26" rx="8" fill="#6b4cb4"/>
+<text x="60" y="1010" class="tiny">High-use does not mean legally settled. Low-use does not mean false. These labels tell readers how cautiously each example can be used.</text>
+</svg>

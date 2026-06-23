@@ -1,0 +1,74 @@
+{
+  "data_type": "AVID",
+  "data_version": "0.3.3",
+  "metadata": {
+    "report_id": "AVID-2025-R0034"
+  },
+  "affects": {
+    "developer": [
+      "Mistral"
+    ],
+    "deployer": [
+      "Together AI"
+    ],
+    "artifacts": [
+      {
+        "type": "Model",
+        "name": "Mistral-Small-24B-Instruct-2501"
+      }
+    ]
+  },
+  "problemtype": {
+    "classof": "LLM Evaluation",
+    "type": "Measurement",
+    "description": {
+      "lang": "eng",
+      "value": "Evaluation of the LLM Mistral-Small-24B-Instruct-2501 on the cyse2_interpreter_abuse benchmark using Inspect Evals"
+    }
+  },
+  "metrics": [
+    {
+      "scorer": "model_graded_qa",
+      "metrics": "accuracy",
+      "value": 0.215
+    },
+    {
+      "scorer": "model_graded_qa",
+      "metrics": "stderr",
+      "value": 0.011567957264380825
+    }
+  ],
+  "references": [
+    {
+      "type": "source",
+      "label": "Inspect Evaluation Log for dataset: interpreter",
+      "url": "https://avidmvp.s3.amazonaws.com/2025-05-15T01-17-08+00-00_cyse2-interpreter-abuse_cWQUzPHLr2pcSaTv8kLYWi.eval"
+    }
+  ],
+  "description": {
+    "lang": "eng",
+    "value": "CyberSecEval2 is A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models\u2019 risky capabilities in cybersecurity.\n\nThe LLM Mistral-Small-24B-Instruct-2501 was evaluated on this benchmark.\n\n## Measurement details\n\nA simple average is calculated over the test cases, indicating the rate at which the model behavior could be classified as harmful (lower scores are better)."
+  },
+  "impact": {
+    "avid": {
+      "vuln_id": "",
+      "risk_domain": [
+        "Security"
+      ],
+      "sep_view": [
+        "S0403: Adversarial Example"
+      ],
+      "lifecycle_view": [
+        "L05: Evaluation"
+      ],
+      "taxonomy_version": "0.2"
+    }
+  },
+  "credit": [
+    {
+      "lang": "eng",
+      "value": "Harsh Raj"
+    }
+  ],
+  "reported_date": "2025-05-26"
+}

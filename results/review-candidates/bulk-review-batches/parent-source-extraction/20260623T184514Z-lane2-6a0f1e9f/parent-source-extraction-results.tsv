@@ -1,0 +1,3 @@
+queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason
+BPSE-03661	LIMEN-SIGNAL-4FF2332D309FB60F	parent_source_wrapper		db-aiid	notenough_info: requires human selection from source-pack
+BPSE-03662	LIMEN-SIGNAL-BFAE8427338C208B	parent_source_wrapper		db-aoid	notenough_info: requires human selection from source-pack

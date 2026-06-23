@@ -1,0 +1,15 @@
+layer	count	unit	evidence_status	source_artifact	claim_limit
+reviewed_core	21	duplicate-controlled case threads	reviewed paper core	exports/cases.tsv	Core set for bounded paper analysis; not a prevalence denominator.
+side_anchors	7	official or public records	non-core anchors and appendix candidates	exports/cases.tsv	Useful for source depth and governance examples; does not change the reviewed-core count.
+source_anchors	13	dated public-record anchors	authoritative/public anchors	exports/authoritative-source-anchors.tsv	Supports source-specific examples only.
+public_link_checks	156	retrieval and source-check rows	link audit evidence	exports/public-link-audit.tsv	Shows public-source access and checking status, not case prevalence.
+source_families	15	source-family rows	source-family ledger export	exports/source-families.tsv	Maps kinds of public evidence.
+watch_categories	15	taxonomy categories	taxonomy heatmap export	exports/taxonomy-heatmap.tsv	Maps topical coverage and gaps.
+candidate_examples	7	candidate or sidecar examples	candidate queue export	exports/candidate-examples-table.tsv	Queue material; not reviewed-case evidence unless promoted.
+cpu_mining_public_sector	23981	discovery signals	recorded public-source mining leads	results/cpu-mining/public-sector/20260607T175558Z/matches.tsv	Lead material only; requires deduplication and source review.
+cpu_mining_identity_provenance	11931	discovery signals	recorded public-source mining leads	results/cpu-mining/identity-provenance/20260607T175548Z/matches.tsv	Lead material only; requires deduplication and source review.
+cpu_mining_legal_research	6595	discovery signals	recorded public-source mining leads	results/cpu-mining/legal-research/20260607T180704Z/matches.tsv	Lead material only; requires deduplication and source review.
+cpu_mining_residual_weird	5366	discovery signals	recorded public-source mining leads	results/cpu-mining/residual-weird/20260607T175454Z/matches.tsv	Lead material only; requires deduplication and source review.
+cpu_mining_security_agentic	4991	discovery signals	recorded public-source mining leads	results/cpu-mining/security-agentic/20260607T175509Z/matches.tsv	Lead material only; requires deduplication and source review.
+cpu_mining_health_finance_education	4739	discovery signals	recorded public-source mining leads	results/cpu-mining/health-finance-education/20260607T175506Z/matches.tsv	Lead material only; requires deduplication and source review.
+cpu_mining_latest_total	57603	discovery signals	recorded public-source mining leads	results/cpu-mining/*/recorded matches.tsv	Lead material only; not deduplicated reviewed cases.

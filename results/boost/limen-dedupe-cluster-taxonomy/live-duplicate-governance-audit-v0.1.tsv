@@ -1,0 +1,34 @@
+metric_group	metric	value	notes
+timestamp	generated_at_utc	2026-06-08T09:58:59Z	system date -u
+inventory	authoritative_live_rows	15	data/cases/authoritative-candidates.jsonl
+inventory	security_live_rows	11	data/cases/security-agentic-candidates.jsonl
+inventory	multilingual_live_rows	6	data/cases/multilingual-candidates.jsonl
+inventory	live_total_rows	32	sum of three live data/cases files
+coverage	ledger_review_rows	42	rows in results/clusters/duplicate-clusters-v0.1.tsv
+coverage	core_governed_unique_record_refs	39	unique member_case_ids excluding residual frontier, shadow research-integrity pair, and extended-only sidecar rows
+coverage	extended_governed_unique_record_refs	44	unique member_case_ids including residual frontier singleton, research-integrity shadow pair, and two FTC sidecar rows
+coverage	core_unique_lineages	29	duplicate-governed seeded headline lineages after singleton admission for LIMEN-000016 and the bounded MCP/deployment reviewed pair sync
+coverage	extended_unique_lineages	34	core plus residual frontier singleton plus two research-integrity shadow lineages plus two FTC sidecar lineages
+coverage	live_data_case_refs_covered_by_ledger	32	all live data/cases refs now represented in the duplicate ledger
+coverage	live_data_case_refs_uncovered_by_ledger	0	expected 0 after explicit singleton admission for LIMEN-000016
+cluster_state	stable_duplicate_cluster	9	
+cluster_state	reviewed_not_duplicate	11	reviewed non-merge controls now include the core trust-boundary pair, the core MCP/deployment pair, and the extended-surface Springer research-integrity pair
+cluster_state	identifier_collision_blocker	10	
+cluster_state	no_cluster_review_row	12	
+graph_state	graph_eligible_review_edges	25	14 identifier-collision edges + 11 reviewed-non-merge edges are currently eligible under the Figure 4 contract
+graph_state	materialized_review_edges	25	live dashboard duplicate-review graph now materializes every graph-eligible reviewed edge in the current ledger
+graph_state	missing_review_edges	0	no remaining graph-eligible reviewed edge gaps under the current Figure 4 contract
+shadow_package	research_integrity_direct_notice_reviewed_pairs	1	REVIEW-NOMERGE-RI-SPRINGER-001 pairs LIMEN-008-LEAD-005 and LIMEN-008-LEAD-006 on the extended reviewed local surface only
+core_subtype	trust_boundary_reviewed_pairs	2	REVIEW-NOMERGE-TRUSTBOUNDARY-001 and REVIEW-NOMERGE-MCP-001 together make the seeded trust-boundary slice two reviewed pairs wide, but one pair remains MCP/deployment-only
+core_category_count	agentic_control_failure	11	count of unique lineages in live data/cases governed core
+core_category_count	security_risk	11	count of unique lineages in live data/cases governed core
+core_category_count	public_sector_misuse_or_gap	8	count of unique lineages in live data/cases governed core
+core_category_count	ai_washing_or_false_ai_claim	6	count of unique lineages in live data/cases governed core
+core_category_count	education_workplace_or_hr	6	count of unique lineages in live data/cases governed core
+core_category_count	unlawful_or_allegedly_unlawful_use	6	count of unique lineages in live data/cases governed core
+core_category_count	normative_or_moral_outlier	5	count of unique lineages in live data/cases governed core
+core_category_count	surveillance_biometrics_or_policing	4	count of unique lineages in live data/cases governed core
+core_category_count	deepfake_or_synthetic_identity	3	count of unique lineages in live data/cases governed core
+core_category_count	institutional_absurdity	3	count of unique lineages in live data/cases governed core
+core_category_count	legal_procedural_contamination	3	count of unique lineages in live data/cases governed core
+core_category_count	finance_insurance_or_market	2	count of unique lineages in live data/cases governed core

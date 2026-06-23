@@ -1,0 +1,25 @@
+
+session_id: 20260614_113327_058190
+Готово.
+
+Сделано:
+- results TSV: /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093326Z-lane09-6681c292/source-review-results.tsv
+- summary MD: /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093326Z-lane09-6681c292/source-review-summary.md
+- manifest updated: /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093326Z-lane09-6681c292/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- same signal_id set: true
+- duplicate output ids: false
+- header matches required schema: true
+
+Итоги по verdict:
+- source_reviewed_candidate: 5
+- merge_existing_surface: 11
+- negative_evidence_candidate: 27
+- needs_named_source_extraction: 20
+- translation_review_needed: 8
+- reject_noise: 29
+
+Граница соблюдена: использовал только локальные метаданные и локальные файлы, без web crawl и без внешних действий.

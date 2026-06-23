@@ -1,0 +1,41 @@
+{
+  "all_complete": true,
+  "boundary": "Case extraction rollup only; no reviewed-core promotion or ObscureAI addition occurred.",
+  "case_candidate_rows": 11,
+  "case_hardening_clusters": 11,
+  "case_hardening_dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-hardening-queue.tsv",
+  "case_hardening_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-queue-v0.1.tsv",
+  "completed_unique_source_clusters": 973,
+  "current_output_clean": false,
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-extraction-results.tsv",
+  "duplicate_result_source_clusters": 0,
+  "extra_source_clusters": 100,
+  "failed_batches": [
+    "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260623T173139Z-lane01-6e7bda61/manifest.json",
+    "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260623T182338Z-lane01-84f412ad/manifest.json"
+  ],
+  "generated_at_utc": "2026-06-23T19:58:32Z",
+  "has_failed_batches": true,
+  "has_integrity_warnings": true,
+  "has_stale_extra_result_source_clusters": true,
+  "manifest_statuses": {
+    "complete": 81,
+    "failed": 2,
+    "superseded_abandoned": 6
+  },
+  "missing_source_clusters": 0,
+  "obscure_ai_ready_now": 0,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-extraction-results-v0.1.tsv",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-source-surface-disposition-v0.1.tsv",
+  "queue_rows": 973,
+  "result_files": 83,
+  "stale_extra_result_source_clusters": 100,
+  "verdict_counts": {
+    "blocked_no_public_source": 5,
+    "case_candidate_for_hardening": 11,
+    "closed_duplicate_existing_core": 3,
+    "closed_noncase_source_surface": 947,
+    "needs_original_source_text": 6,
+    "reject_noise": 1
+  }
+}

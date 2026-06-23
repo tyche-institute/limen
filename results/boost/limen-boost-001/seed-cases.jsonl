@@ -1,0 +1,36 @@
+{
+  "case_id": "LIMEN-CASE-00001",
+  "theme": "Public Sector AI Procurement",
+  "source_family": "public-sector",
+  "summary": "Initial leads suggest AI usage in public sector procurement, potentially related to 'ChatAmsterdam' or similar city services. Procurement documents exist, but direct linkage to specific AI services and confirmation of usage is not yet confirmed.",
+  "evidence_tier": "Tier L1 mining metadata; lead abundance/currentness evidence only",
+  "claim_ceiling": "Register/procurement mentions support disclosure-surface and traceability claims only; no deployment, impact, legality, or compliance inference without official system-specific record.",
+  "potential_next_step": "Search for specific procurement documents related to 'ChatAmsterdam' or similar city services, and official AI-use policies to confirm AI integration and governance."
+}
+{
+  "case_id": "LIMEN-CASE-00002",
+  "theme": "Security: Prompt Injection in Agentic Systems",
+  "source_family": "security-agentic",
+  "summary": "Leads indicate potential prompt injection vulnerabilities in agentic systems. Further analysis is needed to determine specific exploit vectors, affected systems, and official advisories.",
+  "evidence_tier": "Tier L1 mining metadata; lead abundance/currentness evidence only",
+  "claim_ceiling": "Local hits support security/agentic source-family abundance and crosswalk routing only; no exploit, prevalence, or incident-truth claim without CVE/advisory/proceedings record.",
+  "potential_next_step": "Search for CVEs, official advisories, or proceedings related to prompt injection in agentic systems to validate security claims and move beyond general leads."
+}
+{
+  "case_id": "LIMEN-CASE-00003",
+  "theme": "AI in Legal Research: Potential Hallucinations/Anomalies",
+  "source_family": "legal-research",
+  "summary": "Initial legal research leads suggest potential AI hallucinations or anomalies in case referencing, particularly within Finnish legal contexts. However, direct authoritative Finnish court decisions or ombudsman reports have not been found. General EU AI Act and Justice Ministry articles provide context but not specific corroboration.",
+  "evidence_tier": "Tier L1 mining metadata; lead abundance/currentness evidence only",
+  "claim_ceiling": "General EU AI Act and Justice Ministry articles provide context; specific Finnish legal decisions or ombudsman reports are needed for direct corroboration.",
+  "potential_next_step": "Conduct broader searches for any publicly available Finnish government documents discussing AI in legal contexts, or explicitly note the lack of specific corroborating evidence for the initial leads while relying on general EU/Finnish AI governance discussions."
+}
+{
+  "case_id": "LIMEN-CASE-00004",
+  "theme": "Identity & Provenance: C2PA Standards Relevance",
+  "source_family": "identity-provenance",
+  "summary": "Leads suggest C2PA standards are relevant for AI provenance claims. However, direct official dispositions or institutional records demonstrating C2PA's application in real-world deception or attribution cases have not been found. Current sources are primarily C2PA standards documentation and metadata.",
+  "evidence_tier": "Tier L1 mining metadata; lead abundance/currentness evidence only",
+  "claim_ceiling": "C2PA standards documentation and metadata are available; direct official dispositions or institutional records for real-world deception/attribution cases are currently missing.",
+  "potential_next_step": "Search for broader C2PA adoption case studies, policy documents, or industry reports that might implicitly or explicitly address its application in cases of AI deception or attribution challenges, acknowledging the lack of direct disposition records."
+}

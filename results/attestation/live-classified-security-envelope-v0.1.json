@@ -1,0 +1,188 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-0006",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-07T07:22:45Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-classified-live-20260607T072245Z",
+  "action": "classified",
+  "subject_ref": {
+    "kind": "case_record",
+    "id": "LIMEN-000008",
+    "path_or_uri": "data/cases/security-agentic-candidates.jsonl#LIMEN-000008",
+    "title": "LangChain broad load() allowlists enabled attacker-controlled object revival, chat-history poisoning, and possible credential or request side effects",
+    "version": "2026-06-07T06:20:00Z"
+  },
+  "inputs": [
+    {
+      "kind": "case_record",
+      "locator": "data/cases/security-agentic-candidates.jsonl#LIMEN-000008",
+      "media_type": "application/x-ndjson",
+      "sha256": "sha256:d408453ad074f4f1e95689f66f544bfd32575f833035f139e09faae0bd441073",
+      "captured_at": "2026-06-07T06:20:00Z",
+      "language": "en",
+      "jurisdiction": "Global",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche case record derived from public CVE and vendor advisory material",
+      "record_status": "authoritative",
+      "evidence_tier": "T3_authoritative_source"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/security/security-agentic-claim-ceiling-matrix-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:e48f630aa410b7867a7e5dfaa098fdad1b64c6d4df9fc88c3553700c5e712ce8",
+      "captured_at": "2026-06-07T06:20:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/security/status.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:5b2746d0a0d6ff52340c978683cf8aa619d84953e269c6a5b70868d5d68553a2",
+      "captured_at": "2026-06-07T06:49:13Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "schema/limen-envelope.schema.json",
+      "media_type": "application/json",
+      "sha256": "sha256:bd28c77296aa040d7cbc7c2bb26655e9d1529dba1a138fd1c5104dcc1b7ee78d",
+      "captured_at": "2026-06-07T06:48:37Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche schema artifact"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/live-classified-security-note-v0.1.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:2e344ef07add461d88a6e5e52768add9abe6208f7a687b64a8b39505d92a43a2",
+      "emitted_at": "2026-06-07T07:22:45Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from the shared security package"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "A1",
+      "assertion_type": "classification_assignment",
+      "statement": "A live LIMEN classification receipt records that case LIMEN-000008 remains a shared security-package row with authoritative-source tiering and a bounded memory/state contamination reading.",
+      "value": {
+        "case_id": "LIMEN-000008",
+        "evidence_tier": "T3_authoritative_source",
+        "record_status": "authoritative",
+        "limen_categories": [
+          "security_risk",
+          "agentic_control_failure"
+        ],
+        "security_surface": "memory_or_state_contamination"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A2",
+      "assertion_type": "crosswalk_mapping",
+      "statement": "The shared security package already routes LIMEN-000008 into reviewer-safe claim-ceiling and mitigation layers, so the live receipt can point to a concrete downstream publication path without claiming realized harm.",
+      "value": {
+        "downstream_matrix": "results/security/security-agentic-claim-ceiling-matrix-v0.1.tsv",
+        "dashboard_hooks": [
+          "security_agentic_crosswalk",
+          "evidence_tier_funnel",
+          "attestation_timeline"
+        ],
+        "allowed_reading": "bounded memory_or_state_contamination exemplar with vendor advisory support"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A3",
+      "assertion_type": "uncertainty_note",
+      "statement": "The receipt excludes stronger interpretations such as realized credential disclosure, SSRF occurrence, legal non-compliance, certification, or safety assurance.",
+      "value": {
+        "excluded_claims": [
+          "truth",
+          "legality",
+          "compliance",
+          "certification",
+          "safety",
+          "completeness"
+        ],
+        "additional_exclusions": [
+          "realized_incident_proof",
+          "prevalence_claim",
+          "formal_attestation_assurance"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    }
+  ],
+  "schema_refs": [
+    "urn:tyche:limen:envelope:0.1"
+  ],
+  "tooling": {
+    "tool_manifest_hash": "sha256:bd28c77296aa040d7cbc7c2bb26655e9d1529dba1a138fd1c5104dcc1b7ee78d",
+    "prompt_hash": "sha256:6666666666666666666666666666666666666666666666666666666666666666",
+    "model_name": "python3-stdlib+jsonschema",
+    "provider": "local_execution",
+    "schema_version": "0.1"
+  },
+  "review_status": "lane_checked",
+  "review_notes": [
+    "This live receipt attests a classification-and-packaging step over an existing shared security case record only.",
+    "Do not read the vendor advisory impact examples as proof that any concrete downstream credential, SSRF, or legal event occurred."
+  ],
+  "dashboard_hooks": [
+    "security_agentic_crosswalk",
+    "evidence_tier_funnel",
+    "attestation_timeline"
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ]
+}

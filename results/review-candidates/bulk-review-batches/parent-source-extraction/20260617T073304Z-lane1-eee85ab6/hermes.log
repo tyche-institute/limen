@@ -1,0 +1,24 @@
+
+session_id: 20260617_093305_91bd48
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073304Z-lane1-eee85ab6/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073304Z-lane1-eee85ab6/parent-source-extraction-summary.md
+
+Обновлён manifest:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073304Z-lane1-eee85ab6/manifest.json
+
+Проверка пройдена:
+- input rows: 24
+- output rows: 24
+- queue_id set: identical
+- duplicate queue_id: none
+- header: exact required header
+
+Verdict counts:
+- country_gap_no_parent_source: 15
+- source_url_extracted: 5
+- parent_source_wrapper: 4
+
+Использовались только локальные input TSV, PALLAS atlas JSON и локальный OBSERVABILITY_RESEARCH_QUEUE.csv; broad web crawl не выполнялся.

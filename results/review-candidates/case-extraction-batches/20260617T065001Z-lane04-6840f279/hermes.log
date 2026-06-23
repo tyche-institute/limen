@@ -1,0 +1,21 @@
+
+session_id: 20260617_085002_c75367
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260617T065001Z-lane04-6840f279/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260617T065001Z-lane04-6840f279/case-extraction-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260617T065001Z-lane04-6840f279/manifest.json
+
+Верификация:
+- input rows: 5
+- result rows: 5
+- source_cluster_key set: identical
+- order: identical
+- duplicates: 0
+- required header: OK
+- verdicts: 5 × closed_noncase_source_surface
+
+Никаких reviewed-core promotion / ObscureAI additions / incident truth or legal/safety/compliance/deployment/prevalence claims не делал.

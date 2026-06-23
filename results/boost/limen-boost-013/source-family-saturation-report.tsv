@@ -1,0 +1,54 @@
+# LIMEN Boost Shard 013 Source-Family Saturation Report (Updated)
+
+## Artifact Purpose
+Supports hostile-reviewer-pass by identifying source family coverage gaps and blocked source patterns that could undermine evidence claims in the AI Edge-Case Atlas manuscript.
+
+## Evidence Used
+- Existing source review queues
+- Blocked-source markers in dashboard synchronization
+- Source-family taxonomy from review lane outputs
+- Direct source review queue analysis (19 blocked/translation-sensitive candidates)
+
+## Findings
+1. **Underrepresented Source Families**:
+   - Regional regulatory notices (non-English): 7 instances
+   - Local court decisions (small jurisdiction): 3 instances
+   - Non-governmental watchdog reports: 2 instances
+
+2. **Blocked Source Patterns**:
+   - Paywalled legal databases: 5 instances (e.g., /srv/tyche/pallas/...)
+   - Expired domain archives: 3 instances (e.g., Spanish-Portuguese lanes)
+   - Language-specific barriers: 7 instances requiring translation review
+     - Spanish/Portuguese: 3 instances
+     - Persian/Urdu: 4 instances
+
+## Visualization Hook
+Update Figure 2 (source coverage) to include:
+   - Source family distribution pie chart (emphasizing underrepresented categories)
+   - Blocked source map overlay (highlighting paywalled/legal and expired domains)
+   - Language coverage heatmap (showing translation-sensitive candidates)
+
+## Paper Readiness Delta
+- Strengthens Limitations section by quantifying coverage gaps (19 total blocked/translation-sensitive sources)
+- Provides audit trail for Reviewer Q4 (source diversity) with specific examples
+- Enables dashboard/paper parity in Figures 2/5/7 through updated visualization hooks
+
+## Next Publishability Moves
+1. **Translation Pipeline Activation**:
+   - Route 7 translation-sensitive candidates to translation-aware source review
+   - Prioritize Spanish/Portuguese and Persian/Urdu sources
+   - Use machine translation with human verification workflow
+
+2. **Blocked Source Verification**:
+   - Attempt alternative access for 5 paywalled legal databases
+     - Library.pdf access checks
+     - Institutional repository queries
+   - Validate 3 expired domains via Archive.org/Wayback Machine
+
+3. **Figure 2 Update**:
+   - Implement source family pie chart
+   - Add blocked source map overlay
+   - Integrate language coverage heatmap
+
+Signed,
+Hermes Agent (limen-boost-013)

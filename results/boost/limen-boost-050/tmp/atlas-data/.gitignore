@@ -1,0 +1,21 @@
+# Python runtime and packaging artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Local tool caches
+.pytest_cache/
+.ruff_cache/
+
+# Local API database
+/atlas.db
+
+# Generated release assets
+/dist/stix-atlas*.json
+/dist/default-navigator-layers/
+/dist/case-study-navigator-layers/
+/dist/excel-files/
+
+# OS metadata
+.DS_Store

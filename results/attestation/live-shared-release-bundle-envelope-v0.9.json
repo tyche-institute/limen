@@ -1,0 +1,182 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-SHARED-BUNDLE-0009",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-08T17:18:00Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-receipt-profile-shared-bundle-refresh-20260608T171800Z",
+  "action": "published",
+  "subject_ref": {
+    "kind": "artifact",
+    "id": "limen-shared-attestation-release-bundle-v0.9",
+    "path_or_uri": "results/attestation/shared-release-bundle-manifest-v0.9.tsv",
+    "title": "Refreshed local shared release bundle manifest for LIMEN attestation/provenance package after post-v0.8 drift",
+    "version": "2026-06-08T17:18:00Z"
+  },
+  "inputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "attestation/limen-envelope-profile-v0.1.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:8de1cf76efaab4855d5fac5bc0b816543e60f710334fc03acd0af22d57ea63dc"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "schema/limen-envelope.schema.json",
+      "media_type": "application/json",
+      "captured_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:6b85d3a92933f91fbf8efd701aecaf59f3c0814bd4cefaeda86eb8f166d59930"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/status.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:5d3acc3b31cac1152fb14479f89b132fcf3293a49506d61005a748915e494ce2"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/limen-attestation-role-crosswalk-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "captured_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:817ef4b9218ae38daa39d31024d09f1a6178f088b90e6ae336d86c28f05e3e3e"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/external-trust-readiness-matrix-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "captured_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:f896340ffbd10cb6a5fc2d97d13e08e75fbe7c436208ad2f9d3c8ea15a9827a6"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "dashboard/limen-dashboard-spec-v0.1.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:85546b8270fa66a9e6282b1ecd4c7d480ce057a77e18ad1f8096b403ecae2ad7"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "papers/article-architecture-v0.1.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:81d4e0d0628eefcc2f549f8db8d8faed10afa4bd7fbe58457798af2f10682810"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "draft/preprint.md",
+      "media_type": "text/markdown",
+      "captured_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources",
+      "sha256": "sha256:dc409965712021fdf12bdea884ea5bd735c594a95b3f3bd1ad19620467232c95"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/shared-release-bundle-manifest-v0.9.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:8651ec4d8500fe3dde0a1d240486c1562f350c32d7b12a3659d35cd1623f418f",
+      "emitted_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/shared-release-bundle-refresh-audit-v0.9.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:099e850fe7f9cc0c2f2d794c179617121e3549348a96b7f0fb932c609ebd1248",
+      "emitted_at": "2026-06-08T17:18:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "shared_bundle_currentness_refresh_v0_9",
+      "assertion_type": "artifact_derivation",
+      "statement": "The shared release manifest records one current local publication object spanning the profile, schema, status, role crosswalk, trust-readiness matrix, dashboard spec, article architecture, and preprint.",
+      "value": "project_shared_local_bundle_only",
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "supporting_output_refs": [
+        0,
+        1
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "shared_bundle_non_claim_floor_v0_9",
+      "assertion_type": "uncertainty_note",
+      "statement": "This publication bundle records observation-and-processing provenance only and does not imply detached-signature verification, transparency inclusion, VC issuance, truth, legality, compliance, certification, or safety.",
+      "value": "observation_and_processing_only",
+      "confidence": "high",
+      "supporting_input_refs": [
+        4
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    }
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ],
+  "dashboard_hooks": [
+    "attestation_timeline",
+    "evidence_tier_funnel"
+  ]
+}

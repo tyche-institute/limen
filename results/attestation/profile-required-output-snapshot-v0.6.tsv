@@ -1,0 +1,10 @@
+snapshot_generated_at	2026-06-08T16:26:00Z
+lane_id	limen-attestation-receipt-profile
+project_id	limen-ai-edge-case-atlas
+schema_json_parse	schema/limen-envelope.schema.json	ok
+
+artifact_id	path	sha256	role
+required_profile	attestation/limen-envelope-profile-v0.1.md	13d3ab7a243a770eeb68eff81950163e4ea0d8a2083264f581812b726ee06099	canonical attestation profile
+required_schema	schema/limen-envelope.schema.json	6b85d3a92933f91fbf8efd701aecaf59f3c0814bd4cefaeda86eb8f166d59930	machine-checkable envelope schema
+required_status	results/attestation/status.md	606c6eaa9e9c5c3bcdb3462750e9fa0049a75dbeb5d09845f2d54eac2de5c67d	attestation front-door status note
+required_brief	results/attestation/profile-brief-conformance-note-v0.1.md	acadcd9c7f02d0887eb127de02a5ecad324b89f9e6bdc5773815037541e05712	reviewer-facing conformance brief

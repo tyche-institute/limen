@@ -1,0 +1,26 @@
+
+session_id: 20260617_093309_c9cf6d
+Completed.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073306Z-lane29-1a00528b/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073306Z-lane29-1a00528b/parent-source-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T073306Z-lane29-1a00528b/manifest.json
+
+Verification passed:
+- input rows: 24
+- output rows: 24
+- header matches required schema
+- queue_id set matches input exactly
+- duplicate output queue_id values: none
+- manifest status: completed
+
+Verdict counts:
+- parent_source_wrapper: 18
+- source_url_extracted: 1
+- country_gap_no_parent_source: 5
+
+Extracted URL:
+- BPSE-03468: https://www.rbf.gov.fj/fintech-regulatory-sandbox-guideline/ from local pallas_atlas_countries.json context.

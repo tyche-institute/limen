@@ -1,0 +1,3 @@
+queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason	claim_ceiling	next_action
+BPSE-03656	LIMEN-SIGNAL-EEB31952B67E79E8	source_surface_only_no_case			/srv/tyche/projects/public-ai-registry/sources/sources.md	Source surface exists but no parent source URL found	low	Manual review required
+BPSE-03657	LIMEN-SIGNAL-F746AFDA6E1420D1	reject_noise			/srv/tyche/projects/public-ai-registry/sources/sources.md	Source file /srv/tyche/projects/public-ai-registry/sources/sources.md not accessible	unknown	Manual review required

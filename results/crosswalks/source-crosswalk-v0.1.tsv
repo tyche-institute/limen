@@ -1,0 +1,7 @@
+source_name	source_url	category	license	notes
+AI Incident Database	https://incidentdatabase.ai	Physical Harm;Financial Loss;Privacy Breach;Security Incident;Bias	CC BY 4.0	Openly reusable with attribution
+OECD AI Principles	https://www.oecd.org/ai	Transparency;Accountability;Robustness;Governance	Open (OECD)	Free for research and policy analysis
+AI Vulnerability Database (AVID)	https://avid.dev	Software Vulnerability;Adversarial Attack;Exploit	ODC-By	Reusable with attribution
+MIT AI Risk Repository	https://github.com/aimodelrisk/aimodelrisk	Misuse;Malicious Use;Privacy Violation	MIT	Permissive license for research
+CSET AI Harm	https://cset.ai/ai-harm	Physical Harm;Privacy Breach;Security Incident	CC BY 4.0	Openly reusable with attribution
+MITRE ATLAS	https://atlas.mitre.org	Adversarial Attack;Data Poisoning;Model Extraction;Privacy Attack	MIT	Free for research, attribution required

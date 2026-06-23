@@ -1,0 +1,25 @@
+{
+  "package": "LIMEN SI submission bundle",
+  "generated": "2026-06-19T00:00:00Z",
+  "objects": 17,
+  "figures": 14,
+  "source_files": {
+    "S1": "results/dashboard/authoritative-document-depth-facet.tsv",
+    "S2": "results/dashboard/security-threshold-ladder-panel.tsv",
+    "S3": "results/dashboard/security-authority-balance-panel.tsv",
+    "S4": "results/dashboard/provenance-confusion-publication-cells.tsv",
+    "S5": "results/dashboard/security-publication-buckets.tsv",
+    "S6": "results/dashboard/security-crosswalk-coverage-panel.tsv",
+    "S7": "results/dashboard/supplementary-table-s7-trust-boundary-breadth.tsv",
+    "S8": "results/dashboard/supplementary-table-s8-supply-chain-frontier.tsv",
+    "S9": "results/dashboard/supplementary-table-s9-peer-review-gap.tsv",
+    "S10": "results/dashboard/procedural-contamination-source-depth-panel.tsv",
+    "S11": "results/dashboard/supplementary-table-s11-research-integrity.tsv",
+    "S12": "results/dashboard/procedural-contamination-source-depth-panel.tsv",
+    "S13": "results/dashboard/public-sector-disclosure-comparison.tsv",
+    "S14": "results/dashboard/public-sector-proof-ceilings.tsv",
+    "S15": "results/dashboard/supplementary-table-s1-panel-c-jurisdiction-tier.tsv",
+    "Figure-S1": "results/dashboard-paper/figure-reviewed-core-tier-by-theme.svg",
+    "Note-1": "results/dashboard-paper/caption-control-register-v0.1.tsv"
+  }
+}

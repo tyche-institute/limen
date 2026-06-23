@@ -1,0 +1,42 @@
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane8-f5455c93/translation-parent-source-extraction-results.tsv → b/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane8-f5455c93/translation-parent-source-extraction-results.tsv
+@@ -0,0 +1,4 @@
++queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason	claim_ceiling	next_action
++BTPS-00113	LIMEN-SIGNAL-CA96F9ACB70DE5BD	source_surface_only_no_case	https://www.malaysia.gov.my/en/my-initiative/whole-government-digital-services/tadbir-urus/national-guidelines-on-artificial-intelligence-governance-and-ethics-aige	National Guidelines on Artificial Intelligence Governance and Ethics (AIGE)	/srv/tyche/atlas/tyche-thesis-atlas-factory/corpus/v0.2-working/records/southeast-asian-language-history.jsonl:41 fields seed_url/source_url/url	Concrete Malaysia government URL is explicit in local record; local snippet is portal surface for AIGE and not case evidence.	guidance-source surface only; no legal, safety, or implementation claim	Use only as original-language parent guidance locator; translate/inspect page substance before any stronger claim.
++BTPS-00114	LIMEN-SIGNAL-CE8C5EA95F27E2EA	source_url_extracted	https://www.naih.hu/europai-adatvedelmi-testulet-edpb/edpb-iranymutatasai/file/429-iranymutatas-az-automatizalt-donteshozatallal-es-a-profilalkotassal-kapcsolatbana-2016-679-rendelet-alkalmazasahoz-wp251	Guidance on automated decision-making and profiling under Regulation 2016/679 (WP251)	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_READINESS_SPRINT_2_SOURCE_PACK.csv:290 field url	Concrete NAIH-hosted guidance URL is explicit in local source-pack row; notes say EU data-protection guidance, not a Hungarian register.	parent/source context only; no national register or compliance claim	Use as parent guidance candidate only; do not treat as Hungarian register or case evidence.
++BTPS-00115	LIMEN-SIGNAL-F88B16B21293FB1B	source_url_extracted	https://doi.org/10.51775/2790-0886_2024_64_1_5	ПОСТКВАНТОВАЯ ЦИФРОВАЯ ПОДПИСЬ SYRGA-1	/srv/tyche/atlas/tyche-thesis-atlas-factory/corpus/v0.2-working/data/lanes/russian-language-records.jsonl:183 field url/doi	Concrete DOI URL is explicit in local Crossref record; snippet supports post-quantum digital-signature background only.	technical parent-source context; no deployment, safety, or legal claim	Use only as technical background for signature-durability context if relevant.
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane8-f5455c93/translation-parent-source-extraction-summary.md → b/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane8-f5455c93/translation-parent-source-extraction-summary.md
+@@ -0,0 +1,30 @@
++# Translation parent-source extraction summary
++
++Batch: `20260616T130035Z-lane8-f5455c93`
++Task: `translation-parent-source-extraction`
++Completed UTC: `2026-06-16T13:02:45Z`
++
++## Scope
++
++Reviewed every non-empty row in `input.tsv` exactly once using local metadata and local source files only. No web crawling, portal interaction, upload, publication, registration, payment, email, or reviewed-core promotion was performed.
++
++## Results
++
++- Input rows reviewed: 3
++- Output rows written: 3
++- `source_url_extracted`: 2
++- `source_surface_only_no_case`: 1
++- `parent_source_wrapper`: 0
++- `country_gap_no_parent_source`: 0
++- `duplicate_existing_core`: 0
++- `reject_noise`: 0
++
++## Row notes
++
++- `BTPS-00113`: explicit Malaysia government AIGE URL found in local JSONL fields `seed_url`/`source_url`/`url` at line 41; marked `source_surface_only_no_case` because local context is portal/guidance surface only.
++- `BTPS-00114`: explicit NAIH-hosted WP251 guidance URL found in local source-pack row 290; extracted as parent guidance candidate only, not a Hungarian register/case.
++- `BTPS-00115`: explicit DOI URL found in local Crossref JSONL record at line 183; extracted as technical parent-source context only.
++
++## Verification
++
++Final verification was run after writing outputs: result TSV has the exact same non-empty `queue_id` set and row count as `input.tsv`, with no duplicate output `queue_id` values.
+
+session_id: 20260616_150036_be9221

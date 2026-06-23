@@ -1,0 +1,84 @@
+  ┊ review diff
+a//tmp/limen_case_extract_lane56.py → b//tmp/limen_case_extract_lane56.py
+@@ -0,0 +1,112 @@
++import csv, json, pathlib, datetime, collections
++base=pathlib.Path('/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225550Z-lane56-7e2bd0d0')
++input_path=base/'input.tsv'
++out_path=base/'case-extraction-results.tsv'
++summary_path=base/'case-extraction-summary.md'
++manifest_path=base/'manifest.json'
++rows=list(csv.DictReader(open(input_path, newline=''), delimiter='\t'))
++header=['source_cluster_key','case_extraction_verdict','source_url_or_locator','source_name','source_host','proposed_case_title','proposed_evidence_tier','proposed_limen_categories','source_record_date','jurisdiction','bounded_claim_candidate','claim_ceiling','forbidden_overread','rationale','required_before_reviewed_core','required_before_obscure_ai','next_action']
++
++def clean(s):
++    if s is None:
++        s=''
++    return ' '.join(str(s).replace('\t',' ').replace('\r',' ').replace('\n',' ').split())
++
++decisions={
++'https://iso.org/committee/6794475.html': dict(v='closed_noncase_source_surface', title='', tier='', cats='regulatory-sandbox; standards-body', date='', jur='', claim='', ceiling='ISO committee page only; no case-level event or finding.', over='Do not infer sandbox operation, AI deployment, compliance status, or incident from committee listing.', rat='Standards/committee source surface lacks a concrete AI edge-case action, vulnerability, finding, or official record.', next='Close as source-surface accounting unless a direct case record is supplied.'),
++'https://itu.int': dict(v='closed_noncase_source_surface', title='', tier='', cats='regulatory-sandbox; international-organization', date='', jur='International', claim='', ceiling='ITU parent homepage/source family only.', over='Do not infer Cocos sandbox evidence, AI governance event, deployment, or finding from parent URL.', rat='Parent institutional URL and local note say second pass did not verify sandbox evidence.', next='Close; require direct ITU page naming a concrete case before reconsideration.'),
++'https://jacarandahealth.org/prompts': dict(v='closed_noncase_source_surface', title='', tier='', cats='health-ai; digital-health-service', date='', jur='Kenya; Ghana; Eswatini', claim='', ceiling='PROMPTS service/product description only.', over='Do not infer an adverse event, automated decision harm, clinical safety finding, legality, or prevalence.', rat='Public page describes an AI-enabled maternal-health SMS service but not a bounded edge-case event/finding.', next='Close unless an official incident, audit finding, evaluation passage, or specific decision record is provided.'),
++'https://ktpae.gr/en/erga/expansion-of-gov-gr-wallet-digital-services-documents-and-authentication-services': dict(v='closed_noncase_source_surface', title='', tier='', cats='digital-wallet; public-service-digitization', date='', jur='Greece', claim='', ceiling='Gov.gr Wallet project page/procurement adjacent surface only.', over='Do not infer AI evidence handling, operational deployment details, security failure, or legal status.', rat='Source surface concerns expansion of wallet digital services/documents, not a concrete AI edge case.', next='Close; need direct record of AI-related finding/event.'),
++'https://kyberturvallisuuskeskus.fi/en/contact-us/e-services/report-information-security-incident': dict(v='closed_noncase_source_surface', title='', tier='', cats='cyber-incident-reporting; official-intake', date='', jur='Finland', claim='', ceiling='Official incident-reporting intake page only.', over='Do not infer an AI incident, vulnerability, enforcement action, or safety finding.', rat='Reporting portal is a generic intake surface and contains no concrete case record.', next='Close; require a public incident notice or advisory naming the AI edge case.'),
++'https://landsverk.fo/fo-fo/bygging/utbo%C3%B0': dict(v='closed_noncase_source_surface', title='', tier='', cats='procurement; tender-index', date='', jur='Faroe Islands', claim='', ceiling='Tender index only.', over='Do not infer AI procurement, algorithmic governance, bidder conduct, award, or implementation.', rat='Official tender page is a procurement surface; local row reports no AI procurement governance.', next='Close unless a specific AI tender/award/challenge record is identified.'),
++'https://laws.gov.vg/laws/financial-services-regulatory-sandbox-regulations-2020': dict(v='closed_noncase_source_surface', title='', tier='', cats='regulatory-sandbox; financial-services-law', date='2020', jur='British Virgin Islands', claim='', ceiling='Regulatory sandbox regulations text only.', over='Do not infer a participant, AI system, regulatory outcome, compliance finding, or incident.', rat='Law/regulation text is policy/guidance surface, not a concrete edge-case event or finding.', next='Close; require participant/order/report source for a case.'),
++'https://lb.lt/en/regulatory-sandbox': dict(v='closed_noncase_source_surface', title='', tier='', cats='regulatory-sandbox; financial-supervision', date='', jur='Lithuania', claim='', ceiling='Bank of Lithuania sandbox program page only.', over='Do not infer any AI test, participant, decision, compliance result, or deployment.', rat='Sandbox program page is institutional context without a concrete AI edge-case record.', next='Close unless a named sandbox case/finding is provided.'),
++'https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build': dict(v='closed_noncase_source_surface', title='', tier='', cats='agent-builder; vendor-docs', date='', jur='', claim='', ceiling='Microsoft Learn product documentation only.', over='Do not infer C2PA provenance failure, security vulnerability, misuse event, customer deployment, or compliance finding.', rat='Vendor how-to documentation for building agents is generic product guidance, not a case record.', next='Close; require a specific public finding/advisory/incident.'),
++'https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build::Build': dict(v='closed_noncase_source_surface', title='', tier='', cats='agent-builder; vendor-docs', date='', jur='', claim='', ceiling='Fragment/section pointer within Microsoft Learn documentation only.', over='Do not infer C2PA provenance failure, security vulnerability, misuse event, customer deployment, or compliance finding.', rat='Section-level locator is duplicative source-surface context, not an independent concrete case.', next='Close as noncase surface; deduplicate with parent doc in later accounting if needed.'),
++'https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio': dict(v='closed_noncase_source_surface', title='', tier='', cats='copilot-studio; vendor-docs', date='', jur='', claim='', ceiling='Microsoft Copilot Studio overview documentation only.', over='Do not infer synthetic-media event, misuse, deployment proof, safety issue, or compliance finding.', rat='Product overview describes capabilities but does not contain a bounded edge-case event/finding.', next='Close; require concrete public source record.'),
++'https://legislation.mt/eli/cap/591/eng': dict(v='closed_noncase_source_surface', title='', tier='', cats='regulatory-sandbox; financial-services-law', date='', jur='Malta', claim='', ceiling='Legislation index/statute text only.', over='Do not infer an AI sandbox participant, decision, incident, or compliance result.', rat='Law text/source page is a regulatory surface and local row gives only title-level sandbox context.', next='Close unless a concrete participant/finding/order is supplied.'),
++'https://legislation.mt/eli/ln/2025/226/eng': dict(v='closed_noncase_source_surface', title='', tier='', cats='ai-regulation; regulatory-sandbox; legal-notice', date='2025-10-10', jur='Malta', claim='', ceiling='Artificial Intelligence Regulations legal notice only.', over='Do not infer sandbox use, AI deployment, enforcement, compliance finding, or incident.', rat='AI regulation text can frame later cases but is not itself a concrete edge-case record.', next='Close; require case-level official record under the regulation.'),
++'https://levelpath.com': dict(v='closed_noncase_source_surface', title='', tier='', cats='procurement-ai; vendor-product-page', date='', jur='', claim='', ceiling='Procurement vendor/product homepage only.', over='Do not infer public-sector use, procurement decision, model behavior, risk finding, or prevalence.', rat='Vendor marketing/product surface advertises procurement AI agents but lacks a concrete event/finding.', next='Close; require named deployment, audit, incident, or procurement record.'),
++'https://licichat.com': dict(v='closed_noncase_source_surface', title='', tier='', cats='procurement-ai; tender-assistant; vendor-product-page', date='', jur='Peru', claim='', ceiling='Tender-assistant product page only.', over='Do not infer government adoption, procurement outcome, bidder behavior, legality, or prevalence.', rat='Provider page advertises AI assistance for public tenders but gives no concrete edge-case event/finding.', next='Close; require specific tender/use/finding source.'),
++'https://linkedin.com/posts/grischa-liebel-13802181_new-citation-scam-in-town-at-least-we-hadnt-activity-7422731222784823296-LeNL': dict(v='case_candidate_for_hardening', title='LinkedIn post alleges SSRN citation-scam pattern involving a similar paper and artificial citation boosting', tier='public first-person social post; needs original source corroboration', cats='scholarly-integrity; citation-manipulation; AI-generated-or-low-cost-content-allegation', date='2026-02', jur='', claim="A public LinkedIn post by Grischa Liebel describes finding an SSRN paper that appeared similar to the authors' preprint and alleges a citation-scam pattern involving indexed citations to boost metrics.", ceiling='Bounded to what the LinkedIn post alleges; treat as allegation/source lead, not verified misconduct or AI-generated paper finding.', over='Do not assert guilt, retraction, legal violation, AI authorship, journal acceptance, prevalence, or verified citation fraud.', rat='Unlike generic source surfaces, the post contains a concrete alleged scholarly-integrity event/action with a public locator, but it requires original SSRN/preprint text before reviewed-core use.', next='Keep as hardening candidate; collect original SSRN/preprint records and any official/indexing record before reviewed-core review.'),
++}
++output=[]
++for r in rows:
++    key=r['source_cluster_key']
++    if key not in decisions:
++        raise KeyError(key)
++    d=decisions[key]
++    req_core = 'Need original source text, direct passages, dates, actors, and corroborating official/primary records before reviewed-core consideration.' if d['v']=='case_candidate_for_hardening' else r['required_before_reviewed_core']
++    req_obsc = 'Not ObscureAI material unless hardening verifies bounded claim and reviewed-core accepts it.' if d['v']=='case_candidate_for_hardening' else r['required_before_obscure_ai']
++    output.append({
++        'source_cluster_key': key,
++        'case_extraction_verdict': d['v'],
++        'source_url_or_locator': r['source_url_or_locator'],
++        'source_name': r['source_name'],
++        'source_host': r['source_host'],
++        'proposed_case_title': d['title'],
++        'proposed_evidence_tier': d['tier'],
++        'proposed_limen_categories': d['cats'],
++        'source_record_date': d['date'],
++        'jurisdiction': d['jur'],
++        'bounded_claim_candidate': d['claim'],
++        'claim_ceiling': d['ceiling'],
++        'forbidden_overread': d['over'],
++        'rationale': d['rat'],
++        'required_before_reviewed_core': req_core,
++        'required_before_obscure_ai': req_obsc,
++        'next_action': d['next'],
++    })
++with open(out_path,'w',newline='') as f:
++    w=csv.DictWriter(f, fieldnames=header, delimiter='\t', lineterminator='\n')
++    w.writeheader()
++    for row in output:
++        w.writerow({k:clean(row.get(k,'')) for k in header})
++counts=collections.Counter(r['case_extraction_verdict'] for r in output)
++summary = f"""# Case extraction summary: 20260616T225550Z-lane56-7e2bd0d0
++
++Input rows reviewed: {len(rows)}
++Output rows written: {len(output)}
++
++Verdict counts:
++"""
++for k,v in sorted(counts.items()):
++    summary += f'- {k}: {v}\n'
++summary += """
++Extraction notes:
++- Reviewed every input source_cluster_key exactly once.
++- Most clusters are final noncase source surfaces: standards pages, parent institutional pages, laws/guidance, vendor documentation/product pages, procurement/tender indexes, or incident intake forms without a concrete AI edge-case event/finding.
+… omitted 34 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260617_005557_fe425a

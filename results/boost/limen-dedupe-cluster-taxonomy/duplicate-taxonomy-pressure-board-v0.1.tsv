@@ -1,0 +1,42 @@
+metric_group	metric_key	row_count	lineage_refs	notes
+cluster_status	stable_duplicate_cluster	9		review rows in duplicate ledger
+cluster_status	reviewed_not_duplicate	13		review rows in duplicate ledger; includes same-publisher and cross-publisher research-integrity direct-notice overlays plus both biometric-governance reviewed pairs
+cluster_status	identifier_collision_blocker	10		review rows in duplicate ledger
+cluster_status	no_cluster_review_row	12		review rows in duplicate ledger; includes one residual-frontier singleton, two FTC sidecars, one French CNIL singleton, and all live singleton watch rows
+stable_duplicate_family	data/cases/multilingual-candidates.jsonl + results/boost/limen-boost-005/candidate-cases.jsonl	4	CLUSTER-DERIVATIVE-LMWCS-20260606-001;CLUSTER-DERIVATIVE-LMWCS-20260606-003;CLUSTER-DERIVATIVE-LMWCS-20260606-005;CLUSTER-DERIVATIVE-LMWCS-20260606-006	stable duplicate rows grouped by member path families
+stable_duplicate_family	data/cases/authoritative-candidates.jsonl + results/boost/limen-boost-009/candidate-cases.jsonl	2	CLUSTER-DERIVATIVE-SEC-DELPHIA-20260318;CLUSTER-DERIVATIVE-SEC-GP-20260318	stable duplicate rows grouped by member path families
+stable_duplicate_family	data/cases/authoritative-candidates.jsonl + data/cases/multilingual-candidates.jsonl + results/boost/limen-boost-005/candidate-cases.jsonl	1	CLUSTER-DERIVATIVE-LMWCS-20260606-004	stable duplicate rows grouped by member path families
+stable_duplicate_family	data/cases/authoritative-candidates.jsonl + results/boost/limen-boost-007/candidate-cases.jsonl	1	CLUSTER-DERIVATIVE-LIMEN-007-CAND-003	stable duplicate rows grouped by member path families
+stable_duplicate_family	data/cases/multilingual-candidates.jsonl + results/boost/limen-boost-008/candidate-cases.jsonl	1	CLUSTER-DERIVATIVE-LIMEN-008-LEAD-001	stable duplicate rows grouped by member path families
+reviewed_nonmerge_bucket	execution_surface	3	REVIEW-NOMERGE-CODEEXEC-001;REVIEW-NOMERGE-CODEEXEC-002;REVIEW-NOMERGE-LANGCHAIN-001	reviewed-not-duplicate overlay families from shared failure-mode notes
+reviewed_nonmerge_bucket	boundary_identity	3	REVIEW-NOMERGE-CREWAI-001;REVIEW-NOMERGE-LANGCHAIN-001;REVIEW-NOMERGE-FILEREAD-001	reviewed-not-duplicate overlay families from shared failure-mode notes
+reviewed_nonmerge_bucket	false_ai_claims	2	REVIEW-NOMERGE-SEC-001;REVIEW-NOMERGE-FTC-001	reviewed-not-duplicate overlay families from shared failure-mode notes
+reviewed_nonmerge_bucket	publisher_direct_notice_research_integrity	2	REVIEW-NOMERGE-RI-SPRINGER-001;REVIEW-NOMERGE-RI-AI-MANIP-001	reviewed-not-duplicate direct-notice recurrence package on the extended reviewed local surface only; now includes one same-publisher and one cross-publisher direct-notice overlay
+reviewed_nonmerge_bucket	file_disclosure	1	REVIEW-NOMERGE-FILEREAD-001	reviewed-not-duplicate overlay families from shared failure-mode notes
+reviewed_nonmerge_bucket	biometric_governance	2	REVIEW-NOMERGE-ICO-001;REVIEW-NOMERGE-BIOMETRIC-001	reviewed-not-duplicate biometric-governance overlays spanning one UK regulator-family pair plus one cross-jurisdiction legality/oversight pair
+reviewed_nonmerge_bucket	agent_tool_authorization_boundary	1	REVIEW-NOMERGE-TRUSTBOUNDARY-001	reviewed-not-duplicate overlay families from shared failure-mode notes
+reviewed_nonmerge_bucket	mcp_deployment_trust_boundary	1	REVIEW-NOMERGE-MCP-001	reviewed-not-duplicate overlay families from shared failure-mode notes
+singleton_pressure_bucket	deepfake_or_synthetic_identity	2	REVIEW-SINGLETON-LIMEN-000008;REVIEW-SINGLETON-LMWCS-20260606-002	singleton queue families useful for taxonomy/residual prioritization
+singleton_pressure_bucket	identity_authorization_abuse	1	REVIEW-SINGLETON-LIMEN-000009	singleton queue families useful for taxonomy/residual prioritization
+singleton_pressure_bucket	official_false_capability_or_detector	2	REVIEW-SINGLETON-LIMEN-000010;REVIEW-SINGLETON-LIMEN-000011	singleton queue families useful for taxonomy/residual prioritization
+singleton_pressure_bucket	mcp_or_local_tool_boundary	2	REVIEW-SINGLETON-LIMEN-000012;REVIEW-SINGLETON-LIMEN-000016	singleton queue families useful for taxonomy/residual prioritization
+singleton_pressure_bucket	public_sector_governance_anchor	1	REVIEW-SINGLETON-AUTH-LIMEN-000012	singleton queue families useful for taxonomy/residual prioritization
+singleton_pressure_bucket	research_integrity_residual_frontier	1	REVIEW-SINGLETON-LIMEN-008-LEAD-007	singleton queue families useful for taxonomy/residual prioritization
+singleton_pressure_bucket	biometric_governance_warning_singleton	1	REVIEW-SINGLETON-LIMEN-000015	warning-page-depth French CNIL singleton kept in the core seeded package as a bounded non-recurrence row
+singleton_pressure_bucket	authoritative_sidecar_chronology	2	REVIEW-SIDECAR-LIMEN-000013;REVIEW-SIDECAR-LIMEN-000014	extended reviewed local surface only; count-silent FTC chronology sidecars
+multi_state_record_refs	identifier_collision_blocker+reviewed_not_duplicate	9		record refs that simultaneously require more than one duplicate-control state
+multi_state_record_refs	identifier_collision_blocker+stable_duplicate_cluster	3		record refs that simultaneously require more than one duplicate-control state
+multi_state_record_refs	identifier_collision_blocker+no_cluster_review_row	3		record refs that simultaneously require more than one duplicate-control state
+multi_state_record_refs	identifier_collision_blocker+reviewed_not_duplicate+stable_duplicate_cluster	2		record refs that simultaneously require more than one duplicate-control state
+multi_state_record_refs	no_cluster_review_row+reviewed_not_duplicate	2		record refs that simultaneously require more than one duplicate-control state
+multi_state_record_refs	identifier_collision_blocker+no_cluster_review_row+stable_duplicate_cluster	1		record refs that simultaneously require more than one duplicate-control state
+language_scope_surface	en;it	1		mixed language-scope formatting still visible in canonical ledger
+language_scope_surface	en	30		mixed language-scope formatting still visible in canonical ledger
+language_scope_surface	fi	3		mixed language-scope formatting still visible in canonical ledger
+language_scope_surface	lt	1		mixed language-scope formatting still visible in canonical ledger
+language_scope_surface	sl	2		mixed language-scope formatting still visible in canonical ledger
+language_scope_surface	et	1		mixed language-scope formatting still visible in canonical ledger
+language_scope_surface	en;sl	1		mixed language-scope formatting still visible in canonical ledger
+language_scope_surface	da	1		mixed language-scope formatting still visible in canonical ledger
+language_scope_surface	da;en	1		mixed language-scope formatting still visible in canonical ledger
+language_scope_surface	fr	1		mixed language-scope formatting still visible in canonical ledger

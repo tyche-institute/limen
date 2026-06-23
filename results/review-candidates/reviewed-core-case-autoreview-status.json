@@ -1,0 +1,30 @@
+{
+  "already_final_adjudicated_rows": 13,
+  "autoreview_decision_counts": {
+    "auto_close_duplicate_existing_core": 3,
+    "auto_hold_announcement_or_pilot_needs_corroboration": 4,
+    "auto_hold_scholarly_or_preprint_source_only": 2,
+    "auto_hold_social_or_allegation_needs_primary": 1,
+    "auto_hold_source_gap": 2,
+    "token_free_promote_candidate_needs_human_acceptance": 1
+  },
+  "boundary": "Deterministic no-LLM autoreview; draft recommendations only unless copied into final adjudication by a human-controlled process.",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/reviewed-core-case-autoreview.tsv",
+  "draft_final_adjudication": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-final-adjudication-draft-v0.1.tsv",
+  "effective_decision_counts": {
+    "duplicate_existing_core": 1,
+    "hold_low_evidence": 1,
+    "hold_source_gap": 2,
+    "hold_source_only": 7,
+    "promoted_to_reviewed_core": 2
+  },
+  "generated_at_utc": "2026-06-23T15:40:16Z",
+  "human_acceptance_required_rows": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-hardening-review-v0.1.tsv",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/reviewed-core-case-autoreview-v0.1.tsv",
+  "paid_token_required_rows": 0,
+  "rows": 13,
+  "rows_without_final_adjudication": 0,
+  "token_free_auto_close_rows": 0,
+  "token_free_promotion_candidate_rows": 0
+}

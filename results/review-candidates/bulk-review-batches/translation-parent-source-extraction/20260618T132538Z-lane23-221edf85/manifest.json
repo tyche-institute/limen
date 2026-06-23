@@ -1,0 +1,27 @@
+{
+  "batch_id": "20260618T132538Z-lane23-221edf85",
+  "batch_size": 16,
+  "boundary": "processing-state review only; no reviewed-core promotion, ObscureAI addition, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking",
+  "completed_at_utc": "2026-06-18T13:26:58Z",
+  "created_at_utc": "2026-06-18T13:25:38Z",
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260618T132538Z-lane23-221edf85/input.tsv",
+  "input_rows": 1,
+  "input_rows_verified": 1,
+  "lane_id": "lane23",
+  "no_omissions_no_extras_no_duplicate_queue_ids": true,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260618T132538Z-lane23-221edf85/translation-parent-source-extraction-results.tsv",
+  "output_rows": 1,
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/translation-parent-source-extraction-queue.tsv",
+  "queue_id_set_verified": true,
+  "queue_rows": 116,
+  "remaining_unleased_at_allocation": 1,
+  "started_at_utc": "2026-06-18T13:25:38Z",
+  "status": "complete",
+  "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260618T132538Z-lane23-221edf85/translation-parent-source-extraction-summary.md",
+  "task": "translation-parent-source-extraction",
+  "updated_at_utc": "2026-06-18T13:26:58Z",
+  "verdict_counts": {
+    "source_url_extracted": 1
+  }
+}

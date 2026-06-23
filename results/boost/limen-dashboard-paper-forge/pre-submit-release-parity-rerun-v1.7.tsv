@@ -1,0 +1,5 @@
+check_id	command_or_surface	status	evidence	interpretation_ceiling	next_action
+PSR-1.7-001	python3 tools/limen_pre_submit_check.py --project-root .	PASS	PASS=9; FAIL=0; WARN=0; verdict=ALL CHECKS PASS	Internal package consistency only; external deposit/upload still Anton-controlled	Rerun after any manuscript/dashboard/caption/export edit
+PSR-1.7-002	python3 -m py_compile tools/limen_pre_submit_check.py	PASS	exit_code=0	Syntax validity of checker only	Rerun after checker edits
+PSR-1.7-003	python3 -m pytest -q tests/test_limen_caption_currentness.py	NEGATIVE_PATH_DRIFT	pytest error: file or directory not found; no tests ran	Stale filename cannot be used as evidence	Use tests/test_limen_caption_currentness_gate.py in future release instructions
+PSR-1.7-004	python3 -m pytest -q tests/test_limen_caption_currentness_gate.py	PASS	2 passed in 0.00s	Caption-currentness regression coverage only	Keep as active caption-currentness test path

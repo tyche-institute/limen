@@ -1,0 +1,47 @@
+query_or_taxonomy_proxy	count	share	interpretation	uncertainty_flags
+algorithm register	10614	0.190471	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+regulatory sandbox	8427	0.151225	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+deepfake	5472	0.098197	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+C2PA	5385	0.096635	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI register	4617	0.082853	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI evidence	4273	0.07668	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI procurement	2500	0.044863	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+retraction	2380	0.04271	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+prompt injection	2356	0.042279	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+automated decision	2029	0.036411	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+LLM vulnerability	1546	0.027743	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+watermark	1132	0.020314	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+public sector AI	871	0.01563	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+procurement AI	617	0.011072	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI hiring	579	0.01039	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+content provenance	534	0.009583	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+data exfiltration	343	0.006155	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI incident	292	0.00524	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+synthetic media	241	0.004325	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI vulnerability	205	0.003679	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI harm	181	0.003248	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+research integrity	157	0.002817	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+procedural contamination	154	0.002764	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+synthetic identity	109	0.001956	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+paper mill	93	0.001669	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI washing	74	0.001328	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+voice cloning	73	0.00131	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+court AI	55	0.000987	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+tool misuse	51	0.000915	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+agent security	51	0.000915	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+hallucinated citation	50	0.000897	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+fabricated reference	38	0.000682	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+workplace surveillance	32	0.000574	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+memory poisoning	28	0.000502	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+model poisoning	24	0.000431	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+false authorship	22	0.000395	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+mental health chatbot	21	0.000377	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI misuse	17	0.000305	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+public administration AI	15	0.000269	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+fake AI	14	0.000251	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI-generated evidence	13	0.000233	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+agentic failure	11	0.000197	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI scandal	10	0.000179	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+fake citation	9	0.000162	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI insurance	9	0.000162	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending
+AI therapy	1	1.8e-05	Query-level proxy for taxonomy heatmap coverage; needs mapping to final taxonomies before manuscript claim.	query_proxy_not_final_taxonomy; review_pending

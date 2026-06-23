@@ -1,0 +1,1610 @@
+{
+  "schema": "limen_dashboard_api_bundle_v0_1",
+  "generated_at_utc": "2026-06-19T06:29:28Z",
+  "lane_id": "limen-dashboard-paper-forge",
+  "project_id": "limen-ai-edge-case-atlas",
+  "source_ui_config": "dashboard/release-card-ui-config-v0.1.json",
+  "source_ui_config_sha256": "1e26f02411ed1bb1c52ed7ddd9ec3a636b7a087b72d3359a2a5c404c6e03a961",
+  "source_caption_currentness_audit": "results/boost/limen-dashboard-paper-forge/caption-currentness-audit-v0.9.tsv",
+  "source_ledger_join": "results/dashboard/source-ledger-join-v0.1.tsv",
+  "source_ledger_join_sha256": "0a87c7f27f2e8c040258b17c78d6204a4298f8f5e3f117092f5b8e61de41851d",
+  "purpose": "Fail-closed local JSON bundle for reviewer-safe interactive dashboard/API prototyping.",
+  "claim_boundary": "Public-source evidence visibility and dashboard/paper parity only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, source-truth, or third-party endorsement claim.",
+  "row_level_provenance_policy": "Consume source-ledger-join-v0.1.tsv for tooltip state. Show family-level notes or candidate review links only where public_dashboard_action permits; keep row-level access-date/rights badges blocked unless a file-qualified source join is manually verified.",
+  "global_rules": [
+    "Show the subtitle/denominator label before or next to every count-bearing view.",
+    "Do not substitute denominators across Figure 2, Figure 5, and Figure 7: 39/29 taxonomy support, 21 publication-safe lineages, and 4 threshold rows are distinct.",
+    "Display source-family saturation and uncertainty, not completeness.",
+    "Do not infer legal compliance, liability, official incident status, certification, safety assurance, prevalence, or country ranking from these views.",
+    "Export-level checksums may be shown; row-level access-date/rights labels require a verified source-ledger join before display."
+  ],
+  "views": [
+    {
+      "dashboard_view": "source_family_saturation",
+      "manuscript_surface": "Figure 1 / Figure 4",
+      "render_status": "PASS",
+      "render_allowed": true,
+      "fail_closed_reason": "all guards present",
+      "source_path": "results/dashboard/source-family-coverage.tsv",
+      "configured_source_rows": 15,
+      "actual_source_rows": 15,
+      "configured_source_sha256": "b1d3a0e616db24d48109b76606a900a229a983f8d18a4ed1aa37034aa588bf2f",
+      "actual_source_sha256": "b1d3a0e616db24d48109b76606a900a229a983f8d18a4ed1aa37034aa588bf2f",
+      "subtitle": "source-family rows; saturation/uncertainty, not completeness",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "row_level_provenance_status": "controlled_by_source_ledger_join_action",
+      "source_ledger_join_actions": {
+        "show_family_level_reuse_note_only_block_per_source_badges": 15
+      },
+      "caption_currentness_status": "PASS",
+      "caption_currentness_reason": "caption currentness audit not applicable to this view",
+      "caption_currentness_audit_source": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/caption-currentness-audit-v0.9.tsv",
+      "columns": [
+        {
+          "name": "family_id",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "sf01",
+            "sf02",
+            "sf03"
+          ]
+        },
+        {
+          "name": "source_family",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "AI Incident Database (AIID)",
+            "AI Vulnerability Database (AVID)",
+            "Academic and research-integrity sources"
+          ]
+        },
+        {
+          "name": "priority",
+          "non_empty_rows": 15,
+          "distinct_count": 3,
+          "sample_values": [
+            "P0",
+            "P1",
+            "P2"
+          ]
+        },
+        {
+          "name": "saturation_state",
+          "non_empty_rows": 15,
+          "distinct_count": 2,
+          "sample_values": [
+            "planned",
+            "seeded"
+          ]
+        },
+        {
+          "name": "dashboard_readiness",
+          "non_empty_rows": 15,
+          "distinct_count": 2,
+          "sample_values": [
+            "grounded_now",
+            "planned_not_seeded"
+          ]
+        },
+        {
+          "name": "authority_profile",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "Curated incident database with strong discovery/comparison value, but not a final authority for legal status or inciden…",
+            "High authority for official actions, allegations, orders, fines, guidance, and procedural posture within issuing jurisd…",
+            "High structured authority for adversarial-ML and agentic-security techniques, mitigations, and case-study relations"
+          ]
+        },
+        {
+          "name": "language_scope",
+          "non_empty_rows": 15,
+          "distinct_count": 14,
+          "sample_values": [
+            "English",
+            "English technical/security knowledge base",
+            "English-facing interface with global incident coverage"
+          ]
+        },
+        {
+          "name": "jurisdiction_scope",
+          "non_empty_rows": 15,
+          "distinct_count": 9,
+          "sample_values": [
+            "Country, regional, and municipal public-sector jurisdictions",
+            "Global",
+            "Global / conceptual"
+          ]
+        },
+        {
+          "name": "evidence_strength_for_claims",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "Best current family for upgrading weak media or company claims into paper-grade bounded statements",
+            "Critical for hostile-reviewer resilience where regulator or agency summaries alone are too thin",
+            "Potentially important for article differentiation if sharply bounded and reviewer-legible"
+          ]
+        },
+        {
+          "name": "next_verification_move",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "Add one non-U.S./non-UK follow-through row tied to a public record or court-facing document to reduce current geography…",
+            "Exploit an existing seeded row first for peer-reviewed closure; only then return to same-row vendor-notice hardening or…",
+            "Extract one compact manual risk-category bridge for the most used LIMEN harm labels before any stronger comparative lan…"
+          ]
+        },
+        {
+          "name": "figure1_role",
+          "non_empty_rows": 15,
+          "distinct_count": 5,
+          "sample_values": [
+            "maintenance_comparator",
+            "planned_frontier",
+            "route_a_guardrail"
+          ]
+        },
+        {
+          "name": "route_rank",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "1",
+            "10",
+            "11"
+          ]
+        },
+        {
+          "name": "thin_family_flag",
+          "non_empty_rows": 15,
+          "distinct_count": 2,
+          "sample_values": [
+            "no",
+            "yes"
+          ]
+        },
+        {
+          "name": "claim_role_bucket",
+          "non_empty_rows": 15,
+          "distinct_count": 4,
+          "sample_values": [
+            "direct_shared_claim_anchor",
+            "indirect_shared_package_support_only",
+            "methods_or_comparator_only"
+          ]
+        },
+        {
+          "name": "safe_claim_posture_now",
+          "non_empty_rows": 15,
+          "distinct_count": 5,
+          "sample_values": [
+            "May support bounded shared empirical claims when exact cited source limits remain attached.",
+            "May support shared package explanation or comparator context, but should not stand alone as a shared empirical claim an…",
+            "Planned frontier only; still not safe for shared claims, but one governed lead-queue row now exists and remains below s…"
+          ]
+        },
+        {
+          "name": "unsafe_overread_to_avoid",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "Do not claim ATLAS case-study equivalence where only technique context exists. Also keep source-crosswalk ceiling: mach…",
+            "Do not collapse placeholder/context rows into solved joins or complete incident counts. Also keep source-crosswalk ceil…",
+            "Do not count governance fields, same-buyer procurement continuity, or repeated municipal search-shell reachability as e…"
+          ]
+        },
+        {
+          "name": "exact_upgrade_trigger",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "Add one non-U.S./non-UK follow-through row tied to a public record or court-facing document to reduce current geography…",
+            "Extract one compact manual risk-category bridge for the most used LIMEN harm labels before any stronger comparative lan…",
+            "Keep the family explicitly outside machine-ingest claims and add a second low-drift reviewer pass before any row-level …"
+          ]
+        },
+        {
+          "name": "negative_evidence_class",
+          "non_empty_rows": 4,
+          "distinct_count": 4,
+          "sample_values": [
+            "caption_normalization_failure_on_captured_document",
+            "exact_scholarly_zero_hit_or_near_miss_only",
+            "family_level_procurement_continuity_without_page_specific_companion"
+          ]
+        },
+        {
+          "name": "best_current_negative_artifact",
+          "non_empty_rows": 6,
+          "distinct_count": 6,
+          "sample_values": [
+            "results/authoritative-scout/nate-case-number-ocr-stress-test-v0.1.tsv ; results/boost/limen-boost-025/source-family-blo…",
+            "results/boost/limen-boost-001/frontier-queue-populated-rows.tsv",
+            "results/boost/limen-boost-001/lead-queue-populated-rows.tsv"
+          ]
+        },
+        {
+          "name": "must_travel_with",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "results/crosswalks/source-crosswalk-v0.1.tsv ; results/source-map/source-family-evidence-policy-matrix-v0.1.tsv:sf01 ; …",
+            "results/crosswalks/source-crosswalk-v0.1.tsv ; results/source-map/source-family-evidence-policy-matrix-v0.1.tsv:sf02 ; …",
+            "results/crosswalks/source-crosswalk-v0.1.tsv ; results/source-map/source-family-evidence-policy-matrix-v0.1.tsv:sf03 ; …"
+          ]
+        },
+        {
+          "name": "dashboard_hook",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "Authority-weighted evidence matrix; regulator-action timeline; jurisdiction map",
+            "Country/language coverage comparison; vocabulary bridge; incident-monitor interoperability board",
+            "Harm-taxonomy note; conceptual-support panel; related-work table"
+          ]
+        },
+        {
+          "name": "local_artifact_anchors",
+          "non_empty_rows": 15,
+          "distinct_count": 13,
+          "sample_values": [
+            "results/boost/limen-boost-001/frontier-queue-populated-rows.tsv; results/boost/limen-boost-001/frontier-queue-implement…",
+            "results/boost/limen-boost-001/lead-queue-populated-rows.tsv; results/boost/limen-boost-008/fake-article-network-platfor…",
+            "results/boost/limen-continuous-experiments/public-sector-disclosure-field-completeness-v0.1.tsv; results/boost/limen-co…"
+          ]
+        },
+        {
+          "name": "provenance_note",
+          "non_empty_rows": 13,
+          "distinct_count": 13,
+          "sample_values": [
+            "Grounded in 2026-06-07 Dutch and Hels... [truncated]",
+            "Grounded in 2026-06-07 homepage-level verification including a visible CC BY 4.0 publishing-principles signal",
+            "Grounded in 2026-06-07 local detail-page and facet-endpoint checks; page footer still signals OECD rights reservation"
+          ]
+        },
+        {
+          "name": "_source_ledger_join",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "{'row_key': 'sf01', 'source_id_or_path': 'results/crosswalks/source-crosswalk-v0.1.tsv', 'join_confidence': 'family_led…",
+            "{'row_key': 'sf02', 'source_id_or_path': 'results/crosswalks/source-crosswalk-v0.1.tsv', 'join_confidence': 'family_led…",
+            "{'row_key': 'sf03', 'source_id_or_path': 'results/crosswalks/source-crosswalk-v0.1.tsv', 'join_confidence': 'family_led…"
+          ]
+        }
+      ],
+      "sample_rows": [
+        {
+          "family_id": "sf01",
+          "source_family": "AI Incident Database (AIID)",
+          "priority": "P0",
+          "saturation_state": "seeded",
+          "dashboard_readiness": "grounded_now",
+          "authority_profile": "Curated incident database with strong discovery/comparison value, but not a final authority for legal status or inciden…",
+          "language_scope": "English-facing interface with global incident coverage",
+          "jurisdiction_scope": "Global, multi-jurisdiction",
+          "evidence_strength_for_claims": "Strong for overlap, residual-gap detection, and source-baseline discussion; weak alone for legal/compliance or incident…",
+          "next_verification_move": "Verify one snapshot-manifest or single-record machine-readable extraction that ties public page labels to field names w…",
+          "figure1_role": "maintenance_comparator",
+          "route_rank": "13",
+          "thin_family_flag": "no",
+          "claim_role_bucket": "methods_or_comparator_only",
+          "safe_claim_posture_now": "Use only for methods, taxonomy, comparator, or related-work framing; not a shared empirical claim family now.",
+          "unsafe_overread_to_avoid": "Do not treat as final authority on allegation truth, legal status, or completeness. Also keep source-crosswalk ceiling:…",
+          "exact_upgrade_trigger": "Verify one snapshot manifest or single-record machine-readable extraction that ties public page labels to field names w…",
+          "negative_evidence_class": "",
+          "best_current_negative_artifact": "",
+          "must_travel_with": "results/crosswalks/source-crosswalk-v0.1.tsv ; results/source-map/source-family-evidence-policy-matrix-v0.1.tsv:sf01 ; …",
+          "dashboard_hook": "Source-family saturation map; comparator-overlap panel; interoperability readiness board",
+          "local_artifact_anchors": "results/crosswalks/source-crosswalk-v0.1.tsv; results/boost/limen-boost-002/sample-bridge-appendix.tsv; results/boost/l…",
+          "provenance_note": "Grounded in bounded 2026-06-07 local verification of public cite-page and snapshot surfaces; GraphQL POST remained orig…",
+          "_source_ledger_join": "{'row_key': 'sf01', 'source_id_or_path': 'results/crosswalks/source-crosswalk-v0.1.tsv', 'join_confidence': 'family_led…"
+        },
+        {
+          "family_id": "sf02",
+          "source_family": "OECD AI Incidents Monitor (OECD AIM)",
+          "priority": "P0",
+          "saturation_state": "seeded",
+          "dashboard_readiness": "grounded_now",
+          "authority_profile": "Official institutional monitor with strong policy-facing authority for public incident indexing and controlled vocabula…",
+          "language_scope": "English-facing interface with international article references and platform vocabularies",
+          "jurisdiction_scope": "Global, multi-jurisdiction",
+          "evidence_strength_for_claims": "Strong for comparator metadata, vocabulary bridges, and country/language context; still insufficient alone for strong f…",
+          "next_verification_move": "Trace one public detail page back to a stable list/discovery route and document the minimal safe metadata subset",
+          "figure1_role": "maintenance_comparator",
+          "route_rank": "12",
+          "thin_family_flag": "no",
+          "claim_role_bucket": "methods_or_comparator_only",
+          "safe_claim_posture_now": "Use only for methods, taxonomy, comparator, or related-work framing; not a shared empirical claim family now.",
+          "unsafe_overread_to_avoid": "Do not treat as final authority on allegation truth, legal status, or completeness. Also keep source-crosswalk ceiling:…",
+          "exact_upgrade_trigger": "Trace one public detail page back to a stable list/discovery route and document the minimal safe metadata subset.",
+          "negative_evidence_class": "",
+          "best_current_negative_artifact": "",
+          "must_travel_with": "results/crosswalks/source-crosswalk-v0.1.tsv ; results/source-map/source-family-evidence-policy-matrix-v0.1.tsv:sf02 ; …",
+          "dashboard_hook": "Country/language coverage comparison; vocabulary bridge; incident-monitor interoperability board",
+          "local_artifact_anchors": "results/crosswalks/source-crosswalk-v0.1.tsv; results/boost/limen-boost-002/sample-bridge-appendix.tsv; results/boost/l…",
+          "provenance_note": "Grounded in 2026-06-07 local detail-page and facet-endpoint checks; page footer still signals OECD rights reservation",
+          "_source_ledger_join": "{'row_key': 'sf02', 'source_id_or_path': 'results/crosswalks/source-crosswalk-v0.1.tsv', 'join_confidence': 'family_led…"
+        },
+        {
+          "family_id": "sf03",
+          "source_family": "AI Vulnerability Database (AVID)",
+          "priority": "P0",
+          "saturation_state": "seeded",
+          "dashboard_readiness": "grounded_now",
+          "authority_profile": "High structured technical authority for public AI vulnerability/report metadata when IDs and references are preserved",
+          "language_scope": "Primarily English technical reporting",
+          "jurisdiction_scope": "Global",
+          "evidence_strength_for_claims": "Strong for technical mechanism, vulnerability metadata, and two exact security-row bridges; weak for general incident c…",
+          "next_verification_move": "Treat the current AVID appendix as the reviewer-safe control surface; only add a third canonical direct join outside th…",
+          "figure1_role": "maintenance_comparator",
+          "route_rank": "9",
+          "thin_family_flag": "no",
+          "claim_role_bucket": "indirect_shared_package_support_only",
+          "safe_claim_posture_now": "May support shared package explanation or comparator context, but should not stand alone as a shared empirical claim an…",
+          "unsafe_overread_to_avoid": "Do not collapse placeholder/context rows into solved joins or complete incident counts. Also keep source-crosswalk ceil…",
+          "exact_upgrade_trigger": "Treat the current AVID appendix as the reviewer-safe control surface; only add a third canonical direct join outside th…",
+          "negative_evidence_class": "",
+          "best_current_negative_artifact": "",
+          "must_travel_with": "results/crosswalks/source-crosswalk-v0.1.tsv ; results/source-map/source-family-evidence-policy-matrix-v0.1.tsv:sf03 ; …",
+          "dashboard_hook": "Security-edge-case bridge; technique/report join board; reviewer-safe machine-readable sample appendix",
+          "local_artifact_anchors": "results/crosswalks/source-crosswalk-v0.1.tsv; results/boost/limen-boost-002/sample-bridge-appendix.tsv; results/boost/l…",
+          "provenance_note": "Grounded in 2026-06-08 bounded live crosswalk/security-package verification of two exact AVID joins plus previously con…",
+          "_source_ledger_join": "{'row_key': 'sf03', 'source_id_or_path': 'results/crosswalks/source-crosswalk-v0.1.tsv', 'join_confidence': 'family_led…"
+        }
+      ]
+    },
+    {
+      "dashboard_view": "taxonomy_heatmap",
+      "manuscript_surface": "Figure 2 + Table 2",
+      "render_status": "PASS",
+      "render_allowed": true,
+      "fail_closed_reason": "all guards present",
+      "source_path": "results/dashboard/taxonomy-heatmap.tsv",
+      "configured_source_rows": 15,
+      "actual_source_rows": 15,
+      "configured_source_sha256": "c0c9db0ed86acdf4f9910bd9e78ff03fae52303150bf5b62217954f721fdff75",
+      "actual_source_sha256": "c0c9db0ed86acdf4f9910bd9e78ff03fae52303150bf5b62217954f721fdff75",
+      "subtitle": "core 39/29; sidecar 44/34; taxonomy support, not prevalence",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "row_level_provenance_status": "controlled_by_source_ledger_join_action",
+      "source_ledger_join_actions": {
+        "block_row_level_access_rights_labels": 15
+      },
+      "caption_currentness_status": "PASS",
+      "caption_currentness_reason": "caption currentness audit permits count-bearing reuse",
+      "caption_currentness_audit_source": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/caption-currentness-audit-v0.9.tsv",
+      "columns": [
+        {
+          "name": "category_code",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "agentic_control_failure",
+            "ai_washing_or_false_ai_claim",
+            "deepfake_or_synthetic_identity"
+          ]
+        },
+        {
+          "name": "category_label",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "AI washing or false AI claim",
+            "Agentic control failure",
+            "Deepfake or synthetic identity"
+          ]
+        },
+        {
+          "name": "seed_case_count",
+          "non_empty_rows": 15,
+          "distinct_count": 8,
+          "sample_values": [
+            "0",
+            "11",
+            "2"
+          ]
+        },
+        {
+          "name": "authoritative_seed_count",
+          "non_empty_rows": 15,
+          "distinct_count": 7,
+          "sample_values": [
+            "0",
+            "1",
+            "10"
+          ]
+        },
+        {
+          "name": "sample_ref_count",
+          "non_empty_rows": 15,
+          "distinct_count": 7,
+          "sample_values": [
+            "0",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "support_state",
+          "non_empty_rows": 15,
+          "distinct_count": 3,
+          "sample_values": [
+            "authoritatively_seeded",
+            "candidate_only_seeded",
+            "zero_seed_local_gap"
+          ]
+        },
+        {
+          "name": "evidence_tier_snapshot",
+          "non_empty_rows": 15,
+          "distinct_count": 12,
+          "sample_values": [
+            "T1_single_public_source:1; T3_authoritative_source:1",
+            "T1_single_public_source:1; T3_authoritative_source:10",
+            "T1_single_public_source:1; T3_authoritative_source:3"
+          ]
+        },
+        {
+          "name": "review_priority",
+          "non_empty_rows": 15,
+          "distinct_count": 2,
+          "sample_values": [
+            "High",
+            "Medium"
+          ]
+        },
+        {
+          "name": "queue_id_count",
+          "non_empty_rows": 15,
+          "distinct_count": 3,
+          "sample_values": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "linked_review_queue_ids",
+          "non_empty_rows": 15,
+          "distinct_count": 11,
+          "sample_values": [
+            "LQ-001; LQ-002",
+            "LQ-001; LQ-004; LQ-009",
+            "LQ-002"
+          ]
+        },
+        {
+          "name": "eu_ai_act_anchor_status",
+          "non_empty_rows": 15,
+          "distinct_count": 6,
+          "sample_values": [
+            "conceptual mapping only in current local package; no direct local primary-text anchor yet verified for this category",
+            "direct_primary_anchor_verified_for_Article_50_2_and_50_4_via_EUR-Lex; case applicability still unresolved",
+            "no direct local AI Act primary-text anchor verified for this subtype; current support is enforcement-source-led and ana…"
+          ]
+        },
+        {
+          "name": "legal_conclusion_limit",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "Cannot infer non-compliance or defective oversight solely from anecdotal demonstrations",
+            "Cannot infer regulatory breach, discriminatory effect, or regulated-system scope from anecdotal market stories alone",
+            "Impossible to conclude illegality or AI Act breach from media allegations alone"
+          ]
+        },
+        {
+          "name": "observatory_hook",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "AI-washing typology for procurement and market-facing visuals",
+            "Agentic-control matrix linking case type to oversight evidence needs",
+            "Employment/education decision-flow matrix"
+          ]
+        },
+        {
+          "name": "notes",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "Can support policy-brief discussion of observability and public-buying due diligence Join-safe sample refs now use file…",
+            "Critical for hostile-reviewer pass because it shows where the crosswalk cannot responsibly force conclusions Live refre…",
+            "Directly supports observatory and policy-brief outputs on public-sector AI visibility Join-safe sample refs now use fil…"
+          ]
+        },
+        {
+          "name": "frontier_route_state",
+          "non_empty_rows": 15,
+          "distinct_count": 5,
+          "sample_values": [
+            "boxed_biometric_comparator_2_of_23",
+            "overlay_ready_ai_misstatement_3_of_23",
+            "overlay_ready_security_7_of_23"
+          ]
+        },
+        {
+          "name": "frontier_reference_id",
+          "non_empty_rows": 15,
+          "distinct_count": 1,
+          "sample_values": [
+            "TSRQ-046"
+          ]
+        },
+        {
+          "name": "overlay_candidate_lineages",
+          "non_empty_rows": 4,
+          "distinct_count": 3,
+          "sample_values": [
+            "2_of_23",
+            "3_of_23",
+            "7_of_23"
+          ]
+        },
+        {
+          "name": "translation_caution_count",
+          "non_empty_rows": 15,
+          "distinct_count": 5,
+          "sample_values": [
+            "0",
+            "1",
+            "2"
+          ]
+        },
+        {
+          "name": "fragility_flags",
+          "non_empty_rows": 15,
+          "distinct_count": 13,
+          "sample_values": [
+            "all_single_public_source; translation_caution_exposed; media_heavy_authority_thin",
+            "mixed_authority_with_single_public_dependence; translation_caution_exposed",
+            "mixed_authority_with_single_public_dependence; translation_caution_exposed; direct_authority_gap"
+          ]
+        },
+        {
+          "name": "live_denominator_contract",
+          "non_empty_rows": 15,
+          "distinct_count": 1,
+          "sample_values": [
+            "39_governed_record_refs/29_unique_lineages_core; 44_governed_record_refs/34_unique_lineages_extended"
+          ]
+        },
+        {
+          "name": "paper_safe_role_now",
+          "non_empty_rows": 15,
+          "distinct_count": 13,
+          "sample_values": [
+            "Table 1C posture ladder with settled SEC rows separated from accusation-stage hidden-human evidence",
+            "bounded interpretive overlay spanning governance anomalies",
+            "bounded repeated-mechanism overlay inside existing taxonomy labels"
+          ]
+        },
+        {
+          "name": "_source_ledger_join",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "{'row_key': 'agentic_control_failure', 'source_id_or_path': 'LQ-006', 'join_confidence': 'aggregate_no_source_ledger_ke…",
+            "{'row_key': 'ai_washing_or_false_ai_claim', 'source_id_or_path': 'LQ-008; LQ-009', 'join_confidence': 'aggregate_no_sou…",
+            "{'row_key': 'deepfake_or_synthetic_identity', 'source_id_or_path': 'LQ-005', 'join_confidence': 'aggregate_no_source_le…"
+          ]
+        }
+      ],
+      "sample_rows": [
+        {
+          "category_code": "unlawful_or_allegedly_unlawful_use",
+          "category_label": "Unlawful or allegedly unlawful use",
+          "seed_case_count": "6",
+          "authoritative_seed_count": "4",
+          "sample_ref_count": "5",
+          "support_state": "authoritatively_seeded",
+          "evidence_tier_snapshot": "T1_single_public_source:2; T3_authoritative_source:4",
+          "review_priority": "High",
+          "queue_id_count": "2",
+          "linked_review_queue_ids": "LQ-005; LQ-008",
+          "eu_ai_act_anchor_status": "conceptual mapping only in current local package; no direct local primary-text anchor yet verified for this category",
+          "legal_conclusion_limit": "Impossible to conclude illegality or AI Act breach from media allegations alone",
+          "observatory_hook": "Legal-risk heatmap by category and evidence tier",
+          "notes": "Useful for cases that may feed later law-to-evidence matrices but needs strong authority controls Join-safe sample refs…",
+          "frontier_route_state": "seeded_but_not_overlay_promoted",
+          "frontier_reference_id": "TSRQ-046",
+          "overlay_candidate_lineages": "",
+          "translation_caution_count": "2",
+          "fragility_flags": "mixed_authority_with_single_public_dependence; translation_caution_exposed; procedure_posture_mixed",
+          "live_denominator_contract": "39_governed_record_refs/29_unique_lineages_core; 44_governed_record_refs/34_unique_lineages_extended",
+          "paper_safe_role_now": "posture-aware comparison across accusation, enforcement, and suspected misuse rows",
+          "_source_ledger_join": "{'row_key': 'unlawful_or_allegedly_unlawful_use', 'source_id_or_path': 'LQ-005; LQ-008', 'join_confidence': 'aggregate_…"
+        },
+        {
+          "category_code": "security_risk",
+          "category_label": "Security risk",
+          "seed_case_count": "11",
+          "authoritative_seed_count": "10",
+          "sample_ref_count": "9",
+          "support_state": "authoritatively_seeded",
+          "evidence_tier_snapshot": "T1_single_public_source:1; T3_authoritative_source:10",
+          "review_priority": "High",
+          "queue_id_count": "1",
+          "linked_review_queue_ids": "LQ-006",
+          "eu_ai_act_anchor_status": "conceptual mapping only in current local package; no direct local primary-text anchor yet verified for this category",
+          "legal_conclusion_limit": "Public evidence often cannot show whether duty-to-report thresholds or formal security obligations were triggered",
+          "observatory_hook": "Security-to-governance edge list for graph/table views",
+          "notes": "Maps well to technical-governance observatory outputs but often needs separation of hazard from proven exploitation Joi…",
+          "frontier_route_state": "overlay_ready_security_7_of_23",
+          "frontier_reference_id": "TSRQ-046",
+          "overlay_candidate_lineages": "7_of_23",
+          "translation_caution_count": "0",
+          "fragility_flags": "single_jurisdiction_concentrated; single_language_concentrated; mixed_authority_with_single_public_dependence; framewor…",
+          "live_denominator_contract": "39_governed_record_refs/29_unique_lineages_core; 44_governed_record_refs/34_unique_lineages_extended",
+          "paper_safe_role_now": "bounded repeated-mechanism overlay inside existing taxonomy labels",
+          "_source_ledger_join": "{'row_key': 'security_risk', 'source_id_or_path': 'LQ-006', 'join_confidence': 'aggregate_no_source_ledger_key', 'rollu…"
+        },
+        {
+          "category_code": "agentic_control_failure",
+          "category_label": "Agentic control failure",
+          "seed_case_count": "11",
+          "authoritative_seed_count": "10",
+          "sample_ref_count": "9",
+          "support_state": "authoritatively_seeded",
+          "evidence_tier_snapshot": "T1_single_public_source:1; T3_authoritative_source:10",
+          "review_priority": "High",
+          "queue_id_count": "1",
+          "linked_review_queue_ids": "LQ-006",
+          "eu_ai_act_anchor_status": "conceptual mapping only in current local package; no direct local primary-text anchor yet verified for this category",
+          "legal_conclusion_limit": "Cannot infer non-compliance or defective oversight solely from anecdotal demonstrations",
+          "observatory_hook": "Agentic-control matrix linking case type to oversight evidence needs",
+          "notes": "Particularly valuable for thesis claims about attestation limits and governance blind spots Join-safe sample refs now u…",
+          "frontier_route_state": "overlay_ready_security_7_of_23",
+          "frontier_reference_id": "TSRQ-046",
+          "overlay_candidate_lineages": "7_of_23",
+          "translation_caution_count": "0",
+          "fragility_flags": "single_jurisdiction_concentrated; single_language_concentrated; mixed_authority_with_single_public_dependence; framewor…",
+          "live_denominator_contract": "39_governed_record_refs/29_unique_lineages_core; 44_governed_record_refs/34_unique_lineages_extended",
+          "paper_safe_role_now": "bounded repeated-mechanism overlay inside existing taxonomy labels",
+          "_source_ledger_join": "{'row_key': 'agentic_control_failure', 'source_id_or_path': 'LQ-006', 'join_confidence': 'aggregate_no_source_ledger_ke…"
+        }
+      ]
+    },
+    {
+      "dashboard_view": "evidence_tier_funnel",
+      "manuscript_surface": "Figure 3 / Figure 5 variant",
+      "render_status": "PASS",
+      "render_allowed": true,
+      "fail_closed_reason": "all guards present",
+      "source_path": "results/dashboard/evidence-funnel.tsv",
+      "configured_source_rows": 11,
+      "actual_source_rows": 11,
+      "configured_source_sha256": "866475937cae0d4103b2adb4052be18cf5afac0352b34ec3df1232e9c844b499",
+      "actual_source_sha256": "866475937cae0d4103b2adb4052be18cf5afac0352b34ec3df1232e9c844b499",
+      "subtitle": "296 catalogued / 250 evidence-grade / 46 excluded / 21 publication-safe lineages where used",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "row_level_provenance_status": "controlled_by_source_ledger_join_action",
+      "source_ledger_join_actions": {
+        "block_row_level_access_rights_labels": 11
+      },
+      "caption_currentness_status": "PASS",
+      "caption_currentness_reason": "caption currentness audit permits count-bearing reuse",
+      "caption_currentness_audit_source": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/caption-currentness-audit-v0.9.tsv",
+      "columns": [
+        {
+          "name": "row_type",
+          "non_empty_rows": 11,
+          "distinct_count": 3,
+          "sample_values": [
+            "confidence_cap",
+            "lineage_stage",
+            "translation_band"
+          ]
+        },
+        {
+          "name": "stage_code",
+          "non_empty_rows": 11,
+          "distinct_count": 11,
+          "sample_values": [
+            "T0_discovered_lead",
+            "T1_single_public_source",
+            "T2_corroborated_record"
+          ]
+        },
+        {
+          "name": "stage_label",
+          "non_empty_rows": 11,
+          "distinct_count": 11,
+          "sample_values": [
+            "T0 discovered lead",
+            "T1 single public source",
+            "T2 corroborated record"
+          ]
+        },
+        {
+          "name": "lineage_count",
+          "non_empty_rows": 11,
+          "distinct_count": 5,
+          "sample_values": [
+            "0",
+            "1",
+            "14"
+          ]
+        },
+        {
+          "name": "share_of_safe_lineages",
+          "non_empty_rows": 11,
+          "distinct_count": 5,
+          "sample_values": [
+            "0.000",
+            "0.048",
+            "0.286"
+          ]
+        },
+        {
+          "name": "count_scope",
+          "non_empty_rows": 11,
+          "distinct_count": 1,
+          "sample_values": [
+            "collapsed publication-safe lineages"
+          ]
+        },
+        {
+          "name": "join_status",
+          "non_empty_rows": 11,
+          "distinct_count": 1,
+          "sample_values": [
+            "safe_only_after_normalized_record_key_or_lineage_key_collapse"
+          ]
+        },
+        {
+          "name": "publication_confidence_note",
+          "non_empty_rows": 11,
+          "distinct_count": 3,
+          "sample_values": [
+            "Counts still require confidence-cap interpretation; do not equate lineages with equally strong article support.",
+            "Translation-dependent rows need explicit caution in map/funnel prose and should not harden into comparative legal claim…",
+            "Use to separate manuscript-safe exemplars from provisional or limitations-only rows."
+          ]
+        },
+        {
+          "name": "_source_ledger_join",
+          "non_empty_rows": 11,
+          "distinct_count": 11,
+          "sample_values": [
+            "{'row_key': 'T0_discovered_lead', 'source_id_or_path': '', 'join_confidence': 'denominator_stage_no_source_ledger_key',…",
+            "{'row_key': 'T1_single_public_source', 'source_id_or_path': '', 'join_confidence': 'denominator_stage_no_source_ledger_…",
+            "{'row_key': 'T2_corroborated_record', 'source_id_or_path': '', 'join_confidence': 'denominator_stage_no_source_ledger_k…"
+          ]
+        }
+      ],
+      "sample_rows": [
+        {
+          "row_type": "lineage_stage",
+          "stage_code": "T0_discovered_lead",
+          "stage_label": "T0 discovered lead",
+          "lineage_count": "0",
+          "share_of_safe_lineages": "0.000",
+          "count_scope": "collapsed publication-safe lineages",
+          "join_status": "safe_only_after_normalized_record_key_or_lineage_key_collapse",
+          "publication_confidence_note": "Counts still require confidence-cap interpretation; do not equate lineages with equally strong article support.",
+          "_source_ledger_join": "{'row_key': 'T0_discovered_lead', 'source_id_or_path': '', 'join_confidence': 'denominator_stage_no_source_ledger_key',…"
+        },
+        {
+          "row_type": "lineage_stage",
+          "stage_code": "T1_single_public_source",
+          "stage_label": "T1 single public source",
+          "lineage_count": "6",
+          "share_of_safe_lineages": "0.286",
+          "count_scope": "collapsed publication-safe lineages",
+          "join_status": "safe_only_after_normalized_record_key_or_lineage_key_collapse",
+          "publication_confidence_note": "Counts still require confidence-cap interpretation; do not equate lineages with equally strong article support.",
+          "_source_ledger_join": "{'row_key': 'T1_single_public_source', 'source_id_or_path': '', 'join_confidence': 'denominator_stage_no_source_ledger_…"
+        },
+        {
+          "row_type": "lineage_stage",
+          "stage_code": "T2_corroborated_record",
+          "stage_label": "T2 corroborated record",
+          "lineage_count": "0",
+          "share_of_safe_lineages": "0.000",
+          "count_scope": "collapsed publication-safe lineages",
+          "join_status": "safe_only_after_normalized_record_key_or_lineage_key_collapse",
+          "publication_confidence_note": "Counts still require confidence-cap interpretation; do not equate lineages with equally strong article support.",
+          "_source_ledger_join": "{'row_key': 'T2_corroborated_record', 'source_id_or_path': '', 'join_confidence': 'denominator_stage_no_source_ledger_k…"
+        }
+      ]
+    },
+    {
+      "dashboard_view": "jurisdiction_language",
+      "manuscript_surface": "Figure 5 / S1 Panel C",
+      "render_status": "PASS",
+      "render_allowed": true,
+      "fail_closed_reason": "all guards present",
+      "source_path": "results/dashboard/jurisdiction-language-coverage.tsv",
+      "configured_source_rows": 12,
+      "actual_source_rows": 12,
+      "configured_source_sha256": "8bb99a9b5e4d35bb945d4d63f99791d4eb80ca4f8d2d7fb14115ebe964f2400a",
+      "actual_source_sha256": "8bb99a9b5e4d35bb945d4d63f99791d4eb80ca4f8d2d7fb14115ebe964f2400a",
+      "subtitle": "34 jurisdictions broad; 12 reviewed-core non-English rows where panel used; no country ranking",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "row_level_provenance_status": "controlled_by_source_ledger_join_action",
+      "source_ledger_join_actions": {
+        "block_row_level_access_rights_labels": 12
+      },
+      "caption_currentness_status": "PASS",
+      "caption_currentness_reason": "caption currentness audit not applicable to this view",
+      "caption_currentness_audit_source": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/caption-currentness-audit-v0.9.tsv",
+      "columns": [
+        {
+          "name": "jurisdiction",
+          "non_empty_rows": 12,
+          "distinct_count": 12,
+          "sample_values": [
+            "CA",
+            "Denmark",
+            "Estonia"
+          ]
+        },
+        {
+          "name": "language",
+          "non_empty_rows": 12,
+          "distinct_count": 9,
+          "sample_values": [
+            "English",
+            "da",
+            "en"
+          ]
+        },
+        {
+          "name": "record_count",
+          "non_empty_rows": 12,
+          "distinct_count": 3,
+          "sample_values": [
+            "1",
+            "2",
+            "5"
+          ]
+        },
+        {
+          "name": "strongest_evidence_tier",
+          "non_empty_rows": 12,
+          "distinct_count": 2,
+          "sample_values": [
+            "T1_single_public_source",
+            "T3_authoritative_source"
+          ]
+        },
+        {
+          "name": "source_family_mix",
+          "non_empty_rows": 12,
+          "distinct_count": 7,
+          "sample_values": [
+            "authoritative_regulator_records",
+            "authoritative_sec_records",
+            "local_news"
+          ]
+        },
+        {
+          "name": "files_contributing",
+          "non_empty_rows": 12,
+          "distinct_count": 4,
+          "sample_values": [
+            "authoritative-candidates.jsonl",
+            "candidate-cases.jsonl",
+            "multilingual-candidates.jsonl"
+          ]
+        },
+        {
+          "name": "translation_review_needed_count",
+          "non_empty_rows": 12,
+          "distinct_count": 3,
+          "sample_values": [
+            "0",
+            "1",
+            "2"
+          ]
+        },
+        {
+          "name": "record_status_mix",
+          "non_empty_rows": 12,
+          "distinct_count": 6,
+          "sample_values": [
+            "authoritative:1",
+            "authoritative:2",
+            "authoritative:4; candidate:1"
+          ]
+        },
+        {
+          "name": "join_rule",
+          "non_empty_rows": 12,
+          "distinct_count": 1,
+          "sample_values": [
+            "file-qualified keys only until global namespace normalized"
+          ]
+        },
+        {
+          "name": "observatory_interpretation",
+          "non_empty_rows": 12,
+          "distinct_count": 2,
+          "sample_values": [
+            "Shows current visibility surface, not prevalence or completeness.",
+            "Shows current visibility surface, not prevalence or completeness; this row is a bounded non-English authoritative sidec…"
+          ]
+        },
+        {
+          "name": "_source_ledger_join",
+          "non_empty_rows": 12,
+          "distinct_count": 12,
+          "sample_values": [
+            "{'row_key': 'CA|en', 'source_id_or_path': 'candidate-cases.jsonl', 'join_confidence': 'file_aggregate_no_source_ledger_…",
+            "{'row_key': 'Denmark|da', 'source_id_or_path': 'authoritative-candidates.jsonl', 'join_confidence': 'file_aggregate_no_…",
+            "{'row_key': 'Estonia|et', 'source_id_or_path': 'multilingual-candidates.jsonl', 'join_confidence': 'file_aggregate_no_s…"
+          ]
+        }
+      ],
+      "sample_rows": [
+        {
+          "jurisdiction": "CA",
+          "language": "en",
+          "record_count": "1",
+          "strongest_evidence_tier": "T3_authoritative_source",
+          "source_family_mix": "authoritative_sec_records",
+          "files_contributing": "candidate-cases.jsonl",
+          "translation_review_needed_count": "0",
+          "record_status_mix": "authoritative:1",
+          "join_rule": "file-qualified keys only until global namespace normalized",
+          "observatory_interpretation": "Shows current visibility surface, not prevalence or completeness.",
+          "_source_ledger_join": "{'row_key': 'CA|en', 'source_id_or_path': 'candidate-cases.jsonl', 'join_confidence': 'file_aggregate_no_source_ledger_…"
+        },
+        {
+          "jurisdiction": "Denmark",
+          "language": "da",
+          "record_count": "1",
+          "strongest_evidence_tier": "T3_authoritative_source",
+          "source_family_mix": "authoritative_regulator_records",
+          "files_contributing": "authoritative-candidates.jsonl",
+          "translation_review_needed_count": "1",
+          "record_status_mix": "authoritative_candidate:1",
+          "join_rule": "file-qualified keys only until global namespace normalized",
+          "observatory_interpretation": "Shows current visibility surface, not prevalence or completeness; this row is a bounded non-English authoritative sidec…",
+          "_source_ledger_join": "{'row_key': 'Denmark|da', 'source_id_or_path': 'authoritative-candidates.jsonl', 'join_confidence': 'file_aggregate_no_…"
+        },
+        {
+          "jurisdiction": "Estonia",
+          "language": "et",
+          "record_count": "1",
+          "strongest_evidence_tier": "T1_single_public_source",
+          "source_family_mix": "local_news",
+          "files_contributing": "multilingual-candidates.jsonl",
+          "translation_review_needed_count": "1",
+          "record_status_mix": "candidate:1",
+          "join_rule": "file-qualified keys only until global namespace normalized",
+          "observatory_interpretation": "Shows current visibility surface, not prevalence or completeness.",
+          "_source_ledger_join": "{'row_key': 'Estonia|et', 'source_id_or_path': 'multilingual-candidates.jsonl', 'join_confidence': 'file_aggregate_no_s…"
+        }
+      ]
+    },
+    {
+      "dashboard_view": "legal_uncertainty",
+      "manuscript_surface": "Figure 6",
+      "render_status": "PASS",
+      "render_allowed": true,
+      "fail_closed_reason": "all guards present",
+      "source_path": "results/dashboard/legal-uncertainty-matrix.tsv",
+      "configured_source_rows": 15,
+      "actual_source_rows": 15,
+      "configured_source_sha256": "e7e9859a36b3b87427891fe185129e2387fa136f4c3b52e0f0924c506d94f751",
+      "actual_source_sha256": "e7e9859a36b3b87427891fe185129e2387fa136f4c3b52e0f0924c506d94f751",
+      "subtitle": "uncertainty routing only; no compliance/liability conclusion",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "row_level_provenance_status": "controlled_by_source_ledger_join_action",
+      "source_ledger_join_actions": {
+        "block_row_level_access_rights_labels": 15
+      },
+      "caption_currentness_status": "PASS",
+      "caption_currentness_reason": "caption currentness audit not applicable to this view",
+      "caption_currentness_audit_source": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/caption-currentness-audit-v0.9.tsv",
+      "columns": [
+        {
+          "name": "category_code",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "agentic_control_failure",
+            "ai_washing_or_false_ai_claim",
+            "deepfake_or_synthetic_identity"
+          ]
+        },
+        {
+          "name": "category_label",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "AI washing or false AI claim",
+            "Agentic control failure",
+            "Deepfake or synthetic identity"
+          ]
+        },
+        {
+          "name": "seed_case_count",
+          "non_empty_rows": 15,
+          "distinct_count": 7,
+          "sample_values": [
+            "0",
+            "10",
+            "2"
+          ]
+        },
+        {
+          "name": "evidence_tier_snapshot",
+          "non_empty_rows": 15,
+          "distinct_count": 11,
+          "sample_values": [
+            "T1_single_public_source:1; T3_authoritative_source:1",
+            "T1_single_public_source:1; T3_authoritative_source:3",
+            "T1_single_public_source:1; T3_authoritative_source:8"
+          ]
+        },
+        {
+          "name": "review_priority",
+          "non_empty_rows": 15,
+          "distinct_count": 2,
+          "sample_values": [
+            "High",
+            "Medium"
+          ]
+        },
+        {
+          "name": "linked_review_queue_ids",
+          "non_empty_rows": 15,
+          "distinct_count": 11,
+          "sample_values": [
+            "LQ-001; LQ-002",
+            "LQ-001; LQ-004; LQ-009",
+            "LQ-002"
+          ]
+        },
+        {
+          "name": "queue_patterns",
+          "non_empty_rows": 15,
+          "distinct_count": 11,
+          "sample_values": [
+            "LQ-001: Public-sector AI deployment with opaque procurement or registry traces || LQ-002: Surveillance, biometrics, or …",
+            "LQ-001: Public-sector AI deployment with opaque procurement or registry traces || LQ-004: Education, workplace, or HR d…",
+            "LQ-002: Surveillance, biometrics, or policing story with fundamental-rights significance"
+          ]
+        },
+        {
+          "name": "why_public_evidence_is_insufficient",
+          "non_empty_rows": 15,
+          "distinct_count": 12,
+          "sample_values": [
+            "LQ-001: Regulator/news/project pages can show that an authority discussed, piloted, regulated, or responded to a system…",
+            "LQ-001: Regulator/news/project pages can show that an authority discussed, piloted, regulated, or responded to a system…",
+            "LQ-002: Public material still omits underlying notice text, legal basis, operational parameters, and whether the system…"
+          ]
+        },
+        {
+          "name": "minimum_stronger_source_needed",
+          "non_empty_rows": 15,
+          "distinct_count": 12,
+          "sample_values": [
+            "LQ-001: Procurement file, register entry, DPIA/FRIA-equivalent, project specification, election-operations record, or o…",
+            "LQ-001: Procurement file, register entry, DPIA/FRIA-equivalent, project specification, election-operations record, or o…",
+            "LQ-002: Underlying notice/reprimand text, legal basis, technical specification, or official audit/procurement document."
+          ]
+        },
+        {
+          "name": "review_owner",
+          "non_empty_rows": 15,
+          "distinct_count": 11,
+          "sample_values": [
+            "LQ-001: Lawyer/regulator/source-authority review || LQ-002: Lawyer/regulator review",
+            "LQ-001: Lawyer/regulator/source-authority review || LQ-004: Lawyer/regulator review || LQ-009: Mixed human review",
+            "LQ-002: Lawyer/regulator review"
+          ]
+        },
+        {
+          "name": "eu_ai_act_anchor_status",
+          "non_empty_rows": 15,
+          "distinct_count": 6,
+          "sample_values": [
+            "conceptual mapping only in current local package; no direct local primary-text anchor yet verified for this category",
+            "direct_primary_anchor_verified_for_Article_50_2_and_50_4_via_EUR-Lex; case applicability still unresolved",
+            "no direct local AI Act primary-text anchor verified for this subtype; current support is enforcement-source-led and ana…"
+          ]
+        },
+        {
+          "name": "legal_conclusion_limit",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "Cannot infer non-compliance or defective oversight solely from anecdotal demonstrations",
+            "Cannot infer regulatory breach, discriminatory effect, or regulated-system scope from anecdotal market stories alone",
+            "Impossible to conclude illegality or AI Act breach from media allegations alone"
+          ]
+        },
+        {
+          "name": "observatory_hook",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "AI-washing typology for procurement and market-facing visuals",
+            "Agentic-control matrix linking case type to oversight evidence needs",
+            "Employment/education decision-flow matrix"
+          ]
+        },
+        {
+          "name": "_source_ledger_join",
+          "non_empty_rows": 15,
+          "distinct_count": 15,
+          "sample_values": [
+            "{'row_key': 'agentic_control_failure', 'source_id_or_path': 'LQ-006', 'join_confidence': 'aggregate_no_source_ledger_ke…",
+            "{'row_key': 'ai_washing_or_false_ai_claim', 'source_id_or_path': 'LQ-008; LQ-009', 'join_confidence': 'aggregate_no_sou…",
+            "{'row_key': 'deepfake_or_synthetic_identity', 'source_id_or_path': 'LQ-005', 'join_confidence': 'aggregate_no_source_le…"
+          ]
+        }
+      ],
+      "sample_rows": [
+        {
+          "category_code": "unlawful_or_allegedly_unlawful_use",
+          "category_label": "Unlawful or allegedly unlawful use",
+          "seed_case_count": "5",
+          "evidence_tier_snapshot": "T1_single_public_source:2; T3_authoritative_source:3",
+          "review_priority": "High",
+          "linked_review_queue_ids": "LQ-005; LQ-008",
+          "queue_patterns": "LQ-005: Synthetic identity, deepfake, or fraud/deception case with alleged harm || LQ-008: AI washing or false-AI procu…",
+          "why_public_evidence_is_insufficient": "LQ-005: The presence of generated content does not establish intent, materiality, attributable actor, or legal threshol…",
+          "minimum_stronger_source_needed": "LQ-005: Police/court/platform authority source, election-authority notice, securities/consumer record, or forensics/con…",
+          "review_owner": "LQ-005: Lawyer/source-authority review || LQ-008: Lawyer/procurement review",
+          "eu_ai_act_anchor_status": "conceptual mapping only in current local package; no direct local primary-text anchor yet verified for this category",
+          "legal_conclusion_limit": "Impossible to conclude illegality or AI Act breach from media allegations alone",
+          "observatory_hook": "Legal-risk heatmap by category and evidence tier",
+          "_source_ledger_join": "{'row_key': 'unlawful_or_allegedly_unlawful_use', 'source_id_or_path': 'LQ-005; LQ-008', 'join_confidence': 'aggregate_…"
+        },
+        {
+          "category_code": "security_risk",
+          "category_label": "Security risk",
+          "seed_case_count": "10",
+          "evidence_tier_snapshot": "T1_single_public_source:1; T3_authoritative_source:8",
+          "review_priority": "High",
+          "linked_review_queue_ids": "LQ-006",
+          "queue_patterns": "LQ-006: Agentic control failure demo, CVE, or anecdote",
+          "why_public_evidence_is_insufficient": "LQ-006: Public CVEs and advisories reveal control surfaces, but usually not deployment setting, duty holder, realized h…",
+          "minimum_stronger_source_needed": "LQ-006: Provider/deployer incident report, architectural postmortem, formal vendor bulletin keyed to the exact CVE, or …",
+          "review_owner": "LQ-006: Technical + legal review",
+          "eu_ai_act_anchor_status": "conceptual mapping only in current local package; no direct local primary-text anchor yet verified for this category",
+          "legal_conclusion_limit": "Public evidence often cannot show whether duty-to-report thresholds or formal security obligations were triggered",
+          "observatory_hook": "Security-to-governance edge list for graph/table views",
+          "_source_ledger_join": "{'row_key': 'security_risk', 'source_id_or_path': 'LQ-006', 'join_confidence': 'aggregate_no_source_ledger_key', 'rollu…"
+        },
+        {
+          "category_code": "agentic_control_failure",
+          "category_label": "Agentic control failure",
+          "seed_case_count": "10",
+          "evidence_tier_snapshot": "T1_single_public_source:1; T3_authoritative_source:8",
+          "review_priority": "High",
+          "linked_review_queue_ids": "LQ-006",
+          "queue_patterns": "LQ-006: Agentic control failure demo, CVE, or anecdote",
+          "why_public_evidence_is_insufficient": "LQ-006: Public CVEs and advisories reveal control surfaces, but usually not deployment setting, duty holder, realized h…",
+          "minimum_stronger_source_needed": "LQ-006: Provider/deployer incident report, architectural postmortem, formal vendor bulletin keyed to the exact CVE, or …",
+          "review_owner": "LQ-006: Technical + legal review",
+          "eu_ai_act_anchor_status": "conceptual mapping only in current local package; no direct local primary-text anchor yet verified for this category",
+          "legal_conclusion_limit": "Cannot infer non-compliance or defective oversight solely from anecdotal demonstrations",
+          "observatory_hook": "Agentic-control matrix linking case type to oversight evidence needs",
+          "_source_ledger_join": "{'row_key': 'agentic_control_failure', 'source_id_or_path': 'LQ-006', 'join_confidence': 'aggregate_no_source_ledger_ke…"
+        }
+      ]
+    },
+    {
+      "dashboard_view": "security_agentic_threshold",
+      "manuscript_surface": "Figure 7",
+      "render_status": "PASS",
+      "render_allowed": true,
+      "fail_closed_reason": "all guards present",
+      "source_path": "results/dashboard/security-threshold-ladder-panel.tsv",
+      "configured_source_rows": 4,
+      "actual_source_rows": 4,
+      "configured_source_sha256": "c989a5509d9ea6337312231e40ab3f6324608d12aa2c6cd6b4c0aa02794ff2e1",
+      "actual_source_sha256": "c989a5509d9ea6337312231e40ab3f6324608d12aa2c6cd6b4c0aa02794ff2e1",
+      "subtitle": "4 threshold rows; 11 security rows where described; not security prevalence",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "row_level_provenance_status": "controlled_by_source_ledger_join_action",
+      "source_ledger_join_actions": {
+        "show_candidate_source_ids_as_review_links_block_access_rights_badges": 4
+      },
+      "caption_currentness_status": "PASS",
+      "caption_currentness_reason": "caption currentness audit permits count-bearing reuse",
+      "caption_currentness_audit_source": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/caption-currentness-audit-v0.9.tsv",
+      "columns": [
+        {
+          "name": "panel_id",
+          "non_empty_rows": 4,
+          "distinct_count": 4,
+          "sample_values": [
+            "SEC-THR-001",
+            "SEC-THR-002",
+            "SEC-THR-003"
+          ]
+        },
+        {
+          "name": "threshold_class",
+          "non_empty_rows": 4,
+          "distinct_count": 4,
+          "sample_values": [
+            "close_explicit_package_gap",
+            "maintain_current_ceiling",
+            "upgrade_appendix_authority_or_notice_depth"
+          ]
+        },
+        {
+          "name": "member_count",
+          "non_empty_rows": 4,
+          "distinct_count": 3,
+          "sample_values": [
+            "1",
+            "3",
+            "6"
+          ]
+        },
+        {
+          "name": "member_ids",
+          "non_empty_rows": 4,
+          "distinct_count": 4,
+          "sample_values": [
+            "GAP-peer_reviewed_security_case_support",
+            "LIMEN-000001; LIMEN-000003; LIMEN-000008",
+            "LIMEN-000002"
+          ]
+        },
+        {
+          "name": "route_ids",
+          "non_empty_rows": 4,
+          "distinct_count": 4,
+          "sample_values": [
+            "SEC-NRB-001",
+            "SEC-NRB-001; SEC-NRB-003; SEC-NRB-004",
+            "SEC-NRB-002"
+          ]
+        },
+        {
+          "name": "publication_buckets_present",
+          "non_empty_rows": 4,
+          "distinct_count": 4,
+          "sample_values": [
+            "0_gap_only",
+            "1_core_results",
+            "2_appendix_supporting_results"
+          ]
+        },
+        {
+          "name": "reviewer_safe_reading",
+          "non_empty_rows": 4,
+          "distinct_count": 4,
+          "sample_values": [
+            "Langflow remains the only limitations-routed row whose comparative reuse ceiling would change with one stronger vendor …",
+            "Most remaining security upgrades are appendix-grade authority, notice-depth, or mechanism-diversity improvements rather…",
+            "The only explicit package-level threshold event is still peer-reviewed security case support."
+          ]
+        },
+        {
+          "name": "dashboard_hook",
+          "non_empty_rows": 4,
+          "distinct_count": 1,
+          "sample_values": [
+            "security_threshold_ladder"
+          ]
+        },
+        {
+          "name": "_source_ledger_join",
+          "non_empty_rows": 4,
+          "distinct_count": 4,
+          "sample_values": [
+            "{'row_key': 'SEC-THR-001', 'source_id_or_path': 'GAP-peer_reviewed_security_case_support', 'join_confidence': 'aggregat…",
+            "{'row_key': 'SEC-THR-002', 'source_id_or_path': 'SRC-AUTH-0002; SRC-AUTH-0005', 'join_confidence': 'candidate_case_id_j…",
+            "{'row_key': 'SEC-THR-003', 'source_id_or_path': 'SRC-AUTH-0004; SRC-AUTH-0007; SRC-AUTH-0009; SRC-AUTH-0010; SRC-AUTH-0…"
+          ]
+        }
+      ],
+      "sample_rows": [
+        {
+          "panel_id": "SEC-THR-001",
+          "threshold_class": "close_explicit_package_gap",
+          "member_count": "1",
+          "member_ids": "GAP-peer_reviewed_security_case_support",
+          "route_ids": "SEC-NRB-001",
+          "publication_buckets_present": "0_gap_only",
+          "reviewer_safe_reading": "The only explicit package-level threshold event is still peer-reviewed security case support.",
+          "dashboard_hook": "security_threshold_ladder",
+          "_source_ledger_join": "{'row_key': 'SEC-THR-001', 'source_id_or_path': 'GAP-peer_reviewed_security_case_support', 'join_confidence': 'aggregat…"
+        },
+        {
+          "panel_id": "SEC-THR-002",
+          "threshold_class": "upgrade_limitations_row_before_comparative_reuse",
+          "member_count": "1",
+          "member_ids": "LIMEN-000002",
+          "route_ids": "SEC-NRB-002",
+          "publication_buckets_present": "3_limitations_queue_only",
+          "reviewer_safe_reading": "Langflow remains the only limitations-routed row whose comparative reuse ceiling would change with one stronger vendor …",
+          "dashboard_hook": "security_threshold_ladder",
+          "_source_ledger_join": "{'row_key': 'SEC-THR-002', 'source_id_or_path': 'SRC-AUTH-0002; SRC-AUTH-0005', 'join_confidence': 'candidate_case_id_j…"
+        },
+        {
+          "panel_id": "SEC-THR-003",
+          "threshold_class": "upgrade_appendix_authority_or_notice_depth",
+          "member_count": "6",
+          "member_ids": "LIMEN-000004; LIMEN-000005; LIMEN-000006; LIMEN-000007; LIMEN-000009; LIMEN-000012",
+          "route_ids": "SEC-NRB-001; SEC-NRB-003; SEC-NRB-004",
+          "publication_buckets_present": "2_appendix_supporting_results",
+          "reviewer_safe_reading": "Most remaining security upgrades are appendix-grade authority, notice-depth, or mechanism-diversity improvements rather…",
+          "dashboard_hook": "security_threshold_ladder",
+          "_source_ledger_join": "{'row_key': 'SEC-THR-003', 'source_id_or_path': 'SRC-AUTH-0004; SRC-AUTH-0007; SRC-AUTH-0009; SRC-AUTH-0010; SRC-AUTH-0…"
+        }
+      ]
+    },
+    {
+      "dashboard_view": "duplicate_review_graph",
+      "manuscript_surface": "Figure 8",
+      "render_status": "PASS",
+      "render_allowed": true,
+      "fail_closed_reason": "all guards present",
+      "source_path": "results/dashboard/duplicate-review-graph.tsv",
+      "configured_source_rows": 27,
+      "actual_source_rows": 27,
+      "configured_source_sha256": "bb36d1fd9ddc2833d5abc3c57236b8f43c65c90d8f1b2a8c8092287dea8ec66d",
+      "actual_source_sha256": "bb36d1fd9ddc2833d5abc3c57236b8f43c65c90d8f1b2a8c8092287dea8ec66d",
+      "subtitle": "27 duplicate-review edges; 0 merge decisions; not proof all duplicates are absent",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "row_level_provenance_status": "controlled_by_source_ledger_join_action",
+      "source_ledger_join_actions": {
+        "block_row_level_access_rights_labels": 27
+      },
+      "caption_currentness_status": "PASS",
+      "caption_currentness_reason": "caption currentness audit not applicable to this view",
+      "caption_currentness_audit_source": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/caption-currentness-audit-v0.9.tsv",
+      "columns": [
+        {
+          "name": "edge_id",
+          "non_empty_rows": 27,
+          "distinct_count": 27,
+          "sample_values": [
+            "REVIEW-IDCOLLISION-LIMEN-000001::edge1",
+            "REVIEW-IDCOLLISION-LIMEN-000001::edge2",
+            "REVIEW-IDCOLLISION-LIMEN-000001::edge3"
+          ]
+        },
+        {
+          "name": "source_case_key",
+          "non_empty_rows": 27,
+          "distinct_count": 21,
+          "sample_values": [
+            "authoritative-candidates.jsonl:LIMEN-000001",
+            "authoritative-candidates.jsonl:LIMEN-000002",
+            "authoritative-candidates.jsonl:LIMEN-000003"
+          ]
+        },
+        {
+          "name": "target_case_key",
+          "non_empty_rows": 27,
+          "distinct_count": 18,
+          "sample_values": [
+            "authoritative-candidates.jsonl:LIMEN-000004",
+            "authoritative-candidates.jsonl:LIMEN-000011",
+            "authoritative-candidates.jsonl:LIMEN-000015"
+          ]
+        },
+        {
+          "name": "edge_type",
+          "non_empty_rows": 27,
+          "distinct_count": 2,
+          "sample_values": [
+            "identifier_collision_blocker",
+            "reviewed_not_duplicate"
+          ]
+        },
+        {
+          "name": "cluster_basis",
+          "non_empty_rows": 27,
+          "distinct_count": 7,
+          "sample_values": [
+            "same_case_id_string_across_distinct_events",
+            "shared_authority_actor_only",
+            "shared_concrete_failure_mode"
+          ]
+        },
+        {
+          "name": "shared_event_or_actor",
+          "non_empty_rows": 27,
+          "distinct_count": 14,
+          "sample_values": [
+            "Auto-GPT and LangChain LLMMathChain",
+            "Claude Code and CrewAI",
+            "CrewAI"
+          ]
+        },
+        {
+          "name": "shared_failure_mode",
+          "non_empty_rows": 27,
+          "distinct_count": 14,
+          "sample_values": [
+            "AI-washing / misleading AI marketing in regulated finance",
+            "LLM-generated or model-mediated code reaches Python/OS execution surfaces",
+            "MCP/deployment trust-boundary failures exposing unauthorized local tool access or local secret material in agent-tool o…"
+          ]
+        },
+        {
+          "name": "cross_source_overlap",
+          "non_empty_rows": 27,
+          "distinct_count": 20,
+          "sample_values": [
+            "distinct publisher families and venue contexts (archived NEJM notice vs live Springer notice); no shared event, actor, …",
+            "not a duplicate cluster; namespace collision across distinct Danish public-sector governance and MCP security lineages",
+            "not a duplicate cluster; namespace collision across distinct deepfake-governance and agent-memory security lineages"
+          ]
+        },
+        {
+          "name": "evidence_tier_ceiling",
+          "non_empty_rows": 27,
+          "distinct_count": 1,
+          "sample_values": [
+            "T3_authoritative_source"
+          ]
+        },
+        {
+          "name": "review_notes",
+          "non_empty_rows": 27,
+          "distinct_count": 23,
+          "sample_values": [
+            "Do not collapse. Delphia and Global Predictions were announced together by the SEC, but they remain distinct enforcemen…",
+            "Do not collapse. Serco worker-attendance enforcement and Chelmer school canteen reprimand are separate events; useful a…",
+            "Do not collapse. The DoNotPay AI-lawyer matter and the Workado AI-detector accuracy matter are separate FTC complaint-p…"
+          ]
+        },
+        {
+          "name": "provenance_inputs",
+          "non_empty_rows": 27,
+          "distinct_count": 12,
+          "sample_values": [
+            "data/cases/authoritative-candidates.jsonl",
+            "data/cases/authoritative-candidates.jsonl; data/cases/security-agentic-candidates.jsonl",
+            "data/cases/authoritative-candidates.jsonl; data/cases/security-agentic-candidates.jsonl; results/boost/limen-boost-009/…"
+          ]
+        },
+        {
+          "name": "updated_at_utc",
+          "non_empty_rows": 27,
+          "distinct_count": 10,
+          "sample_values": [
+            "2026-06-07T06:09:00Z",
+            "2026-06-07T15:49:00Z",
+            "2026-06-07T17:04:32Z"
+          ]
+        },
+        {
+          "name": "_source_ledger_join",
+          "non_empty_rows": 27,
+          "distinct_count": 27,
+          "sample_values": [
+            "{'row_key': 'REVIEW-IDCOLLISION-LIMEN-000001::edge1', 'source_id_or_path': 'data/cases/authoritative-candidates.jsonl; …",
+            "{'row_key': 'REVIEW-IDCOLLISION-LIMEN-000001::edge2', 'source_id_or_path': 'data/cases/authoritative-candidates.jsonl; …",
+            "{'row_key': 'REVIEW-IDCOLLISION-LIMEN-000001::edge3', 'source_id_or_path': 'data/cases/authoritative-candidates.jsonl; …"
+          ]
+        }
+      ],
+      "sample_rows": [
+        {
+          "edge_id": "REVIEW-IDCOLLISION-LIMEN-000001::edge1",
+          "source_case_key": "authoritative-candidates.jsonl:LIMEN-000001",
+          "target_case_key": "security-agentic-candidates.jsonl:LIMEN-000001",
+          "edge_type": "identifier_collision_blocker",
+          "cluster_basis": "same_case_id_string_across_distinct_events",
+          "shared_event_or_actor": "none; shared local identifier only",
+          "shared_failure_mode": "none confirmed",
+          "cross_source_overlap": "not a duplicate cluster; namespace collision across three distinct lineages",
+          "evidence_tier_ceiling": "T3_authoritative_source",
+          "review_notes": "Do not merge. Bare case_id reuse now spans regulator, security, and SEC AI-washing packages; downstream joins must use …",
+          "provenance_inputs": "data/cases/authoritative-candidates.jsonl; data/cases/security-agentic-candidates.jsonl; results/boost/limen-boost-009/…",
+          "updated_at_utc": "2026-06-07T06:09:00Z",
+          "_source_ledger_join": "{'row_key': 'REVIEW-IDCOLLISION-LIMEN-000001::edge1', 'source_id_or_path': 'data/cases/authoritative-candidates.jsonl; …"
+        },
+        {
+          "edge_id": "REVIEW-IDCOLLISION-LIMEN-000001::edge2",
+          "source_case_key": "authoritative-candidates.jsonl:LIMEN-000001",
+          "target_case_key": "boost-009/candidate-cases.jsonl:LIMEN-000001",
+          "edge_type": "identifier_collision_blocker",
+          "cluster_basis": "same_case_id_string_across_distinct_events",
+          "shared_event_or_actor": "none; shared local identifier only",
+          "shared_failure_mode": "none confirmed",
+          "cross_source_overlap": "not a duplicate cluster; namespace collision across three distinct lineages",
+          "evidence_tier_ceiling": "T3_authoritative_source",
+          "review_notes": "Do not merge. Bare case_id reuse now spans regulator, security, and SEC AI-washing packages; downstream joins must use …",
+          "provenance_inputs": "data/cases/authoritative-candidates.jsonl; data/cases/security-agentic-candidates.jsonl; results/boost/limen-boost-009/…",
+          "updated_at_utc": "2026-06-07T06:09:00Z",
+          "_source_ledger_join": "{'row_key': 'REVIEW-IDCOLLISION-LIMEN-000001::edge2', 'source_id_or_path': 'data/cases/authoritative-candidates.jsonl; …"
+        },
+        {
+          "edge_id": "REVIEW-IDCOLLISION-LIMEN-000001::edge3",
+          "source_case_key": "security-agentic-candidates.jsonl:LIMEN-000001",
+          "target_case_key": "boost-009/candidate-cases.jsonl:LIMEN-000001",
+          "edge_type": "identifier_collision_blocker",
+          "cluster_basis": "same_case_id_string_across_distinct_events",
+          "shared_event_or_actor": "none; shared local identifier only",
+          "shared_failure_mode": "none confirmed",
+          "cross_source_overlap": "not a duplicate cluster; namespace collision across three distinct lineages",
+          "evidence_tier_ceiling": "T3_authoritative_source",
+          "review_notes": "Do not merge. Bare case_id reuse now spans regulator, security, and SEC AI-washing packages; downstream joins must use …",
+          "provenance_inputs": "data/cases/authoritative-candidates.jsonl; data/cases/security-agentic-candidates.jsonl; results/boost/limen-boost-009/…",
+          "updated_at_utc": "2026-06-07T06:09:00Z",
+          "_source_ledger_join": "{'row_key': 'REVIEW-IDCOLLISION-LIMEN-000001::edge3', 'source_id_or_path': 'data/cases/authoritative-candidates.jsonl; …"
+        }
+      ]
+    }
+  ],
+  "verdict": "PASS",
+  "pass_count": 7,
+  "fail_count": 0
+}

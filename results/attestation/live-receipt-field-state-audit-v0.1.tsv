@@ -1,0 +1,7 @@
+envelope_id	action	subject_kind	subject_id	review_status	transparency_status	vc_status	signature_status	non_claims_count	dashboard_hooks_count	schema_refs_count	validation_result	paper_use_now
+LIMEN-ENV-EXAMPLE-0001	classified	case_record	LIMEN-000001	lane_checked	not_present	not_present	not_present	6	3	2	PASS	methods/appendix provenance sample
+LIMEN-ENV-EXAMPLE-0002	reviewed	case_record	LIMEN-CAND-LMWCS-20260606-004	needs_revision	not_present	not_present	not_present	6	2	1	PASS	methods/appendix provenance sample
+LIMEN-ENV-EXAMPLE-0003	clustered	duplicate_cluster	REVIEW-NOMERGE-ICO-001	lane_checked	not_present	not_present	not_present	6	2	1	PASS	methods/appendix provenance sample
+LIMEN-ENV-EXAMPLE-0004	classified	crosswalk_row	limen-legal-normative-crosswalk:deepfake_or_synthetic_identity	lane_checked	not_present	not_present	not_present	7	3	1	PASS	methods/appendix provenance sample
+LIMEN-ENV-EXAMPLE-0005	published	artifact	limen-dashboard-paper-forge:evidence-funnel-v0.1	lane_checked	not_present	not_present	not_present	6	2	1	PASS	live appendix/control-table feed for attestation package
+LIMEN-ENV-EXAMPLE-0006	published	artifact	limen-attestation-publication-bundle-v0.1	lane_checked	proof_pending	draft	placeholder_only	7	1	1	PASS	live appendix/control-table feed for attestation package

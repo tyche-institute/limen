@@ -1,0 +1,124 @@
+{
+  "boundary": "Promotion hardening only; no reviewed-core promotion, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/source-reviewed-promotion-hardening.tsv",
+  "generated_at_utc": "2026-06-23T19:58:30Z",
+  "named_url_rows": 1434,
+  "no_named_url_rows": 212,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-v0.1.tsv",
+  "promotion_gate_counts": {
+    "already_reviewed_core_lineage": 15,
+    "needs_named_url_extraction": 212,
+    "source_surface_anchor_only": 1419
+  },
+  "promotion_priority_counts": {
+    "P2": 1013,
+    "P3": 618,
+    "closed": 15
+  },
+  "source_reviewed_candidate_rows": 1646,
+  "source_surface_class_counts": {
+    "court_or_tribunal": 18,
+    "policy_or_guidance_surface": 35,
+    "public_source_surface": 26,
+    "register_or_transparency_surface": 2,
+    "regulator_or_public_authority": 1540,
+    "sandbox_or_innovation_surface": 2,
+    "secondary_or_index_surface": 10,
+    "security_advisory_or_vulnerability": 13
+  },
+  "top_hosts": [
+    {
+      "count": 212,
+      "host": "no_url"
+    },
+    {
+      "count": 52,
+      "host": "algoritmes.overheid.nl"
+    },
+    {
+      "count": 38,
+      "host": "eur-lex.europa.eu"
+    },
+    {
+      "count": 25,
+      "host": "canada.ca"
+    },
+    {
+      "count": 25,
+      "host": "open.canada.ca"
+    },
+    {
+      "count": 21,
+      "host": "au.int"
+    },
+    {
+      "count": 19,
+      "host": "fca.org.uk"
+    },
+    {
+      "count": 18,
+      "host": "tbs-sct.canada.ca"
+    },
+    {
+      "count": 15,
+      "host": "ai.hel.fi"
+    },
+    {
+      "count": 13,
+      "host": "zip.com"
+    },
+    {
+      "count": 12,
+      "host": "ca.go.ke"
+    },
+    {
+      "count": 12,
+      "host": "gov.uk"
+    },
+    {
+      "count": 12,
+      "host": "doi.org"
+    },
+    {
+      "count": 11,
+      "host": "digital.go.jp"
+    },
+    {
+      "count": 11,
+      "host": "aesia.digital.gob.es"
+    },
+    {
+      "count": 11,
+      "host": "servicenow.com"
+    },
+    {
+      "count": 10,
+      "host": "digital-strategy.ec.europa.eu"
+    },
+    {
+      "count": 10,
+      "host": "digdir.no"
+    },
+    {
+      "count": 9,
+      "host": "raw.githubusercontent.com"
+    },
+    {
+      "count": 9,
+      "host": "mas.gov.sg"
+    }
+  ],
+  "top_output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-top50-v0.1.tsv",
+  "unique_dedupe_keys": 1049,
+  "url_extraction_results": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/named-url-extraction-results-v0.1.tsv",
+  "url_recovery_counts": {
+    "delimited_cell": 42,
+    "hardening_review_url_extracted": 103,
+    "json_field:public_url": 6,
+    "json_field:source_url": 32,
+    "json_field:url": 91,
+    "line_checked_no_url": 206,
+    "not_attempted": 6,
+    "snippet_or_result": 1160
+  }
+}

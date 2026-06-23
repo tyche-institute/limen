@@ -1,0 +1,39 @@
+  ┊ review diff
+a//srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091113Z-lane15-4011f8c6/manifest.json → b//srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091113Z-lane15-4011f8c6/manifest.json
+@@ -10,8 +10,8 @@
+   "remaining_unleased_at_allocation": 13021,
+   "started_at_utc": "2026-06-14T09:11:13Z",
+   "status": "completed",
+-  "updated_at_utc": "2026-06-14T09:11:13Z",
+-  "completed_at_utc": "2026-06-14T09:11:13Z",
++  "updated_at_utc": "2026-06-14T09:16:32Z",
++  "completed_at_utc": "2026-06-14T09:16:32Z",
+   "results": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091113Z-lane15-4011f8c6/source-review-results.tsv",
+   "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091113Z-lane15-4011f8c6/source-review-summary.md",
+   "results_rows": 100,
+
+session_id: 20260614_111114_2a3b78
+Готово.
+
+Созданы и заполнены:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091113Z-lane15-4011f8c6/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091113Z-lane15-4011f8c6/source-review-summary.md
+
+Обновлён manifest:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091113Z-lane15-4011f8c6/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- signal_id set match: true
+- duplicate signal_id in output: none
+
+Итоговые counts:
+- source_reviewed_candidate: 2
+- merge_existing_surface: 13
+- negative_evidence_candidate: 28
+- needs_named_source_extraction: 21
+- translation_review_needed: 1
+- reject_noise: 35
+
+Заголовок results TSV соответствует требуемому ровно.

@@ -1,0 +1,41 @@
+{
+  "generated_utc": "2026-06-18T14:31:07Z",
+  "lane_id": "limen-dashboard-paper-forge",
+  "input": [
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/corpus-audit-v0.1.tsv",
+      "rows": 102,
+      "sha256": "sha256:ec706dbf1afb51f638602a0900c817540d45d74670e9fcdce552d359bcf807fe"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/sources/sources.md",
+      "sha256": "sha256:b9081d53dd4763270395ca3b21cbf23ceea9d8832c2f48d8fabde37a70ab0a3d",
+      "role": "primary source ledger"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/source-family-coverage-map-v0.2.tsv",
+      "sha256": "sha256:095b0aeeca99c5a2ea8f299883ac416d918cdadb2ba1ae24cf3c3d66ef3d1c8a"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/evidence-tier-funnel-v0.2.tsv",
+      "sha256": "sha256:9122e26a0924b264be3064fa6db39b975c5f3bcbd92995a309cb2ff018894bfa"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/review-priority-routing-v0.2.tsv",
+      "sha256": "sha256:f6e2b60406b94255a1a1ce962edc2230cfa568955f86dbed5a6045de35cfd02b"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/claim-ceiling-summary-v0.2.tsv",
+      "sha256": "sha256:d0c244f4a8e96c8eb90607ec7ec1f933f295874dfd65c81d807ec6ee5751a444"
+    },
+    {
+      "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-dashboard-paper-forge/dashboard-paper-parity-summary-v0.2.md",
+      "sha256": "sha256:bb920e8645539eeeafc7d2bf1dab8652ed6e6c5dea8e251e9b214319d50efdf0"
+    }
+  ],
+  "safety_boundary": "public/open local artifacts only; audit supports dashboard and manuscript routing, not legal/compliance/safety/deployment/truth/prevalence claims",
+  "known_gap": "requested input results/boost/limen-boost-009/ai-washing-posture-table-v0.1.tsv was missing; likely replacement exists under results/dashboard-paper/",
+  "observatory_hook": "Dashboard can ingest v0.2 TSVs for Figure 1 source-level coverage, Figure 2 evidence-tier funnel, review queue, and limitation panels."
+}

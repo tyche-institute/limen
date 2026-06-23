@@ -1,0 +1,31 @@
+[
+  {
+    "case_id": "CASE-2023-001",
+    "framework": "AIID",
+    "source": "EU Regulation 2023/456 on AI Systems",
+    "evidence_type": "Regulatory Text",
+    "jurisdiction": "European Union",
+    "language": "English",
+    "notes": "Direct mapping to AIID Principle 4.2 on transparency"
+  },
+  {
+    "case_id": "CASE-2023-002",
+    "framework": "MITRE",
+    "source": "Bundesministerium für Digitale Angelegenheiten - KI-Gesetzentwurf (Machine Translation from German)",
+    "evidence_type": "Draft Legislation",
+    "jurisdiction": "Germany",
+    "language": "German",
+    "translation_confidence": "0.85",
+    "notes": "Addresses algorithmic impact assessment requirements"
+  },
+  {
+    "case_id": "CASE-2023-003",
+    "framework": "OECD",
+       "source": "French AI Ethics Charter (Version 2.1, Machine Translation from French)",
+    "evidence_type": "Ethics Guidelines",
+    "jurisdiction": "France",
+    "language": "French",
+    "translation_confidence": "0.78",
+    "notes": "Aligns with OECD Principle 5 on human-centred values"
+  }
+]

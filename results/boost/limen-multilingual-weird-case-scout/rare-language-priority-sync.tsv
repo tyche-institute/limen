@@ -1,0 +1,7 @@
+queue_id	jurisdiction	language	canonical_rare_language_priority	queue_before	queue_after	language_coverage_before	language_coverage_after	sync_status
+LMWCS-20260606-004	Slovenia	sl	medium_undercovered		medium_undercovered		medium_undercovered	synced_from_jsonl_canonical
+LMWCS-20260606-001	Finland	fi	medium_undercovered		medium_undercovered		medium_undercovered	synced_from_jsonl_canonical
+LMWCS-20260606-002	Finland	fi	medium_undercovered		medium_undercovered		medium_undercovered	synced_from_jsonl_canonical
+LMWCS-20260606-003	Lithuania	lt	high_undercovered		high_undercovered		high_undercovered	synced_from_jsonl_canonical
+LMWCS-20260606-005	Slovenia	sl	medium_undercovered		medium_undercovered		medium_undercovered	synced_from_jsonl_canonical
+LMWCS-20260606-006	Estonia	et	high_undercovered		high_undercovered		high_undercovered	synced_from_jsonl_canonical

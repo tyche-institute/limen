@@ -1,0 +1,20 @@
+source_family	aiid_category	oecd_category	avid_category	mitre_category	mit_category	cset_category	evidence_tier
+news	AIID-1001 (Incidents)	OECD-PR.001 (AI Systems)	AVID-EVENT-001	MITRE-ATT&CK-AI-001	MIT-DS-007
+Tier 3 - Secondary Reporting
+regulatory	AIID-1002 (Regulatory Acts)	OECD-REG-001 (National Strategies)	AVID-POLICY-002	MITRE-REG-001	MIT-REG-011
+Tier 2 - Indirect Evidence
+government report	AIID-1003 (Government Reports)	OECD-DOC-001 (Policy Documents)	AVID-DOC-001	MITRE-DATA-002	MIT-DOC-012
+Tier 2 - Indirect Evidence
+academic
+AIID-1004 (Research)	OECD-RES-001 (Research)	AVID-RESEARCH-003	MITRE-RESEARCH-101	MIT-RES-013
+Tier 1 - Primary Research
+industry standard
+AIID-1005 (Standards)	OECD-STANDARD-001	AVID-STANDARD-004	MITRE-STANDARD-102	MIT-STANDARD-014
+Tier 2 - Indirect Evidence
+judicial
+AIID-1006 (Case Law)	OECD-JUD-001	AVID-JUDICIAL-005	MITRE-JUDICIAL-103	MIT-JUDICIAL-015
+Tier 1 - Primary Legal Authority
+blog	AIID-1007 (Commentary)	OECD-COMM-001	AVID-COMM-006	MITRE-COMM-104
+Tier 3 - Secondary Commentary
+social media	AIID-1008 (Social Media)	OECD-SOC-001	AVID-SOC-007	MITRE-SOC-105
+Tier 3 - Secondary Evidence

@@ -1,0 +1,2 @@
+panel_id	authority_or_gap_state	live_case_count	core_results_count	appendix_supporting_count	limitations_only_count	exact_interoperability_case_count	exact_fix_visible_case_count	release_note_or_source_qualified_case_count	route_priority	summary_label
+SEC-AUTH-PANEL-001	peer_reviewed_security_case_support	0	0	0	0	0	0	0	1	explicit_peer_review_gap

@@ -1,0 +1,29 @@
+
+session_id: 20260614_104858_25b4f3
+Готово.
+
+Сделано:
+- записан results TSV:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T084857Z-lane10-13f07521/source-review-results.tsv
+- записан summary:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T084857Z-lane10-13f07521/source-review-summary.md
+- обновлён manifest:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T084857Z-lane10-13f07521/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- unique signal_id in input: 100
+- unique signal_id in output: 100
+- signal_id set match: true
+- header exact match: true
+
+Итоги по verdict:
+- source_reviewed_candidate: 15
+- merge_existing_surface: 18
+- negative_evidence_candidate: 31
+- needs_named_source_extraction: 4
+- translation_review_needed: 5
+- reject_noise: 27
+
+Граница батча сохранена: local-only source-surface triage, без web crawl и без внешних действий.

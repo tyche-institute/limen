@@ -1,0 +1,25 @@
+
+session_id: 20260617_005559_02a4ea
+Готово.
+
+Созданы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225550Z-lane59-489f10c6/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225550Z-lane59-489f10c6/case-extraction-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225550Z-lane59-489f10c6/manifest.json
+
+Проверка пройдена:
+- input rows: 16
+- output rows: 16
+- source_cluster_key set matches input.tsv: true
+- duplicate source_cluster_key: false
+
+Итоговые verdict counts:
+- case_candidate_for_hardening: 1
+- closed_noncase_source_surface: 15
+
+Единственный retained candidate:
+- https://api.github.com/repos/langchain-ai/langchain/security-advisories/GHSA-pjwx-r37v-7724 — GitHub Security Advisory for LangChain unsafe deserialization through overly broad `load()` allowlists.
+
+Границы соблюдены: reviewed-core promotion и ObscureAI addition не выполнялись.

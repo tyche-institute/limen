@@ -1,0 +1,3 @@
+artifact	status	notes
+results/attestation/live-classified-security-envelope-v0.1.json	pass	JSON Schema validation passed for live classified case receipt
+results/attestation/live-classified-security-note-v0.1.md	pass	Companion note records conservative claim boundary and dashboard/paper hooks

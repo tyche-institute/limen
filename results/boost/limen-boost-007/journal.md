@@ -1,0 +1,1 @@
+1|Next smallest publishability move: pursue authoritative non-framework runtime-execution lineage (e.g., new CVE with vendor bulletin).

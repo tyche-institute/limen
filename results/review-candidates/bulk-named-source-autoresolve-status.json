@@ -1,0 +1,15 @@
+{
+  "autoresolve_status_counts": {
+    "unresolved_needs_parent_source_extraction": 1832,
+    "url_found_near_source_line": 1350
+  },
+  "boundary": "Deterministic URL/locator extraction only; no reviewed-core promotion, factual claim, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-named-source-autoresolve.tsv",
+  "generated_at_utc": "2026-06-23T19:58:26Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-source-review-routing-v0.1.tsv",
+  "input_rows": 3182,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-named-source-autoresolve-v0.1.tsv",
+  "resolved_rows": 1350,
+  "unresolved_queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-named-source-unresolved-queue-v0.1.tsv",
+  "unresolved_rows": 1832
+}

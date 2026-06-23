@@ -1,0 +1,29 @@
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T184514Z-lane2-6a0f1e9f/parent-source-extraction-results.tsv → b/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T184514Z-lane2-6a0f1e9f/parent-source-extraction-results.tsv
+@@ -0,0 +1,3 @@
++queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason
++BPSE-03661	LIMEN-SIGNAL-4FF2332D309FB60F	parent_source_wrapper		db-aiid	notenough_info: requires human selection from source-pack
++BPSE-03662	LIMEN-SIGNAL-BFAE8427338C208B	parent_source_wrapper		db-aoid	notenough_info: requires human selection from source-pack
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T184514Z-lane2-6a0f1e9f/parent-source-extraction-summary.md → b/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T184514Z-lane2-6a0f1e9f/parent-source-extraction-summary.md
+@@ -0,0 +1,17 @@
++# Parent Source Extraction Summary
++
++## Processed: 2 rows
++
++### Verdicts
++- `parent_source_wrapper`: 2 rows
++
++### Details
++1. **BPSE-03661** (LIMEN-SIGNAL-4FF2332D309FB60F)
++   - Source: db-aiid
++   - Reason: Not enough info - requires human selection from source-pack
++   - Evidence: sources.md line 9
++
++2. **BPSE-03662** (LIMEN-SIGNAL-BFAE8427338C208B)
++   - Source: db-aoid
++   - Reason: Not enough info - requires human selection from source-pack
++   - Evidence: sources.md line 10
+
+session_id: 20260623_204514_0f9466
+<TOOLCALL>[{"name": "read_file", "arguments": {"limit": 1000, "offset": 1, "path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260623T184514Z-lane2-6a0f1e9f/manifest.json"}}]</TOOLCALL>

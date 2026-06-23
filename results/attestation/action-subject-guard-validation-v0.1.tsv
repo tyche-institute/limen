@@ -1,0 +1,20 @@
+row_id	scenario	action	subject_kind	expected_validation	observed_validation	result	note
+ASGV-001	example:LIMEN-ENV-EXAMPLE-0001	classified	case_record	PASS	PASS	as_expected	valid under updated schema
+ASGV-002	example:LIMEN-ENV-EXAMPLE-0002	reviewed	case_record	PASS	PASS	as_expected	valid under updated schema
+ASGV-003	example:LIMEN-ENV-EXAMPLE-0003	clustered	duplicate_cluster	PASS	PASS	as_expected	valid under updated schema
+ASGV-004	example:LIMEN-ENV-EXAMPLE-0004	classified	crosswalk_row	PASS	PASS	as_expected	valid under updated schema
+ASGV-005	example:LIMEN-ENV-EXAMPLE-0005	published	artifact	PASS	PASS	as_expected	valid under updated schema
+ASGV-006	example:LIMEN-ENV-EXAMPLE-0006	published	artifact	PASS	PASS	as_expected	valid under updated schema
+ASGV-007	live:live-observed-source-envelope-v0.1.json	observed	source_record	PASS	PASS	as_expected	valid under updated schema
+ASGV-008	live:live-extracted-source-envelope-v0.1.json	extracted	source_record	PASS	PASS	as_expected	valid under updated schema
+ASGV-009	live:live-classified-security-envelope-v0.1.json	classified	case_record	PASS	PASS	as_expected	valid under updated schema
+ASGV-010	live:live-reviewed-crosswalk-envelope-v0.1.json	reviewed	crosswalk_row	PASS	PASS	as_expected	valid under updated schema
+ASGV-011	live:live-clustered-duplicate-envelope-v0.1.json	clustered	duplicate_cluster	PASS	PASS	as_expected	valid under updated schema
+ASGV-012	live:live-superseded-status-envelope-v0.1.json	superseded	artifact	PASS	PASS	as_expected	valid under updated schema
+ASGV-013	live:live-envelope-receipt-v0.1.json	published	artifact	PASS	PASS	as_expected	valid under updated schema
+ASGV-014	live:live-dashboard-envelope-receipt-v0.1.json	published	artifact	PASS	PASS	as_expected	valid under updated schema
+ASGV-015	live:live-shared-release-bundle-envelope-v0.7.json	published	artifact	PASS	PASS	as_expected	valid under updated schema
+ASGV-016	negative:observed_with_case_subject	observed	case_record	FAIL	FAIL	as_expected	'source_record' was expected
+ASGV-017	negative:extracted_with_artifact_subject	extracted	artifact	FAIL	FAIL	as_expected	'source_record' was expected
+ASGV-018	negative:classified_with_source_subject	classified	source_record	FAIL	FAIL	as_expected	'source_record' is not one of ['case_record', 'crosswalk_row']
+ASGV-019	negative:reviewed_with_artifact_subject	reviewed	artifact	FAIL	FAIL	as_expected	'artifact' is not one of ['case_record', 'crosswalk_row']

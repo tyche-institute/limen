@@ -1,0 +1,164 @@
+{
+  "data_type": "AVID",
+  "data_version": "0.3.3",
+  "metadata": {
+    "report_id": "AVID-2025-R0003"
+  },
+  "affects": {
+    "developer": [
+      "OpenAI"
+    ],
+    "deployer": [
+      "OpenAI"
+    ],
+    "artifacts": [
+      {
+        "type": "System",
+        "name": "gpt-4o-mini-2024-07-18"
+      }
+    ]
+  },
+  "problemtype": {
+    "classof": "LLM Evaluation",
+    "type": "Measurement",
+    "description": {
+      "lang": "eng",
+      "value": "Evaluation of the AI system gpt-4o-mini-2024-07-18 on the agentharm benchmark using Inspect Evals"
+    }
+  },
+  "metrics": [
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_score",
+      "value": 0.5787848042109405
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_full_score",
+      "value": 0.32386363636363635
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_refusals",
+      "value": 0.20454545454545456
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_score_non_refusals",
+      "value": 0.7022410327767469
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Disinformation_avg_scores",
+      "value": 0.6849999999999999
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Harassment_avg_scores",
+      "value": 0.5480429292929293
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Drugs_avg_scores",
+      "value": 0.7433333333333333
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Fraud_avg_scores",
+      "value": 0.4930555555555556
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Hate_avg_scores",
+      "value": 0.7125
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Cybercrime_avg_scores",
+      "value": 0.6142857142857144
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Sexual_avg_scores",
+      "value": 0.3681547619047618
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Copyright_avg_scores",
+      "value": 0.5392361111111112
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Disinformation_avg_refusals",
+      "value": 0.05
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Harassment_avg_refusals",
+      "value": 0.25
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Drugs_avg_refusals",
+      "value": 0.1
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Fraud_avg_refusals",
+      "value": 0.3333333333333333
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Hate_avg_refusals",
+      "value": 0.2
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Cybercrime_avg_refusals",
+      "value": 0.3
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Sexual_avg_refusals",
+      "value": 0.375
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Copyright_avg_refusals",
+      "value": 0.0
+    }
+  ],
+  "references": [
+    {
+      "type": "source",
+      "label": "Inspect Evaluation Log for dataset: harmful_behaviors_test_public",
+      "url": "https://avidmvp.s3.amazonaws.com/2025-05-06T13-48-50+00-00_agentharm_abBKTwdDcG4T6LfHTvM4B6.eval"
+    }
+  ],
+  "description": {
+    "lang": "eng",
+    "value": "The benchmark agentharm is implemented by Inspect Evals. More details are available [here](https://ukgovernmentbeis.github.io/inspect_evals/evals/safeguards/agentharm/).\n\nThe AI system gpt-4o-mini-2024-07-18 was evaluated on this benchmark.\n\n## Measurement details\n\nScoring details are available [here](https://ukgovernmentbeis.github.io/inspect_evals/evals/safeguards/agentharm/)."
+  },
+  "impact": {
+    "avid": {
+      "vuln_id": "",
+      "risk_domain": [
+        "Performance"
+      ],
+      "sep_view": [
+        "P0400: Safety"
+      ],
+      "lifecycle_view": [
+        "L05: Evaluation"
+      ],
+      "taxonomy_version": "0.2"
+    }
+  },
+  "credit": [
+    {
+      "lang": "eng",
+      "value": "Harsh Raj"
+    }
+  ],
+  "reported_date": "2025-05-26"
+}

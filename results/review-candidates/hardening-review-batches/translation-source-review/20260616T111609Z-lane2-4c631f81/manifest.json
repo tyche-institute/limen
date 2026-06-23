@@ -1,0 +1,17 @@
+{
+  "batch_id": "20260616T111609Z-lane2-4c631f81",
+  "batch_size": 32,
+  "created_at_utc": "2026-06-16T11:16:09Z",
+  "failure_reason": "Hermes process produced no result after extended wait; retrying same 32 rows in smaller batches.",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111609Z-lane2-4c631f81/input.tsv",
+  "input_rows": 32,
+  "lane_id": "lane2",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/translation-source-review-queue.tsv",
+  "queue_rows": 503,
+  "remaining_unleased_at_allocation": 247,
+  "started_at_utc": "2026-06-16T11:16:09Z",
+  "status": "superseded_split_retry",
+  "superseded_at_utc": "2026-06-16T11:36:45Z",
+  "task": "translation-source-review",
+  "updated_at_utc": "2026-06-16T11:36:45Z"
+}

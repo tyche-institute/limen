@@ -1,0 +1,35 @@
+audit_generated_at	2026-06-08T16:26:00Z
+profile_path	attestation/limen-envelope-profile-v0.1.md
+schema_path	schema/limen-envelope.schema.json
+summary	All checked lifecycle actions, subject kinds, dashboard hooks, baseline non-claims, the conditional media-provenance caution, the core claim scope, and the canonical envelope type are aligned between the long-form profile and the JSON Schema.
+
+check_id	dimension	expected_value	profile_mentions	schema_enforces	status	note	paper_use
+ACTION-observed	lifecycle_action	observed	yes	yes	aligned	Action remains part of the bounded observation/processing lifecycle contract.	methods appendix; reviewer response; dashboard receipt legend
+ACTION-extracted	lifecycle_action	extracted	yes	yes	aligned	Action remains part of the bounded observation/processing lifecycle contract.	methods appendix; reviewer response; dashboard receipt legend
+ACTION-classified	lifecycle_action	classified	yes	yes	aligned	Action remains part of the bounded observation/processing lifecycle contract.	methods appendix; reviewer response; dashboard receipt legend
+ACTION-reviewed	lifecycle_action	reviewed	yes	yes	aligned	Action remains part of the bounded observation/processing lifecycle contract.	methods appendix; reviewer response; dashboard receipt legend
+ACTION-clustered	lifecycle_action	clustered	yes	yes	aligned	Action remains part of the bounded observation/processing lifecycle contract.	methods appendix; reviewer response; dashboard receipt legend
+ACTION-published	lifecycle_action	published	yes	yes	aligned	Action remains part of the bounded observation/processing lifecycle contract.	methods appendix; reviewer response; dashboard receipt legend
+ACTION-superseded	lifecycle_action	superseded	yes	yes	aligned	Action remains part of the bounded observation/processing lifecycle contract.	methods appendix; reviewer response; dashboard receipt legend
+SUBJECT-case_record	subject_kind	case_record	yes	yes	aligned	Primary receipt subject kind stays shared between prose and schema.	schema note; case/source/artifact traceability table
+SUBJECT-source_record	subject_kind	source_record	yes	yes	aligned	Primary receipt subject kind stays shared between prose and schema.	schema note; case/source/artifact traceability table
+SUBJECT-duplicate_cluster	subject_kind	duplicate_cluster	yes	yes	aligned	Primary receipt subject kind stays shared between prose and schema.	schema note; case/source/artifact traceability table
+SUBJECT-crosswalk_row	subject_kind	crosswalk_row	yes	yes	aligned	Primary receipt subject kind stays shared between prose and schema.	schema note; case/source/artifact traceability table
+SUBJECT-artifact	subject_kind	artifact	yes	yes	aligned	Primary receipt subject kind stays shared between prose and schema.	schema note; case/source/artifact traceability table
+HOOK-evidence_tier_funnel	dashboard_hook	evidence_tier_funnel	yes	yes	aligned	Observatory hook stays explicitly bounded to receipt semantics.	dashboard spec; figure caption discipline; thesis observatory note
+HOOK-source_family_map	dashboard_hook	source_family_map	yes	yes	aligned	Observatory hook stays explicitly bounded to receipt semantics.	dashboard spec; figure caption discipline; thesis observatory note
+HOOK-jurisdiction_language_map	dashboard_hook	jurisdiction_language_map	yes	yes	aligned	Observatory hook stays explicitly bounded to receipt semantics.	dashboard spec; figure caption discipline; thesis observatory note
+HOOK-taxonomy_heatmap	dashboard_hook	taxonomy_heatmap	yes	yes	aligned	Observatory hook stays explicitly bounded to receipt semantics.	dashboard spec; figure caption discipline; thesis observatory note
+HOOK-security_agentic_crosswalk	dashboard_hook	security_agentic_crosswalk	yes	yes	aligned	Observatory hook stays explicitly bounded to receipt semantics.	dashboard spec; figure caption discipline; thesis observatory note
+HOOK-legal_uncertainty_matrix	dashboard_hook	legal_uncertainty_matrix	yes	yes	aligned	Observatory hook stays explicitly bounded to receipt semantics.	dashboard spec; figure caption discipline; thesis observatory note
+HOOK-duplicate_cluster_graph	dashboard_hook	duplicate_cluster_graph	yes	yes	aligned	Observatory hook stays explicitly bounded to receipt semantics.	dashboard spec; figure caption discipline; thesis observatory note
+HOOK-attestation_timeline	dashboard_hook	attestation_timeline	yes	yes	aligned	Observatory hook stays explicitly bounded to receipt semantics.	dashboard spec; figure caption discipline; thesis observatory note
+NONCLAIM-truth	baseline_non_claim	truth	yes	yes	aligned	Baseline exclusion remains mandatory in both prose and schema.	claim-boundary prose; methods limitations; reviewer-safe legend
+NONCLAIM-legality	baseline_non_claim	legality	yes	yes	aligned	Baseline exclusion remains mandatory in both prose and schema.	claim-boundary prose; methods limitations; reviewer-safe legend
+NONCLAIM-compliance	baseline_non_claim	compliance	yes	yes	aligned	Baseline exclusion remains mandatory in both prose and schema.	claim-boundary prose; methods limitations; reviewer-safe legend
+NONCLAIM-certification	baseline_non_claim	certification	yes	yes	aligned	Baseline exclusion remains mandatory in both prose and schema.	claim-boundary prose; methods limitations; reviewer-safe legend
+NONCLAIM-safety	baseline_non_claim	safety	yes	yes	aligned	Baseline exclusion remains mandatory in both prose and schema.	claim-boundary prose; methods limitations; reviewer-safe legend
+NONCLAIM-completeness	baseline_non_claim	completeness	yes	yes	aligned	Baseline exclusion remains mandatory in both prose and schema.	claim-boundary prose; methods limitations; reviewer-safe legend
+NONCLAIM-authenticity_finality	conditional_non_claim	authenticity_finality	yes	yes	aligned	Conditional media-provenance caution remains visible when C2PA-style provenance is discussed.	provenance-confusion methods note; media-origin caveat
+CLAIMSCOPE-observation_and_processing_only	claim_scope	observation_and_processing_only	yes	yes	aligned	Core claim ceiling remains locked to observation-and-processing provenance only.	front-door profile summary; shared claims layer; thesis caution note
+TYPE-urn	envelope_type	urn:tyche:limen:envelope:0.1	yes	yes	aligned	Envelope type string remains shared between long-form profile and schema.	machine validation note; reproducibility appendix

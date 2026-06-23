@@ -1,0 +1,9 @@
+source_id	similarity_group	similarity_score	duplicate_type	evidence_tier	posterior_patents_count	score_rationale
+SRC-AUTH-0020	SIM-2026-06-08-1	n/a	'FTC administrative complaint'
+SRC-AUTH-0021	SIM-2026-06-08-1	n/a	'FTC final decision and order' (same LIMEN-000010 case)
+SRC-AUTH-0022	SIM-2026-06-08-2	n/a	'FTC administrative complaint' (different defendant)
+SRC-AUTH-0023	SIM-2026-06-08-2	n/a	'FTC final decision and order'
+SRC-AUTH-0025	SIM-2026-06-08-3	n/a	'FTC administrative complaint'
+SRC-AUTH-0026	SIM-2026-06-08-3	n/a	'FTC final decision and order' (same Rytr case)
+SRC-AUTH-0029	SIM-2026-06-08-4	n/a	'FTC order reopening and setting aside final order'
+SRC-AUTH-0030	SIM-2026-06-08-5	n/a	'United States District Court stipulated order'

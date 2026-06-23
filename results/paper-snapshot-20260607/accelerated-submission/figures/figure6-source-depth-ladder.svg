@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1190" viewBox="0 0 1700 1190">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.title{font-size:46px;font-weight:700}
+.subtitle{font-size:28px;fill:#526071}
+.section{font-size:29px;font-weight:700}
+.label{font-size:27px}
+.small{font-size:22px;fill:#526071}
+.tiny{font-size:18px;fill:#526071}
+.number{font-size:40px;font-weight:700}
+</style>
+</defs>
+<rect width="1700" height="1190" fill="#ffffff"/>
+<text x="60" y="70" class="title">Figure 6. Public sources do not all let us say the same thing</text>
+<text x="60" y="108" class="subtitle">The ladder shows why an official-looking source still needs a specific claim limit.</text>
+<rect x="60" y="165" width="465" height="72" rx="14" fill="#667085"/>
+<text x="84" y="212" style="font-size:27px;font-weight:700;fill:#ffffff">Title or discovery lead</text>
+<line x1="292" y1="237" x2="292" y2="263" stroke="#d7dde8" stroke-width="5"/>
+<text x="585" y="191" class="section">Can support</text>
+<text x="585" y="227" class="label">Discovery and translation triage</text>
+<text x="1120" y="191" class="section">Cannot support alone</text>
+<text x="1120" y="227" class="label">Facts, law, attribution, prevalence</text>
+<rect x="60" y="275" width="465" height="72" rx="14" fill="#c97700"/>
+<text x="84" y="322" style="font-size:27px;font-weight:700;fill:#ffffff">Single article or investigation</text>
+<line x1="292" y1="347" x2="292" y2="373" stroke="#d7dde8" stroke-width="5"/>
+<text x="585" y="301" class="section">Can support</text>
+<text x="585" y="337" class="label">Local context and public salience</text>
+<text x="1120" y="301" class="section">Cannot support alone</text>
+<text x="1120" y="337" class="label">Official action or legal conclusion</text>
+<rect x="60" y="385" width="465" height="72" rx="14" fill="#087f8c"/>
+<text x="84" y="432" style="font-size:27px;font-weight:700;fill:#ffffff">Official project or register page</text>
+<line x1="292" y1="457" x2="292" y2="483" stroke="#d7dde8" stroke-width="5"/>
+<text x="585" y="411" class="section">Can support</text>
+<text x="585" y="447" class="label">Disclosure and governance context</text>
+<text x="1120" y="411" class="section">Cannot support alone</text>
+<text x="1120" y="447" class="label">Impact, effectiveness, or legality</text>
+<rect x="60" y="495" width="465" height="72" rx="14" fill="#2166ac"/>
+<text x="84" y="542" style="font-size:27px;font-weight:700;fill:#ffffff">Agency summary page</text>
+<line x1="292" y1="567" x2="292" y2="593" stroke="#d7dde8" stroke-width="5"/>
+<text x="585" y="521" class="section">Can support</text>
+<text x="585" y="557" class="label">Agency status and public allegations</text>
+<text x="1120" y="521" class="section">Cannot support alone</text>
+<text x="1120" y="557" class="label">Court text or merits finding</text>
+<rect x="60" y="605" width="465" height="72" rx="14" fill="#188b5b"/>
+<text x="84" y="652" style="font-size:27px;font-weight:700;fill:#ffffff">Regulator record or order</text>
+<line x1="292" y1="677" x2="292" y2="703" stroke="#d7dde8" stroke-width="5"/>
+<text x="585" y="631" class="section">Can support</text>
+<text x="585" y="667" class="label">Order wording, remedies, and dates</text>
+<text x="1120" y="631" class="section">Cannot support alone</text>
+<text x="1120" y="667" class="label">Prevalence or independent legal conclusion</text>
+<rect x="60" y="715" width="465" height="72" rx="14" fill="#6b4cb4"/>
+<text x="84" y="762" style="font-size:27px;font-weight:700;fill:#ffffff">Court filing or indictment</text>
+<line x1="292" y1="787" x2="292" y2="813" stroke="#d7dde8" stroke-width="5"/>
+<text x="585" y="741" class="section">Can support</text>
+<text x="585" y="777" class="label">Accusation-stage procedural status</text>
+<text x="1120" y="741" class="section">Cannot support alone</text>
+<text x="1120" y="777" class="label">Guilt, liability, or final disposition</text>
+<rect x="60" y="825" width="465" height="72" rx="14" fill="#c43c39"/>
+<text x="84" y="872" style="font-size:27px;font-weight:700;fill:#ffffff">Publisher notice</text>
+<line x1="292" y1="897" x2="292" y2="923" stroke="#d7dde8" stroke-width="5"/>
+<text x="585" y="851" class="section">Can support</text>
+<text x="585" y="887" class="label">The notice&#x27;s stated retraction rationale</text>
+<text x="1120" y="851" class="section">Cannot support alone</text>
+<text x="1120" y="887" class="label">Author intent or field-wide pattern</text>
+<rect x="60" y="935" width="465" height="72" rx="14" fill="#0c7c99"/>
+<text x="84" y="982" style="font-size:27px;font-weight:700;fill:#ffffff">Complaint plus final order</text>
+<line x1="292" y1="1007" x2="292" y2="1033" stroke="#d7dde8" stroke-width="5"/>
+<text x="585" y="961" class="section">Can support</text>
+<text x="585" y="997" class="label">Complaint and order obligations</text>
+<text x="1120" y="961" class="section">Cannot support alone</text>
+<text x="1120" y="997" class="label">Product truth or detector validity</text>
+<text x="60" y="1125" class="tiny">A source can be public and official while still failing to support broad conclusions. The method records that limit instead of hiding it.</text>
+</svg>

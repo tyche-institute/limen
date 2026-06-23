@@ -1,0 +1,49 @@
+{
+  "boundary": "Translation hold only; rows need human translation-aware source review before promotion, factual claims, legal claims, or reviewed-core inclusion.",
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/translation-held-review-board.tsv",
+  "generated_at_utc": "2026-06-23T19:58:31Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/full-first-pass-review.tsv",
+  "language_hint_counts": {
+    "arabic": 23,
+    "chinese": 23,
+    "dutch": 227,
+    "estonian": 13,
+    "finnish": 5,
+    "french": 7,
+    "german": 2,
+    "japanese": 8,
+    "korean": 16,
+    "language_not_resolved": 218,
+    "portuguese": 9,
+    "russian": 2,
+    "spanish": 17
+  },
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/translation-held-review-board-v0.1.tsv",
+  "review_priority_counts": {
+    "P1_official_or_regulator_review": 554
+  },
+  "self_echo_rows_excluded": 0,
+  "shard_counts": {
+    "identity-provenance": 33,
+    "legal-research": 114,
+    "public-sector": 407
+  },
+  "source_path_family_counts": {
+    "cross_project_atlas_or_gaia": 60,
+    "global_agent_atlas": 40,
+    "limen_project": 7,
+    "other_tyche_project": 229,
+    "srv/tyche/pallas": 78,
+    "thesis_atlas_factory": 140
+  },
+  "top_output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/translation-held-review-top50-v0.1.tsv",
+  "translation_hold_class_counts": {
+    "cross_project_language_artifact": 240,
+    "foreign_language_official_or_public_surface": 108,
+    "registry_auto_translation": 204,
+    "translation_sensitive_lead": 2
+  },
+  "translation_hold_rows": 554,
+  "with_named_url_rows": 266,
+  "without_named_url_rows": 288
+}

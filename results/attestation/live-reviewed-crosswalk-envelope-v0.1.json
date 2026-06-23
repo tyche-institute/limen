@@ -1,0 +1,157 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-0003",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-07T06:13:45Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-reviewed-live-20260607T061345Z",
+  "action": "reviewed",
+  "subject_ref": {
+    "kind": "crosswalk_row",
+    "id": "limen-legal-normative-crosswalk:institutional_absurdity",
+    "path_or_uri": "results/crosswalks/legal-normative-crosswalk-v0.1.tsv#row=institutional_absurdity",
+    "title": "Institutional absurdity legal/normative crosswalk row",
+    "version": "2026-06-07"
+  },
+  "inputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/crosswalks/legal-normative-crosswalk-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:cd2ee439e24e03c14595f6a11096d96e6a741092263a8dbd1a77c2401b02359b",
+      "captured_at": "2026-06-07T06:06:53Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/crosswalks/framework-text-anchor-samples-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:cb47541a18715514315b0688986fbd68792e6c53fcde0d6a0d7b50233117560e",
+      "captured_at": "2026-06-07T06:06:53Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/crosswalks/status.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:e8eac5c3623a6e9cf3c2cb49124d2291bae7b600bade43335fc263ffcfe8934b",
+      "captured_at": "2026-06-07T06:06:53Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "schema/limen-envelope.schema.json",
+      "media_type": "application/json",
+      "sha256": "sha256:1a513e94f27e65ac02e8ae1fb8ac546dd0931d341278c5ed4aa89bca1ab93694",
+      "captured_at": "2026-06-07T05:39:11Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/live-reviewed-crosswalk-note-v0.1.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:f720b58e0b913d508573226dedac69d9ee8316fa7ccf80e5cd70077626947934",
+      "emitted_at": "2026-06-07T06:13:45Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from local LIMEN crosswalk artifacts"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "A1",
+      "assertion_type": "review_decision",
+      "statement": "A live lane review checked the institutional_absurdity crosswalk row against its current row text, framework-anchor sample appendix, and package status note.",
+      "value": {
+        "review_status": "lane_checked",
+        "subject_row": "institutional_absurdity",
+        "direct_framework_anchor": "UNESCO ethics/governance text",
+        "case_evidence_ceiling": "candidate_only_public_reporting"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A2",
+      "assertion_type": "uncertainty_note",
+      "statement": "The row remains a bounded interpretive mapping and must not be read as a legal, compliance, liability, or ethical-fault conclusion about any underlying case.",
+      "value": {
+        "bounded_language": [
+          "may implicate",
+          "conceptual mapping only"
+        ],
+        "excluded_claims": [
+          "truth",
+          "legality",
+          "compliance",
+          "certification",
+          "safety",
+          "completeness"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    }
+  ],
+  "schema_refs": [
+    "urn:tyche:limen:envelope:0.1"
+  ],
+  "tooling": {
+    "tool_manifest_hash": "sha256:1a513e94f27e65ac02e8ae1fb8ac546dd0931d341278c5ed4aa89bca1ab93694",
+    "prompt_hash": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+    "model_name": "python3-stdlib+jsonschema",
+    "provider": "local_execution",
+    "schema_version": "0.1"
+  },
+  "review_status": "lane_checked",
+  "review_notes": [
+    "Reviewed row remains concept-level and reviewer-safe rather than authority-final.",
+    "UNESCO anchor depth improves framework support but does not upgrade case-evidence authority."
+  ],
+  "dashboard_hooks": [
+    "legal_uncertainty_matrix",
+    "attestation_timeline"
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ]
+}

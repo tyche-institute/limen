@@ -1,0 +1,5 @@
+metric	value	note
+rows	99	all active release-card dashboard rows
+family_ledger_exact_id_not_row_source	15	family-level only; no per-source badge
+candidate_case_id_join_rollup_collision_risk	3	candidate authoritative links; collision risk remains
+sha256	0a87c7f27f2e8c040258b17c78d6204a4298f8f5e3f117092f5b8e61de41851d	results/dashboard/source-ledger-join-v0.1.tsv

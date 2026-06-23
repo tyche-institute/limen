@@ -1,0 +1,36 @@
+jurisdiction	T3_regulator_court	T2_contested_interim	T1_security_disclosure_CVE	evidence_grade_total	denominator_class	claim_ceiling
+United States	81	45	0	126	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+United Kingdom	11	3	0	14	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+Italy	9	2	0	11	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+Spain	6	7	0	13	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+Australia	6	4	0	10	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+Canada	6	0	0	6	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+South Korea	5	2	0	7	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+Netherlands	4	0	0	4	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+China	4	0	0	4	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+France	3	2	0	5	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+Multijurisdictional	3	1	0	4	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+Sweden	2	1	0	3	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+Germany	2	0	0	2	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+South Africa	2	0	0	2	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+India	1	3	0	4	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+European Union (supranational)	1	1	0	2	evidence-grade (T3 + T2)	T3 supports dated public action existence; T2 supports procedural-stage visibility only
+Hungary	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Greece	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Singapore	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Colombia	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Kenya	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Ireland	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Belgium	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Lithuania	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Portugal	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Norway	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Denmark	1	0	0	1	evidence-grade (T3)	Supports dated public action existence only; no prevalence or legality generalization
+Global (security disclosures)	0	0	11	11	evidence-grade (T1 only)	Documented CVE-anchored vulnerability only; no exploitation-in-the-wild or prevalence claim
+Brazil	0	4	0	4	evidence-grade (T2 only)	Supports procedural-stage visibility only; no finding of liability or final outcome
+Japan	0	2	0	2	evidence-grade (T2 only)	Supports procedural-stage visibility only; no finding of liability or final outcome
+Hong Kong	0	2	0	2	evidence-grade (T2 only)	Supports procedural-stage visibility only; no finding of liability or final outcome
+Poland	0	1	0	1	evidence-grade (T2 only)	Supports procedural-stage visibility only; no finding of liability or final outcome
+Turkey	0	1	0	1	evidence-grade (T2 only)	Supports procedural-stage visibility only; no finding of liability or final outcome
+Pakistan	0	1	0	1	evidence-grade (T2 only)	Supports procedural-stage visibility only; no finding of liability or final outcome
+TOTAL (evidence-grade)	157	82	11	250	evidence-grade denominator	Does not support completeness, prevalence, country ranking, or legal conclusion

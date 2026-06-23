@@ -1,0 +1,5 @@
+artifact_path	artifact_role	media_type	sha256	bytes	mtime_utc_observed	check_result	note
+attestation/limen-envelope-profile-v0.1.md	canonical_profile	text/markdown	sha256:8de1cf76efaab4855d5fac5bc0b816543e60f710334fc03acd0af22d57ea63dc	41691	2026-06-08T17:18:03Z	pass	present
+schema/limen-envelope.schema.json	schema	application/json	sha256:6b85d3a92933f91fbf8efd701aecaf59f3c0814bd4cefaeda86eb8f166d59930	20952	2026-06-08T10:28:31Z	pass	json_parsed
+results/attestation/status.md	status_note	text/markdown	sha256:5d3acc3b31cac1152fb14479f89b132fcf3293a49506d61005a748915e494ce2	70676	2026-06-08T17:18:03Z	pass	present
+results/attestation/profile-brief-conformance-note-v0.1.md	brief_conformance_note	text/markdown	sha256:a3903f13d32e94a0f5d1f2a78fb1fd7ac50a01cb5ee5956279b7706d48f96da7	3917	2026-06-08T17:18:03Z	pass	present

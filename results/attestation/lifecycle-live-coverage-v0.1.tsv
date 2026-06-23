@@ -1,0 +1,8 @@
+action	coverage_state	reviewer_safe_reading	next_smallest_move
+observed	live_and_example	Live source-ledger observation receipt now exists over LIMEN-S-041 and example-corpus coverage still exists.	Maintain live source-observation coverage by reusing bounded receipts only when a stable public-source or local-capture row is actually re-inspected.
+extracted	live_and_example	Live source-to-case extraction receipt now exists for LIMEN-S-041 -> LIMEN-000008 and example-corpus coverage still exists.	Maintain extraction coverage with source-to-case or normalization receipts when a real transform or recode step occurs.
+classified	live_and_example	Live case-level coverage now exists via LIMEN-000008 and example-corpus coverage still exists.	Maintain live case-level coverage as shared case rows evolve.
+reviewed	live_and_example	Live crosswalk review receipt plus example-corpus coverage are present.	Optionally add a second live case-level review receipt outside crosswalk rows.
+clustered	live_and_example	Live duplicate-control receipt plus example-corpus coverage are present.	Optionally add a stable duplicate-merge or non-merge update receipt when denominator changes.
+published	live_and_example	Live artifact publication receipts plus example-corpus coverage are present.	Keep shared export receipts bounded to local publication artifacts.
+superseded	live_only	Live bounded correction receipt exists over status artifacts; example corpus does not need a separate superseded duplicate.	Reuse for future bounded correction paths only when a real replacement occurs.

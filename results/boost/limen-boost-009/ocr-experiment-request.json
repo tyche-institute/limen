@@ -1,0 +1,53 @@
+{
+  "request_id": "limen-boost-009-ocr-2026-06-07T03:06:40Z",
+  "created_at": "2026-06-07T03:06:40Z",
+  "lane_id": "limen-boost-009",
+  "project_id": "limen-ai-edge-case-atlas",
+  "project_root": "/srv/tyche/projects/limen-ai-edge-case-atlas",
+  "phase": "boost",
+  "theme": "AI washing, false AI claims, and human-as-AI cases",
+  "goal": "Recover exact caption and case-number metadata from the already captured DOJ-linked indictment PDF for the Nate matter without using credentialed court access or new harvesting.",
+  "priority_case": {
+    "case_id": "HUMAN-AS-AI-SDNY-2025-001",
+    "source_id": "SRC-DOJ-SDNY-IND-2025-04-09",
+    "task": "Run bounded OCR or image-to-text extraction on page 1 and, if needed, pages 1-2 of the locally captured indictment PDF to recover exact caption, case number, and filing-date block.",
+    "input_paths": [
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-009/tmp/u.s._v._saniger_indictment.pdf",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-009/ocr-readiness.tsv",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-009/followup-barrier.tsv",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/document-normalization-matrix-v0.1.tsv"
+    ],
+    "expected_outputs": [
+      "Exact caption string as it appears on the indictment",
+      "Exact case number if legible",
+      "Any visible filing-date or court-division metadata from the caption block",
+      "Confidence note distinguishing exact OCR from partial/ambiguous OCR",
+      "Machine-readable patch targets for shared ledgers if confidence is adequate"
+    ],
+    "safe_resource_limits": {
+      "cpu": "single host, modest batch",
+      "ram": "<= 4 GB",
+      "wall_clock": "<= 20 minutes",
+      "network": "none required after local inputs are present"
+    }
+  },
+  "preflight_evidence": {
+    "pdf_pages": 9,
+    "pdf_fonts_detected": 0,
+    "pdftotext_output_bytes": 9,
+    "page_1_primary_image": "2552x3300 gray jbig2 at 300 dpi",
+    "pages_1_to_8_profile": "1-bit grayscale JBIG2 images",
+    "page_9_profile": "1224x1584 rgb image at 144 dpi"
+  },
+  "paper_thesis_use": [
+    "Promotes the Nate hidden-human row from summary-page dependence toward exact document normalization.",
+    "Supports a methods note separating compute-bound normalization blockers from source-discovery blockers.",
+    "Feeds reviewer-safe court-anchor and follow-up-barrier dashboard facets."
+  ],
+  "success_condition": "At least one exact caption-level field becomes shareable with explicit confidence, or the OCR attempt yields a reproducible failure note that sharpens the blocker beyond the current image-only classification.",
+  "boundary_notes": [
+    "Public/open local inputs only.",
+    "No PACER login, fees, credentials, or new portal actions.",
+    "Do not convert charging-stage allegations into adjudicated facts."
+  ]
+}

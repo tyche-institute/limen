@@ -1,0 +1,22 @@
+
+session_id: 20260616_150036_6895b5
+Готово.
+
+Созданы/обновлены файлы:
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane5-c2f58aa7/translation-parent-source-extraction-results.tsv
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane5-c2f58aa7/translation-parent-source-extraction-summary.md
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane5-c2f58aa7/manifest.json
+
+Проверка:
+- input rows: 16
+- output rows: 16
+- queue_id set matches input: true
+- duplicate output queue_id: none
+- TSV header matches required schema
+- verdict counts:
+  - source_url_extracted: 16
+
+Использованы только локальные metadata/source files и локальный контекст строк; web crawl / promotion / publish / legal-safety-compliance findings не выполнялись.

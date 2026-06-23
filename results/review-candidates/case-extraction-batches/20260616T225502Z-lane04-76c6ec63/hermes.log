@@ -1,0 +1,23 @@
+
+session_id: 20260617_005505_0eccac
+Done.
+
+Created:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane04-76c6ec63/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane04-76c6ec63/case-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane04-76c6ec63/manifest.json
+
+Verification passed:
+- Header exact: yes
+- Input rows: 16
+- Output rows: 16
+- Missing source_cluster_key values: none
+- Extra source_cluster_key values: none
+- Duplicate output keys: none
+- Bad TSV field-count lines: none
+- Manifest status: completed
+
+Verdict count:
+- closed_noncase_source_surface: 16

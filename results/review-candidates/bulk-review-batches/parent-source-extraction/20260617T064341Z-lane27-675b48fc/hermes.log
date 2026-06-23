@@ -1,0 +1,20 @@
+
+session_id: 20260617_084343_08db17
+Done.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064341Z-lane27-675b48fc/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064341Z-lane27-675b48fc/parent-source-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064341Z-lane27-675b48fc/manifest.json
+
+Verification passed:
+- input rows: 24
+- output rows: 24
+- queue_id set matches exactly
+- duplicate output queue_ids: 0
+- required TSV header matches exactly
+- verdict counts: country_gap_no_parent_source = 24
+
+All rows were local country/query-pack placeholders with no explicit extractable parent source URL in the cited local CSV lines.

@@ -1,0 +1,24 @@
+
+session_id: 20260614_112238_85c65b
+Готово.
+
+Записано:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T092238Z-lane14-4a351871/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T092238Z-lane14-4a351871/source-review-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T092238Z-lane14-4a351871/manifest.json
+
+Проверка:
+- input_rows: 100
+- output_rows: 100
+- same signal_id set: True
+- duplicate output signal_id values: 0
+
+Итоговые verdict counts:
+- merge_existing_surface: 12
+- needs_named_source_extraction: 13
+- negative_evidence_candidate: 18
+- reject_noise: 50
+- source_reviewed_candidate: 4
+- translation_review_needed: 3

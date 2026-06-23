@@ -1,0 +1,4 @@
+source_cluster_key	case_extraction_verdict	source_url_or_locator	source_name	source_host	proposed_case_title	proposed_evidence_tier	proposed_limen_categories	source_record_date	jurisdiction	bounded_claim_candidate	claim_ceiling	forbidden_overreadationaler
+https://example.com	closed_noncase_source_surface	https://example.com	example.com	example.com	C2PA: Contextual reference in corpus aggregate
+non-specific	database/algorithm-register	none	none
+The cluster represents a source-surface reference in internal corpus without standalone case attributes. No concrete event, vulnerability, or finding is documented in the source material itself.	Internal source-family accounting only. No overread of legality, safety, compliance, deployment, prevalence, or guilt.	source-family surface without independent case merit; no direct evidence passage included in cluster

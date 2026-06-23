@@ -1,0 +1,20 @@
+{
+  "batch_id": "20260616T075525Z-codex-fixall-delta",
+  "batch_size": 2,
+  "completed_at_utc": "2026-06-16T07:55:25Z",
+  "completion_mode": "codex_local_delta_after_watcher_refresh",
+  "created_at_utc": "2026-06-16T07:55:25Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260616T075525Z-codex-fixall-delta/source-review-input.tsv",
+  "input_rows": 2,
+  "lane_id": "codex-fixall-delta",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/direct-source-review-queue.tsv",
+  "queue_rows": 20118,
+  "result": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260616T075525Z-codex-fixall-delta/source-review-results.tsv",
+  "result_rows": 2,
+  "started_at_utc": "2026-06-16T07:55:25Z",
+  "status": "complete",
+  "updated_at_utc": "2026-06-16T07:55:25Z",
+  "verdict_counts": {
+    "reject_noise": 2
+  }
+}

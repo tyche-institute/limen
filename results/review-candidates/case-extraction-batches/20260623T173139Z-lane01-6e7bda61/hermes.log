@@ -1,0 +1,45 @@
+  ┊ review diff
+a/results/review-candidates/case-extraction-batches/20260623T173139Z-lane01-6e7bda61/case-extraction-results.tsv → b/results/review-candidates/case-extraction-batches/20260623T173139Z-lane01-6e7bda61/case-extraction-results.tsv
+@@ -0,0 +1,6 @@
++source_cluster_key	case_extraction_verdict	source_url_or_locator	source_name	source_host	proposed_case_title	proposed_evidence_tier	proposed_limen_categories	source_record_date	jurisdiction	bounded_claim_candidate	claim_ceiling	forbidden_overread	geeeraled_rationale	required_before_reviewed_core	required_before_obscure_ai	next_action
++https://ec.europa.eu	closed_noncase_source_surface	https://ec.europa.eu/	ec.europa.eu	ec.europa.eu	
++	noncase_register_or_transparency_surface	doNotProcess
++
++Register/transparency surface; it may inventory systems, but the current row is not a harm/finding/event.	extract_specific_authority_action_or_event
++Not ObscureAI material until converted into a bounded case-level record.	
+  ┊ review diff
+a/results/review-candidates/case-extraction-batches/20260623T173139Z-lane01-6e7bda61/case-extraction-summary.md → b/results/review-candidates/case-extraction-batches/20260623T173139Z-lane01-6e7bda61/case-extraction-summary.md
+@@ -0,0 +1,30 @@
++## LIMEN Case Extraction Summary
++
++### Processing metadata
++- Input file: 1 source cluster
++- Output file: 1 case extraction record
++- Processing date: 2026-06-23
++- Lane: lane01-6e7bda61
++
++### Case extraction outcomes
++| Verdict | Count | Examples |
++|---------|-------|----------|
++| closed_noncase_source_surface | 1 | https://ec.europa.eu |
++
++### Details
++**https://ec.europa.eu**
++- Verdict: closed_noncase_source_surface
++- Reason: Register/transparency surface; may inventory systems but current row lacks concrete harm/finding/event
++- Required before reviewed-core: Extract specific authority action or concrete edge-case event
++- Required before ObscureAI: Convert into bounded case-level record
++
++### Next Actions
++1. For non-case sources: Update discovery patterns to filter out transparency surfaces
++2. For case candidates: None in this batch
++3. Quality checks: Verify no source_cluster_key omissions (count matches input)
++
++### Boundary Adherence
++- No reviewed-core promotions
++- No ObscureAI additions
++- No legal/safety/compliance claims
++- No prevalence/ranking assertions
+
+session_id: 20260623_193139_23d048
+<TOOLCALL>[{"name": "skip", "arguments": {}}]</TOOLCALL>

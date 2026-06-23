@@ -1,0 +1,112 @@
+  ┊ review diff
+a//tmp/limen_source_review_batch.py → b//tmp/limen_source_review_batch.py
+@@ -0,0 +1,169 @@
++import csv, json, re
++from pathlib import Path
++from collections import Counter
++from datetime import datetime, timezone
++
++base = Path('/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T063957Z-lane01-20bdb5cc')
++input_path = base / 'source-review-input.tsv'
++results_path = base / 'source-review-results.tsv'
++summary_path = base / 'source-review-summary.md'
++manifest_path = base / 'manifest.json'
++batch_id = base.name
++
++HEADER = ['signal_id','source_review_verdict','source_review_role','reason','claim_ceiling','next_action','source_path']
++ALLOWED = {
++    'source_reviewed_candidate',
++    'merge_existing_surface',
++    'negative_evidence_candidate',
++    'needs_named_source_extraction',
++    'translation_review_needed',
++    'reject_noise',
++}
++
++def clean(s):
++    if s is None:
++        return ''
++    return ' '.join(str(s).replace('\t',' ').replace('\r',' ').replace('\n',' ').split())
++
++def has_any(text, terms):
++    t = text.lower()
++    return any(term in t for term in terms)
++
++def classify(row):
++    fp = row['first_pass_verdict']
++    role = row['candidate_role']
++    q = clean(row['queries'])
++    shard = clean(row['shards'])
++    sp = row['source_path']
++    name = Path(sp).name
++    sn = clean(row['snippet'])
++    text = ' '.join([fp, role, q, shard, name, sn]).lower()
++
++    claim_ceiling = 'source-surface triage only; no incident truth, legality, compliance, safety, deployment, prevalence, or ranking inference'
++
++    if 'translation' in fp or 'translation_sensitive' in role:
++        return ('translation_review_needed', 'translation_sensitive_direct_or_adjacent_source',
++                'First-pass metadata marks this row translation-sensitive; local review should not promote it without language-aware source checking.',
++                claim_ceiling, 'route to translation-aware bounded source review')
++
++    if name == 'registry-deployed-record-accession-all-20260607.csv':
++        # Public AI Registry accession rows are already normalized modeled registry surfaces.
++        return ('merge_existing_surface', 'already_modeled_registry_surface',
++                'Local accession row points to an already-modeled public AI/algorithm registry surface; deduplicate rather than promote another direct-source item.',
++                claim_ceiling, 'merge into existing registry/dashboard surface model')
++
++    # Internal atlas country profiles and generic observability queues/matrices are wrappers unless they only record a negative/gap finding.
++    negative_terms = [
++        'no public algorithm register', 'no official public algorithm register', 'no official ai regulatory sandbox',
++        'no public evidence', 'no official national public algorithm register', 'did not reveal a public algorithm register',
++        'no public ai-system inventory', 'no public algorithm', 'negative check', 'gap evidence',
++        'absence of public', 'search yielded no results', 'returned no-results', 'not algorithm/ai-system transparency registers',
++        'avoid claiming absence beyond checked', 'do not claim', 'warning present', 'first-pass gaps', 'main gaps',
++        'not a register', 'no single official comprehensive algorithm register was confirmed', 'scope is federal',
++        'weak', 'absent framework', 'not exhaustive'
++    ]
++    if has_any(text, negative_terms):
++        # If the row is only a generic country research queue that lists target themes, keep it as extraction-needed.
++        if name in {'PALLAS_OBSERVABILITY_RESEARCH_QUEUE.csv','OBSERVABILITY_RESEARCH_QUEUE.csv'} and not has_any(text, ['no public', 'do not claim', 'warning', 'absence', 'not found', 'negative']):
++            pass
++        else:
++            return ('negative_evidence_candidate', 'search_negative_or_gap_evidence',
++                    'Local metadata records a negative search, gap warning, weak-source warning, or evidence-limit note rather than a positive direct surface.',
++                    claim_ceiling, 'retain only as bounded negative/gap evidence with checked-source caveat')
++
++    if name == 'PALLAS_READINESS_WORLD_SOURCE_PACK.csv':
++        # Source-pack rows can expose named official/regulator/institutional surfaces.
++        if has_any(text, ['official regulator', 'central bank', 'bangko sentral', 'bdcb', 'da afghanistan bank', 'information & egovernment authority', 'ministry', 'government of', 'official_digital_ministry', 'official laws portal', 'official_e_services_portal', 'official open-data portal', 'official_public_services_portal', 'official website search', 'office of the information commissioner']):
++            return ('source_reviewed_candidate', 'named_official_or_regulator_surface',
++                    'Source-pack metadata names a concrete official, regulator, institutional, portal, register, or notice surface and local row evidence is sufficient for source-surface existence triage.',
+… omitted 91 diff line(s) across 1 additional file(s)/section(s)
+  ┊ review diff
+a//tmp/limen_source_review_batch.py → b//tmp/limen_source_review_batch.py
+@@ -60,7 +60,12 @@
+         'absence of public', 'search yielded no results', 'returned no-results', 'not algorithm/ai-system transparency registers',
+         'avoid claiming absence beyond checked', 'do not claim', 'warning present', 'first-pass gaps', 'main gaps',
+         'not a register', 'no single official comprehensive algorithm register was confirmed', 'scope is federal',
+-        'weak', 'absent framework', 'not exhaustive'
++        'weak', 'absent framework', 'not exhaustive', 'negative evidence', 'negative/', 'negative-search',
++        'negative/transparency', 'negative/adjacent', 'negative/weak', 'first-pass search retained',
++        'first pass did not find', 'but no public algorithm register', 'but not algorithm-register',
++        'confirms open data platform but not', 'checked broad public-service portal', 'under maintenance',
++        'algorithm-register negative', 'adjacent transparency register, but not an algorithm',
++        'evidence of general public-service transparency infrastructure'
+     ]
+     if has_any(text, negative_terms):
+         # If the row is only a generic country research queue that lists target themes, keep it as extraction-needed.
+  ┊ review diff
+a//tmp/limen_source_review_batch.py → b//tmp/limen_source_review_batch.py
+@@ -65,7 +65,8 @@
+         'first pass did not find', 'but no public algorithm register', 'but not algorithm-register',
+         'confirms open data platform but not', 'checked broad public-service portal', 'under maintenance',
+         'algorithm-register negative', 'adjacent transparency register, but not an algorithm',
+-        'evidence of general public-service transparency infrastructure'
++        'evidence of general public-service transparency infrastructure',
++        'evidence of general public-service transparency infrastruct'
+     ]
+     if has_any(text, negative_terms):
+         # If the row is only a generic country research queue that lists target themes, keep it as extraction-needed.
+
+session_id: 20260617_083958_a8e9c3

@@ -1,0 +1,56 @@
+{
+    "data_type": "AVID",
+    "version": "",
+    "metadata": {
+        "report_id": ""
+    },
+    "affects": {
+        "developer": ["OpenAI"],
+        "deployer": ["OpenAI"],
+        "artifacts": [
+            {
+                "type": "System",
+                "name": "ChatGPT "
+            }
+        ]
+    },
+    "problemtype": {
+        "classof": "Undefined",
+        "type": "Advisory",
+        "description": {
+            "lang": "eng",
+            "value": "Riddles (Lack of understanding of Semantics)"
+        }
+    },
+    "metrics": [],
+    "references": [
+        {
+            "label": "You're the captain of a boat, 5 people board at [place] 5 leave at [place] what's the age of the captain, Mike's mom has 4 kids, Lara, Lucas and Lorry. What's the name of the fourth kid ?",
+            "url": ""
+        }
+    ],
+    "description": {
+        "lang": "eng",
+        "value": "After Multiple test with different riddles (they will be described for repeatability in references) I've run into the issue that this model cannot comprehend simple word problems"
+    },
+    "impact": {
+        "avid": {
+            "vuln_id": "",
+            "risk_domain": [
+                "Performance"
+            ],
+            "sep_view": [],
+            "lifecycle_view": [
+                "L02: Data Understanding"
+            ],
+            "taxonomy_version": "0.2"
+        }
+    },
+    "credits": [
+        {
+            "lang": "eng",
+            "value": "Luciolle24, "
+        }
+    ],
+    "reported_date": "2023-01-17"
+}

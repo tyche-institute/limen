@@ -1,0 +1,26 @@
+
+session_id: 20260614_110359_e15e39
+Готово.
+
+Выполнил bounded local source-surface triage для всех 100 строк и обновил manifest.
+
+Файлы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090358Z-lane01-ab4c9257/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090358Z-lane01-ab4c9257/source-review-summary.md
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T090358Z-lane01-ab4c9257/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- signal_id set: exact match
+- duplicate output signal_id: none
+
+Итоговые counts:
+- source_reviewed_candidate: 16
+- merge_existing_surface: 19
+- negative_evidence_candidate: 23
+- needs_named_source_extraction: 20
+- translation_review_needed: 2
+- reject_noise: 20
+
+manifest.status -> completed.

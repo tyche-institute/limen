@@ -1,0 +1,680 @@
+                         Federal Communications Commission            DA 24-790 
+
+                                   Before the 
+                         Federal Communications Commission 
+                              Washington, D.C. 20554 
+ 
+ In the Matter of                        )        
+                                         )        
+ Lingo Telecom, LLC                      )       File No.:  EB-TCD-24-00036425 
+                                         )       NAL/Acct. No.:  202432170004 
+                                         )       FRN:  0035440734 
+                                         ) 
+                                          
+
+                                    ORDER 
+ 
+Adopted:  August 21, 2024                                 Released:  August 21, 2024 
+  
+ By the Chief, Enforcement Bureau: 
+  
+       1.    The Enforcement Bureau (Bureau) of the Federal Communications Commission 
+ (Commission) has entered into a Consent Decree to resolve its investigation into the apparent violations 
+ of Lingo Telecom, LLC (Lingo Telecom or Company) of section 64.6301(a) of the Commission’s rules1 
+ in connection with Secure Telephone Identity Revisited and Signature-based Handling of Asserted 
+ Information Using toKENs (STIR/SHAKEN) attestations.  To resolve this matter, Lingo Telecom agrees 
+ to implement a robust compliance plan and pay a $1,000,000 civil penalty.  
+       2.    The STIR/SHAKEN framework allows for the authentication and verification of caller 
+ identification (ID) information and is a vital tool designed to give consumers more confidence that caller 
+ ID information is accurate.  The last two decades have seen a proliferation in the misuse of spoofing 
+ technology by malicious actors as a means of evading liability for illegal robocalls and other abusive 
+ communications.  Accordingly, restoring the reliability of caller ID information is a top consumer 
+ protection priority for the Commission.  In recent years, the Commission has undertaken multiple 
+ proceedings to ensure rapid adoption of the technology required to bring STIR/SHAKEN to 
+ telecommunications networks across the country.2  The framework uses three attestation levels that 
+ indicate the level of the signing provider’s validation of the caller ID information.  False or incorrect 
+ attestations undermine years of regulatory and industry efforts to enable caller ID authentication, and 
+ diminish the integrity of the STIR/SHAKEN framework.  This Consent Decree furthers those consumer 
+ protection objectives. 
+       3.    On January 21, 2024, two days before the New Hampshire Democratic primary election 
+ (Primary Election), potential voters in the state received thousands of spoofed robocalls carrying a 
+ deepfake generative artificial intelligence (AI) voice message purporting to be from the president of the 
+
+                          
+ 1 47 CFR § 64.6301(a). 
+ 2 See, e.g., Call Authentication Trust Anchor, Implementation of TRACED Act Section 6(a) – Knowledge of 
+Customers by Entities with Access to Numbering Resources, WC Docket Nos. 17-97 and 20-67, Report and Order 
+and Further Notice of Proposed Rulemaking, 35 FCC Rcd 3241 (2020); Call Authentication Trust Anchor, WC 
+Docket No. 17-97, Second Report and Order, 36 FCC Rcd 1859 (2020); Advanced Methods to Target and Eliminate 
+Unlawful Robocalls, Call Authentication Trust Anchor, CG Docket No. 17-59, WC Docket No. 17-97, Sixth Report 
+and Order, Fifth Report and Order, Order on Reconsideration, Order, Seventh Further Notice of Proposed 
+Rulemaking, Fifth Further Notice of Proposed Rulemaking, 37 FCC Rcd 6865 (2022); Call Authentication Trust 
+Anchor, WC Docket No. 17-97, Sixth Report and Order and Further Notice of Proposed Rulemaking, 38 FCC Rcd 
+2573 (2023). 
+  
+                         Federal Communications Commission            DA 24-790 
+
+ United States.3  The prerecorded AI message, using voice cloning technology, told recipients not to vote 
+in the upcoming Primary Election.4  On May 23, 2024, following the Bureau’s extensive investigation 
+and coordination with several law enforcement partners, the Commission adopted a Notice of Apparent 
+Liability for Forfeiture (NAL) against Lingo Telecom proposing a $2,000,000 penalty.5 
+       4.    After reviewing the terms of the Consent Decree and evaluating the facts before us, we 
+ find that the public interest would be served by adopting the Consent Decree, terminating the referenced 
+ investigation, and resolving the NAL. 
+       5.    Accordingly, IT IS ORDERED that, pursuant to sections 4(i) and 503(b) of the 
+ Communications Act of 1934, as amended, 47 U.S.C. §§ 154(i), 503(b), and the authority delegated by 
+ sections 0.111 and 0.311 of the Commission’s rules, 47 CFR §§ 0.111, 0.311, the attached Consent 
+ Decree IS ADOPTED and its terms incorporated by reference. 
+       6.    IT IS FURTHER ORDERED that the above-captioned matter IS TERMINATED and 
+ the Notice of Apparent Liability for Forfeiture IS RESOLVED in accordance with the terms of the 
+ attached Consent Decree. 
+       7.    IT IS FURTHER ORDERED that a copy of this Order and Consent Decree shall be 
+ sent by first class mail and certified mail, return receipt requested to Lingo Telecom, LLC, 9330 LBJ 
+ Freeway, Suite 944 Dallas, TX 75243, and Kevin G. Rupy, Wiley Rein LLP, 2050 M Street NW 
+ Washington, DC 20036, and Lauren M. Wilson and Todd D. Daubert, Dentons US LLP, at 1900 K Street 
+ NW, Washington, DC 20006. 
+        
+
+                                     FEDERAL COMMUNICATIONS COMMISSION 
+  
+  
+  
+  
+                                     Loyaan A. Egal  
+                                     Chief  
+                                     Enforcement Bureau 
+  
+
+
+                          
+ 3 Lingo Telecom LLC, Notice of Apparent Liability for Forfeiture, FCC 24-60, 2024 WL 2828369, at *4, para. 9 
+ (May 23, 2024). 
+ 4 Id.  
+ 5 Id. at *11, para. 29. 
+                                       2 
+                           Federal Communications Commission                 DA 24-790 
+
+                                       Before the 
+                           Federal Communications Commission 
+                                 Washington, D.C. 20554 
+ 
+ In the Matter of                           )          
+                                            )          
+ Lingo Telecom, LLC                         )         File No.:  EB-TCD-24-00036425 
+                                            )         NAL/Acct. No.:  202432170004 
+                                            )         FRN:  0035440734 
+                                            ) 
+                                            ) 
+                                             
+                                  CONSENT DECREE 
+                                            
+       1.    The Enforcement Bureau of the Federal Communications Commission and Lingo 
+Telecom, LLC (Lingo Telecom or Company) by their authorized representatives, hereby enter into this 
+Consent Decree for the purpose of terminating the Enforcement Bureau’s investigation into whether 
+Lingo Telecom violated section 64.6301(a) of the Commission’s Rules in connection with incorrect 
+Secure Telephone Identity Revisited and Signature-based Handling of Asserted information using 
+toKENs (STIR/SHAKEN) attestations.  To resolve this matter, Lingo Telecom agrees to implement a 
+Compliance Plan and pay a $1,000,000 civil penalty. 
+   I.     DEFINITIONS 
+           
+       2.    For the purposes of this Consent Decree, the following definitions shall apply: 
+             (a) “Act” means the Communications Act of 1934, as amended.1 
+             (b) “Adopting Order” means an order of the Bureau adopting the terms of this Consent 
+                 Decree without change, addition, deletion, or modification.   
+             (c) “Bureau” means the Enforcement Bureau of the Federal Communications 
+                 Commission. 
+             (d) “Commission” and “FCC” mean the Federal Communications Commission and all 
+                 of its bureaus and offices. 
+             (e) “Communications Laws” means collectively, the Act, the Commission’s rules, and 
+                 the published and promulgated orders and decisions of the Commission to which 
+                 Lingo Telecom is subject by virtue of its business activities, including but not 
+                 limited to the STIR/SHAKEN rules. 
+             (f) “Compliance Plan” means the compliance obligations, program, and procedures 
+                 described in this Consent Decree at paragraph 17. 
+             (g) “Covered Employees” means all employees and agents of Lingo Telecom who 
+                 perform, supervise, oversee, or manage the performance of, duties that relate to 
+                 Lingo Telecom’s responsibilities under the Communications Laws, including the 
+                 STIR/SHAKEN rules. 
+             (h) “Effective Date” means the date by which both the Bureau and Lingo Telecom have 
+                 signed the Consent Decree and the Bureau has released an Adopting Order. 
+             (i) “Investigation” means the investigation commenced by the Bureau in EB-TCD-24-
+                 00036425 regarding whether Lingo Telecom violated STIR/SHAKEN rules. 
+
+                           
+1 47 U.S.C. § 151 et seq. 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+             (j) “Lingo Telecom” or “Company” means Lingo Telecom, LLC and its affiliates, 
+                 subsidiaries, predecessors-in-interest, and successors-in-interest. 
+             (k) “NAL” means the Notice of Apparent Liability for Forfeiture issued to Lingo 
+                 Telecom and released on May 28, 2024 proposing a two million dollar ($2,000,000) 
+                 forfeiture for apparent violations of section 64.6301(a) of the Commission’s rules. 
+             (l) “Operating Procedures” means the standard internal operating procedures and 
+                 compliance policies established by Lingo Telecom to implement the Compliance 
+                 Plan. 
+             (m) “Parties” means Lingo Telecom and the Bureau, each of which is a “Party.” 
+             (n) “Rules” means the Commission’s regulations found in Title 47 of the Code of 
+                 Federal Regulations. 
+             (o) “STIR/SHAKEN Rules” means section 64.6301(a) of the Commission’s rules and 
+                 other Communications Laws related to STIR/SHAKEN obligations.   
+   II.    BACKGROUND 
+           
+       3.    STIR/SHAKEN.  The Pallone-Thune Telephone Robocall Abuse Criminal Enforcement 
+and Deterrence Act (TRACED Act) and the Commission’s implementing rules codified at section 
+64.6301(a) required voice service providers to implement the STIR/SHAKEN authentication framework 
+on their Internet protocol (IP) networks by June 30, 2021,2 subject to certain extensions and exemptions.3  
+The STIR/SHAKEN framework helps protect consumers from illegal spoofed calls by enabling 
+authenticated caller ID information to travel securely with the call itself through the entire IP-enabled call 
+path.4  The Commission’s Rules define the term “STIR/SHAKEN authentication framework” to mean the 
+“secure telephone identity revisited and signature-based handling of asserted information using tokens 
+standards.”5  Specifically, the Commission requires compliance with three technical standards developed 
+jointly by the Internet Engineering Task Force and the Alliance for Telecommunications Industry 
+Solutions (ATIS) for implementation of STIR/SHAKEN, which are identified in the Commission’s First 
+Call Authentication Order:  ATIS-1000074, ATIS-1000080, and ATIS-1000084.6  For voice service 
+providers, “[c]ompliance with the most current versions of these three standards as of March 31, 2020, 
+including any errata as of that date or earlier, represents the minimum requirement to satisfy [the] rules.”7 
+
+                            
+2 See Pub. L. No. 116-105, § 4, 133 Stat. 3274, 3276 (2019) (TRACED Act); 47 CFR § 64.6301(a) (requiring 
+STIR/SHAKEN implementation by voice service providers). 
+3 See 47 CFR §§ 64.6304, 64.6306.  None of these were relevant to Lingo Telecom. 
+4 Call Authentication Trust Anchor, WC Docket No. 17-97, Sixth Report and Order and Further Notice of Proposed 
+Rulemaking, FCC 23-18, 38 FCC Rcd 2573, 2575, para. 4 (2023) (Sixth Call Authentication Order). 
+5 47 CFR § 64.6300(m) (emphasis added); see also TRACED Act § 4(a)(1) (defining “STIR/SHAKEN 
+authentication framework” to mean “the [STIR/SHAKEN] standards proposed by the information and 
+communications technology industry.”). 
+6 See Call Authentication Trust Anchor, Implementation of TRACED Act Section 6(a) – Knowledge of Customers by 
+Entities with Access to Numbering Resources, WC Docket Nos. 17-97 and 20-67, Report and Order and Further 
+Notice of Proposed Rulemaking, 35 FCC Rcd 3241, 3258-59, para. 36 (2020) (First Call Authentication Order); see 
+also Alliance for Telecommunications Industry Solutions, Signature-based Handling of Asserted information using 
+toKENs (SHAKEN), ATIS-10000074-E19E (2019) (ATIS-1000074); Errata to Signature-based Handling of 
+Asserted information using toKENs (SHAKEN): Governance Model and Certificate Management, ATIS-1000080-
+E19 (2019); Errata to Technical Report on Operational and Management Considerations for SHAKEN STI 
+Certification Authorities and Policy Administrators, ATIS-1000084-E19 (2019). 
+7 See First Call Authentication Order, 35 FCC Rcd at 3258-59, para. 36 (emphasis added); see also Sixth Call 
+Authentication Order, 38 FCC Rcd at 2585, para. 21. 
+                                           2 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+       4.    Of particular relevance in the NAL is ATIS-1000074, which describes the three 
+attestation levels that a provider can apply to a call.8  An “A” attestation or “Full Attestation” means that 
+the signing provider:  (i) “is responsible for the origination of the call onto the IP-based service provider 
+voice network;” (ii) “has a direct authenticated relationship with the customer and can identify the 
+customer;” and (iii) “has established a verified association with the telephone number used for the call.”9 
+A “B” attestation or “Partial Attestation” means that the provider can meet the first two criteria of the A-
+level attestation but the provider “has NOT established a verified association with the telephone number 
+being used for the call.”10  Finally, a “C” attestation or “Gateway Attestation” means that the signing 
+provider “has no relationship with the initiator of the call (e.g., international gateways).”11  Thus, the 
+attestation level assigned by a voice service provider signifies “what it knows about the identity of the 
+calling party,” and therefore how much trust downstream providers can ascribe to the caller ID number.12   
+       5.    Lingo Telecom Investigation.  Lingo Telecom is a Texas Limited Liability Company.13  It 
+is a subsidiary of Lingo Management, LLC.14  Lingo Telecom provides “IP-based Cloud voice and data 
+along with other unified communications technologies.”15   
+       6.    On January 21, 2024, two days before the Democratic New Hampshire presidential 
+primary election, potential New Hampshire voters received 9,581 calls16 carrying a prerecorded and 
+generative AI deepfake message that encouraged potential voters to abstain from voting in the primary 
+election.17  All but the last sentence of which was spoken in a fake voice that was used to create the 
+impression that President Joseph Biden created the message.18   
+      7.     The calls were placed using inaccurate, or “spoofed,” caller ID information.19  The 
+number used as the caller ID for the calls was associated with an unknowing and uninvolved local 
+political operative.20  The Bureau carried out an Investigation in coordination with the New Hampshire 
+Department of Justice Office of the Attorney General, the bipartisan Anti-Robocall Multistate Litigation 
+Task Force, the U.S. Department of Justice, and USTelecom’s Industry Traceback Group.  The 
+Investigation, with the cooperation of Lingo Telecom, determined that Lingo Telecom was the originating 
+
+
+                            
+8 ATIS-1000074 at 9-10. 
+9 Id. at 9. 
+10 Id. 
+11 Id. at 10. 
+12 Call Authentication Trust Anchor, WC Docket No. 17-97, Second Report and Order, 36 FCC Rcd 1859, 1863, 
+para. 10 (2020). 
+13 Matrix Telecom, LLC, Certificate of Conversion, 802357352, Tex. Sec’y of State (Dec. 28, 2015). 
+14 Lingo Management, LLC Robocall Mitigation Plan v4.2024 (on file at EB-TCD-24-00036425). 
+15 Lingo Telecom, LLC dba Impact Telecom Robocall Mitigation Plan v1.2023 (on file at EB-TCD-24-00036425). 
+16 Subpoena Response of Life Corp. (Feb. 7, 2024) (on file in EB-TCD-24-00036425), at Response to Request for 
+Information (RFI) No. 1. 
+17 Lingo Telecom LLC, Notice of Apparent Liability for Forfeiture, FCC 24-60, 2024 WL 2828369, at *4, para. 9 
+(May 23, 2024) (Lingo Telecom NAL). 
+18 Id.  
+19 Id. at *4, para. 10.  
+20 Id. 
+                                           3 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+provider (i.e., the first voice service provider in the call path) for a number of these calls.21  Lingo 
+Telecom identified Life Corporation as the party that transmitted the calls to the Company.22      
+       8.    On February 6, 2024, the Bureau sent Lingo Telecom a cease-and-desist letter (CDL) 
+demanding that it “effectively mitigate illegal traffic” and “implement effective measures to prevent new 
+and renewing customers from using its network to originate illegal calls.”23  On March 13, 2024, and May 
+9, 2024, the Bureau subpoenaed Lingo Telecom for additional information about the New Hampshire 
+calls and Company STIR/SHAKEN attestation practices.24  Lingo Telecom produced evidence showing 
+that Lingo Telecom completed 3,978 calls to potential New Hampshire voters on January 21, 2024, which 
+the Company signed with A-Level attestations.25  Lingo Telecom explained that its policy was to assign 
+A-level attestations to a customer’s traffic when the Company directly assigned Direct Inward Dialing 
+(DID) numbers to a customer like Life Corporation.  If one of these customers, like Life Corporation, also 
+purchased Company Session Initiation Protocol (SIP) trunks that permits the customer to use numbers 
+assigned by other carriers, Lingo Telecom allowed them to “receive an A-level attestation for traffic 
+associated with . . . non-Lingo provisioned telephone numbers if the customer certified that it ‘will 
+identify its customer and has a verified association with the telephone number used for the call.’”26   
+      9.     Lingo Telecom submitted evidence to the Bureau that Life Corporation had provided 
+Lingo Telecom with a certification that Life Corporation would identify its customers and had verified 
+that the telephone numbers used for all calls were associated with the customers.  Lingo Telecom 
+concluded that Life Corporation could legitimately use the telephone number that appeared as the calling 
+party of the New Hampshire calls27 based on:  (i) Life Corporation’s certification to Lingo Telecom that 
+Life Corporation would identify its customers and had verified that the telephone numbers used for all 
+calls were associated with the customers; (ii) the past Know-Your-Customer research that Lingo Telecom 
+had performed on Life Corporation; and (iii) the 16-year history of Life Corporation’s traffic patterns as a 
+customer of Lingo Telecom.28  Based on this conclusion, Lingo Telecom provided A-level attestations for 
+the New Hampshire calls.29  Lingo Telecom took no additional steps beyond those recited above to 
+independently ascertain whether the customers of Life Corporation could legitimately use the telephone 
+number that appeared as the calling party for the New Hampshire presidential primary calls.  
+      10.    On May 28, 2024, the Commission issued an NAL against Lingo Telecom proposing a 
+penalty of $2,000,000 for apparent violations of section 64.6301(a) of the Commission’s Rules.30   
+
+
+                           
+21 See ITG Subpoena Response (Jan. 31, 2024) (on file in EB-TCD-24-00036425) (ITG Subpoena Response). 
+22 Id. 
+23 Letter from Loyaan A. Egal, Chief, FCC Enforcement Bureau, to Alex Valencia, Chief Compliance Officer, 
+Lingo Telecom, LLC, 2024 WL 488250 (Feb. 6, 2024). 
+24 Subpoena to Lingo Telecom, LLC (Mar. 13, 2024) (EB-TCD-24-00036425) (Lingo Subpoena). 
+25 Lingo Subpoena Response at Lingo 05-000202 (Mar. 27, 2024) (on file at EB-TCD-24-00036425) (Lingo 
+Subpoena Response) (reflecting call detail records).  
+26 Id. at Response to RFI No. 2. 
+27 See ATIS-1000074 § 5.2.4 (2022), Note 1 at 8. 
+28 See Lingo Subpoena Response at Response to RFI Nos. 1-2. 
+29 See id.  
+30 Lingo Telecom NAL, supra note 17. 
+                                           4 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+   III.   TERMS OF AGREEMENT 
+ 
+       11.   Adopting Order.  The provisions of this Consent Decree shall be incorporated by the 
+Bureau in an Adopting Order. 
+       12.   Jurisdiction.  Lingo Telecom agrees that the Bureau has jurisdiction over it and the 
+matters contained in this Consent Decree and has the authority to enter into and adopt this Consent 
+Decree. 
+       13.   Effective Date; Violations.  The Parties agree that this Consent Decree shall become 
+effective on the Effective Date as defined herein.  As of the Effective Date, the Parties agree that this 
+Consent Decree shall have the same force and effect as any other order of the Commission.  Any violation 
+of the Adopting Order or of the terms of this Consent Decree, including the Compliance Plan, shall 
+constitute a separate violation of a Commission order, entitling the Commission to exercise any rights and 
+remedies attendant to the enforcement of a Commission order.  Additionally, if Lingo Telecom fails to 
+comply with STIR/SHAKEN Rules or any term of the Compliance Plan, the Commission may extend the 
+Termination Date by twelve (12) months for each instance of non-compliance. 
+       14.   Termination of Investigation.  In express reliance on the covenants and representations 
+in this Consent Decree and to avoid further expenditure of public resources, the Bureau agrees to 
+terminate the Investigation.  In consideration for the termination of the Investigation, Lingo Telecom 
+agrees to the terms, conditions, and procedures contained herein.  The Bureau further agrees that, in the 
+absence of new material evidence, it will not use the facts developed in the Investigation through the 
+Effective Date, or the existence of this Consent Decree, to institute any new proceeding on its own motion 
+against Lingo Telecom concerning the matters that were the subject of the Investigation, or to set for 
+hearing the question of Lingo Telecom’s basic qualifications to be a Commission licensee or hold 
+Commission licenses or authorizations based on the matters that were the subject of the Investigation.31 
+       15.   Admission.  Lingo Telecom admits for the purpose of this Consent Decree and for 
+Commission civil enforcement purposes, and in express reliance on the provisions of paragraph 14 herein, 
+that paragraphs 8 and 9 contain a true and accurate description of the facts underlying the Investigation.  
+No other admissions are made by Lingo Telecom.  
+       16.   Compliance Officer.  Within thirty (30) calendar days after the Effective Date, Lingo 
+Telecom shall designate a senior corporate manager with the requisite corporate and organizational 
+authority to serve as a Compliance Officer and to discharge the duties set forth below.  The person 
+designated as the Compliance Officer shall be responsible for developing, implementing, and 
+administering the Compliance Plan and ensuring that Lingo Telecom complies with the terms and 
+conditions of the Compliance Plan and this Consent Decree.  In addition to the general knowledge of the 
+Communications Laws necessary to discharge his or her duties under this Consent Decree, the 
+Compliance Officer shall have specific knowledge of the STIR/SHAKEN Rules prior to assuming his/her 
+duties. 
+       17.   Compliance Plan.  For purposes of settling the matters set forth herein, Lingo Telecom 
+agrees that it shall, within thirty (30) calendar days after the Effective Date, develop and implement a 
+Compliance Plan designed to ensure future compliance with the Communications Laws and with the 
+terms and conditions of this Consent Decree.  With respect to the STIR/SHAKEN Rules, Lingo Telecom 
+will implement, at a minimum, the following procedures: 
+             (a) Operating Procedures.  Within ninety (90) calendar days after the Effective Date, 
+                 Lingo Telecom and all Covered Employees shall comply with the Operating 
+                 Procedures set forth in Attachment 1 to help ensure Lingo Telecom’s compliance 
+                 with the STIR/SHAKEN Rules.  Lingo Telecom shall also develop a Compliance 
+
+                            
+31 See 47 CFR § 1.93(b). 
+                                           5 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+                 Checklist that describes the steps that a Covered Employee must follow to ensure 
+                 compliance with the STIR/SHAKEN Rules.   
+             (b) Compliance Manual.  Within thirty (30) calendar days after the Effective Date, the 
+                 Compliance Officer shall develop and distribute a Compliance Manual to all 
+                 Covered Employees.  The Compliance Manual shall explain the STIR/SHAKEN 
+                 Rules and set forth the Operating Procedures that Covered Employees shall follow 
+                 to help ensure Lingo Telecom’s compliance with the STIR/SHAKEN Rules.  Lingo 
+                 Telecom shall periodically review and revise the Compliance Manual as necessary 
+                 to ensure that the information set forth therein remains current and accurate.  Lingo 
+                 Telecom shall distribute any revisions to the Compliance Manual promptly to all 
+                 Covered Employees. 
+             (c) Compliance Training Program.  Lingo Telecom shall establish and implement a 
+                 Compliance Training Program on compliance with the STIR/SHAKEN Rules and 
+                 the Operating Procedures.  As part of the Compliance Training Program, Covered 
+                 Employees shall be advised of Lingo Telecom’s obligation to report any 
+                 noncompliance with the STIR/SHAKEN Rules under paragraph 18 of this Consent 
+                 Decree and shall be instructed on how to disclose noncompliance to the Compliance 
+                 Officer.  All Covered Employees shall be trained pursuant to the Compliance 
+                 Training Program within sixty (60) calendar days after the Effective Date, except 
+                 that any person who becomes a Covered Employee at any time after the initial 
+                 Compliance Training Program shall be trained within thirty (30) calendar days after 
+                 the date such person becomes a Covered Employee.  Lingo Telecom shall repeat 
+                 compliance training on an annual basis and shall periodically review and revise the 
+                 Compliance Training Program as necessary to ensure that it remains current and 
+                 complete and to enhance its effectiveness. 
+      18.    Reporting Noncompliance.  Lingo Telecom shall report any noncompliance with the 
+STIR/SHAKEN Rules and with the terms and conditions of this Consent Decree within fifteen (15) 
+calendar days after discovery of such noncompliance.  Such reports shall include a detailed explanation 
+of:  (i) each instance of noncompliance; (ii) the steps that Lingo Telecom has taken or will take to remedy 
+such noncompliance; (iii) the schedule on which such remedial actions will be taken; and (iv) the steps 
+that Lingo Telecom has taken or will take to prevent the recurrence of any such noncompliance.  All 
+reports of noncompliance shall be submitted to Chief, Telecommunications Consumers Division, 
+Enforcement Bureau, Federal Communications Commission, via EnforcementBureauTCD@fcc.gov. 
+      19.    Compliance Reports.  Lingo Telecom shall file compliance reports with the 
+Commission ninety (90) calendar days after the Effective Date, twelve (12) months after the Effective 
+Date, and every twelve (12) months thereafter until the Termination Date.  
+             (a) Each Compliance Report shall include a detailed description of Lingo Telecom’s 
+                 efforts during the relevant period to comply with the terms and conditions of this 
+                 Consent Decree and the STIR/SHAKEN Rules.  In addition, each Compliance 
+                 Report shall include a certification by the Compliance Officer, as an agent of and on 
+                 behalf of Lingo Telecom, stating that the Compliance Officer has personal 
+                 knowledge that Lingo Telecom:  (i) has established and implemented the 
+                 Compliance Plan; (ii) has complied with the Operating Procedures since the 
+                 implementation of the Compliance Plan; (iii) has reported any instances of non-
+                 compliance in conformance with paragraph 18 of this Consent Decree and the dates 
+                 of any such reports; and (iv) is otherwise not aware of any instances of 
+                 noncompliance with the terms and conditions of this Consent Decree, including the 
+                 reporting obligations set forth in paragraph 18 of this Consent Decree. 
+             (b) The Compliance Officer’s certification shall be accompanied by a statement 
+                 explaining the basis for such certification and shall comply with section 1.16 of the 
+                                           6 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+                 Rules and be subscribed to as true under penalty of perjury in substantially the form 
+                 set forth therein.32 
+             (c) If the Compliance Officer cannot provide the requisite certification, the Compliance 
+                 Officer, as an agent of and on behalf of Lingo Telecom, shall provide the 
+                 Commission with a detailed explanation of the reason(s) why and describe fully:  (i) 
+                 each instance of noncompliance; (ii) the steps that Lingo Telecom has taken or will 
+                 take to remedy such noncompliance, including the schedule on which proposed 
+                 remedial actions will be taken; and (iii) the steps that Lingo Telecom has taken or 
+                 will take to prevent the recurrence of any such noncompliance, including the 
+                 schedule on which such preventive action will be taken. 
+             (d) All Compliance Reports shall be submitted electronically to Chief, 
+                 Telecommunications Consumers Division, Enforcement Bureau, Federal 
+                 Communications Commission, via EnforcementBureauTCD@fcc.gov.  
+      20.    Termination Date.  Unless stated otherwise, or extended as set forth in paragraph 13, the 
+requirements set forth in paragraphs 16 through 19 of this Consent Decree shall expire thirty-six (36) 
+months after the Effective Date.   
+       21.   Section 208 Complaints; Subsequent Investigations.  Nothing in this Consent Decree 
+shall prevent the Commission or its delegated authority from adjudicating complaints filed pursuant to 
+section 208 of the Act33 against Lingo Telecom or its affiliates for alleged violations of the Act, or for any 
+other type of alleged misconduct, regardless of when such misconduct took place.  The Commission’s 
+adjudication of any such complaint will be based solely on the record developed in that proceeding.  
+Except as expressly provided in this Consent Decree, this Consent Decree shall not prevent the 
+Commission from investigating new evidence of noncompliance by Lingo Telecom with the 
+Communications Laws.  
+       22.   Civil Penalty.  Lingo Telecom will pay a civil penalty to the United States Treasury in 
+the amount of one million dollars ($1,000,000).  Such payment will be made in four (4) installments (each 
+an Installment Payment).  The first Installment Payment in the amount of one hundred thousand dollars 
+($100,000) is due within thirty (30) calendar days of the Effective Date.  Thereafter, subsequent 
+Installment Payments of three hundred thousand dollars ($300,000) will be due by the following 
+deadlines:  (1) one hundred twenty (120) calendar days after the Effective Date; (2) two hundred seventy 
+(270) calendar days after the Effective Date; and (3) three hundred sixty five (365) calendar days after the 
+Effective Date.  Lingo Telecom acknowledges and agrees that upon execution of this Consent Decree, the 
+Civil Penalty and each Installment Payment shall become a “Claim” or “Debt” as defined in 31 U.S.C. 
+§ 3701(b)(1).34  Upon an Event of Default, as defined in paragraph 23, all procedures for collection as 
+permitted by law may, at the Commission’s discretion, be initiated.  Lingo Telecom shall send electronic 
+notification of payment to EnforcementBureauTCD@fcc.gov on the date said payment is made.  Payment 
+of the Civil Penalty must be made by credit card using the Commission’s Registration System (CORES) 
+at https://apps.fcc.gov/cores/userLogin.do, ACH (Automated Clearing House) debit from a bank account, 
+or by wire transfer from a bank account.  The Commission no longer accepts Civil Penalty payments by 
+check or money order.  Below are instructions that payors should follow based on the form of payment 
+selected:35 
+
+
+                           
+32 Id. § 1.16. 
+33 47 U.S.C. § 208. 
+34 Debt Collection Improvement Act of 1996, Pub. L. No. 104-134, 110 Stat. 1321, 1358 (Apr. 26, 1996). 
+35 For questions regarding payment procedures, please contact the Financial Operations Group Help Desk by phone 
+at 1-877-480-3201 (option #6). 
+                                           7 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+     Payment by wire transfer must be made to ABA Number 021030004, receiving bank 
+      TREAS/NYC, and Account Number 27000001.  In the OBI field, enter the FRN(s) captioned 
+      above and the letters “FORF”.  In addition, a completed Form 15936 or printed CORES form37 
+      must be faxed to the Federal Communications Commission at 202-418-2843 or e-mailed to 
+      RROGWireFaxes@fcc.gov on the same business day the wire transfer is initiated.  Failure to 
+      provide all required information in Form 159 or CORES may result in payment not being 
+      recognized as having been received.  When completing FCC Form 159 or CORES, enter the 
+      Account Number in block number 23A (call sign/other ID), enter the letters “FORF” in block 
+      number 24A (payment type code), and enter in block number 11 the FRN(s) captioned above 
+      (Payor FRN).38  For additional detail and wire transfer instructions, go to 
+      https://www.fcc.gov/licensing-databases/fees/wire-transfer.  
+
+     Payment by credit card must be made by using CORES at 
+      https://apps.fcc.gov/cores/userLogin.do.  To pay by credit card, log-in using the FCC Username 
+      associated to the FRN captioned above.  If payment must be split across FRNs, complete this 
+      process for each FRN.  Next, select “Manage Existing FRNs | FRN Financial | Bills & Fees” from 
+      the CORES Menu, then select FRN Financial and the view/make payments option next to the 
+      FRN.  Select the “Open Bills” tab and find the bill number associated with the CD Acct. No.  The 
+      bill number is the  CD Acct. No. with the first two digits excluded (e.g., CD 1912345678 would 
+       be associated with FCC Bill Number 12345678).  After selecting the bill for payment, choose the 
+       “Pay by Credit Card” option.  Please note that there is a $24,999.99 limit on credit card 
+      transactions. 
+
+     Payment by ACH must be made by using CORES at https://apps.fcc.gov/cores/userLogin.do.  To 
+      pay by ACH, log in using the FCC Username associated to the FRN captioned above.  If payment 
+      must be split across FRNs, complete this process for each FRN.  Next, select “Manage Existing 
+      FRNs | FRN Financial | Bills & Fees” on the CORES Menu, then select FRN Financial and the 
+      view/make payments option next to the FRN. Select the “Open Bills” tab and find the bill number 
+      associated with the CD Acct. No.  The bill number is the CD Acct. No. with the first two digits 
+      excluded (e.g., CD 1912345678 would be associated with FCC Bill Number 12345678).  Finally, 
+      choose the “Pay from Bank Account” option.  Please contact the appropriate financial institution 
+      to confirm the correct Routing Number and the correct account number from which payment will 
+      be made and verify with that financial institution that the designated account has authorization to 
+      accept ACH transactions. 
+      23.    Event of Default.  Lingo Telecom agrees that an Event of Default shall occur upon the 
+failure Lingo Telecom to pay the full amount of the Civil Penalty or any Installment Payment on or before 
+the due date specified in this Consent Decree. 
+       24.   Interest, Charges for Collection, and Acceleration of Maturity Date.  After an Event 
+of Default has occurred under this Consent Decree, the then unpaid amount of the Civil Penalty or any 
+Installment Payment shall accrue interest, computed using the U.S. Prime Rate in effect on the date of the 
+Event of Default plus 4.75%, from the date of the Event of Default until payment in full.  Upon an Event 
+of Default, the then unpaid amount of the Civil Penalty or Installment Payment together with interest, any 
+penalties permitted and/or required by the law, including but not limited to 31 U.S.C. § 3717 and 
+administrative charges, plus the costs of collection, litigation, and attorneys’ fees, shall become 
+immediately due and payable, without notice, presentment, demand, protest, or notice of protest of any 
+kind, all of which are waived by Lingo Telecom. 
+
+                           
+36 FCC Form 159 is accessible at https://www.fcc.gov/licensing-databases/fees/fcc-remittance-advice-form-159. 
+37 Information completed using the Commission’s Registration System (CORES) does not require the submission of 
+an FCC Form 159.  CORES is accessible at https://apps.fcc.gov/cores/userLogin.do. 
+38 Instructions for completing the form may be obtained at http://www.fcc.gov/Forms/Form159/159.pdf.  
+                                           8 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+       25.   Waivers.  As of the Effective Date, Lingo Telecom waives any and all rights it may have 
+to seek administrative or judicial reconsideration, review, appeal or stay, or to otherwise challenge or 
+contest the validity of this Consent Decree and the Adopting Order.  Lingo Telecom shall retain the right 
+to challenge Commission interpretation of the Consent Decree or any terms contained herein.  If either 
+Party (or the United States on behalf of the Commission) brings a judicial action to enforce the terms of 
+the Consent Decree or the Adopting Order, neither Lingo Telecom nor the Commission shall contest the 
+validity of the Consent Decree or the Adopting Order, and Lingo Telecom shall waive any statutory right 
+to a trial de novo.  Lingo Telecom hereby agrees to waive any claims it may otherwise have under the 
+Equal Access to Justice Act39 relating to the matters addressed in this Consent Decree. 
+      26.    Severability.  The Parties agree that if any of the provisions of the Consent Decree shall 
+be held unenforceable by any court of competent jurisdiction, such unenforceability shall not render 
+unenforceable the entire Consent Decree, but rather the entire Consent Decree shall be construed as if not 
+containing the particular unenforceable provision or provisions, and the rights and obligations of the 
+Parties shall be construed and enforced accordingly. 
+       27.   Invalidity.  In the event that this Consent Decree in its entirety is rendered invalid by any 
+court of competent jurisdiction, it shall become null and void and may not be used in any manner in any 
+legal proceeding. 
+       28.   Subsequent Rule or Order.  The Parties agree that if any provision of the Consent 
+Decree conflicts with any subsequent Rule or order adopted by the Commission (except an order 
+specifically intended to revise the terms of this Consent Decree to which Lingo Telecom does not 
+expressly consent) that provision will be superseded by such Rule or order. 
+       29.   Successors and Assigns.  Lingo Telecom agrees that the provisions of this Consent 
+Decree shall be binding on its successors, assigns, and transferees. 
+       30.   Final Settlement.  The Parties agree and acknowledge that this Consent Decree shall 
+constitute a final settlement between the Parties with respect to the Investigation. 
+       31.   Modifications.  This Consent Decree cannot be modified without the advance written 
+consent of both Parties. 
+       32.   Paragraph Headings.  The headings of the paragraphs in this Consent Decree are 
+inserted for convenience only and are not intended to affect the meaning or interpretation of this Consent 
+Decree. 
+       33.   Authorized Representative.  Each Party represents and warrants to the other that it has 
+full power and authority to enter into this Consent Decree.  Each person signing this Consent Decree on 
+behalf of a Party hereby represents that he or she is fully authorized by the Party to execute this Consent 
+Decree and to bind the Party to its terms and conditions. 
+
+
+                            
+39 See 5 U.S.C. § 504; 47 CFR §§ 1.1501-1.1530. 
+                                           9 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+      34.    Counterparts.  This Consent Decree may be signed in counterparts (including 
+electronically or by facsimile).  Each counterpart, when executed and delivered, shall be an original, and 
+all of the counterparts together shall constitute one and the same fully executed instrument. 
+ 
+ 
+ 
+________________________________ 
+Loyaan A. Egal 
+Chief 
+Enforcement Bureau 
+ 
+ 
+ 
+________________________________ 
+Date 
+ 
+ 
+ 
+________________________________ 
+Ananth Veluppillai 
+President & Chief Executive Officer 
+Lingo Telecom, LLC 
+ 
+ 
+ 
+________________________________ 
+Date 
+ 
+  
+
+
+                                          10 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+                     ATTACHMENT 1:  OPERATING PROCEDURES 
+                                            
+The following provisions are not a comprehensive robocall mitigation plan and are designed to 
+supplement, rather than replace, existing caller ID authentication and robocall mitigation measures Lingo 
+Telecom currently has in place or may implement in the future.  Compliance with these measures is not a 
+defense to future violations of state or federal law or Commission Rules.     
+   I.     DEFINITIONS   
+      1.     For the purposes of the Operating Procedures, the following definitions shall apply, in 
+addition to any definitions set forth in the Consent Decree.  
+             (a) “Caller Identity” means the originating phone number included in call signaling 
+                 used to identify the caller for call screening purposes. 
+             (b) “Call” means a call originated on behalf of a calling party by Lingo Telecom. 
+             (c) “SIP Trunking Product” means a single connection comprised of multiple 
+                 communications channels that provides Voice over Internet Protocol connectivity 
+                 between an on-premise phone system and the public switched telephone network.  
+             (d) “Supporting Record” means any of the following:  (i) a primary document 
+                 containing the information that Lingo Telecom is required by this Consent Decree to 
+                 obtain (e.g., government record, government identification, lease, utility statement); 
+                 (ii) a search result from a government website (e.g., the Delaware Division of 
+                 Corporations); or (iii) a report from a private database that validates information 
+                 about companies for the purpose of providing fraud detection, risk management, 
+                 credit check, or similar services.  
+   II.    TELEPHONE NUMBER VALIDATION 
+       2.    Lingo Telecom may only apply an A-level attestation to a call if Lingo Telecom itself has 
+provided the Caller Identity to the calling party associated with the Call.   
+   III.   ENHANCED KNOW YOUR CUSTOMER (KYC) MEASURES FOR CUSTOMERS 
+      3.     Lingo Telecom shall fully comply with 47 CFR § 64.1200(n)(4).  In addition, with 
+respect to any customer who purchases a SIP Trunking Product from Lingo Telecom (Customer), Lingo 
+Telecom shall implement at least the following measures to know its Customer.  
+             (a) If the Customer is a partnership or corporate entity, Lingo Telecom shall obtain the 
+                 following information about the Customer:  
+                   i. Legal business name and Supporting Records confirming the same; 
+                  ii. Place of formation and Supporting Records confirming the same;  
+                 iii. Proof of good standing in the place of formation not older than six months 
+                      prior to the date of the latest order by the Customer of a Lingo Telecom SIP 
+                      Trunking Product;  
+                  iv. U.S. federal Employer Identification Number or Business Registration Number 
+                      (if applicable);  
+                  v.  Physical business address and Supporting Records confirming the same; 
+                  vi. Active telephone number and Supporting Records confirming the same;  
+                 vii. Type of goods or services offered (e.g., marketing, education, political 
+                      consulting), and verification of commercial presence reflecting same (e.g., 
+                      website, social media, store front);  
+
+                                          11 
+                           Federal Communications Commission                 DA 24-790 
+ 
+
+                viii. Name of authorized individual acting on behalf of the Customer; 
+                  ix. Confirmation that the acting authorized individual purporting to act on behalf 
+                      of the Customer has the authority to do so, e.g., letter of authority, board 
+                      minutes, or contractual representation and warranty; and 
+                  x.  Confirmation the Customer has not been the subject of an adverse final 
+                      determination in an adjudicatory proceeding brought by either a private or 
+                      government party, including any FCC order, court order, or other similar 
+                      determination, for violating any state or federal laws or Commission Rules 
+                      pertaining to robocalls. 
+             (b) If the Customer is a natural person, Lingo Telecom shall obtain the following 
+                 information about the Customer:  
+                   i. Name and Supporting Record confirming the name; 
+                  ii. Physical address and Supporting Record confirming the same; 
+                 iii. Active telephone number and Supporting Records confirming the same;  
+                  iv. Type of goods or services offered (e.g., marketing, education, political 
+                      consulting), and verification of commercial presence reflecting same (e.g., 
+                      website, social media, store front); and 
+                  v.  Confirmation the Customer has not been the subject of an adverse final 
+                      determination in an adjudicatory proceeding brought by either a private or 
+                      government party, including any FCC order, court order, or other similar 
+                      determination, for violating any state or federal laws or Commission Rules 
+                      pertaining to robocalls.   
+   IV.    ENHANCED KNOW YOUR CUSTOMER MEASURES FOR UPSTREAM 
+          PROVIDERS   
+       4.    Lingo Telecom shall fully comply with 47 CFR § 64.1200(n)(5).  In addition, prior to 
+transmitting any call as a gateway or intermediary provider on behalf of any immediate upstream provider 
+(Upstream Provider), Lingo Telecom shall obtain the following information: 
+             (a) All information identified in Section III(3)(a);   
+             (b) The Upstream Provider’s active Robocall Mitigation Database filing; 
+             (c) Confirmation from the Industry Traceback Consortium that the Upstream Provider 
+                 has not failed to timely respond to any traceback requests in the prior twelve (12) 
+                 months; 
+             (d) Confirmation that the Upstream Provider imposes contractual obligations on its 
+                 customers or its own Upstream Providers to prohibit unlawful traffic; and 
+             (e) Confirmation the Upstream Provider has mechanisms in place to ensure its clients, 
+                 employees, and/or contractors comply with robocalling restrictions under state and 
+                 federal laws and Commission Rules. 
+   V.     PAYMENT RESTRICTIONS 
+       5.    Lingo Telecom shall not accept payment in the form of cryptocurrency, gift cards, or cash 
+to transmit or originate calls.   
+
+
+                                          12 

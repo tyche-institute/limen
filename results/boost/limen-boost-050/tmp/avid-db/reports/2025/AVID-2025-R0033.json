@@ -1,0 +1,74 @@
+{
+  "data_type": "AVID",
+  "data_version": "0.3.3",
+  "metadata": {
+    "report_id": "AVID-2025-R0033"
+  },
+  "affects": {
+    "developer": [
+      "Mistral"
+    ],
+    "deployer": [
+      "Together AI"
+    ],
+    "artifacts": [
+      {
+        "type": "Model",
+        "name": "Mistral-Small-24B-Instruct-2501"
+      }
+    ]
+  },
+  "problemtype": {
+    "classof": "LLM Evaluation",
+    "type": "Measurement",
+    "description": {
+      "lang": "eng",
+      "value": "Evaluation of the LLM Mistral-Small-24B-Instruct-2501 on the wmdp_cyber benchmark using Inspect Evals"
+    }
+  },
+  "metrics": [
+    {
+      "scorer": "choice",
+      "metrics": "accuracy",
+      "value": 0.49270256668344237
+    },
+    {
+      "scorer": "choice",
+      "metrics": "stderr",
+      "value": 0.011218482705472523
+    }
+  ],
+  "references": [
+    {
+      "type": "source",
+      "label": "Inspect Evaluation Log for dataset: cais/wmdp",
+      "url": "https://avidmvp.s3.amazonaws.com/2025-05-15T01-09-14+00-00_wmdp-cyber_SotYrCuu9QQCeg3k7ohtSR.eval"
+    }
+  ],
+  "description": {
+    "lang": "eng",
+    "value": "WMDP is a dataset of 3,668 multiple-choice questions surrounding hazardous knowledge in biosecurity, cybersecurity, and chemical security. WMDP serves as both a proxy evaluation for hazardous knowledge in large language models (LLMs) and a benchmark for unlearning methods to remove such knowledge.\n\nThe LLM Mistral-Small-24B-Instruct-2501 was evaluated on this benchmark.\n\n## Measurement details\n\nA simple accuracy is calculated over the datapoints."
+  },
+  "impact": {
+    "avid": {
+      "vuln_id": "",
+      "risk_domain": [
+        "Performance"
+      ],
+      "sep_view": [
+        "P0402: Physical Safety"
+      ],
+      "lifecycle_view": [
+        "L05: Evaluation"
+      ],
+      "taxonomy_version": "0.2"
+    }
+  },
+  "credit": [
+    {
+      "lang": "eng",
+      "value": "Harsh Raj"
+    }
+  ],
+  "reported_date": "2025-05-26"
+}

@@ -1,0 +1,26 @@
+
+session_id: 20260614_112034_ef4ed1
+Готово.
+
+Созданы файлы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T092033Z-lane13-b6359a0e/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T092033Z-lane13-b6359a0e/source-review-summary.md
+
+Обновлён манифест:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T092033Z-lane13-b6359a0e/manifest.json
+
+Итог по батчу:
+- source_reviewed_candidate: 11
+- merge_existing_surface: 12
+- negative_evidence_candidate: 22
+- needs_named_source_extraction: 19
+- translation_review_needed: 3
+- reject_noise: 33
+
+Проверка выполнена:
+- input rows: 100
+- output rows: 100
+- same signal_id set: true
+- duplicate output ids: none
+
+Коротко: самый частый шум — внутренние wrapper/analysis artifacts; самый очевидный upstream hardening move — заранее дедупить известные surfaces (особенно Helsinki/Amsterdam/Scottish/Dutch register aliases) и отправлять country-profile/search-negative rows сразу в negative-evidence lane до lease в direct-source review.

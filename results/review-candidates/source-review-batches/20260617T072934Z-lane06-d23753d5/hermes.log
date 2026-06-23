@@ -1,0 +1,25 @@
+
+session_id: 20260617_092935_34cf10
+Completed the bounded LIMEN source-review batch.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072934Z-lane06-d23753d5/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072934Z-lane06-d23753d5/source-review-summary.md
+
+Updated manifest:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072934Z-lane06-d23753d5/manifest.json
+
+Verification passed:
+- Input rows: 160
+- Output rows: 160
+- Unique input signal_id values: 160
+- Unique output signal_id values: 160
+- Signal_id set matches exactly
+- No duplicate output signal_id values
+- Header and verdict values valid
+
+Verdict counts:
+- merge_existing_surface: 101
+- needs_named_source_extraction: 30
+- negative_evidence_candidate: 27
+- translation_review_needed: 2

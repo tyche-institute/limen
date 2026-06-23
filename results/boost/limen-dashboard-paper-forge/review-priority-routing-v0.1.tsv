@@ -1,0 +1,4 @@
+review_priority	count	share	sample_signal_ids	paper_safe_caption
+P2_article_relevance_review	33040	0.592912	LIMEN-SIGNAL-00004D0C2657A7EF;LIMEN-SIGNAL-0002356E7DA06525;LIMEN-SIGNAL-00029C910032ADA5	Review priority is a routing label for human/Hermes hardening; it must not be read as incident truth, legal status, or prevalence.
+P3_candidate_review	13385	0.240197	LIMEN-SIGNAL-00017DF5F4A3D700;LIMEN-SIGNAL-000A73E042DF2657;LIMEN-SIGNAL-000BFE64F0EB63DD	Review priority is a routing label for human/Hermes hardening; it must not be read as incident truth, legal status, or prevalence.
+P1_official_or_regulator_review	9300	0.166891	LIMEN-SIGNAL-0005BC16B1499B8A;LIMEN-SIGNAL-001A5573C54E7E48;LIMEN-SIGNAL-0021903EE184A590	Review priority is a routing label for human/Hermes hardening; it must not be read as incident truth, legal status, or prevalence.

@@ -1,0 +1,22 @@
+{
+  "batch_id": "20260617T082930Z-lane01-ed0d2baf",
+  "batch_size": 160,
+  "created_at_utc": "2026-06-17T08:29:30Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T082930Z-lane01-ed0d2baf/source-review-input.tsv",
+  "input_rows": 2,
+  "lane_id": "lane01",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-drain-targets/20260617T082930Z-direct-source-review-queue.tsv",
+  "queue_rows": 17920,
+  "remaining_unleased_at_allocation": 2,
+  "started_at_utc": "2026-06-17T08:29:30Z",
+  "status": "completed",
+  "updated_at_utc": "2026-06-17T08:30:11Z",
+  "completed_at_utc": "2026-06-17T08:30:11Z",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T082930Z-lane01-ed0d2baf/source-review-results.tsv",
+  "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T082930Z-lane01-ed0d2baf/source-review-summary.md",
+  "output_rows": 2,
+  "verdict_counts": {
+    "negative_evidence_candidate": 2
+  },
+  "details": "Reviewed all input rows exactly once using local metadata and nearby local source context only; both rows routed as negative_evidence_candidate gap-warning derived artifacts."
+}

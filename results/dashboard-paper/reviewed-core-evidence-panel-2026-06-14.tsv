@@ -1,0 +1,5 @@
+denominator_class	count	jurisdictions	share_of_evidence_grade	paper_status	supports	does_not_support
+Regulator / court record (T3)	157	27	63%	evidence-grade core	existence of a named regulator/court action with a dated public record	incident truth beyond the record; prevalence; that the conduct is typical
+Contested / interim (T2)	80	17	32%	evidence-grade, status-bounded	that a matter was opened/charged/filed/appealed at a dated stage	any finding of liability or guilt; final outcome
+Security disclosure (CVE)	11	1	4%	evidence-grade core	a documented vulnerability in a named AI/agent system, anchored to a CVE	exploitation in the wild; real-world harm; prevalence
+Notable incident (media)	46	7	excluded	EXCLUDED from evidence-grade denominator; public-engagement layer only	that a widely-reported incident occurred per reputable outlets	any regulator/court finding; legal conclusion; evidence-grade status

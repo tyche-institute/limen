@@ -1,0 +1,5 @@
+artifact	status	notes
+results/attestation/live-observed-source-envelope-v0.1.json	pass	JSON Schema validation passed for live observed source receipt
+results/attestation/live-observed-source-note-v0.1.md	pass	Companion note records conservative claim boundary and dashboard/paper hooks for observed step
+results/attestation/live-extracted-source-envelope-v0.1.json	pass	JSON Schema validation passed for live extracted source-to-case receipt
+results/attestation/live-extracted-source-note-v0.1.md	pass	Companion note records conservative claim boundary and dashboard/paper hooks for extracted step

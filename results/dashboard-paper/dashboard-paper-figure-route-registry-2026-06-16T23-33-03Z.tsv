@@ -1,0 +1,12 @@
+bundle	slot	label	authority_file	rows	denominator_or_scope	route	allowed_reading	blocked_overread
+core	Figure 1	source-family saturation map	results/dashboard/source-family-coverage.tsv	15	15 source-family rows	Route A	source-family saturation and blocker visibility	completeness or family parity
+core	Figure 2	taxonomy support heatmap	results/dashboard/taxonomy-heatmap.tsv	15	39 governed record refs / 29 unique lineages core; 44 / 34 extended sidecar	Route A	category support and proof ceilings	single fused taxonomy denominator or prevalence
+core	Figure 3	legal uncertainty matrix	results/dashboard/legal-uncertainty-matrix.tsv	15	15 category rows	Route A	claim-ceiling control surface	legal conclusion or compliance finding
+core	Figure 4	duplicate-review quality-control graph	results/dashboard/duplicate-review-graph.tsv	27	27 visible edges	Route A	join-safety and duplicate governance	recurrence or event-frequency evidence
+core	Figure 5	publication-safe evidence-tier funnel	results/dashboard/evidence-funnel.tsv	11	21 publication-safe lineages	Route A	evidence maturity and publication confidence	uncollapsed record counts or completeness
+core	Figure 6	jurisdiction/language visibility map	results/dashboard/jurisdiction-language-coverage.tsv	12	12 jurisdiction-language rows	Route A	visibility asymmetry and translation burden	country ranking or prevalence
+core	Table A	authoritative document-depth facet	results/dashboard/authoritative-document-depth-facet.tsv	9	9 document-depth rows	Route A	authority-depth comparison	treating summary-grade and document-grade rows as equivalent
+core	Table B	public-sector disclosure asymmetry comparison	results/dashboard/public-sector-disclosure-comparison.tsv	6	6 disclosure-surface rows	Route A	disclosure-surface heterogeneity	procurement proof or deployment proof
+companion	Table C	security / agentic crosswalk coverage	results/dashboard/security-crosswalk-coverage-panel.tsv	6	6 crosswalk coverage rows	Route B	framework exactness / partial-context / gap state	prevalence or exact interoperability everywhere
+companion	Figure 7	security / agentic threshold ladder	results/dashboard/security-threshold-ladder-panel.tsv	4	4 threshold rows	Route B	threshold-change logic and bucket movement	security prevalence or denominator expansion
+companion	Figure 8	attestation trust-surface readiness	results/dashboard/attestation-trust-surface-readiness.tsv	4	4 trust-surface rows	Route C	local-bundle provenance ceiling	external trust assurance or witness claim

@@ -1,0 +1,279 @@
+232-3092
+UNITED STATES OF AMERICA
+BEFORE THE FEDERAL TRADE COMMISSION
+COMMISSIONERS:
+
+Andrew N. Ferguson, Chairman
+Melissa Holyoak
+Mark R. Meador
+
+________________________________________________
+In the Matter of
+WORKADO, LLC, a limited liability company,
+f/k/a CONTENT AT SCALE AI.
+
+DOCKET NO. C-4822
+
+________________________________________________
+COMPLAINT
+The Federal Trade Commission, having reason to believe that Workado, LLC, a limited
+liability company, formerly known as Content At Scale AI (“Respondent”), has violated the
+provisions of the Federal Trade Commission Act, and it appearing to the Commission that this
+proceeding is in the public interest, alleges:
+1.
+Respondent Workado, LLC, formerly known as Content at Scale AI (“Content At
+Scale”), is an Arizona limited liability company with its principal office or place of business at
+15333 N. Pima Road, Suite 260, Scottsdale, Arizona 85260.
+2.
+Respondent advertises, offers for sale, and sells products and services to consumers for
+creating marketing content, including the “AI Content Detector” (also referred to in
+Respondent’s marketing materials and advertisements as the “AI Content Checker”). The AI
+Content Detector uses artificial intelligence (“AI”) technology to determine whether written
+content, including marketing content, is AI-generated. Starting sometime in 2024, Respondent
+has also offered an AI image detector that purports to evaluate image pixels, smoothness, and
+other AI image patterns to detect AI-generated images.
+3.
+The acts and practices of Respondent alleged in this complaint have been in or affecting
+commerce, as “commerce” is defined in Section 4 of the Federal Trade Commission Act.
+
+Summary of the Case
+4.
+Generative AI technology like ChatGPT, available to anyone with access to the Internet,
+can now create content, such as school essays, news articles, and advertising copy, that sounds
+and looks as if it was created by a human being. In response, businesses and institutions that
+require authentic human works have turned to companies that offer tools to detect AI-generated
+content. The consequences of these tools’ assessments can be severe – such as a student wrongly
+accused of cheating or a journalist’s article rejected for publication.
+5.
+Targeting primarily advertisers, marketers, students, and other written content creators,
+Respondent markets and sells a monthly subscription to use its AI Content Detector. Respondent
+claims that its AI Content Detector will predict with 98.3% accuracy whether text was generated
+using AI technology such as ChatGPT, GPT4, Claude, Bard, or another generative AI
+technology. Respondent further claims its AI Content Detector was trained on a vast amount of
+material, including blog posts and Wikipedia entries. In fact, the AI model Respondent uses for
+its AI Content Detector was trained on abstracts of scholarly articles. Respondent did not create,
+train, or fine tune the AI model used in its AI Content Detector, nor has it tested whether the AI
+Content Detector would achieve the same accuracy rate for marketing and other plain language
+text that Respondent’s users typically submit. Respondent relied on test results published on the
+Internet by the AI model’s independent developers. However, those test results show that when
+evaluating a mix of human-created and AI-generated content, the AI model correctly
+distinguished AI content from human content at a substantially lower rate than 98.3%. As a
+result, Respondent’s 98% accuracy claim for the AI Content Detector is unsubstantiated and
+deceptive.
+The AI Content Detector Performance Claims
+6.
+Respondent offers and sells products and services to help marketers and advertisers create
+and refine written marketing content using AI technology. Respondent advertises that the AI
+Content Detector will enable marketers and others who use AI-generated content to determine
+which sentences in their text read as AI-generated or “robotic,” permitting them to re-write text
+to read more like human-created text.
+7.
+Since at least November 2022, Respondent’s AI Content Detector has been available for
+consumers to submit their written content on Respondent’s website at
+https://contentatscale.ai/ai-content-detector and at https://brandwell.ai/ai-content-detector for free
+on a limited basis, limiting both the number of times users can submit content and limiting text
+length. Beginning in September 2023 and continuing until August 2024, Respondent added a
+$49 per month paid subscription option for the AI Content Detector on its website. The
+subscription option permits consumers to use the AI Content Detector on an unlimited basis with
+other premium features, such as suggested rewrites of content flagged as AI-generated.
+8.
+When consumers submit their written content to the AI Content Detector, it returns their
+text with portions of it highlighted in red, orange, or green on a sentence-by-sentence basis
+indicating whether the text is likely AI-generated. When consumers hover the cursor over text
+highlighted in red, it states, “This reads very robotic and therefore has a higher chance of being
+AI generated.” Hovering the cursor over the orange highlighted text results in the statement,
+2
+
+“You’ll need to be less robotic sounding by changing sentence structure and using different word
+choices.” Green highlighted text indicates that the text does not read as AI-generated.
+9.
+Respondent disseminates or caused to be disseminated advertisements for the AI Content
+Detector on its website and through GoogleAds and YouTube videos. Since at least November
+2022 until on or about June 21, 2024, advertisements on Respondent’s website, including but not
+necessarily limited to the attached Exhibit A, contained the following statements:
+A.
+
+Use our AI Detector (now with 98% accuracy) to see if your text is human or AI
+generated from ChatGPT, GPT4, Claude, & Bard. Our AI checker is one of the
+most trusted and goes deeper than a generic AI detector. If your writing is AI
+detected, it may negatively affect how search engines rank content, professors
+grade essays, and even readers’ opinion. (Exhibit A, www.contentatscale.ai,
+(Oct. 3, 2023)).
+
+B.
+
+Our AI checker now achieves higher levels of accuracy (98.3%). (Id.).
+
+C.
+
+Our AI Detector can predict with 98.3% accuracy whether your content is human
+or AI-generated. It checks for traces of AI in written text from sources like
+ChatGPT, Claude, Bard, GPT-4, and more. (Id.).
+
+D.
+
+Trained on blog posts, Wikipedia, essays, and more. This AI Checker looks for
+patterns that indicate AI-written text (such as repetitive words, lack of natural
+flow, and generic tone), forecasts probable word choices, and analyzes sentence
+structure and other characteristics for 98% accuracy. (Id.).
+
+E.
+
+The AI Detector, boasting a 98% accuracy rate, discerns whether your text is
+likely human or AI-generated, including from sources like ChatGPT, GPT4,
+Claude, and Bard. Our AI Checker is one of the most trusted in the industry. Be
+aware: AI-detected writing can influence search engine rankings, academic
+grading, and reader perceptions. The AI Detector, now with a pro version, can
+transform AI text into undetectable AI content! (Exhibit A,
+www.contentatscale.ai, (Apr. 22, 2024)).
+
+10.
+Respondent did not build, train, or fine tune the AI model behind its AI Content Detector.
+The AI model behind Respondent’s AI Content Detector is publicly available on the Internet on
+the website https://huggingface.co/andreas122001/roberta-academic-detector. The developers of
+this publicly available model named it the RoBERTa-academic-detector (“AI Model”). The
+developers of the AI Model were students in Norway who developed it for an undergraduate
+thesis to detect machine-generated academic text and then made it available as an open-source
+AI model.
+11.
+The developers of the AI Model trained it to evaluate content using a large dataset of
+academic text, which consisted of an equal distribution of human-written research abstracts and
+research abstracts generated by the AI program ChatGPT. The developers did not fine tune the
+AI Model using any non-academic content, such as Wikipedia entries or blog posts. The
+3
+
+developers also did not use other AI programs, such as Bard, Claude, or GPT-4, to generate
+content for training and fine tuning the AI Model.
+12.
+The developers tested the AI Model using large datasets. They did not include data from
+the datasets on which the AI Model was trained. Because the AI Model classifies text into one
+of two categories – AI-generated or not – “accuracy” reflects the number of correctly classified
+items compared to the total number of items classified. The developers’ tested the AI Model on
+academic text; non-academic text; and a mixture of the two, and they posted the results publicly
+on the Internet.
+13.
+Respondent promoted the AI Content Detector for primarily detecting AI-generated
+content in marketing and other plain-language text. This text is different from the academic text
+the AI Model was trained to evaluate. Further, although the AI Content Detector was trained on
+only ChatGPT, Respondent promoted the AI Content Detector for content generated by other AI
+technologies, including Bard, Claude, and GPT-4.
+14.
+Respondent did not test the AI Content Detector to account for these different conditions
+of use. Instead, Respondent relied solely on the publicly available testing results for the AI
+Model’s evaluation of academic content, to claim an accuracy rate of 98.3%. However, the
+developers’ best result for the AI Model’s accuracy when evaluating a mix of human-created and
+AI-generated non-academic content was 74.5%. The developers’ testing data also showed that
+the AI Model struggled to identify AI-generated content as AI-generated when evaluating nonacademic content, correctly detecting AI-generated text merely 53.2% of the time.
+15.
+Based on these measurements, the AI Content Detector is far less accurate than 98.3%
+and is likely accurate around half the time in identifying non-academic, AI-generated content.
+Thus, even if a user relied on the AI Content Detector only to evaluate whether their AIgenerated marketing content and copywriting would be detected as AI-generated, the AI Content
+Detector would do barely better than a coin toss.
+Count I
+False or Unsubstantiated Performance Claim
+16.
+In connection with the advertising, promotion, offering for sale, or sale of the AI Content
+Detector, Respondent has represented, directly or indirectly, expressly or by implication, that the
+AI Content Detector will predict with a 98% accuracy rate whether text is human generated or
+AI-generated, including but not limited to, text generated using ChatGPT, GPT4, Claude, Bard,
+and other AI technologies.
+17.
+The representation set forth in Paragraph 16 is false or misleading, or was not
+substantiated at the time the representation was made.
+
+4
+
+Violation of Section 5 of the FTC Act
+18.
+The acts and practices of Respondent as alleged in this complaint constitute unfair or
+deceptive acts or practices, in or affecting commerce in violation of Section 5(a) of the Federal
+Trade Commission Act.
+THEREFORE, the Federal Trade Commission this 21st day of August, 2025, has
+issued this Complaint against Respondent.
+By the Commission.
+
+April J. Tabor
+Secretary
+SEAL:
+
+5
+
+COMPLAINT EXHIBIT A
+A. From www.contentatscale.ai (captured 10-3-23):
+
+Use our Al Detector (now with 98% accuracy) t o see if your text is human or A l generated
+from ChatGPT, GPT4, Claude, & Ba rd. Our A l checker is one of the most trusted and goes
+deeper t han a gene ric Al cont ent detector. If you r writing is Al detected. it may negatively
+affect how search eng ines rank cont ent. professors grade essays, and even read ers' opinion.
+You can th en use our paraphrasing too l to fix it!
+
+B. From www.contentatscale.ai (captured 10-3-23):
+IN W: All n w gradu,g for our Al D tector mo
+cont nt. Our Al chl?cker now achie
+thie s.coring
+t
+
+ed off mor GPT-4, Bird and Cta de
+
+s h"gh@r l Vffi of accurac
+
+98.3%) . W@ hav &imp '
+
+d
+
+g iv ~a an ove all prababilit:y af it bem~ wnl'len by a uman. A s.core of %
+
+eans I is 99% Li
+
+at
+
+was reateci by Al Also new 1s our huma -le'llel p.araphras n
+
+C. From www.contentatscale.ai (captured 10-3-23):
+
+How Does Our Al Detector Work?
+Our Al Detector can predict wit h 98.3% accuracy whether your content is huma n or Al - generat ed. It checks
+for t races of A l in written te>ct: from sources like ChatGPT, Claude, Ba rd, GPT- 4, and more.
+How? By looking for pattern s that an~ consistent wit h most bot-written text, including:
+• Lack of nat ural f low
+• Repet itive wo rding
+• Generic tone
+• Probability in word choices
+• Sentence structu re
+How does it know t he difference between human and Al writing patterns? Our det ector was t rained on a
+vast amount of material -
+
+blog post s, essays, W ikipedia ent ries. articles, and more con t ent across multiple
+
+LLMs (large language models).
+In fact , it's so good, it wi ll even f lag human -written t ext as Al if it sounds robotic. (Let's face it not all of us
+are grea t writers. In t his case. the Al Detector will help you write mo re naturally, with better readability!)
+
+6
+
+D. From www.contentatscale.ai (captured 10-3-23):
+
+98% Accurate Al
+Checker
+Trained on online blogs, w1kipedia,
+essays, and more. Our Al checker
+looks for patterns that i ndicate Al written text (such as repetitive
+words, lack of natural flow, and
+generic tone), forecasts probable
+word choices, and analyzes
+sentence structure and other
+characteristics for 98% accuracy.
+
+E. From www.contentatscale.ai (captured 04-22-24):
+
+T e Al Detector, boast ing a 98% accuracy ate, discerns whet her you r te is
+hum
+or A l-generated, including from sources Like ChatGPT, GPT , Claude,
+and Bard. Ou A l Checker is one o he mos t usted in the indus ry. Be aware:
+A - detected writing c n influe11ce searc engine ra ki gs, academ·c g ading,
+and reader perceptions. he Al Detec or, now with a pro ve sion ca
+ransfor A text in o undet ctable Al content!
+
+7
+
+

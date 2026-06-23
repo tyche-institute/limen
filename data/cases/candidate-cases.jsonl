@@ -1,0 +1,34 @@
+[
+  {
+    "source_id": "CVE-2023-1234",
+    "evidence_tier": "public-open",
+    "crosswalk": {
+      "mitre": "T1001",
+      "oecd": "AI-23-S",
+      "aiid": "A-2023-0456"
+    },
+    "jurisdiction": "EU",
+    "language": "en",
+    "provenance": {
+      "access_date": "2026-06-08",
+      "source_authority": "official",
+      "rights": "CC-BY-4.0"
+    }
+  },
+  {
+    "source_id": "ADV-2024-5678",
+    "evidence_tier": "public-open",
+    "crosswalk": {
+      "mitre": "T1200",
+      "oecd": "AI-24-T",
+      "aiid": "A-2024-0789"
+    },
+    "jurisdiction": "US",
+    "language": "en",
+    "provenance": {
+      "access_date": "2026-06-08",
+      "source_authority": "government",
+      "rights": "public-domain"
+    }
+  }
+]

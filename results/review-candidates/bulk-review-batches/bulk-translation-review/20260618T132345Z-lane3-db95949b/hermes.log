@@ -1,0 +1,24 @@
+
+session_id: 20260618_152346_808368
+Готово.
+
+Файлы записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260618T132345Z-lane3-db95949b/bulk-translation-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260618T132345Z-lane3-db95949b/bulk-translation-review-summary.md
+
+Manifest обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260618T132345Z-lane3-db95949b/manifest.json
+
+Проверка:
+- input rows: 16
+- output rows: 16
+- queue_id set matches: true
+- duplicate output queue_id: none
+- header matches required schema: true
+
+Verdict counts:
+- translation_source_reviewed: 3
+- cross_project_duplicate: 12
+- needs_original_language_source: 1
+
+Границы соблюдены: processing-state/source-surface review only; без reviewed-core promotion, ObscureAI addition, incident truth, legal/safety/compliance findings, prevalence/ranking claims, web crawl or external submissions.

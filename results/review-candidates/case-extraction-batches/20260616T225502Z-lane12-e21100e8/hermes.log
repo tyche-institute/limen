@@ -1,0 +1,24 @@
+
+session_id: 20260617_005505_13a0b0
+Готово.
+
+Созданы/обновлены:
+
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane12-e21100e8/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane12-e21100e8/case-extraction-summary.md
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane12-e21100e8/manifest.json
+
+Проверка пройдена:
+
+- input rows: 16
+- result rows: 16
+- same source_cluster_key set: true
+- duplicate output keys: 0
+- missing keys: 0
+- extra keys: 0
+
+Итоговые verdict counts:
+
+- closed_noncase_source_surface: 16
+
+Публичные URL из source_url_or_locator были проверены точечно; broad crawl/search не выполнялся. Reviewed-core/ObscureAI promotion не делался.

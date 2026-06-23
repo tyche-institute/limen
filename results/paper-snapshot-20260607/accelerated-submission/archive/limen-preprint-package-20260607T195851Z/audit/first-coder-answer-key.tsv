@@ -1,0 +1,16 @@
+public_id	evidence_tier_code	source_family_code	primary_category_code	claim_ceiling_code	first_coder_note
+LIMEN-AUTH-000001	T3_authoritative_source	Regulator and enforcement sources	public_sector_misuse_or_gap	narrow_source_supported_description	Regulator order-text row; no compliance/legal overread.
+LIMEN-AUTH-000002	T3_authoritative_source	Regulator and enforcement sources	education_workplace_or_hr	official_summary_only	EEOC agency summaries captured; court-originating text missing.
+LIMEN-AUTH-000003	T3_authoritative_source	Court and tribunal records	ai_washing_or_false_ai_claim	charging_stage_only	DOJ charging-stage package; no disposition or liability claim.
+LIMEN-SEC-000001	T1_single_public_source	Security research and advisories	security_risk	mechanism_exemplar_only	Low-cap security row; methods/limitations only.
+LIMEN-SEC-000004	T3_authoritative_source	Security research and advisories	security_risk	mechanism_exemplar_only	Mechanism exemplar; distinct CrewAI failure mode.
+LIMEN-AUTH-000004	T3_authoritative_source	Regulator and enforcement sources	public_sector_misuse_or_gap	narrow_source_supported_description	ICO enforcement posture.
+LIMEN-ML-000001	T1_single_public_source	Reputable multilingual media and investigations	deepfake_or_synthetic_identity	translation_dependent_low_cap	Title-gloss/translation-dependent low-cap lead.
+LIMEN-ML-000004	T3_authoritative_source_direct_url_resolved	Public-sector registers and procurement	public_sector_governance	narrow_source_supported_description	Official project page resolved; disclosure posture only.
+LIMEN-AUTH-000006	T3_authoritative_source	Regulator and enforcement sources	ai_washing_or_false_ai_claim	narrow_source_supported_description	SEC settlement/order posture only.
+LIMEN-RI-000001	T3_authoritative_source	Academic and research-integrity sources	research_integrity	notice_bounded_only	Direct publisher notice; outside headline denominator.
+LIMEN-RI-000002	T3_authoritative_source	Academic and research-integrity sources	research_integrity	notice_bounded_only	Direct Springer book notice; no AI causation overread.
+LIMEN-FTC-000001	T3_authoritative_source	Regulator and enforcement sources	ai_washing_or_false_ai_claim	complaint_order_posture_only	FTC complaint/final-order sidecar; no unauthorized-practice conclusion.
+LIMEN-FTC-000002	T3_authoritative_source	Regulator and enforcement sources	ai_washing_or_false_ai_claim	complaint_order_posture_only	FTC detector-governance sidecar; no general detector-validity conclusion.
+LIMEN-PS-000001	T3_authoritative_source	Public-sector registers and procurement	public_sector_governance	governance_anchor_not_harm_case	Official Danish governance anchor, not a harm case.
+LIMEN-FTC-000003	T3_authoritative_source	Regulator and enforcement sources	ai_washing_or_false_ai_claim	appendix_candidate_hold	Complex set-aside posture; hold for chronology.

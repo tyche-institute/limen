@@ -1,0 +1,46 @@
+{
+  "aiid": {
+    "incident_id": 1515,
+    "title_present": true,
+    "taxa_nodes": 7,
+    "class_nodes": 0,
+    "first_namespace": "CSETv1"
+  },
+  "oecd_aim_incidents": {
+    "id": "2026-06-06-be52",
+    "title_present": true,
+    "publisher": "Yahoo News (Taiwan)",
+    "countries_count": 131,
+    "languages_count": 41,
+    "concepts_count": 10977,
+    "property_values_count": 8,
+    "rights_footer_seen": true,
+    "sample_slug_seen": true,
+    "sample_slug_count_in_html": 20
+  },
+  "avid": {
+    "report_id": "AVID-2022-R0001",
+    "metric_name": "HONEST",
+    "vuln_id": "AVID-2022-V001",
+    "mit_license_seen": true
+  },
+  "mit_ai_risk_repo": {
+    "cc_by_seen": true,
+    "google_sheets_seen": true,
+    "onedrive_seen": true,
+    "domain_anchor_1_seen": true
+  },
+  "cset_ai_harm": {
+    "title_seen": true,
+    "creative_commons_seen": false
+  },
+  "mitre_atlas": {
+    "deprecation_banner_seen": true,
+    "version": "5.6.0",
+    "case_study_ids": 57,
+    "technique_ids_top_level": 101,
+    "technique_ids_total": 170,
+    "mitigation_ids": 35,
+    "apache_2_seen": true
+  }
+}

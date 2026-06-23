@@ -1,0 +1,25 @@
+
+session_id: 20260616_143929_e653d4
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123928Z-lane6-99a1cb8c/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123928Z-lane6-99a1cb8c/parent-source-extraction-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123928Z-lane6-99a1cb8c/manifest.json
+
+Проверка пройдена:
+- input rows: 24
+- output rows: 24
+- queue_id set matches input: true
+- duplicate queue_id: none
+- header exact: true
+- all result lines have 9 TSV fields
+- verdicts all in allowed set
+
+Verdict counts:
+- source_url_extracted: 5
+- parent_source_wrapper: 10
+- country_gap_no_parent_source: 7
+- source_surface_only_no_case: 2

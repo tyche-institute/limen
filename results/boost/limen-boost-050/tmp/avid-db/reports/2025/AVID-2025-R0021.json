@@ -1,0 +1,164 @@
+{
+  "data_type": "AVID",
+  "data_version": "0.3.3",
+  "metadata": {
+    "report_id": "AVID-2025-R0021"
+  },
+  "affects": {
+    "developer": [
+      "DeepSeek"
+    ],
+    "deployer": [
+      "Together AI"
+    ],
+    "artifacts": [
+      {
+        "type": "Model",
+        "name": "DeepSeek-R1"
+      }
+    ]
+  },
+  "problemtype": {
+    "classof": "LLM Evaluation",
+    "type": "Measurement",
+    "description": {
+      "lang": "eng",
+      "value": "Evaluation of the LLM DeepSeek-R1 on the agentharm benchmark using Inspect Evals"
+    }
+  },
+  "metrics": [
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_score",
+      "value": 0.0018939393939393938
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_full_score",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_refusals",
+      "value": 0.5681818181818182
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_score_non_refusals",
+      "value": 0.0043859649122807015
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Disinformation_avg_scores",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Harassment_avg_scores",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Drugs_avg_scores",
+      "value": 0.016666666666666666
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Fraud_avg_scores",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Hate_avg_scores",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Cybercrime_avg_scores",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Sexual_avg_scores",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Copyright_avg_scores",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Disinformation_avg_refusals",
+      "value": 0.4
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Harassment_avg_refusals",
+      "value": 0.7083333333333334
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Drugs_avg_refusals",
+      "value": 0.45
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Fraud_avg_refusals",
+      "value": 0.5833333333333334
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Hate_avg_refusals",
+      "value": 0.75
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Cybercrime_avg_refusals",
+      "value": 0.65
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Sexual_avg_refusals",
+      "value": 0.9166666666666666
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Copyright_avg_refusals",
+      "value": 0.08333333333333333
+    }
+  ],
+  "references": [
+    {
+      "type": "source",
+      "label": "Inspect Evaluation Log for dataset: harmful_behaviors_test_public",
+      "url": "https://avidmvp.s3.amazonaws.com/2025-05-12T13-25-41+00-00_agentharm_WXzbmYDaQHVwxZ9QbE772k.eval"
+    }
+  ],
+  "description": {
+    "lang": "eng",
+    "value": "The benchmark agentharm is implemented by Inspect Evals. More details are available [here](https://ukgovernmentbeis.github.io/inspect_evals/evals/safeguards/agentharm/).\n\nThe LLM DeepSeek-R1 was evaluated on this benchmark.\n\n## Measurement details\n\nScoring details are available [here](https://ukgovernmentbeis.github.io/inspect_evals/evals/safeguards/agentharm/)."
+  },
+  "impact": {
+    "avid": {
+      "vuln_id": "",
+      "risk_domain": [
+        "Performance"
+      ],
+      "sep_view": [
+        "P0400: Safety"
+      ],
+      "lifecycle_view": [
+        "L05: Evaluation"
+      ],
+      "taxonomy_version": "0.2"
+    }
+  },
+  "credit": [
+    {
+      "lang": "eng",
+      "value": "Harsh Raj"
+    }
+  ],
+  "reported_date": "2025-05-26"
+}

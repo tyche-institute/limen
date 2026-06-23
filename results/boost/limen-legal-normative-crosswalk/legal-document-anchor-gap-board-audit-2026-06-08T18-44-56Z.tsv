@@ -1,0 +1,16 @@
+category_code	state	direct_document_anchor_rows	summary_only_rows	no_document_rows	source_refs
+unlawful_or_allegedly_unlawful_use	mixed_direct_document_and_gap_state	2	1	1	SRC-AUTH-0011; SRC-AUTH-0016; SRC-AUTH-0017
+security_risk	mixed_direct_document_and_gap_state	3	1	0	SRC-AUTH-0001; SRC-AUTH-0003; SRC-AUTH-0006; SRC-AUTH-0008; SRC-AUTH-0024; SRC-AUTH-0032; SRC-AUTH-0034; SRC-AUTH-0035; SRC-AUTH-0036
+agentic_control_failure	mixed_direct_document_and_gap_state	3	1	0	SRC-AUTH-0001; SRC-AUTH-0003; SRC-AUTH-0006; SRC-AUTH-0008; SRC-AUTH-0024; SRC-AUTH-0032; SRC-AUTH-0034; SRC-AUTH-0035; SRC-AUTH-0036
+institutional_absurdity	no_direct_document_anchor_visible	0	0	1	none
+public_sector_misuse_or_gap	all_sampled_rows_have_direct_document_anchors	4	0	0	SRC-AUTH-0003; SRC-AUTH-0006; SRC-AUTH-0008; SRC-AUTH-0004; SRC-AUTH-0007; SRC-AUTH-0009; SRC-AUTH-0016; SRC-AUTH-0017; SRC-AUTH-0024; SRC-AUTH-0032; SRC-AUTH-0034; SRC-AUTH-0035; SRC-AUTH-0036
+deepfake_or_synthetic_identity	mixed_direct_document_and_gap_state	1	0	1	SRC-AUTH-0016; SRC-AUTH-0017
+legal_procedural_contamination	mixed_direct_document_and_gap_state	2	0	1	SRC-AUTH-0001; SRC-AUTH-0020; SRC-AUTH-0021
+education_workplace_or_hr	mixed_direct_document_and_gap_state	3	1	0	SRC-AUTH-0003; SRC-AUTH-0006; SRC-AUTH-0008; SRC-AUTH-0022; SRC-AUTH-0023; SRC-AUTH-0024; SRC-AUTH-0032; SRC-AUTH-0034; SRC-AUTH-0035; SRC-AUTH-0036
+finance_insurance_or_market	all_sampled_rows_have_direct_document_anchors	2	0	0	SRC-AUTH-0013; SRC-AUTH-0015
+surveillance_biometrics_or_policing	all_sampled_rows_have_direct_document_anchors	2	0	0	SRC-AUTH-0003; SRC-AUTH-0006; SRC-AUTH-0008; SRC-AUTH-0004; SRC-AUTH-0007; SRC-AUTH-0009
+health_medical_or_mental_health	no_direct_document_anchor_visible	0	0	0	none
+research_integrity	no_direct_document_anchor_visible	0	0	0	none
+ai_washing_or_false_ai_claim	no_direct_document_anchor_visible	0	0	0	none
+normative_or_moral_outlier	no_direct_document_anchor_visible	0	0	0	none
+residual_unclassified	no_direct_document_anchor_visible	0	0	0	none

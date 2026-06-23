@@ -1,0 +1,3 @@
+scope_id	scope_label	review_rows	governed_records	unique_lineages_after_stable_collapse	residual_unclassified_lineages	count_bearing_for_core_figure2_taxonomy	notes
+core_seeded_duplicate_taxonomy_scope	Core seeded duplicate/taxonomy scope excluding research-integrity frontier extension	34	37	27	0	yes	This remains the count-bearing atlas denominator used by the current duplicate/taxonomy headline package.
+extended_reviewed_local_surface	Extended reviewed local surface including explicit residual frontier singleton LIMEN-008-LEAD-007	35	38	28	1	no	The added row preserves the residual signal in the duplicate ledger but stays outside the current seeded Figure 2 / category denominator until stronger direct authority or overlap evidence exists.

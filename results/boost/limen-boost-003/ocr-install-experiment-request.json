@@ -1,0 +1,71 @@
+{
+  "request_id": "limen-boost-003-ocr-toolchain-2026-06-07T04:13:03Z",
+  "created_at": "2026-06-07T04:13:03Z",
+  "lane_id": "limen-boost-003",
+  "project_id": "limen-ai-edge-case-atlas",
+  "project_root": "/srv/tyche/projects/limen-ai-edge-case-atlas",
+  "phase": "boost",
+  "theme": "regulator, court, enforcement, and company-notice leads",
+  "goal": "Promote auth:LIMEN-000005 from document-presence support to exact caption/case-number normalization using only the already captured public DOJ indictment PDF and bounded local OCR.",
+  "priority_case": {
+    "case_id": "LIMEN-000005",
+    "provisional_case_key": "auth:LIMEN-000005",
+    "source_id": "SRC-AUTH-0011",
+    "document_path": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-009/tmp/u.s._v._saniger_indictment.pdf",
+    "document_facts_verified": {
+      "pages": 9,
+      "page_size": "612.48 x 792 pts (letter)",
+      "file_size_bytes": 191646,
+      "first_page_raster_px": "1276x1650",
+      "current_text_state": "captured_official_pdf_present_but_no_usable_local_text_layer"
+    },
+    "host_preflight": {
+      "disk_free": "1.5T",
+      "pdfinfo": true,
+      "pdftoppm": true,
+      "python_pil": true,
+      "pymupdf": false,
+      "marker_pdf": false,
+      "tesseract": false,
+      "ocrmypdf": false
+    },
+    "preferred_route": {
+      "toolchain": "marker-pdf or equivalent bounded OCR stack in an isolated environment",
+      "reason": "Host has ample free disk and can rasterize the PDF, but no ready OCR binary or OCR Python stack is installed.",
+      "network_need": "package/model installation may require network once; OCR itself should run on the already captured local PDF"
+    },
+    "inputs": [
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-009/tmp/u.s._v._saniger_indictment.pdf",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/ocr-readiness-matrix-v0.1.tsv",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/document-normalization-matrix-v0.1.tsv",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/sources/authoritative-source-ledger.tsv",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-003/ocr-toolchain-preflight.tsv"
+    ],
+    "expected_outputs": [
+      "exact caption string from the document body if legible",
+      "exact case number from the document body if legible",
+      "OCR confidence or legibility note",
+      "patch-ready field updates for authoritative ledgers and court-family matrices",
+      "explicit failure note if OCR remains too low-confidence to promote fields"
+    ],
+    "safe_resource_limits": {
+      "cpu": "bounded single-document OCR only",
+      "ram": "<= 6 GB",
+      "wall_clock": "<= 20 minutes",
+      "disk_new_writes": "<= 6 GB",
+      "network": "package/model setup only if needed; no new evidence crawling"
+    }
+  },
+  "paper_thesis_use": [
+    "Methods appendix note distinguishing access barriers from toolchain barriers inside U.S. court/public-record work.",
+    "Dashboard facet for host OCR readiness versus source availability.",
+    "Thesis reproducibility note showing when exact court-anchor normalization is blocked by local tooling rather than by public-source absence."
+  ],
+  "success_condition": "At least one exact caption or case-number field becomes legible enough to patch shared ledgers, or OCR failure is reproduced with confidence metadata strong enough to keep the blocker class explicit.",
+  "boundary_notes": [
+    "Public/open information only.",
+    "Use only the already captured local DOJ PDF for OCR; no PACER login, fees, sealed records, or private attachments.",
+    "Do not promote charging-stage allegations into adjudicated facts.",
+    "If OCR output is ambiguous, retain the current blocker instead of guessing fields."
+  ]
+}

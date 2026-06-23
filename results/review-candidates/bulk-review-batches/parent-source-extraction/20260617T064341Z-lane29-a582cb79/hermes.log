@@ -1,0 +1,23 @@
+
+session_id: 20260617_084344_958bc3
+Completed bounded LIMEN parent-source-extraction batch.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064341Z-lane29-a582cb79/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064341Z-lane29-a582cb79/parent-source-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064341Z-lane29-a582cb79/manifest.json
+
+Result:
+- Input rows: 24
+- Output rows: 24
+- country_gap_no_parent_source: 24
+- extracted URLs: 0
+
+Verification passed:
+- Result TSV header matches required header.
+- Output queue_id set exactly matches input queue_id set.
+- No missing, extra, or duplicate queue_id values.
+- Allowed verdicts only.
+- No embedded tab/newline field violations detected.

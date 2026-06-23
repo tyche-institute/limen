@@ -1,0 +1,42 @@
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/bulk-translation-review/20260617T073304Z-lane1-15598271/bulk-translation-review-results.tsv → b/results/review-candidates/bulk-review-batches/bulk-translation-review/20260617T073304Z-lane1-15598271/bulk-translation-review-results.tsv
+@@ -0,0 +1,8 @@
++queue_id	signal_id	bulk_translation_verdict	language_reviewed	source_url_or_locator	source_name	reason	claim_ceiling	next_action
++BTR-00762	LIMEN-SIGNAL-A1B7A2C0D7C28602	candidate_for_parent_source_extraction	Chinese source URLs represented in local English metadata	https://help.aliyun.com/zh/product/3034770.html; https://help.aliyun.com/zh/product/2987146.html	Alibaba Cloud AgentTeams and Enterprise Agent Application Platform	Local record gives Chinese official Alibaba Cloud product locators and English extracted surface, but no local original-language source text was present for wording-level review.	Source-surface locator and extraction-candidate only; no deployment, legality, compliance, safety, prevalence, or ranking claim.	Extract/archive the Chinese product pages locally, then perform original-language source-surface review.
++BTR-00763	LIMEN-SIGNAL-B6CF930B3534B7AC	translation_source_reviewed	English	https://www.gov.uk/algorithmic-transparency-records/cabinet-office-assist	Cabinet Office Assist	Local Gaia record points to a UK official Algorithmic Transparency Record and contains an English public-sector copilot source surface; no translation-dependent factual upgrade needed.	Official source-surface/context only; no incident truth, legal finding, compliance finding, safety finding, prevalence, or ranking claim.	Keep as source-surface reviewed metadata; parent extraction may cite only the official record surface.
++BTR-00764	LIMEN-SIGNAL-BB46564FCE7DE1AD	translation_source_reviewed	English	https://kore.ai/agent-platform/	Kore.ai Artemis Agent Platform	Local record names an English vendor platform page and concrete public claims about evaluation, tracing, auditing, and observability; review remains vendor surface only.	Vendor source-surface/context only; no proof of audit adequacy, deployment, legality, compliance, safety, prevalence, or ranking claim.	Keep as source-surface reviewed metadata; do not promote beyond vendor-claim extraction without stronger local evidence.
++BTR-00765	LIMEN-SIGNAL-CB7F904FB64D5182	translation_source_reviewed	English sources about Indian-language service surface	https://news.microsoft.com/source/asia/features/with-help-from-next-generation-ai-indian-villagers-gain-easier-access-to-government-services/; https://www.thoughtworks.com/en-in/clients/jugalbandi	Jugalbandi government-services chatbot	Local two-source record uses English Microsoft and Thoughtworks pages describing multilingual public-service access; translation-sensitive content is present but not an original-language legal or policy claim.	Source-surface/context only; no adoption truth beyond cited pages, no legal/compliance/safety/prevalence/ranking claim.	Keep as reviewed source-surface; any case promotion requires source-specific extraction and separate evidence review.
++BTR-00766	LIMEN-SIGNAL-D2A976ECCE8F56A9	source_surface_only_no_case	English registry row; Dutch register context	https://algoritmes.overheid.nl/en/algoritme/42584878	Automatic translation of arnhem.nl with DeepL Pro	Local CSV row is an official Dutch Algorithm Register accession with In use status for an automatic translation tool; it is a concrete registry surface but not an edge-case claim by itself.	Registry source-surface only; no legality, compliance, safety, deployment-quality, prevalence, or ranking claim.	Use only as contextual registry evidence unless a parent source extraction needs this specific accession.
++BTR-00767	LIMEN-SIGNAL-ED11C1602867135D	cross_project_duplicate	English registry row; Dutch register context	https://algoritmes.overheid.nl/en/algoritme/42584878	Automatic translation of arnhem.nl with DeepL Pro	Duplicate packaged-copy row for the same Dutch Algorithm Register accession already reviewed in BTR-00766.	Duplicate source-surface only; no additional factual, legal, compliance, safety, deployment, prevalence, or ranking claim.	Deduplicate against BTR-00766 and avoid counting this packaged copy as independent evidence.
++BTR-00768	LIMEN-SIGNAL-F688FA7541287543	source_surface_only_no_case	English summary with Spanish-language source titles/locators	/srv/tyche/pallas/pallas-ai-agent-observatory/program/01-pallas-atlas/app/data/pallas_atlas_countries.json:17162	El Salvador Pallas country summary	Local Pallas object is a first-pass country evidence-readiness summary with Spanish official-source locators; it is governance context, not a concrete AI edge-case source.	Country evidence-readiness context only; no legal-status, compliance, safety, incident, prevalence, ranking, or case-level promotion claim.	Keep as context; review underlying Spanish official sources separately before any policy or legal synthesis.
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/bulk-translation-review/20260617T073304Z-lane1-15598271/bulk-translation-review-summary.md → b/results/review-candidates/bulk-review-batches/bulk-translation-review/20260617T073304Z-lane1-15598271/bulk-translation-review-summary.md
+@@ -0,0 +1,26 @@
++# Bulk translation review summary
++
++Batch: `20260617T073304Z-lane1-15598271`
++
++Completed bounded processing-state review for all 7 non-empty input rows using local metadata and local source files only. No web crawl, submission, publication, upload, email, registration, payment, or portal-form use was performed.
++
++## Verdict counts
++
++- `translation_source_reviewed`: 3
++- `candidate_for_parent_source_extraction`: 1
++- `source_surface_only_no_case`: 2
++- `cross_project_duplicate`: 1
++- `needs_original_language_source`: 0
++- `machine_translation_hold`: 0
++- `reject_noise`: 0
++
++## Notes
++
++- BTR-00762 has Chinese Alibaba Cloud official source locators but no local original-language source text; it is suitable for parent source extraction before wording-level review.
++- BTR-00763 through BTR-00765 were reviewed as English source-surface metadata only; no case-level, legal, safety, compliance, prevalence, or ranking claim was made.
++- BTR-00766 is a Dutch Algorithm Register accession surface only; BTR-00767 is the duplicate packaged-copy surface for the same accession.
++- BTR-00768 is a Pallas country evidence-readiness context row for El Salvador and should not be treated as a concrete AI edge-case case without separate underlying-source review.
++
++## Verification
++
++Result TSV was generated with the required header and one output row per input `queue_id`. Queue-id set and row count parity were verified before manifest completion.
+
+session_id: 20260617_093306_2389eb

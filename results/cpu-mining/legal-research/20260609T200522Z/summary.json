@@ -1,0 +1,36 @@
+{
+  "by_query": {
+    "AI evidence": 4078,
+    "court AI": 288,
+    "fabricated reference": 273,
+    "fake citation": 245,
+    "hallucinated citation": 285,
+    "paper mill": 328,
+    "procedural contamination": 380,
+    "research integrity": 376,
+    "retraction": 2610
+  },
+  "by_root": {
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory": 2270,
+    "/srv/tyche/gaia/tyche-research-vault": 2782,
+    "/srv/tyche/pallas/pallas-ai-agent-observatory": 573,
+    "/srv/tyche/projects/limen-ai-edge-case-atlas": 2600,
+    "/srv/tyche/projects/public-ai-procurement-gap": 461,
+    "/srv/tyche/projects/public-ai-registry": 177
+  },
+  "failures": [],
+  "match_count": 8863,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/legal-research/20260609T200522Z/matches.tsv",
+  "query_count": 9,
+  "roots": [
+    "/srv/tyche/gaia/tyche-research-vault",
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory",
+    "/srv/tyche/pallas/pallas-ai-agent-observatory",
+    "/srv/tyche/projects/public-ai-registry",
+    "/srv/tyche/projects/public-ai-procurement-gap",
+    "/srv/tyche/projects/limen-ai-edge-case-atlas"
+  ],
+  "run_id": "20260609T200522Z",
+  "shard": "legal-research",
+  "timestamp_utc": "2026-06-09T20:05:24Z"
+}

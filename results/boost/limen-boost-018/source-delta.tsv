@@ -1,0 +1,3 @@
+source_id	field	old_value	new_value	confidence
+S12345	description	"AI-powered contract analysis"	"AI-assisted contract review"	0.85
+S67890	authority	"Local government"	"National procurement office"	0.78

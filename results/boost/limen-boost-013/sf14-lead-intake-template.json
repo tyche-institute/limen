@@ -1,0 +1,33 @@
+{
+  "template_version": "2026-06-07",
+  "lane_id": "limen-boost-013",
+  "family_id": "sf14",
+  "source_family": "Social and web lead sources",
+  "current_family_state": "planned_frontier_not_seeded",
+  "template_use": "Empty public lead intake template only; not evidence intake and not seeded coverage.",
+  "promotion_gate_now": "Promote only after one public corroborating source in sf07/sf08/sf09/sf10/sf11/sf12/or sf13 is captured and the lead survives duplicate and claim-ceiling review.",
+  "record_template": {
+    "candidate_local_id": "",
+    "discovery_surface_type": "",
+    "public_url_or_local_path": "",
+    "retrieval_date_utc": "",
+    "language": "",
+    "jurisdiction": "",
+    "actor_type": "",
+    "edge_case_theme": "",
+    "claim_stub": "",
+    "corroboration_target_family": "",
+    "translation_status": "",
+    "private_or_sensitive_risk": "reject_if_private_or_sensitive",
+    "terms_or_rights_note": "",
+    "notes": ""
+  },
+  "hard_exclusions": [
+    "private messages",
+    "credentials",
+    "closed-group content",
+    "doxxing or harassment material",
+    "anonymous screenshot-only claims without a source path",
+    "rows with no plausible public corroboration route"
+  ]
+}

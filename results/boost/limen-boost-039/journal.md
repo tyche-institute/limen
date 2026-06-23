@@ -1,0 +1,15 @@
+## 2026-06-08T10:36:48+02:00
+- Re-checked root/project STOP absence, the hostile-reviewer sprint, the LIMEN goal card, and the live non-U.S./non-UK authoritative frontier before doing new work.
+- Chose official internal-search / same-host route auditing over another generic memo because the next reviewer-visible question was whether France, Slovenia, or Denmark now expose a stronger official companion on their own sites.
+- Created `results/boost/limen-boost-039/official-surface-threshold-route-audit.tsv` and wrote lane `status.md` / `journal.md`.
+- Paper-readiness delta: LIMEN now has one machine-readable negative-result artifact showing that fresh official-route checks on CNIL, Policija, and Datatilsynet still do not surface a threshold-changing non-U.S./non-UK document chain.
+- Claims verified, rewritten, or dropped: verified unchanged France warning-page ceiling, unchanged Slovenia project-page ceiling, and unchanged Denmark governance-page ceiling; avoided any claim that official-search failure proves ecosystem-wide absence.
+- Remaining blocker: the next substantive shard-039 gain still requires one genuinely different official document route rather than another same-shape discoverability pass.
+
+## 2026-06-08T11:34:17+02:00
+- Re-checked root/project STOP absence, the hostile-reviewer sprint, the LIMEN goal card, and the canonical Figure 8 / Table 1A denominator surfaces before doing new work.
+- Chose denominator-currentness repair over another source route because the strongest reviewer-visible shard-039 defect had shifted from frontier discovery to stale helper language: several lane-local files still replayed retired `9-row` Figure 8 or even `10-row` Table 1A wording after the live package had moved to `11-row core / 8-row facet`.
+- Created `results/boost/limen-boost-039/authoritative-denominator-currentness-audit.tsv`; patched `paper-fragment.md`, `hostile-reviewer-response-kit.tsv`, `hostile-reviewer-objections.tsv`, `table1a-manuscript-integration-bridge.tsv`, `table1a-control-travel-kit.tsv`, and `non-us-uk-authority-threshold-impact-matrix.tsv`; and refreshed lane `status.md`.
+- Paper-readiness delta: shard-039 now hands off one synchronized denominator contract to manuscript, dashboard, reviewer-response, and thesis consumers, reducing the risk that later prose silently revives pre-FTC authoritative counts or overstates Table 1A breadth.
+- Claims verified, rewritten, or dropped: verified live `11-row` Figure 8 geography split and live `8-row` Table 1A facet split; rewrote stale lane-local denominator language; and avoided any claim that this cycle changed evidence tier or solved the underlying non-U.S./non-UK authority-depth blocker.
+- Remaining blocker: substantive shard-039 progress still requires one genuinely public non-U.S./non-UK document-grade or court-facing authority chain rather than another packaging memo unless later denominator drift reappears.

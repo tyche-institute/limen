@@ -1,0 +1,22 @@
+as_of_utc	check_id	subject	expected	observed	status	note
+2026-06-07T20:58:35Z	source_row_count_authoritative	authoritative candidates	12	14	fail	Matches taxonomy-delta empirical base.
+2026-06-07T20:58:35Z	source_row_count_security	security candidates	10	10	pass	Matches taxonomy-delta empirical base.
+2026-06-07T20:58:35Z	source_row_count_multilingual	multilingual candidates	6	6	pass	Matches taxonomy-delta empirical base.
+2026-06-07T20:58:35Z	source_row_count_boost005	boost-005 derivative queue	5	5	pass	Matches taxonomy-delta empirical base.
+2026-06-07T20:58:35Z	source_row_count_boost009	boost-009 shard-local SEC rows	2	2	pass	Matches taxonomy-delta empirical base.
+2026-06-07T20:58:35Z	duplicate_row_count	duplicate cluster review rows	35	35	pass	Header-excluded rows in duplicate-clusters-v0.1.tsv.
+2026-06-07T20:58:35Z	state_count_identifier_collision	identifier_collision_blocker rows	10	10	pass	Matches status.md summary.
+2026-06-07T20:58:35Z	state_count_stable_duplicate	stable_duplicate_cluster rows	9	9	pass	Matches status.md summary.
+2026-06-07T20:58:35Z	state_count_reviewed_not_duplicate	reviewed_not_duplicate rows	8	8	pass	Matches status.md summary.
+2026-06-07T20:58:35Z	state_count_singleton	no_cluster_review_row rows	8	8	pass	Matches status.md summary.
+2026-06-07T20:58:35Z	governed_records_extended	extended governed record refs	38	38	pass	Unique member_case_ids across all review rows.
+2026-06-07T20:58:35Z	governed_records_core	core governed record refs	37	37	pass	Excludes explicit residual frontier singleton row REVIEW-SINGLETON-LIMEN-008-LEAD-007.
+2026-06-07T20:58:35Z	coverage_row_count	duplicate-ledger coverage audit rows	38	38	pass	Coverage audit should enumerate every governed record in the extended surface.
+2026-06-07T20:58:35Z	recon_row_count	multistate denominator reconciliation rows	38	38	pass	Reconciliation table should enumerate every governed record in the extended surface.
+2026-06-07T20:58:35Z	status_core_denominator_literal	status.md core denominator literal	present	True	pass	Core denominator prose must stay synchronized.
+2026-06-07T20:58:35Z	status_extended_denominator_literal	status.md extended denominator literal	present	True	pass	Extended denominator prose must stay synchronized.
+2026-06-07T20:58:35Z	taxonomy_core_denominator_literal	taxonomy-delta core denominator literal	present	True	pass	Core denominator prose must stay synchronized.
+2026-06-07T20:58:35Z	taxonomy_extended_denominator_literal	taxonomy-delta extended denominator literal	present	True	pass	Extended denominator prose must stay synchronized.
+2026-06-07T20:58:35Z	control_matrix_research_integrity_extended	extended control matrix research_integrity row	1	1	pass	Confirms non-seeded but locally non-empty research-integrity shadow package remains visible.
+2026-06-07T20:58:35Z	control_matrix_residual_extended	extended control matrix residual_unclassified row	1	1	pass	Confirms explicit residual frontier singleton remains machine-readable.
+2026-06-07T20:58:35Z	control_matrix_research_integrity_core_absent	core control matrix research_integrity row	absent	absent	pass	Research-integrity remains zero-seed in the core denominator.

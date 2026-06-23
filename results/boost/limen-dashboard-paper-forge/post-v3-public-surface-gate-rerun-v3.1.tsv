@@ -1,0 +1,4 @@
+gate_id	gate_name	result	checked_at_utc	external_actions_performed	claim_ceiling	remaining_blocker	source_path
+V31-GATE-001	manifest_json_parse	PASS	2026-06-19T15:22:01Z	0	package-integrity/dashboard-paper parity only	rerun after any manifest/package edit	manifest.json
+V31-GATE-002	limen_pre_submit_check	PASS_9_OF_9_0_FAIL_0_WARN	2026-06-19T15:22:01Z	0	package-integrity/dashboard-paper parity and release-boundary wording discipline only	Anton controls F1000Research/Zenodo external actions	tools/limen_pre_submit_check.py
+V31-GATE-003	caption_currentness_pytest	PASS_2_PASSED	2026-06-19T15:22:01Z	0	executable caption-currentness discipline only	rerun after caption/dashboard/API/static/figure/PDF edits	tests/test_limen_caption_currentness_gate.py

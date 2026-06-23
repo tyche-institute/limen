@@ -1,0 +1,3 @@
+queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason
+BPSE-03656	duplicate_existing_core		draft/preprint.md	source_surface_only_no_case: Internal corpus aggregate citation without explicit public source URL in metadata or context
+BPSE-03657	duplicate_existing_core		draft/preprint.md	source_surface_only_no_case: Internal corpus aggregate citation without explicit public source URL in metadata or context

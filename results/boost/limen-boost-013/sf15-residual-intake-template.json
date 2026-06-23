@@ -1,0 +1,31 @@
+{
+  "template_version": "2026-06-07",
+  "lane_id": "limen-boost-013",
+  "family_id": "sf15",
+  "source_family": "Creative/absurd and normative outlier sources",
+  "current_family_state": "planned_frontier_not_seeded",
+  "template_use": "Empty residual/frontier intake template only; not seeded evidence and not a novelty-harvesting license.",
+  "promotion_gate_now": "Promote only when the row improves taxonomy/reviewer legibility and has either a stronger public corroboration route or a clearly bounded methods-only residual role below headline counting.",
+  "record_template": {
+    "candidate_local_id": "",
+    "public_url_or_local_path": "",
+    "retrieval_date_utc": "",
+    "language": "",
+    "jurisdiction": "",
+    "outlier_type": "",
+    "suspected_taxonomy_pressure": "",
+    "exclusion_reason_if_satire_only": "",
+    "authority_floor": "",
+    "corroboration_target_family": "",
+    "dignity_risk": "",
+    "translation_status": "",
+    "claim_stub": "",
+    "notes": ""
+  },
+  "hard_exclusions": [
+    "humiliation-first or sensational rows",
+    "satire without governance relevance",
+    "content with doxxing or intimate-abuse exposure",
+    "anomalies that do not stress taxonomy, authority, or governance interpretation"
+  ]
+}

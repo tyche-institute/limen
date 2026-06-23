@@ -1,0 +1,21 @@
+
+session_id: 20260616_131950_a6058e
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111949Z-lane5-70b73cd1/translation-source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111949Z-lane5-70b73cd1/translation-source-review-summary.md
+
+Manifest обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/translation-source-review/20260616T111949Z-lane5-70b73cd1/manifest.json
+
+Проверка пройдена:
+- input rows: 32
+- output rows: 32
+- unique output row_id: 32
+- row_id set match: true
+- duplicate row_id: none
+- verdict counts:
+  - cross_project_duplicate: 32
+
+Все строки были обработаны ровно один раз, без broad web crawl и без публичных/портальных действий.

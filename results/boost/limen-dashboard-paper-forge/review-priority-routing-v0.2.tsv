@@ -1,0 +1,4 @@
+review_priority	count	share	sample_source_ids	paper_safe_caption
+P3_context_or_methods_queue	56	0.54902	LIMEN-S-001;LIMEN-S-002;LIMEN-S-014;LIMEN-S-020;LIMEN-S-022	Review priority is a routing label for hardening, not truth, legality, compliance, deployment, safety, or prevalence.
+P1_authoritative_anchor_review	38	0.372549	LIMEN-S-003;LIMEN-S-004;LIMEN-S-006;LIMEN-S-008;LIMEN-S-011	Review priority is a routing label for hardening, not truth, legality, compliance, deployment, safety, or prevalence.
+P2_bridge_or_authority_context_review	8	0.078431	LIMEN-S-005;LIMEN-S-007;LIMEN-S-009;LIMEN-S-010;LIMEN-S-019	Review priority is a routing label for hardening, not truth, legality, compliance, deployment, safety, or prevalence.

@@ -1,0 +1,46 @@
+﻿
+
+Media Contact: 
+MediaRelations@fcc.gov
+
+For Immediate Release
+
+FCC SETTLES CASE AGAINST PROVIDER THAT TRANSMITTED SPOOFED AI-GENERATED ROBOCALLS FOR ELECTION INTERFERENCE IN NEW HAMPSHIRE
+Lingo Telecom to Pay $1 Million Civil Penalty and Implement First-of-Their-Kind Compliance Terms Secured by the FCC
+  -- 
+WASHINGTON, August 21, 2024—The Federal Communications Commission today announced a settlement to resolve its enforcement action against Lingo Telecom, a voice service provider that transmitted spoofed robocalls that used generative AI voice cloning technology to spread disinformation in connection with a presidential primary election in New Hampshire.  The calls were directed by a political consultant named Steve Kramer in an attempt to interfere in the 2024 New Hampshire primary election.  
+
+The company will pay a $1 million civil penalty and implement a historic compliance plan—the first of its kind secured by the FCC—that will require strict adherence to the FCC’s STIR/SHAKEN caller ID authentication rules, including requirements that the company abide by “Know Your Customer” (KYC) and “Know Your Upstream Provider” (KYUP) principles—which allows carriers to vet traffic and ensure it is trustworthy—and requirements that the company more thoroughly verify the accuracy of the information provided by its customers and upstream providers.  
+
+“Every one of us deserves to know that the voice on the line is exactly who they claim to be,” said FCC Chairwoman Jessica Rosenworcel.  “If AI is being used, that should be made clear to any consumer, citizen, and voter who encounters it.  The FCC will act when trust in our communications networks is on the line.”
+
+“Whether at the hands of domestic operatives seeking political advantage or sophisticated foreign adversaries conducting malign influence or election interference activities, the potential combination of the misuse of generative AI voice-cloning technology and caller ID spoofing over the U.S. communications network presents a significant threat,” said Enforcement Bureau Chief Loyaan A. Egal.  “This settlement sends a strong message that communications service providers are the first line of defense against these threats and will be held accountable to ensure they do their part to protect the American public.”   
+
+The Commission also issued a separate enforcement action in May against Mr. Kramer for initiating the robocalls using caller ID spoofing to facilitate the misuse of the deepfake, AI-generated voice cloning technology.    
+
+Mr. Kramer was indicted in New Hampshire on state charges of felony voter suppression and misdemeanor impersonation of a candidate.  The New Hampshire Department of Justice, Office of the Attorney General is handling that case.
+
+In addition to the $1 million civil penalty, Lingo Telecom agrees to, among others, the following KYC and KYUP terms:
+· Applying an A-level attestation, which is the highest level of trust attributed to a phone number, only to a call where Lingo Telecom itself has provided the caller ID number to the party making the call; 
+· Verifying the identity and line of business of each customer and upstream provider by obtaining independent corroborating records; and
+· Transmitting traffic only from upstream providers that have robust robocall mitigation mechanisms in place and are responsive to traceback requests.
+
+Two days before the New Hampshire 2024 presidential primary election, spoofed robocalls carried a deepfake audio recording of President Biden’s cloned voice telling prospective voters not to vote in the upcoming primary.  Mr. Kramer, a political consultant, directed the calls, which were transmitted through Lingo Telecom.  
+
+“Voter intimidation, whether carried out in person or by way of deepfake robocalls, online disinformation campaigns, or other AI-fueled tactics, can stand as a real barrier for voters seeking to exercise their voice in our democracy,” said Assistant Attorney General Kristen Clarke of the Justice Department’s Civil Rights Division. “Every voter has the fundamental right to cast their ballot free from unlawful intimidation, coercion and disinformation schemes.”
+
+In July, the U.S. Justice Department filed a statement of interest in the U.S. District Court for the District of New Hampshire supporting the right of private plaintiffs in League of Women Voters of New Hampshire v. Kramer to bring a lawsuit challenging robocalls as intimidating, threatening or coercive in violation of Section 11(b) of the Voting Rights Act.
+
+“This settlement is a major victory for the integrity of elections, especially for New Hampshire and its voters who were targeted.  By holding Lingo Telecom accountable for its role in transmitting the spoofed robocalls carrying AI-generated messages, the FCC is sending a strong message that election interference and deceptive technology will not be tolerated.  For New Hampshire voters who faced these misleading calls, this action is crucial in restoring trust and confidence in the electoral process.  The $1 million civil penalty and new compliance measures mark a decisive step, essential for safeguarding democracy and reinforcing the trust of New Hampshire voters and the broader public in our elections,” said New Hampshire Attorney General John M. Formella.
+
+In February, the FCC’s Enforcement Bureau, in coordination with the New Hampshire Office of the Attorney General, ordered Lingo to cease-and-desist from carrying the suspicious traffic.  This was not the first time the FCC’s efforts to stop active campaigns have had an important impact, including FCC actions that resulted in a 99% drop in auto warranty scam robocalls, an 88% month-to-month drop in student loan scam robocalls, and the end to a predatory mortgage robocall campaign targeting homeowners nationwide.
+
+This settlement is the latest in a series of actions taken by the Commission to protect consumers from AI-generated scams that mislead consumers and misinform the public, empowering consumers to make informed decisions.  The Commission proposed new transparency standards that would require disclosure when AI technology is used in political ads on radio and television.  The Commission recently adopted a Declaratory Ruling, which made clear that voice cloning technology used in common robocall scams targeting consumers is illegal absent the prior express consent of the called party or an exemption.  The enforcement action against Mr. Kramer for the above-referenced election interference robocalls remains pending.  He faces a proposed $6 million fine.
+
+The settlement, formally known as a Consent Decree, is available here: https://www.fcc.gov/document/fcc-eb-settles-lingo-transmitting-illegal-robocalls.  This action resolves the proposed fine, formally called a Notice of Apparent Liability for Forfeiture, that the Commission approved in May.
+
+###
+
+Media Relations: (202) 418-0500 / ASL: (844) 432-2275 / www.fcc.gov 
+
+This is an unofficial announcement of Commission action.  Release of the full text of a Commission order constitutes official action.  See MCI v. FCC, 515 F.2d 385 (D.C. Cir. 1974).

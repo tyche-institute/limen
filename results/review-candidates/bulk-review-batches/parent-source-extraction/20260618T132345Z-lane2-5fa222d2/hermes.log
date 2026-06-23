@@ -1,0 +1,25 @@
+
+session_id: 20260618_152346_ac8e7c
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260618T132345Z-lane2-5fa222d2/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260618T132345Z-lane2-5fa222d2/parent-source-extraction-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260618T132345Z-lane2-5fa222d2/manifest.json
+
+Проверка пройдена:
+- input rows: 6
+- output rows: 6
+- header exact: true
+- queue_id set matches input: true
+- duplicate queue_id: none
+- allowed verdicts only: true
+- tabs/newlines inside fields: none
+
+Verdict counts:
+- parent_source_wrapper: 4
+- source_url_extracted: 2
+
+Работал только по локальным файлам/локальным source-pack pointers, без web crawl и без внешних действий.

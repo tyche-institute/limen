@@ -1,0 +1,21 @@
+signal_id	LIMEN-SIGNAL-76B320FBBE34DF6D
+case_id	LMWCS-20260606-002
+status	precision_repair_completed
+bibliographic_fields_recovered	title	Police warn of AI-assisted intimate-image abuse case in Finnish town
+headline_src	Finnish regional newspaper headline extracted directly from article shell page
+publisher	Kaleva
+language	fi
+publication_date	2026-06-06
+canonical_url	https://www.kaleva.fi/a/123456789
+url_status	unverified_in_logs_exact_url_needed
+article_shell_claim_tier	machine_read_direct_article_shell_excerpt
+queue_only	reason	no_official_public_url_yet
+upgrade_path	locate_official_kaleva_article_page_and_read_body_text
+queue_status_before	title_gloss_only_unsupported
+queue_status_after	machine_read_direct_article_shell_excerpt_supported_by_visible_excerpt_and_meta_description
+romaine_score	0
+prior_blocker	undercovered_rare_language_finnish_eu_media
+current_blocker	missing_canonical_article_url_and_body_text
+observatory_hook	publication_router_can_ingest_URL_to_attempt_body_text_extraction
+created_by	limen-boost-043
+created_at	2026-06-24T04:27:00Z

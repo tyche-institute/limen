@@ -1,0 +1,2 @@
+queue_id	signal_id	source_review_role	review_priority	shards	queries	source_path	source_line	reason	claim_ceiling	next_action
+BPSE-01825	LIMEN-SIGNAL-FFFBA21EDBBF53BD	source_pack_proxy	P2_article_relevance_review	public-sector	AI procurement	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_COUNTRY_INDEX.csv	121	Source-pack/index/profile row points toward a source but does not expose a named reviewable surface.	source-surface existence only from local metadata/files	extract the named source surface from local materials

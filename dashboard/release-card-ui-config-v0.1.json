@@ -1,0 +1,165 @@
+{
+  "schema": "limen_dashboard_release_ui_config_v0_1",
+  "generated_at_utc": "2026-06-18T08:45:33Z",
+  "lane_id": "limen-dashboard-paper-forge",
+  "project_id": "limen-ai-edge-case-atlas",
+  "source_release_card_tsv": "results/boost/limen-dashboard-paper-forge/dashboard-release-card-2026-06-18T08-04-52Z.tsv",
+  "source_release_card_sha256": "47fe077ac1f923b3ac73589c91ee9d75222ad68bdc5ecbc9517eea7a3a6af096",
+  "purpose": "Machine-readable chart subtitle and tooltip contract for reviewer-safe LIMEN dashboard/paper parity.",
+  "global_rules": [
+    "Show the subtitle/denominator label before or next to every count-bearing view.",
+    "Do not substitute denominators across Figure 2, Figure 5, and Figure 7: 39/29 taxonomy support, 21 publication-safe lineages, and 4 threshold rows are distinct.",
+    "Display source-family saturation and uncertainty, not completeness.",
+    "Do not infer legal compliance, liability, official incident status, certification, safety assurance, prevalence, or country ranking from these views.",
+    "Export-level checksums may be shown; row-level access-date/rights labels require a verified source-ledger join before display."
+  ],
+  "views": [
+    {
+      "dashboard_view": "source_family_saturation",
+      "manuscript_surface": "Figure 1 / Figure 4",
+      "source_path": "results/dashboard/source-family-coverage.tsv",
+      "source_exists": true,
+      "source_data_rows": 15,
+      "source_sha256": "b1d3a0e616db24d48109b76606a900a229a983f8d18a4ed1aa37034aa588bf2f",
+      "subtitle": "source-family rows; saturation/uncertainty, not completeness",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "tooltip_rule": "Expose denominator, claim ceiling, uncertainty flag, and provenance pointer before any count is shown.",
+      "public_ui_status": "ready_as_bounded_control_surface",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim"
+    },
+    {
+      "dashboard_view": "taxonomy_heatmap",
+      "manuscript_surface": "Figure 2 + Table 2",
+      "source_path": "results/dashboard/taxonomy-heatmap.tsv",
+      "source_exists": true,
+      "source_data_rows": 15,
+      "source_sha256": "c0c9db0ed86acdf4f9910bd9e78ff03fae52303150bf5b62217954f721fdff75",
+      "subtitle": "core 39/29; sidecar 44/34; taxonomy support, not prevalence",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "tooltip_rule": "Expose denominator, claim ceiling, uncertainty flag, and provenance pointer before any count is shown.",
+      "public_ui_status": "ready_as_bounded_control_surface",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim"
+    },
+    {
+      "dashboard_view": "evidence_tier_funnel",
+      "manuscript_surface": "Figure 3 / Figure 5 variant",
+      "source_path": "results/dashboard/evidence-funnel.tsv",
+      "source_exists": true,
+      "source_data_rows": 11,
+      "source_sha256": "866475937cae0d4103b2adb4052be18cf5afac0352b34ec3df1232e9c844b499",
+      "subtitle": "296 catalogued / 250 evidence-grade / 46 excluded / 21 publication-safe lineages where used",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "tooltip_rule": "Expose denominator, claim ceiling, uncertainty flag, and provenance pointer before any count is shown.",
+      "public_ui_status": "ready_as_bounded_control_surface",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim"
+    },
+    {
+      "dashboard_view": "jurisdiction_language",
+      "manuscript_surface": "Figure 5 / S1 Panel C",
+      "source_path": "results/dashboard/jurisdiction-language-coverage.tsv",
+      "source_exists": true,
+      "source_data_rows": 12,
+      "source_sha256": "8bb99a9b5e4d35bb945d4d63f99791d4eb80ca4f8d2d7fb14115ebe964f2400a",
+      "subtitle": "34 jurisdictions broad; 12 reviewed-core non-English rows where panel used; no country ranking",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "tooltip_rule": "Expose denominator, claim ceiling, uncertainty flag, and provenance pointer before any count is shown.",
+      "public_ui_status": "ready_as_bounded_control_surface",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim"
+    },
+    {
+      "dashboard_view": "legal_uncertainty",
+      "manuscript_surface": "Figure 6",
+      "source_path": "results/dashboard/legal-uncertainty-matrix.tsv",
+      "source_exists": true,
+      "source_data_rows": 15,
+      "source_sha256": "e7e9859a36b3b87427891fe185129e2387fa136f4c3b52e0f0924c506d94f751",
+      "subtitle": "uncertainty routing only; no compliance/liability conclusion",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "tooltip_rule": "Expose denominator, claim ceiling, uncertainty flag, and provenance pointer before any count is shown.",
+      "public_ui_status": "ready_as_bounded_control_surface",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim"
+    },
+    {
+      "dashboard_view": "security_agentic_threshold",
+      "manuscript_surface": "Figure 7",
+      "source_path": "results/dashboard/security-threshold-ladder-panel.tsv",
+      "source_exists": true,
+      "source_data_rows": 4,
+      "source_sha256": "c989a5509d9ea6337312231e40ab3f6324608d12aa2c6cd6b4c0aa02794ff2e1",
+      "subtitle": "4 threshold rows; 11 security rows where described; not security prevalence",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "tooltip_rule": "Expose denominator, claim ceiling, uncertainty flag, and provenance pointer before any count is shown.",
+      "public_ui_status": "ready_as_bounded_control_surface",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim"
+    },
+    {
+      "dashboard_view": "duplicate_review_graph",
+      "manuscript_surface": "Figure 8",
+      "source_path": "results/dashboard/duplicate-review-graph.tsv",
+      "source_exists": true,
+      "source_data_rows": 27,
+      "source_sha256": "bb36d1fd9ddc2833d5abc3c57236b8f43c65c90d8f1b2a8c8092287dea8ec66d",
+      "subtitle": "27 duplicate-review edges; 0 merge decisions; not proof all duplicates are absent",
+      "tooltip_must_include": [
+        "denominator_scope",
+        "claim_ceiling",
+        "uncertainty_flag_or_review_status",
+        "source_artifact_path",
+        "source_artifact_sha256",
+        "row_level_provenance_status_when_available"
+      ],
+      "tooltip_rule": "Expose denominator, claim ceiling, uncertainty flag, and provenance pointer before any count is shown.",
+      "public_ui_status": "ready_as_bounded_control_surface",
+      "prohibited_reading": "completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement",
+      "claim_boundary": "public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+panel_id	panel_segment	segment_key	cell_count	member_ids	reviewer_safe_reading	dashboard_hook
+SEC-XW-001	framework_exactness	AVID_exact_rows	1	LIMEN-000002	Exact AVID interoperability is singleton only.	security_crosswalk_coverage
+SEC-XW-002	framework_exactness	ATLAS_exact_rows	0		No exact ATLAS case-study join is currently verified.	security_crosswalk_coverage
+SEC-XW-003	framework_depth	ATLAS_partial_or_technique_rows	7	LIMEN-000001; LIMEN-000002; LIMEN-000003; LIMEN-000004; LIMEN-000005; LIMEN-000006; LIMEN-000007	ATLAS currently functions mainly as technique or indirect case-study context.	security_crosswalk_coverage
+SEC-XW-004	framework_depth	ATLAS_cautious_context_rows	3	LIMEN-000008; LIMEN-000009; LIMEN-000012	Three rows still need cautious non-exact ATLAS language only.	security_crosswalk_coverage
+SEC-XW-005	framework_depth	OWASP_dual_label_rows	10	LIMEN-000001; LIMEN-000002; LIMEN-000003; LIMEN-000004; LIMEN-000005; LIMEN-000006; LIMEN-000007; LIMEN-000008; LIMEN-000009; LIMEN-000012	OWASP is the only framework layer covering all live rows with dual labels.	security_crosswalk_coverage
+SEC-XW-006	publication_state	peer_reviewed_gap_rows	1	GAP-peer_reviewed_security_case_support	The only explicit package-level zero state is peer-reviewed support.	security_crosswalk_coverage

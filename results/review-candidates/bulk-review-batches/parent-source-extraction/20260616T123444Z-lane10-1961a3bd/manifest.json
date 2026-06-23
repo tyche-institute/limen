@@ -1,0 +1,44 @@
+{
+  "batch_id": "20260616T123444Z-lane10-1961a3bd",
+  "batch_size": 24,
+  "completed_at_utc": "2026-06-16T12:41:26Z",
+  "created_at_utc": "2026-06-16T12:34:44Z",
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123444Z-lane10-1961a3bd/input.tsv",
+  "input_rows": 24,
+  "lane_id": "lane10",
+  "output_rows": 24,
+  "outputs": {
+    "parent_source_extraction_results": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123444Z-lane10-1961a3bd/parent-source-extraction-results.tsv",
+    "parent_source_extraction_summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T123444Z-lane10-1961a3bd/parent-source-extraction-summary.md"
+  },
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/parent-source-extraction-queue.tsv",
+  "queue_rows": 1825,
+  "remaining_unleased_at_allocation": 481,
+  "sha256": {
+    "input": "a3d5021d35c7a9287ef7c9bbe796d143a989d1818c0756ed1b474e1f0035a459",
+    "parent_source_extraction_results": "9b2b1809fab2deae98be0ec7893423d18f8b718aad47fd70aea944d33a49be98",
+    "parent_source_extraction_summary": "e05d6eba10cd6eb120d33ba83e5a915b149e663628f62cd9e85e8a91c62516bf"
+  },
+  "started_at_utc": "2026-06-16T12:34:44Z",
+  "status": "complete",
+  "task": "parent-source-extraction",
+  "updated_at_utc": "2026-06-16T12:41:26Z",
+  "verdict_counts": {
+    "country_gap_no_parent_source": 6,
+    "parent_source_wrapper": 9,
+    "source_surface_only_no_case": 8,
+    "source_url_extracted": 1
+  },
+  "verification": {
+    "duplicate_output_queue_ids": 0,
+    "extra_queue_ids": [],
+    "header_exact": true,
+    "input_row_count": 24,
+    "missing_queue_ids": [],
+    "output_row_count": 24,
+    "same_queue_id_order": true,
+    "same_queue_id_set": true,
+    "tab_count_ok": true
+  }
+}

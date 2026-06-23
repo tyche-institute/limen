@@ -1,0 +1,20 @@
+[
+  {
+    "source_family": "AIID",
+    "saturation_status": "partial",
+    "evidence_tier": "B",
+    "coverage_note": "Major categories covered; missing edge cases in healthcare and finance"
+  },
+  {
+    "source_family": "OECD AIM",
+    "saturation_status": "in_progress",
+    "evidence_tier": "A",
+    "coverage_note": "Strong coverage of risk frameworks; lacking in implementation examples"
+  },
+  {
+    "source_family": "MITRE ATLAS",
+    "saturation_status": "initial",
+    "evidence_tier": "C",
+    "coverage_note": "Preliminary coverage of taxonomic gaps; needs expansion"
+  }
+]

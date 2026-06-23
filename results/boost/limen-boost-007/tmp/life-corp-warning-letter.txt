@@ -1,0 +1,249 @@
+JOSHUA H. STEIN
+ATTORNEY GENERAL
+
+TRACY NAYER
+SPECIAL DEPUTY ATTORNEY GENERAL
+
+February 6, 2024
+
+Walter Monk, Founding Owner
+Amber Valdez Schober, President
+Christina Beetler, Vice President
+Brandy Monk Derrick, Secretary/Treasurer
+Life Corporation
+1527 S Cooper Street
+Arlington, TX 76010
+c/o Corporation Service Company d/b/a CSC–Lawyers Incorporating Service Company
+211 E. 7th Street, Suite 620
+Austin, TX 78701-3218
+Sent via certified mail, return receipt requested, and via email to wmonk@lifecorp.com,
+avaldez@lifecorp.com, aschober@lifecorp.com, cbaird@lifecorp.com
+Re:
+
+NOTICE from the Anti-Robocall Multistate Litigation Task Force Concerning
+Life Corporation’s Involvement in Suspected Illegal Robocall Traffic
+
+Dear Mr. Monk and Mses. Schober, Beetler, and Monk Derrick:
+The Anti-Robocall Multistate Litigation Task Force (“Task Force”) 1 has received
+information identifying your company—Life Corporation (“Life Corp”)—as the originating
+calling customer responsible for transmitting suspected illegal robocall traffic leading up to the
+New Hampshire Presidential Primary Election on Tuesday, January 23, 2024.
+It appears that Life Corp originated an artificially generated robocall campaign sought to
+dissuade New Hampshire voters from participating in last week’s primary.2 The Task Force has
+immediate concerns that this attempt to disrupt New Hampshire’s Presidential Primary Election is
+something that Life Corp, its subsidiaries, affiliates, customers, and/or other individuals or entities
+in the robocall ecosystem may seek to replicate in each of our respective states in the upcoming
+1 The Anti-Robocall Multistate Litigation Task Force is a 51-member collective of State Attorneys
+
+General, led by the Attorneys General of Indiana, North Carolina, and Ohio, which is focused on
+actively investigating and pursuing enforcement actions against various entities in the robocall
+ecosystem that are identified as being responsible for significant volumes of illegal and fraudulent
+robocall traffic routed into and across the country.
+2 See, e.g., Fake Joe Biden robocall tells New Hampshire Democrats not to vote Tuesday, NBC
+
+News, Jan. 22, 2024, https://www.nbcnews.com/politics/2024-election/fake-joe-biden-robocalltells-new-hampshire-democrats-not-vote-tuesday-rcna134984.
+WWW.NCDOJ.GOV
+
+114 W. EDENTON STREET, RALEIGH, NC 27603
+P.O. BOX 629, RALEIGH, NC 27602-0629
+
+919.716.6000
+
+primary elections and caucuses during this year’s Presidential election cycle. This Notice is
+intended to inform Life Corp about the Task Force’s concerns regarding its apparent involvement
+in this call campaign, and to caution Life Corp that it should cease originating any illegal call
+traffic immediately. Transmission of these calls may be violations of the Telephone Consumer
+Protection Act, 3 the Truth in Caller ID Act,4 as well as state consumer protection statutes.
+Task Force’s Concerns about Calls Originated by Life Corp
+As part of its investigation into the transmission of illegal robocalls and those who originate
+them, the Task Force regularly reviews call traffic information provided by industry sources,
+including USTelecom’s Industry Traceback Group (“ITG”).5 As of the date of this Notice, the
+ITG has issued at least ten (10) traceback notices concerning this calling campaign. Based on
+information available to the Task Force, each of those calls was originated by Life Corp.
+Our investigation indicates that the calling phone number was illegally spoofed, likely in a
+further attempt to confuse potential voters. The Task Force is concerned about Life Corp’s
+involvement in any attempt to deliberately falsify information transmitted to New Hampshire
+primary voters’ caller ID displays. Additionally, the Task Force is concerned that some portion of
+the spoofed calls were marked with A-level STIR/SHAKEN attestations by Lingo Telecom, LLC 6
+(“Lingo”), which was identified as the originating provider for a majority of the traced calls.
+By affixing an A-level attestation, it appears that, not only did Life Corp wrongfully use this calling
+number, but that Lingo improperly attested that Life Corp had the legal right to use the allegedly
+3 47 U.S.C. § 227; 47 C.F.R. § 64.1200.
+4 47 U.S.C. § 227(e); 47 C.F.R. § 64.1604.
+5 Established in 2015, the ITG is a private collaborative industry group—composed of providers
+
+across wireline, wireless, VOIP, and cable services—that traces and identifies the sources of
+suspected illegal and suspicious robocalls. In December 2019, Congress enacted the Pallone–
+Thune Telephone Robocall Abuse Criminal Enforcement and Deterrence Act (“TRACED Act”) to
+combat the scourge of unlawful robocalls. See Pub. L. No. 116-105, § 13(d), 133 Stat. 3274 (2019).
+Following its enactment, the Federal Communications Commission designated the ITG as the
+official private-led traceback consortium charged with leading the voice communications
+industry’s efforts to trace the origin of suspected illegal robocalls through various communications
+networks through tracebacks. See 47 C.F.R. § 64.1203.
+6 Lingo Telecom, LLC is associated with several entity names including Matrix Telecom, LLC,
+
+Impact Telecom, Americatel, BullsEye Telecom, Inc., Clear Choice Communications, Excel
+Telecommunications, Startec, and VarTec Telecom. See FCC Form 499 Filer Database, available
+at https://apps.fcc.gov/cgb/form499/499detail.cfm?FilerNum=802572 (499 Entry for Lingo
+Telecom,
+LLC);
+FCC
+Robocall
+Mitigation
+Database,
+available
+at
+https://fccprod.servicenowservices.com/rmd?id=rmd_form&table=x_g_fmc_rmd_robocall_mitig
+ation_database&sys_id=464896b91b4db4107ccf20ecac4bcbe1&view=sp (RMD entry for Lingo
+Telecom,
+LLC);
+FCC
+Robocall
+Mitigation
+Database,
+available
+at
+https://fccprod.servicenowservices.com/rmd?id=rmd_form&table=x_g_fmc_rmd_robocall_mitig
+ation_database&sys_id=889eb7a21befa01002beea82f54bcbe5&view=sp (RMD entry for Matrix
+Telecom, LLC).
+
+Feb. 6, 2024 Notice Letter from Anti-Robocall Multistate Litigation Task Force
+
+Page 2 of 5
+
+spoofed number. Further, our initial review of over 20,000 of the calls made from this illegally
+spoofed calling number during the two days prior to the New Hampshire Primary Election shows
+that some of the calls exhibited patterns that were consistent with a Telephony Denial of Service
+or “TDoS” attack.7 The Task Force also has reason to believe there was an intention to cause harm
+to prospective voters by attempting to discourage them from exercising their constitutionally
+protected right to vote and to cause harm to the subscriber of the phone number that was spoofed.
+Thus, the information available to the Task Force indicates that Life Corp is involved in,
+at a minimum, originating call traffic indicative of, and associated with, illegal and/or suspicious
+robocalling campaigns and/or practices, which conduct could subject Life Corp to damages, civil
+penalties, injunctions, and other available relief provided to State Attorneys General under both
+federal and state laws.
+Overview of Select Relevant Laws
+Telephone Consumer Protection Act (47 U.S.C. § 227; 47 C.F.R. § 64.1200)
+Under the Telephone Consumer Protection Act (“TCPA”), the Federal Communications
+Commission (“FCC”) promulgated rules restricting calls made with automated telephone dialing
+systems and calls delivering artificial or prerecorded voice messages. 8 Additionally, the TCPA
+generally prohibits solicitation calls placed to numbers on the National Do Not Call Registry. 9
+State Attorneys General are authorized to bring enforcement actions to enjoin violative calls and
+recover substantial civil penalties for each violation of the TCPA.10 The TCPA exempts from its
+prohibitions calls made for emergency purposes and certain other calls,11 including those made
+with the “prior express consent” of the called party or with “prior express written consent” of the
+called party for telemarketing calls. 12 Note, however, single consents purportedly given by a
+consumer to large groups of marketers listed on an alternate webpage are insufficient to satisfy
+this exemption. 13
+A Telephony Denial of Service or “TDoS” attack is an intentional attack on the telephony/voice
+service communications system of an organization intended to disrupt service by flooding the
+network with multiple and malicious inbound calls. A TDoS attack can be made against private
+business or public-safety response systems (also known as “PSAPs” or public safety answering
+points) such as 911 centers, police departments, and hospitals.
+7
+
+8 47 U.S.C. §§ 227(b)(1)(A)(iii), (b)(1)(B); 47 C.F.R. § 64.1200(a)(1)–(3).
+9
+
+47 U.S.C. § 227(c); 47 C.F.R. § 64.1200(c)(2).
+
+10 47 U.S.C. § 227(g)(1).
+11 47 U.S.C. §§ 227(b)(1)(A)–(B), (b)(2)(B); 47 C.F.R. §§ 64.1200(a)(1)–(3), (a)(9).
+12
+
+47 U.S.C. §§ 227(b)(1)(A)–(B); 47 C.F.R. §§ 64.1200(a)(1)–(3), (f)(9).
+
+13 For example, in November 2022, the FCC issued an order requiring all voice service providers
+
+to block calls from provider Urth Access, LLC. In response to allegations concerning the
+transmission of illegal robocalls, Urth Access claimed to have obtained express consent for each
+of the calls. However, that consent stemmed from websites where consumers purportedly agreed
+to receive robocalls from over 5,000 “marketing partners” listed on a separate site. The FCC found
+Feb. 6, 2024 Notice Letter from Anti-Robocall Multistate Litigation Task Force
+
+Page 3 of 5
+
+Truth in Caller ID Act (47 U.S.C. § 227(e); 47 C.F.R. § 64.1604)
+Under the federal Truth in Caller ID Act, it is generally unlawful for a person to “knowingly
+transmit misleading or inaccurate caller identification information with the intent to defraud, cause
+harm, or wrongfully obtain anything of value.”14 State Attorneys General have the authority to
+bring enforcement actions for violations of the Truth in Caller ID Act and its prohibition against
+illegal caller identification spoofing.15 Such violative conduct can lead to assessments of civil
+penalties of up to $10,000 for each violation, or three times that amount for each day of continuing
+violations.16 Note that any penalties for violations of the Truth in Caller ID Act are in addition to
+those assessed for any other penalties provided for by the TCPA.17
+Telemarketing Sales Rule (15 U.S.C. §§ 6101–6108; 16 C.F.R. Part 310)
+In 1994, Congress passed the Telemarketing and Consumer Fraud and Abuse Prevention
+Act which directed the Federal Trade Commission (“FTC”) to prescribe rules prohibiting
+deceptive telemarketing acts or practices. 18 Pursuant to this directive, the FTC promulgated the
+Telemarketing Sales Rule (“TSR”). It is a violation of the TSR for sellers or telemarketers to
+violate TSR provisions against deceptive and abusive telemarketing acts or practices,19 and for
+voice service providers to provide substantial assistance to sellers or telemarketers that the provider
+“knows or consciously avoids knowing” are engaged in practices that violate TSR provisions
+this type of agreement insufficient to constitute express consent. See FCC Orders Voice Service
+Providers to Block Student Loan Robocalls, https://www.fcc.gov/document/fcc-orders-voiceservice-providers-block-student-loan-robocalls (Order); FCC Issues Robocall Cease-and-Desist
+Letter to Urth Access, https://www.fcc.gov/document/fcc-issues-robocall-cease-and-desist-letterurth-access (Cease-and-Desist Letter). Additionally, in December 2023, the FCC issued a Second
+Report and Order determining that prior express written consent required under the TCPA must be
+given to one seller at a time. See Second Report and Order and Second Further Notice of Proposed
+Rulemaking, Rules and Regulations Implementing the Telephone Consumer Protection Act of
+1991, CG Docket No. 02-278 (Dec. 18, 2023), https://www.fcc.gov/document/fcc-closes-leadgenerator-robocall-loophole-adopts-robotext-rules. We note also that this interpretation is
+consistent with the FTC’s interpretation of the express consent requirement of the TSR. See
+Federal Register, Vol. 73 No. 169, 2008 at 51182 , https://www.govinfo.gov/content/pkg/FR-200808-29/pdf/E8-20253.pdf; (Consumer’s agreement with a seller to receive calls delivering
+prerecorded messages is nontransferable); FTC, Complying with the Telemarketing Sales Rule, The
+Written Agreement Requirement (https://www.ftc.gov/business-guidance/resources/complyingtelemarketing-sales-rule#writtenagreement).
+14 47 U.S.C. § 227(e)(1); 47 C.F.R. § 64.1604.
+15 47 U.S.C. § 227(e)(6).
+16 47 U.S.C. §§ 227(e)(6)(A).
+17 Id.
+18
+
+15 U.S.C. § 6102.
+
+19 16 C.F.R. §§ 310.3, 310.4.
+
+Feb. 6, 2024 Notice Letter from Anti-Robocall Multistate Litigation Task Force
+
+Page 4 of 5
+
+against deceptive and abusive telemarketing acts or practices.20 State Attorneys General have
+concurrent authority with the FTC to sue to obtain damages, restitution, or other compensation on
+behalf of their citizens for violations of the TSR.21
+General Note regarding State Laws
+In addition to their authority to enforce the above federal statutes, State Attorneys General
+are empowered to enforce their respective state laws regulating various aspects of the initiation
+and transmission of illegal robocall and telemarketing call traffic across the U.S. telephone
+network. Originating callers and voice service providers transmitting calls into and throughout the
+states are obligated to familiarize themselves with, and abide by, all applicable state laws.
+Requested Action in Response to this Notice
+We request that you review this Notice in detail and carefully scrutinize and actively
+investigate any suspected illegal call traffic that you have originated to ensure that you are
+following all applicable federal and state laws and regulations, including those referenced above.
+If further investigation shows that you have originated, and continue to originate, calls not
+dissimilar from the campaign highlighted in this Notice, the Task Force may decide to pursue an
+enforcement action against you and your principal owners and operators. Additionally, this Notice
+does not waive or otherwise preclude the Task Force from bringing an enforcement action related
+to conduct preceding the date of this Notice, including conduct that resulted in violations related
+to the call traffic referenced in this Notice.
+The Task Force remains steadfast in its resolve to meaningfully curb illegal robocall traffic
+and to quickly act against those who seek to disrupt voter participation in our respective states’
+upcoming primary elections and caucuses during this year’s Presidential election cycle.
+Please direct any inquiries regarding this Notice to my attention at tnayer@ncdoj.gov.
+Your anticipated cooperation and immediate attention are greatly appreciated.
+Sincerely,
+
+Tracy Nayer
+Special Deputy Attorney General
+Consumer Protection Division
+North Carolina Department of Justice
+
+20
+
+16 C.F.R. § 310.3(b).
+
+21 15 U.S.C. § 6103; 16 C.F.R. § 310.7.
+
+Feb. 6, 2024 Notice Letter from Anti-Robocall Multistate Litigation Task Force
+
+Page 5 of 5
+
+

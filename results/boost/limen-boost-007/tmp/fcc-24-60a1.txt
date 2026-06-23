@@ -1,0 +1,1061 @@
+                           Federal Communications Commission                 FCC 24-60 
+
+                                       Before the 
+                           Federal Communications Commission 
+                                 Washington, D.C. 20554  
+
+ In the Matter of                            ) 
+                                             )        File No.:  EB-TCD-24-00036425 
+ Lingo Telecom, LLC                          )        NAL/Acct. No.:  202432170004 
+                                             )        FRN:  0035440734 
+                                             ) 
+
+
+                 NOTICE OF APPARENT LIABILITY FOR FORFEITURE 
+Adopted:  May 23, 2024 Released:  May 28, 2024 
+By the Commission: Chairwoman Rosenworcel and Commissioners Starks and Gomez issuing separate 
+statements;  Commissioners Carr and Simington concurring and issuing separate statements.  
+I.    INTRODUCTION
+      1.     Following an investigation by the Federal Communications Commission’s (Commission
+or FCC) Enforcement Bureau (Bureau), we propose a penalty of $2,000,000 against Lingo Telecom, LLC 
+(Lingo or Company) for applying incorrect Secure Telephone Identity Revisited and Signature-based 
+Handling of Asserted information using toKENs (STIR/SHAKEN) attestations in apparent violation of 
+section 64.6301(a) of the Commission’s rules.1  Specifically, Lingo, in a failure to utilize reasonable 
+“Know Your Customer” (KYC) protocols, applied incorrect STIR/SHAKEN attestations to spoofed 
+robocalls carrying a deepfake2 generative artificial intelligence (AI) voice message purporting to be from 
+the president of the United States (Deepfake Message) that targeted New Hampshire primary election 
+voters two days before the state’s 2024 Democratic Presidential Primary Election (Primary Election).  
+The Deepfake Message told primary election voters not to vote in the upcoming Primary Election.    
+      2.     The STIR/SHAKEN framework allows for the authentication and verification of caller
+identification (ID) information and is a vital tool designed to give consumers more confidence that caller 
+ID information is accurate.  The last two decades have seen a proliferation in the misuse of spoofing 
+technology by malicious actors as a means of evading liability for illegal robocalls and other abusive 
+communications.  Accordingly, restoring the reliability of caller ID information is a top consumer 
+protection priority for the Federal Communications Commission (Commission or FCC).  In recent years, 
+the Commission has undertaken multiple proceedings to ensure rapid adoption of the technology required 
+to bring STIR/SHAKEN to telecommunications networks across the country.3  The framework uses three 
+
+1 47 CFR § 64.6301(a). 
+2 “Deepfake” is defined as “an image or recording that has been convincingly altered and manipulated to 
+misrepresent someone as doing or saying something that was not actually done or said.”  Deepfake, Merriam-
+Webster (last updated Mar. 21, 2024), https://www.merriam-webster.com/dictionary/deepfake. 
+3 See, e.g., Call Authentication Trust Anchor, Implementation of TRACED Act Section 6(a) – Knowledge of 
+Customers by Entities with Access to Numbering Resources, WC Docket Nos. 17-97 and 20-67, Report and Order 
+and Further Notice of Proposed Rulemaking, 35 FCC Rcd 3241 (2020) (First Call Authentication Order); Call 
+Authentication Trust Anchor, WC Docket No. 17-97, Second Report and Order, 36 FCC Rcd 1859 (2020) (Second 
+Call Authentication Order); Advanced Methods to Target and Eliminate Unlawful Robocalls, Call Authentication 
+Trust Anchor, CG Docket No. 17-59, WC Docket No. 17-97, Sixth Report and Order, Fifth Report and Order, Order 
+on Reconsideration, Order, Seventh Further Notice of Proposed Rulemaking, Fifth Further Notice of Proposed 
+Rulemaking, 37 FCC Rcd 6865 (2022) (Gateway Provider Order); Call Authentication Trust Anchor, WC Docket 
+No. 17-97, Sixth Report and Order and Further Notice of Proposed Rulemaking, 38 FCC Rcd 2573 (2023) (Sixth 
+Call Authentication Order). 
+                           Federal Communications Commission                 FCC 24-60 
+
+attestation levels that indicate the level of the signing provider’s validation of the caller ID information.  
+False or incorrect attestations undermine years of regulatory and industry efforts to enable caller ID 
+authentication, and diminish the integrity of the STIR/SHAKEN framework.  The Commission mandates 
+that providers like Lingo fully implement STIR/SHAKEN and adhere to the technical standards therein.4     
+       3.    Two days before the Primary Election, illegal spoofed and malicious robocalls carrying a 
+deepfake audio recording of President Biden’s voice told the state’s voters not to vote in the upcoming 
+primary.  These calls, carrying the deepfake generative AI-produced cloned voice of the president of the 
+United States, were made at the behest of a political consultant named Steve Kramer (Kramer), who 
+engaged Voice Broadcasting Corp., which used the services and equipment of Life Corp. (Life) to 
+transmit the calls.  Life, in turn, used Lingo to originate the traffic onto the public switched telephone 
+network (PSTN).  Lingo, in apparent violation of the Commission’s rules, sent 2,000 calls through its 
+network to potential New Hampshire voters, falsely authenticating spoofed traffic with the highest level 
+of attestation permitted under the STIR/SHAKEN rules.  This false “A-level” attestation, in turn, harmed 
+the public by making it less likely that these spoofed, deepfake calls would be blocked or flagged as 
+suspicious by terminating voice service providers and reducing consumers’ trust in their voice service 
+providers and the nation’s communications network.  
+II.   BACKGROUND 
+      A.     Legal Framework 
+      4.     The Pallone-Thune Telephone Robocall Abuse Criminal Enforcement and Deterrence 
+Act (TRACED Act) and the Commission’s implementing rules required voice providers to implement the 
+STIR/SHAKEN authentication framework on their Internet protocol (IP) networks by June 30, 2021,5 
+subject to certain exceptions.6  The STIR/SHAKEN framework7 helps protect consumers from illegal 
+spoofed calls8 by enabling authenticated caller ID information to travel securely with the call itself 
+through the entire call path.9  The framework consists of two components: (1) the technical process of 
+authenticating and verifying caller ID information; and (2) the certificate governance process that 
+maintains trust in caller ID authentication information that accompanies a call.10  The first component 
+relies on public key cryptography to transmit information securely that a service provider knows about the 
+caller and its relationship to the phone number it is using for the call, including an attestation level for the 
+
+                           
+4 See, e.g., First Call Authentication Order, 35 FCC Rcd at 3257-59, paras. 32-36; see also Gateway Provider 
+Report and Order, 37 FCC Rcd at 6887-88, para. 53 (requirements for gateway providers), Sixth Call Authentication 
+Order, 38 FCC Rcd at 2585, para. 21 (requirements for non-gateway intermediate providers). 
+5 See Pub. L. No. 116-105, § 4, 133 Stat. 3274, 3276 (2019) (TRACED Act), 47 CFR § 64.6301(a) (requiring 
+STIR/SHAKEN implementation by voice service providers). 
+6 See 47 CFR §§ 64.6304, 64.6306. 
+7 The STIR/SHAKEN framework is a set of technical standards and protocols that enable providers to authenticate 
+and verify caller ID information transmitted with Session Initiation Protocol (SIP) calls.  A working group of the 
+Internet Engineering Task Force (IETF) called the Secure Telephony Identity Revisited (STIR) developed several 
+protocols for authenticating caller ID information.  The Alliance for Telecommunications Industry Solutions (ATIS), 
+in conjunction with the SIP Forum, produced the Signature-based Handling of Asserted information using toKENs 
+(SHAKEN) specification, which standardizes how the protocols produced by STIR are implemented across the 
+industry using digital certificates.  Call Authentication Trust Anchor, WC Docket No. 17-97, Second Report and 
+Order, 36 FCC Rcd 1859, 1862-3, para. 7 (2020) (Second Call Authentication Order). 
+8 See 47 U.S.C. § 227(e) (prohibiting the transmission of inaccurate or misleading caller identification information 
+with the intent to defraud, cause harm, or wrongfully obtain anything of value); 47 CFR § 64.1604 (same). 
+9 Call Authentication Trust Anchor, WC Docket No. 17-97, Sixth Report and Order and Further Notice of Proposed 
+Rulemaking, FCC 23-18, 38 FCC Rcd 2573, 2575, para. 4 (2023) (Sixth Call Authentication Order). 
+10 Second Call Authentication Order, 36 FCC Rcd at 1862-63, para. 7. 
+                                           2 
+                           Federal Communications Commission                 FCC 24-60 
+
+call (addressed in more detail below).11  This encrypted information is contained within a unique part of 
+the Session Initiation Protocol (SIP) message known as the “Identity” header field.12  After the service 
+provider authenticates this caller ID information for a particular call and adds this attestation information, 
+the Identity header travels along with the call from the authenticating service provider, through any 
+intermediate providers, to the terminating voice service provider.13  When the terminating voice service 
+provider receives the call with the Identity header attached, it can decrypt it, verify the caller ID 
+information, and then use that information (including the attestation level), along with other information, 
+to protect its subscribers from unwanted and illegal calls.14  The second component of the 
+STIR/SHAKEN framework relies on digital certificates issued to a provider through a neutral governance 
+system to maintain trust and accountability among providers; a digital certificate indicates that: (i) the 
+authenticating service provider is who it claims to be; (ii) the service provider is authorized to 
+authenticate the caller ID information; and (iii) the provider’s claims about the caller ID information it is 
+authenticating can thus be trusted.15  This system is overseen by a Governance Authority—currently an 
+entity called the Secure Telephone Identity Governance Authority (STI-GA)—which establishes the 
+policies and procedures regarding how providers may acquire and maintain certificates.16 
+      5.     Section 64.6301(a) of the Commission’s rules requires that “not later than June 30, 2021, 
+a voice service provider shall fully implement the STIR/SHAKEN authentication framework in its 
+internet Protocol networks.”17  Related to this obligation,  
+             [A] voice service provider shall: 
+             (1)    Authenticate and verify caller identification information for all SIP calls 
+                    that exclusively transit its own network;  
+             (2)    Authenticate caller identification information for all SIP calls it 
+                    originates and that it will exchange with another voice service provider 
+                    or intermediate provider and, to the extent technically feasible, transmit 
+                    that call with authenticated caller identification information to the next 
+                    voice service provider or intermediate provider in the call path; and 
+             (3)    Verify caller identification information for all SIP calls it receives from 
+                    another voice service provider or intermediate provider which it will 
+                    terminate and for which the caller identification information has been 
+                    authenticated.18 
+The Commission’s rules define the term “STIR/SHAKEN authentication framework” to mean the “secure 
+telephone identity revisited and signature-based handling of asserted information using tokens 
+                           
+11 See id. at 1863, paras. 8, 10.  
+12 See id. at 1863, para. 8.  SIP is a signaling protocol used in IP telephony calls.  See id. at 1862, para. 6, n.16. 
+13 See Sixth Call Authentication Order, 38 FCC Rcd at 2576, para. 5. 
+14 See id. 
+15 See Call Authentication Trust Anchor, Implementation of TRACED Act Section 6(a) – Knowledge of Customers by 
+Entities with Access to Numbering Resources, WC Docket Nos. 17-97 and 20-67, Report and Order and Further 
+Notice of Proposed Rulemaking, 35 FCC Rcd 3241, 3246, para. 9 (2020) (First Call Authentication Order); see also 
+Sixth Call Authentication Order, 38 FCC Rcd at 2576, para. 6. 
+16 See Second Call Authentication Order, supra note 7, at 1864, para. 11; see also Secure Telephone Identity 
+Governance Authority (STI-GA), STI Governance Authority, https://sti-ga.atis.org  (last visited Apr. 19, 2024). 
+17 47 CFR § 64.6301(a).  In accordance with section 4, of the TRACED Act, the FCC rules permitted various 
+extensions and exceptions, see id. §§ 64.6304, 64.6306, but none of these are relevant to Lingo. 
+18 See id. § 64.6301(a). 
+                                           3 
+                           Federal Communications Commission                 FCC 24-60 
+
+standards.”19  The “standards” are three technical standards developed jointly by the Internet Engineering 
+Task Force (IETF) and the Alliance for Telecommunications Industry Solutions (ATIS) for 
+implementation of STIR/SHAKEN, which are identified in the Commission’s First Call Authentication 
+Order:  ATIS-1000074, ATIS-1000080, and ATIS-1000084.20  For voice service providers, 
+“[c]ompliance with the most current versions of these three standards as of March 31, 2020, including any 
+errata as of that date or earlier, represents the minimum requirement to satisfy our rules.”21     
+      6.     Of particular relevance to this Notice of Apparent Liability for Forfeiture, ATIS-1000074 
+describes the three attestation levels that a provider can apply to a call.22  An “A” attestation or “Full 
+Attestation” means that the signing provider:  (1) “is responsible for the origination of the call onto the IP-
+based service provider voice network;” (2) “has a direct authenticated relationship with the customer and 
+can identify the customer;” and (3) “has established a verified association with the telephone number used 
+for the call.”23  A “B” attestation or “Partial Attestation” means that the provider can meet the first two 
+criteria of the A-level attestation but the provider “has NOT established a verified association with the 
+telephone number being used for the call.”24  Finally, a “C” attestation or “Gateway Attestation” means 
+that the signing provider “has no relationship with the originator of the call (e.g., international 
+gateways).”25  Thus, the attestation level assigned by a voice service provider signifies “what it knows 
+about the identity of the calling party,” and thus how much trust downstream providers can ascribe to the 
+caller ID number.26 
+
+       7.    STIR/SHAKEN is a “key component” in the Commission’s fight to protect consumers 
+from the scourge of robocalls.27  “The STIR/SHAKEN caller ID authentication framework protects 
+consumers from illegally spoofed robocalls by enabling authenticated caller ID information to securely 
+travel with the call itself throughout the entire call path.”28  When providers do not do their part in 
+                           
+19 Id. § 64.6300(m) (emphasis added); see also TRACED Act § 4(a)(1) (defining “STIR/SHAKEN authentication 
+framework” to mean “the [STIR/SHAKEN] standards proposed by the information and communications technology 
+industry”). 
+20 See First Call Authentication Order, 35 FCC Rcd at 3258-59, para. 36; see also Alliance for Telecommunications 
+Industry Solutions, Signature-based Handling of Asserted information using toKENs (SHAKEN), ATIS-10000074-
+E19E (2019),(ATIS-1000074); Errata to Signature-based Handling of Asserted information using toKENs 
+(SHAKEN):  Governance Model and Certificate Management, ATIS-1000080-E19 (2019 (ATIS-1000080); Errata 
+to Technical Report on Operational and Management Considerations for SHAKEN STI Certification Authorities and 
+Policy Administrators, ATIS-1000084-E19 (2019) (ATIS-1000084).    
+21 First Call Authentication Order, supra note 15, 35 FCC Rcd at 3258-59, para. 36; see also Sixth Call 
+Authentication Order, supra note 9, at 2585, para. 21 (stating that voice service providers, gateway providers, and 
+intermediate providers that received unauthenticated calls directly from originating providers are “obligated to 
+comply with, at a minimum, the version of the STIR/SHAKEN standards ATIS-1000074, ATIS-1000080, and 
+ATIS-1000084 and all of the documents referenced therein in effect at the time of their respective compliance 
+deadlines, including any errata as of those dates or earlier”) (emphasis in original).  A gateway provider is a U.S.-
+based intermediate provider that receives a call directly from a foreign provider and transmits it to another U.S.-
+based provider, thus serving as a gateway onto the public switched telephone network for calls originating outside 
+the United States.  See 47 CFR § 64.6300(d). 
+22 ATIS-1000074 § 5.2.3 at 9-10. 
+23 Id. at 9. 
+24 Id. 
+25 Id. at 10. 
+26 Second Call Authentication Order, supra note 7, at 1863, para. 10. 
+27 Call Authentication Trust Anchor, WC Docket No. 17-97, Sixth Report and Order and Further Notice of Proposed 
+Rulemaking, 38 FCC Rcd 2573, 2574, at para. 2 (2023). 
+28 Id. at 2575, para. 4. 
+                                           4 
+                           Federal Communications Commission                 FCC 24-60 
+
+properly authenticating a call and verifying the use of a telephone number, the framework breaks down 
+and consumers are left exposed without protection to malign actors who will exploit the vulnerability.  
+
+      B.     Factual Background 
+      8.     Lingo is a voice service provider headquartered in Southfield, Michigan, with operations 
+in Dallas, Texas; Atmore, Alabama; and Macon, Georgia.29  Lingo’s parent company, Lingo 
+Management, LLC (Lingo Management), describes itself as a provider of “IP-based Cloud voice and data 
+[services] along with other unified communications technologies to small-to-medium sized businesses 
+and consumers.”30  Lingo formerly conducted business as Matrix Telecom, LLC (Matrix).31  Matrix 
+certified that it had implemented STIR/SHAKEN throughout its network in the FCC’s Robocall 
+Mitigation Database (RMD) on June 30, 2021.32  Matrix changed its listed business name in the RMD to 
+“Lingo Telecom, LLC” on January 11, 2023.  Lingo also holds an international section 214 
+authorization.33 
+       9.    On January 21, 2024, two days before the Primary Election, potential voters received 
+9,581 calls34—3,978 originated by Lingo35— carrying the following prerecorded and generative AI 
+Deepfake Message—all but the last sentence of which was spoken in a fake voice that was used to create 
+the impression that President Biden created the message:36 
+
+                           
+29 See Meet Lingo, Lingo, https://www.lingo.com/meet-lingo/ (last visited on Mar. 15, 2024).  In its April 2023 
+filing in the FCC Form 499 database, Lingo lists nine “other trade names” (Bullseye Telecom, Inc.; Trinsic 
+Communications; Excel Telecommunications; Clear Choice Communications; VarTec Telecom; Impact Telecom; 
+Startec; Americatel; and Lingo).  See Lingo Telecom, LLC, FCC Form 499A, 802572 (Apr. 3, 2023), 
+https://apps.fcc.gov/cgb/form499/499detail.cfm?FilerNum=802572 . A February 26, 2024 filing in the RMD by its 
+parent company, Lingo Management, LLC, identified seven d/b/a names for Lingo Telecom, LLC (Lingo, Impact 
+Telecom, Excel Telecommunications, Trinsic, Vartec Telecom, Americatel, and Startec).  See Lingo Management, 
+LLC Robocalling Mitigation Plan v2.2024, at Appx. A (on file in EB-TCD-24-00036425).  An April 9, 2024 filing 
+by Lingo Management revised its robocall mitigation plan to list eight d/b/a names for Lingo (adding “Bullseye” to 
+the previously listed seven names).  See Lingo Management, LLC Robocalling Mitigation Plan v4.2024, at Appx. A 
+(Lingo Management April 2024 Robocalling Mitigation Plan), 
+https://fccprod.servicenowservices.com/I?id=I form&table=x g fmc rmd robocall mitigation database&sys id=5
+008f0e287644a101dda87f9cebb3581&view=sp (“Download PDF”) (last viewed Apr. 15, 2024).  
+30 Lingo Management April 2024 Robocalling Mitigation Plan at 2. 
+31 See id. at Appx. A; Matrix Telecom, LLC, Certificate of Amendment, 802357352, Tex. Sec’y of State (Oct. 13, 
+2021) (changing name to Lingo Telecom, LLC).  
+32 See Lingo Telecom, LLC Robocall Mitigation Database certification, Fed. Commc’ns Comm’n (June 30, 2021) 
+(Lingo 2021 RMD Certification) (on file in EB-TCD-24-00036425).  Lingo deleted its RMD certification on 
+February 26, 2024.  See Lingo Telecom, LLC Robocall Mitigation Database certification, Fed. Commc’ns Comm’n 
+(Feb. 26, 2024) (on file in EB-TCD-24-00036425).  On that same date, Lingo Management filed a certification in the 
+RMD.  
+33 Lingo Telecom, LLC, International Section 214 Authorization, ITC-214-19900713-00004 (Dec. 12, 1990). 
+34 Subpoena Response of Life Corp. (Feb. 7, 2024) (on file in EB-TCD-24-00036425) (Life Subpoena Response), at 
+Response to Request for Information (RFI) No. 1. 
+35 Lingo Subpoena Response, at Lingo 05-000202 (Mar. 27, 2024) (Call Detail Records) (on file at EB-TCD-24-
+00036425). 
+36 Numerous news outlets have concluded that the recorded voice resembled the voice of President Biden.  See, e.g., 
+Alex Seitz-Wald and Mike Memoli, Fake Joe Biden robocall tells New Hampshire Democrats not to vote Tuesday, 
+NBC News (Jan. 22, 2024, Updated 11:45 AM EST), https://www.nbcnews.com/politics/2024-election/fake-
+joebiden-robocall-tells-new-hampshire-democrats-not-vote-tuesday-rcna134984 (“The call, an apparent imitation or 
+digital manipulation of the president’s voice . . . .”); Jacob Rosen, Fake Biden robocall encourages voters to skip 
+                                                                            (continued…) 
+                                           5 
+                           Federal Communications Commission                 FCC 24-60 
+
+             This coming Tuesday is the New Hampshire Presidential Preference 
+             Primary.  Republicans have been trying to push nonpartisan and 
+             democratic voters to participate in their primary.  What a bunch of 
+             malarkey.  We know the value of voting Democratic when our votes 
+             count.  It’s important that you save your vote for the November election.  
+             We’ll need your help in electing Democrats up and down the ticket. 
+             Voting this Tuesday only enables the Republicans in their quest to elect 
+             Donald Trump again.  Your vote makes a difference in November, not 
+             this Tuesday.  If you would like to be removed from future calls, please 
+             press two now.  Call {[        ]} to be removed from future 
+             calls.37 
+
+      10.    The caller ID information indicated that the calls came from the phone number of a New 
+Hampshire Political Operative (NHPO) (for which their spouse is the subscriber).  NHPO is a former 
+New Hampshire Democratic Party chair and treasurer of a super Political Action Committee (PAC) that 
+led an effort to encourage New Hampshire Democrats to write in President Biden’s name in the state’s 
+Primary Election.38  However, neither NHPO nor their spouse were in any way involved in making the 
+calls, or authorized the number to be used in connection with the calls.39  Indeed, the Deepfake Message 
+was directly counter to the very purpose of NHPO’s efforts with regards to the Primary Election; NHPO’s 
+PAC encouraged voters to write in President Biden’s name in the Primary Election, but the Deepfake 
+Message told potential voters not to vote at all.40 
+      11.    The Bureau conducted an investigation into these robocalls in coordination with the New 
+Hampshire Attorney General, the bipartisan Anti-Robocall Multistate Litigation Task Force (Task 
+
+
+                           
+New Hampshire Democratic primary, CBS News (Jan. 23, 2024, Updated Jan. 23, 2024 9:17 AM EST), 
+https://www.cbsnews.com/news/fake-biden-robocall-new-hampshire-primary/ (“A fake robocall impersonating 
+President Biden . . . ”); Sasha Pezenik and Brittany Shepherd, Fake Biden robocall urges New Hampshire voters to 
+skip their primary, ABC News (Jan. 22, 2024, 8:08 PM), https://abcnews.go.com/Politics/fake-biden-robocallurges-
+new-hampshire-voters-skip/story?id=106580926 (“A robocall appearing to impersonate the voice of President Joe 
+Biden . . . .”); Em Steck and Andrew Kaczynski, Fake Joe Biden robocall urges New Hampshire voters not to vote 
+in Tuesday’s Democratic primary, CNN (Jan. 22, 2024, Updated 5:44 PM EST), 
+https://www.cnn.com/2024/01/22/politics/fake-joe-biden-robocall/index.html (“A robocall that appears to be an AI 
+voice resembling President Joe Biden . . . .”). 
+37 See Subpoena Response of Steve Kramer (Mar. 20, 2024) (on file in EB-TCD-24-00036425) (Kramer Subpoena 
+Response), at email from Voice Broadcasting to Kramer (Jan. 28, 2024 at 2:34 PM); see also Life Subpoena 
+Response (Feb. 7, 2024) (on file in EB-TCD-24-00036425) (Life Subpoena Response), at Response to Request for 
+Information (RFI) No. 1, LIFE-03-0023, LIFE-03-0024.  Material set off by double brackets {[ ]} is confidential and 
+is redacted from the public version of this document. 
+38 Life Subpoena Response, at Response to RFI No. 2 (Feb. 7, 2024) (on file in EB-TCD-24-00036425) (Life 
+Subpoena Response); Complaint by [NHPO] to the Office of the New Hampshire Attorney General (Jan. 22, 2024) 
+(on file in EB-TCD-24-00036094) (NHPO Complaint); Lisa Kashinsky & Holly Otterbein, Dems launch pro-Biden 
+super PAC in New Hampshire, give Dean Phillips the cold shoulder, Politico (Dec. 2, 2023), 
+https://www.politico.com/news/2023/12/02/biden-super-pac-new-hampshire-dean-phillips-00129750 (“On Friday, 
+longtime New Hampshire democratic operative [NHPO] confirmed to Politico that [they are] helping launch a super 
+PAC [(Granite for America)] to encourage voters to write in Biden in the primary.”).  
+39 NHPO Complaint. 
+40 See Lisa Kashinsky & Holly Otterbein, Dems launch pro-Biden super PAC in New Hampshire, give Dean Phillips 
+the cold shoulder, Politico (Dec. 2, 2023), https://www.politico.com/news/2023/12/02/biden-super-pac-new-
+hampshire-dean-phillips-00129750. 
+                                           6 
+                           Federal Communications Commission                 FCC 24-60 
+
+Force),41 the U.S. Department of Justice, and USTelecom’s Industry Traceback Group (ITG).42  The 
+investigation determined that Lingo was the originating provider for a number of these calls, i.e., the first 
+provider in the call path.43  Lingo identified Life as the party that transmitted the calls to Lingo.44  In turn, 
+Life identified that Voice Broadcasting Corp. (Voice Broadcasting) “use[d] Life’s services and equipment 
+to transmit” the calls to an originating provider.45  Voice Broadcasting is an entity that offers to “call a 
+targeted list of your prospects and play your message to them” and “which Life shares common 
+ownership and control.”46  Voice Broadcasting reportedly transmitted the calls on behalf of its client, 
+Kramer,47 who is a “longtime political consultant”48 and has admitted that he was responsible for the 
+calls.49   
+      12.    On February 6, 2024, the Bureau sent Lingo a cease-and-desist letter (CDL) demanding 
+that Lingo stop originating unlawful robocall traffic on its network.50  Concurrent with this letter, the 
+Bureau issued a public notice to all U.S.-based voice service providers informing them that if Lingo failed 
+to effectively mitigate illegal robocall traffic (including robocalls that use deepfakes) within 48 hours of 
+the notice, then the service providers could block all calls or cease to accept any traffic from Lingo 
+without liability under the Communications Act of 1934, as amended, or the FCC’s rules.51   
+
+
+                           
+41 Letter from Tracy Nayer, Special Deputy Attorney General, Consumer Protection Division, N.C. Dep’t of Just., to 
+Talal Khalid, CEO, Telcast Network LLC, at n.1 (Nov. 3, 2023), https://ncdoj.gov/wp-
+content/uploads/2023/11/State-AG-Task-Force-NOTICE-Letter-to-TELCAST.pdf (“The Anti-Robocall Multistate 
+Litigation Task Force is a 51-member collective of state Attorneys General, led by the Attorneys General of Indiana, 
+North Carolina, and Ohio, which is focused on actively investigating and pursuing enforcement actions against 
+various entities in the robocall ecosystem that are identified as being responsible for significant volumes of illegal 
+and fraudulent robocall traffic routed into and across the country.”). 
+42 The ITG is the registered industry consortium selected pursuant to the TRACED Act to conduct tracebacks.  See 
+Implementing Section 13(d) of the Pallone-Thune Robocall Abuse Criminal Enforcement and Deterrence Act 
+(TRACED Act), EB Docket No. 20-22, Report and Order, DA 23-719, 2023 WL 5358422, at *1, para. 1 (EB Aug. 
+18, 2023). 
+43 See ITG Subpoena Response (Jan. 31, 2024) (on file in EB-TCD-24-00036425) (ITG Subpoena Response). 
+44 See id. 
+45 Life Subpoena Response, supra note 38, at Responses to RFI Nos. 1-2, n.3.    
+46 Voice Broadcasting, https://voicebroadcasting.com/default/ (last visited Mar. 26, 2024); Life Subpoena Response, 
+supra note 38 , at 1-2 n.3. 
+47 Life Subpoena Response, supra note 38, at Response to RFI No. 3.   
+48 City & State New York, The 2021 50 Over 50 (Jan. 25, 2021), https://www.cityandstateny.com/power-
+lists/2021/01/the-2021-50-over-50-11-50/175249/; Joint Law Enforcement Interview with Steve Kramer (Feb. 29, 
+2024) (involving the FCC, DOJ, and New Hampshire Attorney General’s Office) (recording on file in EB-TCD-24-
+00036425) (Kramer Interview), at 7:10 (Kramer:  “I am a political consultant.  I have been working in politics since 
+I was six.  I have been getting paid in politics since I was 12.”). 
+49 See Kramer Interview, at 2:17:37 (Kramer:  “I believe in my actions and I did them deliberately.  And I don’t care 
+what other people think.”); id. at 1:11:21 (Kramer:  “And I’m not going to apologize to the people who might have 
+gotten that call, because I think that sometimes that’s the way it is.  If they’re offended by that, they probably have 
+more motivation to vote.”). 
+50 Letter from Loyaan A. Egal, Chief, FCC Enforcement Bureau, to Alex Valencia, Chief Compliance Officer, 
+Lingo Telecom, LLC, 2024 WL 488250 (Feb. 6, 2024). 
+51 FCC Enforcement Bureau Notifies All U.S.-Based Providers of Rules Permitting Them to Block Robocalls 
+Transmitting from Lingo Telecom, LLC, Public Notice, DA 24-102, 2024 WL 488244 (EB Feb. 6, 2024).  
+                                           7 
+                           Federal Communications Commission                 FCC 24-60 
+
+       13.   On February 7, 2024,52 and February 20, 2024, Lingo responded to the CDL.53  In its 
+February 20, 2024 response, Lingo explained the measures it was taking to mitigate robocalls and 
+admitted that the “switch through which Life’s calls were routed inadvertently signed [Life’s calls] with 
+an A-level attestation.”54  Without providing further details, Lingo said that it was “implementing 
+remediation measures” to address the issue.55 
+      14.    On March 13, 2024, the Bureau subpoenaed Lingo for additional information about the 
+calls and the Company’s STIR/SHAKEN attestation practices.56  Lingo responded on March 27, 2024.57   
+Lingo produced evidence showing that it transmitted 3,978 calls from Life on January 21, 2024.58  Lingo 
+signed all of these calls with A-level attestations.59   
+      15.    In its response to the Bureau’s subpoena, Lingo provided conflicting information.  
+Instead of characterizing its A-level attestations as an “inadvertent” switch-related issue,60 Lingo claimed 
+it had “verified the ownership of the phone number {[  ]} through a contractual relationship 
+with Life.”61  Specifically, Lingo explained that its policy “allowed for its customers to receive an A-level 
+attestation for traffic associated with . . . non-Lingo provisioned telephone numbers if the customer 
+certified that it ‘will identify its customer and has a verified association with the telephone number used 
+for the call.’”62  Lingo pointed to a one-page, check-the-box “STIR/SHAKEN Attestation” form drafted 
+by Lingo and dated July 2, 2021 (Life STIR/SHAKEN Compliance Form) in which Life attested to 
+Matrix (now Lingo), d/b/a Impact Telecom, that “[Life] is eligible for Attestation A/Full for traffic 
+associated with . . . non-Impact Telecom provisioned telephone numbers and certifies that it will identify 
+its customer and has a verified association with the telephone number used for the call.”63  Based solely 
+on the Life STIR/SHAKEN Compliance Form, Lingo provided A-level attestations for all calls from 
+
+
+                           
+52 Letter from Kevin Rupy, Wiley Rein LLP, to Kristi Thompson, Chief, Telecommunications Consumers Division, 
+FCC Enforcement Bureau, at 4 (Feb. 6, 2024) (on file at EB-TCD-24-00036425) (Lingo 48-Hour Response). 
+53 Letter from Kevin Rupy, Wiley Rein LLP, to Kristi Thompson, Chief, Telecommunications Consumers Division, 
+FCC Enforcement Bureau, at 4 (Feb. 20, 2024) (on file at EB-TCD-24-00036425) (Lingo 14-Day Response). 
+54 Id. at 4 (emphasis added). 
+55 Id. 
+56 Subpoena to Lingo Telecom, LLC (Mar. 13, 2024) (EB-TCD-24-00036425) (Lingo Subpoena). 
+57 Lingo Subpoena Response, at FCC Subpoena Response (Mar. 27, 2024) (on file at EB-TCD-24-00036425) (Lingo 
+Narrative Response). 
+58 Lingo Subpoena Response, at Lingo 05-000202 (on file at EB-TCD-24-00036425) (Mar. 27, 2024) (Call Detail 
+Records). 
+59 Lingo Narrative Response at 8.  Shortly before release of this Notice of Apparent Liability for Forfeiture, Lingo 
+identified that it was actually responsible for applying A-level attestations to a total of 13,235 calls from Life using 
+{[          ]} as the caller ID.  Lingo Subpoena Response (May 15, 2024) (on file at EB-TCD-24-00036425), at 
+Response to RFI No. 1.  The Bureau has not had the opportunity to evaluate the veracity of this disclosure due to the 
+late-in-time production; accordingly the Commission does not consider this volume of calls in its proposed forfeiture 
+calculation.  
+60 Lingo Narrative Response at 8; Lingo 14 Day Response, supra note 53.  
+61 See Lingo Narrative Response, supra note 57, at 3. 
+62 Id. 
+63 Lingo Subpoena Response, at Lingo 02-000013 (EB-TCD-24-00036425) (Mar. 27, 2024) (Life STIR/SHAKEN 
+Compliance Form); Lingo Narrative Response, supra note 57, at 4. 
+                                           8 
+                           Federal Communications Commission                 FCC 24-60 
+
+Life—including the 3,978 calls at issue in this Notice of Apparent Liability for Forfeiture.64  The Bureau 
+verified 2,000 of these calls.65   
+III.   DISCUSSION 
+       16.   We find that Lingo apparently willfully and repeatedly violated section 64.6301(a) of the 
+Commission’s rules, which requires voice service providers to “fully implement the STIR/SHAKEN 
+authentication framework in [their] internet Protocol networks.”66  STIR/SHAKEN is a critical 
+component of the Commission’s efforts to mitigate illegal robocalls as it helps inform providers and 
+consumers alike about the reliability of the displayed caller ID information.67  The framework’s 
+effectiveness, however, depends on meaningful implementation by providers.68  To comply with the 
+STIR/SHAKEN framework, an originating voice service provider applies an attestation level to each call 
+depending on its relationship with the customer and the number used as caller ID information.69  The 
+highest level, an “A-level attestation,” means that the originating provider can identify the customer and 
+has determined that the customer is authorized to use the telephone number displayed as the caller ID.70  
+Lingo applied an A-level attestation to at least 2,000 verified calls from Life that used spoofed caller ID 
+information with the NHPO’s phone number.  Other than obtaining a blanket self-attestation from Life in 
+2021, which did not establish that Life was authorized to use the NHPO’s telephone number, Lingo did 
+not take any steps to verify that Life was authorized to use the NHPO’s number as the displayed number; 
+in fact, Lingo’s customer was not authorized to use the number.  Applying reasonable KYC protocols 
+could have potentially limited the consequences of Kramer’s scheme to interfere with the Primary 
+Election through the harmful concoction of the misuse of generative AI technology and spoofing.  There 
+is also an inconsistency in Lingo’s statements to the Bureau.  In its February 20, 2024 response to the 
+Bureau’s CDL, Lingo stated that the “switch through which Life’s calls were routed inadvertently signed 
+[Life’s calls] with an A-level attestation.”71  It remains unclear which of Lingo’s explanations—switch 
+failure or its “verified ownership of the phone number” is accurate.  Regardless, we find that Lingo 
+apparently violated section 64.6301(a) of our rules.  We propose a $1,000 fine for each of the verified 
+calls Lingo transmitted with incorrect STIR/SHAKEN attestations for a total proposed forfeiture of 
+$2,000,000. 
+      A.     Lingo Apparently Violated Section 64.6301(a) Requiring Implementation of the 
+             STIR/SHAKEN Framework 
+             1.     Lingo Was Required To Implement STIR/SHAKEN Fully 
+      17.    The Commission’s rules require voice service providers to implement STIR/SHAKEN 
+fully unless subject to an extension or exemption.72  A voice service provider is any provider of “voice 
+                           
+64 Lingo Narrative Response, supra note 57, at 4. 
+65 Verified Call Detail Records (on file at EB-TCD-24-00036425) (Verified Call Detail Records); see also  Decl. of 
+B. Labbor, FCC Enforcement Bureau (May 1, 2024) (on file in EB-TCD-24-00036425) (Labbor Decl.) (explaining 
+how the calls were verified). 
+66 47 CFR § 64.6301(a). 
+67 Sixth Call Authentication Order, supra note 9, at 2574, para. 2. 
+68 Id. 
+69 See ATIS-1000074, supra note 20, at 9. 
+70 Id. 
+71 Letter from Kevin Rupy, Wiley Rein LLP, to Kristi Thompson, Chief, Telecommunications Consumers Division, 
+FCC Enforcement Bureau, at 4 (Feb. 20, 2024) (on file at EB-TCD-24-00036425) (Lingo 14-Day Response). 
+72 47 CFR §§ 64.6301(a), 64.6304, 64.6306.  The Commission has expanded certain STIR/SHAKEN obligations to 
+gateway providers and intermediate providers.  See Advanced Methods to Target and Eliminate Unlawful Robocalls, 
+Call Authentication Trust Anchor, CG Docket No. 17-59, WC Docket No. 17-97, Sixth Report and Order in CG 
+                                                                            (continued…) 
+                                           9 
+                           Federal Communications Commission                 FCC 24-60 
+
+service,” i.e., “any service that is interconnected with the public switched telephone network and that 
+furnishes voice communications to an end user using resources from the North American Numbering Plan 
+. . . .”73  Lingo is a voice service provider and has certified in the RMD that it is a voice service provider.74  
+On June 30, 2021, Lingo certified that it had fully implemented STIR/SHAKEN across its entire 
+network.75   
+      18.    Lingo was the originating voice service provider for the robocalls at issue in this Notice 
+of Apparent Liability and was required to have fully implemented STIR/SHAKEN at the time of the 
+Primary Election-related calls.  The ITG identified Lingo as the originator for 3,978 of these calls.76  
+Lingo does not dispute that it was the originating provider of the calls.77  Nor does Lingo claim that it was 
+subject to any extensions or exemptions to the June 30, 2021 STIR/SHAKEN implementation deadline.78  
+In fact, Lingo certified to the Commission that it was in compliance with STIR/SHAKEN as of June 301, 
+2021.79  Thus, section 64.6301(a) applied to Lingo at the time of the apparent violations, and it was 
+required to comply with the STIR/SHAKEN requirements for the calls at issue. 
+             2.     Lingo Incorrectly Applied A-Level STIR/SHAKEN Attestations to 2,000 
+                    Calls in Apparent Violation of Section 64.6301(a) 
+      19.    The Commission has stated that for purposes of compliance with the STIR/SHAKEN 
+framework, “it would be sufficient to adhere to the three ATIS standards that are the foundation of 
+STIR/SHAKEN—ATIS-1000074, ATIS-1000080, and ATIS-1000084—and all documents referenced 
+therein.”80  ATIS-1000074 describes the attestation levels that a provider can apply to a call.81  The 
+highest attestation, an A-level attestation, means that the signing provider:  (1) “is responsible for the 
+origination of the call onto the IP-based service provider voice network;” (2) “has a direct authenticated 
+relationship with the customer and can identify the customer;” and (3) “has established a verified 
+association with the telephone number used for the call.”82  Lingo signed Life’s spoofed traffic with an A-
+level attestation without having “established a verified association with the telephone number” used in the 
+calls.83  ATIS-1000074 provides examples of how a provider can verify the customer’s association with 
+the caller ID number: 
+      •   The number was assigned to this customer by the signing service provider. 
+
+                           
+Docket No. 17-59, Fifth Report and Order in WC Docket No. 17-97, Order on Reconsideration in WC Docket No. 
+17-97, Order, Seventh Further Notice of Proposed Rulemaking in CG Docket No. 17-59, and Fifth Further Notice of 
+Proposed Rulemaking in WC Docket No. 17-97, 37 FCC Rcd 6865, 6886-87, para. 51 (2022) (Gateway Provider 
+Order) (requiring gateway providers to authenticate calls carrying a U.S. number in the caller ID field); Sixth Call 
+Authentication Order, supra note 9, at 2580-81, para. 15 (requiring intermediate providers to authenticate 
+unauthenticated calls).  
+73 47 CFR § 64.6300(o); see also First Call Authentication Order, supra note 15, at 3259, para. 37. 
+74 See Lingo 2021 RMD Certification, supra note 32. 
+75 See id. 
+76 ITG Subpoena Response, supra note 43. 
+77 See Lingo Narrative Response, supra note 57 at 5. 
+78 See generally id. 
+79 Lingo 2021 RMD Certification, supra note 32. 
+80 First Call Authentication Order, supra note 15, at 3258, para. 36. 
+81 ATIS-1000074, supra note 20, at 9-10. 
+82 Id. at 9. 
+83 See id.  
+                                          10 
+                           Federal Communications Commission                 FCC 24-60 
+
+       •  This number is one of a range of numbers assigned to an enterprise or wholesale 
+          customer. 
+
+       •  The signing service provider has ascertained that the customer is authorized to use a 
+          number (e.g., by business agreement or evidence the customer has access to use the 
+          number).  This includes numbers assigned by another service provider. 
+
+      •   The number is not permanently assigned to an individual customer, but the signing 
+          provider can track the use of the number by a customer for certain calls or during a 
+          certain timeframe.84 
+
+       20.   Lingo claims broadly and generally that “Life’s 2021 certification as to its association 
+with the telephone numbers used by Life and its business was sufficient to establish a verified association 
+with those numbers.”85  This claim is inconsistent with reasonable KYC principles that would have 
+supported the assertion that Lingo verified Life’s association with the NHPO’s telephone number, as there 
+is no evidence of Lingo having done that.  With regard to the NHPO’s telephone number, Lingo asserts 
+that it “verified the ownership of the phone number {[ ]} through a contractual relationship 
+with Life.”86  Yet, Life had no association with the NHPO’s telephone number; nor did Lingo’s 
+contractual relationship with Life establish that Life had a verified association with the NHPO’s number.    
+      21.    While ATIS-1000074 contemplates multiple methods to verify numbers,87 we find 
+Lingo’s arrangement to be deficient.  STIR/SHAKEN attestations are premised on the ability of 
+originating providers to vouch for the origination information of a call.88  An A-level attestation is the 
+highest attestation possible—indicating that the provider can identify the customer and has “established a 
+verified association” between the customer and the number used as caller ID.89  The Commission finds 
+that a provider may not satisfy this obligation with a generic, blanket, check-the-box “agreement” that 
+shifts the entire responsibility for compliance on to the customer.  In this case, Lingo’s blanket, single-
+page agreement is insufficient to establish that Life had a “verified association” with the NHPO’s 
+telephone number.90  The “agreement” did not provide, and Lingo did not otherwise have, any evidentiary 
+basis to determine any association with the number.  Lingo abdicated its verification responsibility by 
+punting the duty to its customer with absolutely no credible basis to believe its customer was taking any 
+steps to make the necessary verification.  Moreover, it does not appear that Lingo had any practices to 
+verify the reliability of Life’s STIR/SHAKEN Compliance Form or to review the form periodically.91  
+Lingo did not verify an association between its customer, Life, and the NHPO’s telephone number to 
+justify applying A-level attestations to the calls from Life using {[ ]} as the caller ID.   
+      22.    Lingo’s application of A-level attestations was improper because Lingo failed to comply 
+with ATIS-1000074.  The STI-GA has defined an “improper attestation” as “any Attestation level set that 
+
+
+                           
+84 Id. 
+85 Lingo Narrative Response, supra note 57, at 6; see also Life STIR/SHAKEN Compliance Form, supra note 63. 
+86 Lingo Narrative Response, supra note 57, at 3. 
+87 See ATIS-1000074, supra note 20, at 9 (providing examples). 
+88 See id. (“The ‘attest’ claim allows the originating service provider that is populating an Identity header to clearly 
+indicate the information it can vouch for regarding the origination of the call.”). 
+89 Id. 
+90 See id. (listing various evidentiary based verification methods). 
+91 As a mitigation measure in response to the calls at issue in this Notice of Apparent Liability, Lingo will apparently 
+conduct quarterly STIR/SHAKEN attestation reviews.  Lingo Narrative Response, supra note 57, at 6. 
+                                          11 
+                           Federal Communications Commission                 FCC 24-60 
+
+does not conform with the industry standards set in ATIS-1000074.”92  The STI-GA further states that 
+“Improper Attestations Include:  An A-level attestation on an illegally spoofed call.”93  Lingo did not have 
+an evidentiary basis to determine that Life “ha[d] established a verified association with the telephone 
+number used for the [spoofed] call[s];”94 therefore, Lingo applied the A-level attestations contrary to the 
+standard set forth in ATIS-1000074.  Lingo’s failure to comply with ATIS-100074 constitutes a failure to 
+“fully implement the STIR/SHAKEN authentication framework in its internet Protocol networks”95 for 
+the 2,000 calls that it originated from Life.  Therefore, we conclude that Lingo apparently violated section 
+64.6301(a) of our rules. 
+      23.    Lingo’s improper attestation exposes its glaringly deficient KYC practices.  It is 
+incumbent on all voice service providers to “take affirmative, effective measures to prevent new and 
+renewing customers from using its network to originate illegal calls, including knowing its customers and 
+exercising due diligence.”96  Lingo accepted at face value that Life “has a verified association with the 
+telephone number used for the call” without taking a single step to verify that statement was accurate in 
+relation to the instant calls.97  Indeed, it was not accurate in relation to the instant calls; neither Life nor its 
+client had a verified association with the spoofed number.98  Had Lingo implemented KYC principles—in 
+compliance with its obligations—it would have likely discovered the hoax and prevented the 
+consequences that followed, including the dissemination of false information in connection with the New 
+Hampshire Primary Election, and intrusion on the NHPO’s life and privacy.    
+      24.    The facts here underscore the ease with which a party can misuse AI to the detriment of 
+thousands of people, our communications networks, and our free democratic elections.  Providers must be 
+diligent in protecting their networks from transmitting illegal robocalls.  This is more true than ever in 
+light of the ease of access to and potency of AI.  The consequences of failure are dire.           
+      B.     Proposed Forfeiture  
+      25.    Section 503(b) of the Communications Act authorizes the Commission to impose a 
+forfeiture penalty against any entity that “willfully or repeatedly fail[s] to comply with any of the 
+provisions of [the Communications Act] or of any rule, regulation, or order issued by the 
+Commission[.]”99  Here, section 503(b)(2)(D) of the Communications Act, as implemented in section 
+1.80 of the Commission’s rules, authorizes the Commission to assess a forfeiture up to $24,496 for each 
+violation.100  In exercising our forfeiture authority, we must consider the “nature, circumstances, extent, 
+and gravity of the violation and, with respect to the violator, the degree of culpability, any history of prior 
+offenses, ability to pay, and such other matters as justice may require.”101  In addition, the Commission 
+has established forfeiture guidelines; they establish base penalties for certain violations and identify 
+
+                           
+92 Secure Telephone Identify Governance Authority, Improper Attestation, https://sti-ga.atis.org/wp-
+content/uploads/2023/05/Improper-Attestation-Final.pdf. 
+93 Id. 
+94 ATIS-1000074, supra note 20, at 9. 
+95 47 CFR § 64.6301(a). 
+96 Id. § 64.1200(n)(4).  
+97 Lingo Narrative Response, supra note 57, at 3; see also Life STIR/SHAKEN Compliance Form, supra note 63. 
+98 See supra para. 10. 
+99 47 U.S.C. § 503(b).   
+100 See id. § 503(b)(2)(D); 47 CFR § 1.80(b)(10); Amendment of Section 1.80(b) of the Commission’s Rules, 
+Adjustment of Civil Monetary Penalties to Reflect Inflation, Order, DA-22-1356, 2022 WL 18023008 (EB Dec. 23, 
+2023); see also Annual Adjustment of Civil Monetary Penalties to Reflect Inflation, 89 Fed. Reg. 2148 (Jan. 12, 
+2024) (setting January 15, 2024 as the effective date for the increases).  
+101 47 U.S.C. § 503(b)(2)(E). 
+                                          12 
+                           Federal Communications Commission                 FCC 24-60 
+
+criteria that we consider when determining the appropriate penalty in any given case.102  Under these 
+guidelines, we may adjust a forfeiture upward for violations that are egregious, intentional, or repeated, or 
+that cause substantial harm or generate substantial economic gain for the violator.103  Furthermore, we do 
+not need to first issue a citation because Lingo held a Robocall Mitigation Database certification and an 
+international section 214 authorization.104 
+             1.     We Propose a Base Forfeiture of $1,000 Per Incorrectly Attested Call 
+       26.   Neither the Commission’s forfeiture guidelines nor its case law establishes a base 
+forfeiture for violations of section 64.6301(a).  Thus, we look to the base forfeitures established or issued 
+in analogous cases for guidance.  The STIR/SHAKEN framework was created to address illegal caller ID 
+spoofing.105  An A-level attestation signifies to downstream providers that the displayed caller ID 
+information can be trusted as accurate.106  This attestation data is a key metric that facilitates analytics and 
+blocking efforts by downstream providers.107  The incorrect application of an A-level attestation to a 
+spoofed call therefore perpetuates the harm caused by illegal caller ID spoofing.108  The Commission has 
+applied a $1,000 base forfeiture for illegal spoofing.109  Because of the connection between the problem, 
+illegal spoofing, and a key solution to that problem—STIR/SHAKEN attestations—we find it appropriate 
+to use spoofing enforcement cases as a benchmark.  Accordingly, we establish a $1,000 base forfeiture for 
+violations of section 64.6301(a) involving incorrect applications of STIR/SHAKEN attestations.  
+Furthermore, we apply this base forfeiture on a per call basis as we do in our illegal spoofing cases.110  
+STIR/SHAKEN attestations are applied to each call, and each incorrect attestation is a failure to comply 
+with ATIS-1000074 and our rules. 
+      27.    After reviewing the section 503 adjustment factors,111 we decline to either upwardly or 
+downwardly adjust the base forfeiture.  However, we provide notice that the facts in this case highlight 
+how the lack of reasonable KYC controls can greatly increase the risks associated with the misuse of 
+generative AI technology and spoofing, and we will consider upward adjustments on a case-by-case basis. 
+
+                           
+102 47 CFR § 1.80(b)(11), Note 2 to paragraph (b)(11).  
+103 Id. 
+104 Lingo 2021 RMD Certification, supra note 32; Lingo Telecom, LLC, International 214 Authorization, ITC-214-
+19900713-00004 (Dec. 12, 1990); cf. 47 U.S.C. § 504(b)(5) (“No forfeiture liability shall be determined under this 
+subsection against any person, if such person does not hold a license, permit, certificate, or other authorization 
+issued by the Commission . . . [unless] such person is sent a citation of the violation charged . . . .”). 
+105 See Sixth Call Authentication Order, supra note 9, 38 FCC Rcd at 2575, para. 4; First Call Authentication Order, 
+supra note 15, at 3244, para. 5. 
+106 See ATIS-1000074, supra note 20, at 9. 
+107 See Second Call Authentication Order, supra note 7, at 1864, para. 10. 
+108 See First Call Authentication Order, supra note 15, at 3252-53, para. 25 (describing the benefit of the 
+STIR/SHAKEN framework); Rules and Regulations Implementing the Truth in Caller ID Act of 2009, WC Docket 
+No. 11-39, Report and Order, 26 FCC Rcd 9114, 9118, para. 10 (2011) (Caller ID Order) (discussing harms caused 
+by spoofing). 
+109 See, e.g., John C. Spiller; Jakob A. Mears; Rising Eagle Capital Group LLC; JSquared Telecom LLC; Only Web 
+Leads LLC; Rising Phoenix Group; Rising Phoenix Holdings; RPG Leads; and Rising Eagle Capital Group – 
+Cayman, Forfeiture Order, 36 FCC Rcd 6225, 6257, para 59 (2021) (Rising Eagle Forfeiture Order);  Scott Rhodes 
+a.k.a. Scott David Rhodes, Scott D. Rhodes, Scott Platek, Scott P. Platek, Forfeiture Order, 36 FCC Rcd 705, 728, 
+para. 54 (2020) (Rhodes Forfeiture Order). 
+110 Rising Eagle Forfeiture Order, 36 FCC Rcd at 6257, para. 59; Rhodes Forfeiture Order, 36 FCC Rcd at 728, 
+para. 54. 
+111 47 U.S.C. § 503(b)(2)(E). 
+                                          13 
+                           Federal Communications Commission                 FCC 24-60 
+
+             2.     We Multiply the Base Forfeiture Amount by the Number of Verified 
+                    Violations 
+       28.   We adopt the approach that we have taken in our spoofing enforcement actions112 and 
+apply the base forfeiture to a subset of calls, which the Bureau verified to be spoofed with the NHPO’s 
+telephone number and contained incorrect A-level STIR/SHAKEN attestations.  We find it prudent to 
+employ the same methodological approach of applying the base forfeiture to a subset of verified calls.  
+We have found that applying a base forfeiture amount (with any applicable upward or downward 
+adjustment) to a subset of verified calls results in a proposed forfeiture that achieves the dual goals of 
+penalizing wrongful conduct and preventing it from recurring.113  Each case is unique, and we must use 
+our discretion in proposing an appropriate penalty to meet the specific circumstances.114  In this case, the 
+Bureau verified a total of 2,000 apparently spoofed robocalls with incorrect STIR/SHAKEN 
+attestations.115  Applying the base forfeiture by the total number of verified calls yields a total proposed 
+forfeiture of $2,000,000 for which Lingo is apparently liable.116   
+IV.   CONCLUSION 
+      29.    We have determined that Lingo apparently willfully and repeatedly violated section 
+64.6301(a) of the Commission’s rules by incorrectly applying A-level attestations to spoofed calls and 
+therefore failing to implement fully the STIR/SHAKEN framework.  As such, Lingo is apparently liable 
+for a forfeiture penalty of $2,000,000.  
+V.    ORDERING CLAUSES 
+      30.    Accordingly, IT IS ORDERED that, pursuant to section 503(b) of the Act, 47 U.S.C. § 
+503(b), and section 1.80 of the Commission’s rules, 47 CFR § 1.80, Lingo Telecom, LLC is hereby 
+NOTIFIED of this APPARENT LIABILITY FOR A FORFEITURE in the amount of two million 
+dollars ($2,000,000) for willful and repeated violations of section 64.6301(a) of the Commission’s rules, 
+47 CFR § 64.6301(a), and the Commission’s First Call Authentication Order.117 
+       31.   IT IS FURTHER ORDERED that, pursuant to section 1.80 of the Commission’s 
+rules,118 within thirty (30) calendar days of the release date of this Notice of Apparent Liability for 
+Forfeiture, Lingo Telecom, LLC SHALL PAY the full amount of the proposed forfeiture or SHALL 
+FILE a written statement seeking reduction or cancellation of the proposed forfeiture consistent with 
+paragraph 34 below. 
+      32.    In order for Lingo Telecom, LLC to pay the proposed forfeiture, Lingo Telecom, LLC 
+shall notify Lisa Ford at lisa.ford@fcc.gov of its intent to pay, whereupon an invoice will be posted in the 
+Commission’s Registration System (CORES) at https://apps.fcc.gov/cores/userLogin.do.  Upon payment, 
+Lingo Telecom, LLC shall send electronic notification of payment to Lisa Ford, Enforcement Bureau, 
+
+                           
+112 See Rising Eagle Forfeiture Order, 36 FCC Rcd at 6257, para. 59; Rhodes Forfeiture Order, 36 FCC Rcd at 728, 
+para. 54. 
+113 Philip Roesel, dba Wilmington Insurance Quotes, and Best Insurance Contracts, Inc, Forfeiture Order, 33 FCC 
+Rcd 9204, 9226, para. 58 (2018) (Roesel Forfeiture Order). 
+114 See RKO General, Inc. v. FCC, 670 F.2d 215, 237 (D.C. Cir. 1981) (citing Leflore Broad. Co. v. FCC, 636 F.2d 
+454, 463 (D.C. Cir. 1980) (“We have made it clear in earlier cases that ‘the choice of remedies and sanctions is a 
+matter wherein the Commission has broad discretion.’”)). 
+115 Verified Call Detail Records (on file at EB-TCD-24-00036425). 
+116 Any entity that is a “Small Business Concern” as defined in the Small Business Act (Pub. L. 85-536, as amended) 
+may avail itself of rights set forth in that Act, including rights set forth in 15 U.S.C. § 657, “Oversight of Regulatory 
+Enforcement,” in addition to other rights set forth herein. 
+117 First Call Authentication Order, supra note 15, at 3241. 
+118 47 CFR § 1.80. 
+                                          14 
+                           Federal Communications Commission                 FCC 24-60 
+
+Federal Communications Commission, at lisa.ford@fcc.gov on the date said payment is made.  Payment 
+of the forfeiture must be made by ACH (Automated Clearing House) debit from a bank account, or by 
+wire transfer from a bank account.  The Commission no longer accepts forfeiture payments by check or 
+money order.  Below are instructions that payors should follow based on the form of payment selected:119 
+
+   •  Payment by wire transfer must be made to ABA Number 021030004, receiving bank 
+      TREAS/NYC, and Account Number 27000001.  In the OBI field, enter the FRN(s) captioned 
+      above and the letters “FORF”.  In addition, a completed Form 159120 or printed CORES form121 
+       must be faxed to the Federal Communications Commission at 202-418-2843 or e-mailed to 
+      RROGWireFaxes@fcc.gov on the same business day the wire transfer is initiated.  Failure to 
+      provide all required information in Form 159 or CORES may result in payment not being 
+      recognized as having been received.  When completing FCC Form 159 or CORES, enter the 
+      Account Number in block number 23A (call sign/other ID), enter the letters “FORF” in block 
+      number 24A (payment type code), and enter in block number 11 the FRN(s) captioned above 
+      (Payor FRN).122  For additional detail and wire transfer instructions, go to 
+      https://www.fcc.gov/licensing-databases/fees/wire-transfer.   
+
+   •  Payment by ACH must be made by using CORES at https://apps.fcc.gov/cores/userLogin.do.  To 
+      pay by ACH, log in using the FCC Username associated to the FRN captioned above.  If payment 
+      must be split across FRNs, complete this process for each FRN.  Next, select “Manage Existing 
+      FRNs | FRN Financial | Bills & Fees” on the CORES Menu, then select FRN Financial and the 
+      view/make payments option next to the FRN. Select the “Open Bills” tab and find the bill number 
+      associated with the  NAL Acct. No.  The bill number is the NAL Acct. No. with the first two 
+      digits excluded (e.g., NAL 1912345678 would be associated with FCC Bill Number 12345678).  
+      Finally, choose the “Pay from Bank Account” option.  Please contact the appropriate financial 
+      institution to confirm the correct Routing Number and the correct account number from which 
+      payment will be made and verify with that financial institution that the designated account has 
+      authorization to accept ACH transactions. 
+      33.    Any request for making full payment over time under an installment plan should be sent 
+to:  Chief Financial Officer—Financial Operations, Federal Communications Commission, 45 L Street, 
+NE, Washington, D.C. 20554.123  Questions regarding payment procedures should be directed to the 
+Financial Operations Group Help Desk by phone, 1-877-480-3201, or by e-mail, 
+ARINQUIRIES@fcc.gov. 
+      34.    The written statement seeking reduction or cancellation of the proposed forfeiture, if any, 
+must include a detailed factual statement supported by appropriate documentation and affidavits pursuant 
+to sections 1.16 and 1.80(g)(3) of the Commission’s rules.124  The written statement must be mailed to the 
+Office of the Secretary, Federal Communications Commission, 45 L Street, NE, Washington, D.C. 20554, 
+ATTN:  Enforcement Bureau – Telecommunications Consumers Division, and must include the 
+NAL/Account Number referenced in the caption.  The statement must also be e-mailed to Daniel 
+Stepanicich at daniel.stepanicich@fcc.gov.  
+
+                           
+119 For questions regarding payment procedures, please contact the Financial Operations Group Help Desk by phone 
+at 1-877-480-3201 (option #6). 
+120 FCC Form 159 is accessible at https://www.fcc.gov/licensing-databases/fees/fcc-remittance-advice-form-159. 
+121 Information completed using the Commission’s Registration System (CORES) does not require the submission 
+of an FCC Form 159.  CORES is accessible at https://apps.fcc.gov/cores/userLogin.do. 
+122 Instructions for completing the form may be obtained at http://www.fcc.gov/Forms/Form159/159.pdf.  
+123 See 47 CFR § 1.1914. 
+124 Id. §§ 1.16, 1.80(g)(3). 
+                                          15 
+                           Federal Communications Commission                 FCC 24-60 
+
+       35.   The Commission will not consider reducing or canceling a forfeiture in response to a 
+claim of inability to pay unless the petitioner submits the following documentation:  (1) federal tax returns 
+for the past three years; (2) financial statements for the past three years prepared according to generally 
+accepted accounting practices; or (3) some other reliable and objective documentation that accurately 
+reflects the petitioner’s current financial status.125  Any claim of inability to pay must specifically identify 
+the basis for the claim by reference to the financial documentation.  Inability to pay, however, is only one 
+of several factors that the Commission will consider in determining the appropriate forfeiture, and we 
+retain the discretion to decline reducing or canceling the forfeiture if other prongs of 47 U.S.C. § 
+503(b)(2)(E) support that result.126   
+       36.   IT IS FURTHER ORDERED that a copy of this Notice of Apparent Liability for 
+Forfeiture and the Verified Call Detail Records shall be sent by first class mail and certified mail, return 
+receipt requested, to Alex Valencia, Chief Compliance Officer, Lingo Telecom, LLC d/b/a Americatel, 
+Bullseye, Clear Choice Communications, Excel Telecommunications, Impact Telecom, Lingo, Lingo 
+Communications, Matrix Business Technologies, Matrix Telecom, LLC, Startec Global Communications, 
+Trinsic Communications, Vartec Telecom, 25925 Telegraph Road, Suite 210, Southfield, MI 48033 and 
+to Kevin G. Rupy and Thomas M. Johnson, Jr., Counsel for Lingo Telecom, LLC, Wiley Rein LLP, 2050 
+M St. NW, Washington, D.C. 20036. 
+ 
+
+                                        FEDERAL COMMUNICATIONS COMMISSION 
+ 
+ 
+ 
+ 
+                                        Marlene H. Dortch 
+                                        Secretary
+
+
+                           
+125 47 U.S.C. § 503(b)(2)(E). 
+126 See, e.g., Ocean Adrian Hinson, Surry County, North Carolina, Forfeiture Order, 34 FCC Rcd 7619, 7621, para. 
+9 & n.21 (2019); Vearl Pennington and Michael Williamson, Forfeiture Order, 34 FCC Rcd 770, paras. 18-21 
+(2019); Fabrice Polynice, Harold Sido and Veronise Sido, North Miami, Florida, Forfeiture Order, 33 FCC Rcd 
+6852, 6860-62, paras. 21-25 (2018); Adrian Abramovich, Marketing Strategy Leaders, Inc., and Marketing Leaders, 
+Inc., Forfeiture Order, 33 FCC Rcd 4663, 4678-79, paras. 44-45 (2018); Purple Communications, Inc., Forfeiture 
+Order, 30 FCC Rcd 14892, 14903-04, paras. 32-33 (2015); TV Max, Inc., et al., Forfeiture Order, 29 FCC Rcd 8648, 
+8661, para. 25 (2014). 
+                                          16 
+                           Federal Communications Commission                 FCC 24-60 
+
+                                    STATEMENT OF 
+                       CHAIRWOMAN JESSICA ROSENWORCEL 
+
+Re:   In the Matter of Lingo Telecom, LLC, File No.: EB-TCD-24-00036425, Notice of Apparent 
+      Liability for Forfeiture (May 23, 2024) 
+
+       Last year in Nigeria, a clip manipulated with Artificial Intelligence spread far and wide.  It 
+showed a presidential candidate scheming to rig ballots.  In Slovakia, people across the country heard a 
+manipulated audio clip of an opposition candidate supporting both election fraud and an effort to raise the 
+price of beer.   
+       But there is no need to travel to far-off lands to see how AI can sow confusion.  Because this year 
+in the United States a fraudulent campaign targeted voters in New Hampshire.  It used AI-generated voice 
+cloning to mimic an unauthorized message from President Biden, two days before the primary election in 
+the state.  This is unnerving.  Because when a caller sounds like a politician you know, a celebrity you 
+like, or a family member who is familiar, any one of us could be tricked into believing something that is 
+not true with calls using AI technology.  It is exactly how the bad actors behind these junk calls with 
+manipulated voices want you react.   
+       So when we saw this happen here, on our shores, we acted fast.  The Federal Communications 
+Commission issued a Declaratory Ruling that made clear that “artificial or prerecorded voice” robocalls 
+using AI voice cloning technology violate the Telephone Consumer Protection Act.  We partnered in this 
+effort with State Attorneys General, including the New Hampshire Attorney General, who is one of 49 
+State Attorneys General who have signed on to a Memorandum of Understanding to work with this 
+agency on junk robocalls.  This ruling matters.  Because it gives our state colleagues the right to go after 
+bad actors behind these calls and seek damages under the law.  Then we worked with carriers to trace 
+those responsible for this calling campaign.  When we found the carrier behind it, we immediately sent a 
+cease and desist letter and notified all other carriers to go ahead and stop carrying this traffic.   
+       Today, we tie up our investigation into these New Hampshire calls with two separate actions.  
+       First, we hold Steve Kramer responsible for the scam calls he set up to defraud voters using call 
+spoofing technology that violates the Truth in Caller ID Act.  This fine is $6,000,000. 
+       Second, we hold Lingo Telecom, the carrier that put these scam calls on the line, responsible for 
+failing to follow our call authentication policies.  This fine is $2,000,000. 
+       But this is only a start.  Because we know AI technologies that make it cheap and easy to flood 
+our networks with fake stuff are being used in so many ways here and abroad.  It is especially chilling to 
+see them used in elections.  That is why yesterday I shared with my colleagues a proposal to require 
+election advertisements in the United States to simply disclose if  they use AI technology.  I think as these 
+tools become more accessible, every one of us has a right to know. 
+       Back to the enforcement actions before us.  They are the result of fast work and valuable 
+partnerships.  A special thank you goes to New Hampshire Attorney General John Formella and his staff 
+for assistance with this investigation.   
+       I also want to thank the agency staff for their work, including Loyaan Egal, Jermaine Haynes, 
+Peter Hyun, Balki Labbor, Ryan McDonald, Rakesh Patel, Raul Rojo, Daniel Stepanicich, Kristi 
+Thompson, and Jane van Benten from the Enforcement Bureau; Erik Beith, Elizabeth Drogula, Jonathan 
+Lechter, and Zachary Ross from the Wireline Competition Bureau; Jerusha Burnett and Kristi Thornton 
+from the Consumer and Governmental Affairs Bureau; Richard Mallen, Erika Olsen, Joel Rabinowitz, 
+and Derek Yeo from the Office of General Counsel; and Ed Cureg and Kenneth Lynch from the Office of 
+Economics and Analytics.
+
+
+                                          17 
+                           Federal Communications Commission                 FCC 24-60 
+
+                            CONCURRING STATEMENT OF 
+                          COMMISSIONER BRENDAN CARR 
+ 
+Re:   In the Matter of Lingo Telecom, LLC, File No.: EB-TCD-24-00036425, Notice of Apparent 
+      Liability for Forfeiture (May 23, 2024) 
+ 
+      I agree that the FCC needs to continue its efforts to crack down on illegal robocalls.  They are an 
+unquestionable scourge—not only an annoyance to so many Americans, but also a way for bad actors to 
+perpetuate fraud. 
+      In this case, it is apparent that the person who orchestrated this robocall scheme violated the 
+FCC’s rules.  And I have voted to approve that Notice of Apparent Liability.  With respect to the voice 
+service provider that the caller used to originate the calls in question, the FCC alleges here that the 
+provider failed to implement STIR/SHAKEN.  The FCC’s argument is not that the provider took no steps 
+to implement the STIR/SHAKEN framework.  Rather, the NAL alleges that the steps the voice service 
+provider took to implement the framework failed to apply the correction attestation level.   
+      Although these allegations will require careful review, I will also be focused on ensuring that the 
+FCC does not undertake “rulemaking through enforcement” by creating new, substantive obligations that 
+go beyond the standards set forth in our existing rules.  We need to be careful that we do not undermine 
+reasonable reliance on prior FCC decisions and spring enforcement on parties seeking to comply in good 
+faith.  With that said, NALs are not final decisions on the merits.  I will keep an open mind as the FCC 
+reviews the record in this proceeding.
+
+
+                                          18 
+                           Federal Communications Commission                 FCC 24-60 
+
+                                   STATEMENT OF 
+                         COMMISSIONER GEOFFREY STARKS 
+                                            
+Re:    In the Matter of Lingo Telecom, LLC, File No.: EB-TCD-24-00036425, Notice of Apparent 
+      Liability for Forfeiture (May 23, 2024) 
+ 
+      This January, two days before the New Hampshire primary election, Steve Kramer orchestrated 
+an illegal robocall campaign.  He targeted thousands of voters.  And his message was among the most 
+anti-democratic things a person can push in our society: don’t vote.  But who would listen Steve Kramer?  
+So he used the voice of the President of the United States, deployed from the phone number of a New 
+Hampshire political operative.  All it took was the help of an acquaintance, publicly available software 
+technology, and $150.  With that, Kramer generated a deepfake recording of the President telling eligible 
+voters to stay at home on election day.    
+      But that wasn’t enough to get this dangerous message to thousands of people.  For years, we have 
+been building safeguards into our telephone networks, to block illegal calls before they reach your phone.  
+But Lingo Telecom, LLC, the company that originated many of the calls at issue, did not follow those 
+legally-required safeguards.  It passed on Kramer’s call, associated with spoofed caller ID information, 
+with the highest level of attestation available under STIR/SHAKEN – an “A-level” attestation.  It verified 
+a relationship between the spoofed number and the party that transmitted the calls to Lingo that did not 
+exist, and that it should have known did not exist.  That smoothed the way for those calls to make their 
+way to thousands of voters across the state.  
+      Today’s Notices of Apparent Liability detail each of these steps – and I emphasize them – to 
+show that it is the combination of these events that can have the most devastating effects.  Had Kramer 
+not been able to duplicate President Biden’s voice so easily, this may have had less impact.1  Voice 
+cloning is a significant threat to the trust and integrity of our phone systems.  This is why, days after 
+Kramer’s actions, the FCC swiftly (and unanimously, I might add) issued a declaratory ruling making 
+clear that calls using voice cloning technologies fall under the requirements – and penalties – of the 
+Telephone Consumer Protection Act.2  And had Lingo not rubber stamped so many of these calls, it could 
+have limited the consequences of Kramer’s scheme.  This is why the FCC requires all voice service 
+providers to implement STIR/SHAKEN, and to use know-your-customer protocols to verify that the party 
+transmitting the call has the authority to use the caller ID they designate.   
+      And this is why, today, we use the authority granted to us by Congress in the Truth in Caller ID 
+Act and the TRACED Act to propose forfeitures against both sides of this equation.   
+      I want to thank the staff of the Enforcement Bureau for their prompt and dedicated investigation 
+into this critical case.  As always with robocall cases, the collaboration of our state, federal, and industry 
+partners was key.  The Bureau conducted this investigation in coordination with the New Hampshire 
+Attorney General’s Office, the bipartisan Anti-Robocall Multistate Litigation Task Force, the Department 
+of Justice, and the Industry Traceback Group.  I extend my thanks to each of those bodies.  And finally, I 
+want to recognize the Chairwoman for her leadership and efforts in building these collaborative 
+relationships, which have proven critical to our enforcement of the law and our protection of American 
+consumers and voters.  
+
+
+                           
+1 That is not to say it would have no impact; we have previously seen illegal robocalls used for voter suppression.  
+See John M. Burkman, Jacob Alexander Wohl, J.M. Burman & Associates, Forfeiture Order, 38 FCC Rcd 5529 
+(2023) (FCC’s assessment of $5,134,000 forfeiture order against perpetrators of 2020 robocall voter suppression 
+scheme for violations of the TCPA). 
+2 Implications of Artificial Intelligence Technologies on Protecting Consumers from Unwanted Robocalls and 
+Robotexts, CG Docket No. 23-362, Declaratory Ruling, FCC 24-17 (2024). 
+                                          19 
+                           Federal Communications Commission                 FCC 24-60 
+
+                                   STATEMENT OF 
+                        COMMISSIONER NATHAN SIMINGTON 
+                                            
+Re:    In the Matter of Lingo Telecom, LLC, File No. EB-TCD-24-00036425, Notice of Apparent 
+       Liability for Forfeiture (May 23, 2024) 
+        
+       This matter touches on the hot-button issue of deepfakes in elections, but fundamentally it’s about 
+FCC oversight of STIR/SHAKEN.  The TRACED Act, now five years old, phased in STIR/SHAKEN 
+requirements over time in an attempt to protect Americans from robocalls by making call authentication 
+more reliable.  In this matter, call authentication and caller ID were undeniably spoofed.  So, why a 
+statement at all, and why not a straightforward approval? 
+       Let’s recap the facts.  Lingo transmitted deepfaked robocalls with spoofed caller IDs across the 
+telephone network.  Lingo was provided with these calls by Life Corp. and Voice Broadcasting Corp., 
+which were engaged by Kramer.  Lingo signed these calls with A-level attestations, indicating that Lingo 
+took responsibility for originating the call onto the voice network; that Lingo has a direct authenticated 
+relationship with the customer, and could identify the customer; and had established a verified association 
+with the telephone number used for the call.  I’m going to focus on the third prong.  The spoofed caller ID 
+showed that the call came from a prominent New Hampshire Democratic Party member, and no one 
+disputes that Life Corp. had no right to use that caller ID. 
+       Lingo states in its defense that it relied on Life Corp.’s contractual statements about numbers and 
+permissions in what the Enforcement Bureau notes was a one-page form with no diligence backing it up.  
+This might not be the most sympathetic defense, but it isn’t an unreasonable one, because the FCC has 
+never required a higher standard.  This is why the FCC has to have recourse to vague statements like 
+“reasonable KYC [know your customer] protocols,” and needs to make a novel finding that a “generic, 
+blanket, check-the-box ‘agreement,’” is insufficient, in order to find liability.  All voice providers 
+nationwide are surely taking note of the FCC’s actions today, but it’s not actually clear what their 
+obligations now are.  Must they immediately implement KYC and, if so, to what standard?  If their 
+current client contracts are inadequate, must they require that all clients sign new ones and, if so, what 
+should the new contracts say?  If they fail to do so, ought they to expect to be fined $1,000 per call? 
+      These are completely open questions because the FCC has never engaged in a rulemaking on this 
+matter, delegating it instead to an industry group and to industry standards.  The problem for our action 
+today is that Lingo probably complied with industry standards.  We might deplore the laxity of these 
+standards, but Lingo might well respond that they were in line with actions that had been repeatedly 
+blessed by the FCC.  And today, by using an enforcement mechanism to declare new standards (however 
+vague,) we are engaged in a back-door rulemaking through enforcement. 
+      I decline to say that the FCC can never do this, because some situations are so urgent or egregious 
+that we have to have the option.  But every time we do, the next step should be to start a rulemaking 
+immediately, and the step after that should be to ask how we allowed the situation to devolve such that we 
+needed to use what ought to be an emergency power.  As such, I concur with the majority while noting 
+that the FCC must immediately act to establish clear standards within which the industry can operate.
+
+
+                                          20 
+                           Federal Communications Commission                 FCC 24-60 
+
+                                   STATEMENT OF 
+                          COMMISSIONER ANNA M. GOMEZ 
+                                            
+Re:    In the Matter of Lingo Telecom, LLC, File No.: EB-TCD-24-00036425, Notice of Apparent 
+      Liability for Forfeiture (May 23, 2024) 
+ 
+      Today, the Commission adopted a Notice of Apparent Liability for Forfeiture to address an action 
+that harmed consumers.  
+      We find that Lingo Telecom, LLC, apparently applied incorrect Secure Telephone Identity 
+Revisited and Signature-based Handling of Asserted Information using toKENs (STIR/SHAKEN) 
+attestations to spoofed robocalls.  Steve Kramer apparently acted with the intent to defraud New 
+Hampshire voters by sending thousands of spoofed robocalls containing a message, created with Artificial 
+Intelligence (AI), imitating President Biden’s voice and instructing listeners to refrain from voting in the 
+New Hampshire primary election.  Through its apparently lax observation of STIR/SHAKEN and our 
+consumer protection requirements, Lingo permitted Kramer’s apparently fraudulent scheme to take place. 
+      This is significant.  Lingo apparently failed to adequately identify spoofed robocalls that harmed 
+New Hampshire voters.  In February of this year, we adopted a Declaratory Ruling confirming that the 
+Telephone Consumer Protection Act’s prohibition on using “artificial or prerecorded voice” to make 
+robocalls includes AI technologies that generate human voices. 
+      The action at issue today exemplifies AI technology being harnessed for harm.  The 
+consequences for consumers and the threat to our democratic processes warrant a strong response.  That is 
+why this proposed penalty is so important, as the Commission must do what is within our power to deter 
+scams manipulating AI to prey on consumers and to threaten our democratic processes.  
+      Thank you for the Enforcement Bureau and all staff at the FCC that contributed to this proposed 
+enforcement action.
+
+
+                                          21 
+                           Federal Communications Commission                 FCC 24-60 
+
+                        DECLARACIÓN DE LA COMISIONADA   
+                                  ANNA M. GOMEZ  
+                                            
+Re:   In the Matter of Lingo Telecom, LLC, File No.: EB-TCD-24-00036425, Notice of Apparent 
+      Liability for Forfeiture (May 23, 2024) 
+ 
+        La Comisión propone hoy confiscaciones por actividades que perjudican a los consumidores.   
+        Hemos detectado que el señor Steve Kramer actuó aparentemente con la intención de defraudar 
+a los electores de New Hampshire, engañándolos en relación con su derecho a voto.  Kramer transmitió 
+miles de llamadas automáticas usando una voz idéntica a la del Presidente Biden, generada con 
+inteligencia artificial, instruyendo a los electores para que no acudieran a votar en las elecciones 
+primarias.   
+        También hallamos que Lingo Telecom, mediante su aparentemente laxa aplicación de los 
+requisitos de protección al consumidor establecidos por la FCC, permitió que se llevara a cabo la 
+maniobra, aparentemente fraudulenta, del señor Kramer. 
+        Todo esto es relevante.  Las aparentes acciones de Kramer no sólo perjudican a los electores de 
+New Hampshire, sino que también afectan la confianza en la democracia.  Las aparentes acciones de 
+Lingo no lograron identificar adecuadamente las llamadas automáticas falsificadas.   
+        En febrero de este año, adoptamos una resolución declaratoria confirmando que la prohibición 
+de utilizar “voz artificial o pregrabada” para realizar llamadas automáticas también incluye a tecnologías 
+de inteligencia artificial que imitan voces humanas.  Las actividades en cuestión hoy ejemplifican el uso 
+de la tecnología de inteligencia artificial para causar daño.  Las consecuencias para los consumidores, y la 
+amenaza que estas actividades representan para nuestros procesos democráticos, justifican una respuesta 
+contundente.   
+        Por eso las sanciones propuestas son tan importantes, ya que la Comisión debe hacer todo lo 
+que esté a su alcance para desalentar a los estafadores que manipulan la inteligencia artificial con el 
+propósito de aprovecharse de los consumidores, amenazando nuestros procesos democráticos. 
+        Agradecemos a la oficina de aplicación de normas (Enforcement Bureau) y a todo el personal 
+de la FCC que ha contribuido en la elaboración de esta propuesta de aplicación de normas. 
+       
+ 
+        
+        
+       
+ 
+        
+ 
+ 
+ 
+ 
+
+
+                                          22 

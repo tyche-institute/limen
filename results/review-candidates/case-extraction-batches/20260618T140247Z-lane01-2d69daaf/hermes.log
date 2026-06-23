@@ -1,0 +1,18 @@
+
+session_id: 20260618_160247_1fc633
+Готово.
+
+Созданы/обновлены:
+
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260618T140247Z-lane01-2d69daaf/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260618T140247Z-lane01-2d69daaf/case-extraction-summary.md
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260618T140247Z-lane01-2d69daaf/manifest.json
+
+Проверка:
+- input rows: 1
+- output rows: 1
+- source_cluster_key set match: yes
+- omissions/extras/duplicates: none
+- verdict: closed_noncase_source_surface
+
+Источник обработан как EUR-Lex law/policy surface, без reviewed-core promotion и без ObscureAI addition.

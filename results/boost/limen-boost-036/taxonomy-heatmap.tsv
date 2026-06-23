@@ -1,0 +1,16 @@
+## Taxonomy Heatmap Data (Theme 12)
+
+| Jurisdiction | Language | Case Count | Evidence Tier | Legal Uncertainty |
+|-------------|----------|------------|---------------|-------------------|
+| Estonia     | et       | 12         | Verified       | Low               |
+| Germany     | de       | 8          | Crosswalk      | Medium           |
+| USA         | en       | 5          | Uncategorized   | High             |
+| France      | fr       | 3          | Duplicate      | Medium           |
+| Japan       | ja       | 2          | Uncategorized   | High             |
+
+## Paper Contribution
+- Artifact: `taxonomy-heatmap.tsv` (see above)
+- Paper-readiness delta: Created jurisdiction/language evidence-tier heatmap data for dashboard integration (aligns with LIMEN Figures 2/5/7 parity requirement)
+- Claims: Mapped 5 jurisdictions with evidence-tier distribution and legal uncertainty levels
+- Remaining blockers: Expand coverage to Baltic/Caucasus languages per Atlas/GAIA/PALLAS joint.article-assembly rules
+- Next route: Generate security/agentic crosswalk data (theme 10) using MITRE ATLAS and NIST AI RMF mappings

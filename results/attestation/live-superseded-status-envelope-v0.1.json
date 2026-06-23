@@ -1,0 +1,129 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-0005",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-07T06:48:37Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-receipt-profile-20260607T064837Z",
+  "action": "superseded",
+  "subject_ref": {
+    "kind": "artifact",
+    "id": "results/attestation/status.md",
+    "path_or_uri": "results/attestation/status.md",
+    "title": "LIMEN attestation receipt profile status note",
+    "version": "2026-06-07T06:48:37Z"
+  },
+  "inputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/status.md#pre-update",
+      "media_type": "text/markdown",
+      "sha256": "sha256:cdaf19920e09dd7b9315290a5f14ced850aaac292586edb71b067f83ab9ecfd4",
+      "captured_at": "2026-06-07T06:48:37Z",
+      "language": "en",
+      "jurisdiction": "project_internal",
+      "source_family": "local_research_artifact",
+      "rights_notes": "pre-update local status note preserved as superseded input"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/status.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:4839ebbb8e44e92b24c280f504fefa811ecaa7f0f74558850a3b01326a7cc4ba",
+      "emitted_at": "2026-06-07T06:48:37Z",
+      "language": "en",
+      "jurisdiction": "project_internal",
+      "source_family": "local_research_artifact",
+      "rights_notes": "updated local status note with live supersession coverage"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/live-superseded-status-note-v0.1.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:f4bb6510472607249cfb8a06ff094a7a56d4361b92c1ee85228b5fa0e6a4bb78",
+      "emitted_at": "2026-06-07T06:48:37Z",
+      "language": "en",
+      "jurisdiction": "project_internal",
+      "source_family": "local_research_artifact",
+      "rights_notes": "reviewer-facing bounded correction note for local status supersession"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "A1",
+      "assertion_type": "review_decision",
+      "statement": "The earlier attestation status note is superseded because the package now includes a live superseded receipt and corresponding schema guard coverage.",
+      "value": {
+        "replaced_claim": "package still lacks a live superseded receipt",
+        "replacement_scope": "local provenance status correction only"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0
+      ],
+      "supporting_output_refs": [
+        0,
+        1
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A2",
+      "assertion_type": "uncertainty_note",
+      "statement": "This supersession records a bounded update to a local status artifact and does not imply global finality, external publication, legal significance, or truth of any underlying LIMEN case.",
+      "value": {
+        "claim_ceiling": "observation_and_processing_only",
+        "supersession_kind": "local_status_note_replacement"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    }
+  ],
+  "schema_refs": [
+    "urn:tyche:limen:envelope:0.1"
+  ],
+  "tooling": {
+    "model_name": "gpt-5.4",
+    "provider": "openai-codex",
+    "schema_version": "0.1"
+  },
+  "review_status": "lane_checked",
+  "review_notes": [
+    "Supersession is limited to the local status artifact and its provenance description.",
+    "Do not read this receipt as a signed release, external publication event, or substantive correction of underlying case facts."
+  ],
+  "dashboard_hooks": [
+    "attestation_timeline"
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ],
+  "supersession": {
+    "prior_envelope_id": "LIMEN-ENV-STATUS-PRE-LIVE-SUPERSESSION-0001",
+    "prior_generated_at": "2026-06-07T06:48:37Z",
+    "superseded_locator": "results/attestation/status.md#pre-update",
+    "superseded_sha256": "sha256:cdaf19920e09dd7b9315290a5f14ced850aaac292586edb71b067f83ab9ecfd4",
+    "prior_subject_version": "pre-live-supersession-status-tail",
+    "reason_code": "artifact_refresh",
+    "replacement_scope": "local attestation status-note currentness and coverage update only",
+    "notes": [
+      "Supersession is limited to the local status artifact and does not imply external publication or factual finality.",
+      "The replacement target remains a project-internal provenance note rather than a trust-anchor-bearing release object."
+    ]
+  }
+}

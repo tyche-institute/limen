@@ -1,0 +1,13 @@
+# Source review summary
+
+- batch id: 20260614T091627Z-lane08-3c74ea87
+- rows reviewed: 100
+- verdict counts:
+  - source_reviewed_candidate: 2
+  - merge_existing_surface: 13
+  - negative_evidence_candidate: 29
+  - needs_named_source_extraction: 17
+  - translation_review_needed: 3
+  - reject_noise: 36
+- boundary statement: Reviewed local metadata and local source files only for source-surface triage. No web crawling and no claims about incident truth, legality, compliance, safety, deployment, prevalence, or ranking.
+- next smallest queue-hardening move: Prioritize wrapper/proxy rows that already name a jurisdiction or platform and extract one concrete official register, portal, notice, or regulator surface per row.

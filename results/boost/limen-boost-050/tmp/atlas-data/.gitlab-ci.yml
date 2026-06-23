@@ -1,0 +1,22 @@
+stages:
+  - test
+
+pytest:
+  stage: test
+  image: python:3.12
+  variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+    UV_CACHE_DIR: "$CI_PROJECT_DIR/.cache/uv"
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+    paths:
+      - .cache/pip
+      - .cache/uv
+      - .venv
+  before_script:
+    - python --version
+    - pip install --upgrade pip
+    - pip install uv
+    - uv sync --dev
+  script:
+    - uv run pytest

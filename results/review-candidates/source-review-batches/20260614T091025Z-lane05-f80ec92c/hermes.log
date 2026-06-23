@@ -1,0 +1,26 @@
+
+session_id: 20260614_111025_cedece
+Готово.
+
+Обновлены файлы:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091025Z-lane05-f80ec92c/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091025Z-lane05-f80ec92c/source-review-summary.md
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091025Z-lane05-f80ec92c/manifest.json
+
+Итоги batch:
+- rows reviewed: 100
+- merge_existing_surface: 13
+- needs_named_source_extraction: 16
+- negative_evidence_candidate: 12
+- reject_noise: 47
+- source_reviewed_candidate: 7
+- translation_review_needed: 5
+
+Проверка перед остановкой:
+- input_rows = 100
+- output_rows = 100
+- same_signal_id_set = true
+- duplicate_output_signal_ids = 0
+- header matches required schema
+
+Manifest переведён в status: completed с details/verification.

@@ -1,0 +1,24 @@
+
+session_id: 20260616_144433_fe1cb5
+Completed.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T124431Z-lane3-78fb25fc/bulk-translation-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T124431Z-lane3-78fb25fc/bulk-translation-review-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T124431Z-lane3-78fb25fc/manifest.json
+
+Verified:
+- input rows: 16
+- output rows: 16
+- queue_id set matches: true
+- duplicate output queue_id values: 0
+- required header present exactly
+
+Verdict counts:
+- candidate_for_parent_source_extraction: 4
+- cross_project_duplicate: 2
+- needs_original_language_source: 1
+- source_surface_only_no_case: 5
+- translation_source_reviewed: 4

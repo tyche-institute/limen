@@ -1,0 +1,32 @@
+
+session_id: 20260614_111348_556f0c
+Готово.
+
+Обновил:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091347Z-lane03-715d62c6/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091347Z-lane03-715d62c6/source-review-summary.md
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091347Z-lane03-715d62c6/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- signal_id set match: true
+- duplicate output ids: none
+
+Итоги по вердиктам:
+- source_reviewed_candidate: 11
+- merge_existing_surface: 11
+- negative_evidence_candidate: 29
+- needs_named_source_extraction: 8
+- translation_review_needed: 1
+- reject_noise: 40
+
+Граница соблюдена:
+- использовал только локальные metadata и локальные файлы
+- web crawl/public actions не выполнял
+- классификация ограничена source-surface triage, без выводов о truth / legality / compliance / safety / prevalence / ranking
+
+Если хочешь, могу следующим ходом сразу сделать “queue-hardening follow-up”:
+1) выписать 8 rows из needs_named_source_extraction в отдельный extraction batch
+2) собрать все 11 merge_existing_surface в dedupe map
+3) отфильтровать 40 reject_noise из upstream queue logic и предложить rule patch.

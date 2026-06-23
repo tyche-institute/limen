@@ -1,0 +1,23 @@
+
+session_id: 20260617_005553_82a182
+Готово.
+
+Созданы/обновлены файлы:
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane43-e2423cad/case-extraction-results.tsv
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane43-e2423cad/case-extraction-summary.md
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane43-e2423cad/manifest.json
+
+Verification:
+- input rows: 16
+- result rows: 16
+- unique input keys: 16
+- unique result keys: 16
+- key sets match: true
+- duplicate result keys: 0
+- exact required TSV header: true
+- verdict counts: closed_noncase_source_surface = 16
+
+No reviewed-core promotion and no ObscureAI addition performed.

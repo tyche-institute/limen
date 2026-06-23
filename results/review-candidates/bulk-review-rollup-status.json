@@ -1,0 +1,245 @@
+{
+  "all_queues_complete": true,
+  "archived_stale_result_queue_ids": 1907,
+  "boundary": "Bulk rollup is processing-state only; no reviewed-core promotion, ObscureAI addition, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
+  "current_output_clean": false,
+  "generated_at_utc": "2026-06-23T19:58:28Z",
+  "has_blocking_integrity_issue": true,
+  "has_duplicate_queue_ids": false,
+  "has_duplicate_queue_ids_in_queue": false,
+  "has_extra_queue_ids": true,
+  "has_failed_batches": true,
+  "has_signal_mismatch_queue_ids": true,
+  "has_stale_result_queue_ids": true,
+  "tasks": {
+    "bulk_translation_review": {
+      "completed_unique_queue_ids": 751,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-translation-review-results.tsv",
+      "duplicate_queue_ids": 0,
+      "duplicate_queue_ids_in_queue": 0,
+      "extra_queue_ids": 0,
+      "failed_batches": [],
+      "manifest_statuses": {
+        "complete": 53
+      },
+      "manifest_verdict_counts": {
+        "candidate_for_parent_source_extraction": 126,
+        "cross_project_duplicate": 178,
+        "machine_translation_hold": 40,
+        "needs_original_language_source": 58,
+        "reject_noise": 12,
+        "source_surface_only_no_case": 237,
+        "translation_source_reviewed": 165
+      },
+      "missing_queue_ids": 0,
+      "name": "bulk_translation_review",
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-translation-review-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/bulk-translation-review-queue.tsv",
+      "queue_rows": 751,
+      "result_files": 53,
+      "result_rows_seen": 816,
+      "sample_duplicate_queue_ids": [],
+      "sample_duplicate_queue_ids_in_queue": [],
+      "sample_extra_queue_ids": [],
+      "sample_missing_queue_ids": [],
+      "sample_signal_mismatch_queue_ids": [],
+      "sample_stale_result_queue_ids": [
+        "BTR-00704",
+        "BTR-00705",
+        "BTR-00706",
+        "BTR-00707",
+        "BTR-00708",
+        "BTR-00709",
+        "BTR-00710",
+        "BTR-00711",
+        "BTR-00712",
+        "BTR-00713",
+        "BTR-00714",
+        "BTR-00715",
+        "BTR-00716",
+        "BTR-00717",
+        "BTR-00718",
+        "BTR-00719",
+        "BTR-00720",
+        "BTR-00721",
+        "BTR-00722",
+        "BTR-00723"
+      ],
+      "signal_mismatch_queue_ids": 0,
+      "stale_result_queue_ids": 65,
+      "verdict_counts": {
+        "candidate_for_parent_source_extraction": 116,
+        "cross_project_duplicate": 163,
+        "machine_translation_hold": 40,
+        "needs_original_language_source": 57,
+        "reject_noise": 12,
+        "source_surface_only_no_case": 222,
+        "translation_source_reviewed": 141
+      }
+    },
+    "parent_source_extraction": {
+      "completed_unique_queue_ids": 1832,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-parent-source-extraction-results.tsv",
+      "duplicate_queue_ids": 0,
+      "duplicate_queue_ids_in_queue": 0,
+      "extra_queue_ids": 1,
+      "failed_batches": [
+        {
+          "batch_id": "20260623T151250Z-lane1-25be054c",
+          "failure_reason": "unexpected result header: ['queue_id', 'signal_id', 'bulk_source_verdict', 'extracted_source_url', 'source_name', 'evidence_location', 'reason']"
+        },
+        {
+          "batch_id": "20260623T182332Z-lane1-593299a2",
+          "failure_reason": "unexpected result header: ['queue_id,signal_id,bulk_source_verdict,extracted_source_url,source_name,evidence_location,reason,claim_ceiling,next_action']"
+        },
+        {
+          "batch_id": "20260623T183614Z-lane2-1e375ea2",
+          "failure_reason": "unexpected result header: ['queue_id', 'signal_id', 'bulk_source_verdict', 'extracted_source_url', 'source_name', 'evidence_location', 'r reason', 'claim_ceiling', 'next_action']"
+        },
+        {
+          "batch_id": "20260623T184150Z-lane13-f29c5a05",
+          "failure_reason": "missing parent-source-extraction-results.tsv"
+        },
+        {
+          "batch_id": "20260623T184514Z-lane2-6a0f1e9f",
+          "failure_reason": "unexpected result header: ['queue_id', 'signal_id', 'bulk_source_verdict', 'extracted_source_url', 'source_name', 'evidence_location', 'reason']"
+        }
+      ],
+      "manifest_statuses": {
+        "complete": 160,
+        "failed": 5
+      },
+      "manifest_verdict_counts": {
+        "country_gap_no_parent_source": 2317,
+        "duplicate_existing_core": 1,
+        "parent_source_wrapper": 699,
+        "reject_noise": 30,
+        "source_surface_only_no_case": 188,
+        "source_url_extracted": 424
+      },
+      "missing_queue_ids": 0,
+      "name": "parent_source_extraction",
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-parent-source-extraction-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/parent-source-extraction-queue.tsv",
+      "queue_rows": 1832,
+      "result_files": 164,
+      "result_rows_seen": 3669,
+      "sample_duplicate_queue_ids": [],
+      "sample_duplicate_queue_ids_in_queue": [],
+      "sample_extra_queue_ids": [
+        ""
+      ],
+      "sample_missing_queue_ids": [],
+      "sample_signal_mismatch_queue_ids": [
+        "BPSE-03656",
+        "BPSE-03657"
+      ],
+      "sample_stale_result_queue_ids": [
+        "BPSE-00179",
+        "BPSE-01159",
+        "BPSE-01347",
+        "BPSE-01348",
+        "BPSE-01362",
+        "BPSE-01641",
+        "BPSE-01648",
+        "BPSE-01796",
+        "BPSE-01826",
+        "BPSE-01827",
+        "BPSE-01828",
+        "BPSE-01829",
+        "BPSE-01830",
+        "BPSE-01831",
+        "BPSE-01832",
+        "BPSE-01833",
+        "BPSE-01834",
+        "BPSE-01835",
+        "BPSE-01836",
+        "BPSE-01837"
+      ],
+      "signal_mismatch_queue_ids": 2,
+      "stale_result_queue_ids": 1830,
+      "verdict_counts": {
+        "country_gap_no_parent_source": 817,
+        "duplicate_existing_core": 1,
+        "parent_source_wrapper": 465,
+        "reject_noise": 28,
+        "source_surface_only_no_case": 181,
+        "source_url_extracted": 340
+      }
+    },
+    "translation_parent_source_extraction": {
+      "completed_unique_queue_ids": 116,
+      "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/bulk-translation-parent-source-extraction-results.tsv",
+      "duplicate_queue_ids": 0,
+      "duplicate_queue_ids_in_queue": 0,
+      "extra_queue_ids": 10,
+      "failed_batches": [],
+      "manifest_statuses": {
+        "complete": 16,
+        "superseded_abandoned": 8
+      },
+      "manifest_verdict_counts": {
+        "parent_source_wrapper": 6,
+        "source_surface_only_no_case": 1,
+        "source_url_extracted": 144
+      },
+      "missing_queue_ids": 0,
+      "name": "translation_parent_source_extraction",
+      "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-translation-parent-source-extraction-results-v0.1.tsv",
+      "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-queues/translation-parent-source-extraction-queue.tsv",
+      "queue_rows": 116,
+      "result_files": 16,
+      "result_rows_seen": 151,
+      "sample_duplicate_queue_ids": [],
+      "sample_duplicate_queue_ids_in_queue": [],
+      "sample_extra_queue_ids": [
+        "BTPS-00045",
+        "BTPS-00046",
+        "BTPS-00047",
+        "BTPS-00048",
+        "BTPS-00116",
+        "BTPS-00117",
+        "BTPS-00128",
+        "BTPS-00129",
+        "BTPS-00130",
+        "BTPS-00131"
+      ],
+      "sample_missing_queue_ids": [],
+      "sample_signal_mismatch_queue_ids": [
+        "BTPS-00049",
+        "BTPS-00050",
+        "BTPS-00051",
+        "BTPS-00052",
+        "BTPS-00053",
+        "BTPS-00054",
+        "BTPS-00055",
+        "BTPS-00056",
+        "BTPS-00057",
+        "BTPS-00058",
+        "BTPS-00059",
+        "BTPS-00060"
+      ],
+      "sample_stale_result_queue_ids": [
+        "BTPS-00045",
+        "BTPS-00046",
+        "BTPS-00047",
+        "BTPS-00048",
+        "BTPS-00118",
+        "BTPS-00119",
+        "BTPS-00120",
+        "BTPS-00121",
+        "BTPS-00122",
+        "BTPS-00123",
+        "BTPS-00124",
+        "BTPS-00132"
+      ],
+      "signal_mismatch_queue_ids": 12,
+      "stale_result_queue_ids": 12,
+      "verdict_counts": {
+        "parent_source_wrapper": 6,
+        "source_surface_only_no_case": 1,
+        "source_url_extracted": 109
+      }
+    }
+  }
+}

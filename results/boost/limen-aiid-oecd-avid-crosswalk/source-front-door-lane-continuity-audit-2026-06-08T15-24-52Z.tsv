@@ -1,0 +1,5 @@
+artifact_path	field_or_section	prior_state	repaired_state	paper_readiness_use
+results/crosswalks/source-status-v0.1.md	Primary lane preserved here	limen-continuous-experiments	limen-aiid-oecd-avid-crosswalk	prevents stale lane attribution in reviewer-facing source front door
+methods/crosswalk-method-note-v0.1.md	Lane metadata	limen-continuous-experiments	limen-aiid-oecd-avid-crosswalk	keeps methods note reproducibility trail aligned with runtime envelope
+results/crosswalks/status.md	Current cycle focus / lane continuity note	shared front-door coherence without active source lane routing	shared front-door coherence plus active limen-aiid-oecd-avid-crosswalk routing contract	reduces publication-routing ambiguity across legal and source crosswalk consumers
+results/crosswalks/source-crosswalk-v0.1.tsv	status_front_door_contract_now	front-door contract omitted active lane-local continuity handle	front-door contract appends canonical lane-local cycle handle	gives row-level table consumers a direct route to the current source package audit trail

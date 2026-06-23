@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-06-23T15:50:33+00:00Z",
+  "hits": [
+    {
+      "term": "agentic",
+      "error": "400 Client Error: Bad Request for url: https://api.crossref.org/works?query.title=agentic&filter=from-pub-date%3A2024%2Cuntil-pub-date%3A2026%2Ctype%3Ajournal-article%2Ccontainer-title%3A%2A%2Cpublished-online&rows=20&offset=0"
+    },
+    {
+      "term": "agent LLM",
+      "error": "400 Client Error: Bad Request for url: https://api.crossref.org/works?query.title=agent+LLM&filter=from-pub-date%3A2024%2Cuntil-pub-date%3A2026%2Ctype%3Ajournal-article%2Ccontainer-title%3A%2A%2Cpublished-online&rows=20&offset=0"
+    },
+    {
+      "term": "agentic-control",
+      "error": "400 Client Error: Bad Request for url: https://api.crossref.org/works?query.title=agentic-control&filter=from-pub-date%3A2024%2Cuntil-pub-date%3A2026%2Ctype%3Ajournal-article%2Ccontainer-title%3A%2A%2Cpublished-online&rows=20&offset=0"
+    },
+    {
+      "term": "LLM agent security",
+      "error": "400 Client Error: Bad Request for url: https://api.crossref.org/works?query.title=LLM+agent+security&filter=from-pub-date%3A2024%2Cuntil-pub-date%3A2026%2Ctype%3Ajournal-article%2Ccontainer-title%3A%2A%2Cpublished-online&rows=20&offset=0"
+    },
+    {
+      "term": "agent security",
+      "error": "400 Client Error: Bad Request for url: https://api.crossref.org/works?query.title=agent+security&filter=from-pub-date%3A2024%2Cuntil-pub-date%3A2026%2Ctype%3Ajournal-article%2Ccontainer-title%3A%2A%2Cpublished-online&rows=20&offset=0"
+    }
+  ]
+}

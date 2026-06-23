@@ -1,0 +1,35 @@
+{
+  "by_query": {
+    "AI procurement": 2543,
+    "AI register": 2556,
+    "algorithm register": 8748,
+    "automated decision": 1953,
+    "procurement AI": 616,
+    "public administration AI": 86,
+    "public sector AI": 845,
+    "regulatory sandbox": 8302
+  },
+  "by_root": {
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory": 6599,
+    "/srv/tyche/gaia/tyche-research-vault": 2918,
+    "/srv/tyche/pallas/pallas-ai-agent-observatory": 11865,
+    "/srv/tyche/projects/limen-ai-edge-case-atlas": 751,
+    "/srv/tyche/projects/public-ai-procurement-gap": 1515,
+    "/srv/tyche/projects/public-ai-registry": 2001
+  },
+  "failures": [],
+  "match_count": 25649,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/public-sector/20260608T031945Z/matches.tsv",
+  "query_count": 9,
+  "roots": [
+    "/srv/tyche/gaia/tyche-research-vault",
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory",
+    "/srv/tyche/pallas/pallas-ai-agent-observatory",
+    "/srv/tyche/projects/public-ai-registry",
+    "/srv/tyche/projects/public-ai-procurement-gap",
+    "/srv/tyche/projects/limen-ai-edge-case-atlas"
+  ],
+  "run_id": "20260608T031945Z",
+  "shard": "public-sector",
+  "timestamp_utc": "2026-06-08T03:19:54Z"
+}

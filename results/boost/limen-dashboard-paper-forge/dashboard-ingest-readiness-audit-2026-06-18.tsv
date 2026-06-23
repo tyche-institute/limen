@@ -1,0 +1,8 @@
+file	surface	rows	cols	sha256	identifier	count_scope	claim_ceiling	dashboard_hook	provenance	uncertainty_caution	safe_reading
+source-family-coverage.tsv	Source-family saturation map / Figure 1-4	15	23	b1d3a0e616db24d48109b76606a900a229a983f8d18a4ed1aa37034aa588bf2f	True	True	True	True	True	True	source-family saturation and uncertainty; not completeness
+taxonomy-heatmap.tsv	Taxonomy heatmap / Figure 2 + Table 2	15	21	c0c9db0ed86acdf4f9910bd9e78ff03fae52303150bf5b62217954f721fdff75	True	True	True	True	False	True	taxonomy support and residual pressure; not prevalence
+evidence-funnel.tsv	Evidence-tier funnel / Figure 3 and publication-safe lineage surface	11	8	866475937cae0d4103b2adb4052be18cf5afac0352b34ec3df1232e9c844b499	True	True	True	False	False	False	evidence maturity and proof ceilings; not truth or legal finding
+jurisdiction-language-coverage.tsv	Jurisdiction/language map / Figure 5 sidecar	12	10	8bb99a9b5e4d35bb945d4d63f99791d4eb80ca4f8d2d7fb14115ebe964f2400a	True	True	True	False	True	True	visibility burden; not country ranking or readiness
+legal-uncertainty-matrix.tsv	Legal uncertainty matrix / Figure 6	15	13	e7e9859a36b3b87427891fe185129e2387fa136f4c3b52e0f0924c506d94f751	True	True	True	True	True	True	verification routing; not legal conclusion
+security-threshold-ladder-panel.tsv	Security/agentic ladder / Figure 7	4	8	c989a5509d9ea6337312231e40ab3f6324608d12aa2c6cd6b4c0aa02794ff2e1	True	True	True	True	False	True	bounded route logic; not security prevalence
+duplicate-review-graph.tsv	Duplicate-review graph / Figure 8	27	12	bb36d1fd9ddc2833d5abc3c57236b8f43c65c90d8f1b2a8c8092287dea8ec66d	True	False	False	False	True	True	double-counting control; not proof no duplicates remain

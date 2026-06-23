@@ -1,0 +1,16 @@
+public_id	title	source_url_or_artifact	evidence_tier_code	source_family_code	primary_category_code	claim_ceiling_code	coder_notes
+LIMEN-AUTH-000001	Italian DPA orders urgent provisional limitation on ChatGPT personal-data processing in Italy	exports/cases.tsv					
+LIMEN-AUTH-000002	EEOC sues iTutorGroup over age-discriminatory automated tutor-screening software	exports/cases.tsv					
+LIMEN-AUTH-000003	DOJ charges Nate founder over alleged AI investment-fraud misstatements and hidden human transaction processing	exports/cases.tsv					
+LIMEN-SEC-000001	Langflow custom_component endpoint allows public candidate record for remote code execution risk	exports/cases.tsv					
+LIMEN-SEC-000004	CrewAI JSON loader allowed arbitrary local file read on the server	exports/cases.tsv					
+LIMEN-AUTH-000004	UK ICO orders Serco Leisure and associated trusts to stop biometric attendance monitoring	exports/cases.tsv					
+LIMEN-ML-000001	Crime suspicion: a man used AI to falsify nude images of relatives and co-workers in a small northern Finnish town	exports/cases.tsv					
+LIMEN-ML-000004	Project ORION: Artificial intelligence for safe border control	exports/cases.tsv					
+LIMEN-AUTH-000006	SEC settlement with Delphia over false and misleading statements about AI and machine learning use	exports/cases.tsv					
+LIMEN-RI-000001	Medical journal fake self-citation letter with direct Springer retraction notice	exports/cases.tsv					
+LIMEN-RI-000002	Springer ML book made-up citations with direct chapter-PDF retraction notice	exports/cases.tsv					
+LIMEN-FTC-000001	FTC final order and complaint package on DoNotPay AI-lawyer and robot-lawyer claims	exports/cases.tsv					
+LIMEN-FTC-000002	FTC final order and complaint package on Workado / Content at Scale AI detector accuracy claims	exports/cases.tsv					
+LIMEN-PS-000001	Danish Datatilsynet decision page on SU-area AI case-processing support	exports/cases.tsv					
+LIMEN-FTC-000003	FTC Rytr AI review/testimonial generator matter with later set-aside posture	exports/cases.tsv					

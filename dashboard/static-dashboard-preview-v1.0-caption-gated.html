@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>LIMEN static dashboard preview v0.1</title>
+<style>
+body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; margin: 2rem; line-height: 1.45; color: #1f2937; background: #f8fafc; }
+header, .card { background: white; border: 1px solid #d8dee9; border-radius: 12px; padding: 1rem 1.25rem; margin: 1rem 0; box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06); }
+h1 { margin-top: 0; }
+.card.pass { border-left: 6px solid #15803d; }
+.card.fail { border-left: 6px solid #b91c1c; }
+.pass { color: #15803d; font-weight: 700; }
+.fail { color: #b91c1c; font-weight: 700; }
+.muted { color: #64748b; font-size: 0.93rem; }
+table { border-collapse: collapse; width: 100%; margin-top: 0.75rem; font-size: 0.9rem; }
+th, td { border: 1px solid #d8dee9; padding: 0.45rem; vertical-align: top; }
+th { background: #eef2ff; text-align: left; }
+code { background: #eef2f7; padding: 0.1rem 0.25rem; border-radius: 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>LIMEN static dashboard preview v0.1</h1>
+  <p><strong>Generated:</strong> 2026-06-18T20:07:53+00:00</p>
+  <p><strong>Lane:</strong> limen-dashboard-paper-forge · <strong>Project:</strong> limen-ai-edge-case-atlas</p>
+  <p><strong>Verdict:</strong> <span class='fail'>FAIL</span> (6 pass / 1 fail)</p>
+  <p>This offline preview renders dashboard surfaces only when the release-card UI config, local TSV row counts, SHA-256 hashes, denominator labels, tooltip requirements, and prohibited-reading warnings agree. It is not a public release and performs no collection, upload, deposit, or submission.</p>
+  <h2>Global reviewer-safe rules</h2>
+  <ul><li>Show the subtitle/denominator label before or next to every count-bearing view.</li><li>Do not substitute denominators across Figure 2, Figure 5, and Figure 7: 39/29 taxonomy support, 21 publication-safe lineages, and 4 threshold rows are distinct.</li><li>Display source-family saturation and uncertainty, not completeness.</li><li>Do not infer legal compliance, liability, official incident status, certification, safety assurance, prevalence, or country ranking from these views.</li><li>Export-level checksums may be shown; row-level access-date/rights labels require a verified source-ledger join before display.</li></ul>
+</header>
+
+<section class='card pass'>
+  <h2>source_family_saturation</h2>
+  <p><strong>Manuscript surface:</strong> Figure 1 / Figure 4</p>
+  <p><strong>Denominator / subtitle:</strong> source-family rows; saturation/uncertainty, not completeness</p>
+  <p><strong>Claim boundary:</strong> public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim</p>
+  <p><strong>Prohibited reading:</strong> completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement</p>
+  <p><strong>Source:</strong> <code>results/dashboard/source-family-coverage.tsv</code> · rows 15 · SHA-256 <code>b1d3a0e616db24d4</code></p>
+  <p><strong>Caption-currentness gate:</strong> <span class='pass'>PASS</span> — caption currentness audit not applicable to this view</p>
+  <p><strong>Gate:</strong> <span class='pass'>PASS</span> — all guards present</p>
+  <table><thead><tr><th>source_family</th><th>saturation_state</th><th>dashboard_readiness</th><th>safe_claim_posture_now</th></tr></thead><tbody><tr><td>AI Incident Database (AIID)</td><td>seeded</td><td>grounded_now</td><td>Use only for methods, taxonomy, comparator, or related-work framing; not a shared empirical claim family now.</td></tr><tr><td>OECD AI Incidents Monitor (OECD AIM)</td><td>seeded</td><td>grounded_now</td><td>Use only for methods, taxonomy, comparator, or related-work framing; not a shared empirical claim family now.</td></tr><tr><td>AI Vulnerability Database (AVID)</td><td>seeded</td><td>grounded_now</td><td>May support shared package explanation or comparator context, but should not stand alone as a shared empirical claim anchor.</td></tr><tr><td>MITRE ATLAS</td><td>seeded</td><td>grounded_now</td><td>May support shared package explanation or comparator context, but should not stand alone as a shared empirical claim anchor.</td></tr><tr><td>MIT AI Risk Repository</td><td>seeded</td><td>grounded_now</td><td>Use only for methods, taxonomy, comparator, or related-work framing; not a shared empirical claim family now.</td></tr></tbody></table><p class='muted'>Showing first 5 of 15 rows; full source remains in TSV.</p>
+</section>
+
+<section class='card fail'>
+  <h2>taxonomy_heatmap</h2>
+  <p><strong>Manuscript surface:</strong> Figure 2 + Table 2</p>
+  <p><strong>Denominator / subtitle:</strong> core 39/29; sidecar 44/34; taxonomy support, not prevalence</p>
+  <p><strong>Claim boundary:</strong> public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim</p>
+  <p><strong>Prohibited reading:</strong> completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement</p>
+  <p><strong>Source:</strong> <code>results/dashboard/taxonomy-heatmap.tsv</code> · rows 15 · SHA-256 <code>c0c9db0ed86acdf4</code></p>
+  <p><strong>Caption-currentness gate:</strong> <span class='fail'>FAIL</span> — CCR-001:BLOCK_FOR_COUNT_BEARING_REUSE:rewrite caption/control text before PDF, dashboard, or manuscript export; keep as historical lint source only until patched; CCR-002:BLOCK_FOR_COUNT_BEARING_REUSE:rewrite caption/control text before PDF, dashboard, or manuscript export; keep as historical lint source only until patched</p>
+  <p><strong>Gate:</strong> <span class='fail'>FAIL</span> — caption currentness gate failed: CCR-001:BLOCK_FOR_COUNT_BEARING_REUSE:rewrite caption/control text before PDF, dashboard, or manuscript export; keep as historical lint source only until patched; CCR-002:BLOCK_FOR_COUNT_BEARING_REUSE:rewrite caption/control text before PDF, dashboard, or manuscript export; keep as historical lint source only until patched</p>
+  <p class='fail'>Fail-closed: preview not rendered because guard checks failed.</p>
+</section>
+
+<section class='card pass'>
+  <h2>evidence_tier_funnel</h2>
+  <p><strong>Manuscript surface:</strong> Figure 3 / Figure 5 variant</p>
+  <p><strong>Denominator / subtitle:</strong> 296 catalogued / 250 evidence-grade / 46 excluded / 21 publication-safe lineages where used</p>
+  <p><strong>Claim boundary:</strong> public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim</p>
+  <p><strong>Prohibited reading:</strong> completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement</p>
+  <p><strong>Source:</strong> <code>results/dashboard/evidence-funnel.tsv</code> · rows 11 · SHA-256 <code>866475937cae0d41</code></p>
+  <p><strong>Caption-currentness gate:</strong> <span class='pass'>PASS</span> — caption currentness audit permits count-bearing reuse</p>
+  <p><strong>Gate:</strong> <span class='pass'>PASS</span> — all guards present</p>
+  <table><thead><tr><th>stage_code</th><th>stage_label</th><th>lineage_count</th><th>publication_confidence_note</th></tr></thead><tbody><tr><td>T0_discovered_lead</td><td>T0 discovered lead</td><td>0</td><td>Counts still require confidence-cap interpretation; do not equate lineages with equally strong article support.</td></tr><tr><td>T1_single_public_source</td><td>T1 single public source</td><td>6</td><td>Counts still require confidence-cap interpretation; do not equate lineages with equally strong article support.</td></tr><tr><td>T2_corroborated_record</td><td>T2 corroborated record</td><td>0</td><td>Counts still require confidence-cap interpretation; do not equate lineages with equally strong article support.</td></tr><tr><td>T3_authoritative_source</td><td>T3 authoritative source</td><td>14</td><td>Counts still require confidence-cap interpretation; do not equate lineages with equally strong article support.</td></tr><tr><td>T3_authoritative_source_direct_url_resolved</td><td>T3 authoritative source (direct URL resolved)</td><td>1</td><td>Counts still require confidence-cap interpretation; do not equate lineages with equally strong article support.</td></tr></tbody></table><p class='muted'>Showing first 5 of 11 rows; full source remains in TSV.</p>
+</section>
+
+<section class='card pass'>
+  <h2>jurisdiction_language</h2>
+  <p><strong>Manuscript surface:</strong> Figure 5 / S1 Panel C</p>
+  <p><strong>Denominator / subtitle:</strong> 34 jurisdictions broad; 12 reviewed-core non-English rows where panel used; no country ranking</p>
+  <p><strong>Claim boundary:</strong> public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim</p>
+  <p><strong>Prohibited reading:</strong> completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement</p>
+  <p><strong>Source:</strong> <code>results/dashboard/jurisdiction-language-coverage.tsv</code> · rows 12 · SHA-256 <code>8bb99a9b5e4d35bb</code></p>
+  <p><strong>Caption-currentness gate:</strong> <span class='pass'>PASS</span> — caption currentness audit not applicable to this view</p>
+  <p><strong>Gate:</strong> <span class='pass'>PASS</span> — all guards present</p>
+  <table><thead><tr><th>jurisdiction</th><th>language</th><th>record_count</th><th>translation_review_needed_count</th></tr></thead><tbody><tr><td>CA</td><td>en</td><td>1</td><td>0</td></tr><tr><td>Denmark</td><td>da</td><td>1</td><td>1</td></tr><tr><td>Estonia</td><td>et</td><td>1</td><td>1</td></tr><tr><td>Finland</td><td>fi</td><td>2</td><td>2</td></tr><tr><td>France</td><td>fr</td><td>1</td><td>1</td></tr></tbody></table><p class='muted'>Showing first 5 of 12 rows; full source remains in TSV.</p>
+</section>
+
+<section class='card pass'>
+  <h2>legal_uncertainty</h2>
+  <p><strong>Manuscript surface:</strong> Figure 6</p>
+  <p><strong>Denominator / subtitle:</strong> uncertainty routing only; no compliance/liability conclusion</p>
+  <p><strong>Claim boundary:</strong> public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim</p>
+  <p><strong>Prohibited reading:</strong> completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement</p>
+  <p><strong>Source:</strong> <code>results/dashboard/legal-uncertainty-matrix.tsv</code> · rows 15 · SHA-256 <code>e7e9859a36b3b874</code></p>
+  <p><strong>Caption-currentness gate:</strong> <span class='pass'>PASS</span> — caption currentness audit not applicable to this view</p>
+  <p><strong>Gate:</strong> <span class='pass'>PASS</span> — all guards present</p>
+  <table><thead><tr><th>category_code</th><th>category_label</th><th>review_priority</th><th>legal_conclusion_limit</th><th>minimum_stronger_source_needed</th></tr></thead><tbody><tr><td>unlawful_or_allegedly_unlawful_use</td><td>Unlawful or allegedly unlawful use</td><td>High</td><td>Impossible to conclude illegality or AI Act breach from media allegations alone</td><td>LQ-005: Police/court/platform authority source, election-authority notice, securities/consumer record, or forensics/contract record tying the content to a legal process. || LQ-008: Non-finance procurement challenge, contract text, technical audit, official correction, regulator document, or later public disposition.</td></tr><tr><td>security_risk</td><td>Security risk</td><td>High</td><td>Public evidence often cannot show whether duty-to-report thresholds or formal security obligations were triggered</td><td>LQ-006: Provider/deployer incident report, architectural postmortem, formal vendor bulletin keyed to the exact CVE, or reproducible public test.</td></tr><tr><td>agentic_control_failure</td><td>Agentic control failure</td><td>High</td><td>Cannot infer non-compliance or defective oversight solely from anecdotal demonstrations</td><td>LQ-006: Provider/deployer incident report, architectural postmortem, formal vendor bulletin keyed to the exact CVE, or reproducible public test.</td></tr><tr><td>institutional_absurdity</td><td>Institutional absurdity</td><td>Medium</td><td>Often impossible to separate organizational dysfunction from AI-specific legal significance using public evidence alone</td><td>LQ-001: Procurement file, register entry, DPIA/FRIA-equivalent, project specification, election-operations record, or official deployment statement. || LQ-004: Court complaint/decree, school/employer policy, official redress record, or regulator notice text. || LQ-009: Taxonomy review memo plus stronger authoritative source package for the first residual/research-integrity case, direct-source capture for absurdity leads, or a new anchor that narrows framework fit.</td></tr><tr><td>public_sector_misuse_or_gap</td><td>Public-sector misuse or evidence gap</td><td>High</td><td>Public silence or incomplete procurement records cannot by themselves establish hidden prohibited or high-risk use</td><td>LQ-001: Procurement file, register entry, DPIA/FRIA-equivalent, project specification, election-operations record, or official deployment statement. || LQ-002: Underlying notice/reprimand text, legal basis, technical specification, or official audit/procurement document.</td></tr></tbody></table><p class='muted'>Showing first 5 of 15 rows; full source remains in TSV.</p>
+</section>
+
+<section class='card pass'>
+  <h2>security_agentic_threshold</h2>
+  <p><strong>Manuscript surface:</strong> Figure 7</p>
+  <p><strong>Denominator / subtitle:</strong> 4 threshold rows; 11 security rows where described; not security prevalence</p>
+  <p><strong>Claim boundary:</strong> public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim</p>
+  <p><strong>Prohibited reading:</strong> completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement</p>
+  <p><strong>Source:</strong> <code>results/dashboard/security-threshold-ladder-panel.tsv</code> · rows 4 · SHA-256 <code>c989a5509d9ea633</code></p>
+  <p><strong>Caption-currentness gate:</strong> <span class='pass'>PASS</span> — caption currentness audit permits count-bearing reuse</p>
+  <p><strong>Gate:</strong> <span class='pass'>PASS</span> — all guards present</p>
+  <table><thead><tr><th>threshold_class</th><th>member_count</th><th>reviewer_safe_reading</th></tr></thead><tbody><tr><td>close_explicit_package_gap</td><td>1</td><td>The only explicit package-level threshold event is still peer-reviewed security case support.</td></tr><tr><td>upgrade_limitations_row_before_comparative_reuse</td><td>1</td><td>Langflow remains the only limitations-routed row whose comparative reuse ceiling would change with one stronger vendor notice event.</td></tr><tr><td>upgrade_appendix_authority_or_notice_depth</td><td>6</td><td>Most remaining security upgrades are appendix-grade authority, notice-depth, or mechanism-diversity improvements rather than core-count expansion.</td></tr><tr><td>maintain_current_ceiling</td><td>3</td><td>Three live rows already sit at the package&#x27;s strongest current ceiling and mainly require stability, not immediate route escalation.</td></tr></tbody></table>
+</section>
+
+<section class='card pass'>
+  <h2>duplicate_review_graph</h2>
+  <p><strong>Manuscript surface:</strong> Figure 8</p>
+  <p><strong>Denominator / subtitle:</strong> 27 duplicate-review edges; 0 merge decisions; not proof all duplicates are absent</p>
+  <p><strong>Claim boundary:</strong> public-source evidence visibility only; no completeness, prevalence, legal guilt, compliance, certification, safety assurance, country ranking, or third-party endorsement claim</p>
+  <p><strong>Prohibited reading:</strong> completeness, prevalence, legal guilt, compliance/certification/safety assurance, country ranking, or third-party endorsement</p>
+  <p><strong>Source:</strong> <code>results/dashboard/duplicate-review-graph.tsv</code> · rows 27 · SHA-256 <code>bb36d1fd9ddc2833</code></p>
+  <p><strong>Caption-currentness gate:</strong> <span class='pass'>PASS</span> — caption currentness audit not applicable to this view</p>
+  <p><strong>Gate:</strong> <span class='pass'>PASS</span> — all guards present</p>
+  <table><thead><tr><th>edge_id</th><th>edge_type</th><th>cross_source_overlap</th><th>evidence_tier_ceiling</th></tr></thead><tbody><tr><td>REVIEW-IDCOLLISION-LIMEN-000001::edge1</td><td>identifier_collision_blocker</td><td>not a duplicate cluster; namespace collision across three distinct lineages</td><td>T3_authoritative_source</td></tr><tr><td>REVIEW-IDCOLLISION-LIMEN-000001::edge2</td><td>identifier_collision_blocker</td><td>not a duplicate cluster; namespace collision across three distinct lineages</td><td>T3_authoritative_source</td></tr><tr><td>REVIEW-IDCOLLISION-LIMEN-000001::edge3</td><td>identifier_collision_blocker</td><td>not a duplicate cluster; namespace collision across three distinct lineages</td><td>T3_authoritative_source</td></tr><tr><td>REVIEW-IDCOLLISION-LIMEN-000002::edge1</td><td>identifier_collision_blocker</td><td>not a duplicate cluster; namespace collision across three distinct lineages</td><td>T3_authoritative_source</td></tr><tr><td>REVIEW-IDCOLLISION-LIMEN-000002::edge2</td><td>identifier_collision_blocker</td><td>not a duplicate cluster; namespace collision across three distinct lineages</td><td>T3_authoritative_source</td></tr></tbody></table><p class='muted'>Showing first 5 of 27 rows; full source remains in TSV.</p>
+</section>
+
+</body>
+</html>

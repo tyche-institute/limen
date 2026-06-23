@@ -1,0 +1,3 @@
+test_id	test_group	action	subject_kind	expected	result	detail
+LIMEN-ENV-LIVE-0003	live_receipt	reviewed	crosswalk_row	PASS	PASS	Schema-valid live receipt.
+LIMEN-ENV-LIVE-0004	live_receipt	clustered	duplicate_cluster	PASS	PASS	Schema-valid live receipt.

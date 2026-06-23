@@ -1,0 +1,20 @@
+
+session_id: 20260617_084341_b040fd
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064339Z-lane8-ae6bb8b7/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064339Z-lane8-ae6bb8b7/parent-source-extraction-summary.md
+
+Обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260617T064339Z-lane8-ae6bb8b7/manifest.json
+
+Итог:
+- input rows: 24
+- output rows: 24
+- queue_id set: exact match
+- duplicate output queue_id: 0
+- header: exact configured header
+- verdicts: country_gap_no_parent_source=24
+
+Все строки были country/query-pack placeholders из локальных PALLAS_OBSERVABILITY_RESEARCH_QUEUE.csv / OBSERVABILITY_RESEARCH_QUEUE.csv без явного parent public URL; web crawl не использовался.

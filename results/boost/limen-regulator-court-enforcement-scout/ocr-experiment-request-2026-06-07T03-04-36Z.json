@@ -1,0 +1,51 @@
+{
+  "request_id": "limen-regulator-court-enforcement-scout-ocr-2026-06-07T03:04:36Z",
+  "created_at": "2026-06-07T03:04:36Z",
+  "lane_id": "limen-regulator-court-enforcement-scout",
+  "project_id": "limen-ai-edge-case-atlas",
+  "project_root": "/srv/tyche/projects/limen-ai-edge-case-atlas",
+  "phase": "foundation",
+  "theme": "authoritative regulator, court, and enforcement package hardening",
+  "goal": "Promote LIMEN-000005 from captured-charge-document status to exact caption/case-number normalization using only the already captured public DOJ PDF and local bounded compute.",
+  "priority_case": {
+    "case_id": "LIMEN-000005",
+    "provisional_case_key": "auth:LIMEN-000005",
+    "task": "Run OCR on the locally captured DOJ-linked indictment PDF and recover exact caption and case-number metadata if legible.",
+    "input_paths": [
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-009/tmp/u.s._v._saniger_indictment.pdf",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/document-normalization-matrix-v0.1.tsv",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/results/authoritative-scout/ocr-readiness-matrix-v0.1.tsv",
+      "/srv/tyche/projects/limen-ai-edge-case-atlas/sources/authoritative-source-ledger.tsv"
+    ],
+    "expected_outputs": [
+      "Exact caption string from the document body if legible",
+      "Exact case number from the document body if legible",
+      "OCR confidence or legibility note",
+      "Patch-ready field updates for sources/authoritative-source-ledger.tsv, data/cases/authoritative-candidates.jsonl, and results/authoritative-scout/document-normalization-matrix-v0.1.tsv"
+    ],
+    "local_probe_state": {
+      "pdfinfo": "ok; 9 pages",
+      "pdftotext": "failed; output contained only form-feed bytes",
+      "mutool_draw_F_txt": "failed; blank output",
+      "tesseract_binary": "not available in current PATH"
+    },
+    "safe_resource_limits": {
+      "cpu": "single host, bounded single-document OCR",
+      "ram": "<= 4 GB",
+      "wall_clock": "<= 20 minutes",
+      "network": "none required after local inputs are present"
+    }
+  },
+  "paper_thesis_use": [
+    "Hostile-reviewer methods note distinguishing captured official court documents from OCR-ready documents.",
+    "Dashboard facet for document-processing barriers inside the court-family package.",
+    "Thesis reproducibility note on when lack of caption normalization is a compute/tooling issue rather than a source-availability issue."
+  ],
+  "success_condition": "At least one exact court-anchor field becomes legible enough to patch shared ledgers, or OCR failure is reproduced with confidence metadata strong enough to keep the blocker class explicit.",
+  "boundary_notes": [
+    "Public/open information only.",
+    "No PACER login, fees, sealed records, or private attachments.",
+    "Do not upgrade charging-stage allegations into adjudicated facts.",
+    "If OCR output is low-confidence or ambiguous, keep the current blocker status rather than guessing caption or case-number fields."
+  ]
+}

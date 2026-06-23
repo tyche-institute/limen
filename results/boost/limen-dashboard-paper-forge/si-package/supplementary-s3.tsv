@@ -1,0 +1,7 @@
+panel_id	authority_or_gap_state	live_case_count	core_results_count	appendix_supporting_count	limitations_only_count	exact_interoperability_case_count	exact_fix_visible_case_count	release_note_or_source_qualified_case_count	route_priority	summary_label
+SEC-AUTH-PANEL-001	peer_reviewed_security_case_support	0	0	0	0	0	0	0	1	explicit_peer_review_gap
+SEC-AUTH-PANEL-002	candidate_exact_join_notice_gap	1	0	0	1	1	0	0	2	candidate_exact_join_notice_gap
+SEC-AUTH-PANEL-003	vendor_advisory_exact_fix_visible	4	3	1	0	0	4	0	3	vendor_advisory_exact_fix_visible
+SEC-AUTH-PANEL-004	independent_lab_source_qualified_fix	2	0	2	0	0	0	2	4	independent_lab_source_qualified_fix
+SEC-AUTH-PANEL-005	coordination_plus_vendor_release_note	2	0	2	0	0	0	2	5	coordination_plus_vendor_release_note
+SEC-AUTH-PANEL-006	vulnerability_record_plus_vendor_release_note	1	0	1	0	0	0	1	6	vulnerability_record_plus_vendor_release_note

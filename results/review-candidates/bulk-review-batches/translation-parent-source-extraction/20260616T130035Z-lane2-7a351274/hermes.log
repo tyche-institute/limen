@@ -1,0 +1,21 @@
+
+session_id: 20260616_150036_332223
+Completed.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane2-7a351274/translation-parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane2-7a351274/translation-parent-source-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260616T130035Z-lane2-7a351274/manifest.json
+
+Verification passed:
+- input rows: 16
+- output rows: 16
+- header matches required header
+- queue_id set equal: true
+- duplicate output queue_ids: 0
+- verdict counts:
+  - source_url_extracted: 15
+  - parent_source_wrapper: 1
+- manifest status: completed

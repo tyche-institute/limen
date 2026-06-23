@@ -1,0 +1,32 @@
+{
+  "boundary": "Completion ledger closes the 1,432 source-reviewed candidates as a processing layer only; no reviewed-core or ObscureAI addition occurred.",
+  "completed_rows": 1646,
+  "completion_disposition_counts": {
+    "closed_existing_reviewed_core_or_duplicate": 15,
+    "closed_snapshot_only_no_original_url": 16,
+    "closed_source_surface_anchor_only": 1419,
+    "residual_no_named_url_reviewed": 135,
+    "residual_parent_source_wrapper": 61
+  },
+  "completion_state_counts": {
+    "complete_for_current_layer_parent_needed": 196,
+    "complete_no_case_claim": 1435,
+    "complete_no_new_case": 15
+  },
+  "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/source-reviewed-completion-ledger.tsv",
+  "generated_at_utc": "2026-06-23T19:58:30Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-v0.1.tsv",
+  "next_bulk_action_counts": {
+    "move_to_next_bulk_queue": 1435,
+    "none": 15,
+    "parent_source_extraction_queue": 196
+  },
+  "obscure_ai_posture_counts": {
+    "do_not_add_duplicate": 15,
+    "not_obscure_ai_case": 1631
+  },
+  "obscure_ai_ready_now": 0,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-completion-ledger-v0.1.tsv",
+  "source_reviewed_rows": 1646,
+  "unique_dedupe_clusters": 1049
+}

@@ -1,0 +1,33 @@
+
+session_id: 20260614_114324_29cde1
+Готово.
+
+Сделано:
+- Записан results TSV:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T094323Z-lane01-f29a6bab/source-review-results.tsv
+- Записан summary MD:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T094323Z-lane01-f29a6bab/source-review-summary.md
+- Обновлён manifest:
+  /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T094323Z-lane01-f29a6bab/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- signal_id set match: true
+- duplicate output ids: 0
+
+Итоги по verdict:
+- source_reviewed_candidate: 1
+- merge_existing_surface: 14
+- negative_evidence_candidate: 24
+- needs_named_source_extraction: 19
+- translation_review_needed: 5
+- reject_noise: 37
+
+Manifest status:
+- completed
+
+Если хочешь, следующим ходом могу сделать короткий QA-pass по самым спорным bucket’ам:
+- merge_existing_surface
+- translation_review_needed
+- reject_noise vs needs_named_source_extraction boundary

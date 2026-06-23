@@ -1,0 +1,75 @@
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T122809Z-lane12-53802672/parent-source-extraction-results.tsv → b/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T122809Z-lane12-53802672/parent-source-extraction-results.tsv
+@@ -0,0 +1,25 @@
++queue_id	signal_id	bulk_source_verdict	extracted_source_url	source_name	evidence_location	reason	claim_ceiling	next_action
++BPSE-01033	LIMEN-SIGNAL-C06B3DFE505DB786	source_url_extracted	https://wdocs-pub.chd.lu/docs/compilation/docpa/pdf/8476_Dossier_Complet.pdf	AI Act sandbox provisions in bill 8476	/srv/tyche/pallas/pallas-ai-agent-observatory/program/01-pallas-atlas/app/data/pallas_atlas_countries.json:3864-3868;3961-3965	Luxembourg I03 score placeholder has an explicit I03 top_source URL in nearby country JSON context.	source-surface only; no legal safety prevalence compliance or ranking claim	Review extracted parent source manually before any promotion.
++BPSE-01034	LIMEN-SIGNAL-C0C2298A80F28C0A	country_gap_no_parent_source		Angola research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/program/08-observability-index/OBSERVABILITY_RESEARCH_QUEUE.csv:43	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01035	LIMEN-SIGNAL-C0C59BB283DC773F	country_gap_no_parent_source		Madagascar research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/program/08-observability-index/OBSERVABILITY_RESEARCH_QUEUE.csv:63	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01036	LIMEN-SIGNAL-C1097351ECD9732D	country_gap_no_parent_source		Mauritius research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_RESEARCH_QUEUE.csv:65	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01037	LIMEN-SIGNAL-C1B71B400604527A	country_gap_no_parent_source		Qatar research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/program/08-observability-index/OBSERVABILITY_RESEARCH_QUEUE.csv:20	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01038	LIMEN-SIGNAL-C2110A86CDEE1E3A	country_gap_no_parent_source		Fiji research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/program/08-observability-index/OBSERVABILITY_RESEARCH_QUEUE.csv:54	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01039	LIMEN-SIGNAL-C2610467996D910A	country_gap_no_parent_source		Madagascar research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/program/08-observability-index/OBSERVABILITY_RESEARCH_QUEUE.csv:63	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01040	LIMEN-SIGNAL-C325957C47060C46	country_gap_no_parent_source		Israel research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_RESEARCH_QUEUE.csv:6	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01041	LIMEN-SIGNAL-C35E4B2150842CBA	country_gap_no_parent_source		Kiribati country profile gap	/srv/tyche/pallas/pallas-ai-agent-observatory/program/08-observability-index/OBSERVABILITY_COUNTRY_PROFILES.md:1053-1058	Country profile states sandbox evidence absent and no algorithm register; only source examples by name are listed, without URL.	processing-state only; country profile gap placeholder	Keep as gap/profile evidence; do not promote as direct source.
++BPSE-01042	LIMEN-SIGNAL-C37984136A6C42EA	source_url_extracted	https://ai-watch.ec.europa.eu/topics/public-sector/public-sector-dimension-ai-national-strategies/slovakia-public-sector-dimension-ai-strategy_en	Slovakia: Public Sector dimension of AI Strategy	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_17_CANDIDATE_MATRIX_DELTA.csv:4; /srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SOURCE_REFRESH_ROLLUP.csv:5169	Candidate delta cites AI Watch sandbox/pilot evidence; source rollup gives the explicit parent URL.	source-surface only; no legal safety prevalence compliance or ranking claim	Review extracted parent source manually before any promotion.
++BPSE-01043	LIMEN-SIGNAL-C39393C2A37619FE	country_gap_no_parent_source		Bahamas research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_RESEARCH_QUEUE.csv:44	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01044	LIMEN-SIGNAL-C3A3408FA76437A2	country_gap_no_parent_source		Sao Tome and Principe hardening gap	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_COUNTRY_HARDENING_SUMMARY.csv:28	Hardening summary says no AI or sectoral regulatory sandbox evidence found; no parent source URL is exposed for the sandbox query.	processing-state only; country gap placeholder	Keep as negative/gap summary; do not promote as direct source.
++BPSE-01045	LIMEN-SIGNAL-C3A424549B9B3B93	source_url_extracted	https://www.bsp.gov.ph/Regulations/Issuances/2022/1153.pdf	Circular No. 1153 Series of 2022 - Regulatory Sandbox Framework	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_15_HARDENING_SUMMARY.csv:14; /srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_15_SOURCE_REFRESH.csv:270	Philippines hardening summary names the sandbox circular and the sprint source refresh gives its explicit URL.	source-surface only; no legal safety prevalence compliance or ranking claim	Review extracted parent source manually before any promotion.
++BPSE-01046	LIMEN-SIGNAL-C3A7D307E8EDE213	parent_source_wrapper		Botswana Bank of Botswana sandbox source cluster	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_COUNTRY_PROFILES.md:261; /srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SOURCE_REFRESH_ROLLUP.csv:533-535	Profile points to Bank of Botswana sandbox evidence, but the source pack exposes multiple candidate parent URLs.	wrapper metadata only; no direct-source claim until human chooses parent	Choose among portal, application form, and resources URLs before source-surface review.
++BPSE-01047	LIMEN-SIGNAL-C3B40D50C8300D38	country_gap_no_parent_source		Sao Tome and Principe research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/program/08-observability-index/OBSERVABILITY_RESEARCH_QUEUE.csv:74	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01048	LIMEN-SIGNAL-C3E1B33176BA29CA	country_gap_no_parent_source		Bahamas research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_RESEARCH_QUEUE.csv:88	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01049	LIMEN-SIGNAL-C400FB040C6CF9F6	country_gap_no_parent_source		Palau hardening gap	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_COUNTRY_HARDENING_SUMMARY.csv:86	Hardening summary says no public algorithm register located; no extractable algorithm-register parent URL is present.	processing-state only; country gap placeholder	Keep as negative/gap summary; do not promote as direct source.
++BPSE-01050	LIMEN-SIGNAL-C4195F7FF0581633	parent_source_wrapper		Jersey I10 data-protection and authority-law source cluster	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_CONFIDENCE_CHANGES.csv:890; /srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_13_SOURCE_REFRESH.csv:129-133	Confidence-change row summarizes plural Jersey laws and service-manual sources; multiple parent URLs need selection.	wrapper metadata only; no direct-source claim until human chooses parent	Choose the relevant Jersey law or service-manual parent source before source-surface review.
++BPSE-01051	LIMEN-SIGNAL-C51D198B11796FD8	country_gap_no_parent_source		Cook Islands country profile gap	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_COUNTRY_PROFILES.md:468-471	Country profile warns not to infer a public algorithm register and names no parent source URL.	processing-state only; country profile gap placeholder	Keep as gap/profile evidence; do not promote as direct source.
++BPSE-01052	LIMEN-SIGNAL-C54B1C0AD3AE5F5D	country_gap_no_parent_source		Suriname research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_OBSERVABILITY_RESEARCH_QUEUE.csv:76	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01053	LIMEN-SIGNAL-C555E9B0667557B5	source_url_extracted	https://www.kratid.ee/en/algoritm-ulevaade	Mapping AI and Algorithms in Use in the Public Sector	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_GRAND_PROGRAM_RESULTS.md:2181; /srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_1_SOURCE_REFRESH.csv:9	Program note asks about Kratid mapping guidance; local source refresh gives the explicit Kratid parent URL.	source-surface only; no legal safety prevalence compliance or ranking claim	Review extracted parent source manually before any promotion.
++BPSE-01054	LIMEN-SIGNAL-C5A206F36F94FB9B	country_gap_no_parent_source		Gibraltar research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/program/08-observability-index/OBSERVABILITY_RESEARCH_QUEUE.csv:58	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01055	LIMEN-SIGNAL-C5BF9387D5D4B8F7	country_gap_no_parent_source		Ghana research queue placeholder	/srv/tyche/pallas/pallas-ai-agent-observatory/program/08-observability-index/OBSERVABILITY_RESEARCH_QUEUE.csv:57	Research queue row lists search strings and target source classes only; no parent source URL is present.	processing-state only; country gap placeholder	Keep in parent-source queue until local direct source evidence appears.
++BPSE-01056	LIMEN-SIGNAL-C5DD07DDC78141E1	source_url_extracted	https://www.regeringen.ax/sites/default/files/attachments/page/LFxx20252026_280126_rem.pdf	Lagförslag om landskapslag om tillsyn över artificiell intelligens - chapter on regulatory sandboxes	/srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SPRINT_16_HARDENING_SUMMARY.csv:5; /srv/tyche/pallas/pallas-ai-agent-observatory/reports/PALLAS_SECOND_PASS_SOURCE_REFRESH_ROLLUP.csv:4861	Aland hardening summary names the sandbox chapter example and source rollup gives its explicit PDF URL.	source-surface only; no legal safety prevalence compliance or ranking claim	Review extracted parent source manually before any promotion.
+  ┊ review diff
+a/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T122809Z-lane12-53802672/parent-source-extraction-summary.md → b/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T122809Z-lane12-53802672/parent-source-extraction-summary.md
+@@ -0,0 +1,44 @@
++# Parent source extraction summary
++
++Batch: `20260616T122809Z-lane12-53802672`
++Input: `/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T122809Z-lane12-53802672/input.tsv`
++Output: `/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T122809Z-lane12-53802672/parent-source-extraction-results.tsv`
++Completed UTC: `2026-06-16T12:32:38Z`
++
++## Scope
++
++Bounded processing-state parent-source extraction. Used local metadata, local source files, and local source-pack/ledger pointers only. No broad web crawl, promotion, publication, upload, or portal action was performed.
++
++## Results
++
++- Input rows reviewed: 24
++- Output rows written: 24
++- `source_url_extracted`: 5
++- `parent_source_wrapper`: 2
++- `country_gap_no_parent_source`: 17
++- Other verdicts: 0
++
++## Extracted URLs
++
++- BPSE-01033: Luxembourg I03 sandbox provisions in bill 8476 PDF.
++- BPSE-01042: Slovakia AI Watch public-sector AI strategy page.
++- BPSE-01045: Philippines BSP Circular No. 1153 regulatory sandbox PDF.
++- BPSE-01053: Estonia/Kratid mapping AI and algorithms page.
++- BPSE-01056: Åland AI supervision draft bill PDF, sandbox chapter.
++
++## Wrapper rows requiring human source choice
++
++- BPSE-01046: Botswana Bank of Botswana sandbox cluster has multiple candidate parent URLs.
++- BPSE-01050: Jersey I10 evidence summarizes multiple laws/service-manual sources.
++
++## Verification
++
++Verified before completion:
++
++- Output header exactly matches required schema.
++- Output row count equals input row count: 24.
++- Output queue_id set equals input queue_id set.
++- No missing, extra, or duplicate queue_id values.
++- Every output row has exactly 9 TSV columns.
++
++Claim boundary preserved: processing-state/source-surface review only; no reviewed-core promotion, incident truth, legal/safety/compliance finding, prevalence claim, or ranking claim.

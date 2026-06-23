@@ -1,0 +1,2 @@
+envelope_id	action	subject_kind	subject_id	input_sha256	output_sha256	schema_result	notes
+LIMEN-ENV-LIVE-0005	superseded	artifact	results/attestation/status.md	sha256:cdaf19920e09dd7b9315290a5f14ced850aaac292586edb71b067f83ab9ecfd4	sha256:4839ebbb8e44e92b24c280f504fefa811ecaa7f0f74558850a3b01326a7cc4ba	PASS	live local supersession of attestation status note

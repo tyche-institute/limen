@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1040" viewBox="0 0 1800 1040">
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.title{font-size:46px;font-weight:700}
+.subtitle{font-size:28px;fill:#526071}
+.section{font-size:29px;font-weight:700}
+.label{font-size:27px}
+.small{font-size:22px;fill:#526071}
+.tiny{font-size:18px;fill:#526071}
+.number{font-size:40px;font-weight:700}
+</style>
+</defs>
+<rect width="1800" height="1040" fill="#ffffff"/>
+<text x="60" y="70" class="title">Figure 4. Why counting public artificial intelligence cases is hard</text>
+<text x="60" y="108" class="subtitle">The observatory records counting decisions before it reports totals.</text>
+<rect x="90" y="210" width="500" height="520" rx="22" fill="#f7f9fc" stroke="#c43c39" stroke-width="5"/>
+<circle cx="165" cy="305" r="52" fill="#c43c39"/>
+<text x="165" y="318" text-anchor="middle" fill="white" style="font-size:40px;font-weight:700">9</text>
+<text x="125" y="405" class="section">Identifier collision</text>
+<text x="125" y="510" class="label">A working label was reused for</text>
+<text x="125" y="541" class="label">distinct events.</text>
+<rect x="650" y="210" width="500" height="520" rx="22" fill="#f7f9fc" stroke="#2166ac" stroke-width="5"/>
+<circle cx="725" cy="305" r="52" fill="#2166ac"/>
+<text x="725" y="318" text-anchor="middle" fill="white" style="font-size:40px;font-weight:700">5</text>
+<text x="685" y="405" class="section">Similar, distinct events</text>
+<text x="685" y="510" class="label">Rows can share a regulator, product</text>
+<text x="685" y="541" class="label">family, or failure mode and still</text>
+<text x="685" y="572" class="label">remain separate.</text>
+<rect x="1210" y="210" width="500" height="520" rx="22" fill="#f7f9fc" stroke="#188b5b" stroke-width="5"/>
+<circle cx="1285" cy="305" r="52" fill="#188b5b"/>
+<text x="1285" y="318" text-anchor="middle" fill="white" style="font-size:40px;font-weight:700">7</text>
+<text x="1245" y="405" class="section">Duplicate rows excluded</text>
+<text x="1245" y="510" class="label">Derivative rows are held out of the</text>
+<text x="1245" y="541" class="label">reviewed-core count.</text>
+<text x="150" y="835" class="section">Counting rule</text>
+<text x="60" y="885" class="tiny">Merge rows only when they refer to the same case thread.</text>
+</svg>

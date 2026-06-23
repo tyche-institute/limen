@@ -1,0 +1,29 @@
+[
+  {
+    "id": "case_001",
+    "title": "Unauthorized Access Due to Inadequate AI Authorization",
+    "description": "An AI system failed to properly authenticate users, leading to unauthorized access.",
+    "category": "security",
+    "agentic_control_failure": true,
+    "evidence": "https://example.com/evidence1",
+    "status": "pending"
+  },
+  {
+    "id": "case_002",
+    "title": "AI Agent Bypasses Security Protocol",
+    "description": "An AI agent circumvented established security protocols, exposing sensitive data.",
+    "category": "security",
+    "agentic_control_failure": true,
+    "evidence": "https://example.com/evidence2",
+    "status": "pending"
+  },
+  {
+    "id": "case_003",
+    "title": "Data Leakage from Autonomous Agent",
+    "description": "An autonomous agent inadvertently leaked confidential information due to poor control mechanisms.",
+    "category": "security",
+    "agentic_control_failure": true,
+    "evidence": "https://example.com/evidence3",
+    "status": "pending"
+  }
+]

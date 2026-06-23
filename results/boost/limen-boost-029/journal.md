@@ -1,0 +1,17 @@
+## 2026-06-23T22:00:00+02:00
+- Re-checked exact STOP-file absence, the hostile-reviewer sprint, the LIMEN goal card, the current shard-054 route stack, and the live public-sector threshold-impact board before doing new work.
+- Chose one bounded routing-surface currentness repair over another packaging-only memo because shard 054 already had the live threshold-impact board and row-level claim structure, but still suffered from downstream drift in shared and lane-local route-control surfaces.
+- Created `public-sector-threshold-route-consumer-drift-audit.tsv`; patched five shared and lane-local routing artifacts (`publication-route-visual-bridge-v0.1.tsv`, `dashboard-view-claim-route-matrix-v0.1.tsv`, `table1b-dashboard-view-contract.tsv`, `table1b-surface-role-matrix.tsv`, `public-sector-question-router.tsv`); refreshed `status.md` and `journal.md`; and prepended the root `journal.md` entry.
+- Paper-readiness delta: shard 054 now has one machine-readable audit plus five patched routing surfaces that explicitly carry the live threshold-impact board, reducing reviewer-visible drift risk and making the exact event-change trigger visible wherever Table 1B or `LIMEN-C-012` is reused.
+- Remaining blocker: the package still needs one threshold-changing exact buyer-side or row-specific companion event before stronger `sf09` rhetoric is safe.
+
+## 2026-06-23T22:00:00+02:00
+- Performed a precision repair cycle on the Finland/Kaleva evidence state in the shared dashboard aggregate.
+- Updated `finland-threshold-route-board.tsv` to reflect that the Kaleva row has transitioned from `metadata_recovered_body_unreadable_queue_row` to `preview_text_visible_direct_article_shell_candidate_queue_row`.
+- Patched `kaleva-preview-currentness-audit.tsv` across all six affected rows to align with the new state: `FORM-006..FORM-010`, `status.md`, `FTRB-029-002`, `MCDX-053-003`, `CELL-055-006`, and `multilingual-paper-readiness-frontier-v0.1.tsv`.
+- Updated `finland-threshold-route-board.tsv` to tighten the next-smallest-publishability-move language for both FTRB-029-002 and FTRB-029-003 to emphasize that preview text alone is insufficient — a compliant public companion or readable-body recovery is now the true threshold.
+- Patched `status.md` and `journal.md` to remove outdated citation-drift narratives and replace them with the live substantive blocker: Finland’s need for one official corroboration (Yle) or one compliant Kaleva companion.
+- Added a new `MCDC-029-004` closure note to the root journal to document this as a negative-but-useful QA-closure cycle: no new evidence was added, but stale derivative claims were closed, improving the integrity of future audits.
+- Paper-readiness delta: the Finland/Kaleva evidence state is now machine-readable, consistent across all shared and lane-local surfaces, and aligned with the current reviewer-safe contract. The next smallest publishability move remains exactly one compliant Finland official corroboration or public companion — no more packaging-only updates.
+- All changes were made without triggering new automated access, respecting the rare-language directive and public-source boundary.
+- Next action: monitor for a threshold upgrade: readable body text, public police companion, or other compliant Finnish authority/document surface.

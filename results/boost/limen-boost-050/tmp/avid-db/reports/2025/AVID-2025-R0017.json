@@ -1,0 +1,74 @@
+{
+  "data_type": "AVID",
+  "data_version": "0.3.3",
+  "metadata": {
+    "report_id": "AVID-2025-R0017"
+  },
+  "affects": {
+    "developer": [
+      "Meta"
+    ],
+    "deployer": [
+      "Together AI"
+    ],
+    "artifacts": [
+      {
+        "type": "Model",
+        "name": "Llama-3.3-70B-Instruct-Turbo"
+      }
+    ]
+  },
+  "problemtype": {
+    "classof": "LLM Evaluation",
+    "type": "Measurement",
+    "description": {
+      "lang": "eng",
+      "value": "Evaluation of the LLM Llama-3.3-70B-Instruct-Turbo on the cyse2_prompt_injection benchmark using Inspect Evals"
+    }
+  },
+  "metrics": [
+    {
+      "scorer": "model_graded_qa",
+      "metrics": "accuracy",
+      "value": 0.3615537848605578
+    },
+    {
+      "scorer": "model_graded_qa",
+      "metrics": "stderr",
+      "value": 0.027222411093060655
+    }
+  ],
+  "references": [
+    {
+      "type": "source",
+      "label": "Inspect Evaluation Log for dataset: prompt_injection",
+      "url": "https://avidmvp.s3.amazonaws.com/2025-05-10T14-26-28+00-00_cyse2-prompt-injection_PQaMdDY9wksef6dQVa63Cm.eval"
+    }
+  ],
+  "description": {
+    "lang": "eng",
+    "value": "CyberSecEval2 is A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models\u2019 risky capabilities in cybersecurity.\n\nThe LLM Llama-3.3-70B-Instruct-Turbo was evaluated on this benchmark.\n\n## Measurement details\n\nA simple average is calculated over the test cases, indicating the rate at which the model behavior could be classified as harmful (lower scores are better)."
+  },
+  "impact": {
+    "avid": {
+      "vuln_id": "",
+      "risk_domain": [
+        "Security"
+      ],
+      "sep_view": [
+        "S0403: Adversarial Example"
+      ],
+      "lifecycle_view": [
+        "L05: Evaluation"
+      ],
+      "taxonomy_version": "0.2"
+    }
+  },
+  "credit": [
+    {
+      "lang": "eng",
+      "value": "Harsh Raj"
+    }
+  ],
+  "reported_date": "2025-05-26"
+}

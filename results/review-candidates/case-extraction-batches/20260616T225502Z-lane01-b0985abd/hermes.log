@@ -1,0 +1,84 @@
+  ┊ review diff
+a//tmp/write_case_extraction.py → b//tmp/write_case_extraction.py
+@@ -0,0 +1,191 @@
++import csv, json
++from pathlib import Path
++from datetime import datetime, timezone
++
++base = Path('/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225502Z-lane01-b0985abd')
++input_path = base/'input.tsv'
++out_path = base/'case-extraction-results.tsv'
++summary_path = base/'case-extraction-summary.md'
++manifest_path = base/'manifest.json'
++
++header = [
++'source_cluster_key','case_extraction_verdict','source_url_or_locator','source_name','source_host','proposed_case_title','proposed_evidence_tier','proposed_limen_categories','source_record_date','jurisdiction','bounded_claim_candidate','claim_ceiling','forbidden_overread','rationale','required_before_reviewed_core','required_before_obscure_ai','next_action'
++]
++
++with input_path.open(newline='', encoding='utf-8') as f:
++    rows = list(csv.DictReader(f, delimiter='\t'))
++
++# Deterministic extraction decisions, one per source_cluster_key, using input metadata plus exact local lineage hits.
++def clean(s):
++    if s is None:
++        return ''
++    return ' '.join(str(s).replace('\t',' ').replace('\r',' ').replace('\n',' ').split())
++
++records = {}
++
++def add(key, verdict, title, tier, cats, date, juris, bounded, ceiling, forbidden, rationale, before_core, before_obscure, next_action):
++    records[key] = {
++        'case_extraction_verdict': verdict,
++        'proposed_case_title': title,
++        'proposed_evidence_tier': tier,
++        'proposed_limen_categories': cats,
++        'source_record_date': date,
++        'jurisdiction': juris,
++        'bounded_claim_candidate': bounded,
++        'claim_ceiling': ceiling,
++        'forbidden_overread': forbidden,
++        'rationale': rationale,
++        'required_before_reviewed_core': before_core,
++        'required_before_obscure_ai': before_obscure,
++        'next_action': next_action,
++    }
++
++add('https://corteconstitucional.gov.co/relatoria/2024/T-323-24.htm',
++    'closed_duplicate_existing_core',
++    'Colombian Constitutional Court T-323/24 PretorIA source surface',
++    'P1_official_or_regulator_review',
++    'justice_sector_ai_governance; automated_decision_support',
++    '2024', 'Colombia',
++    'Official court URL is an exact reviewed-core duplicate for a PretorIA/T-323 court-AI source surface.',
++    'Lineage/dedupe evidence only; no new legal holding or incident claim.',
++    'Do not infer due-process violation, legality, deployment status, safety finding, prevalence, or ranking.',
++    'Input metadata and local reviewed-core promotion packet show exact URL already represented.',
++    'No promotion; dedupe to existing reviewed-core record.',
++    'No ObscureAI addition; keep lineage only.',
++    'closed: lineage/dedupe accounting')
++
++add('https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2023/37xxx/CVE-2023-37274.json',
++    'closed_duplicate_existing_core',
++    'Auto-GPT CVE-2023-37274 sandbox escape source record',
++    'T3_authoritative_source',
++    'security_risk; agentic_control_failure',
++    '2023', 'Global',
++    'Public CVE JSON URL is an exact reviewed-core duplicate for the Auto-GPT sandbox/code-execution boundary case.',
++    'Lineage/dedupe evidence only; do not create a second case.',
++    'Do not overread exploit prevalence, real-world harm, deployment scope, guilt, or safety/compliance finding.',
++    'Input marks exact reviewed-core duplicate and local sources already carry LIMEN-000001 for this URL.',
++    'No promotion; dedupe to existing reviewed-core record.',
++    'No ObscureAI addition; keep lineage only.',
++    'closed: lineage/dedupe accounting')
++
++noncase_specs = {
++'https://eur-lex.europa.eu/eli/reg/2022/868/oj': ('EU Data Governance Act legal text source surface','law_policy_text','2022','European Union','EUR-Lex regulation text is a policy/legal source surface, not a concrete AI edge-case event or finding.'),
++'https://evs.ee/en': ('EVS standards-organization homepage source surface','standards_homepage','', 'Estonia','EVS homepage is a standards/source-family surface and does not expose a concrete edge-case event or official finding.'),
++'https://ops.epo.org': ('EPO OPS service source-family surface','patent_api_service','', 'Europe','EPO OPS endpoint is an API/source-family surface, not a bounded AI edge-case record.'),
++'https://ops.epo.org/3.2/rest-services/published-data/publication/docdb/WO.2020186750.A1/biblio': ('WO2020186750A1 patent bibliography source surface','patent_record','2020','WIPO','Patent bibliography is an IP record, not a concrete AI edge-case event or authority finding.'),
++'https://patents.google.com/patent/AU2012229902B2/en': ('AU2012229902B2 patent source surface','patent_record','', 'Australia','Patent page is an IP record, not a concrete AI edge-case event or authority finding.'),
++'https://patents.google.com/patent/AU2015100223A4': ('AU2015100223A4 patent source surface','patent_record','2015','Australia','Patent page is an IP record, not a concrete AI edge-case event or authority finding.'),
++'https://patents.google.com/patent/AU2019226563C1/en': ('AU2019226563C1 patent source surface','patent_record','2019','Australia','Patent page is an IP record, not a concrete AI edge-case event or authority finding.'),
+… omitted 113 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260617_005505_95c916

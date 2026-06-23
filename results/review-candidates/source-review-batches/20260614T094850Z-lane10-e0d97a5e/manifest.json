@@ -1,0 +1,14 @@
+{
+  "batch_id": "20260614T094850Z-lane10-e0d97a5e",
+  "batch_size": 100,
+  "created_at_utc": "2026-06-14T09:48:50Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T094850Z-lane10-e0d97a5e/source-review-input.tsv",
+  "input_rows": 100,
+  "lane_id": "lane10",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-drain-targets/20260614T084856Z-direct-source-review-queue.tsv",
+  "queue_rows": 20121,
+  "remaining_unleased_at_allocation": 2921,
+  "started_at_utc": "2026-06-14T09:48:50Z",
+  "status": "aborted_for_claude_reroute",
+  "updated_at_utc": "2026-06-14T09:48:50Z"
+}

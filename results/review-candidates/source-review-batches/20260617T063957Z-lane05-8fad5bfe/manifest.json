@@ -1,0 +1,45 @@
+{
+  "batch_id": "20260617T063957Z-lane05-8fad5bfe",
+  "batch_size": 160,
+  "completed_at_utc": "2026-06-17T06:43:22Z",
+  "created_at_utc": "2026-06-17T06:39:57Z",
+  "details": {
+    "review_scope": "local metadata and local source snippets only; source-surface triage only",
+    "verdict_counts": {
+      "merge_existing_surface": 22,
+      "needs_named_source_extraction": 73,
+      "negative_evidence_candidate": 44,
+      "reject_noise": 7,
+      "source_reviewed_candidate": 11,
+      "translation_review_needed": 3
+    },
+    "verification": "passed: output header valid, row count and signal_id set match input, no duplicate signal_id values, verdicts allowed, 7 TSV columns per line",
+    "verified_counts": {
+      "input_rows": 160,
+      "output_rows": 160,
+      "unique_input_signal_ids": 160,
+      "unique_output_signal_ids": 160
+    }
+  },
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T063957Z-lane05-8fad5bfe/source-review-input.tsv",
+  "input_rows": 160,
+  "lane_id": "lane05",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T063957Z-lane05-8fad5bfe/source-review-results.tsv",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-drain-targets/20260617T063957Z-direct-source-review-queue.tsv",
+  "queue_rows": 15766,
+  "remaining_unleased_at_allocation": 1504,
+  "reviewed_rows": 160,
+  "started_at_utc": "2026-06-17T06:39:57Z",
+  "status": "complete",
+  "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T063957Z-lane05-8fad5bfe/source-review-summary.md",
+  "updated_at_utc": "2026-06-17T06:43:22Z",
+  "verdict_counts": {
+    "merge_existing_surface": 22,
+    "needs_named_source_extraction": 73,
+    "negative_evidence_candidate": 44,
+    "reject_noise": 7,
+    "source_reviewed_candidate": 11,
+    "translation_review_needed": 3
+  }
+}

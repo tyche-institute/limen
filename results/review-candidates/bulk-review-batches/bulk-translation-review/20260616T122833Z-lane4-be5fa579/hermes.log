@@ -1,0 +1,111 @@
+  ┊ review diff
+a//tmp/write_btr_batch.py → b//tmp/write_btr_batch.py
+@@ -0,0 +1,94 @@
++import csv, json, pathlib
++from collections import Counter
++base = pathlib.Path('/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T122833Z-lane4-be5fa579')
++input_path = base / 'input.tsv'
++results_path = base / 'bulk-translation-review-results.tsv'
++summary_path = base / 'bulk-translation-review-summary.md'
++manifest_path = base / 'manifest.json'
++completed_at = '2026-06-16T12:30:54Z'
++header = ['queue_id','signal_id','bulk_translation_verdict','language_reviewed','source_url_or_locator','source_name','reason','claim_ceiling','next_action']
++rows = list(csv.DictReader(open(input_path, newline=''), delimiter='\t'))
++verdicts = {
++'BTR-00337': ['translation_source_reviewed','Spanish','https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56882','Función Pública — Ley 1712 de 2014','Official Colombian statute surface is concrete, but local notes say no AI/algorithm register was located; keep as transparency baseline only.','source-surface/context only; no algorithm-register or edge-case claim','Do not promote; retain only as low-level public-transparency context pending original-language capture if needed.'],
++'BTR-00338': ['source_surface_only_no_case','Vietnamese','https://vanban.chinhphu.vn/','Prime Minister / Government of Viet Nam — National Digital Transformation Program','Official Vietnamese decision portal surface supports digital-transformation context, not an AI procurement rule.','source-surface/context only; no AI procurement claim','Do not promote; use only as governance-context locator unless a specific procurement text is captured.'],
++'BTR-00339': ['source_surface_only_no_case','Faroese','https://www.landsverk.fo/fo-fo/bygging/utbo%C3%B0','Landsverk — Útboð','Official Faroese tender page shows public works tender publication practice; local note says no AI procurement governance found.','source-surface/context only; no AI procurement edge-case claim','Do not promote; keep as procurement-infrastructure context only.'],
++'BTR-00340': ['needs_original_language_source','Hebrew','https://www.gov.il/BlobFolder/policy/ai_2023/en/Israels%20AI%20Policy%202023.pdf','Israel AI Policy 2023','Local JSONL marks Hebrew source, translation-needed, and fetch-warning/403 with no snippet; source content was not reviewable locally.','source locator only; no policy or evidence claim','Obtain original-language/source capture before extraction or any case-level use.'],
++'BTR-00341': ['machine_translation_hold','Dutch via English auto-translation','https://algoritmes.overheid.nl/en/algoritme/mnre1045/83985427/octobox-anonymisation','Dutch Algorithm Register — Octobox Anonymisation','Local record is explicitly an English auto-translation from Dutch; support is partial and source-specific rights remain unresolved.','machine-translation source-surface only; no complaint-outcome or rights claim','Hold for Dutch original-language register review before any stronger extraction.'],
++'BTR-00342': ['machine_translation_hold','Dutch via English auto-translation','https://algoritmes.overheid.nl/en/algoritme/gm1735/93184465/datamask','Dutch Algorithm Register — Datamask','Local gap-map row is derived from English auto-translation; it supports a record surface but not publication-grade Dutch-language facts.','machine-translation sample surface only; no automated-decision/legal-impact claim','Hold for Dutch original-language register review and source-specific extraction.'],
++'BTR-00343': ['translation_source_reviewed','Chinese','https://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm','Cyberspace Administration of China — Internet Information Service Deep Synthesis Management Provisions','Official CAC Chinese regulatory page is a concrete synthetic-media/deep-synthesis source surface; legal effect is not adjudicated here.','official source-surface only; no legal, compliance, or safety finding','Candidate for careful original-language parent-source extraction with legal-review ceiling.'],
++'BTR-00344': ['candidate_for_parent_source_extraction','English','https://moitt.gov.pk/SiteImage/Misc/files/National%20AI%20Policy.pdf','Pakistan National Artificial Intelligence Policy PDF','Local record says English and translation not needed, but fetch failed with network unreachable; source should be captured before use.','source locator only until PDF capture; no policy claim','Extract/capture parent PDF locally, then review as English official source.'],
++'BTR-00345': ['source_surface_only_no_case','Romanian','https://particip.gov.md/ro/download_attachment/22059','MDED / Particip.gov.md — White Book on Data Governance and Artificial Intelligence','Official Moldova Romanian consultation attachment references EU AI Act innovation supports, but local note says no operational Moldova sandbox found.','planning/benchmarking context only; no operational sandbox claim','Do not promote as sandbox case; keep only as consultation/planning context.'],
++'BTR-00346': ['candidate_for_parent_source_extraction','English','https://moc.gov.gh/2026/04/24/ghana-launches-national-ai-strategy-to-drive-digital-transformation-and-economic-growth/','Ghana Ministry of Communication — Ghana launches National AI Strategy','Local record is English and translation not needed, but fetch ended in SSL timeout with no snippet.','source locator only until capture; no strategy/evidence claim','Retry/capture official page locally before source extraction.'],
++'BTR-00347': ['source_surface_only_no_case','Multilingual context / English matrix row','local:/srv/tyche/projects/public-ai-procurement-gap/results/boost/public-ai-procurement-gap-boost-010/article-a-table-row-matrix-v0.2.csv#L4','Hilma + Helsinki AI Register matrix row','Local matrix explicitly says the pair is unlinked, scope-mismatched, and not fixture-ready or Finland-wide coverage evidence.','source-pair context only; no denominator or disclosure-gap claim','Do not promote; resolve source rights, linkage, and national/municipal scope before reuse.'],
++'BTR-00348': ['candidate_for_parent_source_extraction','English','https://aiweek.pakistan.gov.pk/about','Pakistan official Indus AI Week platform','Local record is English and translation not needed, but fetch failed with network unreachable and no snippet.','source locator only; no programme or policy claim','Capture official platform page before any source-level extraction.'],
++'BTR-00349': ['machine_translation_hold','Chinese via digest paraphrase','local:/srv/tyche/gaia/tyche-research-vault/submissions/gaia-preprint-package-20260607T1635EEST/daily/gaia-foreign-language-digest-latest.json#L7636','China deep-synthesis provisions digest entry','Local evidence is a quote-safe paraphrase from a Chinese-language legal source; do not convert it into a legal/policy finding.','machine-assisted digest surface only; no binding-law or provider-obligation claim','Hold for original Chinese source extraction and legal-review-safe translation.'],
++'BTR-00350': ['machine_translation_hold','Spanish via machine-assisted summary','https://guatemala.un.org/es/311127-evaluaci%C3%B3n-de-ia-en-guatemala','UN Guatemala — Evaluación de IA en Guatemala','Local digest says Spanish source with machine-assisted summary and human review needed; it is governance-radar context, not named deployment evidence.','machine-assisted summary surface only; no operational sandbox or deployment claim','Hold for Spanish original-language review before any sandbox-context extraction.'],
++'BTR-00351': ['source_surface_only_no_case','Portuguese','https://intic.gov.mz/politica-e-estrategia-nacional-de-governacao-de-dados/','INTIC — Politica e Estrategia Nacional de Governacao de Dados','Official Mozambique page is source-surface evidence, but local notes say page text is minimal and does not directly establish AI evidence lifecycle controls.','weak data-governance context only; no AI evidence-lifecycle claim','Do not promote; use only as weak supporting context unless source files are captured and reviewed.'],
++'BTR-00352': ['translation_source_reviewed','Italian','https://www.agid.gov.it/it/notizie/linee-guida-su-ia-nella-pa-al-la-consultazione-pubblica-su-sviluppo-e-procurement','AgID — Linee guida su IA nella PA consultation notice','Official Italian AgID notice explicitly concerns AI in public administration development/procurement, but it remains consultation-stage.','official consultation source-surface only; no final rule, prevalence, legality, or compliance claim','Candidate for parent-source extraction with consultation-stage warning.'],
++}
++# Validate coverage against input queue_ids
++input_ids = [r['queue_id'] for r in rows]
++if set(input_ids) != set(verdicts):
++    raise SystemExit(f'verdict coverage mismatch: missing={set(input_ids)-set(verdicts)} extra={set(verdicts)-set(input_ids)}')
++# Clean and write one row per input order
++with open(results_path, 'w', newline='') as f:
++    w = csv.DictWriter(f, fieldnames=header, delimiter='\t', lineterminator='\n')
++    w.writeheader()
++    for r in rows:
++        vals = verdicts[r['queue_id']]
++        out = dict(zip(header, [r['queue_id'], r['signal_id']] + vals))
++        for k,v in out.items():
++            out[k] = str(v).replace('\t',' ').replace('\r',' ').replace('\n',' ')
++        w.writerow(out)
++# Summary
++counts = Counter(v[0] for v in verdicts.values())
++summary = f'''# Bulk translation review summary — 20260616T122833Z-lane4-be5fa579
++
++Completed at UTC: {completed_at}
++
++Input: `{input_path}`
++Results: `{results_path}`
++
++Rows reviewed: {len(rows)}
++Unique queue_id values reviewed: {len(set(input_ids))}
++
++Verdict counts:
++'''
++for k in sorted(counts):
++    summary += f'- {k}: {counts[k]}\n'
++summary += '''
++Review boundary:
++- Processing-state review only.
++- No reviewed-core promotion, ObscureAI addition, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.
++- Local metadata and local source files only; no web crawl or external submission.
++
++Notes:
++- Rows with explicit auto-translation or machine-assisted digest/summary were held at machine-translation surface level.
++- Rows whose local metadata showed only generic public-sector/procurement/data-governance context were kept as source-surface/context, not case-level claims.
++- Candidate parent-source extraction rows need local capture/review before any stronger use.
++'''
++summary_path.write_text(summary)
++# Update manifest
++manifest = json.loads(manifest_path.read_text())
++manifest.update({
++    'status': 'completed',
++    'completed_at_utc': completed_at,
++    'updated_at_utc': completed_at,
++    'output_results': str(results_path),
++    'output_summary': str(summary_path),
+… omitted 16 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260616_142834_f34a77
+Готово.
+
+Созданы/обновлены:
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T122833Z-lane4-be5fa579/bulk-translation-review-results.tsv
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T122833Z-lane4-be5fa579/bulk-translation-review-summary.md
+
+/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/bulk-translation-review/20260616T122833Z-lane4-be5fa579/manifest.json
+
+Проверка пройдена:
+
+- input_rows: 16
+- result_rows: 16
+- queue_id_set_match: true
+- duplicate_output_ids: 0
+- header_ok: true
+- allowed_verdicts_ok: true
+- manifest_status: completed
+
+Verdict counts:
+
+- candidate_for_parent_source_extraction: 3
+- machine_translation_hold: 4
+- needs_original_language_source: 1
+- source_surface_only_no_case: 5
+- translation_source_reviewed: 3

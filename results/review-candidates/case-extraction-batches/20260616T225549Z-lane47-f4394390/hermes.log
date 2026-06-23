@@ -1,0 +1,18 @@
+
+session_id: 20260617_005553_4d1a70
+Done.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane47-f4394390/case-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane47-f4394390/case-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/case-extraction-batches/20260616T225549Z-lane47-f4394390/manifest.json
+
+Verification passed:
+- input rows: 16
+- output rows: 16
+- unique output source_cluster_key values: 16
+- source_cluster_key set matches input exactly
+- verdict counts: closed_noncase_source_surface=16
+- manifest status: completed

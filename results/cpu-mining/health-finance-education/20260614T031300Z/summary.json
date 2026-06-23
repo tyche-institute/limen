@@ -1,0 +1,28 @@
+{
+  "by_query": {
+    "AI hiring": 3118,
+    "AI insurance": 2190,
+    "mental health chatbot": 542,
+    "workplace surveillance": 1063
+  },
+  "by_root": {
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory": 8,
+    "/srv/tyche/gaia/tyche-research-vault": 580,
+    "/srv/tyche/projects/limen-ai-edge-case-atlas": 6325
+  },
+  "failures": [],
+  "match_count": 6913,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/health-finance-education/20260614T031300Z/matches.tsv",
+  "query_count": 9,
+  "roots": [
+    "/srv/tyche/gaia/tyche-research-vault",
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory",
+    "/srv/tyche/pallas/pallas-ai-agent-observatory",
+    "/srv/tyche/projects/public-ai-registry",
+    "/srv/tyche/projects/public-ai-procurement-gap",
+    "/srv/tyche/projects/limen-ai-edge-case-atlas"
+  ],
+  "run_id": "20260614T031300Z",
+  "shard": "health-finance-education",
+  "timestamp_utc": "2026-06-14T03:13:01Z"
+}

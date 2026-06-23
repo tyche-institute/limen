@@ -1,0 +1,31 @@
+{
+  "by_query": {
+    "AI harm": 1432,
+    "AI incident": 1482,
+    "AI misuse": 1045,
+    "AI scandal": 919,
+    "AI washing": 1229,
+    "fake AI": 861
+  },
+  "by_root": {
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory": 9,
+    "/srv/tyche/gaia/tyche-research-vault": 84,
+    "/srv/tyche/pallas/pallas-ai-agent-observatory": 31,
+    "/srv/tyche/projects/limen-ai-edge-case-atlas": 6844
+  },
+  "failures": [],
+  "match_count": 6968,
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/cpu-mining/residual-weird/20260610T075914Z/matches.tsv",
+  "query_count": 10,
+  "roots": [
+    "/srv/tyche/gaia/tyche-research-vault",
+    "/srv/tyche/atlas/tyche-thesis-atlas-factory",
+    "/srv/tyche/pallas/pallas-ai-agent-observatory",
+    "/srv/tyche/projects/public-ai-registry",
+    "/srv/tyche/projects/public-ai-procurement-gap",
+    "/srv/tyche/projects/limen-ai-edge-case-atlas"
+  ],
+  "run_id": "20260610T075914Z",
+  "shard": "residual-weird",
+  "timestamp_utc": "2026-06-10T07:59:16Z"
+}

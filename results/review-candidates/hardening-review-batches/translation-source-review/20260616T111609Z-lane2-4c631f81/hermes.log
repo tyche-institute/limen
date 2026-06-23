@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/home/anton/.hermes/hermes-agent/agent/conversation_loop.py", line 1172, in run_conversation
+    response = agent._interruptible_streaming_api_call(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/run_agent.py", line 3250, in _interruptible_streaming_api_call
+    return interruptible_streaming_api_call(self, api_kwargs, on_first_delta=on_first_delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/agent/chat_completion_helpers.py", line 1400, in interruptible_streaming_api_call
+    return agent._interruptible_api_call(api_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/run_agent.py", line 3077, in _interruptible_api_call
+    return interruptible_api_call(self, api_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/agent/chat_completion_helpers.py", line 414, in interruptible_api_call
+    raise result["error"]
+TimeoutError: Non-streaming API call timed out after 90s with no response (threshold: 90s). Codex backend appears to be silently rejecting 'gpt-5.5' on chatgpt.com/backend-api/codex (no stream events, no error). This is a known backend-side pattern that has affected ChatGPT Plus accounts intermittently. Workaround: try `gpt-5.4-codex` on the same OAuth profile, or switch to a different model/provider in your fallback chain. See hermes-agent#21444 for symptom history.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/anton/.hermes/hermes-agent/venv/bin/hermes", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/anton/.hermes/hermes-agent/hermes_cli/main.py", line 13993, in main
+    args.func(args)
+  File "/home/anton/.hermes/hermes-agent/hermes_cli/main.py", line 1810, in cmd_chat
+    cli_main(**kwargs)
+  File "/home/anton/.hermes/hermes-agent/cli.py", line 15023, in main
+    result = cli.agent.run_conversation(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/run_agent.py", line 4165, in run_conversation
+    return run_conversation(self, user_message, system_message, conversation_history, task_id, stream_callback, persist_user_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/agent/conversation_loop.py", line 3066, in run_conversation
+    time.sleep(0.2)  # Check interrupt every 200ms
+    ^^^^^^^^^^^^^^^
+  File "/home/anton/.hermes/hermes-agent/cli.py", line 14943, in _signal_handler_q
+    raise KeyboardInterrupt()
+KeyboardInterrupt

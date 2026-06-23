@@ -1,0 +1,22 @@
+
+session_id: 20260617_085104_8c9fac
+Done.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260617T065104Z-lane2-c6cc497a/translation-parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260617T065104Z-lane2-c6cc497a/translation-parent-source-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/translation-parent-source-extraction/20260617T065104Z-lane2-c6cc497a/manifest.json
+
+Verification passed:
+- input rows: 1
+- output rows: 1
+- queue_id set matches exactly: BTPS-00123
+- no duplicate queue_id values
+- required TSV header matches
+- manifest status set to complete
+
+Verdict:
+- BTPS-00123: source_url_extracted
+- URL: https://www.cnil.fr/fr/bac-sable-intelligence-artificielle-et-services-publics-la-cnil-accompagne-8-projets-innovants

@@ -1,0 +1,31 @@
+
+session_id: 20260614_105921_f22c30
+Готово.
+
+Файлы записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T085920Z-lane10-171889e5/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T085920Z-lane10-171889e5/source-review-summary.md
+
+Манифест обновлён:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T085920Z-lane10-171889e5/manifest.json
+
+Проверка:
+- input rows: 100
+- output rows: 100
+- signal_id set match: true
+- duplicate input ids: 0
+- duplicate output ids: 0
+- header exact match: true
+
+Итоговые counts:
+- source_reviewed_candidate: 0
+- merge_existing_surface: 10
+- negative_evidence_candidate: 24
+- needs_named_source_extraction: 28
+- translation_review_needed: 14
+- reject_noise: 24
+
+Если хочешь, следующим ходом могу сделать короткий QA-pass по самым спорным корзинам:
+1) translation_review_needed vs merge_existing_surface
+2) negative_evidence_candidate vs needs_named_source_extraction
+3) reject_noise vs direct official surface leakage

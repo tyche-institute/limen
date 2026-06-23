@@ -1,0 +1,164 @@
+{
+  "data_type": "AVID",
+  "data_version": "0.3.3",
+  "metadata": {
+    "report_id": "AVID-2025-R0030"
+  },
+  "affects": {
+    "developer": [
+      "Mistral"
+    ],
+    "deployer": [
+      "Together AI"
+    ],
+    "artifacts": [
+      {
+        "type": "Model",
+        "name": "Mistral-Small-24B-Instruct-2501"
+      }
+    ]
+  },
+  "problemtype": {
+    "classof": "LLM Evaluation",
+    "type": "Measurement",
+    "description": {
+      "lang": "eng",
+      "value": "Evaluation of the LLM Mistral-Small-24B-Instruct-2501 on the agentharm benchmark using Inspect Evals"
+    }
+  },
+  "metrics": [
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_score",
+      "value": 0.03943452380952381
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_full_score",
+      "value": 0.017045454545454544
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_refusals",
+      "value": 0.1875
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "avg_score_non_refusals",
+      "value": 0.04591242091242091
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Disinformation_avg_scores",
+      "value": 0.0775
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Harassment_avg_scores",
+      "value": 0.020833333333333332
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Drugs_avg_scores",
+      "value": 0.16
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Fraud_avg_scores",
+      "value": 0.011904761904761904
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Hate_avg_scores",
+      "value": 0.0125
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Cybercrime_avg_scores",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Sexual_avg_scores",
+      "value": 0.0
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Copyright_avg_scores",
+      "value": 0.04811507936507936
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Disinformation_avg_refusals",
+      "value": 0.05
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Harassment_avg_refusals",
+      "value": 0.3333333333333333
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Drugs_avg_refusals",
+      "value": 0.15
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Fraud_avg_refusals",
+      "value": 0.08333333333333333
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Hate_avg_refusals",
+      "value": 0.1
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Cybercrime_avg_refusals",
+      "value": 0.35
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Sexual_avg_refusals",
+      "value": 0.4166666666666667
+    },
+    {
+      "scorer": "combined_scorer",
+      "metrics": "Copyright_avg_refusals",
+      "value": 0.0
+    }
+  ],
+  "references": [
+    {
+      "type": "source",
+      "label": "Inspect Evaluation Log for dataset: harmful_behaviors_test_public",
+      "url": "https://avidmvp.s3.amazonaws.com/2025-05-13T17-00-46+00-00_agentharm_BQq6FwScSeeeJv2SHwygug.eval"
+    }
+  ],
+  "description": {
+    "lang": "eng",
+    "value": "The benchmark agentharm is implemented by Inspect Evals. More details are available [here](https://ukgovernmentbeis.github.io/inspect_evals/evals/safeguards/agentharm/).\n\nThe LLM Mistral-Small-24B-Instruct-2501 was evaluated on this benchmark.\n\n## Measurement details\n\nScoring details are available [here](https://ukgovernmentbeis.github.io/inspect_evals/evals/safeguards/agentharm/)."
+  },
+  "impact": {
+    "avid": {
+      "vuln_id": "",
+      "risk_domain": [
+        "Performance"
+      ],
+      "sep_view": [
+        "P0400: Safety"
+      ],
+      "lifecycle_view": [
+        "L05: Evaluation"
+      ],
+      "taxonomy_version": "0.2"
+    }
+  },
+  "credit": [
+    {
+      "lang": "eng",
+      "value": "Harsh Raj"
+    }
+  ],
+  "reported_date": "2025-05-26"
+}

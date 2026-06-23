@@ -1,0 +1,32 @@
+{
+  "batch_id": "20260614T094052Z-lane16-0776410c",
+  "batch_size": 100,
+  "completed_at_utc": "2026-06-14T09:44:46Z",
+  "created_at_utc": "2026-06-14T09:40:52Z",
+  "details": {
+    "boundary": "Local-only bounded source-surface triage; no public/portal actions and no truth/compliance/prevalence inferences.",
+    "next_smallest_queue_hardening_move": "Deduplicate canonical Dutch/Helsinki registry surfaces, then extract named authority-owned sources from remaining proxy/multilingual rows."
+  },
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T094052Z-lane16-0776410c/source-review-input.tsv",
+  "input_rows": 100,
+  "lane_id": "lane16",
+  "output_results_tsv": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T094052Z-lane16-0776410c/source-review-results.tsv",
+  "output_summary_md": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T094052Z-lane16-0776410c/source-review-summary.md",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-drain-targets/20260614T084856Z-direct-source-review-queue.tsv",
+  "queue_rows": 20121,
+  "remaining_unleased_at_allocation": 5021,
+  "reviewed_rows": 100,
+  "started_at_utc": "2026-06-14T09:40:52Z",
+  "status": "complete",
+  "updated_at_utc": "2026-06-14T09:44:46Z",
+  "verdict_counts": {
+    "merge_existing_surface": 11,
+    "needs_named_source_extraction": 11,
+    "negative_evidence_candidate": 24,
+    "reject_noise": 47,
+    "source_reviewed_candidate": 2,
+    "translation_review_needed": 5
+  },
+  "verified_matching_signal_ids": true
+}

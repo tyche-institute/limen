@@ -1,0 +1,15 @@
+figure	path	exists	size_bytes	sha256
+Figure 2	results/boost/limen-dashboard-paper-forge/si-package/figure-2-taxonomy-heatmap.svg	True	117321	5fcf08621e0c9f74073bcb3ff5c69a173270bd4d74118d74407f3569fc623502
+Figure 2	results/boost/limen-dashboard-paper-forge/si-package/figure-2-taxonomy-heatmap.png	True	272989	3430a4916e43c7fa3434bdea8dbd2faf0f5c4e7db1c474369895891e66e125e3
+Figure 3	results/boost/limen-dashboard-paper-forge/si-package/figure-3-evidence-funnel.svg	True	59654	bff061d3aa3f49a98bb7539a909a1794026877306b96c22bf1a585a13925d90d
+Figure 3	results/boost/limen-dashboard-paper-forge/si-package/figure-3-evidence-funnel.png	True	187644	37c7651d5b34c45e56efc5af547f5eabce6a87b3794f14214ff097415abbd858
+Figure 4	results/boost/limen-dashboard-paper-forge/si-package/figure-4-source-family-saturation.svg	True	115892	81b7a030353ebf4887df1b2a428b7e3de2ebbf2c818936e582b40eacc8c92d14
+Figure 4	results/boost/limen-dashboard-paper-forge/si-package/figure-4-source-family-saturation.png	True	285786	3e4377a2ad994bb9dd9bd4f56dc3217eb0fed234224eecf820c4ac1501169f2c
+Figure 5	results/boost/limen-dashboard-paper-forge/si-package/figure-5-jurisdiction-language.svg	True	80610	d8295e69de5520b916c620a1c91f7ed45a1a22a9b87f0a754c2350508fedab42
+Figure 5	results/boost/limen-dashboard-paper-forge/si-package/figure-5-jurisdiction-language.png	True	150865	f96e9ffe9cf618971d66accd1ea59f6666092655f9d03cba20d3577d2eb138ba
+Figure 6	results/boost/limen-dashboard-paper-forge/si-package/figure-6-legal-uncertainty.svg	True	107410	9b4fcfc0e003703deedf77440f50c98151246bd968f8ef7c62ad283d41dde4f6
+Figure 6	results/boost/limen-dashboard-paper-forge/si-package/figure-6-legal-uncertainty.png	True	241096	c6f20e8252493dd2b15d77f49c2a6d5054958dbabf90562e76b7aeb74eee852d
+Figure 7	results/boost/limen-dashboard-paper-forge/si-package/figure-7-security-threshold-ladder.svg	True	81988	547f2e15cada5cc99c72372f509bbe201353cf4f48a2aa806a4872d6d168be7d
+Figure 7	results/boost/limen-dashboard-paper-forge/si-package/figure-7-security-threshold-ladder.png	True	157954	84b4f50c0c6963a8725026f3332821cf34c01c5244a5d684b6e8b8c4b884bc33
+Figure 8	results/boost/limen-dashboard-paper-forge/si-package/figure-8-duplicate-review-graph.svg	True	48890	9b14d97f88b696c55d949fb5d24c4591bac7b07f530265507ed62ff55177d902
+Figure 8	results/boost/limen-dashboard-paper-forge/si-package/figure-8-duplicate-review-graph.png	True	167222	b62f5a88a9f63be06e2047417a685bc05d2e02a492e9ab86738c958bdc1c5091

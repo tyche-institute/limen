@@ -1,0 +1,35 @@
+{
+  "batch_id": "20260616T112037Z-lane8-1e299411",
+  "batch_size": 15,
+  "completed_at_utc": "2026-06-16T11:26:42Z",
+  "created_at_utc": "2026-06-16T11:20:37Z",
+  "details": {
+    "boundary": "local metadata/source/cache-snapshot locator review only; no broad web crawl or public actions; URL/source-surface hardening only",
+    "result_rows": 15,
+    "rows_reviewed": 15,
+    "verdict_counts": {
+      "url_extracted": 14,
+      "wrapper_needs_parent_source": 1
+    },
+    "verification": "result TSV row_id set and row count match input.tsv; one row per input row_id; no duplicate row_id values"
+  },
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T112037Z-lane8-1e299411/input.tsv",
+  "input_rows": 15,
+  "lane_id": "lane8",
+  "outputs": {
+    "results": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T112037Z-lane8-1e299411/named-url-extraction-results.tsv",
+    "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260616T112037Z-lane8-1e299411/named-url-extraction-summary.md"
+  },
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/named-url-extraction-queue.tsv",
+  "queue_rows": 228,
+  "remaining_unleased_at_allocation": 48,
+  "started_at_utc": "2026-06-16T11:20:37Z",
+  "status": "complete",
+  "task": "named-url-extraction",
+  "updated_at_utc": "2026-06-16T11:26:42Z",
+  "verdict_counts": {
+    "url_extracted": 14,
+    "wrapper_needs_parent_source": 1
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-0001",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-07T03:53:02Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-receipt-profile-live-20260607T035302Z",
+  "action": "published",
+  "subject_ref": {
+    "kind": "artifact",
+    "id": "limen-attestation-live-receipt-field-state-audit-v0.1",
+    "path_or_uri": "results/attestation/live-receipt-field-state-audit-v0.1.tsv",
+    "title": "Live field-state audit for LIMEN attestation example receipts",
+    "version": "2026-06-07T03:53:02Z"
+  },
+  "inputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/limen-envelope-examples-v0.1.json",
+      "media_type": "application/json",
+      "sha256": "sha256:baa4d9bc5bc3d14c33739ac80fdb2f623830e66d720ec154262fda559f45628c",
+      "captured_at": "2026-06-07T01:13:49Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/receipt-example-coverage-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:6fde2788a676775a75e1137cbce79bb679ced0d972d6fd06994bee22d1e68037",
+      "captured_at": "2026-06-07T03:17:36Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/receipt-field-population-policy-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:e4aae467cb3da884708620febb466f9a417d6dfdfb02c96b3e438540998468e7",
+      "captured_at": "2026-06-07T03:17:36Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "schema/limen-envelope.schema.json",
+      "media_type": "application/json",
+      "sha256": "sha256:a97de6c9b75d88703194d5ff082810e8ffdd5c906b78ec8338257d9436b5499f",
+      "captured_at": "2026-06-07T03:17:36Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from public/open sources"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/live-receipt-field-state-audit-v0.1.tsv",
+      "media_type": "text/tab-separated-values",
+      "sha256": "sha256:e9d8d49f33bfe089d72ad8dbaeca417b945f23354f97edfb9faf19f436fbde2c",
+      "emitted_at": "2026-06-07T03:53:02Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact derived from the LIMEN attestation example corpus"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "A1",
+      "assertion_type": "artifact_derivation",
+      "statement": "A live local export generated a tabular audit of field-state population across the current LIMEN example receipt corpus using the active LIMEN envelope schema and reviewer policy tables.",
+      "value": {
+        "example_count": 6,
+        "audit_rows": 6,
+        "derived_artifact": "results/attestation/live-receipt-field-state-audit-v0.1.tsv"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A2",
+      "assertion_type": "review_decision",
+      "statement": "The live receipt itself validates against the LIMEN envelope schema and records only observation-and-processing provenance about the export step.",
+      "value": {
+        "schema_validation": "pass",
+        "claim_scope": "observation_and_processing_only"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        3
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A3",
+      "assertion_type": "uncertainty_note",
+      "statement": "This live receipt does not assert truth of any underlying allegation, legal validity, compliance, certification, transparency-log inclusion, VC issuance, or completed signature verification.",
+      "value": {
+        "excluded_claims": [
+          "truth",
+          "legality",
+          "compliance",
+          "certification",
+          "safety",
+          "completeness"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        2,
+        3
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    }
+  ],
+  "schema_refs": [
+    "urn:tyche:limen:envelope:0.1"
+  ],
+  "tooling": {
+    "tool_manifest_hash": "sha256:a97de6c9b75d88703194d5ff082810e8ffdd5c906b78ec8338257d9436b5499f",
+    "prompt_hash": "sha256:06a87c357975a55f5ccc550ce5ca6b15c1325bb73f2c80c52df143b509ac1feb",
+    "model_name": "python3-stdlib+jsonschema",
+    "provider": "local_execution",
+    "schema_version": "0.1"
+  },
+  "review_status": "lane_checked",
+  "review_notes": [
+    "This receipt attests a local export step only.",
+    "No detached signature, VC issuance, or transparency-log inclusion proof is claimed in this live artifact."
+  ],
+  "dashboard_hooks": [
+    "attestation_timeline"
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ]
+}

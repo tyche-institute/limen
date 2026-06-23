@@ -1,0 +1,163 @@
+{
+  "envelope_id": "LIMEN-ENV-LIVE-0007",
+  "envelope_type": "urn:tyche:limen:envelope:0.1",
+  "profile_version": "0.1",
+  "generated_at": "2026-06-07T09:29:39Z",
+  "project_id": "limen-ai-edge-case-atlas",
+  "lane_id": "limen-attestation-receipt-profile",
+  "run_id": "limen-attestation-observed-live-20260607T092939Z",
+  "action": "observed",
+  "subject_ref": {
+    "kind": "source_record",
+    "id": "LIMEN-S-041",
+    "path_or_uri": "sources/sources.md#LIMEN-S-041",
+    "title": "CVE-2026-44843 raw CVE record for LangChain unsafe deserialization and message-history poisoning risk",
+    "version": "2026-06-07"
+  },
+  "inputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "sources/sources.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:ba98b28cd407dcfab485e5ec1d466566711cc1ced9c15b6728121835fe45366e",
+      "captured_at": "2026-06-07T00:00:00Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche source ledger derived from public/open materials"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "results/security/status.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:90aeaa02032f74853f22309ea9cd0e1989581577beb8900e304dad31fb2a8196",
+      "captured_at": "2026-06-07T09:17:26Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche package status artifact derived from public/open materials"
+    },
+    {
+      "kind": "artifact_file",
+      "locator": "schema/limen-envelope.schema.json",
+      "media_type": "application/json",
+      "sha256": "sha256:bd28c77296aa040d7cbc7c2bb26655e9d1529dba1a138fd1c5104dcc1b7ee78d",
+      "captured_at": "2026-06-07T07:22:45Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche schema artifact"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_file",
+      "locator": "results/attestation/live-observed-source-note-v0.1.md",
+      "media_type": "text/markdown",
+      "sha256": "sha256:68a10318f259c5c046935d9c50a7c5abe0d90cb083042fb60f6a448223d5dfc1",
+      "emitted_at": "2026-06-07T09:29:39Z",
+      "language": "en",
+      "jurisdiction": "multi",
+      "source_family": "local_research_artifact",
+      "rights_notes": "local Tyche artifact documenting a live observed-source receipt"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "A1",
+      "assertion_type": "observation",
+      "statement": "A live LIMEN receipt records that the local source-ledger row for LIMEN-S-041 was re-inspected as a public vulnerability-record input for the LangChain memory/state contamination package.",
+      "value": {
+        "source_id": "LIMEN-S-041",
+        "source_url": "`https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/44xxx/CVE-2026-44843.json`",
+        "source_family": "public vulnerability record",
+        "jurisdiction": "Global",
+        "language": "English",
+        "linked_case_id": "LIMEN-000008"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A2",
+      "assertion_type": "hash_binding",
+      "statement": "The observed receipt binds the current source-ledger surface to exact local hashes so later reviewer checks can detect drift in the observed metadata layer.",
+      "value": {
+        "sources_md_sha256": "sha256:ba98b28cd407dcfab485e5ec1d466566711cc1ced9c15b6728121835fe45366e",
+        "security_status_sha256": "sha256:90aeaa02032f74853f22309ea9cd0e1989581577beb8900e304dad31fb2a8196"
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    },
+    {
+      "assertion_id": "A3",
+      "assertion_type": "uncertainty_note",
+      "statement": "This receipt does not attest source truth, realized exploitation, legal status, compliance, certification, or safety; it only attests a bounded observation step over the local source ledger and package context.",
+      "value": {
+        "excluded_claims": [
+          "truth",
+          "legality",
+          "compliance",
+          "certification",
+          "safety",
+          "completeness"
+        ]
+      },
+      "confidence": "high",
+      "supporting_input_refs": [
+        0,
+        1,
+        2
+      ],
+      "supporting_output_refs": [
+        0
+      ],
+      "review_needed": false
+    }
+  ],
+  "schema_refs": [
+    "urn:tyche:limen:envelope:0.1"
+  ],
+  "tooling": {
+    "tool_manifest_hash": "sha256:bd28c77296aa040d7cbc7c2bb26655e9d1529dba1a138fd1c5104dcc1b7ee78d",
+    "prompt_hash": "sha256:7777777777777777777777777777777777777777777777777777777777777777",
+    "model_name": "python3-stdlib+jsonschema",
+    "provider": "local_execution",
+    "schema_version": "0.1"
+  },
+  "review_status": "lane_checked",
+  "review_notes": [
+    "This live receipt attests a source-ledger observation step only.",
+    "The source remains a public vulnerability/advisory input surface; the receipt does not turn it into a proof-of-harm or proof-of-lawfulness record."
+  ],
+  "dashboard_hooks": [
+    "attestation_timeline",
+    "source_family_map",
+    "security_agentic_crosswalk"
+  ],
+  "claim_scope": "observation_and_processing_only",
+  "non_claims": [
+    "truth",
+    "legality",
+    "compliance",
+    "certification",
+    "safety",
+    "completeness"
+  ]
+}

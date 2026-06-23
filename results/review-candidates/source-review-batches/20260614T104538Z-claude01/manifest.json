@@ -1,0 +1,27 @@
+{
+  "adjudication_method": "claude-authored rubric classifier (tools/claude_source_review_classify.py) with audited samples; conservative hold-to-ceiling on promotions",
+  "batch_id": "20260614T104538Z-claude01",
+  "batch_size": 100,
+  "completed_at_utc": "2026-06-14T10:45:38Z",
+  "created_at_utc": "2026-06-14T10:45:38Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T104538Z-claude01/source-review-input.tsv",
+  "input_rows": 60,
+  "lane_id": "claude",
+  "provider": "anthropic-claude",
+  "queue": "results/review-candidates/source-review-drain-targets/20260614T104537Z-claude-clean60-queue.tsv",
+  "queue_rows": 20049,
+  "results": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T104538Z-claude01/source-review-results.tsv",
+  "reviewed_by": "claude-opus-4-8",
+  "status": "complete",
+  "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T104538Z-claude01/source-review-summary.md",
+  "updated_at_utc": "2026-06-14T10:45:38Z",
+  "validation_reason": "ok",
+  "verdict_counts": {
+    "merge_existing_surface": 1,
+    "needs_named_source_extraction": 42,
+    "negative_evidence_candidate": 1,
+    "reject_noise": 16
+  },
+  "verified_row_count": 60,
+  "verified_signal_id_set_match": true
+}

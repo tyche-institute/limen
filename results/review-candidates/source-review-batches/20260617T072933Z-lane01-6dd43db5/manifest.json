@@ -1,0 +1,39 @@
+{
+  "batch_id": "20260617T072933Z-lane01-6dd43db5",
+  "batch_size": 160,
+  "completed_at_utc": "2026-06-17T07:32:13Z",
+  "created_at_utc": "2026-06-17T07:29:33Z",
+  "details": {
+    "boundary": "local metadata/source files only; source-surface triage only; no public/portal actions",
+    "completed_at_utc": "2026-06-17T07:31:37Z",
+    "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072933Z-lane01-6dd43db5/source-review-results.tsv",
+    "rows_reviewed": 160,
+    "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072933Z-lane01-6dd43db5/source-review-summary.md",
+    "verdict_counts": {
+      "merge_existing_surface": 106,
+      "needs_named_source_extraction": 26,
+      "negative_evidence_candidate": 26,
+      "translation_review_needed": 2
+    },
+    "verification": "source-review-results.tsv signal_id set and row count match source-review-input.tsv; no duplicate output signal_id values; required header verified"
+  },
+  "hermes_returncode": 0,
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072933Z-lane01-6dd43db5/source-review-input.tsv",
+  "input_rows": 160,
+  "lane_id": "lane01",
+  "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072933Z-lane01-6dd43db5/source-review-results.tsv",
+  "output_rows": 160,
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-drain-targets/20260617T072933Z-direct-source-review-queue.tsv",
+  "queue_rows": 17916,
+  "remaining_unleased_at_allocation": 2149,
+  "started_at_utc": "2026-06-17T07:29:33Z",
+  "status": "complete",
+  "summary": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260617T072933Z-lane01-6dd43db5/source-review-summary.md",
+  "updated_at_utc": "2026-06-17T07:32:13Z",
+  "verdict_counts": {
+    "merge_existing_surface": 106,
+    "needs_named_source_extraction": 26,
+    "negative_evidence_candidate": 26,
+    "translation_review_needed": 2
+  }
+}

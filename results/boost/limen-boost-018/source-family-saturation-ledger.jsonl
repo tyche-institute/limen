@@ -1,0 +1,16 @@
+[
+  {
+    "source_family": "MIT AI Risk Repository",
+    "evidence_tier": "I",
+    "coverage": "partial",
+    "gaps": ["regional focus on US cases", "limited coverage of non-technical failures"],
+    "last_updated": "2026-06-24T14:30:00Z"
+  },
+  {
+    "source_family": "EU AI Act Enforcement Notices",
+    "evidence_tier": "O",
+    "coverage": "sparse",
+    "gaps": ["delayed reporting", "incomplete jurisdiction coverage"],
+    "last_updated": "2026-06-24T14:30:00Z"
+  }
+]

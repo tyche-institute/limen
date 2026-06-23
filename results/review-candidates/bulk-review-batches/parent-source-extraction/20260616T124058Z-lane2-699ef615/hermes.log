@@ -1,0 +1,25 @@
+
+session_id: 20260616_144111_eda340
+Done.
+
+Wrote:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T124058Z-lane2-699ef615/parent-source-extraction-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T124058Z-lane2-699ef615/parent-source-extraction-summary.md
+
+Updated:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/bulk-review-batches/parent-source-extraction/20260616T124058Z-lane2-699ef615/manifest.json
+
+Verification passed:
+- input rows: 24
+- output rows: 24
+- queue_id set matches input: true
+- duplicate queue_id values: 0
+- output order matches input: true
+
+Verdict counts:
+- source_url_extracted: 6
+- parent_source_wrapper: 5
+- country_gap_no_parent_source: 9
+- source_surface_only_no_case: 4
+- duplicate_existing_core: 0
+- reject_noise: 0

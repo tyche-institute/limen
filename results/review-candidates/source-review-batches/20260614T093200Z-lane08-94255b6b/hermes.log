@@ -1,0 +1,28 @@
+
+session_id: 20260614_113201_0ebda0
+Готово.
+
+Записаны:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093200Z-lane08-94255b6b/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093200Z-lane08-94255b6b/source-review-summary.md
+
+Обновлён manifest:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T093200Z-lane08-94255b6b/manifest.json
+
+Проверка прошла:
+- input rows: 100
+- result rows: 100
+- signal_id set match: true
+- duplicates: none
+- missing: none
+- extras: none
+
+Итоги по verdict:
+- source_reviewed_candidate: 7
+- merge_existing_surface: 12
+- negative_evidence_candidate: 21
+- needs_named_source_extraction: 13
+- translation_review_needed: 3
+- reject_noise: 44
+
+Граница прохода соблюдена: использованы только локальные metadata/local source files; это был только source-surface triage без выводов о truth / legality / compliance / safety / prevalence / ranking.

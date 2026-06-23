@@ -1,0 +1,41 @@
+{
+  "timestamp_utc": "2026-06-07T17:03:27Z",
+  "lane_id": "limen-aiid-oecd-avid-crosswalk",
+  "project_id": "limen-ai-edge-case-atlas",
+  "source_checks": {
+    "aiid": {
+      "page_data_sample_id": 1515,
+      "snapshot_count": 264,
+      "snapshot_latest": "backup-20260601120109.tar.bz2"
+    },
+    "oecd_aim_incidents": {
+      "sample_slug": "2026-06-06-be52",
+      "publisher_sample": "Yahoo News (Taiwan)",
+      "vocab_endpoint_groups": 8
+    },
+    "avid": {
+      "sample_report_id": "AVID-2022-R0001",
+      "sample_vuln_id": "AVID-2022-V001",
+      "license": "MIT"
+    },
+    "mit_ai_risk_repo": {
+      "public_license_signal": "CC BY 4.0",
+      "anonymous_bulk_export_promoted": false
+    },
+    "cset_ai_harm": {
+      "public_article_reachable": true,
+      "permissive_machine_reuse_marker_verified": false
+    },
+    "mitre_atlas": {
+      "version": "5.6.0",
+      "deprecated_distribution": true,
+      "case_study_ids": 57,
+      "technique_ids": 101,
+      "mitigation_ids": 35
+    }
+  },
+  "interpretation": {
+    "claim": "Live bounded recheck preserved the existing six-source role split without widening import scope.",
+    "next_threshold": "Prefer second canonical AVID join, first defensible MITRE ATLAS case-study ID, or one additional conservative AIID/OECD same-event overlap."
+  }
+}

@@ -1,0 +1,4 @@
+pattern_id	pattern_name	description	source_count	evidence_tier
+LIMEN-SEC-001	Procurement Chain Breakdown	Failure in maintaining secure procurement chains leading to unauthorized AI integration	4	evidence-tier-2
+LIMEN-SEC-002	Agentic Control Leaks	Control mechanisms inadequately containing AI decision-making scope in public systems	3	evidence-tier-3
+LIMEN-SEC-003	Cross-System Propagation	Security gaps allowing lateral movement between connected AI systems	2	evidence-tier-3

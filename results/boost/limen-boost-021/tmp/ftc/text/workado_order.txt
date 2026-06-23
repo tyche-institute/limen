@@ -1,0 +1,400 @@
+232-3092
+UNITED STATES OF AMERICA
+BEFORE THE FEDERAL TRADE COMMISSION
+COMMISSIONERS:
+
+Andrew N. Ferguson, Chairman
+Melissa Holyoak
+Mark R. Meador
+
+In the Matter of
+
+DECISION AND ORDER
+
+WORKADO, LLC, a limited liability company,
+f/k/a CONTENT AT SCALE AI.
+
+DOCKET NO. C-4822
+
+DECISION
+The Federal Trade Commission (“Commission”) initiated an investigation of certain acts and
+practices of the Respondent named in the caption. The Commission’s Bureau of Consumer
+Protection (“BCP”) prepared and furnished to Respondent a draft Complaint. BCP proposed to
+present the draft Complaint to the Commission for its consideration. If issued by the
+Commission, the draft Complaint would charge the Respondent with violations of the Federal
+Trade Commission Act.
+Respondent and BCP thereafter executed an Agreement Containing Consent Order (“Consent
+Agreement”). The Consent Agreement includes: 1) statements by Respondent that it neither
+admits nor denies any of the allegations in the Complaint, except as specifically stated in this
+Decision and Order, and that only for purposes of this action, it admits the facts necessary to
+establish jurisdiction; and 2) waivers and other provisions as required by the Commission’s
+Rules.
+The Commission considered the matter and determined that it had reason to believe that
+Respondent has violated the Federal Trade Commission Act, and that a Complaint should issue
+stating its charges in that respect. The Commission accepted the executed Consent Agreement
+and placed it on the public record for a period of 30 days for the receipt and consideration of
+
+public comments. The Commission duly considered any comments received from interested
+persons pursuant to Section 2.34 of its Rules, 16 C.F.R. § 2.34. Now, in further conformity with
+the procedure prescribed in Rule 2.34, the Commission issues its Complaint, makes the
+following Findings, and issues the following Order:
+Findings
+1. The Respondent is Workado, LLC, formerly known as Content at Scale AI (“Content At
+Scale”), an Arizona limited liability company with its principal office or place of business
+at 15333 N. Pima Road, Suite 260, Scottsdale, Arizona 85260.
+2. The Commission has jurisdiction over the subject matter of this proceeding and over the
+Respondent, and the proceeding is in the public interest.
+ORDER
+Definitions
+For purposes of this Order, the following definitions apply:
+A. “Covered Product” means any product incorporating technology that detects or purports
+to detect content, including text and images, generated or altered in part or in whole by
+artificial intelligence.
+B. “Respondent” means Workado, LLC, a limited liability company formerly known as
+Content At Scale AI, and its successors and assigns.
+Provisions
+I. Prohibited Misleading and Unsubstantiated Representations
+IT IS ORDERED that Respondent, and Respondent’s officers, agents, employees, and
+attorneys, and all other persons in active concert or participation with any of them, who receive
+actual notice of this Order, whether acting directly or indirectly, in connection with the
+advertising, promotion, offering for sale, or sale of any Covered Product must not make any
+representation expressly or by implication, about such product’s effectiveness at detecting
+content generated or altered by artificial intelligence, unless the representation is non-misleading,
+including that, at the time such representation is first made, and each time such representation is
+made thereafter, they possess and rely upon competent and reliable evidence, which when
+appropriate based on the expertise of professionals in the relevant area must be competent and
+reliable scientific evidence, that is sufficient in quality, quantity, and timeliness based on
+standards generally accepted in the relevant fields when considered in light of the entire body of
+relevant and reliable evidence, to substantiate that the representation is true. For the purposes of
+2
+
+this Provision, the Provision titled Preservation of Records Relating to Competent and Reliable
+Evidence, and the Provision titled Public Statement Regarding Competent and Reliable
+Evidence:
+A. “Competent and reliable evidence” means tests, analyses, research, studies, or other
+evidence based on the expertise of professionals in the relevant area, that (1) have been
+conducted and evaluated in an objective manner by qualified persons and (2) are
+generally accepted in the profession to yield accurate and reliable results.
+B. “Competent and reliable scientific evidence” means tests, analyses, research, or studies
+that (1) have been conducted and evaluated in an objective manner by qualified persons
+and (2) are generally accepted in the profession to yield accurate and reliable results.
+II.
+
+Preservation of Records Relating to Competent and Reliable Evidence
+
+IT IS FURTHER ORDERED that, with regard to any competent and reliable evidence,
+including competent and reliable scientific evidence, upon which Respondent relies to
+substantiate any claim covered by this Order, Respondent must secure and preserve all
+underlying or supporting data and documents generally accepted by experts in the field as
+relevant to an assessment of such evidence, including:
+A. All documents referring or relating to testing protocols or protocol amendments,
+including documents referring or relating to the rationale for the methodologies and
+metrics used therein;
+B. Any data that was used for testing;
+C. For any data that was used for testing, all documents referring or relating to the data
+sources and distribution, evaluation classes, class distribution, and types and description
+of values included;
+D. All documents referring or relating to any processing steps performed on the data used
+for testing and how such processing steps mirror or differ from those performed on the
+data used for training the Covered Products;
+E. All documents referring or relating to any steps taken to avoid overlap between the
+training datasets and testing datasets;
+F. All documents referring or relating to the reasoning as to why the data used for
+evaluation is sufficient and appropriate given the expected use cases, including why the
+data distribution is appropriate; and
+
+3
+
+G. All documents referring or relating to any statistical analysis of any test data, including
+preliminary and intermediary analyses such as confusion matrices.
+III. Notices to Customers
+IT IS FURTHER ORDERED that Respondent must notify customers as follows:
+A. Respondent must identify all consumers who subscribed to Respondent’s products for
+detecting content generated or altered by artificial intelligence (“eligible customers”).
+1. Such eligible customers, and their contact information, must be identified to the
+extent such information is in Respondent’s possession, custody or control;
+2. Eligible customers include those identified at any time including after Respondent’s
+execution of the Consent Agreement through the eligibility period, which runs for 1
+year after the issuance date of the Order.
+B. Respondent must notify all identified eligible customers by emailing each a notice in the
+form shown in Attachment A.
+C. Respondent must notify all eligible customers within 180 days after the issuance date of
+this Order and any eligible customers identified thereafter within 30 days of their
+identification.
+D. Respondent must report on their notification program under penalty of perjury:
+1. Respondent must submit a report annually and at the conclusion of the program
+summarizing its compliance to date, including the total number of eligible customers
+identified and the total number of eligible customers notified.
+2. If a representative of the Commission requests any information regarding the
+program, including any of the underlying customer data, Respondent must submit it
+within 10 days of the request.
+3. Failure to provide required notices or any requested information will be treated as a
+continuing failure to obey this Order.
+IV. Acknowledgments of the Order
+IT IS FURTHER ORDERED that Respondent obtain acknowledgments of receipt of this
+Order:
+4
+
+A. Respondent, within 10 days after the effective date of this Order, must submit to the
+Commission an acknowledgment of receipt of this Order sworn under penalty of perjury.
+B. Respondent must deliver a copy of this Order to: (1) all principals, officers, directors,
+and LLC managers and members; (2) all employees having managerial responsibilities
+for conduct related to the subject matter of the Order and all agents and representatives
+who participate in conduct related to the subject matter of the Order; and (3) any business
+entity resulting from any change in structure as set forth in the Provision titled
+Compliance Reports and Notices. Delivery must occur within 10 days after the effective
+date of this Order for current personnel. For all others, delivery must occur before they
+assume their responsibilities.
+C. From each individual or entity to which a Respondent delivered a copy of this Order, that
+Respondent must obtain, within 30 days, a signed and dated acknowledgment of receipt
+of this Order.
+V. Compliance Reports and Notices
+IT IS FURTHER ORDERED that Respondent make timely submissions to the
+Commission:
+A. One year after the issuance date of this Order, and annually thereafter for 3 years,
+Respondent must submit a compliance report, sworn under penalty of perjury, in which
+Respondent must: (a) identify the primary physical, postal, and email address and
+telephone number, as designated points of contact, which representatives of the
+Commission, may use to communicate with Respondent; (b) identify all of that
+Respondent’s businesses by all of their names, telephone numbers, and physical, postal,
+email, and Internet addresses; (c) describe the activities of each business, including the
+goods and services offered, the means of advertising, marketing, and sales; (d) describe in
+detail whether and how that Respondent is in compliance with each Provision of this
+Order, including a discussion of all of the changes the Respondent made to comply with
+the Order; and (e) provide a copy of each Acknowledgment of the Order obtained
+pursuant to this Order, unless previously submitted to the Commission.
+B. Respondent must submit a compliance notice, sworn under penalty of perjury, within 14
+days of any change in the following: (a) any designated point of contact; or (b) the
+structure of the Respondent or any entity that Respondent has any ownership interest in
+or controls directly or indirectly that may affect compliance obligations arising under this
+Order, including: creation, merger, sale, or dissolution of the entity or any subsidiary,
+parent, or affiliate that engages in any acts or practices subject to this Order.
+C. Respondent must submit notice of the filing of any bankruptcy petition, insolvency
+5
+
+proceeding, or similar proceeding by or against Respondent within 14 days of its filing.
+D. Any submission to the Commission required by this Order to be sworn under penalty of
+perjury must be true and accurate and comply with 28 U.S.C. § 1746, such as by
+concluding: “I declare under penalty of perjury under the laws of the United States of
+America that the foregoing is true and correct. Executed on: _____” and supplying the
+date, signatory’s full name, title (if applicable), and signature.
+E. Unless otherwise directed by a Commission representative in writing, all submissions to
+the Commission pursuant to this Order must be emailed to DEbrief@ftc.gov or sent by
+overnight courier (not the U.S. Postal Service) to: Associate Director for Enforcement,
+Bureau of Consumer Protection, Federal Trade Commission, 600 Pennsylvania Avenue
+NW, Washington, DC 20580. The subject line must begin: In re Workado, LLC, also f/
+k/a Content At Scale AI.
+VI. Recordkeeping
+IT IS FURTHER ORDERED that Respondent must create certain records for 10 years after
+the issuance date of the Order, and retain each such record for 5 years, unless otherwise specified
+below. Specifically, Respondent must create and retain the following records:
+A. Accounting records showing the revenues from all goods or services sold, the costs
+incurred in generating those revenues, and resulting net profit or loss;
+B. Personnel records showing, for each person providing services in relation to any aspect of
+the Order, whether as an employee or otherwise, that person’s: name; addresses;
+telephone numbers; job title or position; dates of service; and (if applicable) the reason
+for termination;
+C. A copy of each unique advertisement or other marketing material making a representation
+subject to this Order;
+D. For 5 years from the date of the last dissemination of any representation covered by this
+Order:
+1. All materials that were relied upon in making the representation; and
+2. All tests, studies, analyses, demonstrations, other research or other such evidence in
+Respondent’s possession, custody, or control that contradicts, qualifies, or otherwise
+calls into question the representation, or the basis relied upon for the representation,
+including complaints and other communications with consumers or with
+6
+
+governmental or consumer protection organizations; and
+E. All records necessary to demonstrate full compliance with each provision of this Order,
+including all submissions to the Commission.
+VII. Compliance Monitoring
+IT IS FURTHER ORDERED that, for the purpose of monitoring Respondent’s compliance
+with this Order:
+A. Within 10 days of receipt of a written request from a representative of the Commission,
+Respondent must: submit additional compliance reports or other requested information,
+which must be sworn under penalty of perjury, and produce records for inspection and
+copying.
+B. For matters concerning this Order, representatives of the Commission are authorized to
+communicate directly with Respondent. Respondent must permit representatives of the
+Commission to interview anyone affiliated with Respondent who has agreed to such an
+interview. The interviewee may have counsel present.
+C. The Commission may use all other lawful means, including posing through its
+representatives as consumers, suppliers, or other individuals or entities, to Respondent or
+any individual or entity affiliated with Respondent, without the necessity of identification
+or prior notice. Nothing in this Order limits the Commission’s lawful use of compulsory
+process, pursuant to Sections 9 and 20 of the FTC Act, 15 U.S.C. §§ 49, 57b-1.
+VIII. Order Effective Dates
+IT IS FURTHER ORDERED that this Order is final and effective upon the date of its
+publication on the Commission’s website (ftc.gov) as a final order. This Order will terminate 20
+years from the date of its issuance (which date may be stated at the end of this Order, near the
+Commission’s seal), or 20 years from the most recent date that the United States or the
+Commission files a complaint (with or without an accompanying settlement) in federal court
+alleging any violation of this Order, whichever comes later; provided, however, that the filing of
+such a complaint will not affect the duration of:
+A. Any Provision in this Order that terminates in less than 20 years;
+B. This Order’s application to any Respondent that is not named as a defendant in such
+complaint; and
+
+7
+
+C. This Order if such complaint is filed after the Order has terminated pursuant to this
+Provision.
+Provided, further, that if such complaint is dismissed or a federal court rules that the Respondent
+did not violate any provision of the Order, and the dismissal or ruling is either not appealed or
+upheld on appeal, then the Order will terminate according to this Provision as though the
+complaint had never been filed, except that the Order will not terminate between the date such
+complaint is filed and the later of the deadline for appealing such dismissal or ruling and the date
+such dismissal or ruling is upheld on appeal.
+By the Commission.
+
+April J. Tabor
+Secretary
+SEAL:
+ISSUED: August 21, 2025
+
+8
+
+ATTACHMENT A: NOTICE TO CUSTOMERS
+The notification email must be in the following form, from an authorized Workado, LLC,
+formerly known as Content At Scale AI (“Content At Scale AI”), email address, and contain a
+signature line that refers to Content At Scale, with the sender’s full contact information:
+Subject: FTC Settlement About Accuracy Claims of Content at Scale’s AI Detector
+Dear <Customer>:
+We’re writing to tell you that we reached an agreement with the Federal Trade Commission
+(FTC), the nation’s consumer protection agency, to settle charges that we made false or
+unsubstantiated advertising claims about the accuracy of our AI Content Detector.
+We claimed that our AI Content Detector will predict with a 98% accuracy rate whether text was
+created by AI content generators like ChatGPT, GPT4, Claude, and Bard. The FTC says we
+didn’t have proof to back up those claims. We’ve stopped making those claims. In the future, we
+won’t make claims about the accuracy of our AI content detection tools unless we can prove
+them. In the meantime, it’s our hope that you’ll use the tool as a guide to further improve your
+writing.
+If you have questions about this case, visit [URL].
+Sincerely,
+[Signatures for Workado, LLC, fka Content At Scale AI]
+[Signature blocks for Workado, LLC, fka Content At Scale AI]
+
+9
+
+UNITED STATES OF AMERICA
+
+FEDERAL TRADE COMMISSION
+WASHINGTON, DC 20580
+
+Office of the Secretary
+
+August 22, 2025
+
+Electronic Privacy Information Center (EPIC)
+Re: In the Matter of Workado, LLC, f/k/a Content at Scale AI
+FTC File No. 232-3092
+Dear EPIC:
+The Commission’s analysis is aided by hearing from a variety of sources, and we
+appreciate your comment regarding the above-referenced matter. The Commission has placed
+your comment on the public record pursuant to Section 4.9(b)(6)(ii) of the Commission’s Rules
+of Practice, 16 C.F.R § 4.9(b)(6)(ii).
+The proposed order against Workado, LLC, settles allegations that Workado made false
+or unsubstantiated claims that its artificial intelligence (“AI”) detector (“AI Detector”) could
+perform with 98 percent accuracy across many types of text generated by a wide range of
+generative AI programs. The order would prohibit Workado from making any representation
+about the efficacy of any product covered by the proposed order unless that representation is not
+misleading and Workado has competent and reliable evidence that is sufficient in quantity,
+quality, and timeliness to support its claim. The order would also require that Workado retain all
+evidence used to substantiate a covered claim, and it would require providing notice about this
+settlement to customers who purchased a subscription to the AI Detector.
+Your comment commends the Commission for its enforcement action against Workado,
+for prohibiting Workado from making unsubstantiated claims about the efficacy of its AI
+products, and for requiring that Workado retain competent and reliable evidence used to
+substantiate its claims. EPIC also makes two recommendations: (1) that the Commission
+conclude Workado’s conduct constituted an unfair practice, and (2) that the order require that
+Workado submit its AI Detector to third parties for independent testing and obtain independent
+evaluations from the AI model’s developer. For the reasons explained below, we decline to adopt
+your recommendations.
+First, the Commission uses its unfairness authority when appropriate to the facts and
+circumstances in our enforcement work. In this case, the Commission finds that the allegations
+are suited to the conduct and the proposed order offers substantial protections to consumers.
+Second, the Commission agrees that substantiation of claims with evidence, which can include
+independent testing, is important. But the Commission also believes the proposed order already
+adequately addresses the scope and nature of the conduct alleged in the complaint. The
+complaint explains that Workado made a false or unsubstantiated performance claim. The core of
+the proposed order is a prohibition on misleading and unsubstantiated claims. When Workado
+makes representations about its products’ efficacy, the proposed order requires that it possess and
+rely upon sufficient competent and reliable evidence. The proposed order also requires that
+
+EPIC
+August 22, 2025
+Page 2
+
+Workado retain evidence used to substantiate its efficacy claims. This requirement guards
+against the risks of efficacy claims being misleading and made without sufficient evidence.
+In conclusion, the Commission believes the proposed order in the above-titled proceeding
+offers substantial protections to consumers and has now determined that the public interest
+would best be served by issuing the Decision and Order in final form without any modifications.
+The final Decision and Order and other relevant materials are available from the Commission’s
+website at http://www.ftc.gov. Thank you again for your comment.
+By direction of the Commission.
+April J. Tabor
+Secretary
+
+UNITED STATES OF AMERICA
+
+FEDERAL TRADE COMMISSION
+WASHINGTON, DC 20580
+
+Office of the Secretary
+
+August 22, 2025
+
+The Center for AI and Digital Policy (CAIPD)
+Re: In the Matter of Workado, LLC, f/k/a Content at Scale AI
+FTC File No. 232-3092
+Dear CAIPD:
+The Commission’s analysis is aided by hearing from a variety of sources, and we
+appreciate your comment regarding the above-referenced matter. The Commission has placed
+your comment on the public record pursuant to Section 4.9(b)(6)(ii) of the Commission’s Rules
+of Practice, 16 C.F.R § 4.9(b)(6)(ii).
+The proposed order against Workado, LLC, settles allegations that Workado made false
+or unsubstantiated claims that its artificial intelligence (“AI”) detector (“AI Detector”) could
+perform with 98 percent accuracy across many types of text generated by a wide range of
+generative AI programs. The order would prohibit Workado from making any representation
+about the efficacy of any product covered by the proposed order unless that representation is not
+misleading and Workado has competent and reliable evidence that is sufficient in quantity,
+quality, and timeliness to support its claim. The order would also require that Workado retain all
+evidence used to substantiate a covered claim, and it would require providing notice about this
+settlement to customers who purchased a subscription to the AI Detector.
+Your comment expresses support of the Complaint and aspects of the order, including its
+prohibition on unsubstantiated efficacy claims and its requirement that consumers receive notice
+of Workado’s misrepresentations. Your comment also suggests four distinct additions to the
+order: first, that Workado be required to submit AI models and tools to a third party for
+independent testing; second, that Workado be required to disclose any AI detection tool’s
+efficacy on its website; third, that customers be notified of their ability to cancel their
+subscription to Workado’s products; and, fourth, that Workado be required to report about its
+privacy, security, and copyright procedures around consumer data that is submitted to any AI
+detection tool. For the reasons explained below, we decline to adopt your recommendations.
+The Commission agrees that substantiation of claims is important. The Commission also
+believes the order’s current provisions address your concerns. The core of the proposed order is a
+prohibition on misleading and unsubstantiated claims, and it requires that Workado provide
+notice to consumers. When Workado makes representations about its products’ efficacy, the
+proposed order requires that it possess and rely upon sufficient competent and reliable evidence.
+The proposed order also requires that Workado retain evidence used to substantiate its efficacy
+claims. Such substantiating evidence may include independent testing. These requirements are
+intended to ensure that Workado does not repeat the deceptive conduct alleged. Regarding your
+suggestions that Workado provide additional notice to customers and submit additional reports to
+
+CAIPD
+August 22, 2025
+Page 2
+
+the FTC, we likewise believe the proposed order’s existing provisions adequately address the
+scope and nature of the conduct alleged in the complaint.
+In conclusion, the Commission believes the proposed order in the above-titled proceeding
+offers substantial protections to consumers and has now determined that the public interest
+would best be served by issuing the Decision and Order in final form without any modifications.
+The final Decision and Order and other relevant materials are available from the Commission’s
+website at http://www.ftc.gov. Thank you again for your comment.
+By direction of the Commission.
+April J. Tabor
+Secretary
+
+

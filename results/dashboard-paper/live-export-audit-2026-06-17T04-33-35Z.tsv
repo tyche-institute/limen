@@ -1,0 +1,14 @@
+as_of_utc	artifact	rows	sha256_12	denominator_or_scope	notes
+2026-06-17T04:33:35Z	results/dashboard/source-family-coverage.tsv	15	b1d3a0e616db	15 source-family rows	Figure 1 / source-family saturation map
+2026-06-17T04:33:35Z	results/dashboard/taxonomy-heatmap.tsv	15	c0c9db0ed86a	39 governed record refs / 29 unique lineages core; 44 / 34 extended	Figure 2 / taxonomy support heatmap
+2026-06-17T04:33:35Z	results/dashboard/legal-uncertainty-matrix.tsv	15	e7e9859a36b3	15 category rows	Figure 3 / legal uncertainty matrix
+2026-06-17T04:33:35Z	results/dashboard/duplicate-review-graph.tsv	27	bb36d1fd9ddc	27 visible edges	Figure 4 / duplicate-review quality-control graph
+2026-06-17T04:33:35Z	results/dashboard/evidence-funnel.tsv	11	866475937cae	21 publication-safe lineages	Figure 5 / publication-safe evidence-tier funnel
+2026-06-17T04:33:35Z	results/dashboard/jurisdiction-language-coverage.tsv	12	8bb99a9b5e4d	12 jurisdiction/language rows	Figure 6 / jurisdiction-language visibility map
+2026-06-17T04:33:35Z	results/dashboard/authoritative-document-depth-facet.tsv	9	f8f10c8959be	9 rows	Table A / authoritative document-depth facet
+2026-06-17T04:33:35Z	results/dashboard/public-sector-disclosure-comparison.tsv	6	eaee7560d431	6 shared-panel rows	Table B / public-sector disclosure asymmetry comparison
+2026-06-17T04:33:35Z	results/dashboard/security-threshold-ladder-panel.tsv	4	c989a5509d9e	4 threshold rows	Figure 7 / bounded security-threshold companion
+2026-06-17T04:33:35Z	results/dashboard/security-crosswalk-coverage-panel.tsv	6	838efefa8e6d	6 crosswalk coverage rows	Table C / bounded security-agentic crosswalk companion
+2026-06-17T04:33:35Z	results/dashboard/attestation-trust-surface-readiness.tsv	4	573b69c981fb	4 trust-surface rows	Figure 8 / bounded attestation companion
+2026-06-17T04:33:35Z	results/dashboard-paper/dashboard-paper-figure-route-registry-2026-06-16T23-33-03Z.tsv	11	2070ce096b7a	11 route slots	Current local figure/route authority
+2026-06-17T04:33:35Z	results/dashboard-paper/caption-control-register-v0.1.tsv	19	d1be39b6335e	19 caption controls	Current caption ceiling authority

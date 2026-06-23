@@ -1,0 +1,28 @@
+artifact_type: authority-candidate-evaluation
+rows:
+  - authority: Pennsylvania Office of Technology Policy
+    source: https://www.pa.gov/tech-policy/ai-ethics-framework
+    status: metadata-recovered
+    issues: body-unreadable, no-canonical-link
+    upgrade_path: monitor for PDF releases, check legislative archives
+  - authority: New Hampshire Department of Justice
+    source: https://www.doi.nh.gov/ocafa/ai-risk-register
+    status: archive-recovered
+    issues: live URL 403, archive text fragment only
+    upgrade_path: test .govlvl access, check state archives
+  - authority: Finnish National Audit Office
+    source: https://www.valtioneuvosto.fi/en/publications
+    status: metadata-recovered
+    issues: title-gloss-only, no full text
+    upgrade_path: use EU Open Data Portal, check Finnish Parliament records
+  - authority: European Commission AI Governance
+    source: https://digital-strategy.ec.europa.eu/en/policies/ai-governance
+    status: live-accessible
+    issues: general policy, not specific synthetic identity event
+    upgrade_path: extract use-case examples, crosswalk with C2PA
+paper_use: methods/limitations, Table 1F hidden row
+visualization_hook: authority-sourcing-radial-diagram
+next_move: prioritize NH DOJ archive recovery, then FN Audit Office metadata upgrade
+evidence_tier: metadata-only
+claim_support: LIMEN-C-004A, LIMEN-C-004B
+uncertainty: high

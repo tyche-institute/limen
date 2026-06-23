@@ -1,0 +1,16 @@
+{
+  "batch_id": "20260617T075924Z-lane07-48d79ae5",
+  "batch_size": 15,
+  "created_at_utc": "2026-06-17T07:59:24Z",
+  "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-batches/named-url-extraction/20260617T075924Z-lane07-48d79ae5/input.tsv",
+  "input_rows": 15,
+  "lane_id": "lane07",
+  "queue": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/hardening-review-queues/named-url-extraction-queue.tsv",
+  "queue_rows": 265,
+  "remaining_unleased_at_allocation": 71,
+  "started_at_utc": "2026-06-17T07:59:24Z",
+  "status": "superseded_abandoned",
+  "superseded_reason": "mixed_old_batch_current_rows_covered_and_stale_rows_removed_from_queue",
+  "task": "named-url-extraction",
+  "updated_at_utc": "2026-06-17T08:06:49Z"
+}

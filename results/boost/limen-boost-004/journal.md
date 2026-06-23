@@ -1,0 +1,7 @@
+## 2026-06-23T18:45:00+02:00
+- Re-checked exact STOP-file absence, the hostile-reviewer sprint, the LIMEN goal card, the live shared security package, and the current shard-004 manuscript/dashboard artifacts before doing new work.
+- Chose bounded claim-ceiling and dashboard-hook synthesis over another retrieval because shard-004 already had the latest evidence and routing logic, but still lacked one unified manuscript fragment and dashboard hook aligned to the live eleven-row package with two MCP exemplars and two explicit zero-state gaps.
+- Rewrote `paper-fragment.md` and `dashboard-hook.md` to reflect the updated denominator (11 rows, 9 platforms), revised dimensions (including supply-chain/plugin trust-boundary), and explicit zero-state gaps (peer-reviewed security case support, supply-chain/plugin extension).
+- Patched `status.md` to align all summary counts, evidence tiers, and next-move language with the new artifacts.
+- Paper-readiness delta: shard 004 now has one reviewer-safe, publication-ready manuscript fragment and dashboard hook that explicitly describe the eleven-row security package, its five divergent dimensions, and its two zero-state gaps — reducing risk of reviewer drift and enabling direct reuse in thesis and paper drafts.
+- Remaining blocker: the next substantive gain is still one incident-specific peer-reviewed or conference-grade security attachment for a live row, or one supply-chain/plugin trust exemplar — not more packaging.

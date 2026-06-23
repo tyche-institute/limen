@@ -1,0 +1,26 @@
+row_id	case_type	envelope_id	expected	actual	result	notes
+POS-LIMEN-ENV-EXAMPLE-0001	positive_example	LIMEN-ENV-EXAMPLE-0001	PASS	PASS	match	example corpus revalidated after supersession-chain guard
+POS-LIMEN-ENV-EXAMPLE-0002	positive_example	LIMEN-ENV-EXAMPLE-0002	PASS	PASS	match	example corpus revalidated after supersession-chain guard
+POS-LIMEN-ENV-EXAMPLE-0003	positive_example	LIMEN-ENV-EXAMPLE-0003	PASS	PASS	match	example corpus revalidated after supersession-chain guard
+POS-LIMEN-ENV-EXAMPLE-0004	positive_example	LIMEN-ENV-EXAMPLE-0004	PASS	PASS	match	example corpus revalidated after supersession-chain guard
+POS-LIMEN-ENV-EXAMPLE-0005	positive_example	LIMEN-ENV-EXAMPLE-0005	PASS	PASS	match	example corpus revalidated after supersession-chain guard
+POS-LIMEN-ENV-EXAMPLE-0006	positive_example	LIMEN-ENV-EXAMPLE-0006	PASS	PASS	match	example corpus revalidated after supersession-chain guard
+POS-LIMEN-ENV-LIVE-0006	positive_live	LIMEN-ENV-LIVE-0006	PASS	PASS	match	live-classified-security-envelope-v0.1.json
+POS-LIMEN-ENV-LIVE-0004	positive_live	LIMEN-ENV-LIVE-0004	PASS	PASS	match	live-clustered-duplicate-envelope-v0.1.json
+POS-LIMEN-ENV-LIVE-0002	positive_live	LIMEN-ENV-LIVE-0002	PASS	PASS	match	live-dashboard-envelope-receipt-v0.1.json
+POS-LIMEN-ENV-LIVE-0001	positive_live	LIMEN-ENV-LIVE-0001	PASS	PASS	match	live-envelope-receipt-v0.1.json
+POS-LIMEN-ENV-LIVE-0008	positive_live	LIMEN-ENV-LIVE-0008	PASS	PASS	match	live-extracted-source-envelope-v0.1.json
+POS-LIMEN-ENV-LIVE-0007	positive_live	LIMEN-ENV-LIVE-0007	PASS	PASS	match	live-observed-source-envelope-v0.1.json
+POS-LIMEN-ENV-LIVE-0003	positive_live	LIMEN-ENV-LIVE-0003	PASS	PASS	match	live-reviewed-crosswalk-envelope-v0.1.json
+POS-LIMEN-ENV-LIVE-SHARED-BUNDLE-0001	positive_live	LIMEN-ENV-LIVE-SHARED-BUNDLE-0001	PASS	PASS	match	live-shared-release-bundle-envelope-v0.1.json
+POS-LIMEN-ENV-LIVE-SHARED-BUNDLE-0002	positive_live	LIMEN-ENV-LIVE-SHARED-BUNDLE-0002	PASS	PASS	match	live-shared-release-bundle-envelope-v0.2.json
+POS-LIMEN-ENV-LIVE-SHARED-BUNDLE-0003	positive_live	LIMEN-ENV-LIVE-SHARED-BUNDLE-0003	PASS	PASS	match	live-shared-release-bundle-envelope-v0.3.json
+POS-LIMEN-ENV-LIVE-SHARED-BUNDLE-0004	positive_live	LIMEN-ENV-LIVE-SHARED-BUNDLE-0004	PASS	PASS	match	live-shared-release-bundle-envelope-v0.4.json
+POS-LIMEN-ENV-LIVE-SHARED-BUNDLE-0005	positive_live	LIMEN-ENV-LIVE-SHARED-BUNDLE-0005	PASS	PASS	match	live-shared-release-bundle-envelope-v0.5.json
+POS-LIMEN-ENV-LIVE-SHARED-BUNDLE-0006	positive_live	LIMEN-ENV-LIVE-SHARED-BUNDLE-0006	PASS	PASS	match	live-shared-release-bundle-envelope-v0.6.json
+POS-LIMEN-ENV-LIVE-SHARED-BUNDLE-0007	positive_live	LIMEN-ENV-LIVE-SHARED-BUNDLE-0007	PASS	PASS	match	live-shared-release-bundle-envelope-v0.7.json
+POS-LIMEN-ENV-LIVE-0005	positive_live	LIMEN-ENV-LIVE-0005	PASS	PASS	match	live-superseded-status-envelope-v0.1.json
+NEG-MISSING-SUPERSESSION	negative_control	LIMEN-ENV-LIVE-0005	FAIL	FAIL	match	missing_supersession_block
+NEG-MISSING-PRIOR-ID	negative_control	LIMEN-ENV-LIVE-0005	FAIL	FAIL	match	missing_prior_envelope_id
+NEG-BAD-SHA	negative_control	LIMEN-ENV-LIVE-0005	FAIL	FAIL	match	invalid_superseded_sha256
+NEG-BAD-REASON	negative_control	LIMEN-ENV-LIVE-0005	FAIL	FAIL	match	invalid_reason_code

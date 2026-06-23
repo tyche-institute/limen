@@ -1,0 +1,10 @@
+# LIMEN Seed Case Database
+
+## Case | Evidence Tier | Source | Jurisdiction | Language | Blocked
+DOWN1 | Tier 1 | EUR-Lex | EU | EN | No
+CASE-2023-045 | Tier 2 | Reuters | US | EN | No
+BLOCKED-001 | Tier 1 | JSTOR | US | EN | Yes (paywalled)
+
+*Legend:*
+- **Evidence Tier**: 1=Authoritative, 2=Secondary
+- **Blocked**: Access issues identified

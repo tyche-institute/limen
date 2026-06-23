@@ -1,0 +1,37 @@
+count_scope	metric	key	count	source_or_basis	notes
+local_jsonl_visible_rows	record_status	authoritative	17	jq over data/cases/*.jsonl and boost candidate JSONL	Visible rows include duplicate/collision-prone shard records; not a lineage denominator
+local_jsonl_visible_rows	record_status	authoritative_charging_stage	1	jq over data/cases/*.jsonl and boost candidate JSONL	Nate remains charge-stage only
+local_jsonl_visible_rows	record_status	authoritative_follow_through	1	jq over data/cases/*.jsonl and boost candidate JSONL	ORION follow-through row
+local_jsonl_visible_rows	record_status	authoritative_source_record	3	jq over data/cases/*.jsonl and boost candidate JSONL	FCC / AG / Springer source-record rows before canonical promotion decisions
+local_jsonl_visible_rows	record_status	authoritative_candidate_queue	4	jq over data/cases/*.jsonl and boost candidate JSONL	Mostly shard-007 official-title/source queues
+local_jsonl_visible_rows	record_status	candidate	13	jq over data/cases/*.jsonl and boost candidate JSONL	Candidate-only leads; duplicate collapse required before dashboard counts
+local_jsonl_visible_rows	evidence_tier	T3_authoritative_source	20	jq over data/cases/*.jsonl and boost candidate JSONL	Visible-row count, not deduped lineage count
+local_jsonl_visible_rows	evidence_tier	T3_authoritative_source_direct_url_resolved	1	jq over data/cases/*.jsonl and boost candidate JSONL	Multilingual ORION-style direct URL status label
+local_jsonl_visible_rows	evidence_tier	T1_single_public_source	12	jq over data/cases/*.jsonl and boost candidate JSONL	Candidate-only / single-source rows
+local_jsonl_visible_rows	evidence_tier	missing	6	jq over data/cases/*.jsonl and boost candidate JSONL	Missing tier mostly shard queue rows with non-schema local fields
+stable_collapsed_lineages	top_level_category	security_risk	9	results/taxonomy/taxonomy-delta-v0.1.md	Counts are over 23 unique lineages after stable-duplicate collapse
+stable_collapsed_lineages	top_level_category	agentic_control_failure	9	results/taxonomy/taxonomy-delta-v0.1.md	Counts are over 23 unique lineages after stable-duplicate collapse
+stable_collapsed_lineages	top_level_category	public_sector_misuse_or_gap	7	results/taxonomy/taxonomy-delta-v0.1.md	Counts are over 23 unique lineages after stable-duplicate collapse
+stable_collapsed_lineages	top_level_category	normative_or_moral_outlier	5	results/taxonomy/taxonomy-delta-v0.1.md	Counts are over 23 unique lineages after stable-duplicate collapse
+stable_collapsed_lineages	top_level_category	unlawful_or_allegedly_unlawful_use	5	results/taxonomy/taxonomy-delta-v0.1.md	Counts are over 23 unique lineages after stable-duplicate collapse
+stable_collapsed_lineages	top_level_category	education_workplace_or_hr	4	results/taxonomy/taxonomy-delta-v0.1.md	Counts are over 23 unique lineages after stable-duplicate collapse
+stable_collapsed_lineages	top_level_category	ai_washing_or_false_ai_claim	4	results/taxonomy/taxonomy-delta-v0.1.md	Counts are over 23 unique lineages after stable-duplicate collapse; FTC candidates would diversify but are not counted yet
+stable_collapsed_lineages	top_level_category	surveillance_biometrics_or_policing	3	results/taxonomy/taxonomy-delta-v0.1.md	Counts are over 23 unique lineages after stable-duplicate collapse
+stable_collapsed_lineages	top_level_category	deepfake_or_synthetic_identity	3	results/taxonomy/taxonomy-delta-v0.1.md	Counts are over 23 unique lineages after stable-duplicate collapse
+stable_collapsed_lineages	top_level_category	institutional_absurdity	3	results/taxonomy/taxonomy-delta-v0.1.md	All still single-public-source / translation-caution exposed
+stable_collapsed_lineages	top_level_category	legal_procedural_contamination	2	results/taxonomy/taxonomy-delta-v0.1.md	Thin pair; Springer direct-notice promotion would strengthen source-depth more than count
+stable_collapsed_lineages	top_level_category	finance_insurance_or_market	2	results/taxonomy/taxonomy-delta-v0.1.md	SEC settled rows only; avoid prevalence claims
+stable_collapsed_lineages	top_level_category	residual_unclassified	0	results/taxonomy/taxonomy-delta-v0.1.md	Zero assignments are not absence; keep residual capacity
+source_family_ledger	saturation_state	seeded	13	sources/source-family-ledger.tsv	13 of 15 source families currently seeded
+source_family_ledger	saturation_state	planned	2	sources/source-family-ledger.tsv	sf14 and sf15 remain planned frontiers
+source_family_ledger	dashboard_readiness	grounded_now	13	sources/source-family-ledger.tsv	13 source families have grounded-now dashboard readiness
+source_family_ledger	dashboard_readiness	planned_not_seeded	2	sources/source-family-ledger.tsv	Lead/social and residual-novelty frontiers remain planned
+source_family_ledger	thin_family_flag	yes	4	sources/source-family-ledger.tsv	Thin families include the current route blockers/guardrails
+source_family_ledger	thin_family_flag	no	11	sources/source-family-ledger.tsv	Non-thin does not imply complete or representative coverage
+source_family_ledger	evidence_use_band	maintenance_comparator	5	sources/source-family-ledger.tsv	Comparator families should not be turned into event evidence
+source_family_ledger	evidence_use_band	route_a_guardrail	2	sources/source-family-ledger.tsv	CSET and research-integrity style guardrail/limitations roles
+source_family_ledger	evidence_use_band	planned_frontier	2	sources/source-family-ledger.tsv	sf14 social/web lead and sf15 residual-novelty frontiers
+source_family_ledger	evidence_use_band	supporting_empirical_or_discovery_layer	3	sources/source-family-ledger.tsv	Regulator/company/multilingual media style support roles
+source_family_ledger	evidence_use_band	route_b_blocker	3	sources/source-family-ledger.tsv	sf08 court, sf09 public-sector, sf11 security remain blocker stack
+new_source_checked_candidates	source_family	Regulator and enforcement sources	4	web scout 2026-06-07T11:58Z	FTC DoNotPay, Workado, Rytr, Air.ai candidates not yet included in lineage counts
+new_source_checked_candidates	source_family	Public-sector regulator decision	1	web scout 2026-06-07T11:58Z	Danish Datatilsynet SU AI decision-support anchor not yet included in lineage counts

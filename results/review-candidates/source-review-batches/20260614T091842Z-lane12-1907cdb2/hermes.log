@@ -1,0 +1,31 @@
+
+session_id: 20260614_111843_cfabdf
+Готово.
+
+Файлы обновлены:
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091842Z-lane12-1907cdb2/source-review-results.tsv
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091842Z-lane12-1907cdb2/source-review-summary.md
+- /srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-review-batches/20260614T091842Z-lane12-1907cdb2/manifest.json
+
+Проверка выполнена:
+- input rows: 100
+- output rows: 100
+- signal_id set match: true
+- duplicate output signal_ids: false
+
+Итоговые verdict counts:
+- reject_noise: 48
+- merge_existing_surface: 12
+- needs_named_source_extraction: 12
+- negative_evidence_candidate: 23
+- source_reviewed_candidate: 2
+- translation_review_needed: 3
+
+Коротко по батчу:
+- много внутренних derived artifacts, claim-support, scripts, manuscripts и seed/query scaffolding
+- несколько уже смоделированных поверхностей: City of Helsinki AI Register, Dutch Algorithm Register, Scottish AI Register, AVID family
+- немного прямых reviewable surfaces: Crossref NEJM DOI API, Treasury Board of Canada directive row
+- отрицательные / absence rows в основном из readiness / weak-source / second-pass gap materials
+
+Следующий smallest queue-hardening move уже записан в summary:
+- auto-filter internal claim-support, manuscript, seed-query, and script artifacts before leasing rows into the direct-source queue.

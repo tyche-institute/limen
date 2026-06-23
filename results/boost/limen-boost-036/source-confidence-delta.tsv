@@ -1,0 +1,12 @@
+# Source Confidence Delta
+
+| Source ID | Type         | Claim Type | Confidence Score | Rationale
+|-----------|--------------|------------|-----------------|----------
+| s123      | Duplicate    | Evidence   | 0.85           | Textual overlap exceeding 70% threshold
+| s456      | Unique       | Policy     | 0.95           | Distinct regulatory language not seen elsewhere
+
+Confidence scoring framework proposal:
+1. **Thresholds**: 0.7+ = High, 0.5–0.7 = Medium, <0.5 = Low
+2. **Factors**: Textual overlap, source authority, crosswalk validation, language specificity.
+
+Next: Integrate with existing `duplicate-claim-use-board.tsv` and update manuscript methods section.

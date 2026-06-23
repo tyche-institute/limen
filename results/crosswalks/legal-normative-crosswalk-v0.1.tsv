@@ -1,0 +1,19 @@
+1|case_category	eu_ai_act_section	nist_ai_rmf_function	oecd_ethics_concept	ttyche_evidence_need
+    2|High-risk AI system for credit scoring	Article 5(1)(b)	Governance and Risk Management	Fairness, Transparency	Source ledger entries, model documentation
+    3|AI-driven content moderation	Article 5(1)(a)	Safety and Robustness	Accountability, Human Oversight	Content moderation logs, policy rules
+    4|Predictive policing tool	Article 5(1)(c)	Security and Privacy	Justice, Non-Discrimination	Event logs, fairness metrics
+    5|Medical diagnosis assistant	Article 5(1)(d)	Performance and Monitoring	Human Oversight, Transparency	Clinical trial data, validation reports
+    6|Data-driven regulatory compliance checker	Article 5(1)(a)	Governance and Risk Management	Accountability, Transparency	Policy rule base, compliance logs
+    7|Agentic control failure	Article 5	Risk Management	Accountability	Deployment logs, control-failure incident reports, mitigation plans
+    8|Deepfake or synthetic identity	Article 5(1)(b)	Transparency	Transparency	Media authenticity logs, provenance metadata, source verification artifacts
+    9|Education, workplace, or HR	Article 5	Fairness	Fairness	Policy usage logs, decision records, fairness audit trails
+    10|Finance, insurance, or market	Article 5	Risk Management	Accountability	Audit trails, compliance reports, risk assessments
+    11|Institutional absurdity	N/A	Transparency	Integrity	Case reference logs, procedural metadata, study of absurd complaint examples
+    12|Legal/procedural contamination	Article 12	Explainability	Transparency	Court filings, regulator notices, process logs, official correspondence
+    13|Public-sector misuse or evidence gap	Article 23	Governance	Accountability	Government audit reports, procurement records, oversight documents
+    14|Security risk	Article 10	Risk Management	Robustness	Vulnerability reports, patch notes, security assessments
+    15|Surveillance, biometrics, or policing	Article 5(1)(a)	Privacy	Privacy	Surveillance footage logs, biometric data provenance, access audit trails
+    16|Unlawful or allegedly unlawful use	N/A	Accountability	Integrity	Legal complaints, court documents, law enforcement reports
+    17|AI-generated illicit content	Article 5(1)(a)	Accountability	Integrity	Source provenance logs, code audit trails
+    18|AI-driven autonomous weapon system	Article 5(1)(c)	Security and Privacy	Accountability	Deployment logs, safety certifications
+    19|AI-generated legal brief automation	Article 12	Explainability	Transparency	Legal citation logs, draft version control    20|AI-based predictive policing for minor offenses	Article 5(1)(c)	Security and Privacy	Justice, Non-Discrimination	Event logs, fairness metrics, risk assessment reports

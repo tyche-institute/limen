@@ -1,0 +1,6 @@
+source_cluster_key	case_extraction_verdict	source_url_or_locator	source_name	source_host	proposed_case_title	proposed_evidence_tier	proposed_limen_categories	source_record_date	jurisdiction	bounded_claim_candidate	claim_ceiling	forbidden_overread	geeeraled_rationale	required_before_reviewed_core	required_before_obscure_ai	next_action
+https://ec.europa.eu	closed_noncase_source_surface	https://ec.europa.eu/	ec.europa.eu	ec.europa.eu	
+	noncase_register_or_transparency_surface	doNotProcess
+
+Register/transparency surface; it may inventory systems, but the current row is not a harm/finding/event.	extract_specific_authority_action_or_event
+Not ObscureAI material until converted into a bounded case-level record.	
