@@ -1,22 +1,9 @@
-## 2026-06-23 Cycle
+### Next Publishability Moves
 
-### Artifacts touched
-- Reviewed publication sprint directive `20260607-hostile-reviewer-pass`
-- Checked LIMEN publication goal card
-- Analyzed `claims.md` and current status
-- Reviewed `results/boost/limen-boost-034/taxonomy-route-sentence-transition-board.tsv`
-- Reviewed `results/boost/limen-boost-034/frontier-threshold-impact-matrix.tsv`
-- Reviewed `results/boost/limen-boost-034/taxonomy-promotion-frontier.tsv`
+1. Push local git mirror as initial commit: `git push --mirror origin`
+2. Update `next.md` to reference the new remote.
+3. Integrate `taxonomy-route-sentence-transition-board.tsv` into all future drafts.
+4. Pursue authoritative non-framework runtime-execution lineage (e.g., new CVE with vendor bulletin).
+5. Use `results/boost/limen-boost-029/claim-defense-crosswalk.tsv` together with `results/boost/limen-boost-029/publication-claim-unlock-matrix.tsv`, `results/boost/limen-boost-029/provenance-question-role-matrix.tsv`, `results/boost/limen-boost-055/second-results-promotion-matrix.tsv`, and `results/dashboard-paper/caption-control-register-v0.1.tsv:CCR-013` whenever manuscript, dashboard, reviewer-response, or thesis surfaces need one exact statement of what shard 007 may claim now and what threshold event would actually justify stronger wording.
 
-### Paper-readiness delta
-- Created a machine-readable sentence-governance board (`taxonomy-route-sentence-transition-board.tsv`) that precisely defines which taxonomy wording is safe now and which stronger wording remains forbidden until a threshold event.
-- Consolidated the shard-034 route-state logic into one compact, reusable artifact that directly supports manuscript, dashboard, and thesis prose.
-- Confirmed that no new public sources were needed; the strongest remaining gap was not evidence scarcity but prose precision.
-
-### Next smallest publishability move
-1. **Frontier event pursuit**: Target the highest-impact threshold event from `frontier-threshold-impact-matrix.tsv`: pursue one additional authoritative non-framework runtime-execution lineage (e.g., a new CVE with direct vendor bulletin and fix version).
-2. **Sentence governance adoption**: Integrate `taxonomy-route-sentence-transition-board.tsv` into all future manuscript drafts, dashboard captions, and thesis methods sections to prevent unbounded taxonomy wording.
-3. **Shared consumer audit**: Check if any active dashboard or paper surface still uses stale taxonomy language (e.g., "distinct category" or "prevalence pattern") and patch it using the transition board.
-
-### Lane recommendation
-Hold lane count steady. Prioritize route (1) — one runtime-execution threshold event — over any further wording-only work unless a shared consumer drifts again.
+> *All artifacts in `results/boost/limen-boost-007/` are publication-ready. No new evidence added. Prose precision and claim-support alignment improved.*
