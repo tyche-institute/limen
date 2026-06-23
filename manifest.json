@@ -459,5 +459,6 @@
  "remaining_blocker": "Anton controls F1000Research and Zenodo external actions; rerun gates after any package edit.",
  "post_write_verification": "Post-write verification at 2026-06-19T18:30:11Z: manifest JSON PASS; LIMEN pre-submit PASS (9/9, 0 FAIL, 0 WARN); caption-currentness pytest PASS (2 passed)."
  },
- "backup_remote": "git@github.com:tyche-institute/limen-ai-edge-case-atlas"
+ "backup_remote": "https://github.com/tyche-institute/limen-ai-edge-case-atlas",
+ "git_remote": "git@github.com:tyche-institute/limen-ai-edge-case-atlas"
 }
