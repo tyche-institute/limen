@@ -1,37 +1,35 @@
-# Data Management
+# LIMEN AI Edge-Case Atlas Data
 
-## Data Directory Structure
+This repository should not hold large raw crawls. Raw and working data stay on
+the project's working infrastructure, off this public repository.
 
-```
-/data
-  └── raw/          # Unprocessed source data
-  └── processed/    # Cleaned and annotated datasets
-  └── intermediate/ # Temporary files during processing
-  └── documentation/ # Data dictionaries, codebooks, and metadata
-```
+Public-safe derived data may appear here only when it is small, rights-reviewed,
+and useful as a schema example, methods sample, or publication artifact.
 
-## Processing Workflow
+Expected working-infrastructure outputs:
 
-1. **Ingestion**: Sources are downloaded and stored in `/data/raw`
-2. **Cleaning**: 
-   - Remove duplicates
-   - Handle missing values
-   - Normalize formats
-3. **Annotation**: 
-   - Add metadata tags (language, jurisdiction, etc.)
-   - Map to evidence categories
-4. **Storage**: 
-   - Final datasets moved to `/data/processed`
-   - Preservation of raw sources in `/data/raw`
+- `data/cases/seed-cases.jsonl`;
+- `data/sources/source-records.jsonl`;
+- `data/cases/*-candidates.jsonl`;
+- `results/crosswalks/*.tsv`;
+- `results/clusters/*.tsv`.
 
-## Key Data Artifacts
+## Project Status
 
-- **Source Ledgers**: `/sources/sources.md`
-- **Claim-Support Matrices**: `/claims/claim-support-matrix.md`
-- **Dashboard Data**: `/dashboard/data/limen-stats.json`
-- **Codebook**: `/data/documentation/codebook.md`
+- Local Git repository initialized and committed.
+- GitHub repository `tyche-institute/limen-ai-edge-case-atlas` created manually via web UI.
+- Repository URL added to `manifest.json` under `backup_remote` and `git_remote`.
+- `next.md` updated to reflect completed action.
+- Dashboard and paper artifacts are ready for integration.
 
-## Tools in Use
-- **Data Processing**: Python (Pandas, NumPy)
-- **Version Control**: Git for dataset evolution
-- **Validation**: Great Expectations for data quality checks
+## Contribution Guidelines
+
+- Follow the existing structure and naming conventions.
+- Document all changes and additions in `journal.md`.
+- Ensure all data sources are properly cited in `sources/sources.md`.
+- Push changes to the remote repository after review.
+- For large changes, open an issue first for discussion.
+
+## Contact
+
+For questions or collaboration, contact Anton Sokolov at Anton.Sokolov@tyche-institute.org.

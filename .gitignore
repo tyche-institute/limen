@@ -1,0 +1,8 @@
+# Keep raw corpora and large/working data out of the public repo
+data/**
+!data/README.md
+results/
+*.jsonl
+*.duckdb
+.env
+.env.*

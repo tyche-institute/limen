@@ -1,24 +1,34 @@
-# Methods
+# LIMEN AI Edge-Case Atlas Methods
 
-## Research Methodology
+The canonical method note is `methods/evidence-protocol-v0.1.md`.
 
-### Data Collection
-- **Source Identification**: Systematic identification of relevant sources through structured searches.
-- **Extraction**: Automated and manual extraction of key data points from sources.
-- **Validation**: Cross-verification of data accuracy and relevance.
+Short version:
 
-### Data Processing
-- **Cleaning**: Removal of duplicates and normalization of formats.
-- **Annotation**: Tagging data with metadata (language, jurisdiction, etc.).
-- **Storage**: Organized storage in version-controlled repositories.
+- collect public-source leads;
+- assign evidence tiers;
+- classify with multi-label taxonomy;
+- crosswalk to existing incident/risk/security/governance frameworks;
+- deduplicate into clusters;
+- record source uncertainty and visibility bias;
+- attest observation and processing steps without overclaiming truth or legal
+ status.
 
-### Analysis
-- **Quantitative**: Statistical analysis of dataset characteristics.
-- **Qualitative**: Thematic coding and comparative analysis.
-- **Visualization**: Creation of dashboards and graphical representations.
+## Project Status
 
-## Tools & Technologies
-- **Dashboarding**: [Tool Name] for interactive visualization
-- **Version Control**: Git for repository management
-- **Analysis**: Python/Pandas for data manipulation
-- **Documentation**: Markdown for all technical and research documentation
+- Local Git repository initialized and committed.
+- GitHub repository `tyche-institute/limen-ai-edge-case-atlas` created manually via web UI.
+- Repository URL added to `manifest.json` under `backup_remote` and `git_remote`.
+- `next.md` updated to reflect completed action.
+- Dashboard and paper artifacts are ready for integration.
+
+## Contribution Guidelines
+
+- Follow the existing structure and naming conventions.
+- Document all changes and additions in `journal.md`.
+- Ensure all data sources are properly cited in `sources/sources.md`.
+- Push changes to the remote repository after review.
+- For large changes, open an issue first for discussion.
+
+## Contact
+
+For questions or collaboration, contact Anton Sokolov at Anton.Sokolov@tyche-institute.org.

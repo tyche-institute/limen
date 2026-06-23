@@ -1,20 +1,39 @@
-# Claims
+# LIMEN AI Edge-Case Atlas Claim Support
 
-## Research Claims and Hypotheses
+## Claim Discipline
 
-| Claim ID | Statement | Evidence | Status | Notes |
-|-----------|-----------|---------|--------|-------|
-| CLM-001  | The LIMEN dashboard effectively visualizes AI edge cases through its modular architecture. | TBD: Dashboard specification and user testing | Under Investigation | Initial claim requiring validation through prototype feedback |
-| CLM-002  | The integration of diverse data sources improves the robustness of edge case identification. | SRC-001 (Example Source) | Preliminary Support | Requires additional cross-source validation |
+LIMEN may support claims about public-source observability, evidence tiers,
+taxonomy coverage, source-family saturation, crosswalk feasibility, and
+attestation of observation/processing.
 
-## Claim Documentation
+LIMEN must not make final claims about truth, legality, liability,
+non-compliance, safety, or certification unless an authoritative public source
+already supports that narrower claim.
 
-### CLM-001: Dashboard Effectiveness
-- **Rationale**: Modular dashboard design allows for flexible visualization of complex AI edge case data.
-- **Validation Plan**: User testing with researchers, comparative analysis with existing tools
-- **Limitations**: Currently lacks empirical validation, assumes user familiarity with dashboard interfaces
+## Initial Claims To Test
 
-### CLM-002: Source Diversity Impact
-- **Rationale**: Multiple sources provide cross-verification opportunities and reduce bias in edge case identification
-- **Current Evidence**: Single source (SRC-001) demonstrates baseline capability
-- **Next Steps**: Integrate additional sources for comprehensive validation
+|| Claim | Status | Needed evidence |
+||---|---|---|
+|| Existing incident/risk databases leave residual long-tail cases that benefit from a separate edge-case taxonomy. | Hypothesis | Crosswalk gaps and residual-case examples. |
+|| Public-source incident visibility is not a proxy for incident frequency. | Method principle | Source-family saturation and visibility-bias notes. |
+|| Attestation can make LIMEN observations and processing steps verifiable without deciding legal truth. | Design claim | Evidence-envelope examples and non-claim language. |
+
+## Project Status
+
+- Local Git repository initialized and committed.
+- GitHub repository `tyche-institute/limen-ai-edge-case-atlas` created manually via web UI.
+- Repository URL added to `manifest.json` under `backup_remote` and `git_remote`.
+- `next.md` updated to reflect completed action.
+- Dashboard and paper artifacts are ready for integration.
+
+## Contribution Guidelines
+
+- Follow the existing structure and naming conventions.
+- Document all changes and additions in `journal.md`.
+- Ensure all data sources are properly cited in `sources/sources.md`.
+- Push changes to the remote repository after review.
+- For large changes, open an issue first for discussion.
+
+## Contact
+
+For questions or collaboration, contact Anton Sokolov at Anton.Sokolov@tyche-institute.org.

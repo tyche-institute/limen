@@ -1,0 +1,14 @@
+source_family	priority	examples_or_targets	use	rights_notes	initial_lane
+AI incident databases	P0	AIID; OECD AIM	crosswalk existing incident/hazard records	check API/download/reuse terms before mirroring	limen-aiid-oecd-avid-crosswalk
+AI vulnerability/security databases	P0	AVID; MITRE ATLAS; security advisories; CVE/CNA references	map AI security and agentic failure modes	avoid exploit reproduction; metadata and mitigations only	limen-security-agentic-watch
+Risk and harm taxonomies	P0	MIT AI Risk Repository; CSET AI Harm; NIST AI RMF; ISO/IEC 42001 classification support and crosswalks	taxonomy mapping, not incident evidence	limen-legal-normative-crosswalk
+Regulator and enforcement sources	P0	DPAs; consumer protection; competition; financial regulators; AI offices	authoritative source evidence	public pages and official documents only	limen-regulator-court-enforcement-scout
+Court and tribunal records	P1	public judgments; filings where publicly available	legal/procedural contamination and authority actions	respect access limits and avoid private case material	limen-regulator-court-enforcement-scout
+Company and platform notices	P1	status pages; transparency reports; product incident notes	source claims and remediation notes	public notices only; no credentials/private dashboards	limen-source-map
+Security research and advisories	P1	vendor blogs; CERTs; academic security papers; coordinated disclosure	AI/agent security case records	redact payloads and dangerous details	limen-security-agentic-watch
+Public-sector registers and procurement	P1	AI/algorithm registers; procurement signals; public tenders	public-sector gap and absurdity cases	metadata-first; no deployment/non-compliance inference	limen-multilingual-weird-case-scout
+News and investigative reporting	P1	reputable media across languages	case leads and corroboration	visibility bias flagged	limen-edgecase-harvest
+Academic and research-integrity sources	P1	retractions; paper mills; benchmark reports; journal notices	research integrity cases	public, citation-ready sources preferred	limen-dashboard-paper-forge
+Social/web lead sources	P2	public social posts; forums; community reports	lead discovery only	T0 until independently corroborated	limen-continuous-experiments
+Creative/absurd edge sources	P2	weird deployments; contests; AI-as-persona; fake AI claims	residual and normative outlier discovery	avoid harassment and individual pile-ons	limen-continuous-experiments
+
