@@ -1,6 +1,6 @@
 # Source-Reviewed Promotion Hardening
 
-Generated UTC: 2026-06-23T17:23:44Z
+Generated UTC: 2026-06-23T17:24:39Z
 
 This board starts from `source_reviewed_candidate` rows only. It does not promote rows into reviewed core.
 

@@ -2,7 +2,7 @@
   "all_complete": true,
   "boundary": "Hardening review outputs are bounded source-review aids only. Promotion to reviewed core remains a separate human case-hardening step.",
   "current_output_clean": true,
-  "generated_at_utc": "2026-06-23T17:23:43Z",
+  "generated_at_utc": "2026-06-23T17:24:37Z",
   "has_stale_extra_result_rows": true,
   "tasks": {
     "named-url-extraction": {

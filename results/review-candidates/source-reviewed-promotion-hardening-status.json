@@ -1,7 +1,7 @@
 {
   "boundary": "Promotion hardening only; no reviewed-core promotion, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
   "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/source-reviewed-promotion-hardening.tsv",
-  "generated_at_utc": "2026-06-23T17:23:44Z",
+  "generated_at_utc": "2026-06-23T17:24:39Z",
   "named_url_rows": 1438,
   "no_named_url_rows": 208,
   "output": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-v0.1.tsv",

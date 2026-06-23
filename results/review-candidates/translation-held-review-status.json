@@ -1,7 +1,7 @@
 {
   "boundary": "Translation hold only; rows need human translation-aware source review before promotion, factual claims, legal claims, or reviewed-core inclusion.",
   "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/translation-held-review-board.tsv",
-  "generated_at_utc": "2026-06-23T17:23:44Z",
+  "generated_at_utc": "2026-06-23T17:24:40Z",
   "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/full-first-pass-review.tsv",
   "language_hint_counts": {
     "arabic": 23,

@@ -14,7 +14,7 @@
     "complete_no_new_case": 15
   },
   "dashboard_copy": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/dashboard/source-reviewed-completion-ledger.tsv",
-  "generated_at_utc": "2026-06-23T17:23:44Z",
+  "generated_at_utc": "2026-06-23T17:24:40Z",
   "input": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/review-candidates/source-reviewed-promotion-hardening-v0.1.tsv",
   "next_bulk_action_counts": {
     "move_to_next_bulk_queue": 1437,

@@ -3,7 +3,7 @@
   "archived_stale_result_queue_ids": 1906,
   "boundary": "Bulk rollup is processing-state only; no reviewed-core promotion, ObscureAI addition, incident truth, legal finding, safety finding, compliance finding, prevalence, or ranking.",
   "current_output_clean": false,
-  "generated_at_utc": "2026-06-23T17:23:43Z",
+  "generated_at_utc": "2026-06-23T17:24:38Z",
   "has_blocking_integrity_issue": true,
   "has_duplicate_queue_ids": false,
   "has_duplicate_queue_ids_in_queue": false,

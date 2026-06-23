@@ -20817,3 +20817,12 @@
 [2026-06-23T17:21:08Z] cycle start
 [2026-06-23T17:21:09Z] direct-source backlog=0
 [2026-06-23T17:21:18Z] cycle complete; sleeping 45s
+[2026-06-23T17:22:03Z] cycle start
+[2026-06-23T17:22:04Z] direct-source backlog=0
+[2026-06-23T17:22:57Z] cycle complete; sleeping 45s
+[2026-06-23T17:23:42Z] cycle start
+[2026-06-23T17:23:43Z] direct-source backlog=0
+[2026-06-23T17:23:50Z] cycle complete; sleeping 45s
+[2026-06-23T17:24:35Z] cycle start
+[2026-06-23T17:24:37Z] direct-source backlog=0
+[2026-06-23T17:24:48Z] cycle complete; sleeping 45s

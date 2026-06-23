@@ -1,6 +1,6 @@
 # LIMEN reviewed-core promotion packet
 
-- Generated: 2026-06-23T17:23:45Z
+- Generated: 2026-06-23T17:24:41Z
 - Packet rows: `2003`
 - Unique signal IDs: `1994`
 - Unique source clusters: `974`
