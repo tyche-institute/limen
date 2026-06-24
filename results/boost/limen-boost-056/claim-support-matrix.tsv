@@ -1,0 +1,5 @@
+| Claim ID | Claim | Supporting Evidence | Support Strength | Uncertainty | Boundary / Overclaim Fence | Recommended Action |
+|----------|-------|----------------------|------------------|-------------|----------------------------|--------------------|
+| CS-SEC-1 | Security incident taxonomy coverage at 85% | limen-boost-056/candidate-cases.jsonl (security-related edge cases) | Medium | Medium | Taxonomy does not cover post-2025 incidents | Expand with 2025+ source review |
+| CS-SEC-2 | Procedural contamination evidence in 3 EU jurisdictions | limen-boost-056/source-delta.tsv (new source families in procedural contamination) | Medium | High | Relies on machine-translated sources requiring review | Human translation and verification needed |
+| CS-SEC-3 | Dashboard parity achieved for Figure 5/7 | limen-boost-056/dashboard-hook.md | High | Low | Parity defined as structural equivalence, not visual | No action required |

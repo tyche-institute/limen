@@ -1,0 +1,6 @@
+# Seed Case Database Template
+
+| Case ID | Source | Evidence Tier | Jurisdiction | Language | Summary |
+|---------|--------|---------------|--------------|----------|---------|
+| LIMEN-001 | AIID-2023-045 | Tier 2 | Estonia | et | AI procurement in public healthcare with unclear accountability |
+| LIMEN-002 | OECD-AIM-2024-012 | Tier 1 | EU | en | Regulatory gap in AI-powered medical device approval |

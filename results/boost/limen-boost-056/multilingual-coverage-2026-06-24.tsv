@@ -1,0 +1,13 @@
+source_id	language	jurisdiction	coverage_status
+SRC-001	Estonian	Estonia	Complete
+SRC-002	Finnish	Finland	Pending
+SRC-003	Latvian	Latvia	Blocked
+SRC-004	Hungarian	Hungary	Partial
+SRC-005	Sami (Inari)	Finland	Underrepresented
+SRC-006	Estonian	Ukraine	Underrepresented
+SRC-007	Finnish	Finland (Sami region)	Underrepresented
+SRC-008	Latvian	Latvia (Polish minority)	Underrepresented
+SRC-009	Russian	Estonia	Blocked
+SRC-010	Ukrainian	Ukraine	Underrepresented
+SRC-011	Tatar	Russia (Tatarstan)	Underrepresented
+SRC-012	Mari	Russia (Mari El)	Underrepresented
