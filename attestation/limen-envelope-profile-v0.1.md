@@ -1,44 +1,35 @@
-LIMEN Attestation Receipt Profile v0.1
--------------------------------------
+# LIMEN Evidence Envelope Profile v0.1
 
-Purpose:
-Define the evidence envelope for LIMEN case observation, extraction, classification,
-review, clustering, and publication. This profile outlines what is recorded,
-how it is structured, and how it maps to evidence roles without making truth,
-legal, safety, compliance, or certification claims.
+## Objective
+This profile defines the structure and process for collecting, verifying, and classifying AI edge cases and negative observations while maintaining provenance and avoiding claims of truth, legality, or compliance.
 
-Scope:
-- Observation: raw data captured from source.
-- Extraction: transformation into structured records.
-- Classification: assignment of RATS-style evidence roles.
-- Review: human or automated validation.
-- Clustering: grouping of related evidence.
-- Publication: inclusion in evidence matrices, graphs, or dashboards.
+## Evidence Handling
+1. **Attestation Scope**: Records what was observed in public sources without asserting validity.
+2. **Provenance**: Capture source URL, access timestamp (UTC), language, jurisdiction, and source family (e.g., 'regulatory', 'incident-report', 'research').
+3. **Classification**: Use non-judgmental tags like `unintended-consequence`, `boundary-case`, `security-risk`, `ambiguous-compliance`, or `norm-violation`.
 
-Evidence Roles (RATS-inspired):
-- Raw Observation (RO)
-- Processed Record (PR)
-- Verified Claim (VC)
-- Supporting Evidence (SE)
-- Refuted Claim (RC)
+## Schema (Optional)
+[JSON Schema](schema/limen-envelope.schema.json) defines:
+- `source` (object with url, accessed_utc, language, jurisdiction)
+- `classification` (array of tags)
+- `observation` (text excerpt with context)
+- `review_status` (pending/verified/dropped)
+- `related_claims` (array of claim IDs)
 
-Provenance:
-Each record must link to source path/URL, retrieval date, language, jurisdiction,
-rights/terms, and a unique hash/checksum.
+## Publication Readiness
+- **Weak Claims Policy**: Any assertion in manuscripts must link to at least two verified evidence envelopes.
+- **Figure 2/5 Parity**: All dashboard figures must have corresponding paper descriptions and vice versa.
+- **Limitation Statement**: Include a limitation note in every manuscript section using LIMEN data.
 
-Structure:
-{
-  "profile_version": "0.1",
-  "observation_schema": "...",
-  "extraction_pipeline": "...",
-  "classification_rules": "...",
-  "review_workflow": "...",
-  "clustering_approach": "...",
-  "publication_targets": ["evidence_graphs", "standards_matrices", "policy_briefs"]
-}
+## Boundaries
+1. No truth claims about source allegations
+2. No legal compliance assessments
+3. No safety/test certification statements
+4. No machine-translated legal conclusions
+5. No fused denominator assertions (GAIA/PALLAS/LIMEN remain separate)
 
-Publication Readiness:
-- Link to journal.md and claims.md
-- Generate evidence graphs for dashboard consumption
-- Provide clear mapping to claim-support links
-- Include uncertainty flags where applicable
+## Review Process
+1. Initial triage: automated schema validation
+2. Source verification: check URL accessibility and language metadata
+3. Classification review: ensure tags are descriptive, not evaluative
+4. Claim linking: verify evidence-envelope-to-claim connections
