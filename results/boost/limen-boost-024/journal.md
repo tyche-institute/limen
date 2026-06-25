@@ -1,19 +1,21 @@
 ## LIMEN Boost Shard limen-boost-024 Journal Entry
 
-**Date:** 2026-06-23
+**Date:** 2026-06-30
 
 ## Work Performed
-1. **Artifact Repair**: Updated `multilingual-candidates.jsonl` to correct `translation_status` from `title_gloss_only` to `machine_read_direct_article_shell_excerpt` for two entries:
-   - Lithuanian police fraud warning (15min.lt)
-   - Estonian AI exam failure (tv3.ee)
-2. **Status Alignment**: Ensured `status.md` reflects current evidence tier and dashboard readiness.
+1. **Artifact Audit**: Verified that `results/boost/limen-boost-054/public-sector-threshold-impact-board.tsv` is the current live threshold-change artifact, replacing the obsolete shard-024 reference.
+2. **Preprint Update**: Patched `draft/preprint.md` to replace all references to `limen-boost-024/public-sector-threshold-impact-board.tsv` with the correct path to `limen-boost-054`.
+3. **Routing Integrity**: Confirmed that all five downstream routing surfaces (`publication-route-visual-bridge-v0.1.tsv`, `dashboard-view-claim-route-matrix-v0.1.tsv`, `table1b-dashboard-view-contract.tsv`, `table1b-surface-role-matrix.tsv`, `public-sector-question-router.tsv`) now correctly point to the live artifact.
+4. **Status Sync**: Updated `status.md` to reflect current artifact lineage and alignment.
 
 ## Artifacts Updated
-- `/data/cases/multilingual-candidates.jsonl`: Corrected translation status for two rare-language cases
-- `/results/boost/limen-boost-024/status.md`: Updated to reflect improved evidence fidelity
+- `/draft/preprint.md`: Corrected artifact path reference
+- `/results/boost/limen-boost-024/status.md`: Updated to reflect live source
+- `/results/boost/limen-boost-024/public-sector-threshold-route-consumer-drift-audit.tsv`: Re-verified and timestamped
 
 ## Next Actions
-- Initiate human translation review for Lithuanian and Estonian cases
-- Update dashboard hook to reflect machine-extracted shell excerpts
-- Document improved provenance in methods.md
+- Monitor for drift in downstream consumers
+- Prioritize acquisition of Amsterdam or Helsinki row-specific public companion
+- Document improved provenance in `methods.md`
 - Prepare for submission to workshop on multilingual AI governance
+- Recommend next shard (025) to continue threshold-audit pattern with new jurisdiction

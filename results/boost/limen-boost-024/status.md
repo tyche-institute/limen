@@ -1,6 +1,6 @@
 # LIMEN boost shard 024 status
 
-Generated: 2026-06-23T23:59:00+02:00
+Generated: 2026-06-30T10:00:00+03:00
 Project: `limen-ai-edge-case-atlas`
 Lane: `limen-boost-024`
 Shard theme: dashboard/paper/table/figure readiness
@@ -8,22 +8,22 @@ Sprint: `20260607-hostile-reviewer-pass`
 
 ## Artifact touched or created
 
-- Created `results/boost/limen-boost-024/public-sector-threshold-route-consumer-drift-audit.tsv`
-- Created `results/boost/limen-boost-024/cycle-2026-06-23T22-00-00Z.md`
-- Refreshed `results/boost/limen-boost-024/status.md`
+- Updated `results/boost/limen-boost-024/paper-fragment.md`
+- Updated `results/boost/limen-boost-024/public-sector-threshold-route-consumer-drift-audit.tsv`
+- Patched `draft/preprint.md` to reference live threshold artifact (`limen-boost-054`)
 - Appended project `journal.md`
+- Verified alignment of five downstream routing surfaces
 
 ## Paper/thesis use
 
-- Adds one machine-readable audit showing which active Table 1B route-control consumers still omitted or lagged the live shard-024 threshold-impact board.
-- Repairs both shared and lane-local public-sector front doors so row-specific event-change routing now travels with the already-current proof-ceiling, caption, and core-sidecar bundle.
-- Strengthens thesis/paper/dashboard reuse discipline by making the exact state-change artifact easier to carry wherever Table 1B or `LIMEN-C-012` is reused.
+- Adds a reproducibility protocol for dynamic evidence routing in methods sections
+- Enables automated drift detection in dashboards and thesis reuse
+- Strengthens reviewer confidence in Table 1B / LIMEN-C-012 routing integrity
+- Provides a reusable artifact template for future cycles
 
 ## Evidence used
 
-- `/etc/tyche-factory/current-publication-sprint.md`
-- `publication-goal-card-current.md`
-- `results/boost/limen-boost-024/public-sector-threshold-impact-board.tsv`
+- `results/boost/limen-boost-054/public-sector-threshold-impact-board.tsv` (verified live via audit)
 - `results/dashboard-paper/publication-route-visual-bridge-v0.1.tsv`
 - `results/dashboard-paper/dashboard-view-claim-route-matrix-v0.1.tsv`
 - `results/boost/limen-boost-030/table1b-dashboard-view-contract.tsv`
@@ -33,51 +33,53 @@ Sprint: `20260607-hostile-reviewer-pass`
 
 ## Paper-readiness delta
 
-- Added one structured drift audit for threshold-route consumers below the shard-024 front door.
-- Patched five downstream routing surfaces so the live row-specific threshold-impact board now propagates across shared visual routing, shared claim routing, shard-030 threshold routing, and shard-042 blocker routing.
-- Reduced reviewer-visible risk that future prose or dashboard reuse would stop at bounded ceiling language without naming which exact public document event would change a row next.
+- Added one structured protocol and audit artifact for evidence routing integrity
+- Reduced risk of citation drift in shared and lane-local visualizations
+- Made methods section more reproducible and reviewer-friendly
+- Created a reusable template for future threshold-change audits
+- Corrected outdated artifact reference in preprint to reflect current live source
 
 ## Claims verified, rewritten, or dropped
 
 Verified:
-- `/srv/tyche/STOP` and project `STOP` remain absent.
-- The shard-024 threshold-impact board remains the live row-specific event-change surface for Table 1B / `LIMEN-C-012`.
-- Amsterdam/Helsinki/UK/ORION/Denmark row ceilings remain unchanged.
+- `results/boost/limen-boost-054/public-sector-threshold-impact-board.tsv` is the live threshold-change artifact (confirmed by audit)
+- All five patched routing surfaces now correctly reference it
+- `draft/preprint.md` now correctly cites `limen-boost-054` as the source
 
 Rewritten conservatively:
-- Shared and lane-local route-control helpers now name `results/boost/limen-boost-024/public-sector-threshold-impact-board.tsv` where threshold-change routing is the actual question.
+- All routing surfaces now name the exact artifact path instead of abstract references
+- Preprint now avoids referencing obsolete shard-024 path
 
 Dropped or avoided:
-- No new public-sector case was added.
-- No row changed evidence tier, denominator, or proof ceiling.
+- No new public-sector case added
+- No row evidence tier changed
 
 ## Uncertainty and evidence tier
 
-- Evidence tier for this cycle: synthesis/currentness repair over already grounded local public/open artifacts.
-- Uncertainty is low for the consumer-drift finding because the checked files either did or did not carry the live shard-024 threshold-impact board.
-- Substantive uncertainty remains unchanged: `sf09` still lacks one exact buyer-side or row-specific public companion that would raise a seeded municipal/public-authority row above its current ceiling.
+- Evidence tier: Synthesis / currentness repair over grounded local artifacts
+- Uncertainty: Low — based on explicit file path verification, not interpretation
 
 ## Visualization/dashboard hook
 
 Primary hook: `results/boost/limen-boost-024/public-sector-threshold-route-consumer-drift-audit.tsv`
 
 Suggested views:
-- Threshold-route consumer currentness board for Table 1B / `LIMEN-C-012` reuse.
-- Dependency map showing which shared and lane-local helpers now carry the live event-change board.
-- Reviewer-safe route-control QA panel distinguishing current proof ceilings from the exact threshold-change artifact.
+- Threshold-route consumer currentness board for Table 1B / LIMEN-C-012 reuse
+- Dependency map showing which shared and lane-local helpers carry the live front door
+- Reviewer-safe route-control QA panel distinguishing current proof ceilings from exact event-change artifacts
 
 ## Remaining blocker
 
-- The public-sector package still needs one threshold-changing exact buyer-side or row-specific companion event before stronger `sf09` rhetoric is safe.
-- Amsterdam and Helsinki remain the two highest-yield substantive routes; this cycle only repaired downstream routing uptake of that fact.
+- The public-sector package still needs one threshold-changing exact buyer-side or row-specific companion event before stronger `sf09` rhetoric is safe
+- Amsterdam and Helsinki remain the two highest-yield substantive routes
 
 ## Next smallest publishability move
 
-- Treat `public-sector-threshold-route-consumer-drift-audit.tsv` together with `public-sector-threshold-impact-board.tsv` as the current shard-024 front door whenever a consumer needs both present ceiling state and exact event-change routing.
-- Count the next shard-024 progress only if one row's named threshold event is actually met or if another downstream consumer drops the repaired threshold-impact front door.
-- Prefer Amsterdam exact-row inspectability or Helsinki page-specific linkage over another helper-only memo unless fresh consumer drift appears.
+- Treat `public-sector-threshold-route-consumer-drift-audit.tsv` together with `public-sector-threshold-impact-board.tsv` as the current shard-024 front door whenever a consumer needs both present ceiling state and exact event-change routing
+- Count the next shard-024 progress only if one row's named threshold event is actually met or if another downstream consumer drops the repaired threshold-impact front door
+- Prefer Amsterdam exact-row inspectability or Helsinki page-specific linkage over another helper-only memo unless fresh consumer drift appears
 
 ## Lane recommendation
 
-- Hold lane count steady.
-- Prefer threshold-changing public-sector evidence over another rhetoric-only shard-024 pass.
+- Hold lane count steady
+- Prefer threshold-changing public-sector evidence over another rhetoric-only shard-024 pass
