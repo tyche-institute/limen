@@ -1,18 +1,16 @@
-# Dashboard Hook: Deepfake Jurisdiction Distribution
+## Legal Contamination Risk Matrix Dashboard Hook
 
-**Dashboard Tab**: Evidence Visibility by Jurisdiction (Deepfake Theme)
-**Visualization**: Interactive map with hover tooltips showing case counts and evidence tiers
-**Data Source**: `results/boost/limen-boost-056/candidate-cases.tsv`
-**Purpose**: Highlight underrepresented jurisdictions and cross-border cases in synthetic identity evidence
+### Visualization Requirements
+- **Fields to Include:**
+  - `jurisdiction`: Legal jurisdiction of the case
+  - `source_type`: Type of source (e.g., court decision, regulatory report)
+  - `contamination_type`: Nature of the legal/procedural contamination
+  - `evidence_grade`: Tiered evidence grade (1=High, 2=Moderate, 3=Low)
 
-**Metrics**:
-1. Number of evidence-grade cases per jurisdiction
-2. Distribution across evidence tiers (contested/interim, authoritative, media)
-3. Cross-jurisdictional link count (global vs. national coding)
+### Purpose
+Feeds the Legal Contamination Risk Matrix in `dashboard/LIMEN-risk-matrix.md`, enabling analysis of legal risks across jurisdictions and evidence tiers.
 
-**Visualization Notes**:
-- Use color gradients to represent evidence tier confidence levels
-- Include a sidebar table listing top jurisdictions by case count
-- Add a timeline slider to show historical distribution (2010-2026)
-
-**Paper Integration**: This hook will support Figure 1's theme-by-tier composition analysis in the preprint manuscript.
+### Update Protocol
+- **Source:** `results/boost/limen-boost-056/status.md`
+- **Frequency:** Per cycle update
+- **Validation:** Legal review required for Tier 2 and below evidence

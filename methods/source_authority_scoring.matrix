@@ -1,0 +1,21 @@
+# Source Authority Scoring Matrix for AI Evidence
+
+This matrix defines authority levels for sources used in AI evidence, specifically designed for shard limen-boost-041 focusing on Baltic languages and minority governance.
+
+## Scoring Criteria
+| Criteria                | Weight | Description                                                                 |
+|-------------------------|--------|-----------------------------------------------------------------------------|
+| Government Issuer       | 0.35   | Official publications from national/regional governments                    |
+| Academic Peer-Reviewed  | 0.30   | Research published in reputable academic journals                         |
+| Industry Standards Body | 0.25   | Documents from recognized standards organizations (e.g., ISO, ETSI)        |
+| News Media (Established)| 0.20   | Reports from media outlets with established fact-checking processes         |
+| NGO/Advocacy Group       | 0.15   | Materials from non-profits and advocacy organizations                      |
+| Social Media/Forums    | 0.05   | User-generated content from platforms like Twitter, Reddit, etc.          |
+
+## Application Process
+1. **Source Categorization**: Assign one primary category
+2. **Weight Application**: Multiply by criteria weight
+3. **Confidence Adjustment**: Apply +0.05 for multilingual sources, -0.10 for unverified metadata
+
+## Change Log
+2026-06-25: Initial matrix created for limen-boost-041 project

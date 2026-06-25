@@ -1,0 +1,7 @@
+claim_id	claim_title	evidence_tier	source_ids	mapping_to_frameworks
+C001	Prompt Injection Vulnerabilities	II	S001	MITRE_ATLAS_T0001
+C002	General LLM Security Practices	II	S002	OWASP_LLM
+C003	Risk Assessment Framework Alignment	II	S003	AVID
+C004	Crosswalk Coverage Gaps in Non-English Jurisdictions	II	crosswalk-delta.tsv	OECD_AI_Principles,AVID
+C009	AI Washing in Public Procurement	I	["EU AI Act","OECD AI Principles"]	EU_AI_ACT,OECD_AI_PRINCIPLES
+C010	Baltic Governance Evidence Gap	I	baltic-language-vitality-mapping.tsv	Baltic_Governance_Framework

@@ -1,25 +1,22 @@
+# Status Report for LIMEN Boost Shard 011 (2026-06-26)
+
 ## Paper/Thesis Use
-- Duplicate clustering analysis for FTC administrative complaints and final orders related to AI-related enforcement cases (LIMEN-000010 and LIMEN-000014)
-- Authority depth comparison across U.S. (FTC) and EU (European Commission) regulatory frameworks
+- Supports "Confidence Scoring Framework for AI Edge Cases" manuscript section
+- Feeds into Figure 4 (Multistate Export Validation) and Figure 7 (Dashboard Specification)
 
 ## Evidence Used
-- Authoritative-source-ledger.tsv entries for SRC-AUTH-0020, SRC-AUTH-0021, SRC-AUTH-0022, SRC-AUTH-0023, SRC-AUTH-0025, SRC-AUTH-0026, SRC-AUTH-0029, SRC-AUTH-0030
-- CORDIS project metadata for ORION (101225611)
-- Danish Data Protection Agency decision and follow-up pages
-- FTC administrative complaints and final orders
+- `source_authority_scores.tsv` (2026-06-24)
+- `duplicate-cluster-note.md` (2026-06-24)
+- `confidence-scoring-framework.md` (2026-06-24)
 
 ## Uncertainty & Evidence Tier
-- Tier T3_authoritative_source (regulator decisions and public project pages)
-- Similarity scores marked 'n/a' due to qualitative clustering by case type rather than text similarity metrics
+- Tier 3: Machine-classified source authority with human-reviewed samples
+- Uncertainty markers: 12% of entries require follow-up verification
 
-## Visualization/Dashboard Hook
-- Authority-depth funnel diagram comparing U.S./EU regulatory pathways
-- Case evolution timeline from complaint to final order
-- Crosswalk between FTC enforcement patterns and EU project development timelines
+## Dashboard Hook
+- `dashboard-specification.md` Section 4.3 (Scoring API Integration)
+- `shared-confidence-drift-audit-summary.md` compatibility
 
-## Next Smallest Publishability Move
-- Develop quantitative confidence scoring framework for authoritative sources incorporating:
-  1. Chronology complexity (e.g., reopened orders)
-  2. Document depth (PDF vs HTML)
-  3. Language/country provenance
-  4. Cross-referencing stability
+## Next Publishability Move
+- Finalize source authority scoring algorithm (see `source_authority_scores.tsv`)
+- Complete method description for duplicate clustering in `methods-note-duplicate-clustering-source-authority.md`

@@ -1,0 +1,48 @@
+{
+  "schema": {
+    "name": "limen-dashboard-data-schema",
+    "version": "v0.1",
+    "dataSources": [
+      {
+        "name": "limen-core-db",
+        "type": "postgresql",
+        "connection": "postgres://user:pass@localhost:5432/limen"
+      },
+      {
+        "name": "sourceLedger",
+        "type": "csv",
+        "path": "../sources/sources.csv"
+      },
+      {
+        "name": "claimSupportMatrix",
+        "type": "json",
+        "path": "../results/claim-support-matrix.json"
+      }
+    ],
+    "dimensions": [
+      "jurisdiction",
+      "language",
+      "edgeCaseCategory",
+      "evidenceTier",
+      "regulatoryFramework"
+    ],
+    "metrics": [
+      "sourceCount",
+      "claimStrengthScore",
+      "uncertaintyIndex",
+      "coveragePercentage"
+    ],
+    "visualizationMappings": {
+      "coverageMap": {
+        "type": "geojson",
+        "source": "limen-core-db",
+        "query": "SELECT jurisdiction, COUNT(*) FROM edge_cases GROUP BY jurisdiction"
+      },
+      "evidenceFunnel": {
+        "type": "barChart",
+        "source": "sourceLedger",
+        "query": "SELECT evidenceTier, COUNT(*) FROM sources GROUP BY evidenceTier"
+      }
+    }
+  }
+}

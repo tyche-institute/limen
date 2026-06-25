@@ -1,0 +1,8 @@
+# Blocked Source Ledger
+
+| Source Family | Date Blocked | Access Attempt | Resolution |
+|---------------|-------------|----------------|-----------|
+| AI incident databases (OECD) | 2026-06-24 | Browser access blocked by Cloudflare security challenge | Consider alternative access methods or terms acceptance |
+| AI vulnerability/security databases (MITRE ATLAS) | 2026-06-24 | Browser returned empty page | Investigate alternative access methods |
+| Risk and harm taxonomies (ISO/IEC 42001) | 2026-06-24 | Cloudflare bot detection | Consider proxy access or manual request |
+| Risk and harm taxonomies (NIST AI RMF) | 2026-06-24 | PDF download empty | Verify download URL or try alternative source |

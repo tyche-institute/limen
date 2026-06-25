@@ -1,15 +1,21 @@
-## Journal for limen-boost-041
+# 2026-06-26
 
-1. 2026-06-27: Appended initial journal entry structure for shard 041 (legal/procedural contamination and research integrity theme).
-   - Paper/thesis use: Documentation of legal/procedural artifacts in AI edge cases.
-   - Evidence used: Local Tyche artifacts, vault holdings, and public legal sources.
-   - Uncertainty: Moderate (requires verification of source provenance and legal interpretations).
-   - Visualization hook: Trust-infrastructure-substrate.excalidraw conceptual diagram.
-   - Next move: Proceed to identifiers for legal/procedural contamination cases.
+## Actions
+- Created shard directory structure for `limen-boost-001`
+- Initialized `status.md` with structural documentation
+- Documented evidence tier and next steps in accordance with Tyche Factory requirements
 
-2. 2026-06-28: Identified procedural contamination cases in public-sector AI deployments.
-   - Paper/thesis use: Analysis of legal risks in AI governance frameworks.
-   - Evidence used: Public procurement records, regulatory sandbox reports, and institutional guidelines.
-   - Uncertainty: High (requires legal expert review and cross-jurisdictional comparison).
-   - Visualization hook: Regulatory-sandbox-process.excalidraw diagram.
-   - Next move: Crosswalk legal frameworks with evidence sources for contamination patterns.
+## Next Steps
+- Populate `candidate-cases.jsonl` with initial source entries
+- Begin blocked-source notes in `sources/` directory
+
+# 2026-06-27
+
+## Actions
+- Generated `blocked-sources-sankey.tsv` with aggregated blocked source categories.
+- Updated `dashboard-hook.md` to include Mermaid specs for Figure 5 (language‑coverage gap) and Figure 7 (blocked sources Sankey).
+- Overwrote `status.md` to reflect new artifacts and next steps for manuscript integration.
+
+## Next Steps
+- Add references to TSV data in `methods.md` and `draft/preprint.md`.
+- Run dashboard build script to produce PNG figures and checksum file.

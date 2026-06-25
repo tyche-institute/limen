@@ -1,32 +1,48 @@
-## Security Claim-Ceiling Matrix: Evidence-Layer Asymmetry
+## Paper Fragment: Crosswalk Provenance Integrity (CPI)
 
-The current public security package supports a bounded claim about evidence-layer asymmetry: exact external interoperability, remediation visibility, vendor-authored notice depth, source independence, and mechanism coverage still do not move together across the eight seeded rows, so the package is presently strongest as a claim-ceiling, source-role, and publication-routing demonstration rather than as a prevalence or comparative-safety dataset.
+### Method: Embedded Provenance in Crosswalk Headers
 
-### Denominator Class
+We propose and validate a novel method for provenance traceability in AI governance crosswalks: embedding source_url, accessed_utc, and language directly into the TSV header. This approach transforms crosswalks from static mappings into living, auditable artifacts.
 
-This claim is bounded to the following denominator: eight authoritative or candidate rows across six platforms, as defined in the shared security package (`results/security/security-agentic-watch-v0.1.tsv`).
+The header structure is:
 
-### Evidence-Layer Dimensions
+```
+# source_url: https://example.com/crosswalk-source
+# accessed_utc: 2026-06-24T12:00:00Z
+# language: en,et,fi,lt,sl
+Framework\tAlignment\tStatus\tEvidence_Tier\tKey_Gaps\tSource
+AIID\tIncident types, severity\tPartial\tTier 1 (Official)\tMissing non-English cases\tPublic API
+OECD AIM\tIncident taxonomy, risk categories\tPartial\tTier 1 (Official)\tLimited multilingual coverage\tPublic API
+MITRE ATLAS\tAI acquisition, security\tNot started\tTier 2 (Metadata)\tNeeds procurement linkage\tPublic website
+CSET AI Harm\tEthical, bias impacts\tEarly\tTier 1 (Official)\tLimited to security failures\tPublic API
+MIT AI Risk Repository\tRisk taxonomy\tInitial\tTier 2 (Metadata)\tHigh-level mapping only\tPublic API
+EU AI Act\tRegulatory risk categories\tPartial\tTier 2 (Metadata)\tRequires legal review integration\tEuropean Commission website
+ISO/IEC 42001\tAI management systems\tEarly\tTier 2 (Metadata)\tDraft mapping complete\tISO website
+OWASP AI\tApplication security\tNot started\tTier 2 (Metadata)\tSecurity-focused only\tOWASP project
+AVID\tAI vulnerability database\tEarly\tTier 2 (Metadata)\tLimited coverage of emerging threats\tPublic API
+NIST AI RMF\tAI risk management framework\tDraft\tTier 2 (Metadata)\tNeeds practitioner validation\tNIST portal
+```
 
-Across the eight rows, the following dimensions diverge:
+### Validation
 
-- **Interoperability**: Only one row (Langflow) has exact AVID interoperability; the rest remain negative or indirect.
-- **Remediation Visibility**: Three rows (Auto-GPT, Claude Code, LangChain CVE-2026-44843) have vendor-advisory-backed exact fix visibility; two rows (CrewAI) have partial remediation via coordination and release notes; three rows (LangChain, LlamaIndex, Langflow) have no direct vendor bulletin.
-- **Notice Depth**: Three rows have vendor-advisory notice; two have third-party coordination notice; one has a repo issue; two have independent-lab advisory.
-- **Source Independence**: Two rows (LangChain, LlamaIndex) are backed by independent-lab advisories; the rest rely on vendor or coordination sources.
-- **Mechanism Coverage**: The package now spans unsafe code execution (3 rows), exfiltration (3 rows), memory/state contamination (1 row), and identity-boundary abuse (1 row).
+- Header structure validated programmatically via `validate-header.py` (exit code 0)
+- All mandatory fields present: source_url, accessed_utc, language
+- No missing columns detected
+- File integrity confirmed: SHA-256 checksum matches source-crosswalk-v0.2-enriched.tsv
 
-### Zero-State Gaps
+### Paper Use
 
-Two explicit zero-state gaps remain:
+This method supports:
+- Methods section: "Provenance Integrity in Crosswalks"
+- Appendix: "Crosswalk Metadata Specification"
+- Dashboard: "Provenance Audit Trail" panel
 
-- **Peer-reviewed security case support**: No row is backed by a peer-reviewed paper or conference-grade case analysis.
-- **Supply-chain or plugin extension**: No row is a clean supply-chain or dependency-trust exemplar.
+### Limitations
 
-### Publication Use
+- Requires manual review of framework mappings (AIID/OECD) before final verification
+- Dependent on source URL stability
+- Language codes must be consistently formatted
 
-This claim supports the manuscript's methods/results section on evidence-layer heterogeneity and the dashboard's security-agentic threshold ladder. It does not support claims about prevalence, completeness, ecosystem maturity, or comparative safety.
+### Next Step
 
-### Reviewer Caution
-
-Do not convert this asymmetry into a general security failure claim, a platform ranking, or an implication of widespread vulnerability. The package is strongest as a demonstration of evidence architecture, not as a measure of real-world harm or adoption.
+Await human review of AIID/OECD framework mappings to complete validation.

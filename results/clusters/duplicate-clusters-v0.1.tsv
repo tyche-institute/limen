@@ -1,1 +1,3 @@
-source_cluster_key	count
+cluster_id	target_taxonomy	description	justification	provenance_notes
+CC-001	BI-001	Illicit Biometric Bypass	Mapping from duplicate cluster CC-001 identified in source records to taxonomy category BI-001 (Illicit Biometric Bypass)	Mapped using source-crosswalk-v0.2.tsv (accessed 2026-06-24); authority_score 4.5; confidence high; provenance logged in results/boost/limen-boost-011/
+CC-002	PR-001	Illicit Procurement Manipulation	Mapping from duplicate cluster CC-002 identified in source records to taxonomy category PR-001 (Illicit Procurement Manipulation)	Mapped using source-crosswalk-v0.2.tsv (accessed 2026-06-24); authority_score 3.7; confidence medium; provenance logged in results/boost/limen-boost-011/

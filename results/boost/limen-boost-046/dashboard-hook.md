@@ -1,30 +1,22 @@
-# Dashboard Hook: Evidence Consumer Fidelity Upgrades
+## Dashboard Hook: false-claims-over-time
 
-## Objective
-Visualize evidence consumer fidelity upgrades across jurisdictions to track interpretive accuracy improvements in shared consumers.
+**Dataset**: `crosswalk-delta.tsv` (located at `/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-046/crosswalk-delta.tsv`)
+**Visualization Type**: Interactive time-series bar chart
+**Fields**:
+- X-axis: `jurisdiction` (categorical)
+- Y-axis: `claim_type` (count, stacked by sector)
+- Color: `uncertainty` (gradient from low to high)
+- Hover: `evidence`, `access_date`, `language`
+**Parameters**:
+- Date Range: 2020-2024 (from dataset Metadata)
+- Filters: Sector, Jurisdiction, Claim Type
+- Animation: Slide-by-year
 
-## Data Sources
-1. **Shared Consumer Logs**: Records of evidence representation changes (e.g., `machine_read_direct_article_shell_excerpt` adoption)
-2. **Jurisdiction Metadata**: Country/legal system information for geographic mapping
-3. **Evidence Tier Registry**: Tier classification of evidence fidelity improvements
+**Description**: Visualizes the proliferation of false/misleading AI claims across jurisdictions and sectors over time, with uncertainty indicators. Supports claims in Section 4.3 and Table 5 of the manuscript.
 
-## Visualization Type
-- **Map**: Choropleth map showing jurisdictions with upgrades (color intensity = number of fidelity improvements)
-- **Timeline**: Horizontal bar chart showing adoption of improved evidence standards over time
-
-## Paper/Table Integration
-- **Table 3**: "Evidence Consumer Fidelity Upgrades by Jurisdiction" (planned)
-- **Figure 4**: Interactive map in manuscript appendix or dashboard
-
-## Required Fields
-- jurisdiction (ISO 3166-1 alpha-2 code)
-- evidence_type (e.g., 'machine_read_direct_article_shell_excerpt')
-- upgrade_date
-- tier_upgrade (pre/post number)
-- consumer_system (name of system benefiting from upgrade)
-
-## Interpretation Prompt
-"This map demonstrates how evidence interpretation standards are evolving across jurisdictions. Darker shades indicate more comprehensive adoption of direct article excerpt representation in shared consumers, reducing ambiguity in AI-related evidence. The timeline reveals acceleration of these upgrades following the EU AI Act transparency requirements."
-
-## Next Step
-Populate data from boost shard outputs into dashboard_hook_data.tsv with required fields
+**Metadata**:
+- Created: 2026-09-28
+- Provenance: Generated from EUR-Lex, EDPB, UK ICO, and German Federal Cartel Office sources
+- Language: English (primary), with provisional translations marked
+- Visualization Hook ID: `false-claims-over-time-v1`
+- Dashboard Path: `src/app/visualizations/false-claims`

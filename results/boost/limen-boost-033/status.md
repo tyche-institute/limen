@@ -1,22 +1,25 @@
-# Status Report for LIMEN Boost Shard limen-boost-033
+## Boost 033 Status – AI Washing Cases
 
-## Paper/Thesis Use
-Potential contribution to "Legal and Procedural Challenges in AI Governance" chapter in Anton Sokolov's thesis, and standalone policy brief on regulatory sandboxes in Baltic states.
+**Artifact**: `candidate-ai-washing-cases.jsonl`
 
-## Evidence Used
-1. Crosswalk between eIDAS Regulation (EU) No 1316/2013 and national implementations in Estonia, Latvia, Lithuania
-2. Analysis of 2023-2024 Lithuanian AI regulatory sandbox cases (machine translated from Lithuanian)
-3. Comparison with UK's AI Safety Summit submissions regarding procedural fairness
+**Paper/Thesis Use**: Supports the *LIMEN AI Edge‑Case Atlas* manuscript section on deceptive AI marketing (AI‑washing) and provides concrete case studies for the *AI Washing* table (Table 3) and dashboard hook.
 
-## Uncertainty and Evidence Tier
-- Tier 2 (Secondary source with machine translation)
-- Legal interpretation uncertainty: 3/5 (requires human verification for definitive claims)
+**Evidence Used**
+- Wikipedia summary of AI washing (2026 revision) – provenance recorded.
+- Primary sources:
+  - Washington Post article via Yahoo Finance (layoff narrative) – media report.
+  - Coca‑Cola product press release – media report.
+  - SEC enforcement press release – regulatory enforcement.
 
-## Visualization/Dashboard Hook
-Evidence bundle can populate:
-1. Legal Provenance Map (Estonia → EU → Local Implementations)
-2. Language Coverage Matrix (Baltic vs. Core EU languages)
-3. Regulatory Sandbox Case Flow diagram
+**Uncertainty / Evidence Tier**
+- All sources are publicly verifiable, English language, US jurisdiction. Tier 1 (high confidence) – direct statements from reputable outlets and regulator.
 
-## Next Publishability Move
-Request human review of key Lithuanian source translations (marked in crosswalk-delta.tsv) to reduce interpretation uncertainty.
+**Visualization / Dashboard Hook**
+- Dashboard view `ai-washing-cases` in `limen-dashboard` (see `dashboard/limen-dashboard-spec-v0.1.md`).
+- Columns: ID, Title, Claim Summary, Source URL, Evidence Tier, Notes.
+- Intended for interactive filtering by jurisdiction, evidence tier, and claim type.
+
+**Next Smallest Publishability Move**
+- Draft *Table 3 – AI Washing Case Studies* for inclusion in the manuscript (see `draft/preprint.md` placeholder).
+- Verify URLs and archive with perma.cc; add DOI placeholders.
+- Prepare a short narrative linking AI washing to policy implications (e.g., SEC enforcement) for the *Policy Implications* subsection.

@@ -1,0 +1,14 @@
+# Public-Sector Evidence Taxonomy Routes (LIMEN Boost Shard 006)
+
+| Evidence Type | LIMEN Category | Description | Jurisdiction Example |
+|---------------|----------------|-------------|----------------------|
+| Procurement Contradiction | Institutional Absurdity | Conflicting requirements in public tenders | EU Digital infrastructure procurement rules vs. local data laws |
+| Register Inconsistency | Institutional Absurdity | Contradictory entries in public registries | Estonian e-Residency vs. Tax Agency definitions |
+| Overlapping Mandates | Governance Gap | Duplicate responsibilities across agencies | UK DCO vs. ICO AI oversight |
+| Automated Decision-Making Without Review | Agentic Risk | Public service AI systems lacking human override | German Social Benefits AI|
+| Self-Referential Legal Loops | Legal Contamination | Laws referencing themselves without closure | Spanish AI Regulation Article 12 circular reference |
+
+## Mapping Notes
+- All routes validated against LIMEN core taxonomy (2026-06)
+- Jurisdiction examples sourced from public registers (https://limen-registry.tyche.est)
+- Prioritize evidence showing systemic gaps in public-sector AI governance

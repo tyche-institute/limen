@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMEN Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .visualization {
+            margin-bottom: 40px;
+        }
+        svg {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>LIMEN Dashboard - v0.1</h1>
+    
+    <div class="visualization">
+        <h2>Source-Family Coverage Map</h2>
+        <div id="coverage-map"></div>
+        <script src="/dashboard/components/source-family-coverage-map.js"></script>
+    </div>
+    
+    <div class="visualization">
+        <h2>Evidence-Tier Funnel</h2>
+        <div id="evidence-funnel"></div>
+        <script src="/dashboard/components/evidence-tier-funnel.js"></script>
+    </div>
+    
+    <div class="visualization">
+        <h2>Taxonomy Heatmap</h2>
+        <div id="taxonomy-heatmap"></div>
+        <script src="/dashboard/components/taxonomy-heatmap.js"></script>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</body>
+</html>

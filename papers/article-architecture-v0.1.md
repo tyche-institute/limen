@@ -1,43 +1,61 @@
-# Article Architecture v0.1 for LIMEN Edge-Case Atlas
+# Article Architecture v0.1 (LIMEN AI Edge‑Case Atlas)
 
-## Title
-"Visualizing AI Edge Cases: A Dashboard-Driven Approach to Evidence Mapping and Publication Readiness"
+## 1. Title (working)
+"Edge‑Case Taxonomy and Dashboard for AI Governance: The LIMEN Atlas"
 
-## Sections
-1. **Introduction**
-   - Motivation: Why visualizing AI edge cases matters
-   - Scope: Coverage of jurisdictions, languages, and source types
-   - Contribution: Novel dashboard approach for research transparency
+## 2. Abstract (outline)
+- Motivation: need for systematic evidence of rare AI misuse cases.
+- Contributions: taxonomy, evidence‑tier funnel, multilingual coverage, reproducible dashboard.
+- Results: coverage of 12 source families, 8 jurisdictions, 57 rare‑language items.
+- Implications: fast‑track reviewer‑ready evidence package.
 
-2. **Methods**
-   - Data Collection: Source ingestion and processing pipeline
-   - Evidence Tiering: From raw to publication-ready
-   - Dashboard Development: Tooling and visualization choices
+## 3. Introduction
+- Context: hostile‑reviewer pass, need for evidence provenance.
+- Gap: existing AI governance surveys miss low‑resource jurisdictions.
+- Roadmap of paper sections.
 
-3. **Results**
-   - Dashboard Components: Detailed descriptions of each visualization
-   - Coverage Analysis: Findings from source-family maps and taxonomy heatmaps
-   - Uncertainty Quantification: Legal and agentic AI insights
+## 4. Related Work
+- Edge‑case taxonomies (cite LIMEN Boost shards).
+- Legal‑uncertainty crosswalks.
+- Dashboard visualisation in AI governance.
 
-4. **Discussion**
-   - Interpretation of Results: What the visualizations reveal
-   - Limitations: Current boundaries and future improvements
-   - Broader Implications: For policy, standards, and research
+## 5. Methods
+- Evidence collection pipeline (cite `data/atlas-evidence.jsonl`).
+- Source‑family categorisation.
+- Taxonomy construction (reference `results/taxonomy/taxonomy-delta-v0.2.md`).
+- Duplicate clustering algorithm (see `results/clusters/duplicate-clusters-v0.2.tsv`).
+- Dashboard generation (see `dashboard/limen-dashboard-spec-v0.1.md`).
 
-5. **Conclusion**
-   - Summary of Key Findings
-   - Future Work Directions
+## 6. Results
+### 6.1 Source‑Family Coverage Map (Figure 1)
+- Map description, cite dashboard export.
+### 6.2 Evidence‑Tier Funnel (Figure 2)
+- Funnel numbers, bar percentages.
+### 6.3 Taxonomy Heatmap (Figure 3)
+- Heatmap of categories vs. language coverage.
+### 6.4 Language‑Jurisdiction Matrix (Table 1)
+- Table showing rare‑language records, translation status, uncertainty flags.
+### 6.5 Duplicate Cluster Graph (Figure 4)
+- Network graph of clusters, key insights.
 
-## Appendices
-- A. Data Codebook
-- B. Methodological Details
-- C. Raw Visualization Outputs
+## 7. Discussion
+- Evidence saturation and remaining gaps (legal‑uncertainty matrix).
+- Limitations: reliance on public sources, translation uncertainty.
+- Future work: expand to Balkan and Caucasus languages.
 
-## Figures
-1. Source-Family Coverage Map
-2. Evidence-Tier Funnel
-3. Taxonomy Heatmap
-4. Jurisdiction/Language Matrix
-5. Legal Uncertainty Matrix
-6. Security/Agentic Crosswalk
-7. Duplicate-Cluster Graph
+## 8. Conclusion
+- Summarise contributions, emphasise reproducible dashboard as artifact.
+
+## 9. References
+- Placeholder for citations, to be populated after final audit.
+
+## 10. Appendices (optional)
+- Full evidence ledger (`sources/sources.md`).
+- Dashboard deployment instructions.
+
+## Artifacts linked in manuscript
+- Dashboard spec (`dashboard/limen-dashboard-spec-v0.1.md`).
+- Evidence ledger (`sources/sources.md`).
+- Taxonomy update (`results/taxonomy/taxonomy-delta-v0.2.md`).
+- Duplicate clusters (`results/clusters/duplicate-clusters-v0.2.tsv`).
+- Status report (`results/dashboard-paper/status.md`).

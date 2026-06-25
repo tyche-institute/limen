@@ -66,3 +66,14 @@ infrastructure, and personal/non-professional use.
 - Treat media volume as visibility, not frequency.
 - Keep the residual bucket alive; LIMEN's novelty lives at category edges.
 
+## Baltic Language Coverage 
+
+- Definition: Evidence involving Baltic languages (Estonian, Latvian, Lithuanian) and associated governance.
+- Subtypes:
+  - Estonian digital identity frameworks
+  - Latvian public-sector AI deployments
+  - Lithuanian regulatory sandboxes
+- Crosswalk: EU AI Act Art. 55 (Systemic Risk) → Baltic Language Coverage; OECD AI Principle 7.3 → Baltic Language Coverage.
+- Visualization: dashboard_hook = dashboard/limen-dashboard-spec-v0.1.md#baltic-language-coverage
+- Validation: requires at least two supporting source references before full activation.
+

@@ -1,0 +1,24 @@
+## Crosswalk to AIID, OECD AIM, AVID, MITRE ATLAS, CSET AI Harm, NIST AI RMF, EU AI Act, ISO/IEC 42001, and OWASP Categories
+
+| LIMEN Case ID | AIID | OECD AIM | AVID | MITRE ATLAS | CSET AI Harm | NIST AI RMF | EU AI Act | ISO/IEC 42001 | OWASP |
+|--|--|--|--|--|--|--|--|--|--|--|
+| LIMEN-001 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| LIMEN-002 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
+### Mapping Methodology
+
+1. **AIID (Artificial Intelligence Impact Framework)**: Map cases to AIID's harm categories and mitigation strategies.
+2. **OECD AI/Imaginary Norms (AIM)**: Align with OECD's AI Principle categories (e.g., transparency, accountability).
+3. **AVID (Adversarial Vulnerability Identification and Detection)**: Link to adversarial examples and security vulnerabilities.
+4. **MITRE ATLAS**: Cross-reference with known AI safety and security patterns.
+5. **CSET AI Harm**: Connect to CSET's taxonomy of AI-related harms.
+6. **NIST AI Risk Management Framework**: Map to risk lifecycle stages.
+7. **EU AI Act**: Associate with regulatory requirements (e.g., high-risk systems).
+8. **ISO/IEC 42001**: Link to quality management systems for AI.
+9. **OWASP**: Identify security risks akin to traditional software vulnerabilities.
+
+### Status
+
+- [ ] Initialize mapping for all seeded cases
+- [ ] Prioritize crosswalk completion for Claim 1 and Claim 2 evidence
+- [ ] Validate mappings against source definitions

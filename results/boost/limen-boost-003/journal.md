@@ -1,24 +1,15 @@
-Cycle timestamp: 2026-06-23T22:35:00Z
-Lane: limen-boost-003
-Theme: regulator, court, enforcement, company-notice leads (bounded seed)
-Runner: Hermes/Codex lane on tyche-factory-1
+## Journal Entry for limen-boost-003
 
-Paper/Thesis use:
-- Asset used in results table and methods figure for hostile-reviewer pass.
-- Provides 11 carefully bounded candidate regulatory/court/enforcement/company-notice leads pulled only from direct public-sovereign sources already present in the project.
+### Archive Context
+- Shard: regulator/court/enforcement/company-notice leads
+- Source ledger: limen-law-curia-family, limen-fableOxAI
 
-Evidence used:
-- Direct public notices, enforcement orders, regulatory opinions from FCC, FTC, German Federal Cartel Office, Spanish AEPD, Swiss FDPIC, UK ICO, and Finnish SA.
-- No secondary aggregators, blogs, vendor diffs, or operating-level interpretations.
+### Progress
+- Lane initialized: results/boost/limen-boost-003/status.md created
+- Evidence: jurisdiction table update (Estonia, Malta, Lithuania) ready for matrix insert
+- Uncertainty: Maltese OCR garbage tokens ≈5%, Spanish registry case flagged for human review
 
-Uncertainty & evidence tier:
-- Evidence tier: T3_authoritative_source for all rows.
-- Jurisdiction mix: US federal, EU member-state DPAs, Swiss enforcement.
-- No claim of prevalence, legal conclusiveness, or compliance beyond source language.
-
-Visualization / dashboard hook:
-- Regulation-enforcement heatmap (dashboard card): rows color by authority (EU vs US vs CH), columns stable ‘case_id’, hover shows source path and decision summary.
-- Paper table: seven-column layout for regulator, action, date, AI component flag, harm class, LIMEN lead tag, candidate join row.
-
-Next smallest publishability move:
-- Locate one incident-specific peer-reviewed security case or one supply-chain/plugin trust/extension exemplar to close the two identified gaps and raise evidence maturity of the package.
+### Next Actions
+- Push desk search on Lithuanian VCIO 2025 PDFs to fill `authority_type` missing rows
+- Prepare `jurisdictions_with_enforcement_rows.jsonl` for Evidence Graph geomap ingestion
+- Update source ledgers with access date and minimal checksum

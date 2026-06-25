@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMEN AI Edge-Case Coverage Heatmap</title>
+    <link rel="stylesheet" href="../styles/high-contrast.css">
+    <link rel="stylesheet" href="https://cdn.d3js.org/d3.v7.min.css">
+    <style>
+        /* Add custom styles for accessibility and dark mode */
+        .heatmap-legend {
+            font-size: 1.2em;
+            padding: 10px;
+            background-color: #f8f8f8;
+        }
+        .language-filter {
+            margin: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heatmap-title">AI Edge-Case Coverage Heatmap</h1>
+    <div class="language-filter" role="group" aria-label="Language filters">
+        <button class="language-btn" data-lang="Estonian">Estonian</button>
+        <button class="language-btn" data-lang="Latvian">Latvian</button>
+        <button class="language-btn" data-lang="Lithuanian">Lithuanian</button>
+        <button class="language-btn" data-lang="Georgian">Georgian</button>
+        <button class="language-btn" data-lang="Armenian">Armenian</button>
+    </div>
+    <svg id="heatmap" role="img" aria-labelledby="heatmap-title"></svg>
+    <div class="heatmap-legend" role="status" aria-live="polite">
+        <p>Legend and color gradient explanation</p>
+        <div class="gradient-bar"></div>
+        <div class="legend-text">
+            <span>High Coverage</span>
+            <span>Low Coverage</span>
+        </div>
+    </div>
+    <script src="../scripts/heatmap.js"></script>
+</body>
+</html>

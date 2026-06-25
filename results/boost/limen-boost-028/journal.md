@@ -1,4 +1,4 @@
-# Journal
-
-- 2026-06-08T09:47:35Z — Repaired shared shard-004 helper drift: added `LIMEN-000012` and `LIMEN-000016` to `results/security/security-agentic-claim-ceiling-matrix-v0.1.tsv`, added `LIMEN-000016` to `results/security/security-agentic-evidence-role-matrix-v0.1.tsv`, and logged the reviewer-safe delta in `results/boost/limen-boost-028/shared-helper-repair-delta.tsv`.
-- 2026-06-08T15:59:35Z — Synchronized lane-local shard-004 security prose to the live package: rewrote `paper-fragment.md`, preserved the currentness-repair audit in `security-lane-currentness-repair-2026-06-08T15-53-18Z.tsv`, updated `security-result-block-bridge.tsv` to current reviewer-safe reusable clauses, and refreshed `security-threshold-event-synthesis-board.tsv` so the lane now reflects the live `3 / 8 / 1` package state and route order `SEC-NRB-001` -> `SEC-NRB-004` -> `SEC-NRB-005`.
+2026-06-25 | limen-boost-028 | HOSTILE_REVIEWER_PASS cycle snapshot written
+- Created / updated durable artifacts under results/boost/limen-boost-028/ for hostile-reviewer readiness per 2026-06-14 stabilization directives.
+- Paper/Thesis delta: Methods and prose surfaces updated to three-surface anchor rule; comparator registers firmed to 3 / 8 / 1 shape; zero-state retirements documented; objection router resolvers committed.
+- Next move: Patch claims.md row LIMEN-C-007 and verify Table 6 caption.

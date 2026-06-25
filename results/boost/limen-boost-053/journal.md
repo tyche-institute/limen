@@ -143,3 +143,12 @@
 - Paper-readiness delta: shard 053 now has one machine-readable closure artifact showing that active shared Figure 6 reuse is aligned to the 12-row sidecar-aware contract while the remaining stale wording is bounded, named, and prevented from masquerading as a fresh shared drift.
 - Kept claims conservative: no new source was added, no row changed publication state or evidence tier, and the residual stale helper is treated as off-scope reuse risk rather than denominator change.
 - Remaining blocker: the next substantive shard-005 gain still requires one threshold-changing Finland, ORION, Denmark, or France source event, or a future genuinely active consumer regression, not another same-shape packaging memo.
+
+## 2026-06-28 | LIMEN Boost Shard 053 | Rare-Language Harvest Harness
+- **lane_id**: limen-boost-053
+- **purpose**: discover under-modeled ‘et’/‘lv’ sources in sources/sources.md already tagged rare-language to seed Atlas/GAIA/PALLAS rare-language directive and provide machine-readable delta for dashboard hook.
+- **method**: grep-style parse of sources.md for ]#et[ and ]#lv[ markers; collect unique entry IDs into structured jsonl under results/boost/limen-boost-053/rare-lang-candidates-from-sources.jsonl.
+- **evidence**: public project sources index (sources/sources.md)
+- **uncertainty**: lexical tags only; semantic language and translation status require human review.
+- **paper use**: supports rare-language coverage expansion; likely table/figure hook for rare-language dashboard or claim-support matrix row.
+- **next move**: human review candidates; update Atlas/GAIA/PALLAS rare-language reviewer queue if entries deemed relevant.

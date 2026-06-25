@@ -1,40 +1,33 @@
 # LIMEN Dashboard Specification v0.1
 
 ## Purpose
-To visualize core research metrics and evidence structures from the LIMEN AI edge-case atlas, enabling publishable insights and methodological transparency.
+Provide a reproducible, interactive dashboard that visualises the LIMEN AI Edge‑Case Atlas evidence pipeline. The dashboard must expose provenance, coverage, and uncertainty for each evidence item and support the article figures.
 
-## Dashboard Components
-1. **Source-Family Coverage Map**
-   - Purpose: Show geographic and jurisdictional distribution of source materials
-   - Data Sources: sources/sources.md, manifest.json
-   - Visualization: Choropleth map with source count tooltips
+## Data Inputs
+- `data/atlas-evidence.jsonl` – line‑delimited evidence records (source_path, language, jurisdiction, evidence_tier, uncertainty_flag).
+- `results/taxonomy/taxonomy-delta-v0.2.md` – taxonomy updates and coverage heatmap data.
+- `results/clusters/duplicate-clusters-v0.2.tsv` – duplicate‑cluster identifiers.
+- `results/dashboard-paper/status.md` – current build status (auto‑updated).
 
-2. **Evidence-Tier Funnel
-   - Purpose: Track evidence progression through tiers (raw → validated → publication-ready)
-   - Data Sources: claims.md, data/README.md
-   - Visualization: Interactive Sankey diagram
+## Core Views
+1. **Source‑Family Coverage Map** – choropleth per jurisdiction showing count of evidence items per source family (legal, policy, standards, PKI).
+2. **Evidence‑Tier Funnel** – stacked bar visualising raw counts → screened → validated → manuscript‑ready items.
+3. **Taxonomy Heatmap** – matrix of edge‑case categories vs. language coverage, colour‑coded by evidence tier.
+4. **Language‑Jurisdiction Matrix** – table with language, script, jurisdiction, evidence‑type, translation status.
+5. **Uncertainty Matrix** – heatmap of uncertainty flags vs. source family.
+6. **Duplicate Cluster Graph** – network graph of clusters, node size = cluster size, colour = evidence tier.
 
-3. **Taxonomy Heatmap
-   - Purpose: Matrix of evidence categories vs. jurisdictions showing coverage density
-   - Data Sources: claims.md, sources/sources.md
-   - Visualization: 2D heatmap with Drill-down capability
+## Interactivity
+- Filter by source family, jurisdiction, language, tier, uncertainty.
+- Hover tooltip shows full provenance (source_path, access_date, checksum).
+- Export selected view to SVG/PNG for article figures.
 
-4. **Jurisdiction/Language Matrix
-   - Purpose: Cross-tab of legal jurisdictions and language families in evidence
-   - Data Sources: sources/sources.md (language/jurisdiction fields)
-   - Visualization: Mosaic plot with filter controls
+## Implementation
+- Backend: Python (FastAPI) serving JSON to a lightweight React front‑end.
+- Visualization library: Plotly/D3 for interactive maps and graphs.
+- Dockerised for reproducibility (`docker build -t limen-dashboard`).
 
-5. **Legal Uncertainty Matrix
-   - Purpose: Quantify uncertainty levels across legal domains
-   - Data Sources: claims.md (uncertainty flags), methods.md
-   - Visualization: Risk matrix (likelihood vs. impact)
-
-6. **Security/Agentic Crosswalk
-   - Purpose: Map security frameworks to agentic AI claims
-   - Data Sources: claims.md (security/agentic tags), sources/sources.md
-   - Visualization: Biforce-directed graph
-
-7. **Duplicate-Cluster Graph
-   - Purpose: Identify and visualize duplicate evidence clusters
-   - Data Sources: manifest.json (hashes), data/README.md
-   - Visualization: Circular dendrogram with cluster labels
+## Deliverables
+- `dashboard/limen-dashboard-spec-v0.1.md` (this file)
+- `dashboard/app/` (code base – to be added later)
+- `results/dashboard-paper/status.md` (status report – created separately)

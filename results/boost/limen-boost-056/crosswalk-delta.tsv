@@ -1,5 +1,4 @@
-Case_ID	Regulatory_Category	Evidence_Source	Compliance_Status	Notes
-CASE-2023-001	Transparency	EC_Audit_Report_2023	Partial	Partial compliance due to lack of explainability in decision-making processes
-CASE-2024-045	Accountability	Court_Ruling_DE_2024	Non-Compliant	Failed to meet accountability standards in AI-driven hiring tools
-CASE-2025-112	Data_Protection	DPF_Bulletin_2025_Q3	Compliant	Clear data handling procedures documented and verified
-CASE-2026-067	Auditability	EBA_Reporting_Guidelines_2026	Pending Review	Awaiting final compliance assessment from regulatory body
+source_id|oecd_principle|gap_description|evidence|visualization_hook
+BSI-2024-07-DeepfakeWarning|Transparency and Explainability|Limited guidance on public-sector deepfake detection tools|"Public warning issued but no specific procurement or deployment standards mentioned"|Heatmap: Jurisdictional coverage of deepfake detection standards
+AU-2022-ASIC-AI-Fraud|Accountability|Enforcement actions not systematically cataloged|"Action taken but no public database of AI fraud cases"|Graph: Regulatory responses over time by jurisdiction
+FTC-2023-DeepfakeAI|Human-centred values|Consumer protection frameworks lag behind synthetic identity threats|"Warning issued but no updated statutes for AI-specific fraud"|Sankey: Policy gaps vs. incident types

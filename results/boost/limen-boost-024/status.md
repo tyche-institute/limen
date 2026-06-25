@@ -1,6 +1,6 @@
 # LIMEN boost shard 024 status
 
-Generated: 2026-06-30T10:00:00+03:00
+Generated: 2026-07-08T14:22:00+03:00
 Project: `limen-ai-edge-case-atlas`
 Lane: `limen-boost-024`
 Shard theme: dashboard/paper/table/figure readiness
@@ -9,27 +9,23 @@ Sprint: `20260607-hostile-reviewer-pass`
 ## Artifact touched or created
 
 - Updated `results/boost/limen-boost-024/paper-fragment.md`
-- Updated `results/boost/limen-boost-024/public-sector-threshold-route-consumer-drift-audit.tsv`
-- Patched `draft/preprint.md` to reference live threshold artifact (`limen-boost-054`)
-- Appended project `journal.md`
-- Verified alignment of five downstream routing surfaces
+- Updated `results/boost/limen-boost-024/journal.md`
+- Verified alignment of five downstream routing surfaces with live threshold artifact
+- Added Amsterdam/Helsinki threshold event prioritization
 
 ## Paper/thesis use
 
 - Adds a reproducibility protocol for dynamic evidence routing in methods sections
 - Enables automated drift detection in dashboards and thesis reuse
 - Strengthens reviewer confidence in Table 1B / LIMEN-C-012 routing integrity
-- Provides a reusable artifact template for future cycles
+- Provides a reusable template for future cycles
 
 ## Evidence used
 
 - `results/boost/limen-boost-054/public-sector-threshold-impact-board.tsv` (verified live via audit)
-- `results/dashboard-paper/publication-route-visual-bridge-v0.1.tsv`
-- `results/dashboard-paper/dashboard-view-claim-route-matrix-v0.1.tsv`
-- `results/boost/limen-boost-030/table1b-dashboard-view-contract.tsv`
-- `results/boost/limen-boost-030/table1b-surface-role-matrix.tsv`
-- `results/boost/limen-boost-042/public-sector-question-router.tsv`
-- `next.md`
+- `results/boost/limen-boost-024/public-sector-threshold-route-consumer-drift-audit.tsv`
+- `results/boost/limen-boost-054/sf09-public-sector-publishability-priority.tsv`
+- `results/dashboard/public-sector-disclosure-comparison.tsv`
 
 ## Paper-readiness delta
 
@@ -38,6 +34,7 @@ Sprint: `20260607-hostile-reviewer-pass`
 - Made methods section more reproducible and reviewer-friendly
 - Created a reusable template for future threshold-change audits
 - Corrected outdated artifact reference in preprint to reflect current live source
+- Prioritized next publishability move toward exact-row public companion acquisition
 
 ## Claims verified, rewritten, or dropped
 

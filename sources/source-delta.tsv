@@ -1,0 +1,15 @@
+source_id	description	evidence_type	evidence_tier	evidence_url	notes
+
+001
+AI washing case: Company claims 'AI-powered' customer service chatbot that is actually a rule-based script
+web_scrape
+weak
+https://example.com/chatbot-claim
+Placeholder - requires verification
+
+002
+False AI claims: Product marketed as using 'advanced AI' but uses static responses from a predefined database
+web_scrape
+weak
+https://example.com/ai-product-marketing
+Placeholder - requires verification

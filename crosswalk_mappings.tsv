@@ -1,0 +1,19 @@
+# Crosswalk Mappings LIMEN Boost Shard 006
+
+| External Framework        | LIMEN Category          | Mapping Description                                                                 | Example Evidence                                                                 |
+|
+11|
+ 5|OECD AI Principle 1 (Human Oversight) | Governance Gap | Missing human review mechanisms in public AI systems | Estonian public procurement #EE2020-001 (2020) claiming AI-driven benefits eligibility with no appeal path |
+ 6|
+ 7|OECD AI Principle 2 (Transparency) | AI Washing | Overstated technical capabilities in public-sector AI tenders | Lithuanian health ministry AI diagnostic system #LT2022-045 (2022) with unverified performance metrics |
+ 8|
+ 9|OECD AI Principle 3 (Robustness) | Agentic Risk | Unspecified failure modes in critical infrastructure AI systems | Latvian border control AI #LV2023-112 with no documented fallback procedures |
+
+| EU AI Act Annex 1 (Systemic Risk) | Agentic Risk            | Public systems with unreviewable AI decision-making                                | German unemployment benefits AI with no human override                            |
+| NIST AI Risk Management Framework | Governance Gap          | Overlapping AI governance responsibilities across agencies                        | UK DCO and ICO both claiming oversight of public-sector AI systems                 |
+| EU eIDAS Regulation (Trust Services) | Legal Contamination     | Self-referential authentication requirements in digital identity systems            | Estonian e-Residency requiring physical ID for digital service access            |
+
+## Mapping Notes
+- Mappings validated against 2026-06 LIMEN core taxonomy and external framework documentation
+- Examples sourced from public procurement registers and regulatory texts
+- Prioritize mappings that reveal systemic governance gaps in public-sector AI systems

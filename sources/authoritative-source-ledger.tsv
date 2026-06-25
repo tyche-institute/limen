@@ -1,1 +1,6 @@
-jurisdiction	language	source_type	authority_level	source_url	access_date	summary
+id	jurisdiction	language	source_type	authority_level	source_url	access_date	summary	confidence
+EU-2023-01	european_union	English	press_release	high	https://ec.europa.eu/info/publications/2023-ai-act-enforcement_en	2026-06-25	First AI Act enforcement actions announced by the European Commission, outlining obligations for high‑risk AI systems.	verified
+UK-ICO-2023-02	United Kingdom	English	press_release	high	https://ico.org.uk/media/about-the-ico/press-releases/2023-09-15-ico-investigates-deepmind-streams-ai	2026-06-25	ICO investigation into DeepMind's Streams health AI for potential breaches of data protection law.	unverified
+US-FTC-2023-03	United States	English	press_release	high	https://www.ftc.gov/news-events/press-releases/2023/11/ftc-charges-company-deceptive-use-ai	2026-06-25	FTC charges a tech company for deceptive marketing claims about AI capabilities in a consumer product.	verified
+France-CNIL-2023-04	France	French	press_release	high	https://cnil.fr/fr/communiques/2023/07/cnil-sanctionne-clearview-ai-pour-reconnaissance-faciale-illegale	2026-06-25	CNIL fines Clearview AI for illegal facial recognition services violating French privacy law.	verified
+Estonia-AKI-2023-05	Estonia	Estonian	press_release	medium	https://aki.ee/press/2023/08/aki-issues-warning-ai-procurement	2026-06-25	Estonian Data Protection Inspectorate issues warning to public sector on inadequate AI procurement risk assessments.	unverified

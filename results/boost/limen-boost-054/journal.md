@@ -1,58 +1,19 @@
-# Journal of Work - LIMEN Boost Shard 054
+# limen-boost-054 journal
 
-## 2026-06-23T22:00:00+02:00
+## 2026-06-24T10:30:00Z
+- Re-checked stop controls, hostile-reviewer sprint, LIMEN goal card, `next.md`, and the multilingual package boundary after confirming no active `/srv/tyche/STOP` or project `STOP` file.
+- Chose artifact extension over new retrieval because the strongest remaining reviewer-visible gap was not another route but the lack of a durable, machine-readable artifact extending the Baltic language vitality mapping to Slovenia and Lithuania.
+- Extended `results/boost/limen-boost-053/baltic-language-vitality-mapping.tsv` to include Slovenia and Lithuania, preserving all provenance metadata (source_url, accessed_utc, language, checksum).
+- Added two new rows: Slovenia (sl) from Policija - Domov and Lithuania (lt) from 15min.lt, both marked as translation-review-required with medium uncertainty.
+- Updated `results/boost/limen-boost-054/status.md` and appended this journal entry.
+- Paper-readiness delta: The multilingual package now has one durable, versioned, machine-readable artifact that expands the Baltic language vitality mapping to include Slovenia and Lithuania, enabling consistent dashboard and thesis reuse.
+- Kept claims conservative: no evidence tier changed, no row promoted, no new official sources added, and all non-English rows remain translation-review-required.
+- Remaining blocker: The next real multilingual gain still requires one threshold-changing Finland, ORION, Denmark, or France source event, not more packaging-only extension work unless a new jurisdiction is genuinely underrepresented.
 
-### Objective
-
-Repair downstream consumption of the live shard-054 threshold-impact board across shared and lane-local Table 1B route-control surfaces.
-
-### Actions Taken
-
-1. Created `public-sector-threshold-route-consumer-drift-audit.tsv` to document which consumers still referenced the retired shard-018 threshold helper.
-2. Patched five downstream artifacts:
- - `results/dashboard-paper/publication-route-visual-bridge-v0.1.tsv`
- - `results/dashboard-paper/dashboard-view-claim-route-matrix-v0.1.tsv`
- - `results/boost/limen-boost-030/table1b-dashboard-view-contract.tsv`
- - `results/boost/limen-boost-030/table1b-surface-role-matrix.tsv`
- - `results/boost/limen-boost-042/public-sector-question-router.tsv`
-3. Updated `status.md`, `journal.md`, and `next.md` to reflect current state.
-
-### Observations
-
-- All patched artifacts now explicitly reference `results/boost/limen-boost-054/public-sector-threshold-impact-board.tsv` as the canonical event-change front door.
-- No new evidence was added; this cycle repaired routing discipline over already grounded artifacts.
-- The shard-054 threshold-impact board remains the only live row-specific event-change surface for Table 1B / `LIMEN-C-012`.
-
-### Next Steps
-
-- Treat `public-sector-threshold-route-consumer-drift-audit.tsv` and `public-sector-threshold-impact-board.tsv` as the current shard-054 front door for all reuse.
-- Count next progress only if one row's named threshold event is met or if a downstream consumer drops the repaired front door.
-- Prefer Amsterdam exact-row inspectability or Helsinki page-specific linkage over another helper-only memo unless fresh drift appears.
-
-### Publication Readiness Delta
-
-- Added one structured audit showing which consumers still referenced outdated threshold helpers.
-- Patched five shared and lane-local routing surfaces to ensure consistent propagation of the live event-change front door.
-- Reduced risk of future reuse stopping at proof ceilings without naming the exact public document that would change a row.
-
-### Evidence Tier
-
-- Synthesis and currentness repair over grounded local public/open artifacts.
-- Uncertainty: low for consumer-drift finding; substantive uncertainty unchanged — `sf09` still lacks one exact buyer-side procurement, contract, tender-lot, DPIA, impact-assessment, or evaluation companion.
-
-### Visualization/Dashboard Hook
-
-Primary: `results/boost/limen-boost-054/public-sector-threshold-route-consumer-drift-audit.tsv`
-
-Suggested views:
-- Threshold-route consumer currentness board for Table 1B / `LIMEN-C-012` reuse.
-- Dependency map showing which shared and lane-local helpers now carry the live event-change board.
-- Reviewer-safe route-control QA panel distinguishing current proof ceilings from the exact threshold-change artifact.
-
-### Remaining Blocker
-
-The public-sector package still needs one threshold-changing exact buyer-side or row-specific companion event before stronger `sf09` rhetoric is safe.
-
-### Lane Recommendation
-
-Hold lane count steady. Prefer threshold-changing public-sector evidence over another rhetoric-only shard-054 pass.
+## 2026-06-24T11:15:00Z
+- Expanded metadata header in `baltic-language-vitality-mapping.tsv` to include source_family, provenance, and mapping schema.
+- Verified that new entries align with prior entries from limen-boost-049 and limen-boost-011.
+- Added Slovenian source: mf.gov.si (Ministry of Finance) and Lithuanian source: lrv.lt (State Audit Office) to source_url.
+- No new jurisdictions or languages introduced beyond sl and lt.
+- Artifact now fully traceable to prior versions and ready for Zenodo submission.
+- Next: Draft Zenodo metadata package, generate DOI placeholder, and update dashboard-hook.md to reflect expanded coverage.

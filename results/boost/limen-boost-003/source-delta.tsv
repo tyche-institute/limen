@@ -1,4 +1,8 @@
-company	date	source	description
-Regulator A	2023-12-31	Web	New cybersecurity legislation passed
-Company B	2024-07-15	API Logs	Data breach notification sent to regulators
-Enforcement C	2025-08-20	Public Records	Compliance audit completed
+Source_Type	Jurisdiction	Source_ID	Notes
+Company_Notice_Deficit	Italy	LIMEN-000001	Direct regulator notice text available
+Company_Notice_Deficit	UK	LIMEN-000003/LIMEN-000004	Enforcement records with notice text
+Court_Facing_Document_Gap	USA	LIMEN-000002	Media anecdote only, no court document
+Non_English_Representation	Finland	LIMEN-000XXX	Yle-sourced case partially blocked
+Underrepresented_Region	Baltic_States		Target for expansion
+Underrepresented_Region	Slovenia		Target for expansion
+Underrepresented_Region	Caucasus		Target for expansion

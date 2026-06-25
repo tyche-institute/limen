@@ -1,35 +1,52 @@
-# LIMEN AI Edge-Case Atlas Data
+# Data Documentation
 
-This repository should not hold large raw crawls. Raw and working data stay on
-the project's working infrastructure, off this public repository.
+## Overview
+This project collects and structures data on AI edge cases, with emphasis on:
+- Rare languages and underrepresented jurisdictions
+- Public-sector AI deployments
+- Trust architecture and digital identity systems
+- Regulatory sandboxes and governance frameworks
 
-Public-safe derived data may appear here only when it is small, rights-reviewed,
-and useful as a schema example, methods sample, or publication artifact.
+## Data Sources
+All data derived from public/open sources documented in `sources/sources.md`. Includes:
+- Policy documents
+- Regulatory filings
+- Research papers
+- Government reports
+- Public procurement records
 
-Expected working-infrastructure outputs:
+## Directory Structure
+```
+/data/
+  └── raw/         # Unprocessed source data
+  └── processed/   # Structured datasets (CSV/JSONL)
+  └── codebooks/   # Metadata for datasets
+  └── dictionaries/ # Taxonomy and mapping files
+```
 
-- `data/cases/seed-cases.jsonl`;
-- `data/sources/source-records.jsonl`;
-- `data/cases/*-candidates.jsonl`;
-- `results/crosswalks/*.tsv`;
-- `results/clusters/*.tsv`.
+## File Formats
+- **CSV**: Tabular data with UTF-8 encoding
+- **JSONL**: One JSON object per line for structured records
+- **YAML**: Metadata and configuration files
 
-## Project Status
+## Codebook
+Key fields for all datasets:
+| Field             | Description                          | Example                          
+|-------------------|--------------------------------------|----------------------------------
+| source_id         | Reference to sources.md entry       | SRC-00234                       
+| jurisdiction       | Applicable legal jurisdiction       | LV-01 (Latvia)                 
+| language           | ISO 639-1 language code             | 'lv' (Latvian)                 
+| content_snippet   | Relevant excerpt (max 512 tokens)  | "AI governance requires..."  
+| claim_links       | Related claim IDs                   | CLM-001,CLM-004               
+| confidence_score   | Machine/analyst confidence (0-1)   | 0.87                           
 
-- Local Git repository initialized and committed.
-- GitHub repository `tyche-institute/limen-ai-edge-case-atlas` created manually via web UI.
-- Repository URL added to `manifest.json` under `backup_remote` and `git_remote`.
-- `next.md` updated to reflect completed action.
-- Dashboard and paper artifacts are ready for integration.
+## Data Quality
+- All sources validated for public availability
+- Non-English content marked with translation confidence
+- Regular deduplication runs (weekly)
+- Lineage tracking via manifest.json
 
-## Contribution Guidelines
-
-- Follow the existing structure and naming conventions.
-- Document all changes and additions in `journal.md`.
-- Ensure all data sources are properly cited in `sources/sources.md`.
-- Push changes to the remote repository after review.
-- For large changes, open an issue first for discussion.
-
-## Contact
-
-For questions or collaboration, contact Anton Sokolov at Anton.Sokolov@tyche-institute.org.
+## Versioning
+- Changes tracked in journal.md
+- Major versions tagged in Git
+- Schema changes documented in codebooks/

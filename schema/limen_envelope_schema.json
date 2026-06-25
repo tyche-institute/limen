@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LIMEN Envelope Schema",
+  "type": "object",
+  "properties": {
+    "observation_ledger": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "source_id",
+        "timestamp"
+      ]
+    },
+    "extraction_pipeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "step_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "classification_roles": {
+      "type": "object",
+      "properties": {
+        "claim": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "context": {
+          "type": "string"
+        },
+        "uncertainty": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "claim",
+        "source",
+        "context",
+        "uncertainty"
+      ]
+    },
+    "provenance_chain": {
+      "type": "object",
+      "properties": {
+        "source_authority": {
+          "type": "string"
+        },
+        "access_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "language": {
+          "type": "string"
+        },
+        "jurisdiction": {
+          "type": "string"
+        },
+        "checksum": {
+          "type": "string"
+        },
+        "record_id": {
+          "type": "string"
+        },
+        "rights_notes": {
+          "type": "string"
+        },
+        "uncertainty": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_authority",
+        "access_date",
+        "language",
+        "jurisdiction",
+        "checksum",
+        "record_id",
+        "rights_notes",
+        "uncertainty"
+      ]
+    },
+    "uncertainty_flag": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "unknown"
+      ]
+    }
+  },
+  "required": [
+    "observation_ledger",
+    "extraction_pipeline",
+    "classification_roles",
+    "provenance_chain",
+    "uncertainty_flag"
+  ]
+}

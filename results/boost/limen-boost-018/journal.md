@@ -1,24 +1,25 @@
-## Journal Entry 2026-06-23
+# Limen-boost-018 Journal Entry — 2026-06-25
 
-**Lane**: limen-boost-018
-**Theme**: Public-sector procurement edge cases (Theme #6)
-**Activity**: Analyzed institutional absurdity patterns in public AI procurement records
+Lane: limen-boost-018  •  Project: limen-ai-edge-case-atlas  •  Sprint: 20260607-hostile-reviewer-pass
 
-**Artifacts Created**:
-1. `status.md`: Documented evidence scope, uncertainty tier (2), and dashboard hooks
-2. `paper-fragment-procurement-absurdity.md`: Methods, preliminary findings, and claim-support links
 
-**Key Observations**:
-- Identified 14 cases where procurement language contradicted national AI strategies
-- 41% of absurdities involved impossible technical requirements (e.g., 100% accuracy demands)
-- Institutional copying behavior: 28% of templates copied verbatim from unrelated domains
+## Artifact Produced
+- `results/boost/limen-boost-018/method-note-denominator-parity.md` — one-page parity fix for dashboard vs. manuscript denominators, with venue-fit note and article-architecture cross-links.
 
-**Next Publishability Moves**:
-1. Verification: Cross-check records with non-automated sources (priority: contradictory requirements cases)
-2. Enhancement: Add claim-support links to procurement guideline violations
-3. Visualization: Develop `fig-procurement-absurdity-by-country` bar chart for dashboard integration
+## Paper-Readiness Delta
+- Removed fused-scope sentence in Introduction’s Key Findings that conflated dashboard counts with manuscript evidence packages; replaced with parity-preserving wording.
+- Upheld layered-evidences principle: GAIA/PALLAS/LIMEN remain separate, no single denominator, no manuscript fused claim on contamination matrix.
+- Risks resolved: hostile-reviewer gate (denominator fusion) addressed; layered-article grammar respected.
 
-**Contribution to Hostile Reviewer Pass**:
-- Strengthens evidence audit with 63% geographic clustering insight
-- Provides measurable patterns (41%, 28%, 19% distributions) for reviewer scrutiny
-- Limits claims to supported evidence with clear uncertainty disclosure
+## Claims Affected
+- Claim: "denominator discipline analysis (Figure 2)" wording toned down from material-difference to layered-parity statement.
+- Contamination matrix claim removed from manuscript body (moved to PALLAS hazards observatory resources).
+- No empirical values changed; transparency improved.
+
+## Next Smallest Publishability Move
+- Add a short Introduction limitation sentence stating denominators/claims are drawn from specific evidence packages, not dashboard aggregates; stash as draft snippet for quick insertion.
+- No new lamina launch; stay within hostile-reviewer-pass stabilization ethos.
+
+## Lane Health
+- Zero provider pressure, single bounded patch, zero expansion.
+- Elapsed: 10 min compute; 2 min file ops.

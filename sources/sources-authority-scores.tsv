@@ -1,0 +1,4 @@
+source_id	source_type	jurisdiction	language	authority_score	coverage_gap
+source-estonia-public-register	public-register	Baltic	Estonian	0.85	Missing non-English procurement notices from 2020-2022
+source-finland-sandbox	regulatory-sandbox	Nordic	Finnish	0.78	Incomplete AI impact assessments in non-English context
+source-hungary-journal	academic-journal	Central European	Hungarian	0.92	No machine-translated versions available for key policy documents

@@ -1,0 +1,23 @@
+### Enforcement Type Mapping
+
+| source_type | standard_type | jurisdiction | confidence | notes |
+|---|---|---|---|---|
+| EDPB_guideline | regulatory_action | EU | high | Direct match to EDPB published guidance |
+| AI_Act_provision | regulatory_action | EU | high | Direct text from AI Act articles |
+| SEC_ai_washing | enforcement_case | US | medium | SEC filings mentioning AIwashing |
+| court_ruling | enforcement_case | Multi | high | Verified court decision documents |
+| media_allegation | enforcement_case | Global | low | Requires stronger source verification |
+| regulatory_sandbox | regulatory_action | Global | medium | Official sandbox participation records |
+| company_notice | enforcement_case | Global | varies | Direct company statements or regulator-to-company correspondence |
+
+**Validation Notes**:
+1. All EU regulatory actions crosswalked with EUR-Lex and EDPB databases
+2. US enforcement cases verified against SEC EDGAR and court databases
+3. Company notices prioritized where direct regulator-to-company text exists (see dashboard hook)
+4. Non-English sources mapped using Finnish/Nordic regulatory portals (translation review pending)
+5. Confidence levels: high (direct source), medium (indirect but verified), low (requires follow-up)
+
+**Dashboard Integration**:
+- Use `standard_type` for heatmap color-coding
+- Filter by `jurisdiction` and `confidence` instatic-dashboard-preview-v1.1
+- Map `source_type` to `category_code` in crosswalk_mappings.tsv for unified analysis

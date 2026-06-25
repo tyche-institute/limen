@@ -1,10 +1,7 @@
-source_id	language	jurisdiction	source_type	procurement_stage	confidence	verified
-SRC-2023-045	English	European Union	direct procurement
-tendering
-0.78
-false
-SRC-2023-046	French	France
-donor_funded
-implementation
-0.82
-false
+source_id	title	jurisdiction	language	evidence_tier	claim_support	access_date
+SRC-2026-BALT-001	Baltic AI Procurement Framework 2026	Baltic States	English	2
+PRO-2026-BALK-042	Balkan Public AI Deployment Guidelines	Balkan Region	Serbian (Machine Translation)	3
+POL-2026-EU-89	EU Institutional AI Policy Document	European Union
+English	1
+SRC-2026-PROCP-12	Public Procurement Analytics for AI Systems	Slovenia
+Slovenian (Machine Translation)	2

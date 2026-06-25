@@ -1,0 +1,5 @@
+source,description,access_date,language,jurisdiction,source_family
+EU AI Act Security Provisions,Regulation (EU) 2023/0055 security requirements for high-risk AI systems including data governance and risk management.,2026-06-28,en,EU,regulatory
+MITRE Secure AI Framework,MITRE's cybersecurity framework for AI systems addressing adversarial attacks and model robustness.,2026-06-28,en,US,industry-standard
+NIST AI RMF Security Controls,NIST guidelines for secure AI development including model validation and deployment security.,2026-06-28,en,US,government
+Agentic Failure Case Study: Autonomous Payment Errors,Analysis of AI-driven payment systems failing to prevent fraudulent transactions due to agentic limitations.,2026-06-28,en,Global,case_study

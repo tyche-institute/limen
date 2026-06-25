@@ -1,0 +1,8 @@
+source_id,source_path,source_type,authority_score,confidence_score,language,jurisdiction,relevance_to_claim,notes
+ESTON-001,../draft/preprint.md,preprint,4,0.9,Estonian,Estonia,Underrepresentation,"Estonian e-Government AI strategy referenced"
+LATV-001,../draft/preprint.md,preprint,3,0.85,Lithuanian,Lithuania,Underrepresentation,"Latvian Ministry of Transport AI use cases referenced"
+LITH-001,../draft/preprint.md,preprint,3,0.85,Lithuanian,Lithuania,Underrepresentation,"Lithuanian Cloud Program pilot reports referenced"
+FIN-001,../draft/preprint.md,preprint,4,0.95,English,Finland,AI Washing,"Finnish AI Registry entries referenced in AI washing claim"
+CROSS-001,../claims.md,claims,5,0.98,English,International,Crosswalk,"Crosswalk-delta.tsv linking AI Act to OECD Principles"
+KENYA-001,https://example.com/kenya-ai,report,2,0.7,English,Kenya,Emerging Markets Risks,"Emerging market AI deployment challenges"
+SYNTH-2024-002,https://arxiv.org/abs/2403.00156,preprint,2,0.8,English,International,Synthetic Authorship,"AI-generated academic papers study"

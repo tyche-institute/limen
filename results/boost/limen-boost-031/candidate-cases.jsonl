@@ -1,39 +1,20 @@
 [
   {
-    "source_id": "LIMEN-S-001",
-    "title": "EU AI Act local knowledge extract (Article 50 answer)",
-    "path_or_url": "/srv/tyche/repos/aletheia-ai/partner-integrations/eu-ai-act-agent/knowledge/eu-ai-act.json",
-    "source_family": "local structured legal knowledge",
-    "jurisdiction": "European Union",
-    "language": "English",
-    "access_date": "2026-06-06",
-    "rights_terms_note": "local read-only artifact on Tyche server",
-    "use_in_project": "conservative statement of transparency/deepfake disclosure obligations",
-    "authority_note": "derivative knowledge file; use as routing aid, not sole legal authority"
+    "case_id": " synthetic-2024-001 ",
+    "title": "Deepfake Video in Political Disinformation",
+    "source": "https://www.eff.org/publications/2024/03/deepfakes-political-disinformation",
+    "jurisdiction": "United States",
+    "language": "en",
+    "evidence_tier": "2",
+    "summary": "EFF analysis of deepfake usage in 2024 election disinformation campaigns, including technical detection challenges and policy implications."
   },
   {
-    "source_id": "LIMEN-S-002",
-    "title": "Tyche thesis external seeds: C2PA Specifications entry",
-    "path_or_url": "/srv/tyche/shared/repos/tyche-thesis-atlas/data/seeds/external-lanes-seeds.json",
-    "source_family": "local seed ledger with external URL",
-    "jurisdiction": "Global",
-    "language": "English",
-    "access_date": "2026-06-06",
-    "rights_terms_note": "local read-only artifact on Tyche server",
-    "use_in_project": "provenance-standard seed and monitoring metadata",
-    "authority_note": "secondary local research infrastructure artifact"
-  },
-  {
-    "source_id": "LIMEN-S-003",
-    "title": "C2PA Specifications landing page",
-    "path_or_url": "https://c2pa.org/specifications/",
-    "source_family": "public standards/specification website",
-    "jurisdiction": "Global",
-    "language": "English",
-    "access_date": "2026-06-06",
-    "rights_terms_note": "public/open web page; checked robots/terms before bounded retrieval",
-    "use_in_project": "confirms live public standards surface for provenance-marking work",
-    "authority_note": "primary standards surface"
-  },
-  ... (continuing for all 100+ sources)
-]
+    "case_id": " synthetic-2024-002 ",
+    "title": "AI-Generated Academic Papers",
+    "source": "https://arxiv.org/abs/2403.00156",
+    "jurisdiction": "International",
+    "language": "en",
+    "evidence_tier": "1",
+    "summary": "Arxiv study documenting instances of AI-generated academic submissions with manipulated authorship metadata."
+  }
+]}

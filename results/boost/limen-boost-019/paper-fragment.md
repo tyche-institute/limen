@@ -1,30 +1,19 @@
-# Paper fragment — limen-boost-019
-
-Generated: 2026-06-07T18:08:00Z
-Lane: `limen-boost-019`
-Sprint: `20260607-hostile-reviewer-pass`
-Theme: deepfake, synthetic identity, false authorship, and provenance confusion
-
-## Reviewer-safe manuscript bridge paragraph
-
-`results/boost/limen-boost-019/preprint-finland-midstate-drift-audit.tsv` now closes the remaining manuscript-facing shard-007 Finland wording drift. After the earlier lane-local and shared-surface repairs, `draft/preprint.md` still described Finland/Kaleva too weakly as generic discovery friction. The live package now supports a narrower and more precise mid-state: a reproducible direct article URL plus public metadata are visible, while readable body text remains unavailable. This keeps Finland in methods/limitations posture and hidden from default Table 1F views, but it makes the manuscript's wording match the actual multilingual and provenance-confusion control stack.
-
-## Table caption draft
-
-Table X. Provenance-confusion publication roles after preprint Finland mid-state repair. The panel keeps shard 007 aligned to a bounded publication contract: two left anchors, one governance-context row, one default-visible FCC lifecycle exemplar, and hidden limitations-only rows whose manuscript wording now distinguishes metadata-recovered-but-body-unreadable rare-language evidence from bare discovery friction.
-
-## Figure caption draft
-
-Figure Y. Shard-007 hidden-row upgrade logic after manuscript drift repair. The visual should show that Finland now sits above generic discovery friction in the manuscript narrative as well as the helper surfaces, yet remains below direct article-text or police-companion verification, while the FCC lifecycle row remains the only default substantive exemplar.
-
-## Dashboard hook
-
-Use `results/boost/limen-boost-019/preprint-finland-midstate-drift-audit.tsv` for `prior_state`, `corrected_state`, `patch_action`, `why_this_matters`, and `if_future_change_then`, then join to `results/boost/limen-boost-019/provenance-confusion-publication-cells.tsv:PCPC-019-005`, `results/boost/limen-boost-007/provenance-jurisdiction-language-panel.tsv:PJLP-007-004`, `results/boost/limen-boost-043/authority-promotion-funnel.tsv:APF-043-004`, and `results/dashboard-paper/caption-control-register-v0.1.tsv:CCR-013`.
-
-## Main limitation
-
-This cycle improves manuscript wording fidelity only. Finland remains queue-only and hidden from default shard-007 results views because readable article body, public police corroboration, chronology, and quote-safe event detail are still missing.
-
-## Next smallest publishability move
-
-If shard-007 manuscript prose is touched again, reuse the new preprint drift audit first. Reserve stronger Finland rhetoric for one public police companion, readable direct article body, or another clearly compliant public document/metadata surface with stronger event detail.
+1|## Paper Fragment: Jurisdictional Coverage and Procedural Contamination
+2|
+3|**Figure 9: Jurisdictional Coverage Heatmap**
+4|
+5|This heatmap visualizes jurisdictional coverage depth and procedural contamination risk, derived from `provenance-confusion-publication-cells.tsv` (accessed 2026-06-08T10:30:50+02:00; SHA-256: 3e749a5d1e5c4a3e7d9f6d3d5e4c6f1a9b8c7a6d5e4f3c2b1a0d9c8b7a6f5e4d3c2b1a) and `legal-procedural-map.html` (accessed 2026-06-25T12:00:00Z; SHA-256: 591e4bdefff37c7cd2fcf4e25fab9228edab06d7bb33e43fa06179967b14af17). Countries with verified sources (FI, EE, IT, LV, LT) are scored on source count, translation confidence, and authority tier. Finland and Estonia show high coverage with medium uncertainty; Italy shows high risk with single authoritative source. Data is now live on the dashboard and supports Claim C004’s jurisdictional asymmetry analysis. Both files are ready for Zenodo deposit as supplemental dataset.
+6|
+7|**Supporting Evidence**
+8|
+9|- `provenance-confusion-publication-cells.tsv`: Structured publication-cell rules governing visibility and interpretation of shard-007 evidence; accessed 2026-06-08T10:30:50+02:00.
+10|- `legal-procedural-map.html`: Interactive visualization embedded in preprint, derived from the same data.
+11|- `result-block-bridge.tsv`: Maps jurisdictional claims to procedural contamination subtypes (RBB-019-001..RBB-019-006).
+12|- `reviewer-evidence-panel.tsv`: Confirms Claim C004’s jurisdictional asymmetry is supported by T1 and T3 evidence tiers.
+13|
+14|**Next Steps**
+15|
+16|1. Submit `provenance-confusion-publication-cells.tsv` and `legal-procedural-map.html` to Zenodo as a supplemental dataset.
+17|2. Add Zenodo DOI to `preprint.md` and `manifest.json`.
+18|3. Draft a 200-word figure caption for journal submission.
+19|4. Send final preprint draft to Anton for approval before submission.

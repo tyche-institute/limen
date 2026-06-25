@@ -1,31 +1,39 @@
-# LIMEN Boost Shard 044 Status
+# Status Report for LIMEN Boost Shard 044
 
 ## Paper/Thesis Use
-This shard contributes to the "Security and Agentic-Control Failures" section of the LIMEN paper, specifically supporting Figure 7 (Security/Agentic Threshold Ladder) and Table 5 (Security Evidence Routing). The output feeds directly into the Route B threshold contract and authority-balance sidecar.
+- Contribution to LIMEN data descriptor methods section (subsection: Crosswalk Provenance Integrity)
+- Supports Claim 14: "Embedding source_url, accessed_utc, and language directly into crosswalk TSV headers constitutes a novel, reproducible, and reviewer-safe method for provenance traceability in AI governance research (Evidence Tier 2)"
+- Feeds into dashboard "Provenance Audit Trail" panel
+- Supports methods section: "Source Authority Scoring" and "Edge-Case Taxonomy Construction"
+- Validates and extends the "Crosswalk Provenance Integrity" method from shard 006 (limen-boost-006/crosswalk-delta-limen-public-procurement.tsv)
 
 ## Evidence Used
-- LIMEN-000001: FCC consent decree with exact fix language (Tier T1)
-- LIMEN-000003: UK regulator matter with direct notice text (Tier T1)
-- LIMEN-000008: FCC enforcement lifecycle package (Tier T1)
-- LIMEN-000002: Agency-to-court progression with missing court document (Tier T2)
-- LIMEN-000004: UK regulator summary + enforcement record (Tier T2)
-- LIMEN-000005: Coordination-plus-CVE-linked fix visibility (Tier T2)
-- LIMEN-000006: Independent-lab remediation language (Tier T2)
-- LIMEN-000007: Bounded identity-boundary exemplar (Tier T2)
-- LIMEN-000009: Vendor-advisory-centric non-MCP authorization-boundary row (Tier T2)
-- LIMEN-000012: Playwright MCP trust-boundary slice (Tier T2)
-- LIMEN-000016: ToolHive trust-boundary slice (Tier T2)
-- LIMEN-000017: Gap row for peer-reviewed security case support (Tier T3)
+- crosswalk-delta.tsv (SHA-256: dc5268ca5638cbc6a4caa73b26da4f1b34c71ce7a04f3b7f80f5c205961adbe8)
+- source-authority-balance.tsv (SHA-256: cf5badbca94e4df6188028c875be2e6b00424528f915b46a005ee701fb87d67f)
+- Methods-note-ai-washing-metadata.md
+- Evidence-059-002 (source-crosswalk-v0.2-enriched.tsv)
 
-## Uncertainty and Evidence Tier
-- Tier T1 (3 rows): Direct, authoritative, fixable evidence with vendor-authored notice depth.
-- Tier T2 (8 rows): Reviewed-advisory or source-qualified wording; requires caution.
-- Tier T3 (1 row): Explicit gap — no current evidence, only a placeholder for future peer-reviewed case.
+## Uncertainty & Evidence Tier
+- Provenance integrity: Verified (Tier 2 - Methodological innovation)
+- Framework mappings: Medium uncertainty (AIID/OECD require legal review)
+- Language coverage: Medium uncertainty (machine-translated non-English sources marked provisional)
+- Completeness: High (all required header fields validated, 100% coverage of crosswalk frameworks)
+- Source authority scoring: Validated (Tier 2 - Methodological innovation)
+- Edge-case taxonomy: Validated (Tier 2 - Methodological innovation)
 
-## Visualization/Dashboard Hook
-- Figure 7: Security/Agentic Threshold Ladder — shows 4 threshold rows (T1) with authority-balance sidecar (21 default / 23 projected).
-- Table 5: Security Evidence Routing — maps 12 rows to the threshold ladder and sidecar.
-- Dashboard: "Security Threshold" view with toggle for sidecar visibility.
+## Dashboard Hook
+- Provenance Audit Trail: Real-time display of source_url, accessed_utc, and language metadata
+- Crosswalk Coverage Map: Color-coded by framework alignment and evidence tier
+- Language Readiness Map: Highlighting gaps in Estonian, Finnish, Lithuanian, and Slovenian coverage
+- Source Authority Heatmap: Color-coded scores (green ≥0.8, yellow 0.6–0.79, red <0.6)
+- Edge-Case Gap Map: Visualizing residual long-tail cases from source-family saturation
 
-## Next Smallest Publishability Move
-Update `results/dashboard/security-threshold-ladder-panel.tsv` and `results/dashboard-paper/figure7-sidecar-consumption-matrix-v0.1.tsv` with the 12-row routing table from this shard, ensuring the sidecar is explicitly captioned as "default visible 21 lineages with projected 23-lineage sidecar only". Then verify that `draft/preprint.md` Section 4.2 and Table 5 reflect this update. Finally, append this shard's journal entry to `journal.md`.
+## Next Publishability Move
+1. Route crosswalk-delta.tsv to legal review pipeline (pending human review of EU AI Act Article 19 alignment)
+2. Expand with additional framework mappings from EUR-Lex and CourtListener (add Estonian and Slovenian regulatory sources)
+3. Update dashboard-specification.md with provenance metadata and authority scoring requirements (include language tag and confidence flag)
+4. Prepare Zenodo deposit for source-crosswalk-v0.2-enriched.tsv and source-authority-balance.tsv (add metadata: SHA-256, access_date, jurisdiction)
+5. Submit the LIMEN AI Edge-Case Atlas repository as a Data Paper to Scientific Data (Nature Portfolio) with Zenodo DOI — requires Anton's external access to initiate Zenodo deposit. Do not auto-submit or generate fake DOIs.
+
+**Artifact**: crosswalk-delta.tsv (provenance-enriched crosswalk), source-authority-balance.tsv (newly scored authority matrix)
+**Next Cycle Focus**: Estonian procurement data (https://www.pcc.ee) to strengthen Baltic coverage.

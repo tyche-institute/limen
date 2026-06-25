@@ -1,9 +1,11 @@
-## Dashboard-Paper Integration Status
+# Dashboard Paper Build Status
 
-- [x] Dashboard Specification: `dashboard/limen-dashboard-spec-v0.1.md` completed
-- [x] Article Architecture: `papers/article-architecture-v0.1.md` completed
-- [ ] Source-Family Coverage Map: Data compilation pending
-- [ ] Evidence-Tier Funnel: Visualization design in progress
-- [ ] Taxonomy Heatmap: Schema proposal underway
-
-Next Publishability Move: Finalize data integration pathways between dashboard components and manuscript sections.
+- **Date:** 2026-06-25
+- **Artifacts created:**
+  - `dashboard/limen-dashboard-spec-v0.1.md` (dashboard specification)
+  - `papers/article-architecture-v0.1.md` (article architecture outline)
+  - Updated `journal.md` entry for this cycle
+- **Next steps:**
+  - Populate dashboard data inputs (`data/atlas-evidence.jsonl`, taxonomy, clusters)
+  - Generate figures/tables for manuscript
+  - Verify source provenance and uncertainties

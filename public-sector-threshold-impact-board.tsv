@@ -1,0 +1,4 @@
+Case_ID	Jurisdiction	Procurement_Status	Verification_Source	Dashboard_Hook	Status
+Case_001	Estonia	Pending	Official_Registry_Access	TVI-2023-045	Unverified
+Case_002	Finland	Active	Procurement_Database	TVI-2023-045	Unverified
+Case_003	EU_Wide	Review	Crosswalk_Analysis	TVI-2023-045	Unverified

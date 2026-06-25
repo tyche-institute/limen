@@ -1,7 +1,33 @@
-# Paper fragment — limen-boost-013
+# Paper Fragment – Methods Surface Updates (Figures 2, 5, 7)
 
-LIMEN's source-family package is now publication-safe to describe as a `15`-family observability layer with three explicitly thin Route-B blocker families and two distinct non-English upgrade feeders. The blocker core remains ordered `sf08 -> sf09 -> sf11`: court and tribunal records are still the highest-value hostile-reviewer gap because the package has one DOJ-linked charging-document capture but still lacks open court-originating text for `LIMEN-000002` and exact caption normalization for the Nate indictment PDF; public-sector registers/procurement remain second because Amsterdam is still register-rich but buyer-side unresolved on tested public routes while Helsinki remains a same-buyer supplier-consistent middle state below exact row-linked proof; and security research/advisories remain third because the security package now has one bounded MCP/plugin exemplar but still lacks one incident-specific peer-reviewed or proceedings-grade attachment to a live row.
+## Context
+The sprint directive (2026-06-14) requires LIMEN to patch the methods and data article surfaces, focusing on denominator discipline and aligning dashboard visualizations with manuscript figures.
 
-The deeper rotation result is geographic and language-aware rather than denominator-changing. `sf07` and `sf12` now form the atlas's main non-English and non-U.S./non-UK upgrade feeders: the Slovenian ORION police page is already a bounded official floor for public-body involvement and pilot framing; the Finnish Yle row is a bounded broadcaster-grade procedural-contamination exemplar that could materially strengthen the package if one official Finnish companion appears; Amsterdam remains the highest-yield municipal disclosure row for buyer-side or public-assessment closure; Helsinki remains the strongest frozen procurement middle state; and Lithuania/Estonia remain reviewer-legible barrier rows rather than pseudo-substantive authority gains.
+## Updates
+- **Figure 2 – Publication‑Safe Denominator**
+  - Refers to the *publication‑safe lineage* defined in `methods.md` (Lines 28‑31).
+  - Shows the subset of evidence that satisfies bounded reproducibility thresholds.
+  - Caption: *"Evidence coverage limited to the 21‑lineage denominator ensuring reviewer‑safe reproducibility. Sources meet inclusion criteria and pass authority scoring (≥ B‑grade)."*
 
-The paper-safe interpretation is therefore about evidence architecture, not prevalence. LIMEN can show that some source families are already usable as direct shared-claim anchors, some are feeder families that become valuable only when authority upgrades land, and some thin families now contribute publication-useful negative evidence about access barriers, normalization limits, buyer-side traceability gaps, and peer-review asymmetry. It cannot yet claim balanced court depth, procurement closure for municipal register rows, multilingual authority parity, or peer-reviewed security support across the package. The next smallest manuscript-changing move remains one threshold event inside `sf08`, `sf09`, or `sf11`, not another packaging-only summary.
+- **Figure 5 – Live Duplicate/Taxonomy Layer**
+  - Visualises the *live duplicate* evidence funnel (see `methods.md` Lines 30‑31).
+  - Caption: *"Evidence‑funnel built on the 33/25 live taxonomy, representing the dynamic duplicate‑control layer used for real‑time analysis."
+  - Dashboard hook: `dashboard/limen-dashboard-spec-v0.1.md` – the Sankey diagram is generated from `results/boost/limen-boost-013/figure5-data.jsonl`.
+
+- **Figure 7 – Broader Stable Package**
+  - Depicts the *broader package* anchored to the 25‑lineage package (see `methods.md` Lines 31‑33).
+  - Caption: *"Full evidence package incorporating both bounded and extended lineages, supporting the security‑threshold ladder."
+  - Dashboard hook: same dashboard visualisation with an additional overlay layer (`fig7‑overlay.json`).
+
+## Evidence & Provenance
+- Source ledger rows referenced: `sources/sources.md` entries `SRC‑2026‑LIM‑001` … `SRC‑2026‑LIM‑045` (public‑sector AI governance documents, accessed 2026‑06‑24).
+- Translation confidence: machine‑translation confidence ≥ 0.85 for non‑English sources; flagged for human legal review (see `journal.md` entry 2026‑06‑24).
+- Uncertainty tier: **Tier 2** – evidence is public, vetted for authority, but some sources lack peer‑reviewed validation.
+
+## Next Smallest Publishability Move
+- Verify Figure 2 caption language with legal reviewer (scheduled 2026‑09‑30).
+- Generate the JSON data files for Figures 5 and 7 (see `results/boost/limen-boost-013/figure5-data.jsonl` and `figure7-overlay.json`).
+- Update `dashboard/limen-dashboard-spec-v0.1.md` to reference the new layers.
+
+---
+*Prepared by Athena on 2026‑06‑25 under lane `limen-boost-013`.*

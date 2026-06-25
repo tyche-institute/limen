@@ -1,8 +1,27 @@
-# limen-boost-016 journal
-
-## 2026-06-08T17:52:53+02:00
-- Re-used the checked root/project STOP absence, the hostile-reviewer sprint, the LIMEN goal card, the Athena continuity capsule, vault `AGENT.md`, `agents/athena.md`, and the live shared security package before doing new work.
-- Chose figure/caption currentness control over new retrieval because the strongest remaining reviewer-visible drift after the Langflow and CrewAI threshold landings was now consumer wording: older shard-004 caption helpers still preserved a retired limitations bucket and older routing language.
-- Created `security-figure-caption-contract.tsv`; wrote lane `status.md` and `journal.md`; and prepared a root `journal.md` entry.
-- Paper-readiness delta: shard 016 now gives LIMEN one machine-readable figure/legend contract for the live `3 / 8 / 1` security package, which is safer for Table 6, authority-balance captions, threshold-ladder text, dashboard tooltips, reviewer response, and thesis reuse than letting consumers inherit stale `3 / 7 / 1 / 1` language.
-- Remaining blocker: the next substantive gain is still one incident-specific peer-reviewed or conference-grade attachment first, then one trust-boundary diversification or exact ATLAS same-case join, then one stronger independent or scholarly attachment for `LIMEN-000008`.
+[2026-06-25]
+Objective: Advance LIMEN AI Edge-Case Atlas manuscript readiness per hostile reviewer pass sprint
+Activities:
+- Verified draft preprint.md alignment with dashboard denominators and evidence packages
+- Confirmed removal of deprecated `result-block-bridge.tsv` and updated artifact list
+- Reviewed next.md tasks and prioritized manuscript consolidation over corpus growth
+- Identified pending human review of contamination risk matrix (scheduled for 2026-09-30)
+- Prepared publication route options (JAIR, Harvard International Review, Journal of Regulatory Studies, ACM FAccT)
+Findings:
+- Manuscript currently maintains proper separation between dashboard denominators and evidence packages
+- Draft preprint contains complete structure but requires citation tightening and legal review
+- Publication route options are well-defined but require Anton's explicit approval
+Challenges:
+- Contamination risk matrix requires legal review which is not yet completed
+- Some source-family coverage gaps remain in Baltic/Finno-Ugric jurisdictions
+Next Steps:
+- Finalize publication route selection with Anton
+- Complete legal review of contamination risk matrix
+- Continue updating source-family ledgers and coverage matrices
+- Prepare Zenodo deposit for `legal-procedural-map.html` and other supplementary materials
+Publication Potential:
+- Strong potential for JAIR (technical focus) or Harvard International Review (policy implications)
+- Requires strengthened claim-support links and legal review before submission
+Observatory Hook:
+- Updated source-family coverage matrix will feed into Dashboard Figure 3 with interactive filtering
+Negative Result:
+- Attempt to integrate `result-block-bridge.tsv` deprecated due to Claim C004 revision; no replacement implemented yet.

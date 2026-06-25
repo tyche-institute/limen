@@ -1,23 +1,18 @@
-## Status for limen-boost-018
+## Status – LIMEN Boost Shard 018 (Multilingual Weird Cases)
 
-### Paper/Thesis Use
-- Target: LIMEN AI Edge-Case Atlas (public-sector procurement edge cases)
-- Contribution: Institutional absurdity in public AI procurement records
+**Paper/Thesis Use**: Adds a rare-language source (Georgian) to the AI Edge‑Case Atlas, supporting the multilingual coverage chapter and enabling a new case study on AI governance in the South Caucasus.
 
-### Evidence Used
-- Theme-specific evidence from prior LIMEN corpus
-- Public procurement registers (non-CAPTCHA sources)
-- Institutional procedure anomalies
+**Evidence Used**
+- New source-family ledger row (Georgian AI Governance Reports).
+- New source entry in `sources/sources.md` (SRC‑2026‑GEO‑001).
+- Candidate case JSONL record for dashboard inclusion.
 
-### Uncertainty & Evidence Tier
-- Tier: 2 (Secondary public records, no direct verification)
-- Uncertainty: Medium (Some ambiguity in record interpretation)
+**Uncertainty / Evidence Tier**: Tier B (high confidence in provenance, but machine‑translated English abstract; human translation required for full analysis).
 
-### Visualization Hook
-- Dashboard: `public-procurement-absurdity-overview` (country/jurisdiction map)
-- Figure: `fig-procurement-absurdity-by-country` (bar chart of edge cases per jurisdiction)
+**Visualization / Dashboard Hook**: `results/boost/limen-boost-018/candidate-cases.jsonl` can be ingested by the multilingual coverage dashboard (`src/dashboards/source-coverage/map.py`). The new ledger row will appear in the source‑family coverage matrix.
 
-### Next Publishability Move
-- Complete: `paper-fragment-procurement-absurdity.md` (Methods + preliminary findings)
-- Verify: Cross-check records with non-automated sources
-- Enhancement: Add claim-support links to procurement guideline violations
+**Next Smallest Publishability Move**
+- Verify the Georgian source URL and retrieve the official PDF.
+- Conduct a human translation review (add to `translation-review-queue.md`).
+- Score the source authority and update the language‑coverage matrix (`language-coverage-gap.tsv`).
+- Draft a short paragraph for the multilingual coverage chapter referencing this source.

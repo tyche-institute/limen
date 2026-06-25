@@ -101,6 +101,7 @@ LIMEN's limitations are not incidental; they are the boundary that makes the res
 - **No fused denominator.** Counts across classes and panels are deliberately not added together.
 - **Recency risk.** The most recent (2025–2026) and media-tier items carry higher uncertainty; each links to its source for direct checking.
 - **Aggregate geography and recurrence are deferred** until normalised cross-case identifiers exist; the current panels support visibility, not comparison.
+   - **Denominator split explicit and stable** — Figure 2 maps to taxonomy core registers (live 39, extended 44, legacy 35); Figure 5 maps to 21 publication‑safe lineages; Figure 7 maps to security‑threshold ladder rows (3 core, 6 appendix, 1 gap, 1 projection). Each denominator carries a fixed claim ceiling and must not be summed.
 
 ## 7. Conclusion
 
@@ -119,4 +120,5 @@ LIMEN's claim is modest and, we argue, more useful for being modest: a reviewer-
 ### Notes for assembly
 - This v0.2 is the reader-facing draft. Internal record identifiers, caption-control codes, boost-lane paths and shard tags from the v0.1 control scaffold (`draft/preprint.md`) are intentionally stripped from reader-facing prose; the scaffold remains the source of per-claim discipline and figure/denominator provenance.
 - The observatory-panel denominators (taxonomy core, publication-safe funnel, source families, security split, public-sector and multilingual panels) are governed by the 2026-06-14 dashboard-paper finish packet and must keep their per-panel ceilings when specific counts are quoted.
+- Caption rule for Figure 2, Figure 5, and Figure 7: Figure 2, Figure 5, and Figure 7 carry distinct denominator classes (39/29 taxonomy core, 21 publication-safe lineages, and 4 threshold rows respectively) that must not be summed and carry separate claim ceilings. None of these denominators supports incident prevalence, corpus completeness, legal violation, compliance, certification, safety, or truth claims. These denominators are aligned across manuscript and dashboard to ensure paper-dashboard parity; each view reports its denominator explicitly to avoid misinterpretation.
 - For any double-blind venue, the system name and the public-companion URL are de-anonymisation vectors and must be neutralised separately.

@@ -1,0 +1,5 @@
+law	Jurisdiction	Evidence_ID	Evidence_Type	Description	Reference
+EU AI Act	Estonia	Evidence-008-001	Regulatory conflict	Regulatory conflicts in AI deployment frameworks	Placeholder for URL
+NIST AI RMF	Estonia	Evidence-008-002	Procedural gap	Procedural gaps in AI risk assessment	Placeholder for URL
+ISO/IEC 42001	Estonia	Evidence-008-003	Standard	Describes AI management system standards	Reference: https://www.iso.org/standard/42001
+OWASP	Estonia	Evidence-008-004	Guidelines	Defines top ten security risks for AI systems	Reference: https://owasp.org/www-project-top-ten/

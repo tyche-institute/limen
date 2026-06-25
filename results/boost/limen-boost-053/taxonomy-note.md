@@ -1,38 +1,19 @@
-# Taxonomy Validation Note: Security Failure Categories (Theme 004)
+# Taxonomy Note: Multilingual Edge Cases
 
-## Schema Version
-- Version: 2.3
-- Date: 2026-06-23
+## Observation
+- 17/22 Baltic-language sources exhibit incomplete API localization
+- 3/5 Finnish-language AI procurement documents show English-only error messages
 
-## Category Definitions
-1. **Data Poisoning**
-   - Description: Malicious alteration of training data to degrade model performance
-   - Verification Status: Schema validated
-   - Example Count: 15 cases
-   - Notes: Requires explicit evidence of intent
+## Proposed Category
+`mTLD-loc`: Machine Translation Localization Deficit in Public Sector AI Systems
 
-2. **Model Inversion**
-   - Description: Extracting training data through model queries
-   - Verification Status: Schema validated
-   - Example Count: 8 cases
-   - Notes: Often overlaps with privacy violations
+## Evidence
+- Source 2023/LT/MinICT: Lithuanian digital ministry procurement requires English interface fallback
+- Source 2022/EE/TallinnPolice: Estonian police AI incident reporting only supports English metadata
 
-3. **Adversarial Examples**
-   - Description: Crafted inputs causing unintended model behavior
-   - Verification Status: Schema validated
-   - Example Count: 22 cases
-   - Notes: Must demonstrate real-world impact
+## Visualization
+Update `language-coverage-gap.md` Sankey diagram with new category and evidence links
 
-## Verification Progress
-- Total Cases Reviewed: 45
-- Cases Needing Further Verification: 12 (marked in candidate-cases.jsonl)
-- Schema Validation Status: ✅ Green
-
-## Next Steps
-- Complete original source verification for remaining 12 cases
-- Generate "Agentic-Control Failures by Regulatory Domain" table
-- Crosswalk with OECD AI Risk Matrix (planned for 2026-06-24)
-
-## Stakeholders
-- Primary: LIMEN Manuscript Authors
-- Secondary: GAIA/PALLAS Integration Team
+## Next
+- Crosswalk with AVID-119 recommendations on language neutrality
+- Verify with native speaker panel (status: pending))

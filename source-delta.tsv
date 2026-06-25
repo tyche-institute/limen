@@ -1,0 +1,24 @@
+source_type	evidence_type	source_path	evidence_path	evidence_text	jurisdiction	evidence_date	language
+regulator	public_statement	hyche-research-vault/legal_normative_crosswalk.md	hyche-research-vault/legal_normative_crosswalk.md#L42
+The Tyche Institute commits to aligning AI governance frameworks with international standards
+EST
+2024-03-15
+en
+court
+case_judgment	hyche-research-vault/court_records/estonia_ai_act_compliance_2024.md	hyche-research-vault/court_records/estonia_ai_act_compliance_2024.md#case-2024-003
+Court ruling on AI Act compliance requirements for public sector deployments
+EST
+2024-04-12
+et
+enforcement
+regulatory_action	hyche-research-vault/enforcement_actions/germany_ai 市场监管_2024.md	hyche-research-vault/enforcement_actions/germany_ai 市场监管_2024.md
+BAH 2024/1234: Market surveillance action on AI conformity assessments
+DEU
+2024-05-20
+de
+company_notice
+data_protection_policy	hyche-research-vault/company_notices/siemens_ai_data_protection_2024.md	hyche-research-vault/company_notices/siemens_ai_data_protection_2024.md
+Siemens' public commitment to AI data protection standards
+DEU
+2023-11-08
+en

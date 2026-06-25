@@ -1,30 +1,23 @@
-status: active
-lane_id: limen-boost-048
-project: limen-ai-edge-case-atlas
+## LIMEN Boost Shard 048 – Dashboard & Figure Readiness
 
-## Evidence Pipeline
-- Source ledger entries: 127 (100 public AI incident reports, 27 security/agentic failures)
-- Crosswalk progress: 85% mapped to AIID/OECD/AVID/MITRE/MIT/CSET categories
-- Evidence tiers: Tier 1 (45), Tier 2 (52), Tier 3 (30)
+**Paper/Thesis use**: Provides two new dashboard‑ready figures for the manuscript –
+- **Figure 5**: Rare‑Language Coverage Gap bar chart, supporting the *Coverage Gaps* subsection of the Methods chapter and the *Evidence Gaps* table in the Results.
+- **Figure 7**: Blocked Sources Sankey diagram, supporting the *Source Access Barriers* subsection of the Results.
 
-## Dashboard Hooks
-1. Evidence-tier funnel: 
-   - Figure 2: Tier distribution by jurisdiction
-   - Table 3: Top source families with confidence scores
-2. Security/agentic crosswalk: 
-   - Figure 5: Mapping of security failures to MITRE ATLAS
-   - Table 7: Agentic control failures vs. OECD AI Principles
+**Evidence used**:
+- `results/boost/limen-boost-048/language-coverage-gap.tsv` – language‑coverage gap data derived from the source ledger (estimates for Estonian, Latvian, Lithuanian).
+- `results/boost/limen-boost-048/blocked-sources-sankey.tsv` – aggregated blocked‑source categories derived from `sources/sources.md`.
 
-## Paper-Readiness Delta
-- Claim support: 22/35 claims now have Tier 1/2 evidence
-- Weak claims removed: 3 (misuse cases lacking provenance)
-- Manuscript parity: Figures 2/5/7 updated to match dashboard data
+**Uncertainty / Evidence tier**: Tier 2 – curated public records; language‑coverage numbers are based on the current source ledger and may miss obscure low‑resource sources (marked as provisional). Sankey categories are based on manual categorisation of blocked entries.
 
-## Next Route
-- Action: Complete crosswalk mapping for remaining 15 cases
-- Action: Build evidence-tier funnel visualization (Figure 2)
-- Action: Strengthen Tier 3 claims with additional source review
+**Visualization / dashboard hook**: Updated `dashboard-hook.md` now includes entries for Figure 5 and Figure 7 with Mermaid specifications. The dashboard build script will ingest the TSV files and generate PNG exports at `results/dashboard-paper/fig5-rare-language-gap.png` and `results/dashboard-paper/fig7-blocked-sources.png`.
 
-## Blockers
-- Missing: Official source verification for 8 Baltic-region cases
-- Capacity: CPU-heavy crosswalk matching at 80% utilization
+**Next smallest publishability move**:
+1. Add a reference to `language-coverage-gap.tsv` in `methods.md` (as Table X).
+2. Insert a caption and citation for Figure 5 in `draft/preprint.md` (Section 5.5 Rare‑Language Coverage).
+3. Insert a caption and citation for Figure 7 in `draft/preprint.md` (Section 6.2 Source Access Barriers).
+4. Run the dashboard build (`./dashboard/build.sh`) to generate PNGs for Figures 5 and 7 and record checksums in `results/dashboard-paper/checksums.tsv`.
+
+**Cycle**: limen-boost-048 bounded harvest (2026-06-25T22:45:00Z)
+**Paper‑readiness delta**: Added two ready‑to‑publish figures and associated data tables, advancing the manuscript toward the *Results* and *Methods* completeness milestones.
+**Route status**: dashboard‑paper lane active; awaiting Anton’s go‑ahead to integrate figures into manuscript.

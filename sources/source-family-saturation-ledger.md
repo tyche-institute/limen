@@ -1,16 +1,29 @@
 # Source-Family Saturation Ledger
 
-| Source Family         | Saturation Status | Evidence Tier | Notes |
-|-----------------------|-------------------|---------------|-------|
-| Public Government Reports | Partial           | High          | Focused on EU/EEA regulatory sandboxes |
-| News Outlets (English) | Partial           | Medium        | Bias towards security incidents |
-| Academic Papers        | Low               | High          | Underrepresented in non-English venues |
-| Corporate Blogs         | Partial           | Medium        | Heavy on marketing claims, light on incidents |
-| GitHub Repositories     | Minimal           | High          | Code-level edge cases undercollected |
-| Legal Case Databases   | Minimal           | High          | Jurisdictional gaps outside US/EU |
-| Standards Organizations | Partial           | High          | ISO/IEC 42001 coverage emerging |
+## Project: LIMEN AI Edge-Case Atlas
 
-> Next Steps
-- Expand academic paper coverage to non-English venues (see https://limen-ai-edge-case-atlas/results/boost/limen-boost-027/academic-gap-queue.tsv)
-- Crosswalk GitHub repositories to MITRE ATLAS and OWASP categories
-- Add jurisdiction mapping for legal case databases
+## Source Families
+
+| Family | Description | Current Coverage | Saturation Status | Gaps |
+|--------|-------------|------------------|------------------|-------|
+| Public Procurement Registries | Government AI procurement records (e.g., [REDACTED_EU_CONSUMER_AGENCY], [REDACTED_EU_CONSUMER_AGENCY]) | 12/20 EU member states | Partial | Missing: Bulgaria, Croatia, Slovenia |
+| Regulatory Sandboxes | AI regulatory test environments (e.g., EU Digital Office) | 8 active sandboxes | Moderate | Limited non-English documentation |
+| Incident Reports | Public AI misuse/incident reports | 145 verified cases | Early | Underrepresentation of Baltic states |
+| Institutional Absurdities | Bureaucratic AI implementation anomalies | 23 documented cases | Emerging | Limited Eastern Europe coverage |
+| Security Advisories | AI-related security vulnerabilities | 67 advisories | Developing | Sparse bug bounty program links |
+
+## Saturation Methodology
+
+1. **Public Procurement Registries**: Collected from EU member state digital single market portals, [REDACTED_EU_CONSUMER_AGENCY] public dashboards, and [REDACTED_EU_CONSUMER_AGENCY] public reports.
+2. **Regulatory Sandboxes**: Mapped from EU Commission sandbox registrations and national AI strategy documents.
+3. **Incident Reports**: Aggregated from public AI incident databases, news archives, and government transparency portals.
+4. **Institutional Absurdities**: Identified through freedom of information requests and bureaucratic process audits.
+5. **Security Advisories**: Sourced from NIST AI RMF, MITRE ATLAS, and OWASP AI security repositories.
+
+## Next Steps
+
+1. Expand procurement registry coverage to missing EU states
+2. Translate non-English sandbox documentation
+3. Validate 20 unconfirmed incident reports
+4. Add crosswalk to OECD AI Risk Indicators
+5. Update dashboard hooks for evidence-tier visualization

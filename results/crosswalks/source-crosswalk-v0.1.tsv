@@ -1,7 +1,7 @@
-source_name	source_url	provides	license	notes
-AI Incident Database	https://incidentdatabase.ai	cases: Physical Harm;Financial Loss;Privacy Breach;Security Incident;Bias	CC BY 4.0	Openly reusable with attribution
-OECD AI Principles	https://www.oecd.org/ai	risk definitions: Transparency;Accountability;Robustness;Governance	Open (OECD)	Free for research and policy analysis
-AI Vulnerability Database (AVID)	https://avid.dev	vulnerabilities;security techniques: Software Vulnerability;Adversarial Attack;Exploit	ODC-By	Reusable with attribution
-MIT AI Risk Repository	https://github.com/aimodelrisk/aimodelrisk	taxonomy: Misuse;Malicious Use;Privacy Violation	MIT	Permissive license for research
-CSET AI Harm	https://cset.ai/ai-harm	cases: Physical Harm;Privacy Breach;Security Incident	CC BY 4.0	Openly reusable with attribution
-MITRE ATLAS	https://atlas.mitre.org	security techniques: Adversarial Attack;Data Poisoning;Model Extraction;Privacy Attack	MIT	Free for research, attribution required
+source	provides	description	access_level
+AIID	cases	Incident case records with timestamps, actors, outcomes; source URL: https://incidentdatabase.ai/; access date: 2026-06-25; language: English; jurisdiction: International; rights: CC-BY 4.0; claim-support: provides case evidence for AI incident taxonomy	open
+OECD_AIM	risk_definitions	Cross-jurisdiction risk taxonomy and hazard definitions; source URL: https://oecd.ai/en/aim; access date: 2026-06-25; language: English; jurisdiction: International; rights: OECD content, attribution required; claim-support: defines risk categories for governance	open
+AVID	vulnerabilities	Disclosed AI system vulnerabilities with severity scores; source URL: https://avidml.org/; access date: 2026-06-25; language: English; jurisdiction: International; rights: CC-BY 4.0; claim-support: documents vulnerabilities for security analysis	open
+MIT_AI_RISK	cases	Technical case studies of AI failures; source URL: https://ai-risk.mit.edu/; access date: 2026-06-25; language: English; jurisdiction: United States; rights: Public (MIT); claim-support: provides failure case studies	open
+CSET_AI_HARM	taxonomies	Categorization schema for AI harms; source URL: https://cset.georgetown.edu/article/understanding-ai-harms-an-overview/; access date: 2026-06-25; language: English; jurisdiction: United States; rights: CC-BY 4.0; claim-support: defines harm taxonomy for mapping	open
+MITRE_ATLAS	techniques	Adversarial attack technique mappings for AI systems; source URL: https://atlas.mitre.org/; access date: 2026-06-25; language: English; jurisdiction: United States; rights: Public (MITRE); claim-support: maps attack techniques for AI	open

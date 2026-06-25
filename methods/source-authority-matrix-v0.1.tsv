@@ -1,0 +1,4 @@
+Source_ID	Jurisdiction	Language	Confidence_Score	Authority_Tier	Rationale
+LIMEN-EST-2023-001	estonia	Estonian	0.78	2	Government portal with partial AI disclosure
+LIMEN-LV-2023-045	Latvia	Latvian	0.82	2	Blocked behind paywall
+LIMEN-LT-2023-012	Lithuania	Lithuanian	0.75	2	Machine-translated content flagged

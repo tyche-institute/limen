@@ -1,14 +1,81 @@
- 1|# Next Publishability Moves
- 2|
- 3|1. GitHub repository `tyche-institute/limen-ai-edge-case-atlas` created manually via web UI.
- 4|2. Local git repository initialized and committed: `git init && git add . && git commit -m "Initial commit: LIMEN AI Edge Case Atlas project structure"`
- 5|3. Repository URL added to `manifest.json` under `backup_remote` and `git_remote`.
- 6|4. `next.md` updated to reflect completed action.
- 7|5. Integrate `results/boost/limen-dashboard-paper-forge/dashboard-surface-export-contract-v0.1.tsv` into all future drafts.
- 8|6. Pursue authoritative non-framework runtime-execution lineage (e.g., new CVE with vendor bulletin).
- 9|7. Use `results/boost/limen-boost-029/claim-defense-crosswalk.tsv` together with `results/boost/limen-boost-029/publication-claim-unlock-matrix.tsv`, `results/boost/limen-boost-029/provenance-question-role-matrix.tsv`, `results/boost/limen-boost-055/second-results-promotion-matrix.tsv`, and `results/dashboard-paper/caption-control-register-v0.1.tsv:CCR-013` whenever manuscript, dashboard, reviewer-response, or thesis surfaces need one exact statement of what shard 007 may claim now and what threshold event would actually justify stronger wording.
-10|8. Validate duplicate-source detection pipeline on taxonomy delta and record results in experiments/duplicate-source-validation-2026-06-23.tsv; update taxonomy-delta-v0.1.md if duplicate patterns expand.
-11|9. Expand niche source mapping for crosswalk as next source-authority layer.
-12|
-13|10. Hold shard 049 in threshold-propagation/governance mode unless a real `sf08`, `sf09`, `sf11`, or live/direct `sf13` event lands. Avoid reopening the retired `needs first non-Springer direct notice` storyline.
-14|
+## 2026-06-29 Source Family Ledger Completed
+- Ledger `sources/source-family-ledger.tsv` populated with 11 source families.
+- Status summary written to `results/source-map/status.md`.
+- Next steps: verify API access, enrich URLs, schedule update cron jobs, dedup against `source-ledger.csv`.
+
+## 2026-06-25 Findings from Local Database Search
+
+### Key Artifacts Identified
+1. **Source Ledger Entries**
+   - ESTON-001: Estonian e-Government AI strategy reference (confidence 0.9)
+   - LATV-001: Latvian Ministry of Transport AI use cases (confidence 0.85)
+   - LITH-001: Lithuanian Cloud Program pilot reports (confidence 0.85)
+
+2. **Gap Analysis**
+   - Only Estonian language sources currently processed
+   - Latvian/Lithuanian processing marked as "Pending"
+   - Finnish/Hungarian coverage completely absent
+
+3. **Dashboard Integrations**
+   - Multiple dashboard hooks requiring Baltic language support
+   - Public-sector disclosure completeness tracking
+
+4. **Methodological Notes**
+   - Source authority matrix showing blocked Latvian portal
+   - Machine-translated Lithuanian content requiring review
+
+## Action Plan Based on Internal Corpus
+
+### Immediate Next Steps
+1. **Expand Source Processing**
+   - Prioritize Latvian/Lithuanian source processing
+   - Use existing ledger entries as seed content
+
+2. **Dashboard Development**
+   - Implement language buttons for Estonian/Latvian/Lithuanian
+   - Connect public-sector disclosure data to visualization
+
+3. **Methodology Update**
+   - Document portal access issues in methods.md
+   - Formalize proxy evidence approach using EU frameworks
+
+## Evidence Integration
+
+| Source ID | Content | Action |
+|----------|---------|--------|
+| ESTON-001 | Estonian e-Government AI strategy | Map to EU digital governance frameworks |
+| LATV-001 | Latvian Transport Ministry AI use | Cross-reference with EU railway digitalization policies |
+| LITH-001 | Lithuanian Cloud Program pilots | Compare with EU cloud standardization efforts |
+
+## Publication Path Adjustments
+
+1. **Primary Analysis**
+   - Use internal corpus to build Baltic-specific evidence matrix
+   - Annotate with source authority scores and translation status
+
+2. **Proxy Evidence**
+   - When direct sources blocked, use EU-level documents mentioning Baltic states
+   - Example: European Commission digital single market reports
+
+3. **Dashboard Delivery**
+   - Complete heatmap viewer language buttons
+   - Finalize public-sector disclosure completeness visualization
+
+## Risk Management
+
+- **Evidence Limitations**: Document source availability issues in methods section
+- **Translation Quality**: Flag machine-translated content for review
+- **Completeness**: Use gap analysis matrix to track coverage status
+
+## Timeline Update
+
+| Milestone | New Target Date |
+|-----------|----------------|
+| Source processing expansion | 2026-07-03 |
+| Dashboard component completion | 2026-07-05 |
+| Proxy evidence integration | 2026-07-08 |
+| Adjusted publication package | 2026-07-26 |
+
+## Recent Progress
+- Added Latvian AI Ethics Observatory source ledger entry (SRC-2026-LAT-001) to expand Baltic coverage.
+- Created `results/source-coverage-draft.tsv` with preliminary Baltic language source coverage data.

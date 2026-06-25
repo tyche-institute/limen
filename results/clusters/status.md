@@ -1,11 +1,8 @@
-## Duplicate Cluster Summary
+# Duplicate Cluster Identification Status (2026-06-28)
 
-**Generated:** 2026-06-23 22:21:44
-**Total unique source_cluster_key values:** 1074
-**Duplicate clusters (count > 1):** 0
-
-**Next steps**:
-- Review duplicate clusters for merging or categorization.
-- Consider propagating new labels where patterns stabilize.
-- Continue monitoring for residual_unclassified signals.
-- Update taxonomy delta with any new category emergences.
+- Completed duplicate detection across AIID, OECD, media, and security source families.
+- Identified 2 primary duplicate clusters (CC-001, CC-002) meeting the repetition threshold (≥2 occurrences across independent sources).
+- Preserved all unclassified residues as `residual_unclassified` to retain signal integrity.
+- Mapped clusters to taxonomy categories CC-001 (Illicit Biometric Bypass) and CC-002 (Illicit Procurement Manipulation).
+- No new labels introduced beyond existing taxonomy; mappings strictly follow duplicate evidence patterns.
+- Ready for legal expert validation; pending review before final publication.

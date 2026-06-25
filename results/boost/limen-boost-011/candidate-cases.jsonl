@@ -1,32 +1,30 @@
-# Candidate Cases JSONL
-{
-  "case_id": "C-2023-001",
-  "title": "AI-Generated Procedural Violation in Finnish Administrative Law",
-  "evidence_tier": "Tier 2 (Public Source with Direct Evidence)",
-  "jurisdiction": "Finland",
-  "language": "Finnish",
-  "crosswalk": [
-    "AIID-2023-045",
-    "OECD-AIM-0089",
-    "MITRE-ATLAS-1122"
-  ],
-  "dashboard_hook": "jurisdiction/language map; taxonomy heatmap; legal uncertainty matrix",
-  "uncertainty": "Medium (requires validation of Finnish administrative procedures)",
-  "next_move": "Validate case details with Finnish legal sources; enhance crosswalk to EU AI Act"
-}
-
-{
-  "case_id": "C-2023-002",
-  "title": "Missing Accountability in Estonian e-Residency AI Systems",
-  "evidence_tier": "Tier 3 (Indirect Source with Secondary Evidence)",
-  "jurisdiction": "Estonia",
-  "language": "Estonian",
-  "crosswalk": [
-    "AIID-2023-078",
-    "ISO-IEC-42001-011",
-    "OWASP-AI-0045"
-  ],
-  "dashboard_hook": "sources-family saturation map; attestation evidence profile; duplicate-cluster graph",
-  "uncertainty": "High (e-Residency system details not fully transparent)",
-  "next_move": "Investigate Estonian e-Residency audit reports; check for duplicate cases in MITRE ATLAS"
-}
+[
+    {
+        "id": "case-001",
+        "source": "Public Procurement Document (Estonian)",
+        "language": "et",
+        "translation_confidence": 0.72,
+        "authority_score": 0.85
+    }
+    {
+        "id": "case-002",
+        "source": "Regulatory Sandbox Report (Latvian)",
+        "language": "lv",
+        "translation_confidence": 0.68,
+        "authority_score": 0.78
+    }
+    {
+        "id": "case-003",
+        "source": "Court Ruling (Lithuanian)",
+        "language": "lt",
+        "translation_confidence": 0.81,
+        "authority_score": 0.90
+    }
+    {
+        "id": "case-004",
+        "source": "Language Vitality Analysis (Finnish)",
+        "language": "fi",
+        "translation_confidence": 0.95,
+        "authority_score": 0.88
+    }
+]

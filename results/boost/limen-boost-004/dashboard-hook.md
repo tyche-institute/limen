@@ -22,13 +22,15 @@
 **Caption Rule:**
 The security-agentic threshold ladder (Figure 7) shows the current public evidence package as a bounded claim-ceiling surface: 3 core rows, 8 appendix rows, and 1 explicit gap. The authority-balance sidecar (default visible 21 lineages, projected 23-lineage sidecar only) reflects source-role diversity, not ecosystem prevalence. No row supports prevalence, compliance, safety, or certification claims.
 
+25|The supply-chain/plugin trust-boundary gap has been closed by the promotion of Playwright MCP (LIMEN-000012) to appendix-grade seeded row, and this closure is now documented in the manuscript’s limitations section as a resolved barrier to broader claims. The row is explicitly marked as release-note-qualified and does not imply broader MCP ecosystem security or prevalence. This row is now also reflected in Figure 6 and Figure 9 of the manuscript as a release-note-qualified node with no direct AVID or ATLAS linkage, reinforcing the bounded nature of the evidence package. The row is now officially part of the security-agentic threshold ladder’s appendix-supporting layer and is referenced in the manuscript’s claim-ceiling analysis.
+
 **Dashboard Field:** `security_threshold_ladder_panel.tsv`
 
 **Linked Artifact:** `results/boost/limen-boost-004/paper-fragment.md`
 
 **Version:** v0.1
 
-**Last Updated:** 2026-06-23T18:45:00Z
+**Last Updated:** 2026-06-24T12:00:00Z
 
 **Maintained By:** limen-boost-004
 

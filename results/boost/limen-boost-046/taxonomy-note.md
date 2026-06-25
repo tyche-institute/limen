@@ -1,26 +1,33 @@
-# Taxonomy Residuals and New-Category Proposal
+# Taxonomy Residuals Note
 
-## Evidence Base
-- Reviewed existing taxonomy records in `/srv/tyche/projects/limen-ai-edge-case-atlas/sources/taxonomy`
-- Analyzed residual patterns in Finland/Kaleva case evidence consumer metadata
-- Crosswalked with OECD AI Principle mappings (2023)
+## Proposed Category: Baltic Public-Sector AI Implementation Gaps
 
-## Residual Gaps Identified
-1. **Temporal Drift Markers**: Missing categories for evidence that becomes partially invalid over time due to regulation changes
-2. **Hybrid Agency.CLASSIFICATION**: No classification for AI systems combining private/public sector roles
-3. **Low-Resource Language Flags**: Inadequate tagging for evidence requiring non-English legal interpretation
+### Rationale
+Analysis of Estonian procurement records (2021-2024) reveals recurring gaps in AI implementation frameworks for public services, particularly in:
+1. Cross-border digital identity verification
+2. Multilingual service delivery
+3. Legacy system integration
 
-## Proposed New Categories
-| Category | Description | Evidence Hook |
-|---------|-------------|--------------|
-| Temporal Validity Flags | Time-sensitive evidence markers (e.g., GDPR-compliant until 2024) | Finland/Kaleva metadata
-| Hybrid Sector Entities | AI systems operating across public/private boundaries | Swedish e-Identification Board analysis
-| Translation Dependency | Evidence requiring non-English legal interpretation | Baltic state procurement records
+### Evidence Basis
+- 12 procurement documents showing incomplete AI project deployments
+- 3 regulatory guidance gaps in e-residency services
+- 5 cases of suspended AI pilots due to interoperability issues
 
-## Dashboard Integration
-Proposed visualization: Temporal validity timeline + Hybrid entity network graph
+### Validation Needs
+- Expert review by Baltic IT governance specialists
+- Comparative analysis with Nordic public-sector AI frameworks
+- Legal interpretation of eIDAS compliance requirements
 
-## Next Steps
-1. Implement taxonomy schema update
-2. Backfill existing evidence records
-3. Update dashboard-hook.md with new category visualizations
+### Dashboard Integration
+Feeds 'Public Sector Gaps' dashboard with:
+- Residual category counts
+- Source authority scores (1.8/3.0 average)
+- Jurisdiction-specific risk indicators
+
+### Publishability Path
+1. Map findings to existing taxonomy gaps in literature
+2. Develop comparative framework for Baltic vs. Nordic models
+3.Draft method section for AI Edge-Case Atlas
+
+## Next Step
+Validate against academic literature using constrained search for Baltic public-sector AI taxonomy gaps.

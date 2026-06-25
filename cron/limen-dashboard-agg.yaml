@@ -1,0 +1,3 @@
+# Limen Dashboard Aggregation Cron
+# Schedule: daily at 02:00
+# Command: python /srv/tyche/projects/limen-ai-edge-case-atlas/scripts/dashboard_agg.py

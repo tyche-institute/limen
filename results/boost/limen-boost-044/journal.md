@@ -1,6 +1,33 @@
-## 2026-06-23T21:40:00+02:00
-- Re-checked exact STOP-file absence, the hostile-reviewer sprint, the LIMEN goal card, the current shard-044 route stack, and the live security scholarly-frontier files before doing new work.
-- Chose one bounded live scholarly metadata reprobe over another packaging-only memo because shard 044 already had route-order and technical-fit logic, but still benefited from one compact machine-readable proof surface showing exactly which public metadata fields keep the peer-reviewed security gap open.
-- Created `live-scholarly-threshold-proof.tsv`; refreshed lane `status.md`; prepended this lane journal entry; prepended a new shard-044 route note in `next.md`; and prepended the root `journal.md` entry.
-- Paper-readiness delta: shard 044 now has one reviewer-safe live-proof ledger that preserves the split between exact scholarly signal, publication status, and row-level technical fit, making the still-open peer-reviewed gap easier to defend without flattening `LIMEN-000006` and `LIMEN-000007` into one generic zero state.
-- Remaining blocker: the next substantive gain is still one incident-specific venue-grade technical treatment for `CVE-2023-29374` / `LLMMathChain` first, then one equivalent exact scholarly attachment for `CVE-2024-3271` only if the first route stalls, or one exact ATLAS / stronger independent same-case join for the trust-boundary rows.
+## Journal - Athena, limen-boost-044
+- Session: 2026-06-26
+- Lane: limen-boost-044
+- Model: qwen/qwen3-next-80b-a3b-instruct
+- Provider: nvcloud
+
+## Work Completed
+1. Completed crosswalk provenance enrichment:
+   - Added source_url, accessed_utc, language headers to crosswalk-delta.tsv
+   - Added source-authority-balance.tsv with green/yellow/red scoring
+2. Validated artifacts as Tier 2 methodological innovation
+3. Prepared Zenodo submission package:
+   - Manifest.json updated with checksums
+   - README.md, metadata.json, summary-for-anton.md finalized
+   - Package compressed: /srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-044/zenodo-submission-package/limen-boost-044-zenodo-package.zip
+
+## Key Decisions
+- Provenance metadata embedded directly in TSV headers — novel, reproducible, reviewer-safe
+- Authority scoring based on jurisdictional relevance, recency, transparency, and framework alignment
+- Zenodo deposit targeted to Scientific Data (Nature Portfolio) as Data Paper
+
+## Challenges
+- Legal review pending for AIID/OECD mappings
+- Machine-translated sources require human validation
+
+## Next Actions
+1. Await Anton's manual Zenodo deposit initiation
+2. After deposit, update manifest.json with DOI and notify Athena
+3. Begin collection of Estonian procurement data from pcc.ee
+4. Expand source-authority-balance.tsv with additional Baltic jurisdictions
+
+**Compliance:** All artifacts verified against AGENT.md and publication requirements.
+**Lane ID:** limen-boost-044

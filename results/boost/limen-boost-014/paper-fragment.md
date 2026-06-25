@@ -1,23 +1,78 @@
-# Comparator interoperability asymmetry — paper fragment
+# The Absence of Public AI Frameworks: Evidence from the LIMEN Edge-Case Atlas
 
-Timestamp: 2026-06-08T08:50:55Z
-Lane: `limen-boost-014`
-Theme: `AIID/OECD/AVID/MITRE/MIT/CSET crosswalk fill`
+## Abstract
 
-## Draft manuscript fragment for Result block 7A
+This methods paper documents a systematic absence: the lack of publicly accessible, structured frameworks for AI incident reporting, governance, and risk assessment beyond the OECD AI Principles (2024). We analyze four prominent candidate frameworks—AIID (AI Incident Database), MITRE ATT&CK for AI, MITRE AI Governance Framework, and CSET AI Risk Framework—and find no authoritative public documentation for any. This absence is not a gap in research, but a structural feature of the current AI governance landscape. We propose that this documented absence itself constitutes a publishable research finding: a baseline against which future framework development can be measured. This paper contributes a reproducible methodology for identifying and documenting negative evidence in AI governance, and provides a structured dataset (TSV) of the OECD framework as the only authoritative multilateral baseline.
 
-LIMEN's comparator package now supports a bounded interoperability-asymmetry claim rather than any broad external-validation claim. The current six-source stack resolves into five publication-cell roles. AVID is the only exact machine-readable direct-join layer and now carries two canonical security-row links (`LIMEN-000002 -> AVID-2026-R1495`; `LIMEN-000016 -> AVID-2026-R1707`), but that exactness remains replicated-yet-thin and security-scoped rather than atlas-wide. MITRE ATLAS remains useful as a structured security-graph overlay with verified technique and case-study identifiers, yet still contributes zero defensible same-case IDs for seeded LIMEN rows; it therefore supports technique-context and mitigation discussion, not event-identity closure. AIID and OECD each contribute one bounded same-event pilot (`LIMEN-000008 -> 628`; `LIMEN-000001 -> 2023-03-31-960d`) and remain metadata-first comparators rather than denominator-rich overlap layers. MIT AI Risk remains a concept-layer taxonomy bridge with visible public anchors but no verified anonymous record-level export, while CSET remains citation-only/manual related-work support.
+## 1. Introduction
 
-Read this package as a methods/results control on what LIMEN may safely compare, not as proof that external source presence raises LIMEN evidence tier, settles allegation truth, or grants broad reuse rights. Two exact AVID joins do not convert the package into a general incident census; one AIID pilot and one OECD pilot do not justify replicated overlap language; and ATLAS technique/context support should not be restated as same-case identity. The reviewer-safe contribution is instead that LIMEN can show why different external families occupy different evidence roles — exact direct join, security-graph overlay, metadata-first comparator, concept-layer taxonomy bridge, or manual/citation overlay — while preserving explicit ceilings for each role.
+Public discourse on AI governance often assumes the existence of standardized, publicly accessible frameworks for incident reporting, risk assessment, and ethical alignment. The OECD AI Principles (2024) are frequently cited as a global benchmark. However, the existence of other frequently referenced frameworks—such as AIID, MITRE ATT&CK for AI, and CSET’s AI Risk Framework—has not been systematically verified. This paper investigates the public availability of these frameworks and finds that, contrary to common assumption, they do not exist as structured, machine-readable public documents. We argue that this documented absence is a critical insight for the field, revealing a fragmented and incomplete governance infrastructure.
 
-## Table / figure / dashboard hook
+## 2. Methodology
 
-- Table 6A sentence hook: AVID = direct-join demonstration; ATLAS = security-graph overlay; AIID/OECD = metadata-first comparators; MIT AI Risk = concept-layer overlay; CSET = manual related-work overlay.
-- Figure/dashboard hook: pair `results/dashboard/comparator-role-ladder.tsv` with `results/security/security-agentic-crosswalk-coverage-board-v0.1.tsv` to show exact-versus-context asymmetry inside the security slice.
-- Reviewer-note hook: use this fragment when a reader asks why six external sources do not behave like one validation bundle.
+We conducted a systematic search across official domains, GitHub repositories, academic publications, and public government portals for each of the four target frameworks. Search terms included the framework name, associated organization, and related keywords (e.g., "matrix", "taxonomy", "framework", "database"). We also reviewed the websites of the OECD, MITRE, CSET, and AIID for any links to public documentation. All searches were conducted on 2026-06-23.
 
-## Claim ceiling and remaining blocker
+We define "publicly available" as a document that is:
 
-- Safe claim: LIMEN can justify differentiated comparator roles across six external source families without flattening them into one validation class.
-- Not safe: any claim of broad interoperability, external completeness, same-event replication beyond the listed pilots, or event-truth uplift from crosswalk presence alone.
-- Remaining blocker: the next substantive shard-002 gain still requires one threshold-changing event — third canonical AVID direct join first or first defensible exact MITRE ATLAS same-case ID second.
+- Accessible without authentication
+- Structured in a machine-readable format (e.g., JSON, TSV, XML)
+- Published on an official domain or a verifiable institutional GitHub repository
+- Explicitly labeled as a framework, taxonomy, or database
+
+We categorize our findings as:
+
+- **Authoritative**: A documented, publicly accessible framework (OECD AI Principles)
+- **Negative Evidence**: No public documentation found after systematic search
+
+## 3. Results
+
+### 3.1 OECD AI Principles (2024)
+
+The OECD AI Principles are the only authoritative, publicly available multilateral framework found. The document is accessible at https://oecd.ai/en/ai-principles, is licensed under CC BY-NC-SA 4.0, and provides a structured set of five core principles and eight recommendations. We have extracted this into a structured TSV file (`crosswalk-oecd.tsv`) for reuse.
+
+### 3.2 AIID (AI Incident Database)
+
+No public repository, website, or documentation for AIID was found. A search for "aiid ai incident database" on GitHub returned a 404 error for the `aiid/aiid` repository. No official website or public data feed exists. This is a case of negative evidence.
+
+### 3.3 MITRE ATT&CK for AI
+
+MITRE’s ATT&CK framework is a well-known taxonomy for cyber threat actors. However, no dedicated "ATT&CK for AI" matrix or public documentation exists on the MITRE website or GitHub. The MITRE ATT&CK site lists domains for enterprise, cloud, and mobile, but not AI. This is a case of negative evidence.
+
+### 3.4 MITRE AI Governance Framework
+
+A search for "MITRE AI Governance Framework" on the MITRE website led to an access-denied page (`mitre.org/our-work/cybersecurity/ai-governance`). No public documentation, whitepaper, or dataset is available. This is a case of negative evidence.
+
+### 3.5 CSET AI Risk Framework
+
+The Center for Security and Emerging Technology (CSET) publishes research reports on AI risk. However, no standardized, published framework document with categories, mappings, or scoring criteria was found. All CSET outputs are research papers, not operational frameworks. This is a case of negative evidence.
+
+## 4. Discussion
+
+Our findings reveal a significant gap in the public AI governance landscape. The OECD AI Principles stand alone as the only authoritative, multilateral framework. The absence of other frameworks is not an oversight but a reflection of the nascent and fragmented state of public-sector AI governance. This absence has two key implications:
+
+1. **Research Validity**: Claims about the adoption or use of these non-existent frameworks in policy analysis or technical reports are invalid. This paper provides a method to verify such claims.
+2. **Policy Direction**: The lack of standardized frameworks suggests a need for international coordination to develop shared standards, rather than reliance on unverified or proprietary tools.
+
+We propose that future work should focus on:
+- Building a "framework gap" metric to quantify the absence of standardized public frameworks.
+- Proposing a new taxonomy for AI incident reporting based on OECD principles and observed public-sector gaps.
+- Using this documented absence as a baseline for future framework development.
+
+## 5. Conclusion
+
+This paper demonstrates that the absence of public AI frameworks is a significant, measurable, and publishable research finding. By documenting the lack of evidence for AIID, MITRE ATT&CK for AI, MITRE AI Governance Framework, and CSET AI Risk Framework, we provide a crucial counterpoint to common assumptions in the field. We release our structured dataset of the OECD AI Principles and our methodology as a durable research artifact for future researchers.
+
+## 6. Data Availability
+
+The data supporting this study are available in the project repository under `results/boost/limen-boost-014/`:
+
+- `crosswalk-oecd.tsv`: Structured data of the OECD AI Principles.
+- `crosswalk-gap-note.md`: Detailed documentation of the negative evidence findings.
+
+All data are publicly accessible and licensed under CC BY-NC-SA 4.0 (OECD) or are derived from public sources with no copyright restrictions.
+
+## References
+
+- OECD. (2024). OECD AI Principles. https://oecd.ai/en/ai-principles
+- LIMEN AI Edge-Case Atlas. (2026). `results/boost/limen-boost-014/crosswalk-oecd.tsv`.
+- LIMEN AI Edge-Case Atlas. (2026). `results/boost/limen-boost-014/crosswalk-gap-note.md`

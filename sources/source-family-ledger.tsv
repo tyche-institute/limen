@@ -1,1 +1,13 @@
-Authority	Access Method	Reuse Constraints	Language/Jurisdiction Scope	Update Cadence	Likely Case Types	Saturation Metric
+source_family	authority	access_method	reuse_constraints	language_jurisdiction	update_cadence	likely_case_types	coverage_metric
+AIID	national AI incident database	API	exclusive academic use	EN/US	monthly	AI misuse, safety incidents	high
+OECD AIM	oecd.org	download	CC-BY 4.0	EN/Multiple	annual	policy impacts, governance	medium
+AVID	AI Vulnerability Database	web scraping	CC0	EN/Multiple	quarterly	security exploits, AI system flaws	medium
+MITRE ATLAS	MITRE.org	API	CC BY-NC 4.0	EN/Multiple	quarterly	adversarial attacks, model failures	medium
+MIT AI Risk Repository	MIT AI Lab	API	CC-BY	EN/Multiple	quarterly	risk assessment, governance frameworks	medium
+CSET AI Harm	cset.georgetown.edu	download	CC-BY	EN/Multiple	annual	AI safety, societal impact	medium
+Regulator/Enforcement Sources	national regulators	web portals	public domain	Multiple	as published	compliance violations	low
+Public Court Sources	court databases	web access	public domain	Multiple	as published	legal rulings on AI	low
+Public-sector Registers	government open data portals	API	public domain	Multiple	monthly	procurement, funding, AI projects	low
+Security Advisories	vendor advisories	web/API	public domain	EN	as published	vulnerabilities, patches	medium
+Reputable Multilingual Media	major news outlets	RSS/API	varied	Multiple	daily	reporting on AI incidents	low
+Research-Integrity Sources	peer-reviewed repositories	DOI lookup	CC-BY	EN/Multiple	continuous	methodology validation	high

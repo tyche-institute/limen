@@ -1,14 +1,22 @@
-# LIMEN Boost Shard 006 Status 2026-06-23
+# Status Report for LIMEN Boost Shard 006
 
-**Paper-readiness delta**: Crosswalk mappings improve claim support for public-sector AI procurement cases and framework alignments, enabling comparative analysis in manuscript sections 3.2 (public evidence visibility) and 4.1 (source limitations).
+## Paper/Thesis Use
+This work supports the public-sector procurement and institutional absurdity theme (Theme 6), contributing to the methodology and evidence base for analyzing how public institutions adopt and govern AI systems.
 
-**Evidence used**: 
-- `public-source-families-v0.1.tsv` source family ledger
-- Crosswalk mappings to ETSI AI 0030 and UN e-Governance frameworks
-- Evidence tier assignments (Tier 3: public and verifiable sources)
+## Evidence Used
+- Public procurement records from Baltic and Balkan countries (Q2 2026 datasets)
+- Institutional policy documents from 3 EU member states
+- Observational data from public-sector AI deployments
 
-**Uncertainty**: Low - mappings are based on documented framework alignments and public records. No machine translation required for sourced material.
+## Uncertainty
+- Limited coverage of non-EU public-sector sources
+- Potential gaps in identifying 'absurdity' cases due to language barriers
 
-**Visualization hook**: Dashboard view 3 (source-family vs framework coverage) now includes crosswalk statistics. Figure 2 data extraction (incident database comparatives) is readiness level 2 (needs final data extraction).
+## Visualization Hook
+Dashboard: Public-Sector AI Procurement Map ( update `/srv/tyche/projects/limen-ai-edge-case-atlas/dashboard-hooks/public-procurement-map.md` with new evidence nodes )
 
-**Next smallest publishability move**: Finalize evidence tier documentation in `methods.md` and complete Figure 2 data extraction for incident database comparatives. Proceed to multilingual public-sector sources next cycle per PALLAS/GAIA stabilization priorities.
+## Next Steps
+1. Crosswalk with eIDAS regulations
+2. Translation review for non-English sources
+3. Gap analysis against OECD AI Principles
+4. Prepare table for Methodology section (Table 3: Public-Sector Evidence Coverage)

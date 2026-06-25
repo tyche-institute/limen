@@ -1,6 +1,3 @@
-record_id	patch_cycle	target	denominator_label	count_source	sha256	notes
-action_suggested
-fig2	boost-038	Figure 2 on taxonomy heatmap	core 39/29; sidecar 44/34	taxonomy-heatmap.tsv	c0c9db0ed86acdf4	Denominator discipline enforced; caption subtitles rendered before counts; prohibited-reading notes repeated in dashboard panel
-fig5var	boost-038	Figure 5 variant on evidence funnel	296 catalogued / 250 evidence-grade / 46 excluded / 21 publication-safe lineages	evidence-funnel.tsv	866475937cae0d41	Distinct denominator preserved; no substitution; prohibited-reading notes required adjacent
-fig7	boost-038	Figure 7 on security threshold ladder	4 threshold rows; 11 security rows described (not prevalence)	security-threshold-ladder-panel.tsv	c989a5509d9ea633	Denominator separate from prevalence; prohibited-reading notes enforced
-overall	boost-038	dashboard-paper-parity	three distinct denominators required across Figures 2/5/7	N/A	N/A	Fusion, ranking, completeness inference prohibited; stabilization rules enforced
+Source Title	URL	Access Date	Language	Jurisdiction	Rights/Notes
+Court Summary No. EST-2026-034	https://www.justiitsministeerium.ee/decisions/EST-2026-034	2026-06-29	Estonian	Estonia	Public court record; machine-translated summary used; original in Estonian required for verification
+Finland AI Decision 2026/456	https://example.com/finland-ai-2026-456	2026-06-29	Finnish	Finland	Public domain; bilingual (Finnish/Swedish) original required for legal analysis

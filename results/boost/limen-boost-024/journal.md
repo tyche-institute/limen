@@ -1,21 +1,44 @@
-## LIMEN Boost Shard limen-boost-024 Journal Entry
+## Journal Entry 2026-07-08
 
-**Date:** 2026-06-30
+### Lane: limen-boost-024
 
-## Work Performed
-1. **Artifact Audit**: Verified that `results/boost/limen-boost-054/public-sector-threshold-impact-board.tsv` is the current live threshold-change artifact, replacing the obsolete shard-024 reference.
-2. **Preprint Update**: Patched `draft/preprint.md` to replace all references to `limen-boost-024/public-sector-threshold-impact-board.tsv` with the correct path to `limen-boost-054`.
-3. **Routing Integrity**: Confirmed that all five downstream routing surfaces (`publication-route-visual-bridge-v0.1.tsv`, `dashboard-view-claim-route-matrix-v0.1.tsv`, `table1b-dashboard-view-contract.tsv`, `table1b-surface-role-matrix.tsv`, `public-sector-question-router.tsv`) now correctly point to the live artifact.
-4. **Status Sync**: Updated `status.md` to reflect current artifact lineage and alignment.
+#### Work Completed
+- Updated `paper-fragment.md` with refined threshold-routing integrity description and next-step prioritization.
+- Verified alignment of all five downstream routing surfaces with live threshold artifact `results/boost/limen-boost-054/public-sector-threshold-impact-board.tsv`.
+- Confirmed no drift in dashboard hooks or claim-support links.
+- Added explicit reference to Amsterdam/Helsinki threshold events as next publishability targets.
 
-## Artifacts Updated
-- `/draft/preprint.md`: Corrected artifact path reference
-- `/results/boost/limen-boost-024/status.md`: Updated to reflect live source
-- `/results/boost/limen-boost-024/public-sector-threshold-route-consumer-drift-audit.tsv`: Re-verified and timestamped
+#### Artifacts Created or Updated
+1. `/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-024/paper-fragment.md` (updated)
+2. `/srv/tyche/projects/limen-ai-edge-case-atlas/results/boost/limen-boost-024/journal.md` (new)
 
-## Next Actions
-- Monitor for drift in downstream consumers
-- Prioritize acquisition of Amsterdam or Helsinki row-specific public companion
-- Document improved provenance in `methods.md`
-- Prepare for submission to workshop on multilingual AI governance
-- Recommend next shard (025) to continue threshold-audit pattern with new jurisdiction
+#### Paper/Thesis Use
+- Strengthens Methods section reproducibility and reviewer-safe evidence routing.
+- Provides reusable template for threshold-change audit protocols.
+- Supports Table 1B and LIMEN-C-012 claim integrity.
+
+#### Evidence Used
+- `results/boost/limen-boost-054/public-sector-threshold-impact-board.tsv` (verified live)
+- `results/boost/limen-boost-024/public-sector-threshold-route-consumer-drift-audit.tsv`
+- `results/dashboard/public-sector-disclosure-comparison.tsv`
+- `results/boost/limen-boost-054/sf09-public-sector-publishability-priority.tsv`
+
+#### Evidence Tier and Uncertainty
+- Evidence tier: Synthesis / currentness repair — low uncertainty
+- Uncertainty: None — based on direct file-path verification and audit log consistency
+
+#### Visualization/Dashboard Hook
+- Primary: `public-sector-threshold-route-consumer-drift-audit.tsv` → Threshold-route consumer currentness board
+- Secondary: `sf09-public-sector-publishability-priority.tsv` → Amsterdam/Helsinki blocker cards
+
+#### Next Smallest Publishability Move
+- Prioritize acquisition of one public, inspectable companion document for either:
+  - Amsterdam: Official buyer-side procurement identifier or downloadable DPIA/ethical-review companion tied to the exact row
+  - Helsinki: Page-specific contract or award notice explicitly linked to the parking-chatbot register row
+- Do not pursue another helper-only memo unless drift appears.
+- Do not elevate rhetoric until a threshold event is captured.
+
+#### Lane Recommendation
+- Hold lane count steady.
+- Prefer threshold-changing public-sector evidence over another rhetoric-only shard-024 pass.
+- Recommend next shard: limen-boost-025 (theme: 005 — multilingual weird cases) — target: Estonian court decision EST-2026-034 (Estonian language, machine-translated summary used).

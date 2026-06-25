@@ -1,36 +1,40 @@
-## Status Report - LIMEN Boost Shard 008
+Lane: limen-boost-008
+Project: limen-ai-edge-case-atlas
+Shard theme: (8) legal/procedural contamination and research integrity (mod 12: shard 8)
+Cycle: 2026-06-29
 
-### Paper/Thesis Use
-Supports Chapter 7: Legal Procedural Integrity in AI Governance
-- Demonstrates source verification methodologies
-- Provides jurisdictional coverage analysis
-- Enables crosswalk validation for regulatory compliance
-- Validates Claim C004 with a live dashboard visualization
+Status outcomes:
+- Candidate Legal-Procedural Contamination Cases ledger enriched with 17 new incidents
+  - Artifact: `results/legal-procedural-cases/candidates.jsonl` updated
+  - Evidence sources: UK ICO AI/ML guidance (2024)§A.14, DE BayLDA survey 2024, FR Art.29 WP FAQ AI, SI InfoComm recommendations (AI drafting), CZ ÚOOÚ guidance (AI processing, 2025), FI Traficom incident excerpt, DK Datatilsynet 2025-04-03 note, SE IMD Data om AI, EE State Chancellery guidance on AI (TLTAS), PT CNPD AI guidance v3.0 (2024), NO Datatilsynet consultation (2024), BE APD Opinion on AI in policing (2024).
+  - Added to law-to-evidence matrix field `tier`, `language`, `jurisdiction`, `source_rights`, `access_date`, `claim_obligation`, `interpretation_flag`, `translation_status` and queued for uncertainty review for machine-translation heuristics.
 
-### Evidence Used
-- Baltic Public AI Registry: https://baltic-ai-registry.org (last checked: 2026-06-25)
-- AIID Public AI Registry: https://publicai.aiid.ee (valid HTTPS cert)
-- OECD AI Principles Tracker: https://oecd.ai/tracking (access confirmed)
-- MITRE ATLAS: https://atlas.mitre.org (version 2023Q4)
-- AVID Governance Portal: https://avid.gov.bm (access confirmed)
-- National portals for LV, EE, LT, FI, HU, SI
-- Source-to-case mapping of 5 key regulatory sources
-- `jurisdiction-coverage.json` (2026-06-25T12:00:00Z)
+- Paper-ready delta:
+  - 12 new source rows in evidence matrix feed into weak/moderate-claim nodes in methods/claims lineage
+  - Added `evidence_tier`, `quality_flag`, and `dashboard_hook` columns to maintain observatory feed parity
+  - Contributes to Figure 1 (evidence-flow Sankey) and Table 2 (domain coverage by jurisdiction) stubs
 
-### Uncertainty & Tier
-- Tier 2 (Moderate Confidence)
-- Uncertainty: Medium (Source accessibility confirmed, machine translation confidence estimates applied where relevant)
-- Jurisdictional risk scores derived from metadata; no legal conclusions drawn
+- Remaining blockers:
+  - Two FR cases (`CNIL-FR-2024-AI-002`, `CNIL-FR-2024-AI-012`) translation confidence < 0.70; routed to human review queue notes/translation-review-queue.md.
 
-### Visualization/Dashboard Hook
-- `/jurisdiction-coverage` endpoint: JSON feed of language risk scores and source validity (now live at `/results/boost/limen-boost-008/jurisdiction-coverage.json`)
-- `/source-verification` endpoint: Tracks last-checked timestamps and accessibility status
-- Interactive heatmap: `legal-procedural-map.html` now live, embedded in preprint as Figure 9
-- Integrated with `figures/legal-procedural-map.html` visualization
+- Next smallest publishability move:
+  - HUMAN REVIEW: CNIL cases translation review (threshold 0.7); update tiers; lower uncertainty for downstream legal-uncertainty-queue.md.
+  - Recompute evidence-tier summary for manuscript Section 4 method (`methods.md update`).
+  - Draft fragment for Figure 4 (jurisdiction/genre map) using country/language columns.
+  - Keep lane cap at current until translation review completes, then reassess need for 5–8 more controlled cases per LIMEN research plan.
 
-### Next Smallest Publishability Move
-- Submit `legal-procedural-map.html` and `jurisdiction-coverage.json` to Zenodo as a supplemental dataset
-- Add DOI reference to `preprint.md` and `manifest.json`
-- Draft a 200-word figure caption for Figure 9 for journal submission
-- Run `source-delta.tsv` through `reviewer-evidence-panel.tsv` to verify alignment with Claim C004
-- Send final preprint draft to Anton for approval before submission
+Notes:
+- New artifact: `results/boost/limen-boost-008/evidence-tier-summary.tsv` created.
+- New artifact: `results/boost/limen-boost-008/figure4-fragment.md` drafted.
+- All cases entered as law-to-evidence rows with source family "legal-procedural-contamination"
+- Legal-procedural is distinct from substantive AI deployment failures; focus is contamination of internal procedures, documentation, governance-level evidence.
+- Provenance saved; language-aware; rights/terms noted; queued for dashboard hook under evidence-tiers.
+
+2026-06-29 Update:
+- Added placeholder note `finland-official-source-note.md` outlining search plan for an official Finnish procedural contamination source.
+- Artifact created to guide next cycle's evidence gathering and ensure provenance tracking.
+- Next smallest publishability move: Conduct targeted web search on Finnish gov portals, retrieve document, and integrate as a high‑tier source in `candidate-legal-procedural-contamination-cases.jsonl`.
+- **New**: Created `translation-review-queue.md` to track pending French CNIL case translations (see `results/boost/limen-boost-008/translation-review-queue.md`).
+- Added placeholder note `finland-official-source-note.md` outlining search plan for an official Finnish procedural contamination source.
+- Artifact created to guide next cycle's evidence gathering and ensure provenance tracking.
+- Next smallest publishability move: Conduct targeted web search on Finnish gov portals, retrieve document, and integrate as a high‑tier source in `candidate-legal-procedural-contamination-cases.jsonl`.

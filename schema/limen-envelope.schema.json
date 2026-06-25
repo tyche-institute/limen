@@ -1,18 +1,50 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Limen Envelope Profile Schema",
+  "title": "LIMEN Evidence Envelope",
   "type": "object",
+  "required": ["source_hash", "extraction_timestamp", "classification_tags", "cluster_id", "review_status", "c2pa_manifest", "scitt_receipt"],
   "properties": {
-    "profile_version": { "type": "string" },
-    "observation_schema": { "type": "string" },
-    "extraction_pipeline": { "type": "string" },
-    "classification_rules": { "type": "string" },
-    "review_workflow": { "type": "string" },
-    "clustering_approach": { "type": "string" },
-    "publication_targets": {
+    "source_hash": {
+      "type": "string",
+      "format": "uri",
+      "description": "SHA-256 hash of the original source material."
+    },
+    "extraction_timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp when extraction completed."
+    },
+    "classification_tags": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string",
+        "enum": ["AI-bias", "procurement-risk", "surveillance-use", "other"]
+      },
+      "description": "RATS role tags applied to the record."
+    },
+    "cluster_id": {
+      "type": "string",
+      "description": "Identifier of the cluster this record belongs to."
+    },
+    "review_status": {
+      "type": "string",
+      "enum": ["pending", "approved", "rejected"],
+      "description": "Result of human legal review."
+    },
+    "c2pa_manifest": {
+      "type": "string",
+      "format": "uri",
+      "description": "URI to C2PA manifest containing provenance information."
+    },
+    "scitt_receipt": {
+      "type": "string",
+      "format": "uri",
+      "description": "URI to SCITT transparency receipt."
+    },
+    "review_log": {
+      "type": "string",
+      "description": "Optional free-text notes from legal review."
     }
   },
-  "required": ["profile_version", "observation_schema", "extraction_pipeline", "classification_rules", "review_workflow", "clustering_approach", "publication_targets"]
+  "additionalProperties": false
 }

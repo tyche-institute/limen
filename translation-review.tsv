@@ -1,0 +1,22 @@
+needs human review: multilingual markup
+needs human review: translation confidence <0.8
+needs human review: non-English original
+
+[source-estonia-public-register]
+public-register	Baltic	estonian	0.85
+Missing non-English procurement notices from 2020-2022
+
+[source-finland-sandbox]
+regulatory-sandbox	nordic	finnish	0.78
+Incomplete AI impact assessments in non-English context
+
+[source-lithuania-deepfake]
+deepfake-disclosure	eastern-europe
+lithuanian	0.72
+Unverified deepfake disclosure templates
+
+[source-slovenia-procurement]
+public-procurement
+balkan
+slovenian	0.80
+Ambiguous language in AI procurement clauses

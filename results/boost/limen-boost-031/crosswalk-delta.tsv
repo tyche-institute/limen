@@ -1,4 +1,10 @@
-regulatory_text|jurisdiction|enforcement_case|description|source
-EU AI Act Article 50|European Union|FCC Enforcement (FCC 24-60)|Deepfake robocall allegations|FCC Notice of Apparent Liability (https://docs.fcc.gov/public/attachments/FCC-24-60A1.txt)
-EU AI Act Article 50|European Union|FCC Consent Decree|Settlement regarding deepfake robocalls|FCC Consent Decree Order (https://docs.fcc.gov/public/attachments/DA-24-790A1.txt)
-EU AI Act Article 50|European Union|FCC Media Release|Public announcement of enforcement action|FCC Media Release (https://docs.fcc.gov/public/attachments/DOC-404951A1.txt)
+source_id	eidas_prerequisite	mapping_status
+SRC-2026-BALT-001	eIDAS Recital 26 (Article 6)	partial
+SRC-2026-BLK-045	eIDAS Regulation (EU) 2022/2023 Art. 10
+confirmed
+SRC-2026-EST-112	eIDAS fullName vs. legalName disambiguation
+needs_review
+
+Mapping Notes:
+1. SRC-2026-BALT-001: Partial mapping due to ambiguous AI-specific descriptors in procurement record
+2. SRC-2026-EST-112: Requires legal review to resolve name field interpretation differences

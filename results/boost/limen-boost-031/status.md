@@ -1,19 +1,19 @@
 # Status Report for LIMEN Boost Shard 031
 
 ## Paper/Thesis Use
-Contributes to the AI Edge-Case Atlas, specifically analyzing public-sector AI procurement cases in underrepresented jurisdictions.
+This output supports the analysis of public-sector AI procurement practices and institutional absurdities in regulatory sandboxes, contributing to the AI Edge-Case Atlas' section on governance anomalies.
 
 ## Evidence Used
-Public procurement notices from Baltic countries (Estonian, Latvian), US federal AI acquisitions, and EU digital infrastructure tenders.
+- Public procurement registries from Baltic and Balkan countries (Q2 2026)
+- EU Frontier Justice Project tender analyses
+- Estonian e-residency service AI integration reports
 
-## Uncertainty and Evidence Tier
-- Machine-translated summaries (Estonian/Latvian → English) flagged as provisional
-- Evidence tier: Tier 2 (official source, not in English)
+## Uncertainty & Evidence Tier
+- Tier 3 (Moderate): Machine-translated non-English sources, partial coverage
+- Uncertainty: Some procurement records lack detailed AI-specific descriptors
 
 ## Visualization/Dashboard Hook
-Dashboard: Public-Sector AI Adoption by Country (map-ready data)
-Fields needed: country, language, procurement_type, ai_category, date, source_url
-Interpretation: Visualize geographic and temporal trends in public-sector AI deployments
+Feed into `public-procurement-sankey.csv` for visualize flow of AI procurement categories across jurisdictions. Updates the `institutional-absurdity-index.tsv` with newly identified cases.
 
-## Next Smallest Publishability Move
-Expand dataset with procurement notices from Eastern European jurisdictions (Poland, Czechia, Ukraine) to improve regional coverage.
+## Next Publishability Move
+Verify translations of 3 key non-English sources and crosswalk with eIDAS prerequisites to strengthen claim robustness.

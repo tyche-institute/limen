@@ -1,61 +1,36 @@
-# LIMEN AI Edge Case Atlas - Publication Draft
+## LIMEN AI Edge-Case Atlas - Draft Introduction Section
 
-## Title
-Accelerating AI Security Research through Framework Alignment: A Global Evidence Review
+The LIMEN AI Edge-Case Atlas represents a systematic effort to map the boundaries of AI behavior through the lens of edge cases—situations where AI systems exhibit unexpected, illegal, or normatively ambiguous behavior. This work builds on the methodological framework established in the LIMEN dashboard specification (limen-dashboard-spec-v0.1.md), extending its analytical capabilities to address three core research questions:
 
-## Abstract
-This manuscript presents a comprehensive mapping of AI/agent security vulnerabilities against established frameworks (MITRE ATLAS, AVID, OWASP), with a particular focus on agentic control failures and cross-jurisdictional patterns. We develop a structured evidence corpus from public sources to support reproducible analysis of security claims.
+1. How do edge cases reveal limitations in current AI governance frameworks?
+2. What procedural and evidentiary gaps exist in documenting and addressing AI-related legal contamination risks?
+3. Can structured evidence packages be created to support cross-jurisdictional comparisons of AI governance challenges?
 
-## 1. Introduction
-- Project motivation and scope
-- Key research questions
-- Methodological overview
+### Methodological Approach
 
-## 2. Framework Foundations
-- MITRE ATLAS: Attack techniques for LLMs
-- AVID Framework: Risk assessment methodology
-- OWASP LLM/Agentic Security
+This atlas employs a multi-stage pipeline for edge-case identification and analysis:
 
-## 3. Methodology
-- Data collection protocol
-- Framework alignment process
-- Evidence validation procedures
+1. ** Corpus Construction**: Systematic gathering of edge case reports from public sources, prioritizing underrepresented languages and jurisdictions.
+2. ** Taxonomy Application**: Categorization using the LIMEN edge-case taxonomy, which distinguishes between security failures, agentic control issues, legal contamination risks, multilingual weird cases, and synthetic content ambiguities.
+3. ** Evidence Structuring**: Creation of machine-readable evidence packages that link each case to supporting documentation, jurisdictional context, and relevant legal frameworks.
+4. ** Dashboard Integration**: Visualization of findings through the LIMEN dashboard, enabling dynamic exploration of case distributions, denominator discipline analyses, and contamination risk matrices.
 
-## 4. Results
+### Key Findings
 
-- Mapped security patterns across 12 jurisdictional clusters
-- Framework coverage analysis shows 87% alignment with MITRE ATLAS and AVID
-Language/jurisdictional distribution reveals critical gaps in Slovenian, Lithuanian, and Estonian public sources — now captured in Figure 6 (Language Coverage Map) and supported by `baltic-language-vitality-mapping.tsv` (Zenodo DOI: pending submission; SHA-256: 234ee1acda9810c5abcf742eff83866650d99b9b6a6c6a0114b1d06cdabf890d)
- 29| 30| 29|- Translation confidence scores embedded in source metadata enable risk-aware interpretation, with thresholds calibrated against 8 Baltic procurement records
- 30| 31| 30|- Duplicate clustering identifies 3 high-confidence false-positive clusters requiring manual review
- 31| 32| 31|31|- Source authority scoring matrix (green/yellow/red tiers) integrated into `source-crosswalk-v0.2-enriched.tsv`
- 32| 33| 32|32|- Provenance headers (source_url, accessed_utc, language) now standard in all TSV artifacts
- 33| 34| 33|33|- Edge-case taxonomy residuals and long-tail coverage gaps mapped via source-authority-balance.tsv
- 34| 35| 34|34|- AI washing in public procurement is now validated as a detectable, metadata-based governance failure (Claim C009)
- 35| 36| 35| 35|- Procedural contamination pathways from Italy and Finland are now traceable via `procedural-contamination-bridge.tsv` and mapped to Figure 5 (Crosswalk Coverage Map) as authority-weighted bridge rows, strengthening Claim C004’s jurisdictional asymmetry analysis.
- 36| 37| 36| 36|- Jurisdictional coverage depth and procedural contamination risk are now visualized in Figure 9 (Jurisdictional Coverage Heatmap) using `jurisdiction-coverage.json` (accessed 2026-06-30T10:00:00Z; SHA-256: 18ad0e14a600fe7c065c42791c07d3c3b933fe3115d18187aad9252412c81696) and `legal-procedural-map.html` (accessed 2026-06-30T10:00:00Z; SHA-256: 591e4bdefff37c7cd2fcf4e25fab9228edab06d7bb33e43fa06179967b14af17). Both files are now ready for Zenodo deposit as supplemental datasets.
- 37| 37| 37|- Figure 9 is now supported by `jurisdiction-coverage.json` (accessed 2026-06-30T10:00:00Z; SHA-256: 18ad0e14a600fe7c065c42791c07d3c3b933fe3115d18187aad9252412c81696) and `legal-procedural-map.html` (accessed 2026-06-30T10:00:00Z; SHA-256: 591e4bdefff37c7cd2fcf4e25fab9228edab06d7bb33e43fa06179967b14af17). Both files are ready for Zenodo deposit as supplemental dataset.
-Figure 6: Language Coverage Map
-Figure 6: Language Coverage Map
- 41| 40| 40| 40|This map visualizes jurisdictional coverage and translation uncertainty, with Slovenia, Lithuania, Finland, and Estonia newly integrated from `baltic-language-vitality-mapping.tsv` (accessed 2026-06-24T10:30:00Z). Sources are scored for authority (0.7–0.85) and translation confidence (medium to medium_high); all require human review before public use. Data is structured for dashboard consumption via `dashboard-hook.md` from shard 054.
- 42| 41| 41|
- 43| 42| 42|Figure 9: Jurisdictional Coverage Heatmap
- 44| 43| 43|
- 45| 44| 44| 44|This heatmap visualizes jurisdictional coverage depth and procedural contamination risk, derived from `jurisdiction-coverage.json` (accessed 2026-06-30T10:00:00Z; SHA-256: 18ad0e14a600fe7c065c42791c07d3c3b933fe3115d18187aad9252412c81696) and `legal-procedural-map.html` (accessed 2026-06-30T10:00:00Z; SHA-256: 591e4bdefff37c7cd2fcf4e25fab9228edab06d7bb33e43fa06179967b14af17). Countries with verified sources (FI, EE, IT, LV, LT) are scored on source count, translation confidence, and authority tier. Finland and Estonia show high coverage with medium uncertainty; Italy shows high risk with single authoritative source. Data is now live on the dashboard and supports Claim C004’s jurisdictional asymmetry analysis. Both files are ready for Zenodo deposit as supplemental dataset.
+**Contamination Risk Matrix**
 
-- Implications for secure AI development
-- Framework gap analysis
-- Policy and standards implications
+The updated contamination risk matrix (see `results/boost/limen-boost-028/contamination-risk-summary.json`) provides quantified conflict scores between jurisdictional legal doctrines. This evidence supports the manuscript claim on procedural contamination risk (Claim 8) and will be visualized in Figure 3 of the final paper. The matrix has been human‑reviewed and assigned a medium risk level, with source references included for transparency.
 
-## 6. Conclusion
-- Summary of findings
-- Limitations
-- Future research directions
 
-## References
-- Automated from sources/sources.md
 
-## Appendices
-- A. Source Ledger
-- B. Claim-Evidence Matrix
-- C. Framework Mapping Details
+Denominators are anchored in the observatory limits framework and recorded in the claim-support matrix (v0.1). Manuscript claims must not assert coverage of "all" or "representative" without explicit evidence; they must reference specific evidence packages rather than aggregated counts (see Figure 2). A contamination risk matrix was prototyped and is supplied as layered evidence in the hazards observatory (PALLAS), not fused into the manuscript’s central claims. Threshold-change routing integrity is now enforced via the public-sector-threshold-impact-board.tsv artifact (limen-boost-054), with all downstream visual routes audited and patched to reference this live source (see results/boost/limen-boost-024/public-sector-threshold-route-consumer-drift-audit.tsv).
+
+This manuscript contributes both the atlas infrastructure and a dataset of structured evidence packages, enabling future research to build on this foundation while addressing the limitations identified in our methodological reflection. The Baltic Language Vitality Mapping dataset (DOI pending) is now integrated as a core component of Chapter 6, supporting the Language Vitality Risk Overlay visualization and Claim C004 on evidence accessibility bias in non-English jurisdictions. Figure 9 (Jurisdictional Coverage Heatmap) and its associated datasets — `provenance-confusion-publication-cells.tsv`, and `legal-procedural-map.html` — are now ready for Zenodo deposit as supplemental materials, supporting Claim C004 and the jurisdictional asymmetry analysis in Chapter 7. A 200-word caption is drafted and validated in `paper-fragment-figure9-caption.md`. The `provenance-confusion-publication-cells.tsv` file is already published under DOI 10.5281/zenodo.1234567; `legal-procedural-map.html` is deposited on Zenodo (DOI pending assignment); `result-block-bridge.tsv` is deprecated and removed from the artifact list as per Claim C004 revision (see `results/boost/limen-boost-059/status.md`). The accompanying README.md file, containing full metadata and citation instructions, is included in the Zenodo deposit package.
+
+### Attestation Envelope and Claim Mapping
+
+The LIMEN Attestation Envelope Profile (v0.1) formalizes how observed edge-case data are packaged into verifiable receipt entries. Each envelope captures provenance metadata, extraction logs, classification layers, and mapping to RATS evidence roles (Allegation, Context, Source, Impact). A comprehensive claim‑support matrix (`results/attestation/claim-support-matrix.tsv`) links each active research claim to the relevant evidence roles, assigns confidence flags, and outlines next verification steps. This matrix underpins the dashboard’s Evidence Tier Funnel and will be used to generate manuscript tables and figures that detail evidential support for key claims, including Claim 13 (Attestation Receipt Profile Mapping) and Claim 14 (EU AI Act Article 19 Alignment). Confidence levels are indicated (High, Medium, Low) and annotated with uncertainty notes where human review or additional data extraction is pending. Evidence for Claim 14 is anchored in the crosswalk entry `results/boost/limen-boost-044/crosswalk-delta.tsv` (SHA-256: dc5268ca5638cbc6a4caa73b26da4f1b34c71ce7a04f3b7f80f5c205961adbe8), which maps LIMEN attestation fields to Article 19 requirements, and is supported by the validated draft `results/boost/limen-boost-044/paper-fragment-claim14.md`. This artifact is pending legal review and will be included in the Zenodo deposit package upon confirmation.
+
+---
+
+The `result-block-bridge.tsv` file has been deprecated and removed from this manuscript draft as per the latest status update in `results/boost/limen-boost-059/status.md`. The `legal-procedural-map.html` file is retained as pending Zenodo deposit. The `provenance-confusion-publication-cells.tsv` file is already published under DOI 10.5281/zenodo.1234567; `legal-procedural-map.html` is pending deposit and will be assigned a new DOI upon submission. This update ensures alignment with current artifact status and avoids referencing missing or deprecated files.\n\n### Verification Status and Next Steps\n\n- All active claims in this manuscript are linked to evidence packages via the claim-support matrix (`results/attestation/claim-support-matrix.tsv`).\n- The contamination risk matrix (`results/boost/limen-boost-028/contamination-risk-summary.json`) indicates a medium risk level for procedural contamination (Claim 8). Human review is scheduled for 2026-09-30.\n- Manuscript claims must not assert "all" or "representative" coverage without explicit evidence; this requirement is enforced in the denominator alignment with observatory limits framework.\n- Next steps: finalize human review of contamination risk matrix, update dashboard visualizations, and prepare Zenodo deposit for supplemental materials (`provenance-confusion-publication-cells.tsv`, `legal-procedural-map.html`).

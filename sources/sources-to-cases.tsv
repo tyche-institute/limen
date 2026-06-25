@@ -1,0 +1,36 @@
+ 1|## Source-to-Case Mapping
+ 2|
+ 3|Created: 2026-06-30
+ 4|
+ 5|### Purpose
+ 6|
+ 7|Link sources to evidence cases with claim support and confidence scores.
+ 8|
+ 9|### Columns
+ 10|
+ 11|- source_id: Source ledger identifier
+ 12|- case_id: LIMEN evidence case identifier
+ 13|- jurisdiction: Legal jurisdiction of source/case
+ 14|- language: Source language (ISO 639-1)
+ 15|- authority: Source authority tier (tier1-tier4)
+ 16|- confidence: Mapping confidence (0.0-1.0)
+ 17|- claim_links: Claim IDs supported by this source-case link
+ 18|
+ 19|### Initial Mapping
+ 20|
+ 21|source_id,care_id,jurisdiction,language,authority,confidence,claim_links
+ 22|SRC-001,CASE-042,LV,en,tier2,0.85,"C004,C009"
+ 23|SRC-001,CASE-043,EE,et,tier3,0.72,"C009"
+ 24|SRC-002,CASE-044,FI,fi,tier1,0.91,"C004"
+ 25|
+ 26|### Dashboard Hooks
+ 27|
+ 28|- Figure 5: Crosswalk Coverage Map (jurisdiction/language layers)
+ 29|- Table 1D: Diminishing sources with low authority (authority tier < tier3)
+ 30|
+ 31|### Next Steps
+ 32|
+ 33|1. Expand with additional source-case links from Baltic Public AI Registry
+ 34|2. Add machine-translation confidence flags for non-English sources
+ 35|3. Crosswalk with NIST AI RMF categories (RA-102, CM-201) for claim acceleration
+ 36|4. Update manifest.json with new artifact entry

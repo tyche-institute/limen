@@ -1,0 +1,6 @@
+source_id	evidence_case_id	notes
+1	CASE-0001	Regulatory document - EU AI Act Enforcement Mechanisms
+2	CASE-0002	LIMEN Crosswalk: AI Governance Frameworks (source-crosswalk-v0.2-enriched.tsv)
+3	CASE-0003	MITRE ATLAS Compliance Requirements
+4	CASE-0004	NIST AI RMF Compliance Guide
+5	CASE-0005	Additional source - MITRE ATLAS (duplicate mapping)

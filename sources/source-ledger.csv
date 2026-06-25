@@ -1,0 +1,5 @@
+Source Name,Language,Jurisdiction,Access Date,Translation Status,Source Authority,Notes,Authority Score,Confidence Level
+"Estonian Court Summary EST-2026-034",Estonian,EST,2026-06-20,Machine (validated),Judicial decision,Procedural ambiguity in AI decision-making confirmed,4,75%
+"Российская Федерация Летопись 3 утвержден",Russian,Russian Federation,2026-07-08,Machine (pending validation),Official registry,Requires human validation of procedural ambiguity patterns,5,50%
+"eIDAS Implementation Review",English,EU,2026-05-15,Original,Policy framework,Clarifies transnational procedural requirements,4,80%
+"TRACE Actor Analysis",English,International,2026-04-30,Original,Research report,Identifies agentic control failures in 12 EU member states,3,70%"

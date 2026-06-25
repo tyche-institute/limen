@@ -1,0 +1,23 @@
+1|source_family_id	source_name	description	jurisdiction	language	evidence_type	access_date	source_family_group	uncertainty_level	verification_status
+2|1	EU Public Procurement Databases	Official EU procurement records (OJEU)	EU-wide	English	Regulatory Compliance
+2026-06-29	official-public-procurement
+low
+pending
+3|2	Amsterdam AI Procurement Guidelines	City of Amsterdam AI purchasing policies
+Amsterdam, Netherlands	Dutch	Policy Framework
+2026-06-29
+amsterdam procurement
+medium
+pending
+4|3	Helsinki AI Strategy Documents	AI adoption in public services (City of Helsinki)
+Helsinki, Finland	Finnish	Operational Implementation
+2026-06-29
+helsinki-strategy
+high
+verified
+5|4	MITRE ATLAS AI Technologies	MITRE's AI risk taxonomy entries
+USA	English	Knowledge Base
+2026-06-29
+mitre-atlas
+low
+verified

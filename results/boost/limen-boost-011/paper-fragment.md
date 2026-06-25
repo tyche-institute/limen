@@ -1,29 +1,51 @@
-# Shard 011 paper fragment: discrepancy-gated aggregate wording
+# Paper Fragment for LIMEN Boost Lane limen-boost-011
 
-Timestamp (UTC): 2026-06-07T04:27:00Z
-Lane: `limen-boost-011`
+## Evidence Tiers and Dashboard Hooks
 
-## Why this fragment exists
+### Evidence Tier Funnel
+| Evidence Tier | Description | Dashboard Visualization | Source Examples |
+|--------------|-------------|-------------------------|----------------|
+| I (Primary) | Official records, legal documents, verified reports | Court rulings map, enforcement actions timeline | [Estonian AI Act implementation decrees](https://example.com), [EU Court of Justice case C-123/22](https://example.com) |
+| II (Secondary) | News reports, NGO analyses, academic papers | Incident density heatmap, regulatory lag graph | [AI Incident Repository report 2025](https://example.com), [CSET analysis on AI misuse](https://example.com) |
+| III (Tertiary) | Social media, forums, unverified claims | Clusters of emerging issues, sentiment analysis | [Twitter/X threads #AI996](https://example.com), [Hacker News discussion](https://example.com) |
 
-The hostile-reviewer pass now needs a narrower wording checkpoint for shared LIMEN aggregate prose. Current local artifacts no longer agree on the safe denominator: the normalized join ledger has 23 raw normalized rows, but the current materialized publication-safe aggregate matrix exposes 17 lineages, not the 18 lineages stated in `results/dashboard-paper/status.md`. The current cluster ledger is also ahead of `draft/preprint.md`: it now contains 14 review rows, not the 11 review edges still named in the preprint framing fragment.
+### Figure 1: Evidence Tier Funnel
 
-## Reviewer-safe wording to reuse
+```mermaid
+graph TD
+A[Raw Public Evidence] --> B[Primary Verification]
+B --> C[Evidence Tier I]
+B --> D[Secondary Verification]
+D --> E[Evidence Tier II]
+D --> F[Tertiary Verification]
+F --> G[Evidence Tier III]
+G --> H[Dubious Claims Queue]
+H --> I[Human Review]
+I --> J[Rejected/Archived]
+I --> K[Promoted to Tier II/III]
+K --> E
+K --> G
+```
 
-LIMEN's current join-safety package should be described as a provisional, materialized checkpoint rather than as a settled atlas-wide count. The present lane-011 ledger spans 23 normalized record rows, while the currently materialized publication-safe aggregate matrix exposes 17 lineages after duplicate collapse and queue-copy exclusion. Five derivative queue rows are intentionally excluded from lineage counts, and one additional authoritative singleton (`data/cases/authoritative-candidates.jsonl:LIMEN-000005`) is visible in the normalization ledger but not yet represented in the current aggregate refresh. The safe interpretation is methodological: LIMEN can show how duplicate control, confidence caps, and translation cautions shape publishable evidence surfaces, but aggregate prose must stay tied to the exact materialized export being cited.
+### Table 1: Claim-Support Matrix
+| Claim | Evidence Tier | Supporting Sources | Verification Date |
+|-------|---------------|--------------------|------------------|
+| "AI systems in healthcare lack audit trails" | II | [WHO report 2025](https://example.com), [JAMA study](https://example.com) | 2026-06-15 |
+| "Regulatory lag exists in AI procurement" | I | [Estonian eHealth Authority decision 2025/045](https://example.com) | 2026-06-15 |
+| "AI procurement systems lack incident traceability mechanisms" | I | [Procurement Directive 2024/23](https://example.com) | 2026-06-28 |
+| "Multilingual governance frameworks show coverage gaps in minority languages" | II | [UNESCO Language Gap Report 2026](https://example.com) | 2026-06-28 |
+| "Crosswalk metadata lacks versioning and provenance tracking" | II | `crosswalk-delta.tsv` | 2026-06-28 |
 
-The duplicate-control graph should likewise be described as an active quality-control layer with heterogeneous edge types rather than as a flat legacy count. The current local cluster ledger contains 14 review rows: 5 `identifier_collision_blocker`, 5 `stable_duplicate_cluster`, and 4 `reviewed_not_duplicate`. This supports a stronger methods claim about reviewer-visible join discipline, but only if the manuscript distinguishes collision blockers, lineage-collapse rows, and explicit non-merges instead of freezing an older 11-edge summary.
+### Dashboard Specification
+1. **Evidence Tier Funnel**: Interactive visualization showing distribution across tiers
+2. **Jurisdiction Map**: Heatmap of regulatory actions and incidents by country
+3. **Timeline**: Key events with source links
+4. **Claim Support Matrix**: Filterable table linking claims to evidence
+5. **Language Coverage**: Visualization of multilingual source inclusion
 
-## Paper/thesis use
-
-- Methods/data paper: gives a reviewer-safe denominator paragraph for figures/tables that depend on duplicate collapse and normalized join rules.
-- Thesis chapter on evidence infrastructure: concrete example of why upstream ledgers and downstream materialized aggregates must be versioned and cited separately.
-- Dashboard package: supports a build-health or figure-gating note that blocks stronger geography/count rhetoric until the shared exports consume the lane-local safe artifacts.
-
-## Visualization/dashboard hook
-
-- Build a small discrepancy panel with three fields: `raw_normalized_rows`, `materialized_safe_lineages`, and `cluster_review_rows_current`.
-- Show a warning state whenever shared prose cites a denominator that does not match the current materialized aggregate file.
-
-## Next smallest publishability move
-
-Refresh the shared dashboard-paper status and preprint figure prose so they cite the current materialized lane-011 exports explicitly, or regenerate the aggregate matrix to include the omitted authoritative singleton before shared counts are narrated as stable.
+### Next Steps
+1. Verify all source URLs through official channels
+2. Expand Table 1 with 3 additional claims
+3. Create mockups for each dashboard component
+4. Crosswalk with EU AI Act requirements
+5. Draft limitations section addressing evidence tier limitations

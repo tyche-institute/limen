@@ -97,7 +97,7 @@ The observatory's limitations are not incidental; they are the boundary that mak
 - **Not complete or representative.** The reviewed core is a catalogue of locatable, source-anchored cases, not a sample of all AI harm. Selection follows evidence availability, which is itself uneven by language, jurisdiction and sector.
 - **No prevalence or trend.** No count in this work estimates how often a harm occurs, and the year distribution reflects enforcement and reporting activity, not an underlying rate.
 - **No legality by inference.** Contested and charging-stage matters are not findings of liability; security disclosures are not evidence of exploitation; media incidents are not legal conclusions.
-- **No fused denominator.** Counts across classes and panels are deliberately not added together.
+- **Explicit denominator split:** Counts across evidence-grade classes (Regulator/court record, Contested/interim, Security disclosure, Media) are kept separate and never aggregated.
 - **Recency risk.** The most recent (2025–2026) and media-tier items carry higher uncertainty; each links to its source for direct checking.
 - **Aggregate geography and recurrence are deferred** until normalised cross-case identifiers exist; the current panels support visibility, not comparison.
 

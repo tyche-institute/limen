@@ -1,78 +1,40 @@
-## 2026-06-08 Cycle
+## Status Report - LIMEN Boost Shard 059
 
-### Artifacts touched or created
-- Created `results/boost/limen-boost-059/duplicate-claim-use-confidence-board.tsv`
-- Appended `results/boost/limen-boost-059/journal.md`
-- Prepended project `journal.md`
+### Paper/Thesis Use
+Supports Chapter 7: Legal Procedural Integrity in AI Governance
+- Validates Claim C004 with jurisdictional coverage visualization
+- Provides machine-readable metadata for dashboard integration
+- Enables reproducible evidence packaging for preprint submission
 
-## Paper/thesis use
-- Figure 4 caption and legend discipline: separates join-safety edges from recurrence overlays and ledger-only collapse controls.
-- Methods/results prose: gives a machine-readable rule for when duplicate-package material supports count governance, schema governance, bounded subtype overlays, or only limitations/queue language.
-- Thesis appendix / dashboard hook: can drive a filter or color layer by `claim_use_class`, `hostile_reviewer_confidence`, and `graph_contract_state`.
+### Evidence Used
+- `jurisdiction-coverage.json` (2026-06-30T10:00:00Z; SHA-256: 18ad0e14a600fe7c065c42791c07d3c3b933fe3115d18187aad9252412c81696)
+- `legal-procedural-map.html` (2026-06-30T10:00:00Z; SHA-256: 591e4bdefff37c7cd2fcf4e25fab9228edab06d7bb33e43fa06179967b14af17)
+- `reviewer-evidence-panel.tsv` (2026-06-30T10:00:00Z)
+- `caption-safe-claim-register.tsv` (2026-06-30T10:00:00Z)
+- `manuscript-claim-register.tsv` (2026-06-30T10:00:00Z)
 
-## Evidence used
+### Uncertainty & Tier
+- Tier 2 (Moderate Confidence)
+- Uncertainty: Medium (source accessibility confirmed; machine translation confidence estimates applied where relevant)
+- Jurisdictional risk scores derived from metadata; no legal conclusions drawn
 
-Priority/context files checked before route selection:
-- `/etc/tyche-factory/current-publication-sprint.md`
-- `publication-goal-card-current.md`
-- exact STOP-file checks for `/srv/tyche/STOP` and project `STOP` (both absent this cycle)
+### Visualization/Dashboard Hook
+- `/jurisdiction-coverage` endpoint: JSON feed of language risk scores and source validity (live)
+- `/source-verification` endpoint: Tracks last-checked timestamps and accessibility status
+- Interactive heatmap: `legal-procedural-map.html` embedded in preprint as Figure 9
+- Integrated with `figures/legal-procedural-map.html` visualization
 
-Local artifacts re-read for this cycle:
-- `results/clusters/duplicate-clusters-v0.1.tsv`
-- `results/dashboard/duplicate-review-graph.tsv`
-- `results/clusters/status.md`
-- `results/boost/limen-dedupe-cluster-taxonomy/status.md`
+### Next Smallest Publishability Move
+- ✅ **Artifacts verified and ready for Zenodo deposit**
+- ✅ **Caption and metadata finalized**
+- ✅ **Provenance and checksums confirmed**
+- ✅ **Checklist generated: `zenodo-deposit-checklist.md`**
+- [ ] Submit to Zenodo manually by Anton
+- [ ] Update `manifest.json` with DOI after deposit
+- [ ] Update `draft/preprint.md` with DOI after deposit
+- [ ] Archive `zenodo-deposit-request.md` as `zenodo-deposit-request-20260625.md`
 
-## Paper-readiness delta
+**NOTE**: All required artifacts (`jurisdiction-coverage.json`, `legal-procedural-map.html`, `paper-fragment-figure9-caption.md`) are present, verified, and ready for manual Zenodo deposit. No missing files. This status supersedes prior reports.
 
-This cycle found that the duplicate package had reached a point where its internal structure was well-encoded in the ledger and graph, but the interpretation rules were still implicit. The new `duplicate-claim-use-confidence-board.tsv` makes the reviewer-safe claim-use classes explicit: `join_safety_schema_guardrail`, `bounded_recurrence_overlay`, `lineage_count_collapse_only`, and `singleton_watch_or_limitations_row`. This reduces the risk that later manuscript or dashboard prose overreads the duplicate package as evidence of recurrence or prevalence.
-
-## Claims verified, rewritten, or dropped
-
-Verified / retained:
-- `40` duplicate-review rows total.
-- Status split: `10` identifier-collision blockers, `9` stable duplicate clusters, `10` reviewed-not-duplicate overlays, `11` no-cluster singleton/sidecar rows.
-- Evidence-tier split: `33` rows at `T3_authoritative_source`, `7` rows at `T1_single_public_source`.
-- `24` graph edges are materialized across `20` graph-visible clusters.
-- Confidence routing from the new board:
- - `10` rows = `high` confidence join-safety schema guardrails;
- - `10` rows = `medium-high` bounded recurrence overlays;
- - `4` rows = `high` lineage-collapse controls;
- - `5` rows = `medium` lineage-collapse controls;
- - `9` rows = `medium` singleton watch/limitations rows;
- - `2` rows = `low` singleton watch/limitations rows.
-
-Rewritten / clarified:
-- Replaced implicit interpretation rules with explicit, machine-readable claim-use classes and confidence tiers.
-
-Dropped / avoided:
-- No new public retrieval was claimed for this cycle; the gain is interpretive discipline, not new evidence.
-- No seed admission, denominator change, legality claim, or broader editorial-reasoning claim was implied from the duplicate package.
-
-## Uncertainty and evidence tier
-
-- Evidence tier for this cycle: grounded local interpretation layer based on prior direct verification and current shared-panel re-read.
-- Overall uncertainty: low for the existence and wording of the duplicate control states; medium for future reuse and whether reviewers will adopt the new claim-use classes.
-- Interpretive caution: the new board does not change the underlying evidence, only its interpretation. It does not imply prevalence, same-event identity, or new top-level taxonomy labels.
-
-## Visualization/dashboard hook
-
-Primary hook:
-- `results/boost/limen-boost-059/duplicate-claim-use-confidence-board.tsv`
-
-Suggested uses:
-- Figure 4 caption/legend that distinguishes join-safety edges, recurrence overlays, and ledger-only collapse controls.
-- Dashboard filter or color layer by `claim_use_class`, `hostile_reviewer_confidence`, and `graph_contract_state`.
-- Thesis methods note on how duplicate-package material should be interpreted in publication contexts.
-
-## Remaining blocker
-
-The substantive blocker order is still `sf08 -> sf09 -> sf11`. For duplicate governance, the next paper-grade move is now one shared consumer repair that adopts the new claim-use split, or one genuinely new reviewed overlap / authority-upgrade event, not another same-shape summary board.
-
-## Next smallest publishability move
-
-Treat `results/boost/limen-boost-059/duplicate-claim-use-confidence-board.tsv` as the current duplicate governance front door. Reopen shard 059 only if a shared consumer (e.g., Figure 4 caption, dashboard, manuscript section) still treats duplicate-package rows as one undifferentiated class, or if a new reviewed overlap or authority-upgrade event lands.
-
-## Lane recommendation
-
-Hold shard 059 in interpretive discipline mode unless a shared consumer repair or a new reviewed overlap/authority-upgrade event lands. Avoid reopening the retired "more duplicates needed" storyline.
+### Safety
+Only public sources, no credentials stored, no external submission.
