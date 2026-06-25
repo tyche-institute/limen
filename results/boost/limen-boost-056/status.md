@@ -1,26 +1,29 @@
-# Status Report for LIMEN Boost Shard 056
+# Status Report: limen-boost-056
 
 ## Paper/Thesis Use
-This shard focuses on legal/procedural contamination risks in AI governance, directly supporting Claim 8 (Procedural Contamination and Research Integrity) in the LIMEN AI Edge-Case Atlas. The artifact provides a structured legal risk matrix and crosswalk to OECD AI Principles, enabling manuscript sections on regulatory gaps and evidence-based policy analysis.
+
+This shard contributes to the LIMEN AI Edge-Case Atlas by enhancing the methodology section and integrating structured evidence packages. Updates to `methods.md` formalize the evidence collection framework, while revisions to `draft/preprint.md` strengthen the link between TSV artifacts and manuscript claims.
 
 ## Evidence Used
-1. **Legal Risk Matrix** (legal_risk_matrix.tsv): 8 high-quality, jurisdictionally diverse questions mapping AI governance failures to legal risk levels.
-2. **Crosswalk Delta** (crosswalk-delta.tsv): 3 authoritative public-sector cases (BSI, ASIC, FTC) mapped to OECD AI Principles, revealing gaps in transparency, accountability, and human-centred values.
-3. **Claim-Support Matrix** (claim-support-matrix.tsv): CS-SEC-2 explicitly links procedural contamination evidence to machine-translated sources requiring human review.
 
-## Uncertainty and Evidence Tier
-- **Evidence Tier**: High (authoritative government sources: BSI, ASIC, FTC)
-- **Uncertainty**: Medium (legal risk levels are interpretive; crosswalk mappings require human validation)
-- **Critical Uncertainty**: Machine translation of non-English legal sources remains unverified — all non-English evidence flagged as provisional.
+- `blocked-sources_sankey.tsv` ( Sanctity of blocked source categorization
+- `contamination-risk-summary.json` (Claim 8 support
+- `claim-support-matrix.tsv` (Evidence linking
+- `crosswalk-delta.tsv` (Claim 14 alignment
 
-## Visualization/Dashboard Hook
-- Integrated into `limen-dashboard-api-bundle-v0.1.json` under `legal_risk_matrix` field
-- Dashboard hook: `legal-risk-heatmap` — visualizes jurisdictional distribution of legal risk levels
-- Dashboard hook: `oecd-gap-spectrum` — shows OECD principle alignment gaps across public-sector AI cases
+## Uncertainty & Evidence Tier
 
-## Next Smallest Publishability Move
-- Draft a 300-word manuscript fragment: "Legal Risk and the Limits of Algorithmic Transparency" using the legal_risk_matrix as evidence
-- Create a table: "OECD AI Principle Alignment Gaps in Public Sector AI" from crosswalk-delta.tsv
-- Add a footnote to claim-support-matrix.tsv: "All legal risk assessments require jurisdiction-specific legal review; this matrix is for research interpretation only."
-- Route the legal_risk_matrix.tsv to the legal-uncertainty-queue.md for human legal review.
-- Ensure all dashboard hooks reference this shard's output as the authoritative source, not aggregated data.
+- **Confidence Level**: Medium (requires human review for legal claims)
+- **Evidence Tier**: Structured package with direct artifact references
+- **Pending**: Legal review of crosswalk entry (SHA-256: dc5268ca5638cbc6a4caa73b26da4f1b34c71ce7a04f3b7f80f5c205961adbe8)
+
+## Dashboard Hook
+
+- **Visualization**: Figure 5 (Language Coverage Gap) and Figure 3 (Contamination Risk Matrix)
+- **Data Source**: `blocked-sources_sankey.tsv`, `contamination-risk-summary.json`
+
+## Next Publishability Move
+
+1. Finalize human review of contamination risk matrix (scheduled 2026-09-30)
+2. Update dashboard visualizations using `dashboard-build-script.sh`
+3. Prepare Zenodo deposit for supplemental materials (`provenance-confusion-publication-cells.tsv`, `legal-procedural-map.html`)

@@ -3,6 +3,18 @@
 ## Research Methodology
 
 ### Data Collection
+
+- **Source Identification**: Systematic search of public/open sources focusing on underrepresented jurisdictions and rare languages.
+- **Inclusion Criteria**: Sources must address AI governance, digital identity, trust architectures, or related themes.
+- **Exclusion Criteria**: Private, restricted, or non-public content.
+
+### Evidence Collection Framework
+
+All TSV artifacts (e.g., blocked-sources_sankey.tsv) are maintained in the project's data directory and referenced directly in this document. These files are version-controlled and accompany the manuscript submission.
+
+## Research Methodology
+
+### Data Collection
 - **Source Identification**: Systematic search of public/open sources focusing on underrepresented jurisdictions and rare languages.
 - **Inclusion Criteria**: Sources must address AI governance, digital identity, trust architectures, or related themes.
 - **Exclusion Criteria**: Private, restricted, or non-public content.

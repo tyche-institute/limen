@@ -1,147 +1,146 @@
-1|{
-2| "project_id": "limen-ai-edge-case-atlas",
-3| "version": "v0.3",
-4| "last_updated": "2026-06-25",
-5| "maintainer": "Anton Sokolov, Tyche Institute, Tallinn, Estonia",
-6| "artifacts": [
-7| {
-8| "artifact": "baltic-language-vitality-mapping.tsv",
-9| "type": "Dataset",
-10| "purpose": "Maps Baltic languages to UNESCO vitality levels for evidence gap analysis",
-11| "status": "Ready for Zenodo Deposit",
-12| "doi": "-"
-13| },
-14| {
-15| "artifact": "results/boost/limen-boost-044/crosswalk-delta.tsv",
-16| "type": "Crosswalk",
-17| "purpose": "Mapping of EU AI Act Article 19 to LIMEN attestation receipt profile evidence roles, supporting Claim C014",
-18| "status": "Ready for Zenodo Deposit",
-19| "doi": "-"
-20| },
-21| {
-22| "artifact": "README.md",
-23| "type": "Documentation",
-24| "purpose": "Metadata and usage guide for Baltic Language Vitality Mapping dataset",
-25| "status": "Ready for Zenodo Deposit",
-26| "doi": "-"
-27| },
-28| {
-29| "artifact": "source-ledger.csv",
-30| "type": "Ledger",
-31| "purpose": "Centralized source registry with provenance and language tags",
-32| "status": "Updated",
-33| "doi": "-"
-34| },
-35| {
-36| "artifact": "claims.md",
-37| "type": "Claim Log",
-38| "purpose": "Validated and preliminary claims with evidence links",
-39| "status": "Updated",
-40| "doi": "-"
-41| },
-42| {
-43| "artifact": "draft/preprint.md",
-44| "type": "Manuscript Draft",
-45| "purpose": "Preprint draft for journal submission",
-46| "status": "Updated",
-47| "doi": "-"
-48| },
-49| {
-50| "artifact": "legal-normative-crosswalk-v0.1.tsv",
-51| "type": "Crosswalk",
-52| "purpose": "EU AI Act, OECD AI Principles, ISO/IEC 42001, NIST AI RMF mappings",
-53| "status": "Updated",
-54| "doi": "-"
-55| },
-56| {
-57| "artifact": "dashboard-hook.md",
-58| "type": "Interface Spec",
-59| "purpose": "API and visualization requirements for LIMEN dashboard",
-60| "status": "Updated",
-61| "doi": "-"
-62| },
-63| {
-64| "artifact": "provenance-confusion-publication-cells.tsv",
-65| "type": "Dataset",
-66| "purpose": "Publication-cell rules governing visibility and interpretation of shard-007 evidence",
-67| "status": "Published",
-68| "doi": "10.5281/zenodo.1234567"
-69| },
-70| {
-71| "artifact": "contamination-heatmap-input.tsv",
-72| "type": "Dataset",
-73| "purpose": "Jurisdiction-authority risk matrix for contamination pathway visualization (Figure 5, Table 1D); supports Claim 1 and Claim 15",
-74| "status": "Ready for Zenodo Deposit",
-75| "doi": "-"
-76| },
-77| {
-78| "artifact": "manuscript-contamination-trace.mmd",
-79| "type": "Manuscript Fragment",
-80| "purpose": "Procedural contamination pathway analysis for Methods section and Appendix D",
-81| "status": "Ready for Zenodo Deposit",
-82| "doi": "-"
-83| },
-84| {
-85| "artifact": "dashboard-hook.md",
-86| "type": "Interface Spec",
-87| "purpose": "API and visualization requirements for contamination heatmap in LIMEN dashboard",
-88| "status": "Ready for Zenodo Deposit",
-89| "doi": "-"
-90| },
-91| {
-92| "artifact": "result-block-bridge.tsv",
-93| "type": "Dataset",
-94| "purpose": "Maps jurisdictional claims to procedural contamination subtypes",
-95| "status": "Deprecated",
-96| "doi": "-"
-97| },
-98| {
-99| "artifact": "jurisdiction-coverage.json",
-100| "type": "Dataset",
-101| "purpose": "JSON feed of jurisdictional risk scores and source validity for Figure 9",
-102| "status": "Ready for Zenodo Deposit",
-103| "doi": "-"
-104| },
-105| {
-106| "artifact": "results/boost/limen-boost-044/paper-fragment-claim14.md",
-107| "type": "Manuscript Fragment",
-108| "purpose": "Draft section for Methods section, validating EU AI Act alignment",
-109| "status": "Ready for Zenodo Deposit",
-110| "doi": "-"
-111| },
-112| {
-113| "artifact": "results/boost/limen-boost-044/source-authority-balance.tsv",
-114| "type": "Dataset",
-115| "purpose": "Source authority scoring matrix for crosswalk validation and dashboard heatmap",
-116| "status": "Ready for Zenodo Deposit",
-117| "doi": "-"
-118| },
-119| {
-120| "artifact": "results/boost/limen-boost-044/limen-boost-044-zenodo-package.zip",
-121| "type": "Zenodo Package",
-122| "purpose": "Complete artifact bundle for Claim 14 submission, including crosswalk, draft, and metadata",
-123| "status": "Ready for Zenodo Deposit",
-124| "doi": "-"
-125| },
-126| {
-127| "artifact": "legal-procedural-map.html",
-128| "type": "Dataset",
-129| "purpose": "Interactive heatmap visualizing jurisdictional coverage and procedural contamination risk (Figure 9)",
-130| "status": "Ready for Zenodo Deposit",
-131| "doi": "-"
-132| },
-133| {
-134| "artifact": "paper-fragment-figure9-caption.md",
-135| "type": "Manuscript Fragment",
-136| "purpose": "Final caption for Figure 9, ready for inclusion in preprint",
-137| "status": "Ready for Zenodo Deposit",
-138| "doi": "-"
-139| }
-140| ],
-141| "next_steps": [
-142| "Implement /language-vitality API endpoint in LIMEN dashboard",
-143| "Send final preprint draft to Anton for approval before submission",
-144| "Submit paper \"The Absence of Public AI Frameworks\" to Science and Engineering Ethics"
-145| ]
-146|}
+{
+ "project_id": "limen-ai-edge-case-atlas",
+ "version": "v0.3",
+ "last_updated": "2026-06-25",
+ "maintainer": "Anton Sokolov, Tyche Institute, Tallinn, Estonia",
+ "artifacts": [
+ {
+ "artifact": "baltic-language-vitality-mapping.tsv",
+ "type": "Dataset",
+ "purpose": "Maps Baltic languages to UNESCO vitality levels for evidence gap analysis",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "results/boost/limen-boost-044/crosswalk-delta.tsv",
+ "type": "Crosswalk",
+ "purpose": "Mapping of EU AI Act Article 19 to LIMEN attestation receipt profile evidence roles, supporting Claim C014",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "README.md",
+ "type": "Documentation",
+ "purpose": "Metadata and usage guide for Baltic Language Vitality Mapping dataset",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "source-ledger.csv",
+ "type": "Ledger",
+ "purpose": "Centralized source registry with provenance and language tags",
+ "status": "Updated",
+ "doi": "-"
+ },
+ {
+ "artifact": "claims.md",
+ "type": "Claim Log",
+ "purpose": "Validated and preliminary claims with evidence links",
+ "status": "Updated",
+ "doi": "-"
+ },
+ {
+ "artifact": "draft/preprint.md",
+ "type": "Manuscript Draft",
+ "purpose": "Preprint draft for journal submission",
+ "status": "Updated",
+ "doi": "-"
+ },
+ {
+ "artifact": "legal-normative-crosswalk-v0.1.tsv",
+ "type": "Crosswalk",
+ "purpose": "EU AI Act, OECD AI Principles, ISO/IEC 42001, NIST AI RMF mappings",
+ "status": "Updated",
+ "doi": "-"
+ },
+ {
+ "artifact": "dashboard-hook.md",
+ "type": "Interface Spec",
+ "purpose": "API and visualization requirements for LIMEN dashboard",
+ "status": "Updated",
+ "doi": "-"
+ },
+ {
+ "artifact": "provenance-confusion-publication-cells.tsv",
+ "type": "Dataset",
+ "purpose": "Publication-cell rules governing visibility and interpretation of shard-007 evidence",
+ "status": "Published",
+ "doi": "10.5281/zenodo.1234567"
+ },
+ {
+ "artifact": "legal-procedural-map.html",
+ "type": "Dataset",
+ "purpose": "Interactive heatmap visualizing jurisdictional coverage and procedural contamination risk (Figure 9)",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "result-block-bridge.tsv",
+ "type": "Dataset",
+ "purpose": "Maps jurisdictional claims to procedural contamination subtypes",
+ "status": "Deprecated",
+ "doi": "-"
+ },
+ {
+ "artifact": "contamination-heatmap-input.tsv",
+ "type": "Dataset",
+ "purpose": "Jurisdiction-authority risk matrix for contamination pathway visualization (Figure 5, Table 1D); supports Claim 1 and Claim 15",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "manuscript-contamination-trace.mmd",
+ "type": "Manuscript Fragment",
+ "purpose": "Procedural contamination pathway analysis for Methods section and Appendix D",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "dashboard-hook.md",
+ "type": "Interface Spec",
+ "purpose": "API and visualization requirements for contamination heatmap in LIMEN dashboard",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "jurisdiction-coverage.json",
+ "type": "Dataset",
+ "purpose": "JSON feed of jurisdictional risk scores and source validity for Figure 9",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "results/boost/limen-boost-044/paper-fragment-claim14.md",
+ "type": "Manuscript Fragment",
+ "purpose": "Draft section for Methods section, validating EU AI Act alignment",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "results/boost/limen-boost-044/source-authority-balance.tsv",
+ "type": "Dataset",
+ "purpose": "Source authority scoring matrix for crosswalk validation and dashboard heatmap",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "results/boost/limen-boost-044/limen-boost-044-zenodo-package.zip",
+ "type": "Zenodo Package",
+ "purpose": "Complete artifact bundle for Claim 14 submission, including crosswalk, draft, and metadata",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ },
+ {
+ "artifact": "paper-fragment-figure9-caption.md",
+ "type": "Manuscript Fragment",
+ "purpose": "Final caption for Figure 9, ready for inclusion in preprint",
+ "status": "Ready for Zenodo Deposit",
+ "doi": "-"
+ }
+ ],
+ "next_steps": [
+ "Implement /language-vitality API endpoint in LIMEN dashboard",
+ "Send final preprint draft to Anton for approval before submission",
+ "Submit paper \"The Absence of Public AI Frameworks\" to Science and Engineering Ethics"
+ ]
 }

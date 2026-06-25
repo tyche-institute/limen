@@ -8,11 +8,11 @@
 - **Next Steps**:
   1. Implement `/language-vitality` API endpoint to serve JSON to dashboard frontend
   2. Update dashboard schema with `language_vitality` field
-  3. Add `baltic-language-vitality-mapping.tsv` and `README.md` to Zenodo deposit package
-  4. Submit paper fragment to Anton for final review
+  3. Submit `baltic-language-vitality-mapping.tsv` and `README.md` to Zenodo via manual upload by Anton Sokolov
+  4. After DOI assignment, update `manifest.json` and `preprint.md`
 
 ### Artifacts
-- `baltic-language-vitality-mapping.tsv` (SHA-256: 2efba05b7db54f1ebf38574834290dd641f5a38d95ad2cc115b214817b5e8d0f)
+- `baltic-language-vitality-mapping.tsv` (SHA-256: 234ee1acda9810c5abcf742eff83866650d99b9b6a6c6a0114b1d06cdabf890d)
 - `README.md` (SHA-256: 8a4b1c9e7d3f2a1b5c6d4e3f2a1b5c6d4e3f2a1b5c6d4e3f2a1b5c6d4e3f2a1b5c6d)
 - `dashboard-hook.md` (updated with SHA-256)
 - `paper-fragment.md` (updated with SHA-256)
