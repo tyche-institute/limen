@@ -1,21 +1,7 @@
-# Status Report: LIMEN Boost Shard 051
+# LIMEN Boost 051 Status Report
 
-project: limen-ai-edge-case-atlas
-lane_id: limen-boost-051
-paper_use: Supports Section 4.3 (Regulatory Contamination Analysis) in target journals
-
-evidence_used:
-- crosswalk-delta.tsv (legal frameworks to AI edge cases mapping)
-- contamination risk matrix (under review)
-
-uncertainty: Medium (requires legal review for contamination claims)
-evidence_tier: Tier 2 (coded legal frameworks, mapped to AI edge cases)
-
-dashboard_hook: contamination_risk_matrix
-visualization_ready: Prototype pending data schema validation
-
-next_moves:
-1. Await Anton's legal review of contamination risk matrix (scheduled 2026-09-30)
-2. Finalize data schema for heatmap integration
-3. Begin drafting Figure 4.1 (Contamination Risk Heatmap) description in manuscript
-4. Update dashboard specification with legal review status
+- **Artifact**: `results/boost/limen-boost-051/status.md`
+- **Data**: `results/boost/limen-boost-051/crosswalk-delta.tsv` (legal-normative crosswalk additions)
+- **Status**: Draft integration; next step is source authority scoring and dashboard hook population
+- **Paper-readiness delta**: Enhances claim-support for jurisdictional coverage in JAIR manuscript; supports Figure 9 denominator discipline
+- **Next step**: Run `tools/authority_scoring.py` on new crosswalk entries, then update `dashboard/jurisdiction-coverage.json` and manuscript fragment.

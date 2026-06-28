@@ -1,8 +1,13 @@
-# Duplicate Cluster Identification Status (2026-06-28)
+# Duplicate Clusters Status (v0.1)
 
-- Completed duplicate detection across AIID, OECD, media, and security source families.
-- Identified 2 primary duplicate clusters (CC-001, CC-002) meeting the repetition threshold (≥2 occurrences across independent sources).
-- Preserved all unclassified residues as `residual_unclassified` to retain signal integrity.
-- Mapped clusters to taxonomy categories CC-001 (Illicit Biometric Bypass) and CC-002 (Illicit Procurement Manipulation).
-- No new labels introduced beyond existing taxonomy; mappings strictly follow duplicate evidence patterns.
-- Ready for legal expert validation; pending review before final publication.
+- **File**: \`duplicate-clusters-v0.1.tsv\`
+- **Clusters Identified**: 2
+- **New Taxonomy Labels**: BI-001 (Illicit Biometric Bypass), PR-001 (Illicit Procurement Manipulation)
+- **Source Crosswalk Used**: \`crosswalk_mappings.tsv\` (v0.3, accessed 2026-06-26)
+- **Authority Scores**: 4.5 (high) for BI-001, 3.7 (medium) for PR-001
+- **Confidence**: High for both clusters based on multi-source corroboration (AIID + media + regulatory reports).
+
+## Immediate Next Actions
+1. Verify cluster evidence against original source documents (AIID entries, OECD AIM incident logs, media articles) and confirm provenance logs in `/srv/tyche/projects/limen-ai-edge-case-atlas/notes/cluster-provenance-*.jsonl`.
+2. Incorporate taxonomy updates into \`draft/preprint.md\` (taxonomy section) and update claim‑support matrix (`results/claims-support.tsv`) with new taxonomy mappings.
+3. Schedule a review in the journal entry for Anton to confirm, and record any residual_unclassified cases as important signals.

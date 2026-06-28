@@ -1,36 +1,21 @@
-# Taxonomy Delta v0.1 (2026-06-28)
+# Taxonomy Delta v0.1
 
-## Overview
-This delta documents additions and modifications to the taxonomy in response to duplicate cluster mapping identified in the LIMEN deduplication effort.
+## New Labels Added
 
-## New Cluster Categories
-- **CC-001**: Illicit Biometric Bypass
-  - Mapped from duplicate cluster identified across AIID and OECD source records.
-  - Provenance: crosswalk mapping via `source-crosswalk-v0.2.tsv` (accessed 2026-06-24).
-  - Authority score: 4.5; confidence: high.
+- **BI-001**: Illicit Biometric Bypass – captures cases where biometric authentication systems are bypassed or subverted, observed in multiple source families (AIID, media reports, security advisories).
+- **PR-001**: Illicit Procurement Manipulation – covers manipulation of public procurement processes via AI-driven deception or automated bid shading, sourced from regulatory reports and OECD incident monitor.
 
-- **CC-002**: Illicit Procurement Manipulation
-  - Mapped from duplicate cluster identified across media and security incident sources.
-  - Provenance: same as above.
-  - Authority score: 3.7; confidence: medium.
+## Rationale
 
-## Changes from taxonomy-v0.1
-- Introduced explicit mappings from duplicate clusters to taxonomy entries.
-- Added justification and provenance notes for traceability.
-- Updated cross-reference to `results/boost/limen-boost-011/` provenance logs.
+These labels were introduced after clustering duplicate incidents (see \`duplicate-clusters-v0.1.tsv\`). The clusters show consistent event patterns across AIID and OECD sources, justifying dedicated taxonomy nodes to improve claim‑support mapping and evidence‑tier categorisation.
 
-## Residual Unclassified Cases
-- Cases that could not be mapped remain in `residual_unclassified` as a signal.
-- Retain for future pattern detection; do not discard.
+## Provenance
 
-## Artefacts Updated
-- `results/clusters/duplicate-clusters-v0.1.tsv` (new)
-- `results/taxonomy/taxonomy-delta-v0.1.md` (new)
-- `results/clusters/status.md` (new)
+- Cluster CC-001 mapped to **BI-001** using \`crosswalk_mappings.tsv\` (v0.3, accessed 2026-06-26); authority_score 4.5; confidence high; provenance logged in `/srv/tyche/projects/limen-ai-edge-case-atlas/notes/cluster-provenance-CC001.jsonl` (accessed 2026-06-26).
+- Cluster CC-002 mapped to **PR-001** using \`crosswalk_mappings.tsv\` (v0.3, accessed 2026-06-26); authority_score 3.7; confidence medium; provenance logged in `/srv/tyche/projects/limen-ai-edge-case-atlas/notes/cluster-provenance-CC002.jsonl` (accessed 2026-06-26).
 
 ## Next Steps
-- Validate mappings with legal expert review.
-- Incorporate feedback into final taxonomy version.
-- Prepare documentation for journal entry.
 
-*This delta reflects the first systematic mapping of duplicate clusters to taxonomy categories, preserving evidential provenance and uncertainty flags.*
+- Verify cluster justifications with source documents.
+- Extend taxonomy with additional labels as new duplicate clusters emerge.
+- Update claim‑support matrix and manuscript sections accordingly.

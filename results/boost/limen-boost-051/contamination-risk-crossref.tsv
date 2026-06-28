@@ -1,0 +1,24 @@
+## Contamination Risk Cross-Reference
+
+### Source Linkage
+- **Rare-Language Sources**: `results/rare-language-sources-2026-07-09.tsv`
+- **Contamination Risk Matrix**: `results/boost/limen-boost-028/contamination-risk-summary.md`
+
+### Flagged Sources Requiring Legal Review
+| Source_ID | Language | Jurisdiction | Source_Authority_Score | Risk_Level |
+|-----------|----------|-------------|--------------------------|------------|
+| SR-0421  | et       | Estonia     | 0.89                     | High       |
+| SR-0789  | lv       | Latvia      | 0.87                     | High       |
+| SR-1032  | lt       | Lithuania   | 0.85                     | High       |
+| SR-1198  | ru       | Russia      | 0.78                     | Medium     |
+| SR-1425  | uk       | Ukraine     | 0.82                     | Medium     |
+
+### Visualization Proposal
+- **Dashboard Hook**: `dashboard/contamination-risk-dashboard-hook.md`
+- **Integration**: Link to `dashboard/rare-language-dashboard-hook.md` for multilingual risk comparison
+
+### Next Steps
+- [ ] Legal review of high-authority sources (Estonian, Latvian, Lithuanian)
+- [x] Cross-referencing completed
+- [ ] Update contamination risk matrix with rare-language findings
+- [ ] Propose new risk indicators based on language-specific patterns
