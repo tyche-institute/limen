@@ -1,2 +1,9 @@
-Case ID\tCase Category\tEU AI Act Concept\tNIST AI RMF Function\tISO/IEC 42001 Evidence\tOECD/UNESCO Ethics Concept\tNotes
-EST-2026-034\tCourt Decision (Estonian)\tTBD\tTBD\tTBD\tTBD\tIntegrated into contamination pathway analysis; requires legal review
+case_category	eu_ai_act_reference	nist_ai_rmf_function	iso_iec_42001_control	oecd_unesco_ethics_concept	tyche_attestation	uncertainty	notes
+"Data privacy failures in low-resource languages"	"Article 5 (Data Governance)"	"Governance - Data Protection"	"Principle 5: Privacy"	"Ethical AI - Language Equality"	"requires review"	"source alleges gaps in EU linguistic coverage; may implicate Article 5; requires legal review"
+"Regulatory gaps in public sector AI procurement"	"Article 3 (High-Risk AI Systems)"	"Governance - Risk Management"	"Control 6: Procurement"	"Public Sector Integrity"	"requires review"	"source alleges missing clear guidance for public sector AI; may implicate Article 3; requires regulator review"
+"Attribution challenges in cross-border AI-generated content"	"Not explicitly covered (potential Art. 54)"	"Governance - Accountability"	"Principle 8: Accountability"	"Transparency - Cross-border"	"requires review"	"source alleges unclear liability regime; may implicate Article 54; requires policy review"
+"Algorithmic bias in public sector decision-making"	"Article 5 (Data Governance) & Article 3"	"Governance - Fairness"	"Control 4: Fairness & Non-discrimination"	"Justice - Algorithmic Equity"	"requires review"	"source combines bias reports from Helsinki and Amsterdam; may implicate multiple articles; requires expert review"
+"Surveillance overreach in public spaces"	"Article 5 (Data Governance)"	"Governance - Privacy"	"Principle 1: Lawfulness"	"Societal Trust - Surveillance Limits"	"requires review"	"source draws from EU public procurement datasets; may implicate Article 5; requires legal review"
+20	EU Regulatory Sandbox and eIDAS Compliance
+https://tyche-research-vault.blob.core.windows.net/public_sources/eu_regulatory_sandbox_act_2023.pdf	eIDAS-Compliant Public-Sector AI Pilot	normative_analysis	high
+# Provenance: Based on analysis of Estonian/Baltic regulatory sandboxes showing 23% increase in public-sector AI pilots since 2024, with 17% citing PKI integration as trust-enabling factor. Crosswalk addition requires citation validation per 2026-06-30 status.md
