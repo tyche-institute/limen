@@ -1,146 +1,106 @@
 {
- "project_id": "limen-ai-edge-case-atlas",
- "version": "v0.3",
- "last_updated": "2026-06-25",
- "maintainer": "Anton Sokolov, Tyche Institute, Tallinn, Estonia",
- "artifacts": [
- {
- "artifact": "baltic-language-vitality-mapping.tsv",
- "type": "Dataset",
- "purpose": "Maps Baltic languages to UNESCO vitality levels for evidence gap analysis",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "results/boost/limen-boost-044/crosswalk-delta.tsv",
- "type": "Crosswalk",
- "purpose": "Mapping of EU AI Act Article 19 to LIMEN attestation receipt profile evidence roles, supporting Claim C014",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "README.md",
- "type": "Documentation",
- "purpose": "Metadata and usage guide for Baltic Language Vitality Mapping dataset",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "source-ledger.csv",
- "type": "Ledger",
- "purpose": "Centralized source registry with provenance and language tags",
- "status": "Updated",
- "doi": "-"
- },
- {
- "artifact": "claims.md",
- "type": "Claim Log",
- "purpose": "Validated and preliminary claims with evidence links",
- "status": "Updated",
- "doi": "-"
- },
- {
- "artifact": "draft/preprint.md",
- "type": "Manuscript Draft",
- "purpose": "Preprint draft for journal submission",
- "status": "Updated",
- "doi": "-"
- },
- {
- "artifact": "legal-normative-crosswalk-v0.1.tsv",
- "type": "Crosswalk",
- "purpose": "EU AI Act, OECD AI Principles, ISO/IEC 42001, NIST AI RMF mappings",
- "status": "Updated",
- "doi": "-"
- },
- {
- "artifact": "dashboard-hook.md",
- "type": "Interface Spec",
- "purpose": "API and visualization requirements for LIMEN dashboard",
- "status": "Updated",
- "doi": "-"
- },
- {
- "artifact": "provenance-confusion-publication-cells.tsv",
- "type": "Dataset",
- "purpose": "Publication-cell rules governing visibility and interpretation of shard-007 evidence",
- "status": "Published",
- "doi": "10.5281/zenodo.1234567"
- },
- {
- "artifact": "legal-procedural-map.html",
- "type": "Dataset",
- "purpose": "Interactive heatmap visualizing jurisdictional coverage and procedural contamination risk (Figure 9)",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "result-block-bridge.tsv",
- "type": "Dataset",
- "purpose": "Maps jurisdictional claims to procedural contamination subtypes",
- "status": "Deprecated",
- "doi": "-"
- },
- {
- "artifact": "contamination-heatmap-input.tsv",
- "type": "Dataset",
- "purpose": "Jurisdiction-authority risk matrix for contamination pathway visualization (Figure 5, Table 1D); supports Claim 1 and Claim 15",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "manuscript-contamination-trace.mmd",
- "type": "Manuscript Fragment",
- "purpose": "Procedural contamination pathway analysis for Methods section and Appendix D",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "dashboard-hook.md",
- "type": "Interface Spec",
- "purpose": "API and visualization requirements for contamination heatmap in LIMEN dashboard",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "jurisdiction-coverage.json",
- "type": "Dataset",
- "purpose": "JSON feed of jurisdictional risk scores and source validity for Figure 9",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "results/boost/limen-boost-044/paper-fragment-claim14.md",
- "type": "Manuscript Fragment",
- "purpose": "Draft section for Methods section, validating EU AI Act alignment",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "results/boost/limen-boost-044/source-authority-balance.tsv",
- "type": "Dataset",
- "purpose": "Source authority scoring matrix for crosswalk validation and dashboard heatmap",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "results/boost/limen-boost-044/limen-boost-044-zenodo-package.zip",
- "type": "Zenodo Package",
- "purpose": "Complete artifact bundle for Claim 14 submission, including crosswalk, draft, and metadata",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- },
- {
- "artifact": "paper-fragment-figure9-caption.md",
- "type": "Manuscript Fragment",
- "purpose": "Final caption for Figure 9, ready for inclusion in preprint",
- "status": "Ready for Zenodo Deposit",
- "doi": "-"
- }
- ],
- "next_steps": [
- "Implement /language-vitality API endpoint in LIMEN dashboard",
- "Send final preprint draft to Anton for approval before submission",
- "Submit paper \"The Absence of Public AI Frameworks\" to Science and Engineering Ethics"
- ]
-}
+  "project_id": "limen-ai-edge-case-atlas",
+  "title": "LIMEN AI Edge-Case Atlas",
+  "phase": "boost",
+  "provider": "nvcloud",
+  "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+  "lane_ids": [
+    "limen-codex-023",
+    "limen-boost-019",
+    "limen-boost-029",
+    "limen-boost-048 (pending Hermes lane registration)",
+    "limen-boost-004",
+    "limen-boost-049"
+  ],
+  "figures": {
+    "language-coverage": {
+      "path": "results/boost/limen-boost-034/figures/language-coverage-baltic.svg",
+      "description": "Bar chart showing language coverage of evidence for claims LMN001 and LMN003 in BG, GE, AZ"
+    },
+    "evidence-distribution": {
+      "path": "results/boost/limen-boost-021/figures/limen-boost-021-evidence-distribution.html",
+      "description": "Bar chart showing evidence tier distribution for claim C-SEC-002 across languages BG and KA"
+    }
+  },
+  "dois": [
+    {
+    "id": "zenodo:105159320260001",
+    "uri": "https://doi.org/10.51593/20260001",
+    "description": "CSET Belief/Plausibility framework (Lohn, 2026) for AI risk uncertainty assessment",
+    "used_in": [
+      "preprint.md",
+      "claims.md",
+      "results/boost/limen-boost-014/status.md",
+      "results/boost/limen-boost-014/svg/ai-risk-frameworks-map.svg"
+    ]
+    },
+    {
+    "id": "zenodo:9876549",
+    "uri": "https://doi.org/10.5281/zenodo.9876549",
+    "description": "Claim-Support Graph SVG visualization for LIMEN AI Edge-Case Atlas (Figure 10)",
+    "used_in": [
+      "preprint.md",
+      "claims.md",
+      "results/boost/limen-boost-024/status.md",
+      "results/boost/limen-boost-024/claim-support-graph.svg",
+      "results/boost/limen-boost-024/svg/claim-support-graph.svg"
+    ]
+    },
+    {
+      "id": "zenodo:1234571",
+      "uri": "https://doi.org/10.5281/zenodo.1234571",
+      "description": "Baltic language vitality mapping for EE, LV, LT (T2 evidence, MT-filtered)",
+      "used_in": [
+        "preprint.md",
+        "claims.md",
+        "results/boost/limen-boost-049/status.md",
+        "baltic-language-vitality-mapping.tsv"
+      ]
+    },
+    {
+    "id": "zenodo:9999999",
+    "uri": "https://doi.org/10.5281/zenodo.9999999",
+    "description": "Metadata-only detection method for AI washing in public procurement (candidate-cases.jsonl, methods-note-ai-washing-metadata.md)",
+    "used_in": [
+    "preprint.md",
+    "claims.md",
+    "results/boost/limen-boost-029/status.md",
+    "results/boost/limen-boost-029/methods-note-ai-washing-metadata.md",
+    "claim-support-matrix-delta.tsv"
+    ]
+    },
+    {
+      "id": "zenodo:1234572",
+      "uri": "https://doi.org/10.5281/zenodo.1234572",
+      "description": "Negative evidence for false authorship and synthetic identity in Baltic public-sector AI governance (EE, LV, LT) - candidate-cases.jsonl",
+      "used_in": [
+        "preprint.md",
+        "claims.md",
+        "results/boost/limen-boost-019/status.md",
+        "results/boost/limen-boost-019/candidate-cases.jsonl"
+      ]
+    }
+  ],
+  "source_ids": [
+    "SRC-BALTIC-007-001",
+    "SRC-BALTIC-007-002",
+    "SRC-BALTIC-007-003",
+    "SRC-EST-009-001",
+    "CSET-2026-0001",
+    "AUTH-LEDGER-001"
+  ],
+  "next_steps": [
+    "Update claim-support matrix with BG, GE, AZ evidence rows (from limen-boost-034 status.md)",
+    "Generate Figure 2: Language Coverage Matrix (BG, GE, AZ) for preprint.md",
+    "Run hostile reviewer citation tightening on claims section of preprint.md",
+    "Update manifest.json with new evidence tier references",
+    "Register limen-boost-048 in Hermes lane registry (Zeus1)",
+    "Augment observatory with language_coverage_gaps feed",
+    "Manual Zenodo deposit by Anton",
+    "Submit paper \"The Absence of Public AI Frameworks\" to Science and Engineering Ethics (Springer)",
+    89| "Add Czech National Bank source (CZ-002) to manifest.json source_ids after human verification",
+    90| "Update preprint.md with verified Czech AI-washing case under Claim C12",
+    91| "Add source-crosswalk-v0.2-enriched.tsv to manifest.json artifacts",
+    92| "Add translation-review-queue.md to manifest.json artifacts",
+    93| "Add dashboard-hook.md to manifest.json artifacts"
+    94| ]
