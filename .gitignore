@@ -6,3 +6,4 @@ results/
 *.duckdb
 .env
 .env.*
+!results/boost/limen-boost-036/
