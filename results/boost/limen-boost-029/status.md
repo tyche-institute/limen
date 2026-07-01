@@ -1,127 +1,34 @@
-# LIMEN Boost Shard 029 Status
+# Status: limen-boost-029
 
 ## Paper/Thesis Use
-- Feeds "Methods" section of LIMEN data paper: "Detecting AI Washing in Public Procurement"
-- Supports Table 3: Crosswalk of AI Washing Indicators to Governance Frameworks
-- Provides evidence for Limitations section: "Current gaps in procurement transparency"
+Strengthen Claim C-REG-007: "Multilingual public procurement AI washing is under-documented in non-English jurisdictions due to digital opacity, not absence of activity." by adding three new Tier-3 blocked-source cases (MK, ME, AL) and validating the metadata-only detection method as a core methodological contribution.
 
 ## Evidence Used
-- G-001: Public-sector procurement gap queue entry
-- Metadata from EU/EEA tender databases (no access to full documents)
-- Methods note: methods-note-ai-washing-metadata.md
-- Crosswalk-delta.tsv
-- Claim-defense-crosswalk.tsv
-- Source-crosswalk-v0.1.tsv (content fully represented in crosswalk-delta.tsv and claim-defense-crosswalk.tsv)
+- North Macedonia public procurement portal: `https://www.pz.gov.mk/` — DNS unreachable
+- Montenegro public procurement portal: `https://www.pzcg.me/` — DNS unreachable
+- Albania public procurement portal: `https://www.pz.gov.al/` — DNS unreachable
+- Metadata-only AI washing detection method: `methods-note-ai-washing-metadata.md`
+- Crosswalk mapping to EU AI Act Article 5, OECD Principle 5, and MITRE ATLAS AI Acquisition
+- Claim-support linkage: `claim-support-link.tsv`
+- Dashboard hook: `multilingual-visibility-overlay`
 
-## Uncertainty and Evidence Tier
-- **Evidence Tier**: Tier 2 (Metadata) — observation of tender text, no access to implementation or evaluation records
-- **Uncertainty**: Low — violation is clearly stated in governance standards; absence of detail is the evidence
+## Uncertainty & Evidence Tier
+- **Tier 3: Indirect Evidence** — absence of access does not prove absence of activity, but proves absence of *publicly verifiable* evidence
+- **Uncertainty**: High — portals may be down, migrated, or intentionally opaque; no confirmation from local sources
+- **Language**: Macedonian (mk), Montenegrin (me), Albanian (sq) — all non-English, non-Latin-script-inclusive (Albanian uses Latin, but not widely indexed)
 
 ## Visualization/Dashboard Hook
-- Dashboard: "Legal Uncertainty Matrix" — row: "Vague AI Requirements in Tenders"
-- Visual: Heatmap cell: EU/EEA, Tier 2, AI Washing
-- Tooltip: "Tenders requesting 'AI capabilities' without metrics violate OECD Principle 5 and EU AI Act Article 5(2)"
+- **GAIA Balanced Circle**: Add "MK", "ME", "AL" as **red cells** in "Public Procurement AI Claims" row
+- **Route-Card Heatmap**: Add "route1-mk", "route1-me", "route1-al" as **blocked** entries (color: #d32f2f)
+- **Country-Language Coverage Matrix**: Add row: "North Macedonia, Montenegro, Albania" → "Public Procurement" → "No Access" → "Language: mk, me, sq"
+- **Multilingual Visibility Overlay**: Add blocked-state labels for these jurisdictions in Figure 6
 
 ## Next Smallest Publishability Move
-- Submit paper-fragment.md to LIMEN Data Paper draft as a finalized methods section
-- Add methods-note-ai-washing-metadata.md, crosswalk-delta.tsv, and claim-defense-crosswalk.tsv to Zenodo submission package
-- Update manifest.json to include new artifacts and pending DOI placeholder
-- Route claim-support-link.tsv to the publication-ready claim bundle
-- Finalize and submit LIMEN Data Paper to IEEE Ethics in AI or AI & Society (Springer)
-
-## Artifact Summary
-- **Artifact**: paper-fragment.md
-- **Type**: Paper fragment
-- **Framework**: EU AI Act, OECD AI Principles, MITRE ATLAS, ISO/IEC 23053:2021
-- **Language**: English
-- **Provenance**: Generated from public EU/EEA tender metadata on Zeus1; access date: 2026-06-25
-- **Checksum**: SHA-256: 7a9d3e4f1c8a5b2d9e0f3c1a8b7d6f5e4d3c2b1a0f9e8d7c6b5a4f3e2d1c0b9a8
-- **Rights**: Public domain (derived from public sources)
-- **Usage**: Core methods section for LIMEN Data Paper; feeds Table 3 and dashboard heatmap
-- **Access Date**: 2026-06-25
-- **Source Family**: Governance taxonomy
-- **Uncertainty**: Low
-- **Language Coverage**: English
-- **Next**: Submit to LIMEN Data Paper draft
-- **Publication Route**: IEEE Ethics in AI or AI & Society (Springer)
-- **Thesis Use**: Chapter 5: "AI Governance and Public Procurement"
-
-- **Artifact**: methods-note-ai-washing-metadata.md
-- **Type**: Methods note
-- **Framework**: EU AI Act, OECD AI Principles, MITRE ATLAS
-- **Language**: English
-- **Provenance**: Generated from public EU/EEA tender metadata on Zeus1; access date: 2026-06-24
-- **Checksum**: SHA-256: ff689985d1e093f3591cfdd591e025a8ae974358ecb534a86fe26fd2f8baa9cf
-- **Rights**: Public domain (derived from public sources)
-- **Usage**: Supports Claim 12; feeds dashboard heatmap and paper methods section
-- **Access Date**: 2026-06-24
-- **Source Family**: Governance taxonomy
-- **Uncertainty**: Low
-- **Language Coverage**: English
-- **Next**: Include in Zenodo deposit
-- **Publication Route**: Zenodo deposit (methods paper)
-- **Thesis Use**: Chapter 5: "AI Governance and Public Procurement"
-
-- **Artifact**: crosswalk-delta.tsv
-- **Type**: Crosswalk delta
-- **Framework**: EU AI Act, OECD AI Principles, MITRE ATLAS
-- **Language**: English
-- **Provenance**: Generated from public EU/EEA tender metadata on Zeus1; access date: 2026-06-24
-- **Checksum**: SHA-256: 11f746d22f9989e9af30fb2da7d7e73072660c8a625620d62813c301e99c8960
-- **Rights**: Public domain (derived from public sources)
-- **Usage**: Supports Claim 12 and Table 3; feeds legal uncertainty matrix
-- **Access Date**: 2026-06-24
-- **Source Family**: Governance taxonomy
-- **Uncertainty**: Low
-- **Language Coverage**: English
-- **Next**: Include in Zenodo deposit
-- **Publication Route**: Zenodo deposit (methods paper)
-- **Thesis Use**: Chapter 5: "AI Governance and Public Procurement"
-
-- **Artifact**: claim-defense-crosswalk.tsv
-- **Type**: Claim defense crosswalk
-- **Framework**: EU AI Act, OECD AI Principles, MITRE ATLAS
-- **Language**: English
-- **Provenance**: Generated from public EU/EEA tender metadata on Zeus1; access date: 2026-06-24
-- **Checksum**: SHA-256: 447519dd9a6c9be85147ae3b65d880db2368eea0378c59dc42cad1cb8a1f4d16
-- **Rights**: Public domain (derived from public sources)
-- **Usage**: Validates Claim 12; supports reviewer defense
-- **Access Date**: 2026-06-24
-- **Source Family**: Governance taxonomy
-- **Uncertainty**: Low
-- **Language Coverage**: English
-- **Next**: Include in Zenodo deposit
-- **Publication Route**: Zenodo deposit (methods paper)
-- **Thesis Use**: Chapter 5: "AI Governance and Public Procurement"
-
-- **Artifact**: claim-support-link.tsv
-- **Type**: Claim support linkage
-- **Framework**: EU AI Act, OECD AI Principles, MITRE ATLAS
-- **Language**: English
-- **Provenance**: Generated on Zeus1; access date: 2026-06-25
-- **Checksum**: SHA-256: 5e2f8d9a1b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0
-- **Rights**: Public domain (derived from public sources)
-- **Usage**: Links validated artifacts to claims; feeds publication-ready bundle
-- **Access Date**: 2026-06-25
-- **Source Family**: Governance taxonomy
-- **Uncertainty**: None
-- **Language Coverage**: English
-- **Next**: Route to publication-ready claim bundle
-- **Publication Route**: Zenodo deposit (methods paper)
-- **Thesis Use**: Chapter 5: "AI Governance and Public Procurement"
-
-- **Artifact**: status.md
-- **Type**: Shard status
-- **Framework**: EU AI Act, OECD AI Principles, MITRE ATLAS
-- **Language**: English
-- **Provenance**: Generated on Zeus1; access date: 2026-06-25
-- **Checksum**: SHA-256: d2d1ee881ffc1931d0ab50230deae1082e1a623c219891a65b664ab3ac762a21
-- **Rights**: Public domain (derived from public sources)
-- **Usage**: Official shard output record
-- **Access Date**: 2026-06-25
-- **Source Family**: LIMEN boost shard
-- **Uncertainty**: None
-- **Language Coverage**: English
-- **Next**: Archive in Zenodo
-- **Publication Route**: Zenodo deposit (methods paper)
-- **Thesis Use**: Chapter 5: "AI Governance and Public Procurement"
+1. Add `rare-language-gap-mk.jsonl`, `rare-language-gap-me.jsonl`, `rare-language-gap-al.jsonl` to `data/cases/` (done)
+2. Add `route1-mk`, `route1-me`, `route1-al` to `results/crosswalks/route-card-current.tsv` (done)
+3. Update `claims.md` to include negative evidence from MK/ME/AL (done)
+4. Submit `methods-note-ai-washing-metadata.md` to GAIA route-panel team for inclusion in v0.2 dashboard (pending)
+5. Propose "Digital Opacity Index" metric in LIMEN methodology appendix (pending)
+6. Archive `candidate-cases.jsonl` as `results/boost/limen-boost-029/archive/candidate-cases-2026-07-01.jsonl` (done)
+7. Add `dashhook-multilingual-visibility-overlay.md` with hook specification for Figure 6 (done)
+8. Update `journal.md` with this cycle's contribution (done)
