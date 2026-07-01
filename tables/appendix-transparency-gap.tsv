@@ -1,0 +1,7 @@
+jurisdiction	language	transparency_status	source_url	access_date	uncertainty	tier	evidence_notes
+Estonia	et	no_public_log	https://www.riigiteataja.ee	2026-06-30	High	3	No public logs found; mandatory under eIDAS 910/2014
+Latvia	lv	no_public_log	https://likumi.lv	2026-06-30	High	3	No public logs found; mandatory under eIDAS 910/2014
+Lithuania	lt	no_public_log	https://teismas.lt	2026-06-30	High	3	No public logs found; mandatory under eIDAS 910/2014
+Estonia	et	no_public_log	https://www.id.ee	2026-07-01	High	3	No public uptime logs on RIA or ID.ee
+Latvia	lv	no_public_log	https://www.id.gov.lv	2026-07-01	High	3	No public uptime logs on VID
+Lithuania	lt	no_public_log	https://www.id.lt	2026-07-01	High	3	No public uptime logs on VID
